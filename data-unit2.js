@@ -69,6 +69,10 @@ window.QUESTIONS_DATA_UNIT2 = [
 </div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <img src="assets/female_pelvis.png" alt="Female Pelvis Diagram" style="width:100%; max-width:600px; border-radius: var(--radius-md); box-shadow: var(--shadow-card);">
+    <div class="figure-caption">Fig 1: Educational Diagram: The Female Pelvis</div>
+  </div>
   <h3 class="answer-section-title accent-title">Important Diameters of the Pelvis</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -138,6 +142,10 @@ window.QUESTIONS_DATA_UNIT2 = [
 </div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <img src="assets/menstrual_cycle.png" alt="Menstrual Cycle Hormones" style="width:100%; max-width:600px; border-radius: var(--radius-md); box-shadow: var(--shadow-card);">
+    <div class="figure-caption">Fig 2: Educational Diagram: Hormones and Phases of the Menstrual Cycle</div>
+  </div>
   <h3 class="answer-section-title accent-title">4 Phases of the Menstrual Cycle</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -268,6 +276,10 @@ window.QUESTIONS_DATA_UNIT2 = [
 </div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <img src="assets/fetal_circulation.png" alt="Fetal Circulation Shunts" style="width:100%; max-width:600px; border-radius: var(--radius-md); box-shadow: var(--shadow-card);">
+    <div class="figure-caption">Fig 3: Educational Diagram: Fetal Circulation and the 3 Shunts</div>
+  </div>
   <h3 class="answer-section-title accent-title">The 3 Special Shunts</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -352,6 +364,10 @@ window.QUESTIONS_DATA_UNIT2 = [
 </div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <img src="assets/placenta_anatomy.png" alt="Placenta Anatomy" style="width:100%; max-width:600px; border-radius: var(--radius-md); box-shadow: var(--shadow-card);">
+    <div class="figure-caption">Fig 4: Educational Diagram: Anatomy of the Placenta and Umbilical Cord</div>
+  </div>
   <h3 class="answer-section-title accent-title">Functions of Placenta</h3>
   <ol class="answer-points">
     <li><strong>Respiratory Function (Like Lungs):</strong> O2 passes from mother's blood to baby's blood. CO2 passes from baby to mother. Simple diffusion. Baby's lungs don't work until birth!
