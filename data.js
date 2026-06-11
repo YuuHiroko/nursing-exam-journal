@@ -1,0 +1,1239 @@
+window.QUESTIONS_DATA = [
+  // ════════════════════════════════════════════════════════════
+  // Q1 – 15 Marks – Maternal Mortality (DETAILED)
+  // ════════════════════════════════════════════════════════════
+  {
+    id: 1,
+    question: "Define maternal mortality. List and explain the various causes leading to maternal mortality. Describe the strategies to reduce maternal mortality and role of a nurse midwife in it.",
+    marks: 15,
+    repeated: 1,
+    years: "Winter 2025",
+    answer: `
+<div class="answer-section">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Maternal mortality is one of the biggest health problems in India. Every year, thousands of mothers die during pregnancy or after delivery — and the sad part is, <strong>most of these deaths can be prevented</strong> with proper care. That's why understanding why mothers die, what we can do to stop it, and what role a nurse midwife plays is SO important — both in exams and in real life.</p>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Definition (Simple Language)</h3>
+  <div class="definition-box">
+    <strong>Maternal Mortality</strong> means the <strong>death of a woman during pregnancy, childbirth, or within 42 days after delivery</strong> — due to reasons related to pregnancy or its complications. It does NOT include accidental deaths (like a road accident).<br><br>
+    Think of it simply: <strong>"A mother dying because of pregnancy-related problems."</strong>
+  </div>
+
+  <p class="answer-text"><strong>Key Points to Remember:</strong></p>
+  <ol class="answer-points">
+    <li>Death must happen <strong>during pregnancy OR within 42 days</strong> of delivery</li>
+    <li>Cause must be <strong>related to pregnancy</strong> — not accidental</li>
+    <li>Two types of causes: <strong>Direct</strong> (caused BY pregnancy) and <strong>Indirect</strong> (old disease made WORSE by pregnancy)</li>
+  </ol>
+
+  <div class="definition-box">
+    <strong>Maternal Mortality Ratio (MMR) Formula:</strong><br>
+    MMR = (Number of Maternal Deaths &divide; Total Live Births) &times; 1,00,000<br><br>
+    <strong>Maternal Mortality Rate Formula:</strong><br>
+    = (Number of Maternal Deaths &divide; Total Women of Reproductive Age 15-49 yrs) &times; 1,00,000<br><br>
+    <strong>Easy trick:</strong> MM<u>R</u> = uses Live <u>B</u>irths in denominator. Mortality <u>Rate</u> = uses women of reproductive <u>age</u>.<br><br>
+    <strong>India's Current MMR:</strong> 97 per 1,00,000 live births (SRS 2018-20)<br>
+    <strong>SDG Target:</strong> Below 70 by 2030<br>
+    <strong>NHM Target:</strong> Below 100 &check; (already achieved nationally!)
+  </div>
+</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <img src="assets/exam_maternal_mortality.png" alt="Causes of Maternal Mortality Illustration" style="width:100%; max-width:600px; border-radius: var(--radius-md); box-shadow: var(--shadow-card);">
+    <div class="figure-caption">Fig 1: Educational Diagram: Causes of Maternal Mortality</div>
+  </div>
+  <h3 class="answer-section-title accent-title">Causes of Maternal Mortality</h3>
+  <p class="answer-text">There are two main groups of causes. Think of it like this:</p>
+  <p class="answer-text"><strong>Direct causes</strong> = Pregnancy ITSELF caused the problem (like bleeding after delivery)<br>
+  <strong>Indirect causes</strong> = She ALREADY had a disease, and pregnancy made it worse (like anaemia becoming dangerous)</p>
+
+  <div class="flowchart">
+    <div class="flowchart-title">Flowchart: Classification of Causes of Maternal Mortality</div>
+    <div class="flowchart-container">
+      <div class="flow-box highlight">Causes of Maternal Mortality</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-branch">
+        <div class="flow-branch-item">
+          <div class="flow-branch-line"></div>
+          <div class="flow-box">Direct Causes (80%)</div>
+        </div>
+        <div class="flow-branch-item">
+          <div class="flow-branch-line"></div>
+          <div class="flow-box">Indirect Causes (20%)</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="answer-section-title">A. Direct Obstetric Causes (~80% of deaths)</h3>
+  <p class="answer-text">These are problems that happen BECAUSE of pregnancy:</p>
+
+  <div class="answer-table-wrap">
+    <table class="answer-table">
+      <thead>
+        <tr><th>Cause</th><th>What Happens (Simple)</th><th>% of Deaths</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>1. Haemorrhage (Bleeding)</strong></td><td>Heavy bleeding before delivery (APH) or after delivery (PPH). <strong>#1 killer of mothers in India.</strong> Common reasons: uterus doesn't contract after delivery (atonic uterus), placenta stuck inside, placenta previa (placenta covering mouth of uterus)</td><td>25-30%</td></tr>
+        <tr><td><strong>2. Eclampsia / Pre-eclampsia</strong></td><td>High BP during pregnancy &rarr; leads to fits (seizures), organ damage, even coma. More common in first-time mothers. If only high BP + protein in urine = pre-eclampsia. If fits come = eclampsia</td><td>12-15%</td></tr>
+        <tr><td><strong>3. Puerperal Sepsis (Infection)</strong></td><td>Infection of the uterus/birth canal AFTER delivery. Happens due to: unhygienic delivery, unclean hands, prolonged labour. Mother gets high fever, foul-smelling discharge, lower abdominal pain</td><td>10-15%</td></tr>
+        <tr><td><strong>4. Unsafe Abortion</strong></td><td>When abortion is done by untrained person, in unhygienic place, or with wrong methods &rarr; leads to heavy bleeding, infection, even death</td><td>8-10%</td></tr>
+        <tr><td><strong>5. Obstructed Labour</strong></td><td>Baby can't come out normally — maybe baby is too big, pelvis too small, or baby is in wrong position. If not treated &rarr; uterus can tear (rupture), mother can die</td><td>5-8%</td></tr>
+        <tr><td><strong>6. Ectopic Pregnancy</strong></td><td>Baby starts growing OUTSIDE the uterus (usually in tube). Tube bursts &rarr; massive internal bleeding &rarr; emergency surgery needed</td><td>2-3%</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="exam-tip"><strong>📝 Easy Memory Trick for Direct Causes:</strong> Remember <strong>"HOUSE"</strong> — <strong>H</strong>aemorrhage, <strong>O</strong>bstructed labour, <strong>U</strong>nsafe abortion, <strong>S</strong>epsis, <strong>E</strong>clampsia</div>
+
+  <h3 class="answer-section-title accent-title">B. Indirect Obstetric Causes (~20% of deaths)</h3>
+  <p class="answer-text">These are diseases the mother ALREADY had, but pregnancy made them worse:</p>
+
+  <div class="answer-table-wrap">
+    <table class="answer-table">
+      <thead>
+        <tr><th>Cause</th><th>What Happens (Simple)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>1. Anaemia</strong></td><td><strong>#1 indirect cause in India.</strong> Low haemoglobin means even small bleeding can become fatal. Very common in Indian women due to poor diet, worm infection</td></tr>
+        <tr><td><strong>2. Heart Disease</strong></td><td>Pregnancy puts extra load on the heart. If mother already has heart problem (rheumatic/congenital), heart can fail during pregnancy or delivery</td></tr>
+        <tr><td><strong>3. Hepatitis / Jaundice</strong></td><td>Especially Hepatitis E — very dangerous in pregnancy. Can cause liver failure and death</td></tr>
+        <tr><td><strong>4. Malaria</strong></td><td>Causes severe anaemia, high fever. In pregnancy &rarr; can cause preterm delivery, low birth weight, cerebral malaria</td></tr>
+        <tr><td><strong>5. HIV/AIDS &amp; TB</strong></td><td>Weakened immunity + pregnancy = high risk. Also risk of passing infection to baby</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Strategies to Reduce Maternal Mortality</h3>
+  <p class="answer-text">The government and WHO have many plans to save mothers' lives. Here are the most important ones:</p>
+
+  <div class="flowchart">
+    <div class="flowchart-title">Flowchart: Strategies to Reduce Maternal Mortality</div>
+    <div class="flowchart-container">
+      <div class="flow-box highlight">Strategies to Reduce MMR</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-branch">
+        <div class="flow-branch-item">
+          <div class="flow-branch-line"></div>
+          <div class="flow-box">Preventive</div>
+        </div>
+        <div class="flow-branch-item">
+          <div class="flow-branch-line"></div>
+          <div class="flow-box">Curative</div>
+        </div>
+        <div class="flow-branch-item">
+          <div class="flow-branch-line"></div>
+          <div class="flow-box">Promotive</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ol class="answer-points">
+    <li><strong>Good Antenatal Care (ANC):</strong> Register pregnancy early (within 12 weeks). Minimum 4 ANC visits. Check BP, weight, Hb, urine every visit. Give TT injection and IFA tablets (iron 100mg + folic acid 500mcg daily). Find high-risk mothers early and refer them.
+      <ul class="sub-points">
+        <li>Teach mother about danger signs: heavy bleeding, severe headache, fits, no baby movement</li>
+        <li>Make a birth plan — decide WHERE to deliver, HOW to reach hospital, WHO will donate blood</li>
+      </ul>
+    </li>
+    <li><strong>Skilled Birth Attendant (SBA) at Every Delivery:</strong> Every delivery should be done by a trained nurse/ANM/doctor — NOT by untrained dai. Government has trained lakhs of ANMs as SBAs.</li>
+    <li><strong>Emergency Obstetric Care (EmOC):</strong> This is emergency treatment when things go wrong:
+      <ul class="sub-points">
+        <li><strong>Basic EmOC (BEmOC):</strong> Give IV antibiotics, oxytocin injection, MgSO4 for fits, remove stuck placenta by hand, assisted delivery with vacuum/forceps</li>
+        <li><strong>Comprehensive EmOC (CEmOC):</strong> Everything above PLUS C-section and blood transfusion. Available at district hospitals</li>
+      </ul>
+    </li>
+    <li><strong>Janani Suraksha Yojana (JSY):</strong> Government gives CASH to poor pregnant women if they deliver in hospital. Rs. 700-1400 depending on state. This increased hospital deliveries massively!</li>
+    <li><strong>JSSK (Janani Shishu Suraksha Karyakram):</strong> Completely FREE delivery services — no payment for: delivery/C-section, medicines, tests, food, blood, ambulance (home to hospital and back). Think of it as: "Everything free for mother and baby"</li>
+    <li><strong>PMSMA (Pradhan Mantri Surakshit Matritva Abhiyan):</strong> Free checkup by specialist OBGY doctor on 9th of every month at government hospital. Easy to remember: "9th date = free ANC"</li>
+    <li><strong>Maternal Death Review (MDR):</strong> Every time a mother dies, government reviews WHY she died. Two types: community-based MDR and facility-based MDR. This helps prevent future deaths.</li>
+    <li><strong>Free Ambulance (108/102):</strong> Dial 108 for emergency ambulance. Dial 102 for planned transport. Free for all pregnant women.</li>
+    <li><strong>Blood Bank Services:</strong> Blood storage units at CHC level. Blood banks at district hospital level. Important because bleeding is #1 cause of death.</li>
+    <li><strong>Family Planning:</strong> Prevent unwanted pregnancies. Space pregnancies properly. Avoid "too early, too many, too frequent, too late" pregnancies.</li>
+    <li><strong>Safe Abortion Services:</strong> MTP Act allows legal abortion up to 24 weeks (for special cases). Training doctors in Medical Methods of Abortion (MMA) — using tablets instead of surgery.</li>
+    <li><strong>Nutrition Programs:</strong> ICDS gives supplementary food to pregnant women. Poshan Abhiyaan for better nutrition. Because well-nourished mothers have safer pregnancies.</li>
+  </ol>
+
+  <div class="exam-tip"><strong>📝 Easy Memory Trick for Strategies:</strong> Remember <strong>"JSJ-BEAR"</strong> — <strong>J</strong>SY, <strong>S</strong>killed Birth Attendant, <strong>J</strong>SSK, <strong>B</strong>lood bank, <strong>E</strong>mOC, <strong>A</strong>NC, <strong>R</strong>eferral transport</div>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Role of Nurse Midwife in Reducing Maternal Mortality</h3>
+  <p class="answer-text">The nurse midwife is basically the <strong>HERO</strong> of maternal healthcare, especially in villages. Here's what she does at every stage:</p>
+
+  <ol class="answer-points">
+    <li><strong>During Pregnancy (Antenatal Role):</strong>
+      <ul class="sub-points">
+        <li>Register every pregnant woman early (within 12 weeks)</li>
+        <li>Do regular checkups — check BP, weight, Hb, urine albumin, blood sugar</li>
+        <li>Give TT injection and IFA tablets</li>
+        <li>Order lab tests — Hb, blood group, Rh type, HIV, VDRL, urine test</li>
+        <li>Spot high-risk mothers (age below 18 or above 35, previous C-section, twins, PIH, diabetes) and REFER them early</li>
+        <li>Teach mother about: good food, rest, danger signs, when to rush to hospital</li>
+        <li>Help make a Birth Preparedness Plan — where to deliver, who will accompany, arrange blood donor, save money, keep transport ready</li>
+      </ul>
+    </li>
+    <li><strong>During Delivery (Intranatal Role):</strong>
+      <ul class="sub-points">
+        <li>Monitor labour progress using PARTOGRAPH (a chart that tracks how labour is going)</li>
+        <li>Conduct clean and safe delivery</li>
+        <li>Do AMTSL (Active Management of Third Stage of Labour) — give oxytocin injection within 1 min of baby's birth, controlled cord traction, uterine massage. This PREVENTS PPH!</li>
+        <li>Immediate newborn care — dry baby, keep warm, start breastfeeding within 1 hour</li>
+        <li>Watch for danger signs — too much bleeding, baby not coming out, cord around neck</li>
+        <li>Give respectful, dignified care — no scolding, no abuse, no ignoring the mother</li>
+        <li>If anything goes wrong &rarr; REFER immediately to higher centre</li>
+      </ul>
+    </li>
+    <li><strong>After Delivery (Postnatal Role):</strong>
+      <ul class="sub-points">
+        <li>Check vital signs — BP, pulse, temperature</li>
+        <li>Check uterus — is it contracting properly? (should feel like a hard ball at navel level)</li>
+        <li>Check bleeding — how much lochia? Any foul smell? (sign of infection)</li>
+        <li>Help with breastfeeding — proper position, attachment, exclusive breastfeeding for 6 months</li>
+        <li>Watch for danger signs — heavy bleeding, high fever, fits, severe headache, calf pain (DVT)</li>
+        <li>Give family planning advice — which method to use, when to start</li>
+        <li>Home visits on Day 3, Day 7, and Day 42 after delivery</li>
+      </ul>
+    </li>
+    <li><strong>In the Community:</strong>
+      <ul class="sub-points">
+        <li>Work with ASHA workers and Anganwadi workers as a team</li>
+        <li>Conduct Village Health and Nutrition Days (VHNDs)</li>
+        <li>Track ALL pregnant women in her area — make sure nobody is missed</li>
+        <li>Health education talks in the community about safe pregnancy</li>
+      </ul>
+    </li>
+    <li><strong>Record Keeping:</strong>
+      <ul class="sub-points">
+        <li>Fill MCP card (Mother and Child Protection card) properly</li>
+        <li>Maintain delivery register, ANC register</li>
+        <li>Report every maternal death for MDR (Maternal Death Review)</li>
+        <li>Keep referral records</li>
+      </ul>
+    </li>
+    <li><strong>Emergency Management:</strong>
+      <ul class="sub-points">
+        <li>PPH emergency: uterine massage + IV oxytocin + IV fluids + REFER</li>
+        <li>Eclampsia emergency: MgSO4 injection (Pritchard regimen) + protect from injury + REFER</li>
+        <li>Shock: IV fluids + raise legs + keep warm + REFER</li>
+        <li>Always call 108 ambulance for emergency transfer</li>
+      </ul>
+    </li>
+  </ol>
+</div>
+
+<aside class="editorial-note">
+  <strong>Clinical Note:</strong> Active management of the third stage of labour (AMTSL) is universally recommended for all vaginal births to prevent postpartum haemorrhage, which remains the leading direct cause of maternal death.
+</aside>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <div class="conclusion-box">
+    Maternal mortality is a preventable tragedy. Most mothers die from bleeding, eclampsia, and infection — all of which CAN be treated if caught in time. Government programs like JSY, JSSK, and EmOC have helped reduce India's MMR from 254 to 97. But the real hero on the ground is the nurse midwife — she provides care from pregnancy to delivery to postnatal period, spots danger signs early, and saves lives every day. With better training, more resources, and community awareness, India can definitely achieve the SDG target of MMR below 70 by 2030.
+  </div>
+</div>
+`
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // Q2 – 5 Marks – Causes of Maternal Mortality
+  // ════════════════════════════════════════════════════════════
+  {
+    id: 2,
+    question: "Causes of maternal mortality. / Describe the causes of Maternal mortality and morbidity.",
+    marks: 5,
+    repeated: 2,
+    years: "Winter 2016, Summer 2017",
+    answer: `
+<div class="answer-section">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Maternal mortality means a mother dying because of pregnancy-related problems. India has made good progress, but still many mothers die — especially in rural areas. Knowing the causes helps us prevent these deaths.</p>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Definition (Simple Language)</h3>
+  <div class="definition-box">
+    <strong>Maternal Mortality</strong> = Death of a woman during pregnancy, childbirth, or within <strong>42 days after delivery</strong> — from causes related to pregnancy. NOT from accidents.<br><br>
+    <strong>India's MMR:</strong> 97 per 1,00,000 live births (SRS 2018-20)<br>
+    <strong>SDG Target:</strong> Below 70 by 2030
+  </div>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">A. Direct Obstetric Causes (~80%)</h3>
+  <p class="answer-text">These are problems caused DIRECTLY by pregnancy. Think: "Pregnancy itself created the problem."</p>
+  <ol class="answer-points">
+    <li><strong>Haemorrhage (Bleeding) — #1 Killer (~25-30%):</strong> Heavy bleeding before delivery (APH) or after delivery (PPH). Uterus not contracting, placenta stuck inside, or placenta in wrong place. Even 500ml blood loss after normal delivery is dangerous.</li>
+    <li><strong>Eclampsia (~12-15%):</strong> High BP in pregnancy &rarr; leads to fits (convulsions). If only high BP + protein in urine = pre-eclampsia. Once fits start = eclampsia. Can cause brain damage, liver failure, death.</li>
+    <li><strong>Puerperal Sepsis / Infection (~10-15%):</strong> Infection of uterus after delivery. Caused by: dirty hands during delivery, unclean instruments, prolonged labour. Mother gets: high fever + foul-smelling discharge.</li>
+    <li><strong>Unsafe Abortion (~8-10%):</strong> Abortion done by untrained person in unhygienic place. Leads to: heavy bleeding, infection, uterine perforation. Very common in states where MTP access is poor.</li>
+    <li><strong>Obstructed Labour (~5-8%):</strong> Baby can't come out — pelvis too small, baby too big, or wrong position. If ignored &rarr; uterus tears (rupture) &rarr; mother can die.</li>
+    <li><strong>Ectopic Pregnancy:</strong> Baby grows outside uterus (usually in fallopian tube). Tube bursts &rarr; massive internal bleeding &rarr; emergency.</li>
+  </ol>
+  <div class="exam-tip"><strong>📝 Memory Trick:</strong> <strong>"HOUSE"</strong> = <strong>H</strong>aemorrhage, <strong>O</strong>bstructed labour, <strong>U</strong>nsafe abortion, <strong>S</strong>epsis, <strong>E</strong>clampsia</div>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">B. Indirect Obstetric Causes (~20%)</h3>
+  <p class="answer-text">Mother ALREADY had a disease. Pregnancy made it worse. Think: "Old problem + pregnancy = dangerous."</p>
+  <ol class="answer-points">
+    <li><strong>Anaemia — #1 Indirect Cause:</strong> Low Hb means even small bleeding becomes life-threatening. Very common in India (over 50% pregnant women are anaemic!)</li>
+    <li><strong>Heart Disease:</strong> Pregnancy increases blood volume by 40%. Weak heart can't handle the extra load &rarr; heart failure.</li>
+    <li><strong>Hepatitis / Jaundice:</strong> Especially Hepatitis E — extremely dangerous in pregnancy. Can cause liver failure.</li>
+    <li><strong>Malaria:</strong> Causes severe anaemia, high fever. Dangerous in pregnancy — preterm delivery, low birth weight.</li>
+    <li><strong>TB / HIV/AIDS:</strong> Weak immunity + pregnancy = high risk for both mother and baby.</li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Quick Summary Table</h3>
+  <div class="answer-table-wrap">
+    <table class="answer-table">
+      <thead><tr><th>Direct Causes (80%)</th><th>Indirect Causes (20%)</th></tr></thead>
+      <tbody>
+        <tr><td>Haemorrhage (PPH/APH) — #1</td><td>Anaemia — #1 indirect</td></tr>
+        <tr><td>Eclampsia (fits from high BP)</td><td>Heart Disease</td></tr>
+        <tr><td>Puerperal Sepsis (infection)</td><td>Hepatitis / Jaundice</td></tr>
+        <tr><td>Unsafe Abortion</td><td>Malaria</td></tr>
+        <tr><td>Obstructed Labour</td><td>TB / HIV / AIDS</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Example:</strong> A pregnant woman presenting with severe anaemia (Hb &lt; 7 g/dL) is at extreme risk during delivery. Prompt referral for blood transfusion and iron sucrose therapy can be life-saving.
+</div>
+<aside class="editorial-note">
+  <strong>Clinical Note:</strong> Regular monitoring of haemoglobin levels during ANC can prevent severe anaemia, significantly reducing the risk of indirect maternal mortality.
+</aside>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <div class="conclusion-box">
+    Most maternal deaths are PREVENTABLE. Bleeding is the #1 direct killer and anaemia is the #1 indirect killer in India. If we ensure proper ANC, hospital delivery, emergency care, and treat anaemia early — we can save most mothers' lives. Nurse midwives are the frontline warriors in this fight.
+  </div>
+</div>
+`
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // Q3 – 5 Marks – Maternal Morbidity and Mortality
+  // ════════════════════════════════════════════════════════════
+  {
+    id: 3,
+    question: "Maternal morbidity and mortality",
+    marks: 5,
+    repeated: 1,
+    years: "Summer 2016",
+    answer: `
+<div class="answer-section">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Maternal morbidity and mortality tell us how healthy (or unhealthy) mothers are in a country. If many mothers are dying or getting sick during pregnancy — it means the healthcare system is failing them. These are VERY important indicators that WHO and governments track.</p>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Definitions (Simple Language)</h3>
+  <div class="definition-box">
+    <strong>Maternal Mortality</strong> = Mother DYING because of pregnancy-related problems (during pregnancy or within 42 days after delivery).<br><br>
+    <strong>Maternal Morbidity</strong> = Mother getting SICK or having health problems because of pregnancy — but she survives. Examples: fistula (hole between bladder/rectum and vagina), uterus coming out (prolapse), severe anaemia, depression after delivery.<br><br>
+    <strong>Simple way to remember:</strong><br>
+    Mortality = Death &nbsp;|&nbsp; Morbidity = Sickness (but alive)
+  </div>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">Important Numbers to Remember</h3>
+  <div class="answer-table-wrap">
+    <table class="answer-table">
+      <thead><tr><th>Indicator</th><th>Value</th></tr></thead>
+      <tbody>
+        <tr><td><strong>India's MMR</strong></td><td>97 per 1,00,000 live births (SRS 2018-20)</td></tr>
+        <tr><td><strong>Global MMR</strong></td><td>223 per 1,00,000 live births (WHO 2020)</td></tr>
+        <tr><td><strong>SDG 3.1 Target</strong></td><td>Below 70 per 1,00,000 by 2030</td></tr>
+        <tr><td><strong>NHM Target</strong></td><td>Below 100 &check; (India achieved this!)</td></tr>
+        <tr><td><strong>Lifetime risk in India</strong></td><td>1 in 190 women may die from pregnancy causes</td></tr>
+        <tr><td><strong>Morbidity ratio</strong></td><td>For every 1 death, 20-30 women suffer serious illness</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="exam-tip"><strong>📝 Important Fact:</strong> For every 1 maternal death, there are 20-30 women who ALMOST died (called "near-miss" cases). So morbidity is a MUCH bigger problem than mortality!</div>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Causes</h3>
+  <p class="answer-text"><strong>Causes of Maternal Mortality (Death):</strong></p>
+  <p class="answer-text">Direct: Haemorrhage (#1), Eclampsia, Sepsis, Unsafe Abortion, Obstructed Labour<br>
+  Indirect: Anaemia (#1 indirect), Heart Disease, Hepatitis, Malaria, TB/HIV</p>
+
+  <p class="answer-text"><strong>Causes of Maternal Morbidity (Sickness that doesn't kill but damages):</strong></p>
+  <ol class="answer-points">
+    <li><strong>Anaemia</strong> — most common, causes weakness, breathlessness, can't feed baby properly</li>
+    <li><strong>Obstetric Fistula (VVF/RVF)</strong> — hole between bladder/rectum and vagina after obstructed labour. Mother leaks urine/stool continuously. Devastating.</li>
+    <li><strong>Uterine Prolapse</strong> — uterus comes down/out after many pregnancies</li>
+    <li><strong>Postnatal Depression / Psychosis</strong> — mother feels extremely sad, anxious, can't bond with baby</li>
+    <li><strong>Chronic Pelvic Infection</strong> — ongoing infection after delivery</li>
+    <li><strong>Infertility</strong> — after severe infection or complications, mother may not be able to have more children</li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">How Morbidity and Mortality Are Connected</h3>
+  <p class="answer-text">Think of it as a pyramid: at the top is death (mortality), but below it are MANY more women who are sick (morbidity). If we catch and treat the sick ones early, they won't die. That's why tracking BOTH is important.</p>
+  <p class="answer-text"><strong>Near-miss cases</strong> (women who almost died but survived) are now tracked as an important indicator — they help us understand what went wrong and how to prevent future deaths.</p>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">Measures to Reduce Both</h3>
+  <ol class="answer-points">
+    <li>Promote <strong>institutional deliveries</strong> through JSY and JSSK</li>
+    <li>Strengthen <strong>Emergency Obstetric Care (EmOC)</strong> at all hospitals</li>
+    <li>Give <strong>IFA tablets to all pregnant women</strong> to fight anaemia</li>
+    <li>Ensure <strong>Skilled Birth Attendant</strong> at every delivery</li>
+    <li>Conduct <strong>Maternal Death Review (MDR)</strong> for every death</li>
+    <li>Provide <strong>family planning services</strong> to prevent unwanted pregnancies</li>
+  </ol>
+</div>
+
+<div class="editorial-example">
+  <strong>Example:</strong> A mother surviving a severe eclamptic fit after timely MgSO4 administration is a "near-miss". Studying her case helps improve emergency protocols to prevent future mortalities.
+</div>
+<aside class="editorial-note">
+  <strong>Clinical Note:</strong> Tracking "near-miss" cases is now considered equally vital as maternal death reviews, as it highlights systemic gaps in emergency obstetric care.
+</aside>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <div class="conclusion-box">
+    Maternal morbidity and mortality are like two sides of a coin — morbidity is the bigger, hidden problem (20-30x more common than death). By providing proper ANC, skilled delivery care, emergency obstetric services, and addressing anaemia, we can reduce both. The nurse midwife is central to this — she catches problems early, treats what she can, and refers what she can't.
+  </div>
+</div>
+`
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // Q4 – 5 Marks – Maternal Mortality and Nurse's Role
+  // ════════════════════════════════════════════════════════════
+  {
+    id: 4,
+    question: "Maternal mortality and nurse's role. / Maternal mortality and nurses role.",
+    marks: 5,
+    repeated: 2,
+    years: "Winter 2017, Summer 2022",
+    answer: `
+<div class="answer-section">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Maternal mortality is a big health challenge in India. But here's the good news — most maternal deaths are PREVENTABLE with proper nursing care. The nurse midwife is the first person a pregnant woman meets, and often the ONLY trained person available in villages. Her role can literally mean the difference between life and death.</p>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Definition (Simple Language)</h3>
+  <div class="definition-box">
+    <strong>Maternal Mortality</strong> = Death of a mother during pregnancy or within 42 days after delivery, from pregnancy-related causes (not accidents).<br><br>
+    <strong>India's MMR:</strong> 97 per 1,00,000 live births | <strong>SDG Target:</strong> Below 70 by 2030<br><br>
+    <strong>Top Causes:</strong> Haemorrhage (#1), Eclampsia (#2), Sepsis (#3), Unsafe Abortion, Obstructed Labour<br>
+    <strong>Top Indirect Cause:</strong> Anaemia
+  </div>
+</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <img src="assets/exam_nurse_role.png" alt="Nurse Midwife Illustration" style="width:100%; max-width:600px; border-radius: var(--radius-md); box-shadow: var(--shadow-card);">
+    <div class="figure-caption">Fig 2: Educational Illustration: The Nurse Midwife caring for mother and baby</div>
+  </div>
+  <h3 class="answer-section-title teal-title">Role of Nurse in Reducing Maternal Mortality</h3>
+  <p class="answer-text">The nurse midwife works at EVERY stage — before delivery, during delivery, and after delivery:</p>
+
+  <ol class="answer-points">
+    <li><strong>Antenatal Care (During Pregnancy):</strong> Register mother early (within 12 weeks). Do 4+ ANC visits. Check BP, weight, Hb, urine every visit. Give TT injection and IFA tablets. Teach mother about: good food, rest, danger signs (bleeding, headache, fits, no baby movement, fever). Make a birth plan — where to deliver, transport arrangement, blood donor.
+    </li>
+    <li><strong>Identifying High-Risk Mothers:</strong> Watch for these risk factors: age below 18 or above 35, first baby or more than 4 babies, previous C-section or stillbirth, twins, high BP, diabetes, Rh-negative blood, severe anaemia (Hb below 7). If ANY risk factor found &rarr; <strong>REFER to higher centre immediately!</strong>
+    </li>
+    <li><strong>During Delivery (Intranatal Care):</strong> Monitor labour using partograph. Conduct clean and safe delivery. Do AMTSL — give oxytocin within 1 minute of delivery to prevent PPH. Watch for danger signs — too much bleeding, baby stuck, cord prolapse. If normal delivery not possible &rarr; REFER for C-section.
+    </li>
+    <li><strong>Emergency Management (Life-saving):</strong> For PPH: uterine massage + oxytocin IV + IV fluids. For eclampsia: MgSO4 injection + protect from injury. For shock: IV fluids + raise legs + keep warm. Always arrange 108 ambulance for transfer.
+    </li>
+    <li><strong>After Delivery (Postnatal Care):</strong> Check vital signs, uterus contraction, and bleeding. Watch for infection signs: fever, foul-smelling discharge. Help with breastfeeding (exclusive for 6 months). Give family planning advice. Home visits on Day 3, Day 7, Day 42.
+    </li>
+    <li><strong>Health Education:</strong> Teach about nutrition (dal, green veggies, jaggery, fruits), hygiene, rest. Explain danger signs in local language so family also understands. Promote hospital delivery — explain WHY it's safer.
+    </li>
+    <li><strong>Community Work:</strong> Coordinate with ASHA and Anganwadi workers. Conduct VHNDs (Village Health and Nutrition Days). Track all pregnant women — make sure no one is left out. Implement JSY and JSSK schemes.
+    </li>
+    <li><strong>Documentation &amp; Reporting:</strong> Fill MCP card properly. Maintain ANC register, delivery register. Report every maternal death for MDR review. Keep referral records updated.
+    </li>
+  </ol>
+
+  <div class="exam-tip"><strong>📝 Easy Memory for Nurse's Role:</strong> Think <strong>"AIDE-CHD"</strong> = <strong>A</strong>NC, <strong>I</strong>dentify high-risk, <strong>D</strong>elivery care, <strong>E</strong>mergency management, <strong>C</strong>ommunity work, <strong>H</strong>ealth education, <strong>D</strong>ocumentation</div>
+</div>
+
+<div class="editorial-example">
+  <strong>Example:</strong> If a pregnant woman complains of severe headaches and blurring vision during an ANC visit, the nurse instantly checks her blood pressure and refers her, potentially preventing eclampsia.
+</div>
+<aside class="editorial-note">
+  <strong>Clinical Note:</strong> The nurse midwife is often the primary healthcare provider recognizing danger signs like pre-eclampsia, making early referral crucial to maternal survival.
+</aside>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <div class="conclusion-box">
+    The nurse midwife is the backbone of maternal healthcare in India. From the first ANC visit to the last postnatal visit, she is there. She identifies danger early, manages emergencies, refers when needed, and educates families. Strengthening the nurse midwife's skills and support system is the single most effective strategy to reduce maternal mortality in India.
+  </div>
+</div>
+`
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // Q5 – 5 Marks – Role of Nurse in Midwifery
+  // ════════════════════════════════════════════════════════════
+  {
+    id: 5,
+    question: "Role of a nurse in Midwifery and Obstetrics. / Role of Nurse in Midwifery.",
+    marks: 5,
+    repeated: 2,
+    years: "Summer 2019, Winter 2025",
+    answer: `
+<div class="answer-section">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">A nurse midwife is a trained nurse who specializes in taking care of mothers during pregnancy, delivery, and after delivery. In India, especially in villages, the nurse midwife (ANM/Staff Nurse) is often the ONLY qualified healthcare person available. She is the real lifeline for pregnant mothers.</p>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Definition (Simple Language)</h3>
+  <div class="definition-box">
+    <strong>Nurse Midwife (ICM Definition):</strong> A trained person who can independently take care of pregnant women, conduct normal deliveries on her own, care for newborn babies, and identify problems that need doctor's help.<br><br>
+    <strong>Simply put:</strong> She can handle normal pregnancies and deliveries on her own. For complications, she identifies and refers.
+  </div>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">Roles of Nurse in Midwifery &amp; Obstetrics</h3>
+
+  <ol class="answer-points">
+    <li><strong>1. Antenatal Care (During Pregnancy):</strong>
+      <ul class="sub-points">
+        <li>Register every pregnant woman early — within 12 weeks</li>
+        <li>Do minimum 4 ANC checkups — check BP, weight, fundal height (uterus size), baby's heartbeat</li>
+        <li>Give TT injection (2 doses) and IFA tablets daily</li>
+        <li>Order lab tests — Hb, blood group, Rh type, HIV, VDRL (syphilis), urine test</li>
+        <li>Screen for high-risk — age &lt;18 or &gt;35, previous C-section, twins, high BP, diabetes, severe anaemia</li>
+        <li>Teach mother about: good food (dal, green veggies, milk, eggs), danger signs, when to rush to hospital</li>
+        <li>Help make birth plan — where to deliver, transport, blood donor, money saved</li>
+      </ul>
+    </li>
+    <li><strong>2. Intranatal Care (During Labour &amp; Delivery):</strong>
+      <ul class="sub-points">
+        <li>Check if labour has truly started (regular contractions + cervix dilating)</li>
+        <li>Monitor progress using partograph — a chart that tracks cervix opening, contractions, baby's heartbeat</li>
+        <li>Conduct clean and safe normal delivery</li>
+        <li>Do AMTSL after baby is born — oxytocin injection + cord traction + uterine massage (prevents PPH!)</li>
+        <li>Provide pain relief and emotional support — hold her hand, encourage her</li>
+        <li>Practice Respectful Maternity Care (RMC) — NO scolding, NO abuse, maintain privacy and dignity</li>
+        <li>Immediate newborn care — dry baby, skin-to-skin contact, start breastfeeding within 1 hour</li>
+        <li>If ANY complication (baby stuck, heavy bleeding, fits) &rarr; REFER immediately</li>
+      </ul>
+    </li>
+    <li><strong>3. Postnatal Care (After Delivery):</strong>
+      <ul class="sub-points">
+        <li>Check mother's vital signs — BP, pulse, temperature</li>
+        <li>Check uterus contraction and bleeding</li>
+        <li>Help with breastfeeding — correct position, proper attachment</li>
+        <li>Newborn care — cord care, warmth, immunization (BCG, OPV-0, Hep B)</li>
+        <li>Watch for danger signs — heavy bleeding, fever, fits, breast abscess, baby not feeding</li>
+        <li>Family planning counseling — when to start, which method</li>
+        <li>Home visits — Day 3, Day 7, Day 42</li>
+      </ul>
+    </li>
+    <li><strong>4. Community Health Role:</strong>
+      <ul class="sub-points">
+        <li>Work as a team with ASHA and Anganwadi workers</li>
+        <li>Conduct VHNDs (Village Health and Nutrition Days) — ANC checkup, immunization at village level</li>
+        <li>Track all pregnant women in the area — make sure no one is missed</li>
+        <li>Implement government schemes — JSY (cash for hospital delivery), JSSK (free delivery), PMSMA (free specialist checkup on 9th)</li>
+        <li>Health awareness talks in community — importance of hospital delivery, nutrition, family planning</li>
+      </ul>
+    </li>
+    <li><strong>5. Administrative &amp; Research Role:</strong>
+      <ul class="sub-points">
+        <li>Maintain records — MCP card, ANC register, delivery register, immunization register</li>
+        <li>Report births, deaths, complications to higher authorities</li>
+        <li>Participate in MDR (Maternal Death Review) — review why a mother died, how to prevent next time</li>
+        <li>Supervise and train junior staff and students</li>
+        <li>Use evidence-based practice — apply latest research findings in daily care</li>
+      </ul>
+    </li>
+  </ol>
+</div>
+
+<div class="editorial-example">
+  <strong>Example:</strong> During labour, the nurse midwife provides continuous emotional support, encourages a comfortable birthing position, and respects the mother's privacy, leading to a better birth experience.
+</div>
+<aside class="editorial-note">
+  <strong>Clinical Note:</strong> Respectful Maternity Care (RMC) is increasingly prioritized in midwifery to ensure the emotional well-being of the mother alongside physical safety.
+</aside>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <div class="conclusion-box">
+    The nurse midwife wears many hats — she is a care provider, educator, counselor, administrator, advocate, and researcher. She is the most important person in a pregnant woman's journey from conception to safe delivery. In India, strengthening nurse midwifery services is the key to reducing maternal and neonatal mortality.
+  </div>
+</div>
+`
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // Q6 – 5 Marks – National Policy and Legislation
+  // ════════════════════════════════════════════════════════════
+  {
+    id: 6,
+    question: "National policy and legislation in relation to maternal health",
+    marks: 5,
+    repeated: 1,
+    years: "Summer 2016",
+    answer: `
+<div class="answer-section">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">The Indian government has made many laws and policies to protect mothers during pregnancy and childbirth. These laws ensure that women get proper healthcare, can make their own reproductive choices, and are protected from harm. As a nurse, you MUST know these — both for exams and for practice!</p>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">Key Policies and Legislations (Table Format)</h3>
+  <div class="answer-table-wrap">
+    <table class="answer-table">
+      <thead>
+        <tr><th>Policy / Law</th><th>Year</th><th>What It Does (Simple Language)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>MTP Act</strong><br>(Medical Termination of Pregnancy)</td><td>1971<br>(Amended 2021)</td><td>Makes abortion LEGAL in India. Up to 20 weeks: 1 doctor's opinion needed. Up to 24 weeks: for special cases (rape, minors, fetal defects) — 2 doctors needed. No upper limit if Medical Board says baby has serious defect. Must be done at approved place by registered doctor only.</td></tr>
+        <tr><td><strong>PCPNDT Act</strong><br>(Pre-Conception &amp; Pre-Natal Diagnostic Techniques)</td><td>1994</td><td>BANS sex determination of baby before birth. Bans sex-selective abortion ("we don't want a girl"). Punishment: up to 5 years jail + Rs. 1 lakh fine. All ultrasound centres must be registered.</td></tr>
+        <tr><td><strong>RCH Programme</strong><br>(Reproductive &amp; Child Health)</td><td>1997 (Phase I)<br>2005 (Phase II)</td><td>Comprehensive programme covering: safe motherhood, child health, family planning, adolescent health, RTI/STI management. Client-centered, NOT target-based approach.</td></tr>
+        <tr><td><strong>National Population Policy</strong></td><td>2000</td><td>Goal: achieve TFR (Total Fertility Rate) of 2.1 (replacement level). Promotes: spacing between children, contraception by choice, NOT by force.</td></tr>
+        <tr><td><strong>NRHM / NHM</strong><br>(National Rural/Health Mission)</td><td>2005 / 2013</td><td>Biggest health programme in India. Created ASHA workers (1 per 1000 people). Launched JSY (cash for hospital delivery). Free ambulance (108/102). Strengthened PHCs, CHCs, District Hospitals.</td></tr>
+        <tr><td><strong>JSY</strong><br>(Janani Suraksha Yojana)</td><td>2005</td><td>Government gives CASH to poor mothers who deliver in hospital. Rs. 700-1400 depending on state. Massively increased hospital deliveries in India.</td></tr>
+        <tr><td><strong>JSSK</strong><br>(Janani Shishu Suraksha Karyakram)</td><td>2011</td><td>Everything FREE: delivery, C-section, medicines, tests, blood, food, ambulance. Remember: "ZERO payment for mother and baby."</td></tr>
+        <tr><td><strong>Maternity Benefit Act</strong></td><td>1961<br>(Amended 2017)</td><td>Working women get 26 weeks paid maternity leave (for first 2 kids). 12 weeks for 3rd child. Companies with 50+ employees must have creche (daycare). Can work from home if nature of work allows.</td></tr>
+        <tr><td><strong>POCSO Act</strong></td><td>2012</td><td>Protects children from sexual offenses. Important for cases of teenage pregnancy due to sexual abuse. Healthcare workers MUST report such cases.</td></tr>
+        <tr><td><strong>Surrogacy Act</strong></td><td>2021</td><td>BANS commercial surrogacy (no paying someone to carry your baby). Only altruistic surrogacy allowed (a close relative does it for free, out of love).</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="exam-tip"><strong>📝 Exam Tip:</strong> Tables score MORE marks than paragraphs. Write at least 6-8 policies with year and key feature for 5 marks. The MTP Act and PCPNDT Act are asked the most — know them well!</div>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">International Commitments India Follows</h3>
+  <ol class="answer-points">
+    <li><strong>SDG Goal 3 (Target 3.1):</strong> Reduce MMR below 70 per 1,00,000 live births by 2030</li>
+    <li><strong>Safe Motherhood Initiative (1987, Nairobi):</strong> Global movement to save mothers' lives — India is a signatory</li>
+    <li><strong>ICPD Cairo (1994):</strong> International agreement that every woman has the RIGHT to reproductive healthcare</li>
+  </ol>
+</div>
+
+<div class="editorial-example">
+  <strong>Example:</strong> A patient seeking to terminate an unintended pregnancy at 18 weeks is correctly guided by the nurse to an approved facility under the MTP Act, preventing her from visiting an unsafe quack.
+</div>
+<aside class="editorial-note">
+  <strong>Clinical Note:</strong> Understanding the MTP Act empowers nurses to guide women toward safe abortion services, thereby reducing mortality from illegal, unsafe procedures.
+</aside>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <div class="conclusion-box">
+    India has a strong legal framework to protect maternal health — from the MTP Act (safe abortion) to JSSK (free delivery) to the Maternity Benefit Act (paid leave). But laws on paper are not enough — they need to be implemented properly at every PHC and village. The nurse midwife must know these laws so she can inform mothers about their rights and ensure they receive all the benefits they deserve.
+  </div>
+</div>
+`
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // Q7 – 5 Marks – NRHM
+  // ════════════════════════════════════════════════════════════
+  {
+    id: 7,
+    question: "National Rural Health Mission (NRHM).",
+    marks: 5,
+    repeated: 1,
+    years: "Winter 2021",
+    answer: `
+<div class="answer-section">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">NRHM is the BIGGEST and most important health programme India has ever launched. Before NRHM, rural healthcare was a mess — broken PHCs, no medicines, no staff, no ambulances. NRHM changed everything. It's the reason why most villages now have ASHAs, free ambulances, and mothers get cash for hospital delivery.</p>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Definition (Simple Language)</h3>
+  <div class="definition-box">
+    <strong>NRHM (National Rural Health Mission):</strong> A massive government health programme launched on <strong>12th April 2005</strong> to improve healthcare in rural India. Special focus on 18 states with weak health indicators (like UP, Bihar, MP, Rajasthan, Jharkhand, Odisha etc.).<br><br>
+    In <strong>2013</strong>, NRHM was merged into the bigger <strong>National Health Mission (NHM)</strong> which covers both rural (NRHM) and urban (NUHM) areas.<br><br>
+    <strong>Simply:</strong> NRHM = Government's big plan to fix rural healthcare.
+  </div>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">Objectives (What NRHM Wanted to Achieve)</h3>
+  <ol class="answer-points">
+    <li>Reduce <strong>MMR to below 100</strong> per 1,00,000 live births &check; (achieved — current MMR = 97!)</li>
+    <li>Reduce <strong>IMR to 30</strong> per 1,000 live births</li>
+    <li>Reduce <strong>TFR to 2.1</strong> (replacement level)</li>
+    <li>Increase <strong>hospital deliveries</strong> — so no more risky home deliveries by untrained dais</li>
+    <li>Make healthcare <strong>accessible, affordable, and of good quality</strong> for everyone</li>
+    <li>Get <strong>communities involved</strong> in health planning — not just top-down orders</li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Key Components of NRHM</h3>
+
+  <div class="flowchart">
+    <div class="flowchart-title">Flowchart: Key Components of NRHM</div>
+    <div class="flowchart-container">
+      <div class="flow-box highlight">NRHM (2005)</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-branch">
+        <div class="flow-branch-item">
+          <div class="flow-branch-line"></div>
+          <div class="flow-box">ASHA Workers</div>
+        </div>
+        <div class="flow-branch-item">
+          <div class="flow-branch-line"></div>
+          <div class="flow-box">JSY &amp; JSSK</div>
+        </div>
+        <div class="flow-branch-item">
+          <div class="flow-branch-line"></div>
+          <div class="flow-box">VHSNCs</div>
+        </div>
+        <div class="flow-branch-item">
+          <div class="flow-branch-line"></div>
+          <div class="flow-box">108/102 Ambulance</div>
+        </div>
+        <div class="flow-branch-item">
+          <div class="flow-branch-line"></div>
+          <div class="flow-box">IPHS Standards</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ol class="answer-points">
+    <li><strong>ASHA (Accredited Social Health Activist):</strong> One ASHA per 1000 people in every village. She is a local woman trained to be the link between the community and the health system. She motivates pregnant women to go to hospital for delivery, accompanies them, and gets incentive money for it. Think of ASHA as: "The health friend of the village."</li>
+    <li><strong>Janani Suraksha Yojana (JSY):</strong> Cash reward for mothers who deliver in hospital. BPL (Below Poverty Line) women in rural areas get Rs. 700-1400. This one scheme massively increased hospital deliveries across India!</li>
+    <li><strong>JSSK (Janani Shishu Suraksha Karyakram):</strong> Completely FREE services — delivery, C-section, medicines, blood, tests, food in hospital, ambulance to and from hospital. "Zero expense pregnancy" is the goal.</li>
+    <li><strong>VHSNCs (Village Health, Sanitation &amp; Nutrition Committees):</strong> Each village has this committee with untied fund of Rs. 10,000/year. They decide local health priorities. Community ownership of health.</li>
+    <li><strong>Mobile Medical Units (MMUs):</strong> Doctor + lab + medicine on wheels! Goes to remote areas where there's no hospital. Provides OPD and basic diagnostic services.</li>
+    <li><strong>IPHS (Indian Public Health Standards):</strong> Rules for how good a Sub-Centre, PHC, CHC, District Hospital should be — how many staff, what equipment, what services. Like a "quality checklist" for hospitals.</li>
+    <li><strong>Rogi Kalyan Samiti (RKS):</strong> Patient Welfare Committee at every district/sub-district hospital. Manages the hospital using untied funds. Ensures cleanliness, patient satisfaction.</li>
+    <li><strong>Free Ambulance (108/102):</strong> 108 = emergency ambulance (for any medical emergency). 102 = patient transport (especially for pregnant women). Both are FREE.</li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Achievements (What NRHM Actually Achieved)</h3>
+  <div class="answer-table-wrap">
+    <table class="answer-table">
+      <thead><tr><th>Indicator</th><th>Before NRHM (2005)</th><th>After NRHM (NFHS-5)</th></tr></thead>
+      <tbody>
+        <tr><td>Institutional Deliveries</td><td>40.7%</td><td>88.6% &uarr;</td></tr>
+        <tr><td>MMR</td><td>254 per lakh</td><td>97 per lakh &darr;</td></tr>
+        <tr><td>ASHA Workers</td><td>0</td><td>10+ lakh deployed</td></tr>
+        <tr><td>Full ANC coverage</td><td>Poor</td><td>Significantly improved</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Example:</strong> An ASHA worker identifies a pregnant woman in a remote village, helps her register for ANC, and arranges a 108 ambulance for her hospital delivery, ensuring completely free care under JSSK.
+</div>
+<aside class="editorial-note">
+  <strong>Clinical Note:</strong> The integration of ASHA workers into the health system has been the most critical factor in increasing institutional deliveries under NRHM.
+</aside>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <div class="conclusion-box">
+    NRHM is a game-changer for Indian healthcare. It created ASHAs, gave free ambulances, made hospital deliveries almost free, and improved health infrastructure across villages. It brought down MMR from 254 to 97 — a remarkable achievement. The nurse midwife is a key player in implementing NRHM at the ground level — conducting deliveries, ANC, immunization, and coordinating with ASHAs.
+  </div>
+</div>
+`
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // Q8 – 5 Marks – RCH Programme
+  // ════════════════════════════════════════════════════════════
+  {
+    id: 8,
+    question: "RCH (Reproductive and Child Health Programme).",
+    marks: 5,
+    repeated: 1,
+    years: "Summer 2023",
+    answer: `
+<div class="answer-section">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">The RCH Programme is India's comprehensive plan to take care of mothers and children together. Before RCH, India had a "target-based" family planning approach (like "you MUST sterilize X number of women this month" — very wrong!). RCH changed this to a "client-centered" approach — meaning the mother CHOOSES what she wants, and we provide all options.</p>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Definition &amp; Background (Simple Language)</h3>
+  <div class="definition-box">
+    <strong>RCH Programme</strong> = A government health programme that provides all services related to mother's reproductive health + child's health under one umbrella.<br><br>
+    <strong>RCH-I (Phase 1):</strong> Launched in October 1997. Replaced the old Child Survival and Safe Motherhood (CSSM) Programme.<br>
+    <strong>RCH-II (Phase 2):</strong> Launched in April 2005. Became part of NRHM.<br><br>
+    <strong>Simply:</strong> RCH = "One-stop shop for mother + child health services."<br>
+    <strong>Key shift:</strong> From target-based (forced sterilization era) &rarr; to client-centered (your body, your choice!).
+  </div>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">Objectives (What RCH Wants to Do)</h3>
+  <ol class="answer-points">
+    <li>Reduce maternal mortality and morbidity</li>
+    <li>Reduce infant and child mortality</li>
+    <li>Promote family planning with <strong>INFORMED CHOICE</strong> (not forced)</li>
+    <li>Prevent and manage RTI/STI (reproductive tract infections/sexually transmitted infections)</li>
+    <li>Improve adolescent health (teenager health)</li>
+    <li>Universal access to quality reproductive health services</li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">5 Components of RCH (Very Important!)</h3>
+
+  <div class="flowchart">
+    <div class="flowchart-title">Flowchart: Components of RCH Programme</div>
+    <div class="flowchart-container">
+      <div class="flow-box highlight">RCH Programme</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-branch">
+        <div class="flow-branch-item">
+          <div class="flow-branch-line"></div>
+          <div class="flow-box">Safe Motherhood</div>
+        </div>
+        <div class="flow-branch-item">
+          <div class="flow-branch-line"></div>
+          <div class="flow-box">Child Health</div>
+        </div>
+        <div class="flow-branch-item">
+          <div class="flow-branch-line"></div>
+          <div class="flow-box">Family Planning</div>
+        </div>
+        <div class="flow-branch-item">
+          <div class="flow-branch-line"></div>
+          <div class="flow-box">Adolescent Health</div>
+        </div>
+        <div class="flow-branch-item">
+          <div class="flow-branch-line"></div>
+          <div class="flow-box">RTI / STI</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="exam-tip"><strong>📝 Memory Trick:</strong> Remember <strong>"SCARF"</strong> = <strong>S</strong>afe motherhood, <strong>C</strong>hild health, <strong>A</strong>dolescent health, <strong>R</strong>TI/STI, <strong>F</strong>amily planning</div>
+
+  <ol class="answer-points">
+    <li><strong>Safe Motherhood:</strong> ANC (minimum 4 visits), TT injection, IFA tablets, skilled delivery, emergency obstetric care, postnatal care, hospital delivery promotion (JSY/JSSK). Goal: every pregnancy = safe pregnancy.</li>
+    <li><strong>Child Health:</strong> IMNCI (Integrated Management of Neonatal and Childhood Illnesses) — protocol to manage sick children. Universal Immunization Programme (UIP). Vitamin A drops every 6 months. ORS + Zinc for diarrhoea. Managing pneumonia (ARI). Growth monitoring.</li>
+    <li><strong>Family Planning:</strong> Cafeteria approach = offer ALL options, let the couple CHOOSE:
+      <ul class="sub-points">
+        <li>Spacing methods: IUCD (Copper-T), OCP (oral contraceptive pills), condoms, injectable (DMPA/Antara)</li>
+        <li>Limiting methods: tubectomy (female), vasectomy (male)</li>
+        <li>Post-partum family planning: PPIUCD (IUCD inserted right after delivery)</li>
+        <li>Emergency contraception: available for accidental unprotected sex</li>
+      </ul>
+    </li>
+    <li><strong>Adolescent Health (RKSK):</strong> Rashtriya Kishor Swasthya Karyakram — for teenagers. Covers: nutrition, mental health, substance abuse prevention, sexual/reproductive health, menstrual hygiene. Peer educator model — train some teens to teach others. Weekly Iron-Folic Acid Supplementation (WIFS) programme for school children.</li>
+    <li><strong>RTI/STI Management:</strong> Syndromic case management (treat based on symptoms, don't wait for lab reports). STI/RTI clinics at district hospitals. Partner notification and treatment. PPTCT (Prevention of Parent to Child Transmission of HIV).</li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Role of Nurse in RCH</h3>
+  <p class="answer-text">The nurse provides ANC, conducts deliveries, gives immunizations, counsels on family planning, screens for RTI/STI, educates adolescents, coordinates with ASHA/AWW, and maintains all RCH records.</p>
+</div>
+
+<div class="editorial-example">
+  <strong>Example:</strong> A new mother is offered various contraceptive options and chooses a post-partum IUCD (PPIUCD) before discharge, giving her reliable spacing without needing daily pills.
+</div>
+<aside class="editorial-note">
+  <strong>Clinical Note:</strong> The "cafeteria approach" to family planning under RCH ensures higher compliance because clients choose methods that best fit their lifestyle and health needs.
+</aside>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <div class="conclusion-box">
+    RCH Programme is the backbone of India's maternal and child health services. Its biggest achievement is shifting from "forced targets" to "informed choice." By integrating safe motherhood, child health, family planning, adolescent health, and RTI/STI management under one umbrella, it ensures comprehensive care for mothers and children. The nurse midwife is the key implementer of RCH at every level.
+  </div>
+</div>
+`
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // Q9 – 5 Marks – Safe Motherhood
+  // ════════════════════════════════════════════════════════════
+  {
+    id: 9,
+    question: "Safe Motherhood.",
+    marks: 5,
+    repeated: 1,
+    years: "Summer 2023",
+    answer: `
+<div class="answer-section">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Safe Motherhood means making sure that every pregnant woman is healthy, delivers safely, and goes home alive with a healthy baby. It sounds obvious, but sadly, lakhs of mothers die every year worldwide because of preventable pregnancy complications. The Safe Motherhood movement started in 1987 to change this.</p>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Definition (Simple Language)</h3>
+  <div class="definition-box">
+    <strong>Safe Motherhood</strong> = Making sure every woman gets the care she needs to be safe and healthy during pregnancy, childbirth, and after delivery.<br><br>
+    <strong>Safe Motherhood Initiative (SMI):</strong> Launched in <strong>1987 in Nairobi, Kenya</strong> at an international conference organized by WHO, UNICEF, UNFPA, and World Bank.<br><br>
+    <strong>Goal:</strong> Reduce maternal mortality worldwide.<br>
+    <strong>Simply:</strong> "Every pregnancy wanted. Every birth safe. Every mother alive."
+  </div>
+</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <img src="assets/exam_safe_motherhood.png" alt="4 Pillars of Safe Motherhood Diagram" style="width:100%; max-width:600px; border-radius: var(--radius-md); box-shadow: var(--shadow-card);">
+    <div class="figure-caption">Fig 3: Educational Diagram: The 4 Pillars of Safe Motherhood</div>
+  </div>
+  <h3 class="answer-section-title accent-title">4 Pillars of Safe Motherhood (VERY Important!)</h3>
+  <p class="answer-text">Safe Motherhood stands on 4 pillars — like 4 legs of a table. If any one is missing, the table falls:</p>
+
+  <div class="flowchart">
+    <div class="flowchart-title">Flowchart: Four Pillars of Safe Motherhood</div>
+    <div class="flowchart-container">
+      <div class="flow-box highlight">Safe Motherhood</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-branch">
+        <div class="flow-branch-item">
+          <div class="flow-branch-line"></div>
+          <div class="flow-box">Pillar 1: Family Planning</div>
+        </div>
+        <div class="flow-branch-item">
+          <div class="flow-branch-line"></div>
+          <div class="flow-box">Pillar 2: Antenatal Care</div>
+        </div>
+        <div class="flow-branch-item">
+          <div class="flow-branch-line"></div>
+          <div class="flow-box">Pillar 3: Clean &amp; Safe Delivery</div>
+        </div>
+        <div class="flow-branch-item">
+          <div class="flow-branch-line"></div>
+          <div class="flow-box">Pillar 4: Essential Obstetric Care</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="exam-tip"><strong>📝 Memory Trick for 4 Pillars:</strong> <strong>"FACE"</strong> = <strong>F</strong>amily planning, <strong>A</strong>ntenatal care, <strong>C</strong>lean &amp; safe delivery, <strong>E</strong>ssential obstetric care</div>
+
+  <ol class="answer-points">
+    <li><strong>Pillar 1 — Family Planning:</strong> Prevent unwanted pregnancies. Space pregnancies (at least 2-3 years gap). Avoid the "4 toos" — too early (before 18), too many (more than 3), too frequent (gap less than 2 years), too late (after 35). Give women CHOICE of contraception — pills, condoms, IUCD, sterilization.</li>
+    <li><strong>Pillar 2 — Antenatal Care:</strong> Register early (within 12 weeks). Minimum 4 ANC visits. Check: BP, weight, Hb, urine albumin, blood sugar. Give: TT injection, IFA tablets. Screen for: high-risk factors (anaemia, high BP, diabetes, previous C-section). Teach: danger signs, nutrition, birth preparedness.</li>
+    <li><strong>Pillar 3 — Clean &amp; Safe Delivery:</strong> Every delivery by a Skilled Birth Attendant (SBA) — trained nurse/ANM/doctor. Follow the "5 Cleans": clean hands, clean surface, clean cord cutting, clean cord tie, clean wrapping of baby. Promote institutional delivery. Use partograph to monitor labour. Do AMTSL to prevent bleeding.</li>
+    <li><strong>Pillar 4 — Essential Obstetric Care:</strong> When things go WRONG during delivery, the mother needs emergency treatment:
+      <ul class="sub-points">
+        <li><strong>Basic EmOC (BEmOC):</strong> IV antibiotics, oxytocin for bleeding, MgSO4 for fits, remove stuck placenta by hand, assisted delivery (vacuum/forceps)</li>
+        <li><strong>Comprehensive EmOC (CEmOC):</strong> All of BEmOC PLUS C-section and blood transfusion</li>
+        <li>Must be available 24 hours, 7 days a week at designated hospitals</li>
+      </ul>
+    </li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Key Strategies in India for Safe Motherhood</h3>
+  <ol class="answer-points">
+    <li><strong>JSY:</strong> Cash incentive for hospital delivery</li>
+    <li><strong>JSSK:</strong> Everything free — delivery, medicines, blood, ambulance</li>
+    <li><strong>PMSMA:</strong> Free specialist ANC checkup on 9th of every month</li>
+    <li><strong>MDR:</strong> Review every maternal death to learn and prevent</li>
+    <li><strong>SBA Training:</strong> Training all ANMs in skilled birth attendance</li>
+    <li><strong>108/102 Ambulance:</strong> Free emergency transport</li>
+    <li><strong>LaQshya:</strong> Quality improvement in labour rooms (clean, well-equipped, respectful care)</li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Role of Nurse Midwife</h3>
+  <p class="answer-text">The nurse midwife is central to ALL 4 pillars: she provides ANC, conducts safe deliveries, manages emergencies, counsels on family planning, coordinates with ASHA workers, and ensures every mother gets her rights under JSY/JSSK. She is the FACE of Safe Motherhood.</p>
+</div>
+
+<div class="editorial-example">
+  <strong>Example:</strong> During a difficult delivery, the nurse midwife recognizes obstructed labour and quickly arranges transfer to a First Referral Unit (FRU) equipped with Comprehensive EmOC for a C-section.
+</div>
+<aside class="editorial-note">
+  <strong>Clinical Note:</strong> Emergency Obstetric Care (EmOC) is the most critical pillar for preventing maternal mortality once complications arise.
+</aside>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <div class="conclusion-box">
+    Safe Motherhood is every woman's right, not a privilege. It stands on 4 pillars — family planning, antenatal care, clean & safe delivery, and essential obstetric care (remember FACE!). With government support through JSY, JSSK, and EmOC, and the tireless work of nurse midwives, India is making real progress. The goal is simple: no mother should die giving life.
+  </div>
+</div>
+`
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // Q10 – 5 Marks – Legal and Ethical Issues
+  // ════════════════════════════════════════════════════════════
+  {
+    id: 10,
+    question: "Legal and ethical issues in obstetrics.",
+    marks: 5,
+    repeated: 1,
+    years: "Summer 2017",
+    answer: `
+<div class="answer-section">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">When you take care of pregnant women, you deal with sensitive situations — abortion decisions, sex determination, consent for C-section, teenage pregnancy, surrogacy, HIV disclosure. These involve both LEGAL rules (laws you MUST follow or face jail/fine) and ETHICAL principles (moral values that guide your practice). A nurse must know both!</p>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Simple Difference</h3>
+  <div class="definition-box">
+    <strong>Legal Issues</strong> = Rules written in LAW. If you break them, you can be punished — jail, fine, license cancelled.<br>
+    <strong>Ethical Issues</strong> = Rules based on MORALS and VALUES. If you break them, your professional body (INC) can take action.<br><br>
+    <strong>Simple way to remember:</strong><br>
+    Legal = what the LAW says you MUST do<br>
+    Ethical = what your CONSCIENCE says you SHOULD do
+  </div>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">Legal Issues in Obstetrics</h3>
+  <ol class="answer-points">
+    <li><strong>MTP Act, 1971 (Amended 2021):</strong>
+      <ul class="sub-points">
+        <li>Abortion is LEGAL in India (within rules)</li>
+        <li>Up to 20 weeks: 1 doctor's opinion</li>
+        <li>Up to 24 weeks: for special cases (rape, minor, fetal defect) — 2 doctors needed</li>
+        <li>No limit: if Medical Board says baby has serious defect</li>
+        <li>MUST be done at approved centre by registered doctor</li>
+        <li>Unmarried women also included (2021 amendment)</li>
+      </ul>
+    </li>
+    <li><strong>PCPNDT Act, 1994:</strong>
+      <ul class="sub-points">
+        <li>ILLEGAL to tell the sex of baby before birth</li>
+        <li>ILLEGAL to abort because baby is a girl</li>
+        <li>Punishment: up to 5 years jail + Rs. 1 lakh fine</li>
+        <li>All ultrasound centres must display "We do not determine sex of the child"</li>
+      </ul>
+    </li>
+    <li><strong>Informed Consent:</strong> Before ANY procedure (C-section, episiotomy, MTP, IUCD insertion) — get WRITTEN consent. Explain: what you'll do, why, risks, alternatives. For minors: guardian's consent needed. In life-threatening emergency: implied consent is valid.</li>
+    <li><strong>Maternity Benefit Act (2017):</strong> 26 weeks paid leave for first 2 kids. Working women can't be fired during pregnancy.</li>
+    <li><strong>POCSO Act (2012):</strong> If a teenage girl comes pregnant due to sexual abuse — you MUST report to police. It's mandatory, not optional.</li>
+    <li><strong>Surrogacy Act (2021):</strong> Commercial surrogacy is BANNED. Only altruistic surrogacy (close relative, no money involved) is allowed.</li>
+    <li><strong>Consumer Protection Act:</strong> If a nurse/doctor is negligent (e.g., wrong medicine, delayed C-section, sponge left inside) — patient can sue for compensation.</li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Ethical Issues in Obstetrics</h3>
+  <ol class="answer-points">
+    <li><strong>Autonomy (Respect her choice):</strong> The mother has the RIGHT to decide — which hospital, which doctor, natural delivery or C-section, pain medication or not. We can advise, but we can't force.</li>
+    <li><strong>Beneficence (Do good):</strong> Always act in the best interest of BOTH mother and baby. Sometimes what's good for mother may not be good for baby — this is where ethical dilemmas arise.</li>
+    <li><strong>Non-maleficence (Do no harm):</strong> Don't do unnecessary procedures — no unnecessary C-sections just for convenience, no unnecessary episiotomies, no giving medicines without indication.</li>
+    <li><strong>Justice (Be fair):</strong> Treat every patient equally — whether rich or poor, married or unmarried, any caste or religion. An unmarried pregnant teen deserves the SAME care as a married woman.</li>
+    <li><strong>Confidentiality (Keep secrets):</strong> Don't tell others about patient's: HIV status, abortion history, pregnancy details, genetic test results. This is very important and patients trust you with this.</li>
+    <li><strong>Maternal-Fetal Conflict:</strong> What if mother refuses C-section but baby will die without it? Ethically very complex. We must counsel, explain, but ultimately respect her decision (unless court orders otherwise).</li>
+    <li><strong>Cultural Sensitivity:</strong> Some communities have specific practices during pregnancy/delivery. Respect them as long as they don't harm mother or baby.</li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Comparison Table (Scores Extra Marks!)</h3>
+  <div class="answer-table-wrap">
+    <table class="answer-table">
+      <thead><tr><th>Legal Issues</th><th>Ethical Issues</th></tr></thead>
+      <tbody>
+        <tr><td>Written in LAW (Acts, statutes)</td><td>Based on MORAL principles</td></tr>
+        <tr><td>Breaking them = jail, fine, license gone</td><td>Breaking them = professional action by INC</td></tr>
+        <tr><td>Examples: MTP Act, PCPNDT Act, POCSO</td><td>Examples: Autonomy, Confidentiality, Justice</td></tr>
+        <tr><td>Enforced by courts and police</td><td>Enforced by professional nursing bodies</td></tr>
+        <tr><td>Mandatory reporting required</td><td>Based on professional code of ethics</td></tr>
+        <tr><td>Clear right or wrong (black &amp; white)</td><td>Often grey areas (dilemmas)</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Nurse's Responsibility</h3>
+  <p class="answer-text">Know the laws (especially MTP, PCPNDT, POCSO). Always take informed consent. Maintain patient confidentiality. Document everything properly. Report suspected abuse. Practice within your scope. Follow INC Code of Ethics. When in doubt — ask your senior or legal advisor.</p>
+</div>
+
+<div class="editorial-example">
+  <strong>Example:</strong> A mother confides that she previously had a medical termination of pregnancy. The nurse accurately documents this in her confidential file but ensures family members are not told without her consent.
+</div>
+<aside class="editorial-note">
+  <strong>Clinical Note:</strong> Maintaining strict confidentiality regarding a patient's HIV status or history of abortion is not just a legal requirement but a fundamental ethical duty in nursing.
+</aside>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <div class="conclusion-box">
+    In obstetrics, you deal with life, death, and very personal decisions every day. Knowing the legal framework (MTP Act, PCPNDT Act, consent laws) protects you AND your patient. Following ethical principles (autonomy, justice, confidentiality) makes you a good and trusted nurse. A nurse who knows both law and ethics is a nurse who can never go wrong.
+  </div>
+</div>
+`
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // Q11 – 5 Marks – Care of Unmarried Mother
+  // ════════════════════════════════════════════════════════════
+  {
+    id: 11,
+    question: "Care of unmarried mother.",
+    marks: 5,
+    repeated: 1,
+    years: "Winter 2015",
+    answer: `
+<div class="answer-section">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">In India, being an unmarried and pregnant woman is extremely difficult. Society judges her, family may reject her, and she might feel completely alone. But as a nurse, your job is NOT to judge — your job is to CARE. An unmarried mother needs MORE support, MORE compassion, and MORE help than other mothers — not less.</p>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Definition (Simple Language)</h3>
+  <div class="definition-box">
+    <strong>Unmarried Mother</strong> = A woman who becomes pregnant and has a baby without being legally married. This can include: single women, teenagers, victims of rape, women in live-in relationships, or women whose partner left them.<br><br>
+    <strong>As a nurse, remember:</strong> She deserves the EXACT same quality of care as any married mother. No judging, no rude comments, no gossiping. Period.
+  </div>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">Problems Faced by Unmarried Mothers</h3>
+  <p class="answer-text">She faces problems from every direction — society, family, money, health, law, and her own mind:</p>
+
+  <ol class="answer-points">
+    <li><strong>Social Problems (Society is cruel):</strong>
+      <ul class="sub-points">
+        <li>Social stigma — people look down on her, call her "characterless"</li>
+        <li>Family may disown her or throw her out of the house</li>
+        <li>Neighbours gossip, community isolates her</li>
+        <li>Pressure from family to get abortion or forced marriage</li>
+        <li>If she keeps the baby — child also faces stigma (called "illegitimate")</li>
+      </ul>
+    </li>
+    <li><strong>Emotional / Mental Problems (She's suffering inside):</strong>
+      <ul class="sub-points">
+        <li>Extreme anxiety, depression, guilt, shame</li>
+        <li>Fear of the future — "Who will support me? What will happen to my baby?"</li>
+        <li>Low self-esteem, loss of confidence</li>
+        <li>In severe cases — suicidal thoughts</li>
+        <li>No partner support — feeling completely alone</li>
+      </ul>
+    </li>
+    <li><strong>Health Problems (Body suffers because of stress):</strong>
+      <ul class="sub-points">
+        <li>She tries to HIDE her pregnancy — so she misses ANC visits</li>
+        <li>Poor nutrition because of poverty or depression (doesn't eat well)</li>
+        <li>Higher risk of: anaemia, preterm delivery, low birth weight baby</li>
+        <li>May attempt UNSAFE ABORTION — extremely dangerous</li>
+        <li>Late registration means complications caught late</li>
+      </ul>
+    </li>
+    <li><strong>Financial Problems (No money, no support):</strong>
+      <ul class="sub-points">
+        <li>May lose her job when pregnancy becomes visible</li>
+        <li>No financial support from partner or family</li>
+        <li>Can't afford hospital bills, baby supplies, childcare</li>
+        <li>If unmarried and unemployed — no maternity benefits</li>
+      </ul>
+    </li>
+    <li><strong>Legal Problems:</strong>
+      <ul class="sub-points">
+        <li>Issues about child's custody — who gets the child?</li>
+        <li>Child's inheritance rights — can the child inherit from father?</li>
+        <li>If pregnancy is due to rape — police case, court proceedings (more stress)</li>
+        <li>MTP decision — she can get legal abortion under MTP Act 2021</li>
+      </ul>
+    </li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Nursing Management (How to Care for Her)</h3>
+  <ol class="answer-points">
+    <li><strong>Be Non-Judgmental (MOST IMPORTANT):</strong> Accept her as she is. No moral lectures, no rude comments, no eye-rolling. Use therapeutic communication — listen actively, show empathy, maintain eye contact, use her name respectfully. Your attitude sets the tone for her entire hospital experience.</li>
+    <li><strong>Maintain STRICT Confidentiality:</strong> DO NOT tell other staff, patients, or visitors about her marital status. Keep her records private. Don't gossip in the nurse station about her. If she wants privacy — give her a separate room if possible.</li>
+    <li><strong>Provide Complete Physical Care:</strong>
+      <ul class="sub-points">
+        <li>Full ANC — same as any other mother: BP, weight, Hb, urine, TT, IFA</li>
+        <li>Extra attention to nutrition — she may be malnourished</li>
+        <li>Safe and respectful delivery — maintain privacy and dignity</li>
+        <li>Postnatal care — check for bleeding, infection, help with breastfeeding</li>
+        <li>Newborn care — immunization, cord care, feeding support</li>
+      </ul>
+    </li>
+    <li><strong>Emotional and Mental Health Support:</strong>
+      <ul class="sub-points">
+        <li>Listen to her. Let her talk, cry, express her fears</li>
+        <li>Counsel for anxiety and depression — reassure her she's not alone</li>
+        <li>Watch for warning signs: extreme sadness, not eating, talking about death, harming herself</li>
+        <li>Refer to psychiatrist/psychologist if needed</li>
+        <li>Connect her with support groups of women in similar situations</li>
+      </ul>
+    </li>
+    <li><strong>Options Counseling (Help her make decisions):</strong>
+      <ul class="sub-points">
+        <li>If she wants to KEEP the baby — support her, teach parenting skills</li>
+        <li>If she wants ADOPTION — connect with CARA (Central Adoption Resource Authority)</li>
+        <li>If she wants ABORTION (and it's within legal limits) — explain MTP Act, refer to approved centre</li>
+        <li>Family planning counseling — prevent future unplanned pregnancy</li>
+        <li>If family is willing — involve them (WITH her consent only)</li>
+      </ul>
+    </li>
+    <li><strong>Legal Guidance:</strong>
+      <ul class="sub-points">
+        <li>Inform about MTP Act — she CAN get legal abortion (the 2021 amendment specifically includes unmarried women)</li>
+        <li>If rape victim — help file FIR, connect with police, legal aid</li>
+        <li>If minor — POCSO Act applies, mandatory reporting</li>
+        <li>Child's rights — child has right to mother's surname, property rights exist under law</li>
+      </ul>
+    </li>
+    <li><strong>Referral to Support Organizations:</strong>
+      <ul class="sub-points">
+        <li><strong>Women's Helpline:</strong> 181 (free, 24x7)</li>
+        <li><strong>Child Helpline:</strong> 1098 (if she's a minor)</li>
+        <li><strong>Swadhar Greh:</strong> Government shelter homes for women in distress</li>
+        <li><strong>Ujjawala Scheme:</strong> For trafficking victims</li>
+        <li><strong>CARA:</strong> Central Adoption Resource Authority (for adoption process)</li>
+        <li><strong>Local NGOs:</strong> Many NGOs help single mothers with shelter, food, vocational training</li>
+      </ul>
+    </li>
+    <li><strong>Rehabilitation and Follow-up:</strong>
+      <ul class="sub-points">
+        <li>Help her find vocational training (tailoring, computer, nursing assistant etc.)</li>
+        <li>If she's a student — help her continue education</li>
+        <li>Long-term follow-up for both mother and baby</li>
+        <li>Support social reintegration — help her rebuild her life with dignity</li>
+      </ul>
+    </li>
+  </ol>
+</div>
+
+<div class="editorial-example">
+  <strong>Example:</strong> A young unmarried mother seems withdrawn and refuses to feed her newborn. The nurse identifies signs of postnatal depression and gently provides therapeutic communication while referring her to a counselor.
+</div>
+<aside class="editorial-note">
+  <strong>Clinical Note:</strong> Unmarried mothers are at a statistically higher risk for postnatal depression due to social isolation, making emotional support a critical component of nursing care.
+</aside>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <div class="conclusion-box">
+    An unmarried mother is not a "bad person" — she is a woman who needs help. She faces social stigma, emotional trauma, financial problems, and health risks — often all at once. As a nurse midwife, your job is to provide her with the same quality of compassionate, non-judgmental, confidential care that every mother deserves. Remember: she came to you for HELP, not for a lecture. Your kindness can literally save her life and her baby's life.
+  </div>
+</div>
+`
+  }
+];

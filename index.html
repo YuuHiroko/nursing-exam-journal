@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE NURSING EXAM JOURNAL – Unit I</title>
+    <meta name="description" content="MUHS B.Sc Nursing exam model answers.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-inner">
+            <span class="mono-label">VOL. 01 — MIDWIFERY & OBSTETRICS</span>
+            <span class="mono-label right-align">MUHS B.SC NURSING</span>
+        </div>
+    </div>
+
+    <!-- Header Masthead -->
+    <header class="masthead">
+        <div class="masthead-inner">
+            <h1 class="newspaper-title">THE EXAM JOURNAL</h1>
+            <div class="masthead-meta">
+                <div class="meta-line">UNIT I: INTRODUCTION TO MIDWIFERY</div>
+                <div class="meta-line right-align">11 PREVIOUS YEAR QUESTIONS</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-layout">
+        <!-- Sidebar Navigation / Filters -->
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <h2 class="sidebar-title">INDEX</h2>
+                <div class="filter-group">
+                    <button class="filter-btn active" data-filter="all">All Entries</button>
+                    <button class="filter-btn" data-filter="5">5 Marks</button>
+                    <button class="filter-btn" data-filter="15">15 Marks</button>
+                </div>
+            </div>
+            
+            <div class="sidebar-section inverted-section">
+                <h2 class="sidebar-title inverted-title">QUICK STATS</h2>
+                <ul class="stats-list">
+                    <li><span class="stat-lbl">INDIA MMR</span><span class="stat-val">97</span></li>
+                    <li><span class="stat-lbl">SDG TARGET</span><span class="stat-val">&lt;70</span></li>
+                    <li><span class="stat-lbl">HOSPITAL DELIVERIES</span><span class="stat-val">88.6%</span></li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-section border-none">
+                <p class="sidebar-text">Curated model answers crafted for perfect exam scoring. Featuring strict structural adherence, clinical notes, and analytical diagrams.</p>
+            </div>
+        </aside>
+
+        <!-- Main Content (Articles) -->
+        <main class="content-area">
+            <div class="section-header">
+                <h2 class="section-title">ARCHIVED QUESTIONS</h2>
+            </div>
+            <div id="questions-list" class="articles-grid">
+                <!-- Rendered by JS -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Answer Modal / Article Reader -->
+    <div id="answer-overlay" class="overlay hidden" role="dialog" aria-modal="true">
+        <div class="article-modal">
+            <div class="article-header">
+                <button class="close-btn" id="close-modal" aria-label="Close">CLOSE [X]</button>
+                <div class="article-meta">
+                    <span class="badge" id="modal-marks"></span>
+                    <span class="badge-text" id="modal-meta"></span>
+                </div>
+                <h2 id="modal-question-title" class="article-title"></h2>
+            </div>
+            <div class="article-body" id="modal-body"></div>
+            <div class="article-footer">
+                <button class="nav-btn" id="prev-question">&larr; PREVIOUS</button>
+                <span class="mono-label" id="question-counter"></span>
+                <button class="nav-btn" id="next-question">NEXT &rarr;</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <span class="mono-label">© 2026 THE NURSING EXAM JOURNAL</span>
+            <span class="mono-label">STRICTLY EDITORIAL DESIGN</span>
+        </div>
+    </footer>
+
+    <script src="data.js?v=6"></script>
+    <script src="app.js?v=6"></script>
+</body>
+</html>
