@@ -7,6 +7,7 @@ window.QUESTIONS_DATA = [
     question: "Define maternal mortality. List and explain the various causes leading to maternal mortality. Describe the strategies to reduce maternal mortality and role of a nurse midwife in it.",
     marks: 15,
     repeated: 1,
+    unit: 1,
     years: "Winter 2025",
     answer: `
 <div class="answer-section">
@@ -247,7 +248,8 @@ window.QUESTIONS_DATA = [
     id: 2,
     question: "Causes of maternal mortality. / Describe the causes of Maternal mortality and morbidity.",
     marks: 5,
-    repeated: 2,
+    repeated: 1,
+    unit: 1,
     years: "Winter 2016, Summer 2017",
     answer: `
 <div class="answer-section">
@@ -330,6 +332,7 @@ window.QUESTIONS_DATA = [
     question: "Maternal morbidity and mortality",
     marks: 5,
     repeated: 1,
+    unit: 1,
     years: "Summer 2016",
     answer: `
 <div class="answer-section">
@@ -423,7 +426,8 @@ window.QUESTIONS_DATA = [
     id: 4,
     question: "Maternal mortality and nurse's role. / Maternal mortality and nurses role.",
     marks: 5,
-    repeated: 2,
+    repeated: 1,
+    unit: 1,
     years: "Winter 2017, Summer 2022",
     answer: `
 <div class="answer-section">
@@ -494,7 +498,8 @@ window.QUESTIONS_DATA = [
     id: 5,
     question: "Role of a nurse in Midwifery and Obstetrics. / Role of Nurse in Midwifery.",
     marks: 5,
-    repeated: 2,
+    repeated: 1,
+    unit: 1,
     years: "Summer 2019, Winter 2025",
     answer: `
 <div class="answer-section">
@@ -593,6 +598,7 @@ window.QUESTIONS_DATA = [
     question: "National policy and legislation in relation to maternal health",
     marks: 5,
     repeated: 1,
+    unit: 1,
     years: "Summer 2016",
     answer: `
 <div class="answer-section">
@@ -657,6 +663,7 @@ window.QUESTIONS_DATA = [
     question: "National Rural Health Mission (NRHM).",
     marks: 5,
     repeated: 1,
+    unit: 1,
     years: "Winter 2021",
     answer: `
 <div class="answer-section">
@@ -769,6 +776,7 @@ window.QUESTIONS_DATA = [
     question: "RCH (Reproductive and Child Health Programme).",
     marks: 5,
     repeated: 1,
+    unit: 1,
     years: "Summer 2023",
     answer: `
 <div class="answer-section">
@@ -879,6 +887,7 @@ window.QUESTIONS_DATA = [
     question: "Safe Motherhood.",
     marks: 5,
     repeated: 1,
+    unit: 1,
     years: "Summer 2023",
     answer: `
 <div class="answer-section">
@@ -988,6 +997,7 @@ window.QUESTIONS_DATA = [
     question: "Legal and ethical issues in obstetrics.",
     marks: 5,
     repeated: 1,
+    unit: 1,
     years: "Summer 2017",
     answer: `
 <div class="answer-section">
@@ -1094,6 +1104,7 @@ window.QUESTIONS_DATA = [
     question: "Care of unmarried mother.",
     marks: 5,
     repeated: 1,
+    unit: 1,
     years: "Winter 2015",
     answer: `
 <div class="answer-section">

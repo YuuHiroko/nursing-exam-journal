@@ -195,6 +195,24 @@ body {
     color: var(--bg-primary);
 }
 
+/* Unit Buttons */
+.unit-btn {
+    background: transparent;
+    border: var(--border-thin);
+    padding: 0.75rem 1rem;
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: left;
+    transition: none;
+}
+.unit-btn:hover, .unit-btn.active {
+    background: var(--fg-primary);
+    color: var(--bg-primary);
+}
+
 /* Main Content */
 .content-area {
     display: flex;
@@ -208,6 +226,13 @@ body {
     font-family: var(--font-serif);
     font-size: 2rem;
     font-weight: 400;
+}
+.section-subtitle {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--fg-muted);
+    margin-top: 0.5rem;
+    text-transform: uppercase;
 }
 
 .articles-grid {

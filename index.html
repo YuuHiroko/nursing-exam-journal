@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>THE NURSING EXAM JOURNAL – Unit I</title>
-    <meta name="description" content="MUHS B.Sc Nursing exam model answers.">
+    <title>THE NURSING EXAM JOURNAL – Midwifery & Obstetrics</title>
+    <meta name="description" content="MUHS B.Sc Nursing exam model answers for Midwifery and Obstetrics.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css?v=7">
+    <link rel="stylesheet" href="index.css?v=8">
 </head>
 <body>
     <!-- Top Bar -->
@@ -24,8 +24,8 @@
         <div class="masthead-inner">
             <h1 class="newspaper-title">THE EXAM JOURNAL</h1>
             <div class="masthead-meta">
-                <div class="meta-line">UNIT I: INTRODUCTION TO MIDWIFERY</div>
-                <div class="meta-line right-align">11 PREVIOUS YEAR QUESTIONS</div>
+                <div class="meta-line">MIDWIFERY & OBSTETRICAL NURSING</div>
+                <div class="meta-line right-align">21 PREVIOUS YEAR QUESTIONS</div>
             </div>
         </div>
     </header>
@@ -33,8 +33,19 @@
     <div class="main-layout">
         <!-- Sidebar Navigation / Filters -->
         <aside class="sidebar">
+            <!-- Unit Selector -->
             <div class="sidebar-section">
-                <h2 class="sidebar-title">INDEX</h2>
+                <h2 class="sidebar-title">UNITS</h2>
+                <div class="filter-group">
+                    <button class="unit-btn active" data-unit="all">All Units</button>
+                    <button class="unit-btn" data-unit="1">Unit I — Intro to Midwifery</button>
+                    <button class="unit-btn" data-unit="2">Unit II — Anatomy & Physiology</button>
+                </div>
+            </div>
+
+            <!-- Marks Filter -->
+            <div class="sidebar-section">
+                <h2 class="sidebar-title">FILTER BY MARKS</h2>
                 <div class="filter-group">
                     <button class="filter-btn active" data-filter="all">All Entries</button>
                     <button class="filter-btn" data-filter="5">5 Marks</button>
@@ -47,7 +58,7 @@
                 <ul class="stats-list">
                     <li><span class="stat-lbl">INDIA MMR</span><span class="stat-val">97</span></li>
                     <li><span class="stat-lbl">SDG TARGET</span><span class="stat-val">&lt;70</span></li>
-                    <li><span class="stat-lbl">HOSPITAL DELIVERIES</span><span class="stat-val">88.6%</span></li>
+                    <li><span class="stat-lbl">TOTAL QUESTIONS</span><span class="stat-val">21</span></li>
                 </ul>
             </div>
             
@@ -59,7 +70,8 @@
         <!-- Main Content (Articles) -->
         <main class="content-area">
             <div class="section-header">
-                <h2 class="section-title">ARCHIVED QUESTIONS</h2>
+                <h2 class="section-title" id="section-title">ARCHIVED QUESTIONS</h2>
+                <p class="section-subtitle" id="section-subtitle"></p>
             </div>
             <div id="questions-list" class="articles-grid">
                 <!-- Rendered by JS -->
@@ -74,6 +86,7 @@
                 <button class="close-btn" id="close-modal" aria-label="Close">CLOSE [X]</button>
                 <div class="article-meta">
                     <span class="badge" id="modal-marks"></span>
+                    <span class="badge" id="modal-unit" style="background:var(--accent);"></span>
                     <span class="badge-text" id="modal-meta"></span>
                 </div>
                 <h2 id="modal-question-title" class="article-title"></h2>
@@ -95,7 +108,8 @@
         </div>
     </footer>
 
-    <script src="data.js?v=7"></script>
-    <script src="app.js?v=7"></script>
+    <script src="data.js?v=8"></script>
+    <script src="data-unit2.js?v=8"></script>
+    <script src="app.js?v=8"></script>
 </body>
 </html>

@@ -1,9 +1,12 @@
 // THE NURSING EXAM JOURNAL
-// Minimalist Monochrome / Newsprint App Logic
+// Minimalist Monochrome / Newsprint App Logic — Multi-Unit Support
 
 document.addEventListener('DOMContentLoaded', () => {
     const listContainer = document.getElementById('questions-list');
     const filterBtns = document.querySelectorAll('.filter-btn');
+    const unitBtns = document.querySelectorAll('.unit-btn');
+    const sectionTitle = document.getElementById('section-title');
+    const sectionSubtitle = document.getElementById('section-subtitle');
     
     // Modal elements
     const overlay = document.getElementById('answer-overlay');
@@ -11,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalTitle = document.getElementById('modal-question-title');
     const modalMeta = document.getElementById('modal-meta');
     const modalMarks = document.getElementById('modal-marks');
+    const modalUnit = document.getElementById('modal-unit');
     const modalBody = document.getElementById('modal-body');
     const questionCounter = document.getElementById('question-counter');
     const prevBtn = document.getElementById('prev-question');
@@ -18,38 +22,64 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let currentQuestions = [];
     let currentIndex = 0;
+    let activeUnit = 'all';
+    let activeMarks = 'all';
 
-    function renderQuestions(filter = 'all') {
+    // Merge all unit data
+    function getAllQuestions() {
+        const unit1 = window.QUESTIONS_DATA || [];
+        const unit2 = window.QUESTIONS_DATA_UNIT2 || [];
+        return [...unit1, ...unit2];
+    }
+
+    function getUnitLabel(unit) {
+        const labels = { 1: 'UNIT I', 2: 'UNIT II' };
+        return labels[unit] || 'UNIT ' + unit;
+    }
+
+    function renderQuestions() {
         listContainer.innerHTML = '';
-        const data = window.QUESTIONS_DATA || [];
+        const all = getAllQuestions();
         
-        currentQuestions = data.filter(q => filter === 'all' || q.marks == filter);
+        currentQuestions = all.filter(q => {
+            const unitMatch = activeUnit === 'all' || q.unit == activeUnit;
+            const marksMatch = activeMarks === 'all' || q.marks == activeMarks;
+            return unitMatch && marksMatch;
+        });
+
+        // Update header
+        if (activeUnit === 'all') {
+            sectionTitle.textContent = 'ALL ARCHIVED QUESTIONS';
+            sectionSubtitle.textContent = currentQuestions.length + ' questions across all units';
+        } else {
+            const unitNames = { '1': 'UNIT I: INTRODUCTION TO MIDWIFERY', '2': 'UNIT II: ANATOMY & PHYSIOLOGY' };
+            sectionTitle.textContent = unitNames[activeUnit] || 'UNIT ' + activeUnit;
+            sectionSubtitle.textContent = currentQuestions.length + ' questions';
+        }
         
         if (currentQuestions.length === 0) {
-            listContainer.innerHTML = `<div class="question-card" style="justify-content:center; padding: 2rem;"><span class="mono-label">NO ENTRIES FOUND FOR THIS CRITERIA.</span></div>`;
+            listContainer.innerHTML = '<div style="padding:2rem;text-align:center;"><span class="mono-label">NO ENTRIES FOUND FOR THIS CRITERIA.</span></div>';
             return;
         }
 
         currentQuestions.forEach((q, index) => {
             const card = document.createElement('div');
             card.className = 'question-card';
-            
-            // Format number: 01, 02...
             const num = String(index + 1).padStart(2, '0');
             
-            card.innerHTML = `
-                <div class="q-number">${num}</div>
-                <div class="q-content">
-                    <h3 class="q-text">${q.question}</h3>
-                    <div class="q-meta">
-                        <span>REPEATED: ${q.repeated} TIMES</span>
-                        <span>YEARS: ${q.years}</span>
-                    </div>
-                </div>
-                <div class="q-marks-area">
-                    <span class="marks-badge">${q.marks} MARKS</span>
-                </div>
-            `;
+            card.innerHTML =
+                '<div class="q-number">' + num + '</div>' +
+                '<div class="q-content">' +
+                    '<h3 class="q-text">' + q.question + '</h3>' +
+                    '<div class="q-meta">' +
+                        '<span>' + getUnitLabel(q.unit) + '</span>' +
+                        '<span>REPEATED: ' + q.repeated + 'x</span>' +
+                        '<span>' + q.years + '</span>' +
+                    '</div>' +
+                '</div>' +
+                '<div class="q-marks-area">' +
+                    '<span class="marks-badge">' + q.marks + ' M</span>' +
+                '</div>';
             
             card.addEventListener('click', () => openModal(index));
             listContainer.appendChild(card);
@@ -63,11 +93,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const q = currentQuestions[index];
         
         modalTitle.textContent = q.question;
-        modalMeta.textContent = `REPEATED: ${q.repeated} TIMES | ${q.years}`;
-        modalMarks.textContent = `${q.marks} MARKS`;
+        modalMeta.textContent = 'REPEATED: ' + q.repeated + ' TIMES | ' + q.years;
+        modalMarks.textContent = q.marks + ' MARKS';
+        modalUnit.textContent = getUnitLabel(q.unit);
         modalBody.innerHTML = q.answer;
         
-        questionCounter.textContent = `${index + 1} / ${currentQuestions.length}`;
+        questionCounter.textContent = (index + 1) + ' / ' + currentQuestions.length;
         
         prevBtn.disabled = index === 0;
         nextBtn.disabled = index === currentQuestions.length - 1;
@@ -91,12 +122,10 @@ document.addEventListener('DOMContentLoaded', () => {
     prevBtn.addEventListener('click', () => {
         if (currentIndex > 0) openModal(currentIndex - 1);
     });
-
     nextBtn.addEventListener('click', () => {
         if (currentIndex < currentQuestions.length - 1) openModal(currentIndex + 1);
     });
 
-    // Keyboard navigation
     document.addEventListener('keydown', (e) => {
         if (overlay.classList.contains('hidden')) return;
         if (e.key === 'Escape') closeModal();
@@ -104,20 +133,26 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.key === 'ArrowRight' && !nextBtn.disabled) openModal(currentIndex + 1);
     });
 
-    // Filtering
+    // Unit filtering
+    unitBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            unitBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            activeUnit = btn.dataset.unit;
+            renderQuestions();
+        });
+    });
+
+    // Marks filtering
     filterBtns.forEach(btn => {
         btn.addEventListener('click', () => {
             filterBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
-            renderQuestions(btn.dataset.filter);
+            activeMarks = btn.dataset.filter;
+            renderQuestions();
         });
     });
 
     // Initialize
-    if (typeof window.QUESTIONS_DATA !== 'undefined') {
-        renderQuestions();
-    } else {
-        // Wait briefly for data.js to load if deferred
-        setTimeout(() => renderQuestions(), 100);
-    }
+    setTimeout(() => renderQuestions(), 50);
 });
