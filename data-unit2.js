@@ -43,6 +43,35 @@ window.QUESTIONS_DATA_UNIT2 = [
   <strong>Clinical Note:</strong> The Gynaecoid (round) female pelvis is the most favourable for normal vaginal delivery. An Android (heart-shaped) pelvis in a woman increases the risk of obstructed labour.
 </aside>
 
+
+<div class="mnemonic-box">
+  <div class="mnemonic-label">Mnemonic for Female Pelvis Features</div>
+  <div class="mnemonic-word"><span>W</span>ide <span>S</span>hallow <span>L</span>ight</div>
+  <div class="mnemonic-explain">
+    Female pelvis = <strong>W</strong>ide (wider outlet), <strong>S</strong>hallow (short cavity), <strong>L</strong>ight (lighter bones)<br>
+    Male pelvis = Opposite: Narrow, Deep, Heavy<br><br>
+    Subpubic angle: Female = 80-85 degrees (wide) | Male = 50-60 degrees (narrow)<br>
+    <em>Think: Wide angle = baby can pass through!</em>
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> Think of the male pelvis as a narrow bucket (baby can't fit through) and the female pelvis as a wide basin (baby can slide out). That's why men's hips look narrow and women's hips look wider. The female coccyx (tailbone) can even bend backwards during delivery to make more room — like a door that opens wider when you push it!
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>Female pelvis: Wide, Shallow, Light, Round inlet, Wide subpubic angle (80-85 degrees)</li>
+    <li>Male pelvis: Narrow, Deep, Heavy, Heart-shaped inlet, Narrow subpubic angle (50-60 degrees)</li>
+    <li>Female sacrum: Short, wide, more curved | Male sacrum: Long, narrow, less curved</li>
+    <li>Female coccyx is MORE movable (bends back during delivery)</li>
+    <li>Ischial spines: Less prominent in female (more space for baby)</li>
+    <li>Gynaecoid pelvis = most common female type = BEST for normal delivery</li>
+    <li>Write at least 8 differences in a TABLE format for full 5 marks</li>
+  </ul>
+</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
@@ -108,6 +137,36 @@ window.QUESTIONS_DATA_UNIT2 = [
 <aside class="editorial-note">
   <strong>Clinical Note:</strong> The diagonal conjugate (12.5 cm) is the only pelvic diameter that can be measured clinically during vaginal examination. If it is less than 10 cm, normal delivery may not be possible.
 </aside>
+
+
+<div class="mnemonic-box">
+  <div class="mnemonic-label">Mnemonic for 4 Types of Pelvis</div>
+  <div class="mnemonic-word"><span>G</span>-<span>A</span>-<span>A</span>-<span>P</span></div>
+  <div class="mnemonic-explain">
+    <strong>G</strong> = Gynaecoid (Round inlet) — 50%, BEST for delivery<br>
+    <strong>A</strong> = Android (Heart-shaped) — 20%, like male, difficult<br>
+    <strong>A</strong> = Anthropoid (Long oval) — 25%, usually okay<br>
+    <strong>P</strong> = Platypelloid (Flat oval) — 5%, RAREST, very difficult
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> Imagine a baby's head is like a cricket ball. At the pelvic inlet (top), the widest opening is side-to-side (transverse), so the ball enters sideways. At the outlet (bottom), the widest opening is front-to-back (AP), so the ball must turn 90 degrees to come out. This is EXACTLY why babies rotate during delivery — they are fitting through the widest diameter at each level. It's nature's perfect engineering!
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>4 bones: 2 Hip bones (innominate) + 1 Sacrum + 1 Coccyx</li>
+    <li>True pelvis = the birth canal (baby passes through here)</li>
+    <li>False pelvis = above the brim (just supports abdominal organs)</li>
+    <li>At INLET: Transverse diameter is widest (13 cm) — baby enters sideways</li>
+    <li>At OUTLET: AP diameter is widest (13 cm) — baby exits facing back</li>
+    <li>That's why baby ROTATES during delivery (enters transverse, exits AP)</li>
+    <li>Diagonal conjugate (12.5 cm) = ONLY diameter that can be measured clinically</li>
+    <li>If diagonal conjugate is less than 10 cm = normal delivery may not be possible</li>
+  </ul>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
@@ -177,6 +236,36 @@ window.QUESTIONS_DATA_UNIT2 = [
 <aside class="editorial-note">
   <strong>Clinical Note:</strong> Irregular menstrual cycles may indicate hormonal disorders like PCOS. Nurses should document cycle length and pattern during reproductive health assessments.
 </aside>
+
+
+<div class="mnemonic-box">
+  <div class="mnemonic-label">Mnemonic for 4 Phases</div>
+  <div class="mnemonic-word">"<span>M</span>y <span>P</span>eriod <span>O</span>ccurs <span>S</span>oon"</div>
+  <div class="mnemonic-explain">
+    <strong>M</strong> = Menstrual Phase (Day 1-5) — bleeding<br>
+    <strong>P</strong> = Proliferative/Follicular Phase (Day 6-14) — lining rebuilds<br>
+    <strong>O</strong> = Ovulation (Day 14) — egg released (LH surge!)<br>
+    <strong>S</strong> = Secretory/Luteal Phase (Day 15-28) — lining maintained by progesterone
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> Asha wants to avoid pregnancy naturally (Natural Family Planning). The nurse explains: "Your egg is released on Day 14 and lives only 24 hours. Sperm can survive 3 days. So avoid intercourse from Day 11-17 of your cycle." This is the Calendar/Rhythm method — understanding the menstrual cycle makes it possible. However, the nurse also explains it's only 76% effective, so barrier methods are more reliable.
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>Average cycle = 28 days (normal range: 21-35 days)</li>
+    <li>FSH = grows the follicle | LH = triggers ovulation (Day 14 surge)</li>
+    <li>Estrogen = rebuilds lining (proliferative phase) | Progesterone = maintains lining (secretory phase)</li>
+    <li>Ovulation = Day 14 = most fertile day (egg survives only 24 hours)</li>
+    <li>Sperm survives 48-72 hours inside female body</li>
+    <li>Fertile window = Day 12-16 (5 days around ovulation)</li>
+    <li>No pregnancy = corpus luteum dies = progesterone drops = lining sheds = period</li>
+    <li>If pregnant = corpus luteum continues = no period (first sign of pregnancy!)</li>
+  </ul>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
@@ -249,6 +338,39 @@ window.QUESTIONS_DATA_UNIT2 = [
 <aside class="editorial-note">
   <strong>Clinical Note:</strong> Understanding fertilization helps nurses counsel infertile couples. Common causes of infertility include blocked tubes (preventing sperm-egg meeting), low sperm count, and anovulation.
 </aside>
+
+
+<div class="mnemonic-box">
+  <div class="mnemonic-label">Mnemonic for Steps of Fertilization</div>
+  <div class="mnemonic-word"><span>C</span>-<span>A</span>-<span>P</span>-<span>C</span>-<span>F</span>-<span>S</span></div>
+  <div class="mnemonic-explain">
+    <strong>C</strong> = Capacitation (sperm gets activated, 7 hours)<br>
+    <strong>A</strong> = Acrosome Reaction (enzymes dissolve egg coating)<br>
+    <strong>P</strong> = Penetration (1 sperm enters zona pellucida)<br>
+    <strong>C</strong> = Cortical Reaction (blocks other sperm)<br>
+    <strong>F</strong> = Fusion of nuclei (23+23 = 46 chromosomes)<br>
+    <strong>S</strong> = Sex determined (XX=girl, XY=boy)
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> Think of fertilization like a race with 300 million runners (sperm) trying to reach 1 finish line (egg). First, all runners must "warm up" for 7 hours (capacitation). Then they must break through 2 barriers (corona radiata and zona pellucida) using special tools (enzymes). The FIRST runner to reach the egg wins, and immediately the gate closes behind him (cortical reaction) — no other runner can enter. The winner merges with the egg, and a new life begins!
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>Site of fertilization = Ampulla of Fallopian tube (outer 1/3rd)</li>
+    <li>Timing = Within 24 hours of ovulation</li>
+    <li>Capacitation takes 7 hours (sperm must undergo this to penetrate egg)</li>
+    <li>Hyaluronidase = enzyme released from acrosome (dissolves corona radiata)</li>
+    <li>Only 1 sperm out of 300+ million can fertilize the egg</li>
+    <li>Cortical reaction = blocks polyspermy (prevents multiple sperm entering)</li>
+    <li>Zygote = fertilized egg = 46 chromosomes (23 from each parent)</li>
+    <li>Sex is determined by SPERM: X sperm = girl (XX), Y sperm = boy (XY)</li>
+    <li>Conditions needed: ovulation, motile sperm, open tubes, proper timing</li>
+  </ul>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
@@ -330,6 +452,37 @@ window.QUESTIONS_DATA_UNIT2 = [
   <strong>Clinical Note:</strong> Prostaglandin E2 keeps the ductus arteriosus open in fetal life. After birth, increased oxygen causes it to close. Indomethacin can be given to help close a PDA in premature babies.
 </aside>
 
+
+<div class="mnemonic-box">
+  <div class="mnemonic-label">Mnemonic for 3 Fetal Shunts</div>
+  <div class="mnemonic-word"><span>D</span>-<span>F</span>-<span>D</span></div>
+  <div class="mnemonic-explain">
+    <strong>D</strong> = Ductus Venosus (bypasses liver) — becomes Ligamentum Venosum<br>
+    <strong>F</strong> = Foramen Ovale (in heart, RA to LA) — becomes Fossa Ovalis<br>
+    <strong>D</strong> = Ductus Arteriosus (PA to Aorta) — becomes Ligamentum Arteriosum<br><br>
+    <em>All 3 exist to BYPASS the non-working fetal lungs!</em>
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> Think of fetal circulation like a highway with 3 shortcuts. Normally, blood must go through the lungs (like a long detour). But since the baby's lungs are like a closed shop (not working yet), the blood takes 3 shortcuts to avoid them: Shortcut 1 (Ductus Venosus) skips the liver. Shortcut 2 (Foramen Ovale) crosses directly from right to left side of heart. Shortcut 3 (Ductus Arteriosus) jumps from lung-pipe to body-pipe. After birth, when the baby takes its first breath, the "shop opens" (lungs start working), and all 3 shortcuts close permanently!
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>Fetal lungs DO NOT work — placenta acts as the lung</li>
+    <li>3 shunts bypass the lungs: Ductus Venosus, Foramen Ovale, Ductus Arteriosus</li>
+    <li>Umbilical VEIN carries oxygenated blood TO fetus (only vein with O2 blood!)</li>
+    <li>2 Umbilical ARTERIES carry deoxygenated blood FROM fetus to placenta</li>
+    <li>After birth: baby's first cry expands lungs, shunts start closing</li>
+    <li>PDA (Patent Ductus Arteriosus) = common congenital defect if ductus doesn't close</li>
+    <li>PDA sound = continuous "machinery murmur"</li>
+    <li>Indomethacin = drug to close PDA in premature babies</li>
+    <li>Prostaglandin E2 keeps ductus open in fetal life</li>
+  </ul>
+</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
@@ -399,6 +552,39 @@ window.QUESTIONS_DATA_UNIT2 = [
   <strong>Clinical Note:</strong> Monitoring placental function through ultrasound (placental grading) and Doppler studies helps identify placental insufficiency, which can cause IUGR (Intrauterine Growth Restriction).
 </aside>
 
+
+<div class="mnemonic-box">
+  <div class="mnemonic-label">Mnemonic for Placental Functions</div>
+  <div class="mnemonic-word"><span>R</span>-<span>N</span>-<span>E</span>-<span>P</span>-<span>E</span>-<span>S</span>-<span>I</span></div>
+  <div class="mnemonic-explain">
+    <strong>R</strong> = Respiratory (like lungs — O2 in, CO2 out)<br>
+    <strong>N</strong> = Nutritive (like gut — glucose, amino acids)<br>
+    <strong>E</strong> = Excretory (like kidneys — removes waste)<br>
+    <strong>P</strong> = Protective (barrier — blocks most bacteria)<br>
+    <strong>E</strong> = Endocrine (hormone factory — hCG, hPL, estrogen, progesterone)<br>
+    <strong>S</strong> = Storage (stores glycogen, iron, fat)<br>
+    <strong>I</strong> = Immunological (transfers IgG antibodies to baby)
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> Think of the placenta as a "hotel room service" for the baby. Room service brings food (nutritive), fresh air (respiratory), takes away garbage (excretory), has a security guard at the door (protective barrier), sends messages to the hotel management (endocrine), keeps a mini-fridge stocked (storage), and gives the baby a temporary security badge (immunological/IgG transfer). But the security guard isn't perfect — some bad guys (viruses like Rubella, HIV) can sneak past!
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>Placenta = baby's life support system (lungs + gut + kidneys + hormone factory all in one)</li>
+    <li>hCG = detected by pregnancy test kit (produced by placenta)</li>
+    <li>hCG maintains corpus luteum in early pregnancy (first 12 weeks)</li>
+    <li>Progesterone from placenta prevents uterine contractions (maintains pregnancy)</li>
+    <li>Placental barrier is NOT perfect — Rubella, HIV, drugs, alcohol CAN cross it</li>
+    <li>IgG antibodies cross placenta = passive immunity for baby (lasts 3-6 months after birth)</li>
+    <li>Weight of placenta at term = ~500 gm | Diameter = ~20 cm</li>
+    <li>Placental insufficiency causes IUGR (baby doesn't grow properly)</li>
+  </ul>
+</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
@@ -459,6 +645,33 @@ window.QUESTIONS_DATA_UNIT2 = [
 <aside class="editorial-note">
   <strong>Clinical Note:</strong> Active Management of Third Stage of Labour (AMTSL) — giving oxytocin within 1 minute of baby's birth, controlled cord traction, and uterine massage — reduces PPH risk by 60%. This is the standard of care.
 </aside>
+
+
+<div class="mnemonic-box">
+  <div class="mnemonic-label">Mnemonic for Placental Separation</div>
+  <div class="mnemonic-word"><span>S</span>chultze = <span>S</span>hiny | <span>D</span>uncan = <span>D</span>irty</div>
+  <div class="mnemonic-explain">
+    <strong>S</strong>chultze = <strong>S</strong>hiny (fetal) side appears first = Centre separation = 80% = Safer<br>
+    <strong>D</strong>uncan = <strong>D</strong>irty (maternal/raw) side appears first = Edge separation = 20% = More bleeding
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> Imagine peeling a sticker off a surface. If you peel from the CENTRE (like lifting an umbrella), it comes off cleanly in one piece — that's Schultze (shiny side up, clean, complete). But if you peel from the EDGE (sliding it off sideways), it often tears and leaves bits behind — that's Duncan (messy side up, bits may remain, more bleeding). That's why Schultze is safer!
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>Schultze (80%) = Centre first = Shiny/fetal side = Less bleeding = Safer = Complete</li>
+    <li>Duncan (20%) = Edge first = Dirty/maternal side = More bleeding = Risk of retained bits</li>
+    <li>Signs of separation: GUSH = Globular uterus, Uterus rises, Sudden blood, Hanging cord lengthens</li>
+    <li>AMTSL = Oxytocin within 1 min + Controlled Cord Traction + Uterine massage</li>
+    <li>AMTSL reduces PPH risk by 60%</li>
+    <li>Cord clamp test: push uterus up — if cord retracts, placenta NOT separated; if stays, it IS separated</li>
+    <li>3rd stage of labour = from baby's birth to placenta delivery (should be <30 minutes)</li>
+  </ul>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
@@ -537,6 +750,40 @@ window.QUESTIONS_DATA_UNIT2 = [
   <strong>Clinical Note:</strong> Normal AFI (Amniotic Fluid Index) is 8-24 cm. Less than 5 cm = oligohydramnios. More than 25 cm = polyhydramnios. AFI is measured by adding the deepest pocket of fluid in each of the 4 quadrants of the uterus.
 </aside>
 
+
+<div class="mnemonic-box">
+  <div class="mnemonic-label">Mnemonic for Functions of Amniotic Fluid</div>
+  <div class="mnemonic-word"><span>P</span>-<span>T</span>-<span>M</span>-<span>A</span>-<span>L</span>-<span>S</span>-<span>U</span>-<span>C</span></div>
+  <div class="mnemonic-explain">
+    <strong>P</strong> = Protection (shock absorber)<br>
+    <strong>T</strong> = Temperature regulation<br>
+    <strong>M</strong> = Movement allowed (muscle development)<br>
+    <strong>A</strong> = Adhesion prevention<br>
+    <strong>L</strong> = Lung development (baby "breathes" fluid)<br>
+    <strong>S</strong> = Swallowing practice (GI development)<br>
+    <strong>U</strong> = Umbilical cord protection<br>
+    <strong>C</strong> = Cervix dilation during labour (fluid wedge)
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> Think of amniotic fluid as the baby's personal swimming pool inside the womb. The pool water (1) acts as a cushion if mom falls (protection), (2) keeps the pool at a constant warm temperature, (3) lets the baby swim and exercise (muscle development), (4) prevents the baby's fingers and toes from sticking together (no adhesions). The baby even drinks the pool water (practice swallowing) and "breathes" it in and out (lung exercise). Too much water (polyhydramnios) or too little (oligohydramnios) signals something is wrong with the baby.
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>Colour: Clear, pale straw | pH: 7.0-7.25 (slightly alkaline)</li>
+    <li>Volume peaks at 36-38 weeks = 800-1000 ml, then decreases</li>
+    <li>Normal AFI = 8-24 cm</li>
+    <li>Polyhydramnios (too much) >2000 ml: causes = diabetes, twins, anencephaly, esophageal atresia</li>
+    <li>Oligohydramnios (too little) <300 ml: causes = renal agenesis, IUGR, post-term, PROM</li>
+    <li>Baby swallows ~500 ml/day and urinates ~600 ml/day of amniotic fluid</li>
+    <li>Green fluid = meconium = fetal distress (EMERGENCY!)</li>
+    <li>Golden fluid = Rh incompatibility (bilirubin)</li>
+  </ul>
+</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
@@ -599,6 +846,25 @@ window.QUESTIONS_DATA_UNIT2 = [
 <aside class="editorial-note">
   <strong>Clinical Note:</strong> Fetal breathing movements (visible on ultrasound) are an important component of the Biophysical Profile (BPP), which assesses fetal well-being. Absence of breathing movements may indicate fetal distress.
 </aside>
+
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> Imagine keeping a goldfish in a bowl WITH water vs WITHOUT water. With water, the fish can swim freely, its fins develop properly, it stays warm, and nothing sticks to it. Without water — the fish gets crushed, can't move, can't breathe, and dies. Amniotic fluid does the same thing for the baby! A baby with very low amniotic fluid (oligohydramnios) can develop "Potter facies" — a flat, squished face with compressed limbs — just like a fish without water.
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>Amniotic fluid = essential for FETAL survival, growth, and organ development</li>
+    <li>Lung development: baby "breathes" fluid in and out (fetal breathing movements)</li>
+    <li>Without fluid = pulmonary hypoplasia (underdeveloped lungs) — baby can die</li>
+    <li>GI development: fetus swallows fluid from 12 weeks (practices for feeding after birth)</li>
+    <li>Musculoskeletal: free movement in fluid is essential for bone and muscle development</li>
+    <li>Potter syndrome = renal agenesis = no urine = no amniotic fluid = compressed limbs + flat face</li>
+    <li>Fetal breathing movements = part of Biophysical Profile (BPP) — indicates fetal well-being</li>
+    <li>Cord protection: fluid keeps cord floating, prevents compression</li>
+  </ul>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
@@ -675,6 +941,37 @@ window.QUESTIONS_DATA_UNIT2 = [
 <aside class="editorial-note">
   <strong>Clinical Note:</strong> Green-stained amniotic fluid during labour is a red flag. The nurse must immediately notify the doctor, prepare for neonatal resuscitation (suction, oxygen), and monitor fetal heart rate continuously.
 </aside>
+
+
+<div class="mnemonic-box">
+  <div class="mnemonic-label">Mnemonic for AF Colour Meaning</div>
+  <div class="mnemonic-word"><span>C</span>-<span>G</span>-<span>G</span>-<span>B</span>-<span>D</span></div>
+  <div class="mnemonic-explain">
+    <strong>C</strong> = Clear = Normal (no worries)<br>
+    <strong>G</strong> = Green = Meconium = Fetal distress (EMERGENCY)<br>
+    <strong>G</strong> = Golden = Rh incompatibility (bilirubin)<br>
+    <strong>B</strong> = Blood-stained = Abruption/trauma<br>
+    <strong>D</strong> = Dark brown = Fetal death (old blood)
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> During labour, the nurse ruptures the membranes and notices the fluid is GREEN. She immediately knows this means the baby has passed meconium (stool) — a sign of fetal distress, like the baby saying "I'm in trouble!" She calls the doctor, starts continuous fetal heart monitoring, prepares the suction machine and oxygen for when the baby is born (in case baby inhales the meconium), and keeps the neonatal resuscitation team on standby. The COLOR of amniotic fluid can literally tell you whether the baby is okay or in danger.
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>Normal AFI = 8-24 cm | Oligo = <5 cm | Poly = >25 cm</li>
+    <li>SDP (Single Deepest Pocket): Normal = 2-8 cm</li>
+    <li>L/S ratio ≥ 2:1 = lungs mature (important before preterm delivery)</li>
+    <li>Amniocentesis tests: chromosomes (Down syndrome), AFP (neural tube defects), bilirubin (Rh), L/S ratio</li>
+    <li>Green AF = meconium = prepare for neonatal resuscitation IMMEDIATELY</li>
+    <li>Foul-smelling AF = chorioamnionitis (infection) = IV antibiotics + urgent delivery</li>
+    <li>AFP high in AF = neural tube defects (spina bifida, anencephaly)</li>
+    <li>Fetal fibronectin in vaginal fluid after 22 weeks = risk of preterm labour</li>
+  </ul>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>

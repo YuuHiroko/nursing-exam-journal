@@ -431,6 +431,78 @@ body {
     margin-right: 0.5rem;
 }
 
+/* Remember / Quick Revision Box */
+.remember-box {
+    background: var(--fg-primary);
+    color: var(--bg-primary);
+    padding: 1.5rem 2rem;
+    margin: 2rem 0;
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+.remember-box .remember-title {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+    color: var(--bg-primary);
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 0.5rem;
+}
+.remember-box ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+.remember-box ul li {
+    padding: 0.3rem 0;
+    padding-left: 1.25rem;
+    position: relative;
+}
+.remember-box ul li::before {
+    content: '\2713';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-weight: 700;
+}
+
+/* Mnemonic Box */
+.mnemonic-box {
+    border: 3px solid var(--fg-primary);
+    padding: 1.5rem 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+.mnemonic-box .mnemonic-label {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--fg-muted);
+    margin-bottom: 0.75rem;
+}
+.mnemonic-box .mnemonic-word {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.75rem;
+}
+.mnemonic-box .mnemonic-word span {
+    color: var(--accent);
+}
+.mnemonic-box .mnemonic-explain {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    line-height: 1.6;
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 /* Definition Box */
 .definition-box {
     border-top: var(--border-thick);
@@ -810,8 +882,18 @@ body {
     /* Exam tip */
     .exam-tip { font-size: 0.85rem; padding: 0.75rem; }
 
+    /* Remember box */
+    .remember-box { padding: 1rem 1.25rem; margin: 1.25rem 0; font-size: 0.85rem; }
+    .remember-box .remember-title { font-size: 0.7rem; }
+
+    /* Mnemonic box */
+    .mnemonic-box { padding: 1rem; margin: 1.25rem 0; }
+    .mnemonic-box .mnemonic-word { font-size: 1.5rem; }
+    .mnemonic-box .mnemonic-explain { font-size: 0.8rem; }
+
     /* Conclusion box */
     .conclusion-box { font-size: 0.95rem; }
+
 
     /* ── TABLES (Scrollable + Readable) ── */
     .answer-table-wrap {

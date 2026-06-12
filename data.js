@@ -315,6 +315,35 @@ window.QUESTIONS_DATA = [
   <strong>Clinical Note:</strong> Regular monitoring of haemoglobin levels during ANC can prevent severe anaemia, significantly reducing the risk of indirect maternal mortality.
 </aside>
 
+
+<div class="mnemonic-box">
+  <div class="mnemonic-label">Mnemonic for Direct Causes</div>
+  <div class="mnemonic-word"><span>H</span>-<span>O</span>-<span>U</span>-<span>S</span>-<span>E</span></div>
+  <div class="mnemonic-explain">
+    <strong>H</strong> = Haemorrhage (PPH/APH) — #1 killer<br>
+    <strong>O</strong> = Obstructed Labour<br>
+    <strong>U</strong> = Unsafe Abortion<br>
+    <strong>S</strong> = Sepsis (Puerperal infection)<br>
+    <strong>E</strong> = Eclampsia (fits from high BP)
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> Imagine Sunita, a 25-year-old woman in a village. She delivers at home with a dai. After delivery, she starts bleeding heavily (PPH) but the dai doesn't know what to do. By the time the family arranges transport to the hospital — it's too late. If an ANM had been present, she would have given oxytocin immediately and saved Sunita's life. THIS is why institutional delivery matters.
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>Direct causes cause 80% of maternal deaths, indirect causes 20%</li>
+    <li>Haemorrhage (bleeding) is the #1 direct killer worldwide</li>
+    <li>Anaemia is the #1 indirect killer — over 50% Indian pregnant women are anaemic</li>
+    <li>India's MMR = 97 | SDG target = below 70 by 2030</li>
+    <li>For every 1 death, 20-30 women suffer serious illness (morbidity)</li>
+    <li>Most maternal deaths are PREVENTABLE with proper care</li>
+  </ul>
+</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
@@ -410,6 +439,36 @@ window.QUESTIONS_DATA = [
   <strong>Clinical Note:</strong> Tracking "near-miss" cases is now considered equally vital as maternal death reviews, as it highlights systemic gaps in emergency obstetric care.
 </aside>
 
+
+<div class="mnemonic-box">
+  <div class="mnemonic-label">Mnemonic for Maternal Morbidity Conditions</div>
+  <div class="mnemonic-word"><span>F</span>-<span>A</span>-<span>P</span>-<span>D</span>-<span>I</span>-<span>I</span></div>
+  <div class="mnemonic-explain">
+    <strong>F</strong> = Fistula (VVF/RVF) — continuous urine/stool leaking<br>
+    <strong>A</strong> = Anaemia — weakness, breathlessness<br>
+    <strong>P</strong> = Prolapse — uterus comes down<br>
+    <strong>D</strong> = Depression — postnatal, can't bond with baby<br>
+    <strong>I</strong> = Infection — chronic pelvic infection<br>
+    <strong>I</strong> = Infertility — can't conceive again
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> Radha, 22, had obstructed labour for 3 days before being taken to hospital. The baby died, and Radha developed a vesicovaginal fistula (VVF) — she now leaks urine continuously. Her husband left her, she can't work, and she lives in isolation. She didn't die, but her life is destroyed. This is maternal morbidity — and it's 20-30 times more common than death.
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>Mortality = Death | Morbidity = Sickness (alive but suffering)</li>
+    <li>For every 1 maternal death, 20-30 women are seriously sick</li>
+    <li>Near-miss = woman who almost died but survived (very important to study)</li>
+    <li>India's MMR = 97 | Global MMR = 223 | SDG target = below 70</li>
+    <li>Obstetric fistula is the most devastating morbidity — woman leaks urine/stool 24/7</li>
+    <li>Tracking both morbidity AND mortality is essential to improve care</li>
+  </ul>
+</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
@@ -481,6 +540,38 @@ window.QUESTIONS_DATA = [
 <aside class="editorial-note">
   <strong>Clinical Note:</strong> The nurse midwife is often the primary healthcare provider recognizing danger signs like pre-eclampsia, making early referral crucial to maternal survival.
 </aside>
+
+
+<div class="mnemonic-box">
+  <div class="mnemonic-label">Mnemonic for Nurse's Role</div>
+  <div class="mnemonic-word"><span>A</span>-<span>I</span>-<span>D</span>-<span>E</span>-<span>C</span>-<span>H</span>-<span>D</span></div>
+  <div class="mnemonic-explain">
+    <strong>A</strong> = ANC (Antenatal Care) — register, check, give IFA/TT<br>
+    <strong>I</strong> = Identify high-risk mothers early<br>
+    <strong>D</strong> = Delivery care — clean, safe, use partograph<br>
+    <strong>E</strong> = Emergency management — PPH, eclampsia<br>
+    <strong>C</strong> = Community work — with ASHA, VHND<br>
+    <strong>H</strong> = Health education — danger signs, nutrition<br>
+    <strong>D</strong> = Documentation — MCP card, registers
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> Priya, an ANM in a village, notices that 32-year-old Meena (4th pregnancy) has a BP of 160/110 during routine ANC. Priya immediately gives her a left lateral position, arranges transport, and refers her to the district hospital. At the hospital, Meena is diagnosed with severe preeclampsia and started on MgSO4. Both mother and baby are saved. Without Priya's early detection, Meena could have developed eclampsia (fits) at home and died.
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>Nurse midwife works at ALL stages: Ante-natal, Intra-natal, Post-natal</li>
+    <li>Minimum 4 ANC visits required (WHO recommends 8)</li>
+    <li>AMTSL = Oxytocin within 1 min of delivery (prevents PPH)</li>
+    <li>MgSO4 = Drug of choice for eclampsia</li>
+    <li>High-risk factors: age <18 or >35, prev. C-section, twins, Hb<7, high BP</li>
+    <li>Postnatal visits: Day 3, Day 7, Day 42</li>
+    <li>Danger signs to teach: heavy bleeding, severe headache, fits, fever, no baby movement</li>
+  </ul>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
@@ -581,6 +672,36 @@ window.QUESTIONS_DATA = [
   <strong>Clinical Note:</strong> Respectful Maternity Care (RMC) is increasingly prioritized in midwifery to ensure the emotional well-being of the mother alongside physical safety.
 </aside>
 
+
+<div class="mnemonic-box">
+  <div class="mnemonic-label">Mnemonic for 5 Roles</div>
+  <div class="mnemonic-word"><span>A</span>-<span>I</span>-<span>P</span>-<span>C</span>-<span>A</span></div>
+  <div class="mnemonic-explain">
+    <strong>A</strong> = Antenatal Care (before delivery)<br>
+    <strong>I</strong> = Intranatal Care (during delivery)<br>
+    <strong>P</strong> = Postnatal Care (after delivery)<br>
+    <strong>C</strong> = Community Health Role<br>
+    <strong>A</strong> = Administrative & Research Role
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> During a home visit on Day 7, nurse Kavita finds that new mother Geeta has foul-smelling vaginal discharge and 102 degree F fever. She suspects puerperal sepsis, starts oral antibiotics, and immediately refers Geeta to the CHC. She also checks the baby — finds the cord is red and swollen (umbilical sepsis). Both mother and baby get timely treatment. This is the lifesaving power of postnatal home visits.
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>ICM Definition: Nurse midwife = trained person who independently manages normal pregnancy and delivery</li>
+    <li>Partograph = labour monitoring chart (most important tool during delivery)</li>
+    <li>AMTSL = Active Management of Third Stage of Labour (oxytocin + cord traction + massage)</li>
+    <li>RMC = Respectful Maternity Care — NO scolding, maintain privacy</li>
+    <li>Immediate newborn care: Dry, Skin-to-skin, Breastfeed within 1 hour</li>
+    <li>Government schemes nurse must know: JSY, JSSK, PMSMA</li>
+    <li>Documents: MCP card, ANC register, delivery register, immunization register</li>
+  </ul>
+</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
@@ -645,6 +766,36 @@ window.QUESTIONS_DATA = [
 <aside class="editorial-note">
   <strong>Clinical Note:</strong> Understanding the MTP Act empowers nurses to guide women toward safe abortion services, thereby reducing mortality from illegal, unsafe procedures.
 </aside>
+
+
+<div class="mnemonic-box">
+  <div class="mnemonic-label">Mnemonic for Key Years</div>
+  <div class="mnemonic-word"><span>M</span>-<span>P</span>-<span>R</span>-<span>N</span>-<span>J</span>-<span>J</span></div>
+  <div class="mnemonic-explain">
+    <strong>M</strong> = MTP Act (1971, amended 2021) — legal abortion<br>
+    <strong>P</strong> = PCPNDT Act (1994) — bans sex determination<br>
+    <strong>R</strong> = RCH Programme (1997) — reproductive health<br>
+    <strong>N</strong> = NRHM (2005) — rural health mission<br>
+    <strong>J</strong> = JSY (2005) — cash for hospital delivery<br>
+    <strong>J</strong> = JSSK (2011) — everything FREE for delivery
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> A 17-year-old unmarried girl comes to the health centre crying — she is 16 weeks pregnant due to sexual abuse. The nurse knows the MTP Act allows abortion up to 24 weeks for such cases. She counsels the girl, reports the case under POCSO Act, and arranges safe abortion at the district hospital with 2 doctors' opinions. Knowledge of the law directly saved this girl's life and future.
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>MTP Act: Up to 20 weeks = 1 doctor | Up to 24 weeks = 2 doctors (special cases)</li>
+    <li>PCPNDT Act: Sex determination = ILLEGAL | Fine Rs. 1 lakh + 5 years jail</li>
+    <li>Maternity Benefit Act (2017): 26 weeks paid leave for first 2 children</li>
+    <li>JSSK = ZERO payment for mother and baby (delivery, C-section, medicines, transport)</li>
+    <li>Surrogacy Act (2021): Only altruistic surrogacy allowed, commercial surrogacy BANNED</li>
+    <li>SDG 3.1: Reduce MMR below 70 by 2030</li>
+  </ul>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
@@ -759,6 +910,37 @@ window.QUESTIONS_DATA = [
   <strong>Clinical Note:</strong> The integration of ASHA workers into the health system has been the most critical factor in increasing institutional deliveries under NRHM.
 </aside>
 
+
+<div class="mnemonic-box">
+  <div class="mnemonic-label">Mnemonic for NRHM Components</div>
+  <div class="mnemonic-word"><span>A</span>-<span>J</span>-<span>J</span>-<span>V</span>-<span>A</span>-<span>I</span></div>
+  <div class="mnemonic-explain">
+    <strong>A</strong> = ASHA workers — 1 per 1000 village population<br>
+    <strong>J</strong> = JSY — cash incentive for hospital delivery<br>
+    <strong>J</strong> = JSSK — free delivery and treatment<br>
+    <strong>V</strong> = VHSNC — Village Health Committee<br>
+    <strong>A</strong> = Ambulance (108/102) — free emergency transport<br>
+    <strong>I</strong> = IPHS — Indian Public Health Standards for facilities
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> Fatima, an ASHA worker in rural Bihar, identifies Reshma as pregnant during a household survey. She registers Reshma for ANC, accompanies her to all 4 checkups, arranges the 108 ambulance for delivery, and stays with her at the hospital. After safe delivery, Reshma gets Rs. 1400 under JSY, and Fatima gets Rs. 600 as incentive. Before NRHM, Reshma would have delivered at home with a dai — risking her life.
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>NRHM launched: 12th April 2005 | Focus: 18 high-priority states</li>
+    <li>2013: NRHM merged into NHM (National Health Mission) = NRHM + NUHM</li>
+    <li>ASHA = Accredited Social Health Activist (village-level link worker)</li>
+    <li>ASHA gets Rs. 600 per institutional delivery she facilitates</li>
+    <li>Before NRHM: Hospital deliveries = 40.7% | After: 88.6%</li>
+    <li>Before NRHM: MMR = 254 | Now: 97 (massive improvement!)</li>
+    <li>Rogi Kalyan Samiti = hospital management committee (makes hospitals accountable)</li>
+  </ul>
+</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
@@ -870,6 +1052,35 @@ window.QUESTIONS_DATA = [
   <strong>Clinical Note:</strong> The "cafeteria approach" to family planning under RCH ensures higher compliance because clients choose methods that best fit their lifestyle and health needs.
 </aside>
 
+
+<div class="mnemonic-box">
+  <div class="mnemonic-label">Mnemonic for 5 RCH Components</div>
+  <div class="mnemonic-word"><span>S</span>-<span>C</span>-<span>F</span>-<span>A</span>-<span>R</span></div>
+  <div class="mnemonic-explain">
+    <strong>S</strong> = Safe Motherhood (ANC, delivery, PNC)<br>
+    <strong>C</strong> = Child Health (immunization, IMNCI)<br>
+    <strong>F</strong> = Family Planning (spacing, contraception)<br>
+    <strong>A</strong> = Adolescent Health (RKSK, nutrition)<br>
+    <strong>R</strong> = RTI/STI Management (testing, treatment)
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> Under RCH, 16-year-old Anjali visits a youth-friendly clinic for menstrual problems. The nurse provides counseling on menstrual hygiene, nutrition (IFA tablets), and educates her about the risks of early marriage. Previously, Anjali's family planned to marry her off at 17 — but after counseling, they agreed to wait until she finishes college. This is the adolescent health component of RCH in action.
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>RCH = Reproductive and Child Health Programme</li>
+    <li>RCH-I launched in 1997 | RCH-II in 2005 (under NRHM)</li>
+    <li>Key shift: Target-based approach changed to Client-centered approach</li>
+    <li>5 components: Safe Motherhood, Child Health, Family Planning, Adolescent Health, RTI/STI</li>
+    <li>RCH-II integrated under NRHM/NHM framework</li>
+    <li>RKSK = Rashtriya Kishor Swasthya Karyakram (adolescent health programme)</li>
+  </ul>
+</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
@@ -980,6 +1191,35 @@ window.QUESTIONS_DATA = [
   <strong>Clinical Note:</strong> Emergency Obstetric Care (EmOC) is the most critical pillar for preventing maternal mortality once complications arise.
 </aside>
 
+
+<div class="mnemonic-box">
+  <div class="mnemonic-label">Mnemonic for 4 Pillars of Safe Motherhood</div>
+  <div class="mnemonic-word"><span>F</span>-<span>A</span>-<span>C</span>-<span>E</span></div>
+  <div class="mnemonic-explain">
+    <strong>F</strong> = Family Planning — prevent unwanted pregnancies<br>
+    <strong>A</strong> = Antenatal Care — detect problems early<br>
+    <strong>C</strong> = Clean/Safe Delivery — skilled birth attendant<br>
+    <strong>E</strong> = Emergency Obstetric Care — handle complications
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> On the 9th of every month, PMSMA camps are held at district hospitals. Pregnant women get FREE specialist checkup — ultrasound, blood tests, doctor consultation — all at no cost. Kamla, a poor farm labourer, gets her first proper checkup here. The doctor finds she has placenta previa (placenta blocking the birth canal). She is planned for elective C-section at 37 weeks. Without PMSMA, Kamla would have bled severely during home delivery.
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>Safe Motherhood Initiative: Launched 1987 in Nairobi, Kenya</li>
+    <li>4 Pillars = FACE: Family Planning, ANC, Clean Delivery, EmOC</li>
+    <li>Key Indian schemes: JSY, JSSK, PMSMA, LaQshya, SBA training, MDR</li>
+    <li>PMSMA = Pradhan Mantri Surakshit Matritva Abhiyan (free specialist checkup on 9th of every month)</li>
+    <li>LaQshya = Labour Room Quality Improvement Initiative</li>
+    <li>SBA = Skilled Birth Attendant (every delivery must have one)</li>
+    <li>MDR = Maternal Death Review (review every maternal death to prevent future ones)</li>
+  </ul>
+</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
@@ -1086,6 +1326,36 @@ window.QUESTIONS_DATA = [
 <aside class="editorial-note">
   <strong>Clinical Note:</strong> Maintaining strict confidentiality regarding a patient's HIV status or history of abortion is not just a legal requirement but a fundamental ethical duty in nursing.
 </aside>
+
+
+<div class="mnemonic-box">
+  <div class="mnemonic-label">Mnemonic for Legal Acts in Maternal Health</div>
+  <div class="mnemonic-word"><span>M</span>-<span>P</span>-<span>M</span>-<span>P</span>-<span>S</span></div>
+  <div class="mnemonic-explain">
+    <strong>M</strong> = MTP Act (1971/2021) — safe legal abortion<br>
+    <strong>P</strong> = PCPNDT Act (1994) — bans sex determination<br>
+    <strong>M</strong> = Maternity Benefit Act (1961/2017) — paid leave<br>
+    <strong>P</strong> = POCSO Act (2012) — protects children<br>
+    <strong>S</strong> = Surrogacy Act (2021) — bans commercial surrogacy
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> A family demands an ultrasound technician to reveal whether the baby is a boy or girl. The technician knows this is ILLEGAL under PCPNDT Act (fine of Rs. 1 lakh + 5 years jail). She firmly refuses and explains the law. The next day, a man offers her Rs. 5000 to secretly tell the sex. She reports this attempt to the authorities. This is both a legal AND ethical situation — the nurse follows the law AND protects the girl child.
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>LEGAL = What the LAW says you must/must not do (punishment if violated)</li>
+    <li>ETHICAL = What is morally RIGHT to do (professional standards)</li>
+    <li>4 ethical principles: Autonomy, Beneficence, Non-maleficence, Justice</li>
+    <li>Informed consent = patient MUST understand and agree before any procedure</li>
+    <li>Confidentiality = never share patient's information without permission</li>
+    <li>Patient autonomy = patient's choice matters, even if you disagree</li>
+    <li>Mandatory reporting: sexual abuse of minors (POCSO), sex determination attempts</li>
+  </ul>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
@@ -1238,6 +1508,36 @@ window.QUESTIONS_DATA = [
 <aside class="editorial-note">
   <strong>Clinical Note:</strong> Unmarried mothers are at a statistically higher risk for postnatal depression due to social isolation, making emotional support a critical component of nursing care.
 </aside>
+
+
+<div class="mnemonic-box">
+  <div class="mnemonic-label">Mnemonic for Problems</div>
+  <div class="mnemonic-word"><span>S</span>-<span>E</span>-<span>H</span>-<span>F</span>-<span>L</span></div>
+  <div class="mnemonic-explain">
+    <strong>S</strong> = Social stigma — isolation, family rejection<br>
+    <strong>E</strong> = Emotional problems — depression, anxiety, guilt<br>
+    <strong>H</strong> = Health risks — no ANC, unsafe abortion, malnutrition<br>
+    <strong>F</strong> = Financial crisis — no income, no support<br>
+    <strong>L</strong> = Legal issues — child legitimacy, custody
+  </div>
+</div>
+
+<div class="editorial-example">
+  <strong>Relatable Example:</strong> Pooja, an 18-year-old college student, comes to the PHC alone and scared — she is 14 weeks pregnant, the father has abandoned her, and her family doesn't know. She is thinking of going to a quack for abortion. The nurse: (1) reassures her without judgment, (2) confirms pregnancy and checks for any complications, (3) explains her legal right to safe MTP, (4) arranges counseling for decision-making (keep the baby, adoption, or MTP), (5) connects her with Women Helpline 181 for shelter support. This compassionate, confidential approach can save Pooja's life.
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision — Things to Remember</div>
+  <ul>
+    <li>Unmarried mothers face problems in ALL domains: Social, Emotional, Health, Financial, Legal</li>
+    <li>They are at HIGHER risk because they hide pregnancy and avoid ANC</li>
+    <li>More likely to attempt unsafe abortion (leading cause of death)</li>
+    <li>Support available: Women helpline (181), Swadhar Greh (shelter homes), adoption services</li>
+    <li>Nurse's role: Non-judgmental care, confidentiality, connect with support services</li>
+    <li>Legal right: MTP Act allows unmarried women to get safe abortion</li>
+    <li>Ethical duty: Treat with dignity — never shame or judge</li>
+  </ul>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
