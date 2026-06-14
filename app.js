@@ -119,6 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
         overlay.classList.remove('hidden');
         document.body.style.overflow = 'hidden';
         overlay.scrollTop = 0;
+        modalBody.scrollTop = 0;
     }
 
     function closeModal() {
