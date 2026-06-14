@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
         currentIndex = index;
         const q = currentQuestions[index];
         
-        modalTitle.textContent = q.question;
+        modalTitle.innerHTML = q.question;
         modalMeta.textContent = 'REPEATED: ' + q.repeated + ' TIMES | ' + q.years;
         modalMarks.textContent = q.marks + ' MARKS';
         modalUnit.textContent = getUnitLabel(q.unit);
