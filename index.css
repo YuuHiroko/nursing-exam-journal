@@ -1286,7 +1286,7 @@ img { max-width: 100%; }
    12. RESPONSIVE — MOBILE (≤600px)
    ───────────────────────────────────────────── */
 @media (max-width: 600px) {
-    html { font-size: 15px; }
+    html { font-size: 16px; }   /* was 15px — larger base for mobile readability */
 
     .top-bar { padding: 0.6rem; }
     .top-bar-inner { padding: 0.5rem 0.75rem; gap: 0.5rem; }
@@ -1348,7 +1348,7 @@ img { max-width: 100%; }
     .badge { font-size: 0.66rem; }
     .badge-text { font-size: 0.64rem; }
     .article-title { font-size: 1.5rem; line-height: 1.3; }
-    .article-body { padding: 1.1rem 1.1rem 2rem; font-size: 1rem; line-height: 1.75; }
+    .article-body { padding: 1.1rem 1.1rem 2rem; font-size: 1.05rem; line-height: 1.75; }
 
     .article-body > .answer-section:first-child p.answer-text:first-of-type::first-letter {
         font-size: 2.6rem; padding-right: 0.35rem; padding-top: 0.25rem;
@@ -1356,9 +1356,9 @@ img { max-width: 100%; }
 
     .answer-section { margin-bottom: 1.75rem; }
     .answer-section-title { font-size: 1.05rem; padding-bottom: 0.4rem; }
-    .answer-text { font-size: 0.95rem; margin-bottom: 0.8rem; }
-    .answer-points > li { padding-left: 2rem; margin-bottom: 0.8rem; font-size: 0.95rem; }
-    .sub-points li { font-size: 0.9rem; }
+    .answer-text { font-size: 1rem; margin-bottom: 0.85rem; }
+    .answer-points > li { padding-left: 2rem; margin-bottom: 0.85rem; font-size: 1rem; }
+    .sub-points li { font-size: 0.95rem; }
 
     .definition-box { font-size: 1.05rem; padding: 1rem 1.25rem; margin: 1.5rem 0; }
     .editorial-note, .editorial-example { padding: 1.1rem; margin: 1.5rem 0; font-size: 0.9rem; }
@@ -1423,7 +1423,7 @@ img { max-width: 100%; }
    13. RESPONSIVE — VERY SMALL PHONES (≤380px)
    ───────────────────────────────────────────── */
 @media (max-width: 380px) {
-    html { font-size: 14px; }
+    html { font-size: 15px; }   /* was 14px — keep text legible on tiny phones */
     .newspaper-title { font-size: 1.85rem; }
     .article-title { font-size: 1.3rem; }
     .icon-cards, .pillars-visual { grid-template-columns: 1fr; }
@@ -1437,4 +1437,38 @@ img { max-width: 100%; }
 @media (pointer: coarse) {
     .filter-btn, .unit-btn, .nav-btn, .close-btn, .theme-toggle { min-height: 44px; }
     .question-card { min-height: 64px; }
+}
+
+/* ─────────────────────────────────────────────
+   15. SHORT VIEWPORTS — PHONES IN LANDSCAPE (≤500px tall)
+   In landscape a phone's WIDTH (≈740–900px) is above the 600px mobile
+   breakpoint, so the modal would otherwise use the large tablet title +
+   padding and the question header alone fills the short screen ("stuck on
+   the question"). Force a full-screen modal with compact chrome here, keyed
+   on height (not width) so it triggers in any landscape phone.
+   ───────────────────────────────────────────── */
+@media (max-height: 500px) {
+    .overlay { padding: 0; align-items: stretch; }
+    .article-modal {
+        margin: 0;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        height: 100vh;
+        height: 100dvh;
+        max-height: 100vh;
+        max-height: 100dvh;
+    }
+    .article-header { padding: 0.6rem 1.25rem; }
+    .close-btn { margin-bottom: 0.45rem; }
+    .article-meta { margin-bottom: 0.4rem; gap: 0.4rem; }
+    .article-title { font-size: 1.1rem; line-height: 1.2; }
+    .article-body { padding: 0.85rem 1.25rem 1.1rem; font-size: 0.98rem; }
+    .article-footer { padding: 0.5rem 1.25rem; }
+    .nav-btn { padding: 0.45rem 1rem; }
+    /* Drop cap is distracting in the cramped landscape body */
+    .article-body > .answer-section:first-child p.answer-text:first-of-type::first-letter {
+        float: none; font-size: inherit; line-height: inherit;
+        padding: 0; color: inherit;
+    }
 }
