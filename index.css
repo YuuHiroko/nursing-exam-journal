@@ -615,6 +615,11 @@ img { max-width: 100%; }
 
 .article-body {
     flex: 1 1 auto;
+    /* min-height:0 is REQUIRED: without it a flex child won't shrink below its
+       content height on iOS Safari / many Android browsers, so the body overflows
+       instead of scrolling and the pinned footer gets pushed off-screen. */
+    min-height: 0;
+    min-width: 0;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     overscroll-behavior: contain;
@@ -1285,7 +1290,15 @@ img { max-width: 100%; }
 
     .top-bar { padding: 0.6rem; }
     .top-bar-inner { padding: 0.5rem 0.75rem; gap: 0.5rem; }
-    .top-bar-inner .mono-label { font-size: 0.6rem; }
+    /* Keep the two side labels on one line and truncate instead of wrapping,
+       so the pill bar never grows tall or pushes the toggle off-screen. */
+    .top-bar-inner .mono-label {
+        font-size: 0.6rem;
+        min-width: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
 
     .masthead { padding: 1.75rem 0.9rem 1.25rem; }
     .newspaper-title { font-size: clamp(1.9rem, 11vw, 2.6rem); letter-spacing: -0.02em; }
