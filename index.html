@@ -7,14 +7,25 @@
     <meta name="description" content="MUHS B.Sc Nursing exam model answers for Midwifery and Obstetrics.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css?v=8">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css?v=9">
+    <!-- Dark-mode init (runs before paint to avoid flash) -->
+    <script>
+        (function () {
+            var stored = localStorage.getItem('theme');
+            var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            if (stored === 'dark' || (!stored && prefersDark)) {
+                document.documentElement.classList.add('dark');
+            }
+        })();
+    </script>
 </head>
 <body>
     <!-- Top Bar -->
     <div class="top-bar">
         <div class="top-bar-inner">
             <span class="mono-label">VOL. 01 — MIDWIFERY & OBSTETRICS</span>
+            <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode"></button>
             <span class="mono-label right-align">MUHS B.SC NURSING</span>
         </div>
     </div>
@@ -40,6 +51,11 @@
                     <button class="unit-btn active" data-unit="all">All Units</button>
                     <button class="unit-btn" data-unit="1">Unit I — Intro to Midwifery</button>
                     <button class="unit-btn" data-unit="2">Unit II — Anatomy & Physiology</button>
+                    <button class="unit-btn" data-unit="3">Unit III — Normal Pregnancy (Antenatal)</button>
+                    <button class="unit-btn" data-unit="4">Unit IV — Labour & Birth</button>
+                    <button class="unit-btn" data-unit="5">Unit V — Postpartum Care</button>
+                    <button class="unit-btn" data-unit="6">Unit VI — Care of Normal Neonate</button>
+                    <button class="unit-btn" data-unit="7">Unit VII — Family Welfare Services</button>
                 </div>
             </div>
 
@@ -108,8 +124,32 @@
         </div>
     </footer>
 
-    <script src="data.js?v=8"></script>
-    <script src="data-unit2.js?v=8"></script>
-    <script src="app.js?v=8"></script>
+    <script src="data.js?v=9"></script>
+    <script src="data-unit2.js?v=9"></script>
+    <script src="data-unit3.js?v=9"></script>
+    <script src="data-unit4.js?v=9"></script>
+    <script src="data-unit5.js?v=9"></script>
+    <script src="data-unit6.js?v=9"></script>
+    <script src="data-unit7.js?v=9"></script>
+    <script src="app.js?v=9"></script>
+    <!-- Dark-mode toggle wiring (theme only; page logic lives in app.js) -->
+    <script>
+        (function () {
+            var root = document.documentElement;
+            var btn = document.getElementById('theme-toggle');
+            if (!btn) return;
+            function render() {
+                var dark = root.classList.contains('dark');
+                btn.textContent = dark ? '☀' : '☾';
+                btn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+            }
+            render();
+            btn.addEventListener('click', function () {
+                root.classList.toggle('dark');
+                localStorage.setItem('theme', root.classList.contains('dark') ? 'dark' : 'light');
+                render();
+            });
+        })();
+    </script>
 </body>
 </html>

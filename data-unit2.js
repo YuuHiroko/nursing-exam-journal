@@ -10,6 +10,8 @@ window.QUESTIONS_DATA_UNIT2 = [
     unit: 2,
     years: "Winter 2021",
     answer: `
+<div class="in-short"><strong>In Short:</strong> The female pelvis is wide, shallow, and round &mdash; perfectly shaped for childbirth. The male pelvis is narrow, deep, and heavy. The biggest difference for obstetrics: female subpubic angle is wide (80&ndash;85&deg;), inlet is round (Gynaecoid), and the coccyx moves back during delivery to let the baby through.</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The pelvis is a bony structure at the bottom of the spine that supports the body and protects the pelvic organs. In women, the pelvis has a VERY special job — the baby has to pass through it during delivery. That is why the female pelvis is shaped differently from the male pelvis. Knowing these differences is very important for a nurse midwife.</p>
@@ -78,6 +80,26 @@ window.QUESTIONS_DATA_UNIT2 = [
     The female pelvis is specifically designed for childbearing — it is wider, shallower, and more spacious than the male pelvis. Understanding these differences helps the nurse midwife assess whether a normal vaginal delivery is possible or if complications may arise.
   </div>
 </div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Gynaecoid pelvis</span><span class="kw">subpubic angle 80&ndash;85&deg;</span><span class="kw">true pelvis</span><span class="kw">false pelvis</span><span class="kw">ischial spines</span><span class="kw">pelvic inlet</span><span class="kw">pelvic outlet</span><span class="kw">sacrum curved</span><span class="kw">coccyx movable</span></div>
+
+<div class="dont-confuse"><strong>Don't Confuse:</strong><br><strong>True Pelvis vs False Pelvis:</strong> True pelvis = below the pelvic brim = the birth canal the baby actually passes through. False pelvis = above the brim = just holds abdominal organs, not important for delivery.<br><strong>Gynaecoid vs Android:</strong> Gynaecoid = round inlet = most common in females = BEST for delivery. Android = heart-shaped inlet (like a male pelvis) = found in some women = difficult delivery.</div>
+
+<div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
+<ul>
+<li><span class="term">AP diameter</span> Antero-Posterior diameter &mdash; front-to-back measurement of the pelvis</li>
+<li><span class="term">Subpubic angle</span> The angle under the pubic arch &mdash; wider in females (80&ndash;85&deg;) = more room for baby</li>
+<li><span class="term">Ischial spines</span> Bony bumps on the inner pelvis &mdash; used to measure how far baby has descended</li>
+<li><span class="term">Gynaecoid</span> Round pelvic inlet &mdash; the female type, best for normal delivery</li>
+<li><span class="term">Pelvic brim</span> The line separating false pelvis (above) from true pelvis (below)</li>
+</ul></div>
+
+<div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div>
+<details><summary>What is the subpubic angle in the female pelvis?</summary><p>80&ndash;85 degrees (wide). In the male it is 50&ndash;60 degrees (narrow). Wider angle = more room for the baby to pass.</p></details>
+<details><summary>Which type of female pelvis is BEST for normal vaginal delivery?</summary><p>Gynaecoid pelvis &mdash; it has a round inlet, wide cavity, and wide outlet. It is the most common type (50% of women).</p></details>
+<details><summary>Why is the female coccyx more movable?</summary><p>During delivery the baby's head pushes the coccyx backwards, creating extra room. The female coccyx is more flexible for this purpose.</p></details>
+<details><summary>Name 3 differences between the female and male pelvis.</summary><p>1. Shape: Female &mdash; wide and shallow; Male &mdash; narrow and deep. 2. Inlet: Female &mdash; round (Gynaecoid); Male &mdash; heart-shaped. 3. Subpubic angle: Female 80&ndash;85&deg;; Male 50&ndash;60&deg;.</p></details>
+</div>
 `
   },
 
@@ -92,6 +114,8 @@ window.QUESTIONS_DATA_UNIT2 = [
     unit: 2,
     years: "Summer 2018",
     answer: `
+<div class="in-short"><strong>In Short:</strong> The female pelvis has 4 bones (2 hip bones + sacrum + coccyx) and 4 types &mdash; Gynaecoid (round, 50%, best for delivery), Android (heart-shaped, 20%, difficult), Anthropoid (oval, 25%), and Platypelloid (flat, 5%, rarest). The baby enters the pelvis transversely and exits in the AP direction, which is why it rotates during delivery.</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The female pelvis is made up of 4 bones — 2 hip bones (innominate), 1 sacrum, and 1 coccyx. It is divided into the False Pelvis (upper, wider part) and the True Pelvis (lower part through which the baby passes). The true pelvis is what matters most in obstetrics.</p>
@@ -174,6 +198,28 @@ window.QUESTIONS_DATA_UNIT2 = [
     The female pelvis is the bony passage through which the baby must travel. Knowing the bones, joints, diameters, and types of pelvis helps the nurse midwife predict whether a normal delivery is possible or if complications should be anticipated.
   </div>
 </div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">4 bones of pelvis</span><span class="kw">true conjugate 11 cm</span><span class="kw">diagonal conjugate 12.5 cm</span><span class="kw">transverse 13 cm at inlet</span><span class="kw">Gynaecoid</span><span class="kw">Android</span><span class="kw">Anthropoid</span><span class="kw">Platypelloid</span><span class="kw">internal rotation</span></div>
+
+<div class="dont-confuse"><strong>Don't Confuse:</strong><br><strong>True Conjugate vs Diagonal Conjugate:</strong> True (Obstetric) Conjugate = 11 cm &mdash; the actual AP diameter of the inlet (cannot be measured clinically). Diagonal Conjugate = 12.5 cm &mdash; measured during vaginal examination (subtract 1.5 cm to get true conjugate).<br><strong>Pelvic Inlet vs Pelvic Outlet:</strong> At inlet, transverse diameter is widest (13 cm) so baby enters sideways. At outlet, AP diameter is widest (13 cm) so baby exits facing back. That is why the baby rotates 90 degrees during delivery.</div>
+
+<div class="analogy-box"><strong>Think of it like&hellip;</strong> A revolving door in a building. To enter, you turn sideways (transverse) to fit through the narrow frame. Once inside, you turn to face forward (AP) to exit. That is exactly what the baby does &mdash; enters the pelvic inlet transversely, rotates inside the cavity, and exits the outlet in the AP direction. Nature's engineering at its finest!</div>
+
+<div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
+<ul>
+<li><span class="term">AP</span> Antero-Posterior &mdash; front-to-back direction</li>
+<li><span class="term">True conjugate</span> 11 cm &mdash; actual front-to-back diameter of pelvic inlet; determines if baby can enter</li>
+<li><span class="term">Diagonal conjugate</span> 12.5 cm &mdash; only diameter measurable clinically during vaginal exam</li>
+<li><span class="term">Gynaecoid</span> Round inlet &mdash; most common female pelvis type (50%), best for normal delivery</li>
+<li><span class="term">Innominate bone</span> Hip bone &mdash; made of ilium + ischium + pubis fused together</li>
+</ul></div>
+
+<div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div>
+<details><summary>Name the 4 bones that make up the pelvis.</summary><p>2 Innominate (hip) bones + 1 Sacrum + 1 Coccyx = 4 bones total.</p></details>
+<details><summary>Which pelvic diameter can be measured clinically and what is its normal value?</summary><p>Diagonal conjugate &mdash; 12.5 cm. It is measured by inserting 2 fingers vaginally to feel the sacral promontory. True conjugate = diagonal conjugate minus 1.5 cm = 11 cm.</p></details>
+<details><summary>Why does the baby rotate during delivery?</summary><p>At the pelvic inlet the transverse diameter is widest (13 cm), so the baby enters sideways. At the outlet the AP diameter is widest (13 cm), so the baby must turn 90 degrees to exit. This rotation is called internal rotation.</p></details>
+<details><summary>Which type of pelvis is the rarest and why is it difficult for delivery?</summary><p>Platypelloid (flat oval, 5%). The AP diameter is very short, so the baby's head cannot engage easily into the inlet.</p></details>
+</div>
 `
   },
 
@@ -188,6 +234,8 @@ window.QUESTIONS_DATA_UNIT2 = [
     unit: 2,
     years: "Winter 2016, Winter 2025",
     answer: `
+<div class="in-short"><strong>In Short:</strong> The menstrual cycle is a 28-day hormonal process that prepares the uterus for pregnancy every month. It has 4 phases: Menstrual (Day 1&ndash;5), Proliferative (Day 6&ndash;14), Ovulation (Day 14), and Secretory (Day 15&ndash;28). The key hormones are FSH, LH, Estrogen, and Progesterone. If no pregnancy, the uterine lining sheds and the cycle restarts.</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The menstrual cycle is a monthly process that prepares a woman's body for pregnancy. It is controlled by hormones from the brain (pituitary gland) and the ovaries. The average cycle is 28 days. If pregnancy does not happen, the lining of the uterus sheds — this is menstruation (periods).</p>
@@ -273,6 +321,28 @@ window.QUESTIONS_DATA_UNIT2 = [
     The menstrual cycle is a beautifully coordinated hormonal dance between the brain and ovaries. Understanding it is essential for family planning, infertility counseling, and identifying menstrual disorders. The nurse midwife uses this knowledge to educate women about their reproductive health.
   </div>
 </div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">FSH</span><span class="kw">LH surge Day 14</span><span class="kw">estrogen</span><span class="kw">progesterone</span><span class="kw">Graafian follicle</span><span class="kw">corpus luteum</span><span class="kw">ovulation Day 14</span><span class="kw">endometrium</span><span class="kw">28 days</span><span class="kw">proliferative phase</span><span class="kw">secretory phase</span></div>
+
+<div class="dont-confuse"><strong>Don't Confuse:</strong><br><strong>Proliferative vs Secretory Phase:</strong> Proliferative = BEFORE ovulation (Day 6&ndash;14), estrogen rebuilds the uterine lining. Secretory = AFTER ovulation (Day 15&ndash;28), progesterone makes lining soft and spongy for implantation.<br><strong>FSH vs LH:</strong> FSH = Follicle Stimulating Hormone = grows the follicle. LH = Luteinizing Hormone = triggers ovulation (the LH SURGE on Day 14 causes the egg to burst out).<br><strong>Corpus Luteum vs Graafian Follicle:</strong> Graafian follicle = mature follicle before ovulation (makes estrogen). Corpus luteum = the EMPTY follicle after ovulation (makes progesterone).</div>
+
+<div class="analogy-box"><strong>Think of it like&hellip;</strong> Preparing a guest room every month. Phase 1: Clean the old sheets out (menstruation). Phase 2: Put fresh sheets on and decorate the room (proliferative &mdash; estrogen rebuilds lining). Phase 3: The guest is invited (ovulation &mdash; egg released). Phase 4: Make the bed soft and comfortable, waiting for the guest (secretory &mdash; progesterone). If the guest does not arrive (no pregnancy), you start cleaning again next month!</div>
+
+<div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
+<ul>
+<li><span class="term">FSH</span> Follicle Stimulating Hormone &mdash; from pituitary; grows ovarian follicles</li>
+<li><span class="term">LH</span> Luteinizing Hormone &mdash; from pituitary; triggers ovulation (LH surge on Day 14)</li>
+<li><span class="term">Corpus luteum</span> Latin for "yellow body" &mdash; the empty follicle after ovulation; makes progesterone</li>
+<li><span class="term">Endometrium</span> Inner lining of the uterus &mdash; builds up then sheds each cycle</li>
+<li><span class="term">Graafian follicle</span> The mature, dominant follicle in the ovary just before ovulation</li>
+</ul></div>
+
+<div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div>
+<details><summary>Which hormone triggers ovulation and on which day?</summary><p>LH (Luteinizing Hormone) surge on Day 14. The sudden rise in LH causes the Graafian follicle to rupture and release the egg.</p></details>
+<details><summary>What happens to the Graafian follicle after ovulation?</summary><p>It becomes the Corpus Luteum, which produces progesterone to maintain the uterine lining for implantation.</p></details>
+<details><summary>What causes menstruation (bleeding) to occur?</summary><p>If no pregnancy, the corpus luteum degenerates, progesterone drops, and the uterine lining (endometrium) sheds &mdash; this is menstruation.</p></details>
+<details><summary>What is the normal length of the menstrual cycle and the fertile window?</summary><p>Normal cycle = 28 days (range 21&ndash;35 days). Fertile window = Day 12&ndash;16 (around ovulation on Day 14). Egg survives 24 hours; sperm survives 48&ndash;72 hours.</p></details>
+</div>
 `
   },
 
@@ -287,6 +357,8 @@ window.QUESTIONS_DATA_UNIT2 = [
     unit: 2,
     years: "Winter 2016, Winter 2017, Summer 2022",
     answer: `
+<div class="in-short"><strong>In Short:</strong> Fertilization = sperm meets egg in the ampulla of the fallopian tube to form a zygote (46 chromosomes). It happens within 24 hours of ovulation. The 6 steps are: Capacitation &rarr; Acrosome reaction &rarr; Penetration &rarr; Cortical reaction &rarr; Fusion of nuclei &rarr; Sex determination. The sperm determines the baby's sex (X = girl, Y = boy).</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Fertilization is the magical moment when a sperm cell meets and fuses with an egg cell to create a new life. It is the very first step of pregnancy. Understanding fertilization is important for reproductive health, infertility treatment, and family planning.</p>
@@ -378,6 +450,30 @@ window.QUESTIONS_DATA_UNIT2 = [
     Fertilization is the union of sperm and ovum in the ampulla of the fallopian tube. It involves capacitation, acrosome reaction, penetration, cortical reaction, and fusion of nuclei. The resulting zygote is the beginning of a new life. Knowledge of fertilization is essential for understanding conception, contraception, and infertility management.
   </div>
 </div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">ampulla of fallopian tube</span><span class="kw">capacitation 7 hours</span><span class="kw">acrosome reaction</span><span class="kw">hyaluronidase</span><span class="kw">zona pellucida</span><span class="kw">cortical reaction</span><span class="kw">polyspermy block</span><span class="kw">zygote 46 chromosomes</span><span class="kw">sex determination by sperm</span></div>
+
+<div class="dont-confuse"><strong>Don't Confuse:</strong><br><strong>Fertilization vs Implantation:</strong> Fertilization = sperm meets egg in the fallopian tube (Day 0). Implantation = the zygote embeds into the uterine wall (Day 6&ndash;10 after fertilization). These are two SEPARATE events!<br><strong>Capacitation vs Acrosome Reaction:</strong> Capacitation = sperm gets "warmed up" chemically inside the female tract (takes ~7 hours). Acrosome reaction = the cap on the sperm head releases enzymes to dissolve the egg's outer layers. Capacitation must happen FIRST before the acrosome reaction.<br><strong>Zona Pellucida vs Corona Radiata:</strong> Corona radiata = outermost layer of egg cells. Zona pellucida = protective shell just inside it. Sperm must break through both.</div>
+
+<div class="analogy-box"><strong>Think of it like&hellip;</strong> A high-security vault (the egg). The sperm is a thief trying to crack it open. First, the thief must pick up his tools and get ready (capacitation &mdash; 7 hours). Then he uses a special acid spray to dissolve the outer fence (acrosome reaction &mdash; corona radiata). Then he drills through the vault wall (penetration &mdash; zona pellucida). The moment he gets inside, an alarm goes off and the vault locks forever (cortical reaction &mdash; no more sperm can enter). Inside, he finds the treasure (egg nucleus) and merges with it (syngamy). A new combination is born &mdash; 46 chromosomes!</div>
+
+<div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
+<ul>
+<li><span class="term">Zygote</span> Fertilized egg &mdash; single cell with 46 chromosomes (23 from sperm + 23 from ovum)</li>
+<li><span class="term">Capacitation</span> Chemical "activation" of sperm inside the female tract &mdash; takes ~7 hours</li>
+<li><span class="term">Acrosome</span> Cap on the head of the sperm &mdash; releases enzymes to penetrate the egg</li>
+<li><span class="term">Hyaluronidase</span> Enzyme from acrosome &mdash; dissolves the corona radiata (outer egg layer)</li>
+<li><span class="term">Cortical reaction</span> Hardening of zona pellucida after 1 sperm enters &mdash; prevents polyspermy</li>
+<li><span class="term">Polyspermy</span> Entry of more than 1 sperm into the egg &mdash; prevented by cortical reaction</li>
+<li><span class="term">Syngamy</span> Fusion of sperm and egg nuclei to form the zygote nucleus</li>
+</ul></div>
+
+<div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div>
+<details><summary>Where does fertilization normally occur?</summary><p>In the ampulla of the fallopian tube &mdash; the outer one-third of the tube. If fertilization occurs elsewhere (e.g., in the tube but it implants there), it becomes an ectopic pregnancy.</p></details>
+<details><summary>What is capacitation and why is it necessary?</summary><p>Capacitation is the process where sperm undergoes chemical changes inside the female genital tract (takes ~7 hours). It removes the outer coating and makes sperm hyperactive, enabling it to penetrate the egg's layers.</p></details>
+<details><summary>What is the cortical reaction and why is it important?</summary><p>After the first sperm enters the egg, the egg releases chemicals that harden the zona pellucida. This blocks all other sperm from entering (prevents polyspermy). Only ONE sperm can fertilize one egg.</p></details>
+<details><summary>If a sperm carries a Y chromosome, what sex is the baby?</summary><p>Boy (XY). The egg always contributes an X chromosome. So X (egg) + Y (sperm) = XY = Boy. X (egg) + X (sperm) = XX = Girl. The FATHER's sperm determines the sex.</p></details>
+</div>
 `
   },
 
@@ -392,6 +488,8 @@ window.QUESTIONS_DATA_UNIT2 = [
     unit: 2,
     years: "Winter 2016, Winter 2019, Winter 2025",
     answer: `
+<div class="in-short"><strong>In Short:</strong> Fetal circulation bypasses the non-working lungs using 3 special shunts &mdash; Ductus Venosus (skips liver), Foramen Ovale (crosses heart from right to left), and Ductus Arteriosus (skips lungs). The placenta acts as the fetal lung. After birth, the baby's first breath closes all 3 shunts permanently.</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Fetal circulation is different from adult circulation because the baby's lungs are NOT working inside the womb. The baby gets oxygen from the mother through the placenta — not by breathing. So the blood has to bypass the lungs using special shortcuts called "shunts." These shunts close after birth when the baby starts breathing.</p>
@@ -489,6 +587,27 @@ window.QUESTIONS_DATA_UNIT2 = [
     Fetal circulation uses 3 shunts (Ductus Venosus, Foramen Ovale, Ductus Arteriosus) to bypass the non-functioning lungs and liver. The placenta acts as the lung for gas exchange. After birth, the baby's first breath causes these shunts to close and the circulation converts to the adult pattern. Understanding fetal circulation helps nurses identify congenital heart defects early.
   </div>
 </div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Ductus Venosus</span><span class="kw">Foramen Ovale</span><span class="kw">Ductus Arteriosus</span><span class="kw">umbilical vein (oxygenated)</span><span class="kw">2 umbilical arteries</span><span class="kw">Ligamentum Venosum</span><span class="kw">Fossa Ovalis</span><span class="kw">Ligamentum Arteriosum</span><span class="kw">PDA</span><span class="kw">placenta as fetal lung</span></div>
+
+<div class="dont-confuse"><strong>Don't Confuse:</strong><br><strong>Umbilical Vein vs Umbilical Arteries:</strong> Umbilical VEIN (1) carries OXYGENATED blood FROM placenta TO fetus &mdash; the only vein in the body carrying oxygen-rich blood. Umbilical ARTERIES (2) carry DEOXYGENATED blood FROM fetus TO placenta. Remember: normally arteries carry oxygenated blood &mdash; the umbilical arteries are the OPPOSITE (they carry waste blood back to placenta)!<br><strong>Foramen Ovale vs Ductus Arteriosus:</strong> Foramen Ovale = hole in the wall between right and left atrium (inside the heart). Ductus Arteriosus = a blood vessel connecting pulmonary artery to aorta (outside the heart). Both bypass the lungs, but in different locations.</div>
+
+<div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
+<ul>
+<li><span class="term">Ductus Venosus</span> Fetal shunt that bypasses the liver &mdash; becomes Ligamentum Venosum after birth</li>
+<li><span class="term">Foramen Ovale</span> Hole in the heart wall (RA to LA) &mdash; becomes Fossa Ovalis after birth</li>
+<li><span class="term">Ductus Arteriosus</span> Vessel connecting pulmonary artery to aorta &mdash; becomes Ligamentum Arteriosum after birth</li>
+<li><span class="term">IVC</span> Inferior Vena Cava &mdash; large vein bringing blood from lower body to the right atrium</li>
+<li><span class="term">PDA</span> Patent Ductus Arteriosus &mdash; when ductus arteriosus fails to close after birth; causes heart murmur</li>
+<li><span class="term">RA / LA</span> Right Atrium / Left Atrium &mdash; upper chambers of the heart</li>
+</ul></div>
+
+<div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div>
+<details><summary>Name the 3 fetal shunts and what each becomes after birth.</summary><p>1. Ductus Venosus &rarr; Ligamentum Venosum. 2. Foramen Ovale &rarr; Fossa Ovalis. 3. Ductus Arteriosus &rarr; Ligamentum Arteriosum.</p></details>
+<details><summary>Which is the only vein in fetal circulation that carries oxygenated blood?</summary><p>The Umbilical Vein &mdash; it carries oxygen-rich blood from the placenta to the fetus. All other veins carry deoxygenated blood (as normal). This is a reversal of the usual rule!</p></details>
+<details><summary>What is PDA and what causes it?</summary><p>Patent Ductus Arteriosus &mdash; when the ductus arteriosus does not close after birth. Common in premature babies. Signs: continuous "machinery murmur." Treatment: Indomethacin (closes PDA) or surgery.</p></details>
+<details><summary>Why do all 3 shunts close after birth?</summary><p>When the baby takes its first breath, the lungs expand and oxygen levels rise. This causes: Foramen Ovale to close (pressure difference changes), Ductus Arteriosus to close (oxygen causes smooth muscle contraction), and Ductus Venosus to close (umbilical vein stops functioning when cord is cut).</p></details>
+</div>
 `
   },
 
@@ -503,6 +622,8 @@ window.QUESTIONS_DATA_UNIT2 = [
     unit: 2,
     years: "Winter 2025",
     answer: `
+<div class="in-short"><strong>In Short:</strong> The placenta is the baby's all-in-one life support &mdash; it acts as lungs (O2/CO2 exchange), gut (nutrition), kidneys (waste removal), hormone factory (hCG, hPL, estrogen, progesterone), immune system (IgG transfer), and security guard (selective barrier). It weighs ~500 gm and is expelled as the afterbirth in the 3rd stage of labour.</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The placenta is a temporary organ that forms during pregnancy and connects the mother to the baby through the umbilical cord. Think of it as the baby's "life support system" — it provides food, oxygen, removes waste, produces hormones, and even protects the baby from infections. Without the placenta, the baby cannot survive inside the womb.</p>
@@ -591,6 +712,26 @@ window.QUESTIONS_DATA_UNIT2 = [
     The placenta is a multi-functional organ that acts as the baby's lungs, gut, kidneys, endocrine gland, and immune system all in one. It is essential for fetal survival and growth. The nurse midwife must understand placental function to identify complications like placental insufficiency, abruption, and previa early.
   </div>
 </div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">hCG</span><span class="kw">hPL</span><span class="kw">progesterone</span><span class="kw">estrogen</span><span class="kw">IgG passive immunity</span><span class="kw">respiratory function</span><span class="kw">nutritive function</span><span class="kw">excretory function</span><span class="kw">placental barrier</span><span class="kw">IUGR</span><span class="kw">Rubella crosses placenta</span></div>
+
+<div class="dont-confuse"><strong>Don't Confuse:</strong><br><strong>hCG vs hPL:</strong> hCG (Human Chorionic Gonadotropin) = first hormone produced by placenta; maintains corpus luteum; detected by pregnancy test. hPL (Human Placental Lactogen) = produced later; prepares breasts for milk; also regulates blood sugar.<br><strong>Placental Barrier is NOT complete:</strong> Bacteria are usually blocked. But viruses (Rubella, HIV, CMV), drugs, alcohol, and IgG antibodies DO cross. That is why pregnant women must avoid alcohol and certain medications.<br><strong>IgG vs IgM:</strong> Only IgG crosses the placenta (gives passive immunity to baby). IgM is too large to cross.</div>
+
+<div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
+<ul>
+<li><span class="term">hCG</span> Human Chorionic Gonadotropin &mdash; hormone detected by pregnancy test; maintains corpus luteum</li>
+<li><span class="term">hPL</span> Human Placental Lactogen &mdash; prepares breasts for milk production; regulates maternal blood sugar</li>
+<li><span class="term">IgG</span> Immunoglobulin G &mdash; the only antibody class that crosses the placenta; gives passive immunity</li>
+<li><span class="term">IUGR</span> Intrauterine Growth Restriction &mdash; baby too small for gestational age due to placental insufficiency</li>
+<li><span class="term">Passive immunity</span> Immunity received from mother via placenta (IgG) &mdash; lasts 3&ndash;6 months after birth</li>
+</ul></div>
+
+<div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div>
+<details><summary>What does hCG do and why is it important?</summary><p>hCG (Human Chorionic Gonadotropin) is produced by the placenta from early pregnancy. It maintains the corpus luteum so it keeps making progesterone (preventing miscarriage). It is the hormone detected by home pregnancy tests. It peaks at 8&ndash;10 weeks then decreases.</p></details>
+<details><summary>Name 3 things that CAN cross the placental barrier.</summary><p>1. Viruses: Rubella, HIV, CMV, Hepatitis B. 2. Drugs: alcohol, thalidomide, steroids. 3. Antibodies: IgG (gives passive immunity to baby). 4. Oxygen and nutrients (this is the placenta's normal function).</p></details>
+<details><summary>What hormone from the placenta prevents uterine contractions during pregnancy?</summary><p>Progesterone &mdash; it relaxes the uterine muscle, preventing premature contractions. When progesterone drops at term, contractions begin and labour starts.</p></details>
+<details><summary>How does the placenta give immunity to the baby?</summary><p>The placenta transfers IgG antibodies from mother to baby (passive immunity). This protects the newborn for the first 3&ndash;6 months of life before the baby's own immune system matures.</p></details>
+</div>
 `
   },
 
@@ -605,6 +746,8 @@ window.QUESTIONS_DATA_UNIT2 = [
     unit: 2,
     years: "Summer 2019",
     answer: `
+<div class="in-short"><strong>In Short:</strong> The placenta separates in 2 ways after delivery &mdash; Schultze method (centre first, shiny fetal side appears, 80%, safer, less bleeding) and Duncan method (edge first, rough maternal side appears, 20%, more bleeding). Signs of separation: GUSH &mdash; Globular uterus, Uterus rises, Sudden blood gush, cord lengthens (Hanging cord).</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">After the baby is born, the placenta must separate from the uterine wall and be expelled. This is the 3rd stage of labour. The placenta separates in one of two ways — depending on WHERE the separation starts. Understanding this is important because it affects how much bleeding occurs.</p>
@@ -679,6 +822,28 @@ window.QUESTIONS_DATA_UNIT2 = [
     Placental separation occurs by either Schultze method (centre first, more common, safer) or Duncan method (edge first, more bleeding). The nurse midwife must watch for signs of separation and manage the third stage actively to prevent postpartum haemorrhage.
   </div>
 </div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Schultze method</span><span class="kw">Duncan method</span><span class="kw">centre separation</span><span class="kw">edge separation</span><span class="kw">retroplacental clot</span><span class="kw">AMTSL</span><span class="kw">3rd stage of labour</span><span class="kw">controlled cord traction</span><span class="kw">oxytocin 1 minute</span><span class="kw">PPH prevention</span></div>
+
+<div class="dont-confuse"><strong>Don't Confuse:</strong><br><strong>Schultze vs Duncan:</strong> Schultze = <strong>S</strong>hiny (fetal) side first = <strong>S</strong>afer = Centre = 80% common. Duncan = <strong>D</strong>irty (maternal) side first = more <strong>D</strong>angerous (bleeding) = Edge = 20% common. Easy memory: <strong>S</strong>chultze = <strong>S</strong>hiny &amp; <strong>S</strong>afe; <strong>D</strong>uncan = <strong>D</strong>irty &amp; <strong>D</strong>angerous.<br><strong>Placental Separation vs Placenta Expulsion:</strong> Separation = placenta detaches from uterine wall (happens first). Expulsion = placenta comes out of the vagina (happens after). Signs we see are signs of SEPARATION (globular uterus, cord lengthens), not expulsion.</div>
+
+<div class="analogy-box"><strong>Think of it like&hellip;</strong> Removing a suction cup from a wall. The Schultze way: press the middle of the cup and it lifts off cleanly from the centre first &mdash; no mess, comes off in one piece (safe). The Duncan way: lift one edge and slide it off sideways &mdash; sometimes it leaves sticky marks behind (retained bits) and makes more mess (bleeding). That is why Schultze is the preferred, safer method!</div>
+
+<div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
+<ul>
+<li><span class="term">AMTSL</span> Active Management of Third Stage of Labour &mdash; Oxytocin + Cord traction + Uterine massage</li>
+<li><span class="term">PPH</span> Postpartum Haemorrhage &mdash; excessive bleeding after delivery (&gt;500 ml in vaginal delivery)</li>
+<li><span class="term">Retroplacental clot</span> Blood collected behind the placenta (between placenta and uterine wall) in Schultze separation</li>
+<li><span class="term">Controlled cord traction</span> Gentle, steady pull on the umbilical cord to deliver the placenta (part of AMTSL)</li>
+<li><span class="term">3rd stage of labour</span> From delivery of baby to delivery of placenta &mdash; should be within 30 minutes</li>
+</ul></div>
+
+<div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div>
+<details><summary>What are the signs of placental separation? (Use the mnemonic)</summary><p>GUSH: G = Globular uterus (round and firm), U = Uterus rises in abdomen, S = Sudden gush of blood, H = Hanging cord lengthens (cord protrudes more from vagina).</p></details>
+<details><summary>Compare Schultze and Duncan methods in 3 points.</summary><p>1. Start: Schultze &mdash; centre; Duncan &mdash; edge. 2. Surface appearing: Schultze &mdash; shiny fetal side; Duncan &mdash; dirty maternal side. 3. Bleeding: Schultze &mdash; blood appears after placenta; Duncan &mdash; continuous bleeding from edge. Schultze = 80%, safer; Duncan = 20%, more bleeding.</p></details>
+<details><summary>What is AMTSL and why is it given?</summary><p>Active Management of Third Stage of Labour = 3 steps: 1. Oxytocin 10 IU IM within 1 minute of baby's birth 2. Controlled cord traction 3. Uterine massage after placenta. It reduces PPH risk by 60%.</p></details>
+<details><summary>How long should the 3rd stage of labour last?</summary><p>Less than 30 minutes. If placenta is not delivered within 30 minutes, it is called retained placenta &mdash; requires manual removal under anaesthesia.</p></details>
+</div>
 `
   },
 
@@ -693,6 +858,8 @@ window.QUESTIONS_DATA_UNIT2 = [
     unit: 2,
     years: "Summer 2019, Winter 2025",
     answer: `
+<div class="in-short"><strong>In Short:</strong> Amniotic fluid is the clear, straw-coloured liquid surrounding the baby in the womb. Normal volume peaks at 36&ndash;38 weeks (~800&ndash;1000 ml). It protects the baby, regulates temperature, allows movement, helps develop lungs and gut, and cushions the umbilical cord. Too much = polyhydramnios (&gt;2000 ml); too little = oligohydramnios (&lt;300 ml).</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Amniotic fluid is the clear liquid that surrounds the baby inside the uterus. Think of it as the baby's "swimming pool" — it protects the baby, helps the baby move and grow, and maintains a constant temperature. Too much or too little amniotic fluid can indicate problems.</p>
@@ -790,6 +957,26 @@ window.QUESTIONS_DATA_UNIT2 = [
     Amniotic fluid is essential for fetal protection, growth, and development. It has specific physical characteristics that can be tested. Both too much (polyhydramnios) and too little (oligohydramnios) fluid can indicate serious problems. The nurse midwife should monitor fundal height and refer for AFI assessment when abnormalities are suspected.
   </div>
 </div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">polyhydramnios &gt;2000 ml</span><span class="kw">oligohydramnios &lt;300 ml</span><span class="kw">AFI 8&ndash;24 cm</span><span class="kw">meconium green fluid</span><span class="kw">fetal distress</span><span class="kw">pH 7.0&ndash;7.25</span><span class="kw">36&ndash;38 weeks peak volume</span><span class="kw">lung development</span><span class="kw">Potter syndrome</span></div>
+
+<div class="dont-confuse"><strong>Don't Confuse:</strong><br><strong>Polyhydramnios vs Oligohydramnios:</strong> Poly = PLENTY (too much &gt;2000 ml) &mdash; causes include diabetes, twins, fetal anomalies (esophageal atresia = baby cannot swallow, so fluid builds up). Oligo = ONLY a little (too little &lt;300 ml) &mdash; causes include renal agenesis (no kidneys = no urine = no fluid), IUGR, post-term pregnancy.<br><strong>Green vs Golden vs Blood-stained fluid:</strong> Green = meconium = fetal distress (EMERGENCY). Golden = bilirubin = Rh incompatibility. Blood-stained = placental abruption (EMERGENCY). Clear = normal.</div>
+
+<div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
+<ul>
+<li><span class="term">AFI</span> Amniotic Fluid Index &mdash; total of deepest pocket in each of 4 uterine quadrants; normal 8&ndash;24 cm</li>
+<li><span class="term">Polyhydramnios</span> Excess amniotic fluid (&gt;2000 ml or AFI &gt;25 cm)</li>
+<li><span class="term">Oligohydramnios</span> Insufficient amniotic fluid (&lt;300 ml or AFI &lt;5 cm)</li>
+<li><span class="term">Meconium</span> Fetal stool &mdash; if baby passes it inside womb, fluid turns green = sign of fetal distress</li>
+<li><span class="term">Potter syndrome</span> Condition where renal agenesis (absent kidneys) causes severe oligohydramnios leading to compressed facial features and underdeveloped lungs</li>
+</ul></div>
+
+<div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div>
+<details><summary>What is the normal volume of amniotic fluid at term and when is it maximum?</summary><p>At term (40 weeks) = ~600 ml. Maximum is at 36&ndash;38 weeks = 800&ndash;1000 ml. After 38 weeks it starts decreasing.</p></details>
+<details><summary>Name 2 causes each of polyhydramnios and oligohydramnios.</summary><p>Polyhydramnios: 1. Diabetes mellitus (osmotic effect). 2. Fetal anomalies &mdash; esophageal atresia or anencephaly (baby cannot swallow). Also: twin pregnancy, Rh incompatibility. Oligohydramnios: 1. Renal agenesis (Potter syndrome &mdash; no kidneys, no urine). 2. IUGR (placental insufficiency). Also: post-term pregnancy, PROM.</p></details>
+<details><summary>What does green-stained amniotic fluid indicate and what should the nurse do?</summary><p>Green fluid = meconium staining = fetal distress (baby passed stool inside womb). Nurse should: immediately notify the doctor, start continuous fetal heart rate monitoring, prepare neonatal resuscitation equipment (suction, oxygen), and call the neonatal team for birth.</p></details>
+<details><summary>How does amniotic fluid help in lung development of the fetus?</summary><p>The fetus performs "fetal breathing movements" &mdash; it inhales and exhales amniotic fluid in and out of the lungs. This stretching of lung tissue stimulates growth and maturation. Without fluid (oligohydramnios), the lungs remain underdeveloped (pulmonary hypoplasia).</p></details>
+</div>
 `
   },
 
@@ -804,6 +991,8 @@ window.QUESTIONS_DATA_UNIT2 = [
     unit: 2,
     years: "Winter 2014",
     answer: `
+<div class="in-short"><strong>In Short:</strong> Amniotic fluid serves 9 key functions for the fetus: protection (shock absorber), temperature regulation, free movement (muscle/bone development), prevents adhesions, lung development (fetal breathing), GI development (swallowing), fluid balance (kidneys), symmetrical growth, and umbilical cord protection. Without enough fluid, the baby develops serious deformities (Potter syndrome).</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Amniotic fluid is the life-giving liquid in which the unborn baby floats inside the womb. For the fetus specifically, this fluid serves many critical roles — from physical protection to helping organs develop properly. Without adequate amniotic fluid, the fetus can develop serious deformities.</p>
@@ -872,6 +1061,28 @@ window.QUESTIONS_DATA_UNIT2 = [
     Amniotic fluid is not just water — it is a vital environment for fetal survival and development. It protects, nourishes, and helps develop the lungs, gut, muscles, and bones of the baby. Adequate amniotic fluid volume is one of the most important indicators of fetal health that the nurse midwife should monitor.
   </div>
 </div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">mechanical protection</span><span class="kw">temperature regulation 37&deg;C</span><span class="kw">free movement</span><span class="kw">prevents adhesions</span><span class="kw">lung maturity</span><span class="kw">fetal breathing movements</span><span class="kw">swallowing reflex</span><span class="kw">umbilical cord protection</span><span class="kw">Potter facies</span><span class="kw">oligohydramnios</span><span class="kw">pulmonary hypoplasia</span></div>
+
+<div class="dont-confuse"><strong>Don't Confuse:</strong><br><strong>Fetal Breathing Movements vs Real Breathing:</strong> Fetal breathing movements = the baby sucks amniotic fluid in and out of its lungs to exercise and develop them &mdash; NOT for gas exchange (oxygen comes from placenta). Real breathing starts only AFTER birth when the baby takes its first breath of air.<br><strong>Swallowing Amniotic Fluid vs Drinking Water:</strong> Fetal swallowing of amniotic fluid (from 12 weeks) trains the gut and maintains fluid balance &mdash; it is recycled as urine. This is normal fetal behavior, not the same as drinking water after birth.</div>
+
+<div class="analogy-box"><strong>Think of it like&hellip;</strong> An astronaut floating in a space station. The zero-gravity environment (amniotic fluid) allows the astronaut to: move freely in all directions (movement for muscle development), stay at a constant temperature (temperature regulation), not be crushed by gravity (protection), and practice skills needed on Earth (swallowing &mdash; practice for feeding; breathing &mdash; practice for air breathing). Take away the space station environment and the astronaut gets crushed and cannot develop properly &mdash; just like a baby without amniotic fluid!</div>
+
+<div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
+<ul>
+<li><span class="term">Potter facies</span> Flat, compressed face (squashed nose, low-set ears) seen in babies with severe oligohydramnios &mdash; named after Dr Edith Potter</li>
+<li><span class="term">Pulmonary hypoplasia</span> Underdeveloped lungs &mdash; occurs when fetal breathing movements are absent (due to oligohydramnios)</li>
+<li><span class="term">Fetal breathing movements</span> Rhythmic in-and-out movement of amniotic fluid in fetal lungs &mdash; essential for lung maturation</li>
+<li><span class="term">BPP</span> Biophysical Profile &mdash; ultrasound assessment of fetal well-being; includes fetal breathing, movement, tone, AFI, and NST</li>
+<li><span class="term">Amniotic band syndrome</span> When adhesive fibrous bands form in the amniotic cavity (if fluid is low) &mdash; can amputate fetal digits or limbs</li>
+</ul></div>
+
+<div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div>
+<details><summary>How does amniotic fluid protect the umbilical cord?</summary><p>The fluid keeps the umbilical cord floating freely in the amniotic cavity. This prevents the cord from being compressed between the baby and the uterine wall &mdash; cord compression cuts off blood and oxygen supply to the baby.</p></details>
+<details><summary>What is pulmonary hypoplasia and what causes it?</summary><p>Pulmonary hypoplasia = underdeveloped, small lungs. Caused by severe oligohydramnios (too little amniotic fluid). Without fluid, the fetus cannot perform breathing movements, so the lungs do not get the stretching stimulus needed to grow. The baby is born with lungs too small to breathe &mdash; a life-threatening condition.</p></details>
+<details><summary>What is Potter syndrome and what causes it?</summary><p>Potter syndrome = severe oligohydramnios caused by renal agenesis (absent kidneys). Without kidneys, the fetus produces no urine, so amniotic fluid is absent. The baby develops: compressed limbs, Potter facies (flat face, low-set ears), and pulmonary hypoplasia. Often fatal.</p></details>
+<details><summary>Why is free movement in amniotic fluid important for the fetus?</summary><p>Free movement allows the baby to stretch, kick, and turn &mdash; this exercises the muscles, bones, and joints. Without movement (due to lack of fluid), limbs become compressed and can develop deformities, joint contractures, and abnormal positioning.</p></details>
+</div>
 `
   },
 
@@ -886,6 +1097,8 @@ window.QUESTIONS_DATA_UNIT2 = [
     unit: 2,
     years: "Summer 2018",
     answer: `
+<div class="in-short"><strong>In Short:</strong> Amniotic fluid assessment &mdash; by AFI (normal 8&ndash;24 cm), colour, and amniocentesis &mdash; is a window into fetal health. Green fluid = fetal distress (meconium). Golden fluid = Rh problem. Amniocentesis can detect lung maturity (L/S ratio &ge;2:1), chromosomal disorders (Down syndrome), neural tube defects (AFP), and Rh incompatibility (bilirubin).</div>
+
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Assessing amniotic fluid — its volume, color, and composition — gives us VERY important information about the health of both the mother and the baby. It is like a "window" into how well the pregnancy is going. Abnormal findings can alert us to serious problems that need immediate action.</p>
@@ -978,6 +1191,30 @@ window.QUESTIONS_DATA_UNIT2 = [
   <div class="conclusion-box">
     Assessment of amniotic fluid — its volume (AFI), colour, and composition — is a critical tool in obstetric care. It helps detect fetal distress, lung maturity, genetic disorders, Rh problems, and infections. The nurse midwife should always observe the colour of amniotic fluid when membranes rupture and report any abnormality immediately.
   </div>
+</div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">AFI 8&ndash;24 cm</span><span class="kw">SDP 2&ndash;8 cm</span><span class="kw">amniocentesis</span><span class="kw">L/S ratio 2:1</span><span class="kw">karyotyping</span><span class="kw">AFP neural tube defects</span><span class="kw">meconium fetal distress</span><span class="kw">chorioamnionitis</span><span class="kw">bilirubin Rh</span><span class="kw">fetal fibronectin preterm labour</span></div>
+
+<div class="dont-confuse"><strong>Don't Confuse:</strong><br><strong>AFI vs SDP:</strong> AFI (Amniotic Fluid Index) = sum of deepest pockets in all 4 quadrants; normal 8&ndash;24 cm &mdash; more commonly used. SDP (Single Deepest Pocket) = measures ONLY the single largest pocket; normal 2&ndash;8 cm &mdash; used when AFI is difficult.<br><strong>L/S Ratio vs AFP:</strong> L/S ratio (Lecithin/Sphingomyelin) = tests LUNG MATURITY (L/S &ge;2:1 = mature lungs, safe to deliver). AFP (Alpha-fetoprotein) = tests for NEURAL TUBE DEFECTS (high AFP = spina bifida, anencephaly). Both are from amniocentesis but test for DIFFERENT things.<br><strong>Amniocentesis timing:</strong> For chromosomal analysis (Down syndrome) = 15&ndash;18 weeks. For lung maturity (L/S ratio) = 32+ weeks (near preterm delivery).</div>
+
+<div class="analogy-box"><strong>Think of it like&hellip;</strong> The amniotic fluid is like a health report card for the baby. The VOLUME tells you if the baby's kidneys and gut are working (oligohydramnios = kidney problem; polyhydramnios = gut blockage). The COLOUR tells you the baby's stress level (green = distress, golden = blood incompatibility). The CHEMISTRY (from amniocentesis) tells you if the lungs are ready (L/S ratio), if genes are normal (karyotype), and if there are birth defects (AFP). Reading this "report card" correctly saves lives!</div>
+
+<div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
+<ul>
+<li><span class="term">AFI</span> Amniotic Fluid Index &mdash; sum of deepest pockets in 4 uterine quadrants on ultrasound; normal 8&ndash;24 cm</li>
+<li><span class="term">SDP</span> Single Deepest Pocket &mdash; deepest vertical pocket of amniotic fluid; normal 2&ndash;8 cm</li>
+<li><span class="term">L/S ratio</span> Lecithin-Sphingomyelin ratio &mdash; measures fetal lung maturity; &ge;2:1 = lungs ready</li>
+<li><span class="term">AFP</span> Alpha-Fetoprotein &mdash; protein produced by fetus; high levels in amniotic fluid indicate neural tube defects</li>
+<li><span class="term">Amniocentesis</span> Procedure where a needle is inserted through the abdomen into the amniotic sac to sample fluid for testing</li>
+<li><span class="term">Chorioamnionitis</span> Infection of the amniotic membranes &mdash; causes foul-smelling fluid; requires urgent antibiotics and delivery</li>
+<li><span class="term">Karyotyping</span> Chromosomal analysis of fetal cells from amniotic fluid &mdash; detects Down syndrome, Turner syndrome, etc.</li>
+</ul></div>
+
+<div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div>
+<details><summary>What does the L/S ratio test and what is the normal value indicating lung maturity?</summary><p>L/S ratio (Lecithin to Sphingomyelin) tests fetal lung maturity. A ratio of 2:1 or more means the lungs are mature enough for the baby to breathe after delivery. This is checked before planning a preterm delivery (before 37 weeks).</p></details>
+<details><summary>What is the significance of high AFP in amniotic fluid?</summary><p>High Alpha-Fetoprotein (AFP) in amniotic fluid indicates Neural Tube Defects &mdash; conditions where the spinal cord or brain is exposed, such as spina bifida or anencephaly. The test is done via amniocentesis at 15&ndash;18 weeks.</p></details>
+<details><summary>A nurse observes green amniotic fluid when the membranes rupture. What does this mean and what should she do?</summary><p>Green fluid = meconium staining = fetal distress (baby has passed stool inside the womb). The nurse should: 1. Immediately notify the doctor. 2. Start continuous electronic fetal monitoring. 3. Prepare neonatal resuscitation equipment (suction, oxygen, resuscitaire). 4. Alert the neonatal team to be present at delivery for possible meconium aspiration.</p></details>
+<details><summary>What does foul-smelling amniotic fluid indicate?</summary><p>Foul-smelling amniotic fluid = chorioamnionitis (infection of the amniotic membranes and fluid). Treatment: IV antibiotics immediately + urgent delivery of the baby regardless of gestational age, as the infection threatens both mother and baby.</p></details>
 </div>
 `
   }

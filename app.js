@@ -29,11 +29,16 @@ document.addEventListener('DOMContentLoaded', () => {
     function getAllQuestions() {
         const unit1 = window.QUESTIONS_DATA || [];
         const unit2 = window.QUESTIONS_DATA_UNIT2 || [];
-        return [...unit1, ...unit2];
+        const unit3 = window.QUESTIONS_DATA_UNIT3 || [];
+        const unit4 = window.QUESTIONS_DATA_UNIT4 || [];
+        const unit5 = window.QUESTIONS_DATA_UNIT5 || [];
+        const unit6 = window.QUESTIONS_DATA_UNIT6 || [];
+        const unit7 = window.QUESTIONS_DATA_UNIT7 || [];
+        return [...unit1, ...unit2, ...unit3, ...unit4, ...unit5, ...unit6, ...unit7];
     }
 
     function getUnitLabel(unit) {
-        const labels = { 1: 'UNIT I', 2: 'UNIT II' };
+        const labels = { 1: 'UNIT I', 2: 'UNIT II', 3: 'UNIT III', 4: 'UNIT IV', 5: 'UNIT V', 6: 'UNIT VI', 7: 'UNIT VII' };
         return labels[unit] || 'UNIT ' + unit;
     }
 
@@ -52,7 +57,15 @@ document.addEventListener('DOMContentLoaded', () => {
             sectionTitle.textContent = 'ALL ARCHIVED QUESTIONS';
             sectionSubtitle.textContent = currentQuestions.length + ' questions across all units';
         } else {
-            const unitNames = { '1': 'UNIT I: INTRODUCTION TO MIDWIFERY', '2': 'UNIT II: ANATOMY & PHYSIOLOGY' };
+            const unitNames = {
+                '1': 'UNIT I: INTRODUCTION TO MIDWIFERY',
+                '2': 'UNIT II: ANATOMY & PHYSIOLOGY',
+                '3': 'UNIT III: NORMAL PREGNANCY (ANTENATAL)',
+                '4': 'UNIT IV: LABOUR & BIRTH',
+                '5': 'UNIT V: POSTPARTUM CARE',
+                '6': 'UNIT VI: CARE OF NORMAL NEONATE',
+                '7': 'UNIT VII: FAMILY WELFARE SERVICES'
+            };
             sectionTitle.textContent = unitNames[activeUnit] || 'UNIT ' + activeUnit;
             sectionSubtitle.textContent = currentQuestions.length + ' questions';
         }
