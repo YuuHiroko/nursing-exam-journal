@@ -261,6 +261,10 @@ window.QUESTIONS_DATA = [
   <br>Total ~25 min. Always open with the definition and close with a short conclusion mentioning the SDG target.
 </div>
 
+<div class="editorial-example"><strong>Relatable Example:</strong> Sita, a 28-year-old woman in a village, delivers at home with an untrained dai. She bleeds heavily (PPH) but no one knows to give oxytocin, and she dies before reaching the hospital. Had a nurse midwife conducted the delivery with AMTSL and referred her early via a 108 ambulance, Sita could have survived &mdash; this is exactly why a skilled nurse midwife reduces maternal mortality.</div>
+
+<div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Maternal death = within 42 days of end of pregnancy, from pregnancy-related causes</li><li>#1 direct cause = Haemorrhage (PPH); #1 indirect cause = Anaemia</li><li>Direct causes mnemonic = HOUSE (Haemorrhage, Obstructed labour, Unsafe abortion, Sepsis, Eclampsia)</li><li>Key strategies: ANC, Skilled Birth Attendant, EmOC, JSY, JSSK, MDR</li><li>Nurse midwife works at all stages: antenatal, intranatal, postnatal &mdash; identify, treat, refer</li><li>India's MMR = 97; SDG target = below 70 by 2030</li></ul></div>
+
 <div class="glossary">
   <div class="glossary-title">Full Forms &amp; Easy Meanings</div>
   <ul>

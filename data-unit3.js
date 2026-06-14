@@ -95,6 +95,8 @@ window.QUESTIONS_DATA_UNIT3 = [
   <span class="kw">Presumptive</span><span class="kw">Probable</span><span class="kw">Positive</span><span class="kw">Amenorrhoea</span><span class="kw">Hegar's sign</span><span class="kw">Chadwick's sign</span><span class="kw">Goodell's sign</span><span class="kw">Quickening</span><span class="kw">FHS 120-160</span><span class="kw">hCG</span><span class="kw">USG</span>
 </div>
 
+<div class="editorial-example"><strong>Relatable Example:</strong> Anita misses her period and feels nauseous each morning. The ANM does a urine pregnancy test (positive for hCG), and at 6 weeks an USG shows the gestational sac &mdash; only this USG gives the positive, 100% confirmation of her pregnancy.</div>
+
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
   <li><span class="term">hCG</span> Human Chorionic Gonadotropin &mdash; hormone produced by placenta; detected in pregnancy test</li>
@@ -227,6 +229,8 @@ window.QUESTIONS_DATA_UNIT3 = [
 <div class="keyword-box"><strong>Keywords examiner wants:</strong>
   <span class="kw">hCG</span><span class="kw">Progesterone</span><span class="kw">Morning sickness</span><span class="kw">Corpus luteum</span><span class="kw">Mucus plug</span><span class="kw">Physiological anaemia</span><span class="kw">GFR increases</span><span class="kw">Frequency of urination</span><span class="kw">Chadwick's sign</span><span class="kw">1-2 kg weight gain</span>
 </div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> Pooja, 9 weeks pregnant, complains of constant nausea and tender breasts. The ANM reassures her that rising hCG and progesterone cause these first-trimester changes, advises small frequent meals, and explains the changes are normal and temporary.</div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
@@ -391,6 +395,8 @@ window.QUESTIONS_DATA_UNIT3 = [
 <div class="keyword-box"><strong>Keywords examiner wants:</strong>
   <span class="kw">Blood volume +40-50%</span><span class="kw">Cardiac output +30-50%</span><span class="kw">GFR +50%</span><span class="kw">Physiological anaemia</span><span class="kw">Relaxin</span><span class="kw">Progesterone</span><span class="kw">Linea nigra</span><span class="kw">Striae gravidarum</span><span class="kw">Braxton Hicks</span><span class="kw">11-13 kg weight gain</span>
 </div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> Sunita is 7 months pregnant and worried about backache, swollen feet and breathlessness. The ANM explains that relaxin loosening her joints, the growing uterus, and a 40&ndash;50% rise in blood volume cause these normal antenatal changes, and advises rest in the left lateral position.</div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
@@ -744,6 +750,8 @@ window.QUESTIONS_DATA_UNIT3 = [
 <div class="keyword-box"><strong>Keywords examiner wants:</strong>
   <span class="kw">LMP</span><span class="kw">EDD / Naegele's rule</span><span class="kw">GPTAL</span><span class="kw">Gravida</span><span class="kw">Para</span><span class="kw">Obstetric history</span><span class="kw">Menstrual history</span><span class="kw">TT vaccine</span><span class="kw">IFA tablets</span><span class="kw">High-risk identification</span>
 </div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> When Meena comes for her first ANC visit, the nurse asks her LMP to calculate the EDD, records her past pregnancies as G3P2A0L2, and asks about her diabetes and previous caesarean &mdash; this careful history flags her as high-risk and shapes her whole care plan.</div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
@@ -1110,6 +1118,8 @@ window.QUESTIONS_DATA_UNIT3 = [
 <div class="keyword-box"><strong>Keywords examiner wants:</strong>
   <span class="kw">Presumptive</span><span class="kw">Probable</span><span class="kw">Positive</span><span class="kw">Hegar's sign</span><span class="kw">Chadwick's sign</span><span class="kw">hCG</span><span class="kw">FHS 120-160</span><span class="kw">USG gold standard</span>
 </div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> Rekha thinks she may be pregnant after missing her period (presumptive). The doctor finds a soft cervix and a positive urine test (probable), but it is only when the USG shows the baby's heartbeat that her pregnancy is confirmed for certain (positive sign).</div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>

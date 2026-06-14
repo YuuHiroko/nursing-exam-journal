@@ -146,6 +146,10 @@ window.QUESTIONS_DATA_UNIT6 = [
   </div>
 </div>
 
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">term newborn (37-42 weeks)</span> <span class="kw">2.5-4 kg</span> <span class="kw">Essential Newborn Care</span> <span class="kw">KMC / skin-to-skin</span> <span class="kw">delayed cord clamping</span> <span class="kw">colostrum within 1 hour</span> <span class="kw">Vitamin K</span> <span class="kw">physiological jaundice</span> <span class="kw">minor ailments</span></div>
+
+<div class="conclusion-box"><strong>Conclusion:</strong> A normal newborn needs only simple, timely care to survive and thrive, while minor ailments are harmless and self-resolving. By performing Essential Newborn Care -- warmth, early breastfeeding, cord care and birth vaccines -- the nurse prevents most newborn deaths in the critical first 28 days. The nurse is the baby's first protector and the family's first teacher.</div>
+
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
   <li><span class="term">ENC</span> Essential Newborn Care -- set of proven steps right after birth</li>
@@ -237,6 +241,20 @@ window.QUESTIONS_DATA_UNIT6 = [
   <div class="editorial-example"><strong>Relatable Example:</strong> A nurse in a PHC in rural Maharashtra follows the complete ENC protocol for every delivery. A baby born on a cold December night is dried immediately, placed skin-to-skin on the mother under a shawl, and breastfed within 45 minutes. Three days later, the baby is healthy and gaining weight -- because the first hour was done right.</div>
 </div>
 
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Golden Hour</span> <span class="kw">dry and stimulate</span> <span class="kw">KMC / warmth</span> <span class="kw">delayed cord clamping</span> <span class="kw">Chlorhexidine 4%</span> <span class="kw">breastfeed within 1 hour</span> <span class="kw">colostrum</span> <span class="kw">Vitamin K 1 mg IM</span> <span class="kw">BCG-OPV-Hep B</span></div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li>Sequence: <strong>Dry &rarr; Warm &rarr; Cord &rarr; Airway &rarr; Breathe &rarr; Feed &rarr; Vitamin K/Vaccines</strong></li>
+    <li>Dry and stimulate within <strong>30 seconds</strong>; delay bath for <strong>6 or more hours</strong></li>
+    <li>Delayed cord clamping after <strong>1 minute</strong>; apply <strong>Chlorhexidine 4%</strong></li>
+    <li>Breastfeed within <strong>1 hour</strong> with colostrum; NO pre-lacteal feeds</li>
+    <li>Vitamin K <strong>1 mg IM</strong> prevents HDN; eye drops prevent Ophthalmia Neonatorum</li>
+    <li>Birth vaccines: <strong>BCG, OPV-0, Hepatitis B-0</strong> within 24 hours</li>
+  </ul>
+</div>
+
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
   <li><span class="term">ENC</span> Essential Newborn Care -- proven life-saving actions at birth</li>
@@ -322,6 +340,20 @@ window.QUESTIONS_DATA_UNIT6 = [
     <strong>Babinski in adults vs newborns:</strong> In adults, upward toe fanning (positive Babinski) = abnormal (brain problem). In newborns, it is NORMAL until about 12-18 months.
   </div>
   <div class="editorial-example"><strong>Relatable Example:</strong> Think of neonatal assessment like the 26-point check a mechanic does on a new car at the showroom. The car (baby) was just manufactured (born) -- you need to verify every system works before handing it over to the owner (parents).</div>
+</div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">head-to-toe examination</span> <span class="kw">APGAR at 1 and 5 min</span> <span class="kw">gestational age</span> <span class="kw">anterior fontanel</span> <span class="kw">primitive reflexes</span> <span class="kw">Moro / rooting / grasp</span> <span class="kw">red reflex</span> <span class="kw">patent anus</span> <span class="kw">danger signs</span></div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li>Assess at <strong>birth (APGAR), 2 hours, 24 hours, and before discharge</strong></li>
+    <li>Normal: HR <strong>120-160/min</strong>, RR <strong>40-60/min</strong>, Temp <strong>36.5-37.5&deg;C</strong></li>
+    <li>Anterior fontanel = diamond-shaped, soft and flat; closes by <strong>18 months</strong></li>
+    <li>Check primitive reflexes: <strong>Moro, rooting, sucking, grasp, Babinski</strong></li>
+    <li>Positive Babinski is <strong>normal</strong> in newborns (abnormal in adults)</li>
+    <li>Always confirm <strong>patent anus</strong> and meconium passed within 24-48 hours</li>
+  </ul>
 </div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
@@ -448,6 +480,10 @@ window.QUESTIONS_DATA_UNIT6 = [
     </ul>
   </div>
 </div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> In a labour room in Nagpur, a baby is born blue with a weak cry. The nurse quickly assigns a 1-minute APGAR of 5, starts stimulation and free-flow oxygen, and at 5 minutes the score rises to 9 -- showing the baby responded well. This rapid scoring guided life-saving action in seconds.</div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Virginia Apgar 1952</span> <span class="kw">Appearance-Pulse-Grimace-Activity-Respiration</span> <span class="kw">1 and 5 minutes</span> <span class="kw">score 7-10 normal</span> <span class="kw">acrocyanosis</span> <span class="kw">moderate depression 4-6</span> <span class="kw">severe 0-3</span> <span class="kw">resuscitation</span></div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
@@ -580,6 +616,21 @@ window.QUESTIONS_DATA_UNIT6 = [
   <div class="dont-confuse"><strong>Don't Confuse:</strong><br>
     <strong>Caput Succedaneum vs Subgaleal Haemorrhage:</strong> Subgaleal haemorrhage (most dangerous) is bleeding in the space under the galea (scalp muscle) -- it can hold huge amounts of blood and cause shock. It also crosses sutures (like caput) but is hard and tense. This is a medical emergency unlike caput or cephalhaematoma.
   </div>
+</div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> A mother in a Mumbai hospital panics seeing a soft swelling on her baby's head right after a long labour. The nurse explains it is caput succedaneum -- it crosses the skull lines and will vanish in 2-3 days, so no treatment is needed -- reassuring the worried family.</div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">caput succedaneum</span> <span class="kw">cephalhaematoma</span> <span class="kw">crosses suture lines</span> <span class="kw">confined to one bone</span> <span class="kw">periosteum</span> <span class="kw">present at birth vs after 24-48 hrs</span> <span class="kw">2-3 days vs 6-8 weeks</span> <span class="kw">jaundice risk</span> <span class="kw">never aspirate</span></div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li><strong>Caput Crosses</strong> suture lines; <strong>Cephalhaematoma Confined</strong> to one bone</li>
+    <li>Caput present <strong>at birth</strong>; cephalhaematoma appears <strong>after 24-48 hours</strong></li>
+    <li>Caput resolves in <strong>2-3 days</strong>; cephalhaematoma in <strong>6-8 weeks</strong></li>
+    <li>Caput pits on pressure (oedema); cephalhaematoma is firm/fluctuant (blood)</li>
+    <li>Cephalhaematoma carries <strong>higher jaundice risk</strong>; <strong>never aspirate</strong> it</li>
+  </ul>
 </div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
@@ -771,6 +822,20 @@ window.QUESTIONS_DATA_UNIT6 = [
   <div class="editorial-example"><strong>Relatable Example:</strong> An ANM at a Sub-Centre in rural Rajasthan holds a monthly immunization session on a fixed day. She maintains the cold box with ice packs, checks the VVM on every vial, and records each child's vaccines in the MCP card. This organised system means every child in that village gets protected, even without the parents having to remember the schedule.</div>
 </div>
 
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Universal Immunization Programme</span> <span class="kw">active vs passive immunity</span> <span class="kw">BCG-OPV-Hep B at birth</span> <span class="kw">Pentavalent</span> <span class="kw">MR at 9 months</span> <span class="kw">cold chain 2-8&deg;C</span> <span class="kw">VVM</span> <span class="kw">MCP card</span> <span class="kw">defaulter tracking</span></div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li>At birth: <strong>BCG (ID), OPV-0 (oral), Hepatitis B-0 (IM)</strong> within 24 hours</li>
+    <li><strong>Pentavalent</strong> = 5-in-1 (Diphtheria, Pertussis, Tetanus, Hep B, Hib) at 6, 10, 14 weeks</li>
+    <li>Measles-Rubella (MR) <strong>first dose at 9 months</strong></li>
+    <li>Maintain <strong>cold chain at 2-8&deg;C</strong>; check VVM and expiry before use</li>
+    <li>Active immunity = body makes own antibodies; passive = ready-made antibodies given</li>
+    <li>Record in <strong>MCP card</strong> and track defaulters for missed doses</li>
+  </ul>
+</div>
+
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
   <li><span class="term">UIP</span> Universal Immunization Programme -- India's free vaccine program for all children</li>
@@ -870,6 +935,8 @@ window.QUESTIONS_DATA_UNIT6 = [
     </ul>
   </div>
 </div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">WHO + UNICEF 1991</span> <span class="kw">Ten Steps to Successful Breastfeeding</span> <span class="kw">breastfeed within 1 hour</span> <span class="kw">rooming-in 24 hours</span> <span class="kw">demand feeding</span> <span class="kw">no formula / pacifiers</span> <span class="kw">exclusive breastfeeding 6 months</span> <span class="kw">colostrum</span> <span class="kw">lactation support</span></div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>

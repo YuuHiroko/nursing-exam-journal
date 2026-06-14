@@ -382,6 +382,8 @@ window.QUESTIONS_DATA_UNIT7 = [
   <span class="kw">TFR 2.1</span><span class="kw">PPIUCD</span><span class="kw">Copper-T 380A</span><span class="kw">LNG-IUS</span><span class="kw">Levonorgestrel</span><span class="kw">Spermicidal</span><span class="kw">Contraindications</span><span class="kw">Expulsion</span><span class="kw">Threads</span><span class="kw">Perforation</span>
 </div>
 
+<div class="conclusion-box"><strong>Conclusion:</strong> Clear aims and objectives give family planning its direction, and the IUCD remains one of the most effective, long-acting, and reversible tools to achieve them. The nurse midwife, as counsellor and provider of IUCD services at every PHC and PPIUCD point, turns these family-welfare goals into healthier mothers and children.</div>
+
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
   <li><span class="term">IUCD</span> Intra-Uterine Contraceptive Device &mdash; device placed inside the uterus</li>
@@ -656,6 +658,12 @@ window.QUESTIONS_DATA_UNIT7 = [
   </div>
 </div>
 
+<div class="editorial-example"><strong>Relatable Example:</strong> Sunita, a 28-year-old mother of two in Solapur, wants reliable spacing without remembering a daily pill. The nurse inserts a free Copper-T 380A during her period, giving her 10 years of protection.</div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Contraceptive</span> <span class="kw">IUCD</span> <span class="kw">LARC</span> <span class="kw">Copper-T 380A</span> <span class="kw">LNG-IUS</span> <span class="kw">Spermicidal</span> <span class="kw">Levonorgestrel</span> <span class="kw">PPIUCD</span></div>
+
+<div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Contraceptive = any method/device/medicine that prevents pregnancy; can be temporary or permanent</li><li>IUCD is a Long-Acting Reversible Contraceptive (LARC) placed inside the uterus</li><li>Copper-T 380A = non-hormonal, 10 years, 99.2% effective</li><li>LNG-IUS (Mirena) = hormonal, 5 years, 99.8%, makes periods lighter</li><li>Best insertion time = days 1&ndash;7 of cycle or within 48 hours of delivery (PPIUCD)</li><li>IUCD does NOT protect against STIs/HIV</li></ul></div>
+
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
   <li><span class="term">IUCD</span> Intra-Uterine Contraceptive Device &mdash; device placed inside uterus</li>
@@ -716,6 +724,12 @@ window.QUESTIONS_DATA_UNIT7 = [
     <li><strong>Follow-up:</strong> Thread check at 4&ndash;6 weeks; woman to check threads monthly</li>
   </ol>
 </div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> Kavita delivers at a district hospital and chooses a PPIUCD &mdash; the Copper-T is inserted within 48 hours before discharge, so she is protected without making a separate clinic visit later.</div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">IUCD</span> <span class="kw">Copper-T 380A</span> <span class="kw">LNG-IUS</span> <span class="kw">PPIUCD</span> <span class="kw">Spermicidal</span> <span class="kw">Expulsion</span> <span class="kw">Perforation</span> <span class="kw">Threads</span></div>
+
+<div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Copper-T 380A = non-hormonal, 10 years, makes periods heavier</li><li>LNG-IUS (Mirena) = hormonal, 5 years, makes periods lighter</li><li>Copper-T can also act as emergency contraception within 5 days</li><li>Best insertion time = days 1&ndash;7 of cycle, within 48 hours of delivery, or post-abortion</li><li>Main complications = expulsion, rare perforation, PID if inserted during infection</li><li>Teach woman to check threads monthly after each period</li></ul></div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
@@ -799,6 +813,12 @@ window.QUESTIONS_DATA_UNIT7 = [
   <div class="analogy-box"><strong>Think of it like&hellip;</strong> a tiny security guard inside the uterus. The copper acts like a shield that is constantly harmful to any sperm that enters, keeping pregnancy from happening &mdash; for a full 10 years without needing any medicines or daily reminders.</div>
 </div>
 
+<div class="editorial-example"><strong>Relatable Example:</strong> Rekha, a 32-year-old mother in Aurangabad, does not want any hormonal side effects and is breastfeeding. The nurse inserts a free Copper-T 380A on day 3 of her period &mdash; safe for her milk supply and effective for 10 years.</div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Copper-T 380A</span> <span class="kw">Spermicidal</span> <span class="kw">99.2%</span> <span class="kw">10 years</span> <span class="kw">Emergency contraception</span> <span class="kw">PPIUCD</span> <span class="kw">Menorrhagia</span> <span class="kw">Expulsion</span></div>
+
+<div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Copper-T 380A = T-shaped device with 380 sq mm copper; lasts 10 years</li><li>Copper ions are spermicidal; do NOT stop ovulation</li><li>99.2% effective; fertility returns immediately after removal</li><li>Can be used as emergency contraception within 5 days (most effective EC)</li><li>Main side effects = heavier, painful periods and risk of expulsion</li><li>Non-hormonal &rarr; safe for breastfeeding mothers; free at all government centres</li></ul></div>
+
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
   <li><span class="term">Copper-T 380A</span> T-shaped copper IUCD with 380 sq mm copper &mdash; lasts 10 years</li>
@@ -869,6 +889,10 @@ window.QUESTIONS_DATA_UNIT7 = [
 
   <div class="editorial-example"><strong>Relatable Example:</strong> A couple in Pune with one child wants to wait 3 years before having another. The wife is breastfeeding. The nurse suggests LAM for now (free, no medicines), then switches to Antara injection at 6 months. This is smart use of temporary methods to achieve ideal birth spacing.</div>
 </div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Reversible</span> <span class="kw">Barrier</span> <span class="kw">Hormonal</span> <span class="kw">IUCD</span> <span class="kw">LAM</span> <span class="kw">OCP</span> <span class="kw">DMPA / Antara</span> <span class="kw">Birth spacing</span></div>
+
+<div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Temporary = reversible; fertility returns after stopping</li><li>Mnemonic BINH: Barrier, IUCD, Natural, Hormonal</li><li>Condom is the only method that also protects against STIs/HIV</li><li>LAM is 98% effective only if all 3 criteria are met (baby &lt;6 months, exclusive breastfeeding, no periods)</li><li>Combined OCP is avoided in breastfeeding; mini-pill and DMPA are safe</li><li>GOI free methods = Antara (DMPA), Chhaya (weekly pill), Copper-T</li></ul></div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
@@ -949,6 +973,12 @@ window.QUESTIONS_DATA_UNIT7 = [
   </div>
 </div>
 
+<div class="editorial-example"><strong>Relatable Example:</strong> Anjali's condom broke last night. She visits the chemist and the nurse advises an i-Pill (levonorgestrel 1.5 mg) taken immediately &mdash; well within 72 hours &mdash; and counsels her to start a regular method afterwards.</div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Emergency contraception</span> <span class="kw">Levonorgestrel 1.5 mg</span> <span class="kw">72 hours</span> <span class="kw">i-Pill</span> <span class="kw">Copper-T</span> <span class="kw">Ulipristal</span> <span class="kw">Yuzpe method</span> <span class="kw">Not abortifacient</span></div>
+
+<div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>EC is used AFTER unprotected sex; it PREVENTS pregnancy, it is NOT an abortion pill</li><li>Levonorgestrel ECP = within 72 hours; earlier = more effective</li><li>Ulipristal acetate = effective up to 120 hours (5 days)</li><li>Copper-T within 5 days = most effective EC (&gt;99%)</li><li>If vomiting occurs within 2 hours of the pill, repeat the dose</li><li>EC should NOT be used as a regular method &mdash; counsel for ongoing contraception</li></ul></div>
+
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
   <li><span class="term">EC</span> Emergency Contraception &mdash; contraception used after unprotected sex</li>
@@ -1003,6 +1033,10 @@ window.QUESTIONS_DATA_UNIT7 = [
 
   <div class="editorial-example"><strong>Relatable Example:</strong> A busy working woman in Bangalore who keeps forgetting her daily pill switches to the Evra patch &mdash; she changes it once a week and is fully protected. Her husband is considering RISUG when it becomes available &mdash; a single injection for 10 years of contraception.</div>
 </div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Implanon</span> <span class="kw">LNG-IUS</span> <span class="kw">Contraceptive patch</span> <span class="kw">Vaginal ring</span> <span class="kw">Chhaya</span> <span class="kw">Antara</span> <span class="kw">RISUG</span> <span class="kw">PPIUCD</span></div>
+
+<div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Implanon = subdermal rod, 3 years, 99.9% effective</li><li>Evra patch (weekly) and NuvaRing (3 weeks) = combined hormonal, no daily action</li><li>Chhaya = weekly ormeloxifene pill; Antara = DMPA injection every 3 months (both free GoI)</li><li>PPIUCD = Copper-T within 48 hours of delivery, uses the hospital stay</li><li>RISUG = Indian male contraceptive (injection into vas deferens), reversible, in trials</li><li>Newer methods aim for more convenience, fewer side effects, and more male options</li></ul></div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
@@ -1095,6 +1129,12 @@ window.QUESTIONS_DATA_UNIT7 = [
     <strong>Tubectomy vs Vasectomy:</strong> Tubectomy = female sterilisation (fallopian tubes blocked). Vasectomy = male sterilisation (vas deferens cut). Both are permanent. Vasectomy is SIMPLER, SAFER, and CHEAPER, but tubectomy is more commonly done in India due to gender barriers to male participation.
   </div>
 </div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> Sushila, 32, has completed her family with three children. After full counselling about permanence, she chooses a post-partum mini-lap tubectomy at the district hospital and receives her FPCS cash incentive through her bank account.</div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Tubal ligation</span> <span class="kw">Pomeroy's method</span> <span class="kw">Laparoscopy</span> <span class="kw">Fallope ring</span> <span class="kw">Permanent</span> <span class="kw">FPCS</span> <span class="kw">Informed consent</span> <span class="kw">PPIUCD alternative</span></div>
+
+<div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Tubectomy = permanent female sterilisation; fallopian tubes cut/tied/blocked</li><li>Pomeroy's method is the most common technique in India</li><li>99.5% effective; reversal rarely succeeds &mdash; decision must be voluntary and informed</li><li>Best timing = post-partum (within 7 days) or at caesarean section</li><li>FPCS gives cash incentive to woman, ASHA, and provider</li><li>If failure occurs, watch for ectopic pregnancy</li></ul></div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
@@ -1197,6 +1237,10 @@ window.QUESTIONS_DATA_UNIT7 = [
   <div class="editorial-example"><strong>Relatable Example:</strong> Meera, 30 years old, wants to conceive. Her Hb is 9 g/dL (low), rubella titre is negative (not immune), and she takes valproate for epilepsy (teratogenic). Her nurse counsels her to start folic acid, get rubella vaccine, correct anaemia over 3 months, and asks her neurologist to switch to a safer anti-epileptic. This is complete preconceptional counselling.</div>
 </div>
 
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Preconception</span> <span class="kw">Folic acid 400 mcg</span> <span class="kw">Neural tube defect</span> <span class="kw">Rubella vaccine</span> <span class="kw">Teratogenic</span> <span class="kw">Genetic counselling</span> <span class="kw">BMI</span> <span class="kw">3&ndash;6 months before</span></div>
+
+<div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Begin 3&ndash;6 months before planned conception</li><li>Folic acid 400 mcg daily from at least 1 month before &rarr; prevents neural tube defects</li><li>Correct anaemia (Hb &ge;11 g/dL) and review teratogenic drugs before pregnancy</li><li>Rubella (live) vaccine given before pregnancy, never during pregnancy</li><li>Offer genetic counselling for thalassaemia, consanguinity, or age &gt;35 years</li><li>Stop smoking/alcohol; screen and treat STIs before conceiving</li></ul></div>
+
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
   <li><span class="term">Neural tube defect</span> A birth defect where brain or spinal cord does not form properly (e.g., spina bifida)</li>
@@ -1289,6 +1333,10 @@ window.QUESTIONS_DATA_UNIT7 = [
 
   <div class="analogy-box"><strong>Think of it like&hellip;</strong> a flying lesson before your first solo flight. Just as a pilot must learn all the controls before taking off alone, parents need guidance before taking on the responsibility of a new baby. The nurse is the instructor who makes sure they are ready and confident.</div>
 </div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> At her 6-week postnatal visit in a rural PHC, first-time parents Ramesh and Pooja are counselled together &mdash; the nurse teaches exclusive breastfeeding, the immunisation schedule, signs of postnatal depression, and LAM with a plan to start Copper-T, so both partners share the responsibility.</div>
+
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Antenatal counselling</span> <span class="kw">Postnatal counselling</span> <span class="kw">Folic acid</span> <span class="kw">Breastfeeding</span> <span class="kw">Family planning</span> <span class="kw">Male involvement</span> <span class="kw">JSY</span> <span class="kw">Non-judgemental</span></div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
