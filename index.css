@@ -1472,3 +1472,145 @@ img { max-width: 100%; }
         padding: 0; color: inherit;
     }
 }
+
+/* ─────────────────────────────────────────────
+   DEVICE PIN GATE
+   Soft editorial card · locks page until unlocked
+   ───────────────────────────────────────────── */
+
+/* While locked, hide the journal and freeze scroll. */
+html.gate-locked body { overflow: hidden; }
+html.gate-locked .top-bar,
+html.gate-locked .masthead,
+html.gate-locked .main-layout,
+html.gate-locked .site-footer { display: none !important; }
+
+#pin-gate {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    background: var(--color-background);
+    background-image: radial-gradient(
+        oklch(30.1% 0 0 / 0.05) 1px, transparent 1px);
+    background-size: 18px 18px;
+}
+
+#pin-gate.pin-done { opacity: 0; transition: opacity .3s ease; pointer-events: none; }
+
+.pin-card {
+    width: 100%;
+    max-width: 26rem;
+    background: var(--color-card);
+    border: var(--border-thick);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-hover);
+    padding: 2.25rem 2rem 1.75rem;
+    text-align: center;
+}
+
+.pin-eyebrow {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 0.66rem;
+    letter-spacing: 0.18em;
+    color: var(--color-destructive);
+    border: 1px solid var(--color-destructive);
+    border-radius: 999px;
+    padding: 0.3rem 0.7rem;
+    margin-bottom: 1.1rem;
+}
+
+.pin-title {
+    font-family: var(--font-heading);
+    font-weight: var(--font-heading-weight);
+    font-size: 1.6rem;
+    line-height: 1.15;
+    color: var(--color-foreground);
+    margin: 0 0 0.6rem;
+}
+
+.pin-sub {
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--color-muted-foreground);
+    margin: 0 0 1.5rem;
+}
+
+.pin-form { display: flex; gap: 0.6rem; }
+
+.pin-input {
+    flex: 1 1 auto;
+    min-width: 0;
+    font-family: var(--font-mono);
+    font-size: 1.5rem;
+    letter-spacing: 0.4em;
+    text-align: center;
+    color: var(--color-foreground);
+    background: var(--color-background);
+    border: var(--border-thick);
+    border-radius: var(--radius-md);
+    padding: 0.75rem 0.5rem;
+    outline: none;
+    transition: border-color .15s ease, box-shadow .15s ease;
+}
+.pin-input:focus {
+    border-color: var(--color-ring);
+    box-shadow: 0 0 0 3px oklch(30.1% 0 0 / 0.12);
+}
+.pin-input::placeholder { letter-spacing: 0.4em; color: var(--color-muted-foreground); }
+
+.pin-btn {
+    flex: 0 0 auto;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+    font-weight: 700;
+    color: var(--color-primary-foreground);
+    background: var(--color-primary);
+    border: var(--border-thick);
+    border-color: var(--color-primary);
+    border-radius: var(--radius-md);
+    padding: 0 1.25rem;
+    cursor: pointer;
+    transition: transform .1s ease, opacity .15s ease;
+}
+.pin-btn:hover { opacity: 0.9; }
+.pin-btn:active { transform: translateY(1px); }
+
+.pin-error {
+    min-height: 1.2rem;
+    margin: 0.9rem 0 0;
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    color: var(--color-destructive);
+}
+
+.pin-device {
+    display: block;
+    margin-top: 0.4rem;
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.14em;
+    color: var(--color-muted-foreground);
+    opacity: 0.7;
+}
+
+/* Wrong-PIN shake */
+@keyframes pin-shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-7px); }
+    40%, 80% { transform: translateX(7px); }
+}
+#pin-gate.shake .pin-card { animation: pin-shake .4s ease; }
+
+@media (max-width: 420px) {
+    .pin-card { padding: 1.75rem 1.25rem 1.4rem; }
+    .pin-form { flex-direction: column; }
+    .pin-btn { padding: 0.7rem; }
+}
