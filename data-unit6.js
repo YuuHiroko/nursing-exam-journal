@@ -10,6 +10,41 @@ window.QUESTIONS_DATA_UNIT6 = [
 <div class="in-short"><strong>In Short:</strong> A normal newborn is a baby born between 37-42 weeks of pregnancy, weighing 2.5-4 kg, with no birth defects. Minor ailments are small, common problems that go away on their own. Essential newborn care (ENC) is the set of simple but life-saving actions done right after birth -- warmth, breathing, cord care, feeding, and hygiene.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 250" role="img" aria-label="Essential newborn care steps from warmth to immunization" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">Essential Newborn Care -- Sequence</text>
+      <rect x="20" y="45" width="170" height="50" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="105" y="68" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">1. Dry and</text>
+      <text x="105" y="84" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">stimulate (30 s)</text>
+      <rect x="215" y="45" width="170" height="50" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="68" text-anchor="middle" fill="var(--color-foreground)" font-size="12">2. Warmth (KMC,</text>
+      <text x="300" y="84" text-anchor="middle" fill="var(--color-foreground)" font-size="12">skin-to-skin)</text>
+      <rect x="410" y="45" width="170" height="50" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="495" y="68" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">3. Cord care</text>
+      <text x="495" y="84" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">(delayed clamp)</text>
+      <line x1="190" y1="70" x2="215" y2="70" stroke="var(--color-foreground)" stroke-width="2"/>
+      <line x1="385" y1="70" x2="410" y2="70" stroke="var(--color-foreground)" stroke-width="2"/>
+      <line x1="495" y1="95" x2="495" y2="120" stroke="var(--color-foreground)" stroke-width="2"/>
+      <rect x="410" y="120" width="170" height="50" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="495" y="143" text-anchor="middle" fill="var(--color-foreground)" font-size="12">4. APGAR at</text>
+      <text x="495" y="159" text-anchor="middle" fill="var(--color-foreground)" font-size="12">1 and 5 min</text>
+      <rect x="215" y="120" width="170" height="50" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="143" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">5. Breastfeed</text>
+      <text x="300" y="159" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">within 1 hour</text>
+      <rect x="20" y="120" width="170" height="50" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="105" y="143" text-anchor="middle" fill="var(--color-foreground)" font-size="12">6. Eye care,</text>
+      <text x="105" y="159" text-anchor="middle" fill="var(--color-foreground)" font-size="12">Vit K, vaccines</text>
+      <line x1="410" y1="145" x2="385" y2="145" stroke="var(--color-foreground)" stroke-width="2"/>
+      <line x1="215" y1="145" x2="190" y2="145" stroke="var(--color-foreground)" stroke-width="2"/>
+      <line x1="105" y1="170" x2="105" y2="195" stroke="var(--color-foreground)" stroke-width="2"/>
+      <rect x="20" y="195" width="560" height="40" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="220" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">7. Weigh, ID wristband, monitor and rooming-in with mother</text>
+    </svg>
+    <div class="figure-caption">Fig: Essential Newborn Care steps</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The first few hours and days after birth are the most dangerous time for a baby. Most newborn deaths happen in the <strong>first 28 days of life</strong>. Good newborn care by the nurse can prevent these deaths. Understanding what a normal newborn looks like helps us quickly spot problems.</p>
 </div>
@@ -182,6 +217,44 @@ window.QUESTIONS_DATA_UNIT6 = [
 <div class="in-short"><strong>In Short:</strong> Immediate newborn care = the first actions in the first 60-90 minutes after birth. The key steps are: DRY &rarr; WARM &rarr; CORD &rarr; BREATHE &rarr; FEED &rarr; PROTECT (vaccines + Vitamin K). These simple steps prevent most newborn deaths.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 230" role="img" aria-label="Golden hour timeline of immediate newborn care DWCABFV" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">The Golden Hour -- DWCABFV</text>
+      <line x1="40" y1="60" x2="560" y2="60" stroke="var(--color-foreground)" stroke-width="2"/>
+      <circle cx="80" cy="60" r="6" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <circle cx="190" cy="60" r="6" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <circle cx="300" cy="60" r="6" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <circle cx="410" cy="60" r="6" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <circle cx="520" cy="60" r="6" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="80" y="48" text-anchor="middle" fill="var(--color-foreground)" font-size="11">0-30 s</text>
+      <text x="190" y="48" text-anchor="middle" fill="var(--color-foreground)" font-size="11">first min</text>
+      <text x="300" y="48" text-anchor="middle" fill="var(--color-foreground)" font-size="11">1-3 min</text>
+      <text x="410" y="48" text-anchor="middle" fill="var(--color-foreground)" font-size="11">5 min</text>
+      <text x="520" y="48" text-anchor="middle" fill="var(--color-foreground)" font-size="11">1 hour</text>
+      <rect x="35" y="85" width="90" height="48" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="80" y="106" text-anchor="middle" fill="var(--color-foreground)" font-size="12">D - Dry,</text>
+      <text x="80" y="121" text-anchor="middle" fill="var(--color-foreground)" font-size="12">stimulate</text>
+      <rect x="145" y="85" width="90" height="48" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="190" y="106" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">W - Warm</text>
+      <text x="190" y="121" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">C - Cord</text>
+      <rect x="255" y="85" width="90" height="48" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="106" text-anchor="middle" fill="var(--color-foreground)" font-size="12">A - Airway</text>
+      <text x="300" y="121" text-anchor="middle" fill="var(--color-foreground)" font-size="12">if needed</text>
+      <rect x="365" y="85" width="90" height="48" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="410" y="106" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">B - Breathe</text>
+      <text x="410" y="121" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">APGAR</text>
+      <rect x="475" y="85" width="90" height="48" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="520" y="106" text-anchor="middle" fill="var(--color-foreground)" font-size="12">F - Feed</text>
+      <text x="520" y="121" text-anchor="middle" fill="var(--color-foreground)" font-size="12">V - Vit K</text>
+      <rect x="120" y="160" width="360" height="44" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="180" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">V = Vitamin K 1 mg IM + eye care +</text>
+      <text x="300" y="196" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">birth vaccines (BCG, OPV-0, Hep B-0)</text>
+    </svg>
+    <div class="figure-caption">Fig: Golden Hour newborn care timeline</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The first hour after birth is called the <strong>"Golden Hour"</strong> for newborns. Actions taken in this period can save the baby's life. The nurse must know and follow these steps every time a baby is born.</p>
 </div>
@@ -284,6 +357,33 @@ window.QUESTIONS_DATA_UNIT6 = [
 <div class="in-short"><strong>In Short:</strong> Neonatal assessment = a head-to-toe check of the newborn to make sure everything is normal and detect any problems early. It includes APGAR scoring at birth, then a full physical and gestational age assessment within the first few hours.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 300" role="img" aria-label="Head to toe neonatal assessment checklist" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">Head-to-Toe Neonatal Assessment</text>
+      <ellipse cx="120" cy="75" rx="34" ry="40" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <rect x="100" y="113" width="40" height="80" rx="10" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <line x1="100" y1="130" x2="70" y2="170" stroke="var(--color-foreground)" stroke-width="6" stroke-linecap="round"/>
+      <line x1="140" y1="130" x2="170" y2="170" stroke="var(--color-foreground)" stroke-width="6" stroke-linecap="round"/>
+      <line x1="110" y1="193" x2="100" y2="250" stroke="var(--color-foreground)" stroke-width="6" stroke-linecap="round"/>
+      <line x1="130" y1="193" x2="140" y2="250" stroke="var(--color-foreground)" stroke-width="6" stroke-linecap="round"/>
+      <rect x="230" y="45" width="350" height="36" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="245" y="68" fill="var(--color-accent-foreground)" font-size="12">Head: fontanels, sutures, HC 33-35 cm</text>
+      <rect x="230" y="88" width="350" height="36" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="245" y="111" fill="var(--color-foreground)" font-size="12">Eyes/ears/nose/mouth: red reflex, palate</text>
+      <rect x="230" y="131" width="350" height="36" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="245" y="154" fill="var(--color-accent-foreground)" font-size="12">Chest: RR 40-60, HR 120-160/min</text>
+      <rect x="230" y="174" width="350" height="36" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="245" y="197" fill="var(--color-foreground)" font-size="12">Abdomen and cord, genitalia, patent anus</text>
+      <rect x="230" y="217" width="350" height="36" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="245" y="240" fill="var(--color-accent-foreground)" font-size="12">Spine, limbs (5+5 digits), hip click</text>
+      <rect x="230" y="260" width="350" height="36" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="245" y="283" fill="var(--color-foreground)" font-size="12">Reflexes: Moro, rooting, suck, grasp</text>
+    </svg>
+    <div class="figure-caption">Fig: Head-to-toe newborn examination</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Every newborn must be assessed <strong>systematically</strong> right after birth. This helps us find problems early -- and early finding = better treatment = healthier baby. The nurse is often the first person to detect abnormalities in the newborn.</p>
 </div>
@@ -383,6 +483,63 @@ window.QUESTIONS_DATA_UNIT6 = [
     years: "Summer 2021, Winter 2024, Summer 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The APGAR score is a quick 10-point test done at 1 minute and 5 minutes after birth to check how well the newborn is adapting outside the womb. It tests 5 signs: Appearance (colour), Pulse (heart rate), Grimace (reflex), Activity (muscle tone), Respiration (breathing). Score 7-10 = healthy; below 7 = needs help.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 300" role="img" aria-label="APGAR score chart of five signs each scored zero one or two" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="20" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">APGAR Score (each sign 0, 1 or 2)</text>
+      <rect x="20" y="32" width="200" height="30" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="120" y="52" text-anchor="middle" fill="var(--color-foreground)" font-size="12">Sign</text>
+      <rect x="228" y="32" width="110" height="30" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="283" y="52" text-anchor="middle" fill="var(--color-foreground)" font-size="12">0</text>
+      <rect x="346" y="32" width="110" height="30" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="401" y="52" text-anchor="middle" fill="var(--color-foreground)" font-size="12">1</text>
+      <rect x="464" y="32" width="116" height="30" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="522" y="52" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">2 (best)</text>
+      <rect x="20" y="68" width="200" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="30" y="92" fill="var(--color-foreground)" font-size="12">A - Appearance</text>
+      <rect x="228" y="68" width="110" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="283" y="92" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Blue/pale</text>
+      <rect x="346" y="68" width="110" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="401" y="92" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Acrocyanosis</text>
+      <rect x="464" y="68" width="116" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="522" y="92" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Pink all over</text>
+      <rect x="20" y="114" width="200" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="30" y="138" fill="var(--color-foreground)" font-size="12">P - Pulse</text>
+      <rect x="228" y="114" width="110" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="283" y="138" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Absent</text>
+      <rect x="346" y="114" width="110" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="401" y="138" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Below 100</text>
+      <rect x="464" y="114" width="116" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="522" y="138" text-anchor="middle" fill="var(--color-foreground)" font-size="11">100 or more</text>
+      <rect x="20" y="160" width="200" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="30" y="184" fill="var(--color-foreground)" font-size="12">G - Grimace</text>
+      <rect x="228" y="160" width="110" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="283" y="184" text-anchor="middle" fill="var(--color-foreground)" font-size="11">No response</text>
+      <rect x="346" y="160" width="110" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="401" y="184" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Weak grimace</text>
+      <rect x="464" y="160" width="116" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="522" y="184" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Cry/cough</text>
+      <rect x="20" y="206" width="200" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="30" y="230" fill="var(--color-foreground)" font-size="12">A - Activity</text>
+      <rect x="228" y="206" width="110" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="283" y="230" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Limp</text>
+      <rect x="346" y="206" width="110" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="401" y="230" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Some flexion</text>
+      <rect x="464" y="206" width="116" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="522" y="230" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Active motion</text>
+      <rect x="20" y="252" width="200" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="30" y="276" fill="var(--color-foreground)" font-size="12">R - Respiration</text>
+      <rect x="228" y="252" width="110" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="283" y="276" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Absent</text>
+      <rect x="346" y="252" width="110" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="401" y="276" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Weak/gasp</text>
+      <rect x="464" y="252" width="116" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="522" y="276" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Good + cry</text>
+    </svg>
+    <div class="figure-caption">Fig: APGAR scoring of 5 signs</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -511,6 +668,37 @@ window.QUESTIONS_DATA_UNIT6 = [
     years: "Summer 2014, Winter 2016",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Both caput succedaneum and cephalhaematoma are swellings on a newborn's head seen after delivery. Caput = swelling of the skin (soft tissue) that crosses skull bone boundaries and disappears in 2-3 days. Cephalhaematoma = blood collected under the skull bone covering (periosteum) that stays within bone boundaries and takes 6-8 weeks to go away.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 290" role="img" aria-label="Caput succedaneum crosses suture lines while cephalhaematoma stays within one bone" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">Caput vs Cephalhaematoma (scalp cross-section)</text>
+      <text x="155" y="48" text-anchor="middle" fill="var(--color-foreground)" font-size="13" font-weight="bold">Caput Succedaneum</text>
+      <line x1="155" y1="100" x2="155" y2="170" stroke="var(--color-border)" stroke-width="2" stroke-dasharray="4 4"/>
+      <text x="155" y="188" text-anchor="middle" fill="var(--color-foreground)" font-size="11">suture line</text>
+      <path d="M 40 100 Q 155 60 270 100 L 270 110 Q 155 95 40 110 Z" fill="var(--color-foreground)" opacity="0.85"/>
+      <path d="M 40 110 Q 155 130 270 110 L 270 140 Q 155 150 40 140 Z" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <ellipse cx="155" cy="85" rx="100" ry="22" fill="var(--accent)" opacity="0.55" stroke="var(--accent)" stroke-width="1.5"/>
+      <rect x="50" y="140" width="100" height="20" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <rect x="160" y="140" width="100" height="20" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="155" y="212" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Fluid (oedema) ABOVE periosteum</text>
+      <text x="155" y="228" text-anchor="middle" fill="var(--color-foreground)" font-size="11" font-weight="bold">CROSSES sutures</text>
+      <text x="155" y="244" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Present at birth, gone in 2-3 days</text>
+      <text x="445" y="48" text-anchor="middle" fill="var(--color-foreground)" font-size="13" font-weight="bold">Cephalhaematoma</text>
+      <line x1="445" y1="100" x2="445" y2="170" stroke="var(--color-border)" stroke-width="2" stroke-dasharray="4 4"/>
+      <text x="445" y="188" text-anchor="middle" fill="var(--color-foreground)" font-size="11">suture line</text>
+      <path d="M 330 100 Q 445 80 560 100 L 560 110 Q 445 90 330 110 Z" fill="var(--color-foreground)" opacity="0.85"/>
+      <rect x="340" y="140" width="100" height="20" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <rect x="450" y="140" width="100" height="20" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <path d="M 345 140 Q 392 110 440 140 Z" fill="var(--accent)" stroke="var(--accent)" stroke-width="1.5"/>
+      <text x="445" y="212" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Blood BELOW periosteum, over 1 bone</text>
+      <text x="445" y="228" text-anchor="middle" fill="var(--color-foreground)" font-size="11" font-weight="bold">CONFINED to one bone</text>
+      <text x="445" y="244" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Appears 24-48 h, gone in 6-8 weeks</text>
+      <text x="300" y="272" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Green = swelling   Dark band = scalp/periosteum   White = skull bone</text>
+    </svg>
+    <div class="figure-caption">Fig: Caput vs Cephalhaematoma</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -661,6 +849,35 @@ window.QUESTIONS_DATA_UNIT6 = [
 <div class="in-short"><strong>In Short:</strong> Fontanels are the soft spots on a newborn's skull where the skull bones have not yet joined. They allow the skull to compress (mould) during delivery and expand as the brain grows. They also act as a clinical window: bulging = high brain pressure; sunken = dehydration.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 300" role="img" aria-label="Top view of newborn skull showing anterior and posterior fontanelles and sutures" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">Fontanels (top view of skull)</text>
+      <text x="300" y="42" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Front (face) at top</text>
+      <ellipse cx="300" cy="165" rx="120" ry="110" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <line x1="300" y1="62" x2="300" y2="268" stroke="var(--color-border)" stroke-width="1.5"/>
+      <line x1="182" y1="120" x2="418" y2="120" stroke="var(--color-border)" stroke-width="1.5"/>
+      <line x1="195" y1="225" x2="405" y2="225" stroke="var(--color-border)" stroke-width="1.5"/>
+      <polygon points="300,95 322,120 300,150 278,120" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <polygon points="300,210 314,225 286,225" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="345" y="118" fill="var(--color-foreground)" font-size="11">Coronal suture</text>
+      <text x="310" y="80" fill="var(--color-foreground)" font-size="11">Sagittal suture</text>
+      <text x="335" y="222" fill="var(--color-foreground)" font-size="11">Lambdoid suture</text>
+      <text x="430" y="118" fill="var(--color-foreground)" font-size="12" font-weight="bold">Anterior</text>
+      <text x="430" y="134" fill="var(--color-foreground)" font-size="12" font-weight="bold">fontanel</text>
+      <text x="430" y="150" fill="var(--color-foreground)" font-size="11">diamond,</text>
+      <text x="430" y="165" fill="var(--color-foreground)" font-size="11">closes 18 mo</text>
+      <line x1="322" y1="120" x2="425" y2="125" stroke="var(--color-foreground)" stroke-width="1"/>
+      <text x="40" y="218" fill="var(--color-foreground)" font-size="12" font-weight="bold">Posterior</text>
+      <text x="40" y="234" fill="var(--color-foreground)" font-size="12" font-weight="bold">fontanel</text>
+      <text x="40" y="250" fill="var(--color-foreground)" font-size="11">triangle,</text>
+      <text x="40" y="265" fill="var(--color-foreground)" font-size="11">closes 6-8 wk</text>
+      <line x1="286" y1="222" x2="135" y2="240" stroke="var(--color-foreground)" stroke-width="1"/>
+    </svg>
+    <div class="figure-caption">Fig: Anterior and posterior fontanels</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">What Are Fontanels?</h3>
   <div class="definition-box">
     <strong>Fontanels</strong> are the membranous (soft, fibrous) gaps between the skull bones of a newborn. They are covered only by a tough fibrous membrane (not bone yet). The two important fontanels are:<br>
@@ -711,6 +928,34 @@ window.QUESTIONS_DATA_UNIT6 = [
     years: "Summer 2018",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Immunization means giving vaccines (weakened germs or their parts) to train the body to fight dangerous diseases before they can cause harm. India's Universal Immunization Programme (UIP) provides free vaccines to all children from birth to 5 years, protecting against 12 major diseases.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 250" role="img" aria-label="Birth dose immunization schedule BCG OPV-0 and Hepatitis B-0" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">Vaccines Given at Birth (within 24 hours)</text>
+      <rect x="30" y="45" width="170" height="150" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="115" y="72" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="15" font-weight="bold">BCG</text>
+      <text x="115" y="100" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">Tuberculosis</text>
+      <text x="115" y="130" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">Intradermal</text>
+      <text x="115" y="148" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">(left upper arm)</text>
+      <text x="115" y="178" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">0.05 mL ID</text>
+      <rect x="215" y="45" width="170" height="150" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="72" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">OPV-0</text>
+      <text x="300" y="100" text-anchor="middle" fill="var(--color-foreground)" font-size="12">Poliomyelitis</text>
+      <text x="300" y="130" text-anchor="middle" fill="var(--color-foreground)" font-size="12">Oral</text>
+      <text x="300" y="148" text-anchor="middle" fill="var(--color-foreground)" font-size="12">(2 drops mouth)</text>
+      <text x="300" y="178" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Zero dose</text>
+      <rect x="400" y="45" width="170" height="150" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="485" y="72" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="14" font-weight="bold">Hep B-0</text>
+      <text x="485" y="100" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">Hepatitis B</text>
+      <text x="485" y="130" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">IM (anterolateral</text>
+      <text x="485" y="148" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">thigh)</text>
+      <text x="485" y="178" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">Birth dose</text>
+      <text x="300" y="225" text-anchor="middle" fill="var(--color-foreground)" font-size="12">Next visit: 6 weeks - OPV-1, Pentavalent-1, Rota-1, PCV-1, IPV-1</text>
+    </svg>
+    <div class="figure-caption">Fig: Birth-dose immunization schedule</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
@@ -868,6 +1113,38 @@ window.QUESTIONS_DATA_UNIT6 = [
     years: "Winter 2014, Winter 2018",
     answer: `
 <div class="in-short"><strong>In Short:</strong> BFHI (Baby Friendly Hospital Initiative) is a global programme by WHO and UNICEF (launched 1991) to encourage hospitals to support breastfeeding. A hospital gets the "Baby Friendly" title only if it follows the "Ten Steps to Successful Breastfeeding." The goal is to make breastfeeding the normal, healthy choice for every mother and baby.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 280" role="img" aria-label="Ten steps to successful breastfeeding under BFHI" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">BFHI -- Ten Steps to Successful Breastfeeding</text>
+      <text x="160" y="44" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Steps 1-5: POLICY (hospital)</text>
+      <text x="445" y="44" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Steps 6-10: PRACTICE (with mother)</text>
+      <rect x="20" y="54" width="275" height="34" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="32" y="76" fill="var(--color-foreground)" font-size="12">1. Written breastfeeding policy</text>
+      <rect x="20" y="92" width="275" height="34" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="32" y="114" fill="var(--color-foreground)" font-size="12">2. Train all health staff</text>
+      <rect x="20" y="130" width="275" height="34" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="32" y="152" fill="var(--color-foreground)" font-size="12">3. Educate pregnant women</text>
+      <rect x="20" y="168" width="275" height="34" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="32" y="190" fill="var(--color-accent-foreground)" font-size="12">4. Breastfeed within 1 hour</text>
+      <rect x="20" y="206" width="275" height="34" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="32" y="228" fill="var(--color-foreground)" font-size="12">5. Show how, maintain lactation</text>
+      <rect x="305" y="54" width="275" height="34" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="317" y="76" fill="var(--color-accent-foreground)" font-size="12">6. No other food/drink</text>
+      <rect x="305" y="92" width="275" height="34" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="317" y="114" fill="var(--color-accent-foreground)" font-size="12">7. Rooming-in 24 hours</text>
+      <rect x="305" y="130" width="275" height="34" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="317" y="152" fill="var(--color-foreground)" font-size="12">8. Feeding on demand</text>
+      <rect x="305" y="168" width="275" height="34" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="317" y="190" fill="var(--color-accent-foreground)" font-size="12">9. No pacifiers/artificial nipples</text>
+      <rect x="305" y="206" width="275" height="34" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="317" y="228" fill="var(--color-foreground)" font-size="12">10. Support groups on discharge</text>
+      <text x="300" y="266" text-anchor="middle" fill="var(--color-foreground)" font-size="11">WHO + UNICEF, 1991</text>
+    </svg>
+    <div class="figure-caption">Fig: BFHI Ten Steps</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Definition and Background</h3>

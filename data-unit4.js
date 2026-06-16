@@ -13,6 +13,38 @@ window.QUESTIONS_DATA_UNIT4 = [
 <div class="in-short"><strong>In Short:</strong> <strong>Normal labour</strong> means the baby is born naturally at term (37&ndash;42 weeks), head-first (vertex), with the cervix opening on its own, and delivery happening within about 18 hours, with no complications. In the <strong>first stage</strong>, the uterus contracts more and more, the cervix thins (effacement) and opens (dilatation) from 0 to 10 cm, and a bloody &ldquo;show&rdquo; comes out. Management in the first stage = monitor with a <strong>partograph</strong>; in the second stage = guide pushing and conduct a safe delivery.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 230" role="img" aria-label="Timeline of the four stages of labour with their durations" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">The Four Stages of Labour</text>
+      <line x1="30" y1="70" x2="570" y2="70" stroke="var(--color-foreground)" stroke-width="2"/>
+      <rect x="30" y="55" width="240" height="30" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <rect x="270" y="55" width="120" height="30" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <rect x="390" y="55" width="90" height="30" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <rect x="480" y="55" width="90" height="30" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="150" y="74" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">1st Stage</text>
+      <text x="330" y="74" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">2nd Stage</text>
+      <text x="435" y="74" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11" font-weight="bold">3rd</text>
+      <text x="525" y="74" text-anchor="middle" fill="var(--color-foreground)" font-size="11" font-weight="bold">4th</text>
+      <text x="150" y="108" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Onset to 10 cm</text>
+      <text x="150" y="124" text-anchor="middle" fill="var(--color-foreground)" font-size="11">12-18 hrs (primi)</text>
+      <text x="330" y="108" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Birth of baby</text>
+      <text x="330" y="124" text-anchor="middle" fill="var(--color-foreground)" font-size="11">1-2 hrs</text>
+      <text x="435" y="108" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Placenta</text>
+      <text x="435" y="124" text-anchor="middle" fill="var(--color-foreground)" font-size="11">5-15 min</text>
+      <text x="525" y="108" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Observe</text>
+      <text x="525" y="124" text-anchor="middle" fill="var(--color-foreground)" font-size="11">1 hour</text>
+      <line x1="30" y1="160" x2="30" y2="170" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <line x1="270" y1="160" x2="270" y2="170" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <line x1="390" y1="160" x2="390" y2="170" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="30" y="190" text-anchor="middle" fill="var(--color-foreground)" font-size="11">0 cm</text>
+      <text x="270" y="190" text-anchor="middle" fill="var(--color-foreground)" font-size="11">10 cm</text>
+      <text x="300" y="216" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Time of labour progresses left to right</text>
+    </svg>
+    <div class="figure-caption">Fig: The Four Stages of Labour</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Labour is the natural process by which the baby, placenta, and membranes are pushed out of the uterus through the birth canal. For a nurse midwife, understanding normal labour is the foundation of safe delivery care. When labour is normal, the nurse only needs to support and monitor. When something goes wrong, she must spot it early and refer.</p>
 </div>
@@ -186,6 +218,37 @@ Tip: Draw the cervix-opening flowchart and write management in numbered points f
 <div class="in-short"><strong>In Short:</strong> <strong>Normal labour</strong> is when labour starts by itself at term (37&ndash;42 weeks), the baby is head-first (vertex), the cervix opens steadily, and the baby is born within about 18 hours with no problems. In the <strong>first stage</strong>, contractions get stronger, the cervix thins (effacement) and opens from 0 to 10 cm, the &ldquo;show&rdquo; appears, and the baby&rsquo;s skull moulds. Management means careful <strong>partograph</strong> monitoring, comfort, bladder care, and watching for danger signs.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 240" role="img" aria-label="Cervical effacement and dilatation during the first stage of labour" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Cervix: Effacement then Dilatation</text>
+      <g>
+        <ellipse cx="110" cy="110" rx="55" ry="70" fill="none" stroke="var(--color-foreground)" stroke-width="2"/>
+        <path d="M95 75 L95 145 M125 75 L125 145" stroke="var(--color-foreground)" stroke-width="2"/>
+        <text x="110" y="205" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Thick &amp; closed</text>
+        <text x="110" y="222" text-anchor="middle" fill="var(--color-foreground)" font-size="11">0% effaced, 0 cm</text>
+      </g>
+      <g>
+        <ellipse cx="300" cy="110" rx="55" ry="70" fill="none" stroke="var(--color-foreground)" stroke-width="2"/>
+        <path d="M290 90 L290 130 M310 90 L310 130" stroke="var(--accent)" stroke-width="3"/>
+        <text x="300" y="205" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Effaced (thin)</text>
+        <text x="300" y="222" text-anchor="middle" fill="var(--color-foreground)" font-size="11">100% effaced, 2 cm</text>
+      </g>
+      <g>
+        <ellipse cx="490" cy="110" rx="55" ry="70" fill="none" stroke="var(--color-foreground)" stroke-width="2"/>
+        <circle cx="490" cy="110" r="36" fill="var(--accent)" opacity="0.35" stroke="var(--color-foreground)" stroke-width="2"/>
+        <text x="490" y="205" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Fully dilated</text>
+        <text x="490" y="222" text-anchor="middle" fill="var(--color-foreground)" font-size="11">10 cm (complete)</text>
+      </g>
+      <path d="M170 110 L240 110" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <polygon points="240,110 232,106 232,114" fill="var(--color-foreground)"/>
+      <path d="M360 110 L430 110" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <polygon points="430,110 422,106 422,114" fill="var(--color-foreground)"/>
+    </svg>
+    <div class="figure-caption">Fig: Cervical Effacement &amp; Dilatation</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Labour is how the baby moves out of the uterus into the world. The first stage is the longest and most important stage because the cervix must open fully before the baby can be born. A nurse midwife must understand the changes and how to care for the woman safely.</p>
 </div>
@@ -333,6 +396,39 @@ Tip: Add the latent/active table and the flowchart &mdash; they fetch easy marks
 <div class="in-short"><strong>In Short:</strong> <strong>Normal labour</strong> = spontaneous, term, vertex baby born within 18 hours with no complications. The <strong>mechanism of labour in LOA</strong> (Left Occiput Anterior) is a series of <strong>7 movements</strong> the baby&rsquo;s head makes to pass through the pelvis: <strong>engagement, descent, flexion, internal rotation, crowning/extension, restitution, and external rotation</strong>, then expulsion. Nursing care in the first stage focuses on <strong>monitoring, comfort, and safety</strong> using the partograph.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 250" role="img" aria-label="Sequence of seven movements in the mechanism of labour in LOA position" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Mechanism of Labour (LOA) - 7 Movements</text>
+      <g>
+        <rect x="20" y="45" width="170" height="34" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="105" y="67" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">1. Engagement</text>
+        <rect x="215" y="45" width="170" height="34" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="300" y="67" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">2. Descent</text>
+        <rect x="410" y="45" width="170" height="34" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="495" y="67" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">3. Flexion</text>
+      </g>
+      <g>
+        <rect x="20" y="100" width="170" height="34" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="105" y="122" text-anchor="middle" fill="var(--color-foreground)" font-size="11" font-weight="bold">4. Internal rotation</text>
+        <rect x="215" y="100" width="170" height="34" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="300" y="122" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">5. Extension</text>
+        <rect x="410" y="100" width="170" height="34" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="495" y="122" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">6. Restitution</text>
+      </g>
+      <g>
+        <rect x="20" y="155" width="280" height="34" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="160" y="177" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">7. External rotation</text>
+        <rect x="320" y="155" width="260" height="34" rx="8" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="450" y="177" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Expulsion of body</text>
+      </g>
+      <text x="300" y="220" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Flexion gives smallest diameter (suboccipitobregmatic 9.5 cm)</text>
+      <text x="300" y="238" text-anchor="middle" fill="var(--color-foreground)" font-size="11">LOA = Left Occiput Anterior (most favourable position)</text>
+    </svg>
+    <div class="figure-caption">Fig: Mechanism of Labour in LOA</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">For the baby to be born, the head must turn and adjust as it passes through the curved pelvis. These adjustments are called the <strong>mechanism of labour</strong>. The most common and favourable position is <strong>LOA (Left Occiput Anterior)</strong>. A nurse midwife must understand this mechanism and also know how to care for the mother during the long first stage.</p>
 </div>
@@ -475,6 +571,36 @@ Tip: Draw the 7-movement flowchart and write each movement with its key point (e
     years: "Winter 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> <strong>Labour</strong> is the process of pushing the baby, placenta, and membranes out of the uterus. <strong>True labour</strong> has regular contractions that get stronger and open the cervix; <strong>false labour</strong> (Braxton Hicks) is irregular, does not open the cervix, and goes away with walking. In the <strong>first stage</strong>, contractions strengthen, the cervix effaces and dilates (0&ndash;10 cm), and the show appears. Management = <strong>partograph monitoring, comfort, and safety</strong>.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 240" role="img" aria-label="Comparison of true labour and false labour" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">True Labour vs False Labour</text>
+      <rect x="20" y="40" width="270" height="34" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="155" y="62" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="13" font-weight="bold">TRUE Labour</text>
+      <rect x="310" y="40" width="270" height="34" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="445" y="62" text-anchor="middle" fill="var(--color-foreground)" font-size="13" font-weight="bold">FALSE (Braxton Hicks)</text>
+      <g fill="var(--color-foreground)" font-size="11.5">
+        <text x="30" y="100">- Regular, rhythmic contractions</text>
+        <text x="30" y="124">- Increase in strength &amp; frequency</text>
+        <text x="30" y="148">- Cervix dilates &amp; effaces</text>
+        <text x="30" y="172">- Show present</text>
+        <text x="30" y="196">- NOT relieved by walking</text>
+        <text x="30" y="220">- Pain in back AND abdomen</text>
+      </g>
+      <g fill="var(--color-foreground)" font-size="11.5">
+        <text x="320" y="100">- Irregular contractions</text>
+        <text x="320" y="124">- No increase / no progress</text>
+        <text x="320" y="148">- No cervical change</text>
+        <text x="320" y="172">- Show usually absent</text>
+        <text x="320" y="196">- Relieved by walking</text>
+        <text x="320" y="220">- Pain only in lower abdomen</text>
+      </g>
+      <line x1="300" y1="80" x2="300" y2="228" stroke="var(--color-border)" stroke-width="1.5"/>
+    </svg>
+    <div class="figure-caption">Fig: True vs False Labour</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -626,6 +752,38 @@ Tip: The true-vs-false comparison MUST be a table for full marks.</div>
     years: "Winter 2017, Winter 2024",
     answer: `
 <div class="in-short"><strong>In Short:</strong> <strong>Normal labour</strong> = spontaneous, term, vertex baby delivered within 18 hours with no complications. There are <strong>4 stages</strong>: 1st (cervix opens to 10 cm), 2nd (baby is born), 3rd (placenta is delivered), 4th (1-hour observation). The <strong>third stage</strong> is managed using <strong>AMTSL</strong>: (1) <strong>Oxytocin 10 IU IM</strong> within 1 minute, (2) <strong>Controlled Cord Traction</strong>, and (3) <strong>uterine massage</strong>. This prevents postpartum haemorrhage.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 250" role="img" aria-label="Active management of third stage of labour and signs of placental separation" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">AMTSL &amp; Signs of Placental Separation</text>
+      <rect x="20" y="45" width="170" height="60" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="105" y="68" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">1. Oxytocin</text>
+      <text x="105" y="86" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">10 IU IM</text>
+      <text x="105" y="100" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">within 1 min</text>
+      <rect x="215" y="45" width="170" height="60" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="300" y="68" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">2. Controlled</text>
+      <text x="300" y="86" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Cord Traction</text>
+      <text x="300" y="100" text-anchor="middle" fill="var(--color-foreground)" font-size="11">+ counter-traction</text>
+      <rect x="410" y="45" width="170" height="60" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="495" y="68" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">3. Uterine</text>
+      <text x="495" y="86" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">massage</text>
+      <text x="495" y="100" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">until firm</text>
+      <path d="M190 75 L215 75" stroke="var(--color-foreground)" stroke-width="1.5"/><polygon points="215,75 207,71 207,79" fill="var(--color-foreground)"/>
+      <path d="M385 75 L410 75" stroke="var(--color-foreground)" stroke-width="1.5"/><polygon points="410,75 402,71 402,79" fill="var(--color-foreground)"/>
+      <text x="300" y="140" text-anchor="middle" fill="var(--color-foreground)" font-size="13" font-weight="bold">Signs of separation:</text>
+      <ellipse cx="120" cy="190" rx="48" ry="38" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <path d="M120 190 q-6 25 -2 50" stroke="var(--color-foreground)" stroke-width="2" fill="none"/>
+      <text x="120" y="240" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Cord lengthens</text>
+      <circle cx="300" cy="190" r="34" fill="var(--accent)" opacity="0.4" stroke="var(--color-foreground)" stroke-width="2"/>
+      <text x="300" y="194" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Globular</text>
+      <text x="300" y="240" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Uterus rises &amp; hard</text>
+      <path d="M470 165 q10 20 0 45 q-10 -20 0 -45" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="475" y="240" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Gush of blood</text>
+    </svg>
+    <div class="figure-caption">Fig: AMTSL &amp; Signs of Separation</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -797,6 +955,39 @@ Tip: Always write the 3 AMTSL steps clearly with the oxytocin dose &mdash; that 
 <div class="in-short"><strong>In Short:</strong> The <strong>mechanism of labour</strong> is the series of passive movements the baby&rsquo;s head and body make to adapt to the mother&rsquo;s pelvis and be born. In a vertex (head-first) presentation, the baby performs <strong>cardinal movements</strong> in order: <strong>engagement &rarr; descent &rarr; flexion &rarr; internal rotation &rarr; crowning &amp; extension &rarr; restitution &rarr; external rotation &rarr; expulsion</strong>. These movements help the smallest diameter of the head (suboccipitobregmatic, 9.5 cm) pass through the curved birth canal.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 260" role="img" aria-label="Cardinal movements of labour in order in vertex presentation" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Cardinal Movements (Vertex)</text>
+      <g font-size="11.5">
+        <rect x="20" y="40" width="175" height="32" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="107" y="61" text-anchor="middle" fill="var(--color-accent-foreground)" font-weight="bold">1. Engagement</text>
+        <rect x="212" y="40" width="175" height="32" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="299" y="61" text-anchor="middle" fill="var(--color-foreground)" font-weight="bold">2. Descent</text>
+        <rect x="404" y="40" width="175" height="32" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="491" y="61" text-anchor="middle" fill="var(--color-accent-foreground)" font-weight="bold">3. Flexion</text>
+        <rect x="20" y="86" width="175" height="32" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="107" y="107" text-anchor="middle" fill="var(--color-foreground)" font-weight="bold">4. Internal rotation</text>
+        <rect x="212" y="86" width="175" height="32" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="299" y="107" text-anchor="middle" fill="var(--color-accent-foreground)" font-weight="bold">5. Crowning</text>
+        <rect x="404" y="86" width="175" height="32" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="491" y="107" text-anchor="middle" fill="var(--color-foreground)" font-weight="bold">6. Extension</text>
+        <rect x="20" y="132" width="175" height="32" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="107" y="153" text-anchor="middle" fill="var(--color-accent-foreground)" font-weight="bold">7. Restitution</text>
+        <rect x="212" y="132" width="175" height="32" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="299" y="153" text-anchor="middle" fill="var(--color-foreground)" font-weight="bold">8. External rotation</text>
+        <rect x="404" y="132" width="175" height="32" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="491" y="153" text-anchor="middle" fill="var(--color-accent-foreground)" font-weight="bold">9. Expulsion</text>
+      </g>
+      <text x="300" y="195" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Key fetal head diameters:</text>
+      <text x="300" y="216" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Suboccipitobregmatic 9.5 cm (full flexion - ideal)</text>
+      <text x="300" y="234" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Occipitofrontal 11.5 cm | Mentovertical 13.5 cm (largest)</text>
+      <text x="300" y="252" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Biparietal 9.5 cm (engagement)</text>
+    </svg>
+    <div class="figure-caption">Fig: Cardinal Movements of Labour</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The pelvis is not a straight tube &mdash; it is curved and has different shapes at different levels. So the baby&rsquo;s head cannot just go straight down. It must turn, bend, and adjust at every level. These adjustments, made automatically by the uterine contractions, are called the <strong>mechanism of labour</strong> or <strong>cardinal movements</strong>. Knowing them helps the midwife understand normal progress and detect when something is wrong.</p>
 </div>
@@ -938,6 +1129,45 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
 <div class="in-short"><strong>In Short:</strong> A <strong>partograph</strong> is a single pre-printed chart used to record the progress of labour and the condition of mother and baby on one page. Plotting starts in the active phase (at <strong>4 cm</strong>). It has <strong>alert and action lines</strong>. If the dilatation line crosses the alert line, labour is slow; crossing the action line means urgent intervention or referral. It helps detect prolonged/obstructed labour early and prevents complications.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 280" role="img" aria-label="Simplified partograph with cervical dilatation curve, alert line and action line" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">The Partograph (Cervicograph)</text>
+      <line x1="70" y1="50" x2="70" y2="220" stroke="var(--color-foreground)" stroke-width="2"/>
+      <line x1="70" y1="220" x2="560" y2="220" stroke="var(--color-foreground)" stroke-width="2"/>
+      <g stroke="var(--color-border)" stroke-width="1">
+        <line x1="70" y1="186" x2="560" y2="186"/>
+        <line x1="70" y1="152" x2="560" y2="152"/>
+        <line x1="70" y1="118" x2="560" y2="118"/>
+        <line x1="70" y1="84" x2="560" y2="84"/>
+        <line x1="70" y1="50" x2="560" y2="50"/>
+      </g>
+      <g fill="var(--color-foreground)" font-size="11" text-anchor="end">
+        <text x="62" y="224">4</text>
+        <text x="62" y="190">5</text>
+        <text x="62" y="156">6</text>
+        <text x="62" y="122">7</text>
+        <text x="62" y="88">8</text>
+        <text x="62" y="54">10</text>
+      </g>
+      <text x="22" y="140" fill="var(--color-foreground)" font-size="11" transform="rotate(-90 22 140)" text-anchor="middle">Dilatation (cm)</text>
+      <text x="315" y="245" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Time (hours) - 1 cm/hr expected</text>
+      <line x1="70" y1="220" x2="380" y2="50" stroke="var(--color-foreground)" stroke-width="2" stroke-dasharray="6 4"/>
+      <text x="350" y="44" fill="var(--color-foreground)" font-size="11">Alert line</text>
+      <line x1="190" y1="220" x2="500" y2="50" stroke="var(--accent)" stroke-width="2" stroke-dasharray="3 3"/>
+      <text x="500" y="62" fill="var(--color-foreground)" font-size="11" text-anchor="middle">Action line</text>
+      <polyline points="70,220 130,200 190,170 250,130 310,95 360,60" fill="none" stroke="var(--color-foreground)" stroke-width="2.5"/>
+      <g fill="var(--color-foreground)">
+        <path d="M64 214 l12 12 M76 214 l-12 12" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <path d="M124 194 l12 12 M136 194 l-12 12" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <path d="M244 124 l12 12 M256 124 l-12 12" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      </g>
+      <text x="300" y="270" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Plot dilatation with X from 4 cm. Left of alert = normal.</text>
+    </svg>
+    <div class="figure-caption">Fig: Partograph - Alert &amp; Action Lines</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
     A <strong>partograph (partogram)</strong> is a <strong>graphic (pictorial) record</strong> of the progress of labour and the maternal and fetal condition, plotted against time on a single chart. It was promoted by the <strong>WHO</strong> as a low-cost tool to detect abnormal labour early.
@@ -1043,6 +1273,32 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
     years: "Summer 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> An <strong>episiotomy</strong> is a planned surgical cut made on the perineum (the area between the vagina and anus) during the second stage to widen the birth outlet and help the baby be born. It is done for a <strong>rigid perineum, big baby, instrumental delivery, or fetal distress</strong>. The common type is <strong>mediolateral</strong>. It is repaired in 3 layers (vaginal mucosa, muscle, skin), and nursing care focuses on <strong>RICE/comfort, hygiene, pain relief, and watching for infection</strong>.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 270" role="img" aria-label="Types of episiotomy incisions on the perineum: median and mediolateral" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Types of Episiotomy Incision</text>
+      <ellipse cx="300" cy="120" rx="55" ry="80" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <text x="300" y="80" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Vaginal</text>
+      <text x="300" y="94" text-anchor="middle" fill="var(--color-foreground)" font-size="11">opening</text>
+      <circle cx="300" cy="225" r="16" fill="var(--color-background)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <text x="300" y="258" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Anus</text>
+      <line x1="300" y1="200" x2="300" y2="209" stroke="var(--color-foreground)" stroke-width="3"/>
+      <text x="300" y="160" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Perineum</text>
+      <line x1="300" y1="200" x2="300" y2="240" stroke="var(--accent)" stroke-width="3"/>
+      <text x="430" y="218" fill="var(--color-foreground)" font-size="12" font-weight="bold">Median</text>
+      <text x="430" y="234" fill="var(--color-foreground)" font-size="11">(straight down)</text>
+      <line x1="362" y1="234" x2="305" y2="208" stroke="var(--color-foreground)" stroke-width="1"/>
+      <line x1="300" y1="200" x2="245" y2="248" stroke="var(--color-foreground)" stroke-width="3"/>
+      <text x="40" y="218" fill="var(--color-foreground)" font-size="12" font-weight="bold">Mediolateral</text>
+      <text x="40" y="234" fill="var(--color-foreground)" font-size="11">(angled aside -</text>
+      <text x="40" y="250" fill="var(--color-foreground)" font-size="11">most common)</text>
+      <line x1="160" y1="240" x2="248" y2="244" stroke="var(--color-foreground)" stroke-width="1"/>
+      <text x="300" y="120" text-anchor="middle" fill="var(--color-foreground)" font-size="11"> </text>
+    </svg>
+    <div class="figure-caption">Fig: Episiotomy - Median vs Mediolateral</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -1211,6 +1467,34 @@ Tip: Emphasise the 3-layer repair and the per-rectal check &mdash; these score w
 <div class="in-short"><strong>In Short:</strong> Pain relief in labour can be <strong>non-pharmacological</strong> (no medicine) &mdash; breathing exercises, back massage, position changes, warm compress, a supportive companion &mdash; or <strong>pharmacological</strong> (medicines) &mdash; opioids like pethidine, inhalation (Entonox), and <strong>epidural analgesia</strong> (the most effective). The midwife combines comfort measures with reassurance and uses drugs as prescribed.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 250" role="img" aria-label="Methods of pain relief in labour: non-pharmacological and pharmacological" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Pain Relief in Labour</text>
+      <rect x="20" y="40" width="270" height="34" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="155" y="62" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">Non-Pharmacological</text>
+      <rect x="310" y="40" width="270" height="34" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="445" y="62" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Pharmacological</text>
+      <g fill="var(--color-foreground)" font-size="11.5">
+        <text x="30" y="100">- Breathing techniques (Lamaze)</text>
+        <text x="30" y="124">- Back massage / counter-pressure</text>
+        <text x="30" y="148">- Position change &amp; mobility</text>
+        <text x="30" y="172">- Warm/cold compress, hydrotherapy</text>
+        <text x="30" y="196">- Companion support, relaxation</text>
+      </g>
+      <g fill="var(--color-foreground)" font-size="11.5">
+        <text x="320" y="100">- Opioids: pethidine (early labour)</text>
+        <text x="320" y="124">- Inhalation: Entonox</text>
+        <text x="320" y="148">- Epidural (most effective)</text>
+        <text x="320" y="172">- Pudendal block / local</text>
+      </g>
+      <line x1="300" y1="80" x2="300" y2="204" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="232" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Start with comfort + support, then escalate to drugs as needed</text>
+    </svg>
+    <div class="figure-caption">Fig: Methods of Pain Relief in Labour</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Labour pain is one of the most severe pains a woman experiences. Good pain management reduces fear and exhaustion, helps labour progress, and makes the birth experience positive. The nurse midwife should know both drug-free and drug-based methods.</p>
 </div>
@@ -1311,6 +1595,39 @@ Tip: Emphasise the 3-layer repair and the per-rectal check &mdash; these score w
     years: "Winter 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The <strong>second stage</strong> runs from <strong>full dilatation (10 cm) to the birth of the baby</strong>. The midwife confirms full dilatation, positions the woman, guides her bearing-down efforts, monitors <strong>FHR every 5 minutes</strong>, and conducts the delivery gently: <strong>control the head, check for the cord, deliver the shoulders, then the body</strong>. Immediately after, she dries the baby, keeps it warm, ensures breathing, and starts skin-to-skin contact and early breastfeeding.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 230" role="img" aria-label="Steps in conducting a normal delivery from full dilatation to newborn care" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Conduct of Normal Delivery (2nd Stage)</text>
+      <rect x="20" y="45" width="170" height="48" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="105" y="65" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">Confirm 10 cm</text>
+      <text x="105" y="82" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">+ crowning</text>
+      <rect x="215" y="45" width="170" height="48" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="300" y="65" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Deliver head</text>
+      <text x="300" y="82" text-anchor="middle" fill="var(--color-foreground)" font-size="11">support perineum</text>
+      <rect x="410" y="45" width="170" height="48" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="495" y="65" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">Check cord</text>
+      <text x="495" y="82" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">around neck</text>
+      <rect x="20" y="115" width="170" height="48" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="105" y="135" text-anchor="middle" fill="var(--color-foreground)" font-size="11.5" font-weight="bold">Anterior shoulder</text>
+      <text x="105" y="152" text-anchor="middle" fill="var(--color-foreground)" font-size="11">(traction DOWN)</text>
+      <rect x="215" y="115" width="170" height="48" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="300" y="135" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11.5" font-weight="bold">Posterior shoulder</text>
+      <text x="300" y="152" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">(traction UP) + body</text>
+      <rect x="410" y="115" width="170" height="48" rx="8" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="495" y="135" text-anchor="middle" fill="var(--color-foreground)" font-size="11.5" font-weight="bold">Newborn care</text>
+      <text x="495" y="152" text-anchor="middle" fill="var(--color-foreground)" font-size="11">dry, warm, skin-to-skin</text>
+      <path d="M190 69 L215 69" stroke="var(--color-foreground)" stroke-width="1.5"/><polygon points="215,69 207,65 207,73" fill="var(--color-foreground)"/>
+      <path d="M385 69 L410 69" stroke="var(--color-foreground)" stroke-width="1.5"/><polygon points="410,69 402,65 402,73" fill="var(--color-foreground)"/>
+      <path d="M190 139 L215 139" stroke="var(--color-foreground)" stroke-width="1.5"/><polygon points="215,139 207,135 207,143" fill="var(--color-foreground)"/>
+      <path d="M385 139 L410 139" stroke="var(--color-foreground)" stroke-width="1.5"/><polygon points="410,139 402,135 402,143" fill="var(--color-foreground)"/>
+      <text x="300" y="195" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Monitor FHR every 5 minutes during the second stage</text>
+      <text x="300" y="214" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Then proceed to AMTSL for the third stage</text>
+    </svg>
+    <div class="figure-caption">Fig: Conduct of Normal Delivery</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -1455,6 +1772,31 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 <div class="in-short"><strong>In Short:</strong> <strong>AMTSL</strong> is the active way of managing the third stage to deliver the placenta quickly and prevent postpartum haemorrhage (PPH). It has <strong>3 steps</strong>: (1) <strong>Oxytocin 10 IU IM</strong> within 1 minute of birth, (2) <strong>Controlled Cord Traction (CCT)</strong> with suprapubic counter-traction, and (3) <strong>uterine massage</strong> after the placenta is out. It is recommended by WHO and is part of India&rsquo;s NHM safe-delivery practice.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 200" role="img" aria-label="Three steps of active management of the third stage of labour" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">AMTSL - Three Steps (O-C-M)</text>
+      <rect x="25" y="50" width="170" height="80" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="110" y="76" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="13" font-weight="bold">1. Oxytocin</text>
+      <text x="110" y="98" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">10 IU IM</text>
+      <text x="110" y="114" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">within 1 minute</text>
+      <rect x="215" y="50" width="170" height="80" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="300" y="76" text-anchor="middle" fill="var(--color-foreground)" font-size="13" font-weight="bold">2. CCT</text>
+      <text x="300" y="98" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Controlled Cord</text>
+      <text x="300" y="114" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Traction + counter</text>
+      <rect x="405" y="50" width="170" height="80" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="490" y="76" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="13" font-weight="bold">3. Massage</text>
+      <text x="490" y="98" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">uterine fundus</text>
+      <text x="490" y="114" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">until firm</text>
+      <path d="M195 90 L215 90" stroke="var(--color-foreground)" stroke-width="1.5"/><polygon points="215,90 207,86 207,94" fill="var(--color-foreground)"/>
+      <path d="M385 90 L405 90" stroke="var(--color-foreground)" stroke-width="1.5"/><polygon points="405,90 397,86 397,94" fill="var(--color-foreground)"/>
+      <text x="300" y="165" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Main benefit: prevents postpartum haemorrhage (PPH)</text>
+      <text x="300" y="186" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Always rule out a second baby before giving oxytocin</text>
+    </svg>
+    <div class="figure-caption">Fig: AMTSL Steps</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
     <strong>AMTSL (Active Management of the Third Stage of Labour)</strong> is a <strong>set of interventions</strong> done soon after the baby&rsquo;s birth to <strong>speed up placental delivery and reduce blood loss</strong>, thereby preventing <strong>postpartum haemorrhage (PPH)</strong> &mdash; the leading cause of maternal death.
@@ -1548,6 +1890,36 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     years: "Summer 2021",
     answer: `
 <div class="in-short"><strong>In Short:</strong> After the baby is born, the placenta separates from the uterine wall. The <strong>signs of separation</strong> are: a <strong>gush of blood</strong>, <strong>lengthening of the cord</strong>, and the <strong>uterus rising and becoming globular (round &amp; hard)</strong>. The placenta then comes out by one of two methods: <strong>Schultze</strong> (shiny fetal side first, central separation, less bleeding, common) or <strong>Matthews Duncan</strong> (dull maternal edge first, more bleeding, less common).</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 240" role="img" aria-label="Schultze and Matthews Duncan methods of placental expulsion" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Methods of Placental Expulsion</text>
+      <rect x="20" y="38" width="270" height="30" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="155" y="58" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">Schultze (common)</text>
+      <rect x="310" y="38" width="270" height="30" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="445" y="58" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Matthews Duncan</text>
+      <ellipse cx="120" cy="120" rx="40" ry="28" fill="var(--accent)" opacity="0.5" stroke="var(--color-foreground)" stroke-width="2"/>
+      <path d="M120 92 L120 145" stroke="var(--color-foreground)" stroke-width="2"/>
+      <text x="200" y="118" fill="var(--color-foreground)" font-size="11">Shiny FETAL</text>
+      <text x="200" y="134" fill="var(--color-foreground)" font-size="11">side first</text>
+      <ellipse cx="410" cy="120" rx="40" ry="28" fill="var(--color-secondary)" opacity="0.7" stroke="var(--color-foreground)" stroke-width="2"/>
+      <path d="M450 120 q15 0 25 8" stroke="var(--color-foreground)" stroke-width="2" fill="none"/>
+      <text x="495" y="118" fill="var(--color-foreground)" font-size="11">Dull MATERNAL</text>
+      <text x="495" y="134" fill="var(--color-foreground)" font-size="11">edge first</text>
+      <g fill="var(--color-foreground)" font-size="11">
+        <text x="30" y="185">- Central separation</text>
+        <text x="30" y="205">- LESS bleeding</text>
+        <text x="30" y="225">- More common (~80%)</text>
+        <text x="320" y="185">- Marginal (edge) separation</text>
+        <text x="320" y="205">- MORE bleeding</text>
+        <text x="320" y="225">- Less common</text>
+      </g>
+      <line x1="300" y1="78" x2="300" y2="230" stroke="var(--color-border)" stroke-width="1.5"/>
+    </svg>
+    <div class="figure-caption">Fig: Schultze vs Matthews Duncan</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -1649,6 +2021,32 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     years: "Winter 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> <strong>Induction of labour</strong> means starting labour artificially (before it begins on its own) when continuing the pregnancy is risky for mother or baby. Common <strong>indications</strong> include post-term pregnancy, pre-eclampsia, PROM, diabetes, and IUGR. <strong>Methods</strong> are <strong>medical</strong> (prostaglandins, oxytocin), <strong>surgical</strong> (ARM/amniotomy), and <strong>mechanical</strong> (Foley catheter, membrane sweeping). The Bishop score guides readiness.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 210" role="img" aria-label="Methods of induction of labour: medical, surgical and mechanical" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Methods of Induction of Labour</text>
+      <rect x="20" y="45" width="175" height="100" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="107" y="68" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="13" font-weight="bold">Medical</text>
+      <text x="107" y="92" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">Prostaglandins</text>
+      <text x="107" y="108" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">(PGE2 / miso)</text>
+      <text x="107" y="128" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">Oxytocin drip</text>
+      <rect x="212" y="45" width="175" height="100" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="299" y="68" text-anchor="middle" fill="var(--color-foreground)" font-size="13" font-weight="bold">Surgical</text>
+      <text x="299" y="92" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Amniotomy (ARM)</text>
+      <text x="299" y="112" text-anchor="middle" fill="var(--color-foreground)" font-size="11">- artificial rupture</text>
+      <text x="299" y="128" text-anchor="middle" fill="var(--color-foreground)" font-size="11">of membranes</text>
+      <rect x="404" y="45" width="175" height="100" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="491" y="68" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="13" font-weight="bold">Mechanical</text>
+      <text x="491" y="92" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">Foley balloon</text>
+      <text x="491" y="108" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">catheter</text>
+      <text x="491" y="128" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">Membrane sweep</text>
+      <text x="300" y="180" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Bishop score assesses cervical readiness first</text>
+      <text x="300" y="200" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Monitor FHR &amp; contractions (risk of hyperstimulation)</text>
+    </svg>
+    <div class="figure-caption">Fig: Methods of Induction of Labour</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
@@ -1754,6 +2152,31 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 <div class="in-short"><strong>In Short:</strong> Fetal well-being in labour is monitored mainly by checking the <strong>fetal heart rate (FHR)</strong> &mdash; normal is <strong>110&ndash;160 bpm</strong>. Methods include <strong>intermittent auscultation</strong> (fetoscope/Doppler) and <strong>continuous electronic monitoring (CTG)</strong>. We also watch the <strong>colour of the liquor</strong> (meconium = warning) and <strong>fetal movements</strong>. Abnormal FHR, meconium-stained liquor, or distress means urgent action.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 240" role="img" aria-label="Monitoring fetal heart rate and CTG features during labour" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Monitoring Fetal Well-being</text>
+      <rect x="20" y="38" width="560" height="70" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <line x1="30" y1="73" x2="570" y2="73" stroke="var(--color-border)" stroke-width="1" stroke-dasharray="4 3"/>
+      <text x="40" y="55" fill="var(--color-foreground)" font-size="11">FHR 110-160 bpm (normal range)</text>
+      <polyline points="35,73 70,68 95,90 130,55 165,75 200,72 235,60 270,80 305,70 340,73 375,66 410,78 445,70 480,72 515,68 560,73" fill="none" stroke="var(--accent)" stroke-width="2"/>
+      <rect x="20" y="125" width="270" height="34" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="155" y="147" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">Auscultation timing</text>
+      <rect x="310" y="125" width="270" height="34" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="445" y="147" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">CTG features (BVAD)</text>
+      <g fill="var(--color-foreground)" font-size="11">
+        <text x="30" y="180">- Latent phase: every 30 min</text>
+        <text x="30" y="200">- Active phase: every 15 min</text>
+        <text x="30" y="220">- Second stage: every 5 min</text>
+        <text x="320" y="180">- Baseline 110-160, Variability 5-25</text>
+        <text x="320" y="200">- Accelerations = good sign</text>
+        <text x="320" y="220">- Late decelerations = worrying</text>
+      </g>
+    </svg>
+    <div class="figure-caption">Fig: Fetal Monitoring &amp; CTG</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Labour is stressful for the baby because each contraction temporarily reduces oxygen supply. Continuous monitoring helps the midwife detect early signs of fetal distress and act before harm occurs.</p>
 </div>
@@ -1855,6 +2278,38 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 <div class="in-short"><strong>In Short:</strong> Immediate newborn care means <strong>keeping the baby warm, ensuring it breathes, clearing the airway if needed, clamping and cutting the cord, and starting skin-to-skin contact and early breastfeeding</strong> within the first hour. The <strong>APGAR score</strong> (taken at 1 and 5 minutes) checks 5 signs &mdash; Appearance, Pulse, Grimace, Activity, Respiration &mdash; each scored 0&ndash;2, giving a total out of 10.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 280" role="img" aria-label="APGAR score chart of five signs each scored zero one or two" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">APGAR Score (at 1 &amp; 5 minutes)</text>
+      <rect x="20" y="38" width="270" height="28" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="155" y="57" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">Sign</text>
+      <rect x="295" y="38" width="93" height="28" rx="6" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="341" y="57" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">0</text>
+      <rect x="393" y="38" width="93" height="28" rx="6" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="439" y="57" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">1</text>
+      <rect x="491" y="38" width="89" height="28" rx="6" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="535" y="57" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">2</text>
+      <g font-size="10.5" fill="var(--color-foreground)">
+        <line x1="20" y1="96" x2="580" y2="96" stroke="var(--color-border)" stroke-width="1"/>
+        <line x1="20" y1="126" x2="580" y2="126" stroke="var(--color-border)" stroke-width="1"/>
+        <line x1="20" y1="156" x2="580" y2="156" stroke="var(--color-border)" stroke-width="1"/>
+        <line x1="20" y1="186" x2="580" y2="186" stroke="var(--color-border)" stroke-width="1"/>
+        <text x="26" y="86" font-weight="bold">A - Appearance</text><text x="341" y="86" text-anchor="middle">Blue/pale</text><text x="439" y="86" text-anchor="middle">Body pink</text><text x="535" y="86" text-anchor="middle">All pink</text>
+        <text x="26" y="116" font-weight="bold">P - Pulse</text><text x="341" y="116" text-anchor="middle">Absent</text><text x="439" y="116" text-anchor="middle">&lt;100</text><text x="535" y="116" text-anchor="middle">&gt;100</text>
+        <text x="26" y="146" font-weight="bold">G - Grimace</text><text x="341" y="146" text-anchor="middle">None</text><text x="439" y="146" text-anchor="middle">Grimace</text><text x="535" y="146" text-anchor="middle">Cry/cough</text>
+        <text x="26" y="176" font-weight="bold">A - Activity</text><text x="341" y="176" text-anchor="middle">Limp</text><text x="439" y="176" text-anchor="middle">Some flexion</text><text x="535" y="176" text-anchor="middle">Active</text>
+        <text x="26" y="206" font-weight="bold">R - Respiration</text><text x="341" y="206" text-anchor="middle">Absent</text><text x="439" y="206" text-anchor="middle">Slow/irreg</text><text x="535" y="206" text-anchor="middle">Good cry</text>
+      </g>
+      <line x1="290" y1="38" x2="290" y2="220" stroke="var(--color-border)" stroke-width="1"/>
+      <line x1="20" y1="220" x2="580" y2="220" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="300" y="244" text-anchor="middle" fill="var(--color-foreground)" font-size="11.5" font-weight="bold">7-10 = normal | 4-6 = moderate asphyxia | 0-3 = severe asphyxia</text>
+      <text x="300" y="264" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Total out of 10</text>
+    </svg>
+    <div class="figure-caption">Fig: APGAR Score</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The first minutes after birth are critical. Good immediate care prevents the two big newborn dangers &mdash; <strong>hypothermia (cold)</strong> and <strong>asphyxia (no breathing)</strong>. The APGAR score quickly tells how well the baby is adapting.</p>
 </div>
@@ -1946,6 +2401,36 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 <div class="in-short"><strong>In Short:</strong> <strong>Lightening</strong> = the baby&rsquo;s head settling deeper into the pelvis a few weeks before labour, easing breathing. <strong>Show</strong> = the blood-stained mucus plug coming out as the cervix begins to open. <strong>Engagement</strong> = the widest part of the head passing the pelvic brim.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 220" role="img" aria-label="Three pre-labour signs: lightening, show and engagement" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Lightening - Show - Engagement</text>
+      <g>
+        <ellipse cx="110" cy="120" rx="55" ry="70" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2"/>
+        <circle cx="110" cy="150" r="22" fill="var(--accent)" opacity="0.5" stroke="var(--color-foreground)" stroke-width="2"/>
+        <path d="M110 110 L110 130" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <polygon points="110,130 106,122 114,122" fill="var(--color-foreground)"/>
+        <text x="110" y="200" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Lightening</text>
+        <text x="110" y="216" text-anchor="middle" fill="var(--color-foreground)" font-size="10.5">head sinks, 2-3 wks before</text>
+      </g>
+      <g>
+        <ellipse cx="300" cy="120" rx="48" ry="62" fill="none" stroke="var(--color-foreground)" stroke-width="2"/>
+        <ellipse cx="300" cy="120" rx="14" ry="22" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <path d="M300 142 q-4 14 -8 28" stroke="var(--accent)" stroke-width="3" fill="none"/>
+        <text x="300" y="200" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Show</text>
+        <text x="300" y="216" text-anchor="middle" fill="var(--color-foreground)" font-size="10.5">blood-stained mucus plug</text>
+      </g>
+      <g>
+        <path d="M440 80 q50 -10 100 0 q-20 50 -50 75 q-30 -25 -50 -75 Z" fill="none" stroke="var(--color-foreground)" stroke-width="2"/>
+        <ellipse cx="490" cy="115" rx="26" ry="20" fill="var(--accent)" opacity="0.5" stroke="var(--color-foreground)" stroke-width="2"/>
+        <text x="490" y="200" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Engagement</text>
+        <text x="490" y="216" text-anchor="middle" fill="var(--color-foreground)" font-size="10.5">BPD 9.5 cm crosses brim</text>
+      </g>
+    </svg>
+    <div class="figure-caption">Fig: Lightening, Show &amp; Engagement</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Definitions</h3>
   <div class="definition-box">
     <strong>(a) Lightening:</strong> The <strong>descent (sinking) of the fetal head into the pelvis</strong> about 2&ndash;3 weeks before labour in primigravidas. It relieves pressure on the diaphragm, so the mother breathes more easily (&ldquo;feels lighter&rdquo;).
@@ -1990,6 +2475,37 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     years: "Winter 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The <strong>Bishop score</strong> is a pre-induction scoring system that checks how &ldquo;ripe&rdquo; (ready) the cervix is for labour by assessing 5 features. A higher score means the cervix is favourable and induction is more likely to succeed.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 220" role="img" aria-label="Five parameters of the Bishop score for cervical readiness" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Bishop Score - 5 Cervical Features</text>
+      <rect x="40" y="45" width="100" height="48" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="90" y="66" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">D</text>
+      <text x="90" y="84" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">Dilatation</text>
+      <rect x="155" y="45" width="100" height="48" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="205" y="66" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">E</text>
+      <text x="205" y="84" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Effacement</text>
+      <rect x="270" y="45" width="100" height="48" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="320" y="66" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">C</text>
+      <text x="320" y="84" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">Consistency</text>
+      <rect x="385" y="45" width="100" height="48" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="435" y="66" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">P</text>
+      <text x="435" y="84" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Position</text>
+      <rect x="500" y="45" width="60" height="48" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="530" y="66" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">S</text>
+      <text x="530" y="84" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">Station</text>
+      <text x="300" y="125" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Each scored 0 to 3 - total out of 13</text>
+      <rect x="120" y="145" width="170" height="50" rx="8" fill="var(--accent)" opacity="0.4" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="205" y="167" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Score &gt; 6</text>
+      <text x="205" y="185" text-anchor="middle" fill="var(--color-foreground)" font-size="11">FAVOURABLE (ripe)</text>
+      <rect x="310" y="145" width="170" height="50" rx="8" fill="var(--color-secondary)" opacity="0.6" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="395" y="167" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Score &le; 5</text>
+      <text x="395" y="185" text-anchor="middle" fill="var(--color-foreground)" font-size="11">UNFAVOURABLE - ripen</text>
+    </svg>
+    <div class="figure-caption">Fig: Bishop Score Parameters</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
@@ -2045,6 +2561,37 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 <div class="in-short"><strong>In Short:</strong> Labour has <strong>4 stages</strong>: 1st (onset to full dilatation, 10 cm), 2nd (full dilatation to birth of baby), 3rd (birth to delivery of placenta), and 4th (1 hour of observation after the placenta).</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 200" role="img" aria-label="The four stages of labour with their durations" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Stages of Labour with Duration</text>
+      <rect x="20" y="45" width="135" height="60" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="87" y="68" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">1st Stage</text>
+      <text x="87" y="86" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="10.5">Onset to 10 cm</text>
+      <text x="87" y="100" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="10.5">12-18 hr / 6-12 hr</text>
+      <rect x="165" y="45" width="135" height="60" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="232" y="68" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">2nd Stage</text>
+      <text x="232" y="86" text-anchor="middle" fill="var(--color-foreground)" font-size="10.5">Birth of baby</text>
+      <text x="232" y="100" text-anchor="middle" fill="var(--color-foreground)" font-size="10.5">1-2 hr / ~30 min</text>
+      <rect x="310" y="45" width="135" height="60" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="377" y="68" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">3rd Stage</text>
+      <text x="377" y="86" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="10.5">Placenta out</text>
+      <text x="377" y="100" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="10.5">5-15 min</text>
+      <rect x="455" y="45" width="125" height="60" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="517" y="68" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">4th Stage</text>
+      <text x="517" y="86" text-anchor="middle" fill="var(--color-foreground)" font-size="10.5">Observation</text>
+      <text x="517" y="100" text-anchor="middle" fill="var(--color-foreground)" font-size="10.5">1 hour</text>
+      <path d="M155 75 L165 75" stroke="var(--color-foreground)" stroke-width="1.5"/><polygon points="165,75 157,71 157,79" fill="var(--color-foreground)"/>
+      <path d="M300 75 L310 75" stroke="var(--color-foreground)" stroke-width="1.5"/><polygon points="310,75 302,71 302,79" fill="var(--color-foreground)"/>
+      <path d="M445 75 L455 75" stroke="var(--color-foreground)" stroke-width="1.5"/><polygon points="455,75 447,71 447,79" fill="var(--color-foreground)"/>
+      <line x1="20" y1="135" x2="580" y2="135" stroke="var(--color-foreground)" stroke-width="2"/>
+      <text x="300" y="165" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Durations shown as Primigravida / Multigravida</text>
+      <text x="300" y="185" text-anchor="middle" fill="var(--color-foreground)" font-size="11">First stage is the longest stage of labour</text>
+    </svg>
+    <div class="figure-caption">Fig: Stages of Labour &amp; Duration</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Stages of Labour</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -2091,6 +2638,35 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     years: "Winter 2018, Summer 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The cardinal movements (in order) are: <strong>Engagement &rarr; Descent &rarr; Flexion &rarr; Internal rotation &rarr; Crowning &amp; Extension &rarr; Restitution &rarr; External rotation &rarr; Expulsion.</strong></div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 200" role="img" aria-label="The cardinal movements of labour listed in order" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Cardinal Movements (in order)</text>
+      <g font-size="11">
+        <rect x="20" y="42" width="130" height="32" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="85" y="62" text-anchor="middle" fill="var(--color-accent-foreground)" font-weight="bold">1. Engagement</text>
+        <rect x="165" y="42" width="130" height="32" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="230" y="62" text-anchor="middle" fill="var(--color-foreground)" font-weight="bold">2. Descent</text>
+        <rect x="310" y="42" width="130" height="32" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="375" y="62" text-anchor="middle" fill="var(--color-accent-foreground)" font-weight="bold">3. Flexion</text>
+        <rect x="455" y="42" width="125" height="32" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="517" y="62" text-anchor="middle" fill="var(--color-foreground)" font-weight="bold">4. Int. rotation</text>
+        <rect x="20" y="88" width="130" height="32" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="85" y="108" text-anchor="middle" fill="var(--color-foreground)" font-weight="bold">5. Extension</text>
+        <rect x="165" y="88" width="130" height="32" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="230" y="108" text-anchor="middle" fill="var(--color-accent-foreground)" font-weight="bold">6. Restitution</text>
+        <rect x="310" y="88" width="130" height="32" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="375" y="108" text-anchor="middle" fill="var(--color-foreground)" font-weight="bold">7. Ext. rotation</text>
+        <rect x="455" y="88" width="125" height="32" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+        <text x="517" y="108" text-anchor="middle" fill="var(--color-accent-foreground)" font-weight="bold">8. Expulsion</text>
+      </g>
+      <text x="300" y="152" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Flexion brings the smallest diameter (suboccipitobregmatic 9.5 cm)</text>
+      <text x="300" y="174" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Mnemonic: Every Darling Fetus Is Coming Early Ready Enough</text>
+    </svg>
+    <div class="figure-caption">Fig: Cardinal Movements List</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Cardinal Movements of Labour</h3>

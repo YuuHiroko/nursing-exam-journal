@@ -13,6 +13,35 @@ window.QUESTIONS_DATA_UNIT3 = [
 <div class="in-short"><strong>In Short:</strong> Signs and symptoms of pregnancy are the body's signals that a woman is pregnant. They are grouped into three types: <strong>Presumptive</strong> (felt by the woman), <strong>Probable</strong> (found by the examiner), and <strong>Positive</strong> (definite proof of a baby). Only positive signs confirm pregnancy 100%.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 220" role="img" aria-label="Three groups of signs of pregnancy: presumptive, probable and positive" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <rect x="15" y="40" width="180" height="160" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <rect x="210" y="40" width="180" height="160" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <rect x="405" y="40" width="180" height="160" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="105" y="30" text-anchor="middle" font-size="14" fill="var(--color-foreground)">Presumptive</text>
+      <text x="300" y="30" text-anchor="middle" font-size="14" fill="var(--color-foreground)">Probable</text>
+      <text x="495" y="30" text-anchor="middle" font-size="14" fill="var(--color-foreground)">Positive</text>
+      <text x="105" y="64" text-anchor="middle" font-size="11" fill="var(--color-foreground)">(woman feels)</text>
+      <text x="105" y="92" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Amenorrhoea</text>
+      <text x="105" y="116" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Nausea / vomiting</text>
+      <text x="105" y="140" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Breast changes</text>
+      <text x="105" y="164" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Quickening</text>
+      <text x="300" y="64" text-anchor="middle" font-size="11" fill="var(--color-foreground)">(examiner finds)</text>
+      <text x="300" y="92" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Hegar's sign</text>
+      <text x="300" y="116" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Goodell's sign</text>
+      <text x="300" y="140" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Chadwick's sign</text>
+      <text x="300" y="164" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Positive UPT (hCG)</text>
+      <text x="495" y="64" text-anchor="middle" font-size="11" fill="var(--color-accent-foreground)">(100% confirm)</text>
+      <text x="495" y="92" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Fetal heart sound</text>
+      <text x="495" y="116" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Fetal movements</text>
+      <text x="495" y="140" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Fetal parts felt</text>
+      <text x="495" y="164" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">USG (gold std)</text>
+    </svg>
+    <div class="figure-caption">Fig: Three groups of signs of pregnancy</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">When a woman becomes pregnant, her body goes through many changes. Some changes she <em>feels</em> herself (like nausea), some are <em>found by a doctor</em> during examination (like uterus enlargement), and some are <em>definite proof</em> of a baby (like hearing the baby's heartbeat). These are called the signs and symptoms of pregnancy.</p>
 </div>
@@ -128,6 +157,32 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Summer 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The first trimester (weeks 1&ndash;12) brings dramatic hormonal changes. The rising hCG hormone causes nausea and vomiting. The uterus grows, breasts become tender, blood volume starts rising, and the kidneys work harder. These changes support the rapidly developing baby.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 240" role="img" aria-label="Physiological changes during the first trimester of pregnancy" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" font-size="14" fill="var(--color-foreground)">First Trimester (Weeks 1&ndash;12)</text>
+      <rect x="240" y="35" width="120" height="34" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="57" text-anchor="middle" font-size="13" fill="var(--color-accent-foreground)">Rising hCG &amp;</text>
+      <rect x="20" y="100" width="160" height="48" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="100" y="120" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Nausea / vomiting</text>
+      <text x="100" y="138" text-anchor="middle" font-size="12" fill="var(--color-foreground)">(morning sickness)</text>
+      <rect x="220" y="100" width="160" height="48" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="120" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Breast tenderness,</text>
+      <text x="300" y="138" text-anchor="middle" font-size="12" fill="var(--color-foreground)">uterus enlarges</text>
+      <rect x="420" y="100" width="160" height="48" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="500" y="120" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Frequency of</text>
+      <text x="500" y="138" text-anchor="middle" font-size="12" fill="var(--color-foreground)">urination (GFR +50%)</text>
+      <rect x="120" y="172" width="160" height="48" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="200" y="192" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Blood volume</text>
+      <text x="200" y="210" text-anchor="middle" font-size="12" fill="var(--color-foreground)">starts rising</text>
+      <rect x="320" y="172" width="160" height="48" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="400" y="192" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Weight gain</text>
+      <text x="400" y="210" text-anchor="middle" font-size="12" fill="var(--color-foreground)">only 1&ndash;2 kg</text>
+    </svg>
+    <div class="figure-caption">Fig: Key changes in the first trimester</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -263,6 +318,29 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Winter 2018",
     answer: `
 <div class="in-short"><strong>In Short:</strong> During the entire antenatal period (all 9 months), every system in the mother's body changes to support the growing baby. Key changes: blood volume rises by 40&ndash;50%, heart works harder, kidneys filter more, uterus grows from 30 g to 1000 g, and hormones like oestrogen, progesterone, and relaxin remodel the body.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 250" role="img" aria-label="System-wise physiological changes during the antenatal period" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <ellipse cx="300" cy="125" rx="46" ry="60" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="120" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Uterus</text>
+      <text x="300" y="136" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">30g&rarr;1000g</text>
+      <rect x="20" y="20" width="180" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="110" y="44" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Heart: blood vol +40&ndash;50%</text>
+      <rect x="400" y="20" width="180" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="490" y="44" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Lungs: tidal volume +40%</text>
+      <rect x="20" y="105" width="170" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="105" y="129" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Kidney: GFR +50%</text>
+      <rect x="410" y="105" width="170" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="495" y="129" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Gut: constipation</text>
+      <rect x="20" y="190" width="180" height="40" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="110" y="214" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Joints: relaxin loosens</text>
+      <rect x="400" y="190" width="180" height="40" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="490" y="214" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Skin: linea nigra, striae</text>
+    </svg>
+    <div class="figure-caption">Fig: System-wise antenatal changes</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -431,6 +509,32 @@ window.QUESTIONS_DATA_UNIT3 = [
 <div class="in-short"><strong>In Short:</strong> Pregnancy causes several normal skin changes due to hormones (oestrogen, progesterone, MSH). The main changes are darkening (hyperpigmentation), stretch marks, and increased oiliness. Most fade after delivery.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 220" role="img" aria-label="Skin changes during pregnancy on a body outline" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <ellipse cx="150" cy="55" rx="26" ry="30" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <rect x="124" y="82" width="52" height="100" rx="14" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <line x1="150" y1="95" x2="150" y2="175" stroke="var(--color-foreground)" stroke-width="2"/>
+      <circle cx="138" cy="110" r="3" fill="var(--color-foreground)"/>
+      <circle cx="162" cy="110" r="3" fill="var(--color-foreground)"/>
+      <text x="150" y="200" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Body outline</text>
+      <line x1="150" y1="55" x2="320" y2="40" stroke="var(--color-border)" stroke-width="1.5"/>
+      <rect x="320" y="25" width="265" height="30" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="452" y="44" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Chloasma (mask on face)</text>
+      <line x1="150" y1="135" x2="320" y2="85" stroke="var(--color-border)" stroke-width="1.5"/>
+      <rect x="320" y="70" width="265" height="30" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="452" y="89" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Linea nigra (dark midline)</text>
+      <line x1="150" y1="150" x2="320" y2="130" stroke="var(--color-border)" stroke-width="1.5"/>
+      <rect x="320" y="115" width="265" height="30" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="452" y="134" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Striae gravidarum (stretch marks)</text>
+      <line x1="150" y1="170" x2="320" y2="175" stroke="var(--color-border)" stroke-width="1.5"/>
+      <rect x="320" y="160" width="265" height="30" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="452" y="179" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Spider naevi, palmar erythema</text>
+    </svg>
+    <div class="figure-caption">Fig: Skin changes in pregnancy</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title teal-title">Skin Changes During Pregnancy</h3>
   <ol class="answer-points">
     <li><strong>Hyperpigmentation (darkening of skin):</strong>
@@ -482,6 +586,33 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Winter 2014, Winter 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Pregnancy puts the heart under great demand. Blood volume rises by 40&ndash;50%, cardiac output rises by 30&ndash;50%, and heart rate rises by 10&ndash;15 beats/min. These changes ensure adequate blood supply to the uterus, placenta, and baby. Most changes are at maximum by 28&ndash;32 weeks.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 240" role="img" aria-label="Bar chart of cardiovascular changes in pregnancy" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Approximate rise in pregnancy</text>
+      <line x1="70" y1="190" x2="580" y2="190" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <line x1="70" y1="50" x2="70" y2="190" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <rect x="100" y="100" width="70" height="90" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="135" y="92" text-anchor="middle" font-size="12" fill="var(--color-foreground)">+45%</text>
+      <text x="135" y="208" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Blood vol</text>
+      <rect x="200" y="120" width="70" height="70" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="235" y="112" text-anchor="middle" font-size="12" fill="var(--color-foreground)">+40%</text>
+      <text x="235" y="208" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Cardiac out</text>
+      <rect x="300" y="140" width="70" height="50" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="335" y="132" text-anchor="middle" font-size="12" fill="var(--color-foreground)">+25%</text>
+      <text x="335" y="208" text-anchor="middle" font-size="11" fill="var(--color-foreground)">RBC mass</text>
+      <rect x="400" y="155" width="70" height="35" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="435" y="147" text-anchor="middle" font-size="12" fill="var(--color-foreground)">+13 bpm</text>
+      <text x="435" y="208" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Heart rate</text>
+      <rect x="500" y="110" width="70" height="80" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="535" y="102" text-anchor="middle" font-size="12" fill="var(--color-foreground)">+50%</text>
+      <text x="535" y="208" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Fibrinogen</text>
+      <text x="320" y="230" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Peak at 28&ndash;32 weeks</text>
+    </svg>
+    <div class="figure-caption">Fig: Cardiovascular changes in pregnancy</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -627,6 +758,32 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Summer 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> History taking is the <em>first step</em> in antenatal assessment. A thorough obstetric history tells us who the patient is, what her current pregnancy is like, what happened in past pregnancies, and what medical risks she carries &mdash; helping us plan safe, individualized antenatal care.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 250" role="img" aria-label="Components of obstetric history taking" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Components of Obstetric History (B-C-M-O-M-F-P)</text>
+      <rect x="20" y="40" width="270" height="34" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="155" y="62" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Biodata (name, age, address)</text>
+      <rect x="20" y="84" width="270" height="34" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="155" y="106" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Chief complaint</text>
+      <rect x="20" y="128" width="270" height="34" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="155" y="150" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Menstrual history (LMP &rarr; EDD)</text>
+      <rect x="20" y="172" width="270" height="34" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="155" y="194" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Obstetric history (GPTAL)</text>
+      <rect x="310" y="40" width="270" height="34" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="445" y="62" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Present pregnancy (TT, IFA)</text>
+      <rect x="310" y="84" width="270" height="34" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="445" y="106" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Medical / surgical history</text>
+      <rect x="310" y="128" width="270" height="34" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="445" y="150" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Family history</text>
+      <rect x="310" y="172" width="270" height="34" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="445" y="194" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Personal / social history</text>
+      <text x="300" y="232" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Goal: identify high-risk women early</text>
+    </svg>
+    <div class="figure-caption">Fig: Components of obstetric history</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -783,6 +940,33 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Winter 2017, Summer 2021, Winter 2024",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Antenatal care (ANC) is the systematic medical and nursing care given to a pregnant woman from conception to the start of labour. Its main aim is a <strong>safe pregnancy and a healthy mother &amp; baby</strong>. It is delivered through regular checkups (history, general &amp; obstetric examination, investigations) and health education. India promotes ANC through programmes like the RCH and PMSMA.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 220" role="img" aria-label="Aims and steps of antenatal care" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <ellipse cx="300" cy="55" rx="150" ry="38" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="50" text-anchor="middle" font-size="13" fill="var(--color-accent-foreground)">Goal of ANC: healthy</text>
+      <text x="300" y="68" text-anchor="middle" font-size="13" fill="var(--color-accent-foreground)">mother &amp; baby (lower MMR/IMR)</text>
+      <text x="300" y="116" text-anchor="middle" font-size="12" fill="var(--color-foreground)">WHO: 8 contacts &middot; GoI: minimum 4 visits</text>
+      <rect x="20" y="135" width="108" height="60" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="74" y="160" text-anchor="middle" font-size="11" fill="var(--color-foreground)">1. History</text>
+      <text x="74" y="176" text-anchor="middle" font-size="11" fill="var(--color-foreground)">taking</text>
+      <rect x="138" y="135" width="108" height="60" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="192" y="160" text-anchor="middle" font-size="11" fill="var(--color-foreground)">2. General &amp;</text>
+      <text x="192" y="176" text-anchor="middle" font-size="11" fill="var(--color-foreground)">systemic exam</text>
+      <rect x="256" y="135" width="108" height="60" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="310" y="160" text-anchor="middle" font-size="11" fill="var(--color-foreground)">3. Obstetric</text>
+      <text x="310" y="176" text-anchor="middle" font-size="11" fill="var(--color-foreground)">exam</text>
+      <rect x="374" y="135" width="108" height="60" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="428" y="160" text-anchor="middle" font-size="11" fill="var(--color-foreground)">4. Lab tests</text>
+      <text x="428" y="176" text-anchor="middle" font-size="11" fill="var(--color-foreground)">/ USG</text>
+      <rect x="492" y="135" width="92" height="60" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="538" y="160" text-anchor="middle" font-size="11" fill="var(--color-foreground)">5. Advice,</text>
+      <text x="538" y="176" text-anchor="middle" font-size="11" fill="var(--color-foreground)">TT, IFA</text>
+    </svg>
+    <div class="figure-caption">Fig: Aims and steps of antenatal care</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
@@ -970,6 +1154,37 @@ window.QUESTIONS_DATA_UNIT3 = [
 <div class="in-short"><strong>In Short:</strong> Minor disorders of pregnancy are common, mild discomforts caused by normal hormonal and physical changes. They are NOT dangerous but cause distress. Examples: morning sickness, heartburn, constipation, backache, leg cramps. They are mostly managed with simple advice, diet and reassurance &mdash; not heavy medicines.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 230" role="img" aria-label="Common minor disorders of pregnancy and their simple management" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="150" y="22" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Minor disorder</text>
+      <text x="445" y="22" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Simple management</text>
+      <rect x="20" y="34" width="260" height="34" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="150" y="56" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Morning sickness</text>
+      <rect x="20" y="74" width="260" height="34" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="150" y="96" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Constipation</text>
+      <rect x="20" y="114" width="260" height="34" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="150" y="136" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Backache</text>
+      <rect x="20" y="154" width="260" height="34" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="150" y="176" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Leg cramps</text>
+      <rect x="315" y="34" width="265" height="34" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="447" y="56" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Small frequent meals, dry toast</text>
+      <rect x="315" y="74" width="265" height="34" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="447" y="96" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Fibre + water + walking</text>
+      <rect x="315" y="114" width="265" height="34" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="447" y="136" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Posture, pelvic exercises</text>
+      <rect x="315" y="154" width="265" height="34" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="447" y="176" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Calcium + stretching</text>
+      <line x1="280" y1="51" x2="315" y2="51" stroke="var(--color-border)" stroke-width="1.5"/>
+      <line x1="280" y1="91" x2="315" y2="91" stroke="var(--color-border)" stroke-width="1.5"/>
+      <line x1="280" y1="131" x2="315" y2="131" stroke="var(--color-border)" stroke-width="1.5"/>
+      <line x1="280" y1="171" x2="315" y2="171" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="214" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Self-limiting &mdash; NOT danger signs</text>
+    </svg>
+    <div class="figure-caption">Fig: Minor disorders and their management</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box"><strong>Minor disorders of pregnancy</strong> are the common, mild and self-limiting discomforts that arise from the normal physiological (hormonal and mechanical) changes of pregnancy. They do not threaten the life of the mother or baby but need understanding and simple management.</div>
 </div>
@@ -1048,6 +1263,26 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Summer 2019, Winter 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Pregnancy is diagnosed by collecting clues from the woman's symptoms, the examiner's findings, and definite proof of a baby. These are grouped as <strong>presumptive</strong> (felt by woman), <strong>probable</strong> (found by examiner), and <strong>positive</strong> (confirm 100%). USG, fetal heart sound and fetal parts give a sure diagnosis.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 210" role="img" aria-label="Diagnosis of pregnancy by reliability of signs" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Reliability increases &rarr;</text>
+      <polygon points="30,170 200,170 170,40 60,40" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="115" y="100" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Presumptive</text>
+      <text x="115" y="120" text-anchor="middle" font-size="11" fill="var(--color-foreground)">woman feels</text>
+      <polygon points="215,170 385,170 360,40 240,40" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="100" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Probable</text>
+      <text x="300" y="120" text-anchor="middle" font-size="11" fill="var(--color-foreground)">examiner finds</text>
+      <polygon points="400,170 575,170 555,40 425,40" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="488" y="92" text-anchor="middle" font-size="13" fill="var(--color-accent-foreground)">Positive</text>
+      <text x="488" y="112" text-anchor="middle" font-size="11" fill="var(--color-accent-foreground)">FHS, USG,</text>
+      <text x="488" y="128" text-anchor="middle" font-size="11" fill="var(--color-accent-foreground)">fetal parts</text>
+      <text x="300" y="195" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Only positive signs confirm pregnancy 100%</text>
+    </svg>
+    <div class="figure-caption">Fig: Diagnosis of pregnancy by sign reliability</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -1149,6 +1384,33 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Summer 2018, Winter 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> A high-risk pregnancy is one where the mother or baby faces a greater than normal chance of illness or death. It may be due to age, medical illness, past obstetric problems, or current complications. The nurse's job is to <strong>identify these women early, monitor closely, treat/refer in time</strong>, and educate them &mdash; to keep both mother and baby safe.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 230" role="img" aria-label="Four groups of high-risk pregnancy factors and nurse's response" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">High-Risk Factors (A-M-P-C)</text>
+      <rect x="20" y="34" width="135" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="87" y="56" text-anchor="middle" font-size="12" fill="var(--color-foreground)">A: Age / body</text>
+      <text x="87" y="74" text-anchor="middle" font-size="11" fill="var(--color-foreground)">&lt;18, &gt;35, &lt;145cm</text>
+      <rect x="165" y="34" width="135" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="232" y="56" text-anchor="middle" font-size="12" fill="var(--color-foreground)">M: Medical</text>
+      <text x="232" y="74" text-anchor="middle" font-size="11" fill="var(--color-foreground)">anaemia, HTN, DM</text>
+      <rect x="310" y="34" width="135" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="377" y="56" text-anchor="middle" font-size="12" fill="var(--color-foreground)">P: Past obs.</text>
+      <text x="377" y="74" text-anchor="middle" font-size="11" fill="var(--color-foreground)">prev LSCS, IUFD</text>
+      <rect x="455" y="34" width="125" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="517" y="56" text-anchor="middle" font-size="12" fill="var(--color-foreground)">C: Current</text>
+      <text x="517" y="74" text-anchor="middle" font-size="11" fill="var(--color-foreground)">PET, APH, twins</text>
+      <line x1="300" y1="90" x2="300" y2="115" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <rect x="120" y="115" width="360" height="40" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="140" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Nurse: identify early &rarr; monitor &rarr; treat / refer</text>
+      <line x1="300" y1="155" x2="300" y2="180" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <rect x="160" y="180" width="280" height="38" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="204" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Safe institutional delivery (FRU, JSY)</text>
+    </svg>
+    <div class="figure-caption">Fig: High-risk factors and nursing response</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
@@ -1312,6 +1574,32 @@ window.QUESTIONS_DATA_UNIT3 = [
 <div class="in-short"><strong>In Short:</strong> Antenatal advice is the health education a nurse gives a pregnant woman so she can stay healthy and have a safe delivery. It covers diet, rest, hygiene, exercise, sex, immunization, IFA tablets, danger signs and preparation for labour and breastfeeding.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 220" role="img" aria-label="Areas of antenatal advice to a pregnant woman" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Areas of Antenatal Advice</text>
+      <rect x="20" y="35" width="180" height="44" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="110" y="62" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Diet (+350 kcal)</text>
+      <rect x="210" y="35" width="180" height="44" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="62" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Rest (left lateral)</text>
+      <rect x="400" y="35" width="180" height="44" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="490" y="62" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Hygiene</text>
+      <rect x="20" y="89" width="180" height="44" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="110" y="116" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Exercise / walking</text>
+      <rect x="210" y="89" width="180" height="44" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="116" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">TT/Td + IFA</text>
+      <rect x="400" y="89" width="180" height="44" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="490" y="116" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Danger signs</text>
+      <rect x="115" y="143" width="180" height="44" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="205" y="170" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Birth preparedness</text>
+      <rect x="305" y="143" width="180" height="44" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="395" y="170" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Breastfeeding / FP</text>
+      <text x="300" y="208" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Mnemonic: DR HEIDI</text>
+    </svg>
+    <div class="figure-caption">Fig: Areas of antenatal advice</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Health education is an essential part of antenatal care. A well-informed mother takes better care of herself, recognises danger signs early, and prepares for a safe delivery.</p>
 </div>
@@ -1387,6 +1675,34 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Summer 2017, Winter 2021",
     answer: `
 <div class="in-short"><strong>In Short:</strong> During pregnancy a woman needs extra energy, protein, iron, calcium, folic acid and vitamins to grow a healthy baby and stay healthy herself. She needs about <strong>350 extra kcal/day</strong> and roughly <strong>extra 23 g protein/day</strong> (ICMR). The diet should be balanced and locally affordable.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 240" role="img" aria-label="Extra nutrients needed in pregnancy" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Extra Nutritional Needs in Pregnancy (ICMR)</text>
+      <circle cx="135" cy="120" r="78" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <line x1="135" y1="42" x2="135" y2="198" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <line x1="57" y1="120" x2="213" y2="120" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="98" y="90" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Cereals</text>
+      <text x="172" y="90" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Pulses</text>
+      <text x="98" y="155" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Veg /</text>
+      <text x="98" y="170" text-anchor="middle" font-size="11" fill="var(--color-foreground)">fruit</text>
+      <text x="172" y="160" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Milk</text>
+      <text x="135" y="222" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Balanced plate</text>
+      <rect x="250" y="45" width="330" height="30" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="415" y="64" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Energy: +350 kcal/day</text>
+      <rect x="250" y="83" width="330" height="30" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="415" y="102" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Protein: +23 g/day</text>
+      <rect x="250" y="121" width="330" height="30" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="415" y="140" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Iron: prevents anaemia</text>
+      <rect x="250" y="159" width="330" height="30" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="415" y="178" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Calcium: bones &amp; teeth</text>
+      <rect x="250" y="197" width="330" height="30" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="415" y="216" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Folic acid: prevents NTD</text>
+    </svg>
+    <div class="figure-caption">Fig: Extra nutrients needed in pregnancy</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -1476,6 +1792,28 @@ window.QUESTIONS_DATA_UNIT3 = [
 <div class="in-short"><strong>In Short:</strong> During pregnancy, two key preventive measures are given: <strong>tetanus immunization (TT/Td)</strong> to protect the mother and newborn from tetanus, and <strong>IFA (Iron + Folic Acid) tablets</strong> to prevent anaemia and birth defects. Both are free under India's national programme.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 210" role="img" aria-label="Tetanus immunization and IFA prophylaxis in pregnancy" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <rect x="20" y="30" width="270" height="160" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="155" y="54" text-anchor="middle" font-size="14" fill="var(--color-accent-foreground)">TT / Td Immunization</text>
+      <text x="155" y="84" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">1st pregnancy: 2 doses</text>
+      <text x="155" y="106" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">(4 weeks apart)</text>
+      <text x="155" y="130" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Immunized before: 1 booster</text>
+      <text x="155" y="154" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">0.5 mL IM, deltoid</text>
+      <text x="155" y="176" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Prevents neonatal tetanus</text>
+      <rect x="310" y="30" width="270" height="160" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="445" y="54" text-anchor="middle" font-size="14" fill="var(--color-foreground)">IFA Prophylaxis</text>
+      <text x="445" y="84" text-anchor="middle" font-size="12" fill="var(--color-foreground)">1 tablet daily</text>
+      <text x="445" y="106" text-anchor="middle" font-size="12" fill="var(--color-foreground)">60 mg iron + 500 &micro;g folic acid</text>
+      <text x="445" y="130" text-anchor="middle" font-size="12" fill="var(--color-foreground)">For at least 100 days</text>
+      <text x="445" y="154" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Prevents anaemia &amp; NTD</text>
+      <text x="445" y="176" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Take with vitamin C</text>
+    </svg>
+    <div class="figure-caption">Fig: TT/Td immunization and IFA prophylaxis</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title teal-title">1. Tetanus Immunization (TT / Td)</h3>
   <p class="answer-text">Tetanus toxoid (now replaced by Td &mdash; Tetanus + diphtheria) protects the mother and prevents <strong>neonatal tetanus</strong> (a deadly newborn infection from the cut cord).</p>
   <div class="answer-table-wrap"><table class="answer-table">
@@ -1556,6 +1894,26 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Summer 2021",
     answer: `
 <div class="in-short"><strong>In Short:</strong> During pregnancy the reproductive organs change dramatically to hold and nourish the baby. The <strong>uterus</strong> grows from 30 g to 1000 g, the <strong>cervix</strong> softens and forms a mucus plug, the <strong>vagina</strong> becomes bluish and stretchy, and the <strong>breasts</strong> prepare for milk.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 230" role="img" aria-label="Reproductive organ changes during pregnancy" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Reproductive System Changes</text>
+      <ellipse cx="150" cy="115" rx="60" ry="78" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="150" y="105" text-anchor="middle" font-size="13" fill="var(--color-accent-foreground)">Uterus</text>
+      <text x="150" y="125" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">30 g &rarr; 1000 g</text>
+      <rect x="250" y="40" width="330" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="415" y="64" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Cervix: soft (Goodell), mucus plug</text>
+      <rect x="250" y="90" width="330" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="415" y="114" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Vagina: bluish (Chadwick), elastic</text>
+      <rect x="250" y="140" width="330" height="40" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="415" y="164" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Ovary: corpus luteum &rarr; progesterone</text>
+      <rect x="40" y="195" width="520" height="28" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="214" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Breasts: enlarge, darken, secrete colostrum</text>
+    </svg>
+    <div class="figure-caption">Fig: Reproductive system changes in pregnancy</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title teal-title">1. Uterus</h3>
@@ -1660,6 +2018,28 @@ window.QUESTIONS_DATA_UNIT3 = [
 <div class="in-short"><strong>In Short:</strong> The pelvis is the bony passage through which the baby is born. There are <strong>four types</strong> of pelvis (gynaecoid, android, anthropoid, platypelloid). The <strong>gynaecoid</strong> (true female) pelvis is best for normal delivery. Pelvic assessment checks whether the pelvis is big enough for the baby to pass.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 220" role="img" aria-label="Four types of female pelvis brim shapes" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Four Types of Pelvic Brim (Caldwell-Moloy)</text>
+      <ellipse cx="85" cy="100" rx="55" ry="48" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <text x="85" y="105" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Round</text>
+      <text x="85" y="170" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Gynaecoid</text>
+      <text x="85" y="188" text-anchor="middle" font-size="11" fill="var(--color-foreground)">(ideal)</text>
+      <path d="M235 60 C200 70 195 110 235 148 C275 110 270 70 235 60 Z" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <text x="235" y="170" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Android</text>
+      <text x="235" y="188" text-anchor="middle" font-size="11" fill="var(--color-foreground)">(heart)</text>
+      <ellipse cx="385" cy="100" rx="36" ry="55" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <text x="385" y="170" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Anthropoid</text>
+      <text x="385" y="188" text-anchor="middle" font-size="11" fill="var(--color-foreground)">(long oval)</text>
+      <ellipse cx="525" cy="100" rx="58" ry="33" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <text x="525" y="170" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Platypelloid</text>
+      <text x="525" y="188" text-anchor="middle" font-size="11" fill="var(--color-foreground)">(flat)</text>
+    </svg>
+    <div class="figure-caption">Fig: Types of female pelvis</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The female pelvis is divided into the <strong>false pelvis</strong> (upper, supports the uterus) and the <strong>true pelvis</strong> (lower, the actual birth canal). Assessing the pelvis helps predict whether vaginal delivery is possible.</p>
 </div>
@@ -1753,6 +2133,35 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Winter 2016, Summer 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The fetal skull is the most important part of the baby during delivery because it is the largest and least compressible part. It is made of soft <strong>bones</strong> joined by <strong>sutures</strong> and <strong>fontanelles</strong> (soft gaps) that allow <strong>moulding</strong> (overlapping) so the head can pass through the birth canal. Knowing its <strong>diameters</strong> helps predict easy or difficult labour.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 280" role="img" aria-label="Fetal skull viewed from above showing bones, sutures and fontanelles" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Fetal Skull (view from above)</text>
+      <ellipse cx="300" cy="150" rx="120" ry="95" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <line x1="300" y1="55" x2="300" y2="245" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <line x1="180" y1="150" x2="420" y2="150" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <polygon points="300,80 312,98 300,116 288,98" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <polygon points="300,205 311,222 289,222" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="300" y="70" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Frontal (sinciput)</text>
+      <text x="300" y="258" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Occiput</text>
+      <text x="430" y="92" font-size="11" fill="var(--color-foreground)">Anterior</text>
+      <text x="430" y="106" font-size="11" fill="var(--color-foreground)">fontanelle</text>
+      <text x="430" y="120" font-size="11" fill="var(--color-foreground)">(bregma, diamond)</text>
+      <line x1="312" y1="98" x2="428" y2="100" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="430" y="210" font-size="11" fill="var(--color-foreground)">Posterior</text>
+      <text x="430" y="224" font-size="11" fill="var(--color-foreground)">fontanelle</text>
+      <text x="430" y="238" font-size="11" fill="var(--color-foreground)">(lambda, triangle)</text>
+      <line x1="311" y1="218" x2="428" y2="218" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="305" y="143" font-size="11" fill="var(--color-foreground)">Sagittal suture</text>
+      <text x="120" y="135" font-size="11" fill="var(--color-foreground)">Parietal</text>
+      <text x="120" y="149" font-size="11" fill="var(--color-foreground)">bone</text>
+      <text x="120" y="200" font-size="11" fill="var(--color-foreground)">Coronal suture</text>
+      <line x1="182" y1="195" x2="232" y2="178" stroke="var(--color-border)" stroke-width="1.5"/>
+    </svg>
+    <div class="figure-caption">Fig: Fetal skull &mdash; sutures &amp; fontanelles</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -1911,6 +2320,36 @@ window.QUESTIONS_DATA_UNIT3 = [
 <div class="in-short"><strong>In Short:</strong> These obstetrical terms describe how the baby is lying inside the uterus. <strong>Lie</strong> = direction of baby relative to mother; <strong>presentation</strong> = part of baby coming first; <strong>position</strong> = where the baby's landmark points; <strong>attitude</strong> = how flexed the baby is; <strong>denominator</strong> = the landmark used to describe position.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 230" role="img" aria-label="Obstetrical terms lie, presentation, attitude, position and denominator" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="150" y="22" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Term</text>
+      <text x="420" y="22" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Normal finding</text>
+      <rect x="20" y="32" width="245" height="34" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="142" y="54" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Lie (baby vs mother axis)</text>
+      <rect x="20" y="72" width="245" height="34" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="142" y="94" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Presentation (part first)</text>
+      <rect x="20" y="112" width="245" height="34" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="142" y="134" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Attitude (how folded)</text>
+      <rect x="20" y="152" width="245" height="34" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="142" y="174" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Position (landmark points)</text>
+      <rect x="20" y="192" width="245" height="34" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="142" y="214" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Denominator (which landmark)</text>
+      <rect x="290" y="32" width="290" height="34" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="435" y="54" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Longitudinal</text>
+      <rect x="290" y="72" width="290" height="34" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="435" y="94" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Cephalic (vertex)</text>
+      <rect x="290" y="112" width="290" height="34" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="435" y="134" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Full flexion</text>
+      <rect x="290" y="152" width="290" height="34" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="435" y="174" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">LOA</text>
+      <rect x="290" y="192" width="290" height="34" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="435" y="214" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Occiput (in vertex)</text>
+    </svg>
+    <div class="figure-caption">Fig: Obstetrical terms at a glance</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title teal-title">Definitions</h3>
   <ol class="answer-points">
     <li><strong>Lie:</strong> The relationship of the long axis (spine) of the baby to the long axis of the mother's uterus.
@@ -2004,6 +2443,35 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Summer 2018, Winter 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Abdominal examination is done to assess the size, lie, presentation, position and wellbeing of the baby. It has three steps: <strong>Inspection</strong> (look), <strong>Palpation</strong> (feel &mdash; using the four Leopold's/fundal-lateral-pelvic grips), and <strong>Auscultation</strong> (listen to the fetal heart). The bladder must be emptied first and the woman lies comfortably with knees slightly bent.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 230" role="img" aria-label="Four Leopold's manoeuvres of abdominal palpation" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Leopold's Manoeuvres (F-L-P-D)</text>
+      <ellipse cx="85" cy="115" rx="55" ry="78" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <path d="M65 50 q20 -12 40 0" fill="none" stroke="var(--accent)" stroke-width="4"/>
+      <circle cx="85" cy="48" r="6" fill="var(--accent)"/>
+      <text x="85" y="208" text-anchor="middle" font-size="11" fill="var(--color-foreground)">1. Fundal grip</text>
+      <text x="85" y="223" text-anchor="middle" font-size="10" fill="var(--color-foreground)">which pole on top</text>
+      <ellipse cx="230" cy="115" rx="55" ry="78" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <path d="M178 110 v15" stroke="var(--accent)" stroke-width="4"/>
+      <path d="M282 110 v15" stroke="var(--accent)" stroke-width="4"/>
+      <text x="230" y="208" text-anchor="middle" font-size="11" fill="var(--color-foreground)">2. Lateral grip</text>
+      <text x="230" y="223" text-anchor="middle" font-size="10" fill="var(--color-foreground)">back &amp; limbs</text>
+      <ellipse cx="375" cy="115" rx="55" ry="78" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <path d="M355 178 q20 12 40 0" fill="none" stroke="var(--accent)" stroke-width="4"/>
+      <circle cx="375" cy="182" r="6" fill="var(--accent)"/>
+      <text x="375" y="208" text-anchor="middle" font-size="11" fill="var(--color-foreground)">3. Pawlik's grip</text>
+      <text x="375" y="223" text-anchor="middle" font-size="10" fill="var(--color-foreground)">presenting part</text>
+      <ellipse cx="520" cy="115" rx="55" ry="78" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <path d="M500 165 v20" stroke="var(--accent)" stroke-width="4"/>
+      <path d="M540 165 v20" stroke="var(--accent)" stroke-width="4"/>
+      <text x="520" y="208" text-anchor="middle" font-size="11" fill="var(--color-foreground)">4. Deep pelvic</text>
+      <text x="520" y="223" text-anchor="middle" font-size="10" fill="var(--color-foreground)">engagement</text>
+    </svg>
+    <div class="figure-caption">Fig: Leopold's manoeuvres</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Purpose</h3>
@@ -2149,6 +2617,27 @@ window.QUESTIONS_DATA_UNIT3 = [
 <div class="in-short"><strong>In Short:</strong> Quickening is the first time a pregnant woman feels her baby move. It is a presumptive sign of pregnancy and a useful marker of fetal wellbeing.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 200" role="img" aria-label="Timing of quickening in primigravida and multigravida" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Quickening = first fetal movements felt</text>
+      <line x1="40" y1="90" x2="560" y2="90" stroke="var(--color-foreground)" stroke-width="2"/>
+      <text x="40" y="115" text-anchor="start" font-size="11" fill="var(--color-foreground)">14 wk</text>
+      <text x="560" y="115" text-anchor="end" font-size="11" fill="var(--color-foreground)">22 wk</text>
+      <circle cx="300" cy="90" r="9" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <rect x="220" y="40" width="160" height="34" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="62" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Multigravida 16&ndash;18 wk</text>
+      <line x1="300" y1="74" x2="300" y2="82" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <circle cx="420" cy="90" r="9" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <rect x="350" y="118" width="170" height="34" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="435" y="140" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Primigravida 18&ndash;20 wk</text>
+      <line x1="420" y1="98" x2="420" y2="118" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="300" y="180" text-anchor="middle" font-size="11" fill="var(--color-foreground)">A presumptive sign; kick count checks fetal wellbeing</text>
+    </svg>
+    <div class="figure-caption">Fig: Timing of quickening</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box"><strong>Quickening</strong> is the first perception of fetal movements by the mother. It usually feels like a flutter or light kick in the lower abdomen.</div>
 </div>
@@ -2195,6 +2684,28 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Winter 2018, Summer 2021, Winter 2024",
     answer: `
 <div class="in-short"><strong>In Short:</strong> EDD is the estimated date on which a woman is likely to deliver. It is calculated from the first day of the last menstrual period (LMP) using <strong>Naegele's rule</strong>: add 9 months and 7 days (or add 280 days).</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 200" role="img" aria-label="Naegele's rule for calculating expected date of delivery" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="22" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Naegele's Rule for EDD</text>
+      <rect x="20" y="40" width="150" height="50" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="95" y="62" text-anchor="middle" font-size="12" fill="var(--color-foreground)">LMP</text>
+      <text x="95" y="80" text-anchor="middle" font-size="11" fill="var(--color-foreground)">(1st day)</text>
+      <text x="185" y="70" text-anchor="middle" font-size="20" fill="var(--color-foreground)">+</text>
+      <rect x="205" y="40" width="150" height="50" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="280" y="70" text-anchor="middle" font-size="13" fill="var(--color-foreground)">9 months</text>
+      <text x="370" y="70" text-anchor="middle" font-size="20" fill="var(--color-foreground)">+</text>
+      <rect x="390" y="40" width="120" height="50" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="450" y="70" text-anchor="middle" font-size="13" fill="var(--color-foreground)">7 days</text>
+      <text x="530" y="70" text-anchor="middle" font-size="20" fill="var(--color-foreground)">=</text>
+      <rect x="220" y="105" width="160" height="44" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="132" text-anchor="middle" font-size="14" fill="var(--color-accent-foreground)">EDD (280 days)</text>
+      <text x="300" y="180" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Example: LMP 1 Jan &rarr; EDD 8 Oct</text>
+    </svg>
+    <div class="figure-caption">Fig: Naegele's rule (EDD)</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>

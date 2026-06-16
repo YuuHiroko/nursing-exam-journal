@@ -10,6 +10,39 @@ window.QUESTIONS_DATA_UNIT5 = [
 <div class="in-short"><strong>In Short:</strong> Puerperium is the 6-week period after delivery when the mother's body returns to its pre-pregnancy (non-pregnant) state. Big changes happen -- the uterus shrinks (involution), lochia (vaginal discharge) flows, and milk comes in. Good postnatal care means checking the mother (vitals, uterus, lochia, perineum), supporting breastfeeding, giving nutrition and rest, watching for danger signs, and counselling on family planning.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 250" role="img" aria-label="Timeline of puerperium showing immediate, early and remote phases over 6 weeks with key physiological changes" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="24" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">Puerperium: 6 Weeks of Recovery</text>
+      <line x1="40" y1="70" x2="560" y2="70" stroke="var(--color-foreground)" stroke-width="2"/>
+      <polygon points="560,70 550,65 550,75" fill="var(--color-foreground)"/>
+      <circle cx="80" cy="70" r="6" fill="var(--accent)"/>
+      <circle cx="230" cy="70" r="6" fill="var(--accent)"/>
+      <circle cx="500" cy="70" r="6" fill="var(--accent)"/>
+      <text x="80" y="56" text-anchor="middle" fill="var(--color-foreground)" font-size="12">Day 0</text>
+      <text x="230" y="56" text-anchor="middle" fill="var(--color-foreground)" font-size="12">Day 7</text>
+      <text x="500" y="56" text-anchor="middle" fill="var(--color-foreground)" font-size="12">Week 6</text>
+      <rect x="50" y="86" width="120" height="40" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="110" y="104" text-anchor="middle" fill="var(--color-foreground)" font-size="12">Immediate</text>
+      <text x="110" y="119" text-anchor="middle" fill="var(--color-foreground)" font-size="11">first 24 hrs (PPH risk)</text>
+      <rect x="178" y="86" width="120" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="238" y="104" text-anchor="middle" fill="var(--color-foreground)" font-size="12">Early</text>
+      <text x="238" y="119" text-anchor="middle" fill="var(--color-foreground)" font-size="11">up to day 7</text>
+      <rect x="306" y="86" width="244" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="428" y="104" text-anchor="middle" fill="var(--color-foreground)" font-size="12">Remote / late</text>
+      <text x="428" y="119" text-anchor="middle" fill="var(--color-foreground)" font-size="11">day 7 to 6 weeks</text>
+      <text x="40" y="160" fill="var(--color-foreground)" font-size="13" font-weight="bold">Key changes:</text>
+      <text x="40" y="182" fill="var(--color-foreground)" font-size="12">U - Uterus involutes (1000 g to 60 g)</text>
+      <text x="40" y="202" fill="var(--color-foreground)" font-size="12">L - Lochia flows (red to white)</text>
+      <text x="40" y="222" fill="var(--color-foreground)" font-size="12">L - Lactation begins (milk comes in)</text>
+      <text x="320" y="182" fill="var(--color-foreground)" font-size="12">B - Blood volume drops</text>
+      <text x="320" y="202" fill="var(--color-foreground)" font-size="12">B - Bladder diuresis</text>
+      <text x="320" y="222" fill="var(--color-foreground)" font-size="12">W - Weight reduces</text>
+    </svg>
+    <div class="figure-caption">Fig: Phases and Physiological Changes of Puerperium</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">After the hard work of pregnancy and labour, the mother's body now slowly heals and returns to normal. This recovery time is called the <strong>puerperium</strong>. It is a critical period -- many mothers die in the first few days after birth from bleeding (PPH) or infection (sepsis). So good postnatal care by the nurse is life-saving.</p>
 </div>
@@ -165,6 +198,30 @@ window.QUESTIONS_DATA_UNIT5 = [
 <div class="in-short"><strong>In Short:</strong> Involution is the natural process by which the uterus shrinks back from its big pregnancy size (about 1000 g) to its small non-pregnant size (about 60 g) over 6 weeks. It is checked by measuring the fundal height -- the top of the uterus comes down about one finger (1 cm) per day. By day 10-12 it cannot be felt from the abdomen.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 300" role="img" aria-label="Diagram of uterine involution showing the fundus descending about one centimetre per day from umbilicus to pelvis" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="24" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">Involution: Fundus Descends ~1 cm/day</text>
+      <ellipse cx="200" cy="170" rx="95" ry="120" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <line x1="105" y1="80" x2="295" y2="80" stroke="var(--color-border)" stroke-width="1.5" stroke-dasharray="5,4"/>
+      <circle cx="200" cy="80" r="5" fill="var(--color-foreground)"/>
+      <text x="200" y="70" text-anchor="middle" fill="var(--color-foreground)" font-size="12">Umbilicus</text>
+      <line x1="120" y1="100" x2="280" y2="100" stroke="var(--accent)" stroke-width="2"/>
+      <text x="305" y="104" fill="var(--color-foreground)" font-size="12">Day 1 - at / just below umbilicus</text>
+      <line x1="128" y1="135" x2="272" y2="135" stroke="var(--accent)" stroke-width="2"/>
+      <text x="305" y="139" fill="var(--color-foreground)" font-size="12">Each day - down ~1 finger (1 cm)</text>
+      <line x1="135" y1="180" x2="265" y2="180" stroke="var(--accent)" stroke-width="2"/>
+      <text x="305" y="184" fill="var(--color-foreground)" font-size="12">Day 7 - midway to pubis</text>
+      <line x1="150" y1="235" x2="250" y2="235" stroke="var(--accent)" stroke-width="2"/>
+      <text x="305" y="239" fill="var(--color-foreground)" font-size="12">Day 10-12 - not felt abdominally</text>
+      <circle cx="200" cy="278" r="5" fill="var(--color-foreground)"/>
+      <text x="200" y="296" text-anchor="middle" fill="var(--color-foreground)" font-size="12">Pubic bone</text>
+      <text x="305" y="262" fill="var(--color-foreground)" font-size="11">1000 g to 60 g over 6 weeks</text>
+    </svg>
+    <div class="figure-caption">Fig: Descent of Fundal Height During Involution</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
     <strong>Involution of the uterus</strong> means the process by which the uterus returns to its <strong>pre-pregnant size, shape, and position</strong> after childbirth. The big, heavy, stretched uterus gradually shrinks back to a small organ inside the pelvis.<br><br>
@@ -259,6 +316,30 @@ window.QUESTIONS_DATA_UNIT5 = [
     years: "Winter 2016, Summer 2019, Winter 2024",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Lochia is the vaginal discharge after childbirth made of blood, tissue, and mucus from the healing uterus. It changes colour over time: red (lochia rubra) &rarr; pinkish-brown (lochia serosa) &rarr; whitish-yellow (lochia alba), lasting about 3-6 weeks. Foul smell, heavy bleeding, or red lochia returning are abnormal signs.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 230" role="img" aria-label="Colour timeline of lochia showing rubra red days 1 to 4, serosa pink-brown days 5 to 9, and alba white from day 10 onwards" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="24" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">Lochia: Colour Changes Over Time</text>
+      <rect x="40" y="60" width="170" height="70" rx="8" fill="#b3261e" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="125" y="90" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold">RUBRA</text>
+      <text x="125" y="110" text-anchor="middle" fill="#fff" font-size="12">Red - Day 1 to 4</text>
+      <rect x="215" y="60" width="170" height="70" rx="8" fill="#e88" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="90" text-anchor="middle" fill="#5a1010" font-size="14" font-weight="bold">SEROSA</text>
+      <text x="300" y="110" text-anchor="middle" fill="#5a1010" font-size="12">Pink/Brown - Day 5 to 9</text>
+      <rect x="390" y="60" width="170" height="70" rx="8" fill="#f5f5f5" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="475" y="90" text-anchor="middle" fill="#333" font-size="14" font-weight="bold">ALBA</text>
+      <text x="475" y="110" text-anchor="middle" fill="#333" font-size="12">White - Day 10 onward</text>
+      <polygon points="210,95 218,88 218,102" fill="var(--color-foreground)"/>
+      <polygon points="385,95 393,88 393,102" fill="var(--color-foreground)"/>
+      <text x="40" y="165" fill="var(--color-foreground)" font-size="12">Healing fades dark to light - normal stale (not foul) smell.</text>
+      <text x="40" y="190" fill="var(--color-foreground)" font-size="12" font-weight="bold">Abnormal:</text>
+      <text x="115" y="190" fill="var(--color-foreground)" font-size="12">foul smell = infection; heavy flow = PPH;</text>
+      <text x="40" y="212" fill="var(--color-foreground)" font-size="12">red returning = subinvolution; scanty = lochiostasis.</text>
+    </svg>
+    <div class="figure-caption">Fig: Timeline of Lochia Rubra, Serosa and Alba</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
@@ -357,6 +438,44 @@ window.QUESTIONS_DATA_UNIT5 = [
 <div class="in-short"><strong>In Short:</strong> Postnatal exercises are gentle exercises done after delivery to help the mother's muscles regain strength, especially the abdominal and pelvic floor muscles. They prevent backache, urine leakage, and blood clots, improve mood, and help the body return to shape. They start gently from day 1 and increase slowly.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 250" role="img" aria-label="Graded postnatal exercises from day 1 deep breathing and foot movements to Kegels, pelvic tilt and walking after 6 weeks" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="24" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">Postnatal Exercises (Start Gentle, Build Up)</text>
+      <rect x="30" y="50" width="130" height="170" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="95" y="72" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Day 1</text>
+      <circle cx="95" cy="105" r="16" fill="none" stroke="var(--color-foreground)" stroke-width="2"/>
+      <path d="M85 105 q10 -14 20 0" fill="none" stroke="var(--accent)" stroke-width="2"/>
+      <text x="95" y="140" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Deep breathing</text>
+      <text x="95" y="160" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Foot/ankle moves</text>
+      <text x="95" y="180" text-anchor="middle" fill="var(--color-foreground)" font-size="11">(prevents DVT)</text>
+      <rect x="175" y="50" width="130" height="170" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="240" y="72" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Day 1-3</text>
+      <ellipse cx="240" cy="105" rx="20" ry="12" fill="none" stroke="var(--color-foreground)" stroke-width="2"/>
+      <path d="M240 95 v20" stroke="var(--accent)" stroke-width="2"/>
+      <text x="240" y="140" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Kegel (pelvic</text>
+      <text x="240" y="158" text-anchor="middle" fill="var(--color-foreground)" font-size="11">floor) + pelvic</text>
+      <text x="240" y="176" text-anchor="middle" fill="var(--color-foreground)" font-size="11">tilt</text>
+      <rect x="320" y="50" width="130" height="170" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="385" y="72" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">Day 3-7</text>
+      <path d="M365 110 q20 -22 40 0" fill="none" stroke="var(--color-foreground)" stroke-width="2"/>
+      <line x1="385" y1="100" x2="385" y2="116" stroke="var(--accent)" stroke-width="2"/>
+      <text x="385" y="140" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Abdominal</text>
+      <text x="385" y="158" text-anchor="middle" fill="var(--color-foreground)" font-size="11">tightening,</text>
+      <text x="385" y="176" text-anchor="middle" fill="var(--color-foreground)" font-size="11">head lifting</text>
+      <rect x="465" y="50" width="105" height="170" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="517" y="72" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">After 6 wks</text>
+      <circle cx="517" cy="103" r="7" fill="none" stroke="var(--color-accent-foreground)" stroke-width="2"/>
+      <line x1="517" y1="110" x2="517" y2="128" stroke="var(--color-accent-foreground)" stroke-width="2"/>
+      <line x1="517" y1="118" x2="508" y2="124" stroke="var(--color-accent-foreground)" stroke-width="2"/>
+      <line x1="517" y1="118" x2="526" y2="124" stroke="var(--color-accent-foreground)" stroke-width="2"/>
+      <text x="517" y="155" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">Brisk</text>
+      <text x="517" y="173" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="11">walking</text>
+    </svg>
+    <div class="figure-caption">Fig: Graded Postnatal Exercise Progression</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
     <strong>Postnatal (postpartum) exercises</strong> are a set of <strong>simple, graded exercises</strong> performed by the mother after delivery to restore the tone and strength of the muscles stretched during pregnancy and childbirth -- mainly the <strong>abdominal muscles and pelvic floor muscles</strong> -- and to promote overall recovery.
@@ -447,6 +566,34 @@ window.QUESTIONS_DATA_UNIT5 = [
     years: "Winter 2019, Summer 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Breastfeeding is the best, complete, natural food for a baby. It protects the baby from infection (antibodies in milk), helps the mother (uterus shrinks, less bleeding, natural spacing), and is free and clean. Correct positioning (baby's body straight, facing the breast) and attachment (mouth covers most of the areola) are the keys to success. The nurse teaches, supports, and protects breastfeeding.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 290" role="img" aria-label="Breastfeeding latch schematic showing mother and baby with signs of good attachment: wide mouth, lower lip everted, chin touching breast, more areola above" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="24" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">Correct Positioning &amp; Attachment (Latch)</text>
+      <path d="M40 250 q0 -120 90 -150" fill="none" stroke="var(--color-foreground)" stroke-width="2"/>
+      <circle cx="150" cy="120" r="55" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <circle cx="200" cy="130" r="22" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <circle cx="207" cy="130" r="8" fill="var(--accent)"/>
+      <text x="150" y="125" text-anchor="middle" fill="var(--color-foreground)" font-size="12">Breast</text>
+      <text x="150" y="142" text-anchor="middle" fill="var(--color-foreground)" font-size="11">+ areola</text>
+      <circle cx="260" cy="140" r="48" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <path d="M222 135 q12 18 26 0" fill="none" stroke="var(--color-foreground)" stroke-width="2"/>
+      <text x="285" y="120" fill="var(--color-foreground)" font-size="11">Baby</text>
+      <line x1="225" y1="118" x2="320" y2="80" stroke="var(--color-border)" stroke-width="1"/>
+      <text x="324" y="80" fill="var(--color-foreground)" font-size="12">More areola seen above</text>
+      <line x1="232" y1="150" x2="320" y2="160" stroke="var(--color-border)" stroke-width="1"/>
+      <text x="324" y="150" fill="var(--color-foreground)" font-size="12">Chin touches breast</text>
+      <text x="324" y="166" fill="var(--color-foreground)" font-size="12">Mouth wide open</text>
+      <line x1="245" y1="170" x2="320" y2="200" stroke="var(--color-border)" stroke-width="1"/>
+      <text x="324" y="204" fill="var(--color-foreground)" font-size="12">Lower lip turned outward</text>
+      <text x="40" y="262" fill="var(--color-foreground)" font-size="12" font-weight="bold">Positioning:</text>
+      <text x="125" y="262" fill="var(--color-foreground)" font-size="12">Straight, Facing, Close, Supported</text>
+      <text x="40" y="282" fill="var(--color-foreground)" font-size="11">Good latch = painless, slow deep sucks, swallowing heard</text>
+    </svg>
+    <div class="figure-caption">Fig: Signs of Correct Latch and Positioning</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -600,6 +747,42 @@ window.QUESTIONS_DATA_UNIT5 = [
 <div class="in-short"><strong>In Short:</strong> Postnatal health education means teaching the mother how to care for herself and her baby after delivery. Key areas: good nutrition (extra protein, iron, calcium), personal and perineal hygiene, rest and exercise, exclusive breastfeeding, immunization, family planning (spacing), and recognising danger signs so she seeks help early.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 240" role="img" aria-label="Six areas of postnatal health education arranged around a central mother: nutrition, hygiene, family planning, breastfeeding, exercise and rest, danger signs" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="24" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">Postnatal Health Education: NHF-BED</text>
+      <circle cx="300" cy="135" r="42" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="131" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="13" font-weight="bold">Educate</text>
+      <text x="300" y="148" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12">the mother</text>
+      <rect x="30" y="55" width="150" height="42" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="105" y="72" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">N - Nutrition</text>
+      <text x="105" y="88" text-anchor="middle" fill="var(--color-foreground)" font-size="11">protein, iron, calcium</text>
+      <rect x="420" y="55" width="150" height="42" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="495" y="72" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">H - Hygiene</text>
+      <text x="495" y="88" text-anchor="middle" fill="var(--color-foreground)" font-size="11">perineal care, bath</text>
+      <rect x="30" y="113" width="150" height="42" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="105" y="130" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">F - Family planning</text>
+      <text x="105" y="146" text-anchor="middle" fill="var(--color-foreground)" font-size="11">spacing 2-3 years</text>
+      <rect x="420" y="113" width="150" height="42" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="495" y="130" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">B - Breastfeeding</text>
+      <text x="495" y="146" text-anchor="middle" fill="var(--color-foreground)" font-size="11">exclusive 6 months</text>
+      <rect x="30" y="171" width="150" height="42" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="105" y="188" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">E - Exercise + rest</text>
+      <text x="105" y="204" text-anchor="middle" fill="var(--color-foreground)" font-size="11">graded, adequate sleep</text>
+      <rect x="420" y="171" width="150" height="42" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="495" y="188" text-anchor="middle" fill="var(--color-foreground)" font-size="12" font-weight="bold">D - Danger signs</text>
+      <text x="495" y="204" text-anchor="middle" fill="var(--color-foreground)" font-size="11">bleed, fever, fits</text>
+      <line x1="180" y1="78" x2="262" y2="120" stroke="var(--color-border)" stroke-width="1"/>
+      <line x1="180" y1="134" x2="258" y2="135" stroke="var(--color-border)" stroke-width="1"/>
+      <line x1="180" y1="190" x2="262" y2="150" stroke="var(--color-border)" stroke-width="1"/>
+      <line x1="420" y1="78" x2="338" y2="120" stroke="var(--color-border)" stroke-width="1"/>
+      <line x1="420" y1="134" x2="342" y2="135" stroke="var(--color-border)" stroke-width="1"/>
+      <line x1="420" y1="190" x2="338" y2="150" stroke="var(--color-border)" stroke-width="1"/>
+    </svg>
+    <div class="figure-caption">Fig: Six Areas of Postnatal Health Education</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">After delivery, most mothers go home within a few days. So before discharge the nurse must teach the mother how to stay healthy and care for the baby. Good health education prevents complications and gives both mother and baby a healthy start.</p>
 </div>
@@ -686,6 +869,44 @@ window.QUESTIONS_DATA_UNIT5 = [
     years: "Summer 2016, Winter 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Breast care after delivery means keeping the breasts clean, supported, and well-drained by regular breastfeeding. Common problems are engorgement (over-full, hard breasts), cracked/sore nipples (from poor latch), and mastitis (painful infection with fever). Most are prevented by correct latch and frequent feeding, and treated by continued breastfeeding, warm/cold compress, and antibiotics for mastitis.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 240" role="img" aria-label="Three panels comparing breast problems: engorgement of both breasts, cracked nipple, and mastitis with a red inflamed area" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="24" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">Common Postnatal Breast Problems</text>
+      <rect x="20" y="45" width="180" height="180" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="110" y="68" text-anchor="middle" fill="var(--color-foreground)" font-size="13" font-weight="bold">Engorgement</text>
+      <circle cx="80" cy="115" r="30" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <circle cx="140" cy="115" r="30" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <circle cx="80" cy="115" r="4" fill="var(--color-foreground)"/>
+      <circle cx="140" cy="115" r="4" fill="var(--color-foreground)"/>
+      <text x="110" y="172" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Both breasts hard,</text>
+      <text x="110" y="188" text-anchor="middle" fill="var(--color-foreground)" font-size="11">full, shiny. Warm</text>
+      <text x="110" y="204" text-anchor="middle" fill="var(--color-foreground)" font-size="11">before, cold after,</text>
+      <text x="110" y="220" text-anchor="middle" fill="var(--color-foreground)" font-size="11">keep feeding</text>
+      <rect x="210" y="45" width="180" height="180" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="68" text-anchor="middle" fill="var(--color-foreground)" font-size="13" font-weight="bold">Cracked Nipple</text>
+      <circle cx="300" cy="115" r="34" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <circle cx="300" cy="115" r="6" fill="var(--color-foreground)"/>
+      <path d="M300 109 l-8 -16" stroke="#b3261e" stroke-width="2"/>
+      <path d="M300 109 l9 -14" stroke="#b3261e" stroke-width="2"/>
+      <text x="300" y="172" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Sore, cracked from</text>
+      <text x="300" y="188" text-anchor="middle" fill="var(--color-foreground)" font-size="11">poor latch. Fix latch,</text>
+      <text x="300" y="204" text-anchor="middle" fill="var(--color-foreground)" font-size="11">apply hindmilk,</text>
+      <text x="300" y="220" text-anchor="middle" fill="var(--color-foreground)" font-size="11">air-dry, keep feeding</text>
+      <rect x="400" y="45" width="180" height="180" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="490" y="68" text-anchor="middle" fill="var(--color-foreground)" font-size="13" font-weight="bold">Mastitis</text>
+      <circle cx="490" cy="115" r="34" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <path d="M490 115 m-18 -8 a14 14 0 1 0 20 16 z" fill="#b3261e" opacity="0.85"/>
+      <circle cx="490" cy="115" r="5" fill="var(--color-foreground)"/>
+      <text x="490" y="172" text-anchor="middle" fill="var(--color-foreground)" font-size="11">One breast red, hot,</text>
+      <text x="490" y="188" text-anchor="middle" fill="var(--color-foreground)" font-size="11">painful + fever.</text>
+      <text x="490" y="204" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Antibiotics + continue</text>
+      <text x="490" y="220" text-anchor="middle" fill="var(--color-foreground)" font-size="11">feeding (or abscess)</text>
+    </svg>
+    <div class="figure-caption">Fig: Engorgement vs Cracked Nipple vs Mastitis</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -793,6 +1014,31 @@ window.QUESTIONS_DATA_UNIT5 = [
 <div class="in-short"><strong>In Short:</strong> Postnatal care is the care given to the mother and newborn from delivery up to 6 weeks. Its objectives are to help the mother recover, prevent and detect complications early (bleeding, infection), support breastfeeding, ensure the baby's health, give health education, and counsel on family planning.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 230" role="img" aria-label="Postnatal care covers both mother and baby for six weeks with objectives summarised as RECOVER" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="24" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">Postnatal Care: Mother + Baby for 6 Weeks</text>
+      <rect x="30" y="45" width="255" height="160" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="157" y="68" text-anchor="middle" fill="var(--color-foreground)" font-size="13" font-weight="bold">For the Mother</text>
+      <text x="48" y="92" fill="var(--color-foreground)" font-size="12">- Monitor vitals, uterus, lochia</text>
+      <text x="48" y="114" fill="var(--color-foreground)" font-size="12">- Nutrition, rest, hygiene, exercise</text>
+      <text x="48" y="136" fill="var(--color-foreground)" font-size="12">- Prevent PPH &amp; sepsis</text>
+      <text x="48" y="158" fill="var(--color-foreground)" font-size="12">- Breastfeeding support</text>
+      <text x="48" y="180" fill="var(--color-foreground)" font-size="12">- Family planning, follow-up</text>
+      <rect x="315" y="45" width="255" height="160" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="442" y="68" text-anchor="middle" fill="var(--color-foreground)" font-size="13" font-weight="bold">For the Baby</text>
+      <text x="333" y="92" fill="var(--color-foreground)" font-size="12">- Warmth, feeding, weight check</text>
+      <text x="333" y="114" fill="var(--color-foreground)" font-size="12">- Cord care, immunization</text>
+      <text x="333" y="136" fill="var(--color-foreground)" font-size="12">- Watch newborn danger signs</text>
+      <text x="333" y="158" fill="var(--color-foreground)" font-size="12">- Promote bonding (rooming-in)</text>
+      <text x="442" y="186" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Aim: healthy mother + baby</text>
+      <rect x="150" y="200" width="300" height="22" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="216" text-anchor="middle" fill="var(--color-accent-foreground)" font-size="12" font-weight="bold">Objectives = RECOVER</text>
+    </svg>
+    <div class="figure-caption">Fig: Components and Objectives of Postnatal Care</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
     <strong>Postnatal (Postpartum) Care</strong> is the care given to the <strong>mother and her newborn baby</strong> during the puerperium -- from the time of delivery up to <strong>6 weeks</strong> afterwards.<br><br>
@@ -877,6 +1123,38 @@ window.QUESTIONS_DATA_UNIT5 = [
     years: "Winter 2019, Summer 2024",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Afterpains are the cramp-like pains felt as the uterus contracts back to normal after delivery (worse during breastfeeding). Colostrum is the first thick, yellowish breast milk produced in the first 2-3 days -- rich in antibodies, often called the baby's "first vaccine" or "liquid gold."</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 220" role="img" aria-label="Two panels: afterpains from uterine contraction with oxytocin during breastfeeding, and colostrum the first yellow antibody-rich milk" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="24" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">Afterpains &amp; Colostrum</text>
+      <rect x="20" y="45" width="270" height="160" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="155" y="68" text-anchor="middle" fill="var(--color-foreground)" font-size="13" font-weight="bold">(a) Afterpains</text>
+      <ellipse cx="90" cy="120" rx="38" ry="46" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <path d="M70 110 q20 -14 40 0" fill="none" stroke="var(--accent)" stroke-width="2"/>
+      <path d="M70 125 q20 -14 40 0" fill="none" stroke="var(--accent)" stroke-width="2"/>
+      <path d="M70 140 q20 -14 40 0" fill="none" stroke="var(--accent)" stroke-width="2"/>
+      <text x="90" y="182" text-anchor="middle" fill="var(--color-foreground)" font-size="11">Uterus contracts</text>
+      <text x="200" y="108" fill="var(--color-foreground)" font-size="12">Cramps as uterus</text>
+      <text x="200" y="126" fill="var(--color-foreground)" font-size="12">involutes; oxytocin</text>
+      <text x="200" y="144" fill="var(--color-foreground)" font-size="12">in breastfeeding</text>
+      <text x="200" y="162" fill="var(--color-foreground)" font-size="12">worsens it. Helps</text>
+      <text x="200" y="180" fill="var(--color-foreground)" font-size="12">stop bleeding.</text>
+      <rect x="310" y="45" width="270" height="160" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="445" y="68" text-anchor="middle" fill="var(--color-foreground)" font-size="13" font-weight="bold">(b) Colostrum</text>
+      <circle cx="380" cy="120" r="40" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <circle cx="380" cy="120" r="6" fill="var(--color-foreground)"/>
+      <path d="M380 126 q-4 18 0 26" fill="none" stroke="#d4a017" stroke-width="3"/>
+      <text x="380" y="182" text-anchor="middle" fill="var(--color-foreground)" font-size="11">First yellow milk</text>
+      <text x="490" y="108" fill="var(--color-foreground)" font-size="12">Day 1-3, thick</text>
+      <text x="490" y="126" fill="var(--color-foreground)" font-size="12">yellow, rich in</text>
+      <text x="490" y="144" fill="var(--color-foreground)" font-size="12">IgA antibodies.</text>
+      <text x="490" y="162" fill="var(--color-foreground)" font-size="12">"First vaccine"</text>
+      <text x="490" y="180" fill="var(--color-foreground)" font-size="12">/ liquid gold.</text>
+    </svg>
+    <div class="figure-caption">Fig: Afterpains and Colostrum</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">(a) Afterpains</h3>

@@ -14,6 +14,43 @@ window.QUESTIONS_DATA_UNIT7 = [
 <div class="in-short"><strong>In Short:</strong> Contraception means preventing pregnancy using medicines, devices, or methods. There are many choices &mdash; from condoms to pills to permanent surgery. A first-time mother (primipara) needs clear, friendly teaching about WHEN and HOW to start family planning after delivery.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 320" role="img" aria-label="Classification of contraceptive methods into temporary and permanent" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <rect x="220" y="12" width="160" height="40" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="300" y="37" text-anchor="middle" font-size="14" fill="var(--color-accent-foreground)">Contraceptive Methods</text>
+      <line x1="300" y1="52" x2="300" y2="70" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <line x1="150" y1="70" x2="450" y2="70" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <line x1="150" y1="70" x2="150" y2="88" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <line x1="450" y1="70" x2="450" y2="88" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <rect x="70" y="88" width="160" height="40" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="150" y="106" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Temporary</text>
+      <text x="150" y="121" text-anchor="middle" font-size="11" fill="var(--color-foreground)">(reversible)</text>
+      <rect x="370" y="88" width="160" height="40" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="450" y="106" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Permanent</text>
+      <text x="450" y="121" text-anchor="middle" font-size="11" fill="var(--color-foreground)">(irreversible)</text>
+      <line x1="150" y1="128" x2="150" y2="150" stroke="var(--color-border)" stroke-width="1.5"/>
+      <rect x="20" y="150" width="120" height="36" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="80" y="172" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Barrier</text>
+      <rect x="20" y="194" width="120" height="36" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="80" y="216" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Hormonal</text>
+      <rect x="160" y="150" width="120" height="36" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="220" y="172" text-anchor="middle" font-size="12" fill="var(--color-foreground)">IUCD</text>
+      <rect x="160" y="194" width="120" height="36" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="220" y="216" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Natural</text>
+      <line x1="450" y1="128" x2="450" y2="150" stroke="var(--color-border)" stroke-width="1.5"/>
+      <rect x="370" y="150" width="170" height="36" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="455" y="172" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Tubectomy (female)</text>
+      <rect x="370" y="194" width="170" height="36" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="455" y="216" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Vasectomy (male)</text>
+      <rect x="160" y="252" width="280" height="48" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5" opacity="0.9"/>
+      <text x="300" y="272" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Mnemonic: BINPH</text>
+      <text x="300" y="290" text-anchor="middle" font-size="11" fill="var(--color-accent-foreground)">Barrier, IUCD, Natural, Permanent, Hormonal</text>
+    </svg>
+    <div class="figure-caption">Fig: Classification of Contraceptive Methods</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Family planning is every couple's right. By spacing pregnancies, mothers stay healthier, babies are stronger, and families have a better quality of life. Nurses play a key role in teaching couples to choose the method that suits them best.</p>
 </div>
@@ -243,6 +280,30 @@ window.QUESTIONS_DATA_UNIT7 = [
 <div class="in-short"><strong>In Short:</strong> Family planning aims to help couples choose the right number of children and the right spacing. IUCDs (Intra-Uterine Contraceptive Devices) are small devices placed inside the uterus by a trained nurse or doctor &mdash; they are highly effective, long-lasting, and reversible (except they do not protect against STIs).</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 300" role="img" aria-label="IUCD positioned inside the uterus with threads through the cervix" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <path d="M300 60 C230 60 200 90 195 140 C190 190 230 210 250 215 L250 250 C250 262 270 262 270 250 L270 218 C290 220 310 220 330 218 L330 250 C330 262 350 262 350 250 L350 215 C370 210 410 190 405 140 C400 90 370 60 300 60 Z" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <ellipse cx="180" cy="95" rx="26" ry="16" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <ellipse cx="420" cy="95" rx="26" ry="16" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <path d="M206 105 Q250 80 285 95" fill="none" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <path d="M394 105 Q350 80 315 95" fill="none" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <line x1="300" y1="100" x2="300" y2="175" stroke="var(--accent)" stroke-width="5" stroke-linecap="round"/>
+      <line x1="262" y1="105" x2="338" y2="105" stroke="var(--accent)" stroke-width="5" stroke-linecap="round"/>
+      <path d="M300 175 L292 255 M300 175 L308 255" fill="none" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="150" y="92" text-anchor="end" font-size="12" fill="var(--color-foreground)">Ovary</text>
+      <line x1="152" y1="90" x2="170" y2="93" stroke="var(--color-border)" stroke-width="1"/>
+      <text x="470" y="92" text-anchor="start" font-size="12" fill="var(--color-foreground)">Fallopian</text>
+      <text x="470" y="106" text-anchor="start" font-size="12" fill="var(--color-foreground)">tube</text>
+      <line x1="465" y1="98" x2="430" y2="98" stroke="var(--color-border)" stroke-width="1"/>
+      <text x="420" y="150" text-anchor="start" font-size="12" fill="var(--accent)">Copper-T (IUCD)</text>
+      <line x1="418" y1="146" x2="320" y2="130" stroke="var(--color-border)" stroke-width="1"/>
+      <text x="300" y="285" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Threads (felt at cervix)</text>
+    </svg>
+    <div class="figure-caption">Fig: IUCD (Copper-T) in Position Inside the Uterus</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Aims and Objectives of Family Planning</h3>
   <div class="definition-box">
     <strong>Family Planning</strong> means helping individuals and couples <strong>decide freely and responsibly the number, spacing, and timing of their children</strong> and to have the information and means to do so, and to attain the highest standard of sexual and reproductive health.
@@ -418,6 +479,38 @@ window.QUESTIONS_DATA_UNIT7 = [
     years: "Winter 2014",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Preconception care = taking care of a woman's health BEFORE she gets pregnant, so the pregnancy starts in the best possible conditions. Planned parenthood = deciding when and how many children to have. The nurse midwife is the backbone of India's National Family Welfare Programme, doing everything from counselling to providing contraceptives to referrals.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 280" role="img" aria-label="Preconception care checklist before pregnancy" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <rect x="150" y="12" width="300" height="38" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="300" y="30" text-anchor="middle" font-size="13" fill="var(--color-accent-foreground)">Preconception Care</text>
+      <text x="300" y="45" text-anchor="middle" font-size="11" fill="var(--color-accent-foreground)">(start 3-6 months before pregnancy)</text>
+      <rect x="30" y="70" width="262" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <rect x="40" y="82" width="16" height="16" rx="4" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.2"/>
+      <text x="66" y="95" font-size="12" fill="var(--color-foreground)">Folic acid 400 mcg daily</text>
+      <rect x="308" y="70" width="262" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <rect x="318" y="82" width="16" height="16" rx="4" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.2"/>
+      <text x="344" y="95" font-size="12" fill="var(--color-foreground)">Correct anaemia (Hb &#8805;11)</text>
+      <rect x="30" y="120" width="262" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <rect x="40" y="132" width="16" height="16" rx="4" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.2"/>
+      <text x="66" y="145" font-size="12" fill="var(--color-foreground)">Rubella vaccine if not immune</text>
+      <rect x="308" y="120" width="262" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <rect x="318" y="132" width="16" height="16" rx="4" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.2"/>
+      <text x="344" y="145" font-size="12" fill="var(--color-foreground)">Review teratogenic drugs</text>
+      <rect x="30" y="170" width="262" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <rect x="40" y="182" width="16" height="16" rx="4" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.2"/>
+      <text x="66" y="195" font-size="12" fill="var(--color-foreground)">Genetic counselling if needed</text>
+      <rect x="308" y="170" width="262" height="40" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <rect x="318" y="182" width="16" height="16" rx="4" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.2"/>
+      <text x="344" y="195" font-size="12" fill="var(--color-foreground)">Stop smoking / alcohol</text>
+      <rect x="30" y="220" width="540" height="40" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <rect x="40" y="232" width="16" height="16" rx="4" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.2"/>
+      <text x="66" y="245" font-size="12" fill="var(--color-foreground)">Screen &amp; treat STIs; healthy BMI 18.5-24.9; mental health</text>
+    </svg>
+    <div class="figure-caption">Fig: Preconception Care Checklist</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Definition of Preconception Care</h3>
@@ -623,6 +716,34 @@ window.QUESTIONS_DATA_UNIT7 = [
 <div class="in-short"><strong>In Short:</strong> A contraceptive is any method that prevents pregnancy. Intra-uterine contraceptives (IUCDs) are small devices placed inside the uterus &mdash; very effective, long-lasting, and reversible.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 240" role="img" aria-label="Types of intra-uterine contraceptive devices" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <rect x="210" y="12" width="180" height="36" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="300" y="35" text-anchor="middle" font-size="14" fill="var(--color-accent-foreground)">IUCD Types</text>
+      <line x1="300" y1="48" x2="300" y2="64" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <line x1="150" y1="64" x2="450" y2="64" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <line x1="150" y1="64" x2="150" y2="80" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <line x1="450" y1="64" x2="450" y2="80" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <rect x="50" y="80" width="200" height="36" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="150" y="103" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Copper-bearing</text>
+      <rect x="350" y="80" width="200" height="36" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="450" y="103" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Hormone-releasing</text>
+      <rect x="40" y="132" width="220" height="86" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="150" y="152" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Copper-T 380A</text>
+      <text x="150" y="170" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Cu ions = spermicidal</text>
+      <text x="150" y="188" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Lasts 10 years</text>
+      <text x="150" y="206" text-anchor="middle" font-size="11" fill="var(--color-foreground)">99.2% effective</text>
+      <rect x="340" y="132" width="220" height="86" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="450" y="152" text-anchor="middle" font-size="12" fill="var(--color-foreground)">LNG-IUS (Mirena)</text>
+      <text x="450" y="170" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Levonorgestrel hormone</text>
+      <text x="450" y="188" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Lasts 5 years</text>
+      <text x="450" y="206" text-anchor="middle" font-size="11" fill="var(--color-foreground)">99.8% effective</text>
+    </svg>
+    <div class="figure-caption">Fig: Types of Medicated IUCDs</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
     <strong>Contraceptive</strong> is any <strong>method, device, or medication used to prevent fertilisation or implantation</strong>, thereby preventing pregnancy.<br><br>
@@ -695,6 +816,24 @@ window.QUESTIONS_DATA_UNIT7 = [
 <div class="in-short"><strong>In Short:</strong> IUCDs are small devices inserted into the uterus to prevent pregnancy. The Copper-T 380A (free from government) and LNG-IUS (Mirena) are the main types used today. They are highly effective and long-lasting.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 280" role="img" aria-label="T-shaped IUCD placed inside the uterine cavity" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <path d="M300 50 C235 50 205 78 200 125 C196 172 232 192 252 197 L252 232 C252 244 270 244 270 232 L270 200 C290 202 310 202 330 200 L330 232 C330 244 348 244 348 232 L348 197 C368 192 404 172 400 125 C395 78 365 50 300 50 Z" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <line x1="300" y1="88" x2="300" y2="160" stroke="var(--accent)" stroke-width="6" stroke-linecap="round"/>
+      <line x1="258" y1="92" x2="342" y2="92" stroke="var(--accent)" stroke-width="6" stroke-linecap="round"/>
+      <path d="M300 160 L291 238 M300 160 L309 238" fill="none" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="300" y="30" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Uterine cavity</text>
+      <text x="430" y="120" text-anchor="start" font-size="12" fill="var(--accent)">T-shaped device</text>
+      <line x1="426" y1="116" x2="318" y2="118" stroke="var(--color-border)" stroke-width="1"/>
+      <text x="170" y="200" text-anchor="end" font-size="12" fill="var(--color-foreground)">Cervix</text>
+      <line x1="172" y1="200" x2="285" y2="210" stroke="var(--color-border)" stroke-width="1"/>
+      <text x="300" y="268" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Threads pass through cervix into vagina</text>
+    </svg>
+    <div class="figure-caption">Fig: IUCD Inside the Uterine Cavity</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
     <strong>IUCD (Intra-Uterine Contraceptive Device)</strong> is a <strong>small foreign body placed inside the uterine cavity</strong> by a trained provider to prevent pregnancy. It is one of the safest, most effective, and most cost-effective long-acting reversible methods of contraception.
@@ -759,6 +898,30 @@ window.QUESTIONS_DATA_UNIT7 = [
     years: "Winter 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Copper-T (Copper-T 380A) is a small T-shaped plastic device wrapped with copper wire, placed inside the uterus to prevent pregnancy for up to 10 years. It is the most widely used government IUCD in India and is available FREE at all government health centres.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 280" role="img" aria-label="Labelled Copper-T 380A device showing copper wire and threads" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <line x1="300" y1="50" x2="300" y2="180" stroke="var(--color-foreground)" stroke-width="8" stroke-linecap="round"/>
+      <line x1="220" y1="56" x2="380" y2="56" stroke="var(--color-foreground)" stroke-width="8" stroke-linecap="round"/>
+      <path d="M295 70 q10 8 0 16 q-10 8 0 16 q10 8 0 16 q-10 8 0 16 q10 8 0 16 q-10 8 0 16 q10 8 0 16" fill="none" stroke="var(--accent)" stroke-width="3"/>
+      <path d="M225 52 q8 8 16 0 q8 -8 16 0 q8 8 16 0 q8 -8 16 0" fill="none" stroke="var(--accent)" stroke-width="3" transform="translate(0,6)"/>
+      <path d="M313 52 q8 8 16 0 q8 -8 16 0 q8 8 16 0 q8 -8 16 0" fill="none" stroke="var(--accent)" stroke-width="3" transform="translate(0,6)"/>
+      <path d="M296 180 L286 250 M300 180 L300 252 M304 180 L314 250" fill="none" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="400" y="60" text-anchor="start" font-size="12" fill="var(--color-foreground)">Horizontal arms</text>
+      <line x1="396" y1="56" x2="382" y2="56" stroke="var(--color-border)" stroke-width="1"/>
+      <text x="360" y="120" text-anchor="start" font-size="12" fill="var(--accent)">Copper wire (380 sq mm)</text>
+      <line x1="356" y1="116" x2="308" y2="120" stroke="var(--color-border)" stroke-width="1"/>
+      <text x="360" y="170" text-anchor="start" font-size="12" fill="var(--color-foreground)">Polyethylene stem</text>
+      <line x1="356" y1="166" x2="305" y2="160" stroke="var(--color-border)" stroke-width="1"/>
+      <text x="330" y="240" text-anchor="start" font-size="12" fill="var(--color-foreground)">Monitoring threads</text>
+      <line x1="326" y1="236" x2="308" y2="230" stroke="var(--color-border)" stroke-width="1"/>
+      <rect x="40" y="240" width="520" height="32" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="300" y="261" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Lasts 10 years &middot; 99.2% effective &middot; non-hormonal &middot; FREE at govt centres</text>
+    </svg>
+    <div class="figure-caption">Fig: Copper-T 380A Device</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
@@ -850,6 +1013,32 @@ window.QUESTIONS_DATA_UNIT7 = [
 <div class="in-short"><strong>In Short:</strong> Temporary methods of family planning are reversible &mdash; when you stop using them, you can get pregnant again. They include barrier methods (condom, diaphragm), hormonal methods (pills, injections, implants), IUCDs, and natural methods (LAM, rhythm method). Every couple can choose what suits them best.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 240" role="img" aria-label="Four categories of temporary family planning methods" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <rect x="180" y="10" width="240" height="34" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="300" y="32" text-anchor="middle" font-size="13" fill="var(--color-accent-foreground)">Temporary (Reversible) Methods</text>
+      <rect x="30" y="64" width="262" height="78" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="44" y="86" font-size="13" fill="var(--accent)">B &mdash; Barrier</text>
+      <text x="44" y="106" font-size="11" fill="var(--color-foreground)">Male / female condom,</text>
+      <text x="44" y="123" font-size="11" fill="var(--color-foreground)">diaphragm, spermicide</text>
+      <rect x="308" y="64" width="262" height="78" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="322" y="86" font-size="13" fill="var(--accent)">I &mdash; IUCD</text>
+      <text x="322" y="106" font-size="11" fill="var(--color-foreground)">Copper-T 380A,</text>
+      <text x="322" y="123" font-size="11" fill="var(--color-foreground)">LNG-IUS (Mirena)</text>
+      <rect x="30" y="150" width="262" height="78" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="44" y="172" font-size="13" fill="var(--accent)">N &mdash; Natural</text>
+      <text x="44" y="192" font-size="11" fill="var(--color-foreground)">LAM, rhythm method,</text>
+      <text x="44" y="209" font-size="11" fill="var(--color-foreground)">BBT, withdrawal</text>
+      <rect x="308" y="150" width="262" height="78" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="322" y="172" font-size="13" fill="var(--accent)">H &mdash; Hormonal</text>
+      <text x="322" y="192" font-size="11" fill="var(--color-foreground)">Pills, DMPA injection,</text>
+      <text x="322" y="209" font-size="11" fill="var(--color-foreground)">implant, patch, ring</text>
+    </svg>
+    <div class="figure-caption">Fig: Categories of Temporary Methods (BINH)</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
     <strong>Temporary methods of family planning</strong> are <strong>reversible contraceptive methods</strong> that prevent pregnancy as long as they are used. When stopped, fertility returns and the woman can get pregnant again.
@@ -923,6 +1112,29 @@ window.QUESTIONS_DATA_UNIT7 = [
     years: "Summer 2019",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Emergency contraception (EC) is used AFTER unprotected sex to prevent pregnancy. It is NOT an abortion pill &mdash; it prevents pregnancy from starting. The main options are the emergency contraceptive pill (ECP) within 72 hours, or Copper-T within 5 days.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 230" role="img" aria-label="Emergency contraception timeline showing 72 hour and 120 hour windows" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <text x="300" y="24" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Time after unprotected sex</text>
+      <circle cx="40" cy="60" r="9" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="40" y="40" text-anchor="middle" font-size="11" fill="var(--color-foreground)">0 hr</text>
+      <line x1="40" y1="60" x2="560" y2="60" stroke="var(--color-foreground)" stroke-width="2"/>
+      <line x1="360" y1="52" x2="360" y2="68" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="360" y="44" text-anchor="middle" font-size="11" fill="var(--color-foreground)">72 hr</text>
+      <line x1="560" y1="52" x2="560" y2="68" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="560" y="44" text-anchor="middle" font-size="11" fill="var(--color-foreground)">120 hr</text>
+      <rect x="40" y="84" width="320" height="34" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="200" y="105" text-anchor="middle" font-size="12" fill="var(--color-accent-foreground)">Levonorgestrel ECP (i-Pill) &mdash; within 72 hr</text>
+      <rect x="40" y="124" width="520" height="34" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="300" y="145" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Ulipristal acetate (EllaOne) &mdash; within 120 hr</text>
+      <rect x="40" y="164" width="520" height="34" rx="8" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="300" y="185" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Copper-T (IUCD) &mdash; within 120 hr (most effective, &gt;99%)</text>
+      <text x="300" y="220" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Earlier = more effective &middot; EC prevents pregnancy, it is NOT an abortion pill</text>
+    </svg>
+    <div class="figure-caption">Fig: Emergency Contraception Timeline</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
@@ -1010,6 +1222,37 @@ window.QUESTIONS_DATA_UNIT7 = [
 <div class="in-short"><strong>In Short:</strong> Newer contraceptive methods include long-acting hormonal implants, newer IUCDs, contraceptive patches, vaginal rings, and newer male methods. These offer more convenience, fewer side effects, and more choice for couples.</div>
 
 <div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 250" role="img" aria-label="Newer contraceptive modalities" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <rect x="190" y="10" width="220" height="32" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="300" y="31" text-anchor="middle" font-size="13" fill="var(--color-accent-foreground)">Newer Contraceptive Modalities</text>
+      <rect x="30" y="60" width="170" height="52" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="115" y="82" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Implant (Implanon)</text>
+      <text x="115" y="99" text-anchor="middle" font-size="11" fill="var(--color-foreground)">arm rod, 3 yrs</text>
+      <rect x="215" y="60" width="170" height="52" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="82" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Patch (Evra)</text>
+      <text x="300" y="99" text-anchor="middle" font-size="11" fill="var(--color-foreground)">weekly, on skin</text>
+      <rect x="400" y="60" width="170" height="52" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="485" y="82" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Vaginal ring</text>
+      <text x="485" y="99" text-anchor="middle" font-size="11" fill="var(--color-foreground)">3 weeks in</text>
+      <rect x="30" y="124" width="170" height="52" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="115" y="146" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Chhaya pill</text>
+      <text x="115" y="163" text-anchor="middle" font-size="11" fill="var(--color-foreground)">weekly, GoI free</text>
+      <rect x="215" y="124" width="170" height="52" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="146" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Antara (DMPA)</text>
+      <text x="300" y="163" text-anchor="middle" font-size="11" fill="var(--color-foreground)">injection, 3-monthly</text>
+      <rect x="400" y="124" width="170" height="52" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="485" y="146" text-anchor="middle" font-size="12" fill="var(--color-foreground)">PPIUCD</text>
+      <text x="485" y="163" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Cu-T at delivery</text>
+      <rect x="30" y="188" width="540" height="50" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="300" y="210" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Male methods (experimental): hormonal contraception &amp; RISUG</text>
+      <text x="300" y="228" text-anchor="middle" font-size="11" fill="var(--color-foreground)">RISUG = single injection into vas deferens (Indian innovation, in trials)</text>
+    </svg>
+    <div class="figure-caption">Fig: Newer Contraceptive Modalities</div>
+  </div>
+</div>
+
+<div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Traditional methods like condoms and pills are well-known. But newer contraceptive options give couples more flexibility. Some work for years with a single insertion; some are invisible and require no daily action; some target the male partner more effectively.</p>
 </div>
@@ -1068,6 +1311,32 @@ window.QUESTIONS_DATA_UNIT7 = [
     years: "Summer 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Tubectomy is permanent female sterilisation &mdash; the fallopian tubes are cut, tied, or blocked so that sperm can never reach the egg. It is the most popular family planning method in India. It is meant to be permanent (irreversible).</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 270" role="img" aria-label="Tubectomy showing fallopian tubes cut and tied" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <path d="M300 90 C260 90 245 110 243 145 L243 200 C243 215 357 215 357 200 L357 145 C355 110 340 90 300 90 Z" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2"/>
+      <text x="300" y="160" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Uterus</text>
+      <path d="M243 120 Q160 95 120 130" fill="none" stroke="var(--color-foreground)" stroke-width="3"/>
+      <path d="M357 120 Q440 95 480 130" fill="none" stroke="var(--color-foreground)" stroke-width="3"/>
+      <ellipse cx="105" cy="135" rx="22" ry="14" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <ellipse cx="495" cy="135" rx="22" ry="14" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="105" y="170" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Ovary</text>
+      <text x="495" y="170" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Ovary</text>
+      <line x1="183" y1="93" x2="183" y2="119" stroke="var(--accent)" stroke-width="3"/>
+      <line x1="196" y1="92" x2="196" y2="118" stroke="var(--accent)" stroke-width="3"/>
+      <line x1="404" y1="92" x2="404" y2="118" stroke="var(--accent)" stroke-width="3"/>
+      <line x1="417" y1="93" x2="417" y2="119" stroke="var(--accent)" stroke-width="3"/>
+      <text x="190" y="65" text-anchor="middle" font-size="12" fill="var(--accent)">Tube cut</text>
+      <text x="190" y="80" text-anchor="middle" font-size="12" fill="var(--accent)">&amp; tied</text>
+      <text x="410" y="65" text-anchor="middle" font-size="12" fill="var(--accent)">Tube cut</text>
+      <text x="410" y="80" text-anchor="middle" font-size="12" fill="var(--accent)">&amp; tied</text>
+      <text x="300" y="240" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Sperm and egg can no longer meet</text>
+      <text x="300" y="258" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Pomeroy's method is the commonest technique in India</text>
+    </svg>
+    <div class="figure-caption">Fig: Tubectomy (Fallopian Tube Ligation)</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
@@ -1166,6 +1435,37 @@ window.QUESTIONS_DATA_UNIT7 = [
     years: "Winter 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Preconceptional counselling means guiding a couple BEFORE they try to get pregnant &mdash; checking health, correcting problems, giving folic acid, updating vaccines, and identifying genetic risks &mdash; so the pregnancy starts in the best possible conditions.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 250" role="img" aria-label="Components of preconceptional counselling" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <rect x="160" y="10" width="280" height="34" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="300" y="26" text-anchor="middle" font-size="13" fill="var(--color-accent-foreground)">Preconceptional Counselling</text>
+      <text x="300" y="40" text-anchor="middle" font-size="11" fill="var(--color-accent-foreground)">(3-6 months before conception)</text>
+      <rect x="30" y="62" width="262" height="42" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="161" y="80" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Medical history &amp;</text>
+      <text x="161" y="96" text-anchor="middle" font-size="12" fill="var(--color-foreground)">examination, BMI</text>
+      <rect x="308" y="62" width="262" height="42" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="439" y="80" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Nutrition: folic acid</text>
+      <text x="439" y="96" text-anchor="middle" font-size="12" fill="var(--color-foreground)">400 mcg, correct anaemia</text>
+      <rect x="30" y="114" width="262" height="42" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="161" y="132" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Immunisation:</text>
+      <text x="161" y="148" text-anchor="middle" font-size="12" fill="var(--color-foreground)">rubella, Hep B</text>
+      <rect x="308" y="114" width="262" height="42" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="439" y="132" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Genetic counselling</text>
+      <text x="439" y="148" text-anchor="middle" font-size="12" fill="var(--color-foreground)">if indicated</text>
+      <rect x="30" y="166" width="262" height="42" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="161" y="184" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Lifestyle: stop</text>
+      <text x="161" y="200" text-anchor="middle" font-size="12" fill="var(--color-foreground)">smoking / alcohol</text>
+      <rect x="308" y="166" width="262" height="42" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="439" y="184" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Screen STIs;</text>
+      <text x="439" y="200" text-anchor="middle" font-size="12" fill="var(--color-foreground)">review teratogenic drugs</text>
+      <rect x="30" y="218" width="540" height="26" rx="8" fill="var(--color-secondary)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <text x="300" y="236" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Goal: optimise health BEFORE pregnancy &middot; involve the partner</text>
+    </svg>
+    <div class="figure-caption">Fig: Components of Preconceptional Counselling</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
@@ -1271,6 +1571,36 @@ window.QUESTIONS_DATA_UNIT7 = [
     years: "Winter 2017, Summer 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Parental counselling means guiding parents (and parents-to-be) about healthy pregnancy, child care, family planning, and parenting skills. It is given during antenatal, postnatal, and well-baby visits. The nurse's role is to educate, support, and empower families.</div>
+
+<div class="answer-section">
+  <div class="figure-block">
+    <svg viewBox="0 0 600 230" role="img" aria-label="Phases of parental counselling across the reproductive journey" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
+      <line x1="40" y1="120" x2="560" y2="120" stroke="var(--color-foreground)" stroke-width="2"/>
+      <circle cx="100" cy="120" r="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <circle cx="230" cy="120" r="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <circle cx="360" cy="120" r="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <circle cx="490" cy="120" r="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
+      <rect x="30" y="50" width="140" height="52" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="100" y="70" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Preconception</text>
+      <text x="100" y="87" text-anchor="middle" font-size="11" fill="var(--color-foreground)">folic acid, vaccines</text>
+      <line x1="100" y1="102" x2="100" y2="112" stroke="var(--color-border)" stroke-width="1.5"/>
+      <rect x="160" y="138" width="140" height="52" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="230" y="158" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Antenatal</text>
+      <text x="230" y="175" text-anchor="middle" font-size="11" fill="var(--color-foreground)">nutrition, danger signs</text>
+      <line x1="230" y1="128" x2="230" y2="138" stroke="var(--color-border)" stroke-width="1.5"/>
+      <rect x="290" y="50" width="140" height="52" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="360" y="70" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Postnatal</text>
+      <text x="360" y="87" text-anchor="middle" font-size="11" fill="var(--color-foreground)">breastfeeding, FP</text>
+      <line x1="360" y1="102" x2="360" y2="112" stroke="var(--color-border)" stroke-width="1.5"/>
+      <rect x="420" y="138" width="150" height="52" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="495" y="158" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Child development</text>
+      <text x="495" y="175" text-anchor="middle" font-size="11" fill="var(--color-foreground)">milestones, play</text>
+      <line x1="490" y1="128" x2="490" y2="138" stroke="var(--color-border)" stroke-width="1.5"/>
+      <text x="300" y="218" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Nurse = educator, counsellor, support, advocate &middot; involve the partner</text>
+    </svg>
+    <div class="figure-caption">Fig: Phases of Parental Counselling</div>
+  </div>
+</div>
 
 <div class="answer-section">
   <h3 class="answer-section-title">Definition</h3>
