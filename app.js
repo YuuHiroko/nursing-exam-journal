@@ -74,11 +74,16 @@ document.addEventListener('DOMContentLoaded', () => {
         const unit5 = window.QUESTIONS_DATA_UNIT5 || [];
         const unit6 = window.QUESTIONS_DATA_UNIT6 || [];
         const unit7 = window.QUESTIONS_DATA_UNIT7 || [];
-        return [...unit1, ...unit2, ...unit3, ...unit4, ...unit5, ...unit6, ...unit7];
+        const obg2  = window.QUESTIONS_DATA_OBG2 || [];   // OBG-II (high-risk), units 8-11
+        return [...unit1, ...unit2, ...unit3, ...unit4, ...unit5, ...unit6, ...unit7, ...obg2];
     }
 
     function getUnitLabel(unit) {
-        const labels = { 1: 'UNIT I', 2: 'UNIT II', 3: 'UNIT III', 4: 'UNIT IV', 5: 'UNIT V', 6: 'UNIT VI', 7: 'UNIT VII' };
+        const labels = {
+            1: 'UNIT I', 2: 'UNIT II', 3: 'UNIT III', 4: 'UNIT IV', 5: 'UNIT V', 6: 'UNIT VI', 7: 'UNIT VII',
+            8: 'OBG-II · HIGH-RISK PREG', 9: 'OBG-II · ABNORMAL LABOUR',
+            10: 'OBG-II · HIGH-RISK NB', 11: 'OBG-II · GYNAEC'
+        };
         return labels[unit] || 'UNIT ' + unit;
     }
 
@@ -106,7 +111,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 '4': 'UNIT IV: LABOUR & BIRTH',
                 '5': 'UNIT V: POSTPARTUM CARE',
                 '6': 'UNIT VI: CARE OF NORMAL NEONATE',
-                '7': 'UNIT VII: FAMILY WELFARE SERVICES'
+                '7': 'UNIT VII: FAMILY WELFARE SERVICES',
+                '8': 'OBG-II UNIT I: HIGH-RISK PREGNANCY',
+                '9': 'OBG-II UNIT II & III: ABNORMAL LABOUR & POSTNATAL PROBLEMS',
+                '10': 'OBG-II UNIT IV: HIGH-RISK NEWBORN',
+                '11': 'OBG-II UNIT V: GYNAECOLOGICAL DISORDERS'
             };
             sectionTitle.textContent = unitNames[activeUnit] || 'UNIT ' + activeUnit;
             sectionSubtitle.textContent = currentQuestions.length + ' questions';

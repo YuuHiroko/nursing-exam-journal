@@ -499,6 +499,14 @@ img { max-width: 100%; }
 .mark-done-btn:hover { border-color: #2e7d32; color: #2e7d32; }
 .mark-done-btn.done { background: #2e7d32; border-color: #2e7d32; color: #fff; }
 
+/* OBG-II sub-heading inside the unit list */
+.unit-group-label {
+    font-family: var(--font-mono); font-size: 0.62rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-muted-foreground);
+    margin: 0.85rem 0 0.4rem; padding-top: 0.65rem;
+    border-top: 1px dashed color-mix(in oklch, var(--color-border) 80%, transparent);
+}
+
 .articles-grid {
     display: flex;
     flex-direction: column;
