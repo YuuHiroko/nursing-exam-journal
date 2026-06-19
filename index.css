@@ -215,6 +215,11 @@ img { max-width: 100%; }
     html { scroll-behavior: auto; }
 }
 
+/* Diagram playback control (toggled by activateDiagrams in diagrams.js):
+   pauses CSS animations when a diagram is off-screen or the tab is hidden.
+   SMIL animations are paused separately via svg.pauseAnimations(). */
+.diagram-paused, .diagram-paused * { animation-play-state: paused !important; }
+
 /* Editorial mono labels */
 .mono-label {
     font-family: var(--font-mono);
@@ -998,6 +1003,91 @@ img { max-width: 100%; }
     color: var(--color-muted-foreground);
     margin-top: 0.5rem;
 }
+
+/* ─────────────────────────────────────────────
+   INTERACTIVE DIAGRAM COMPONENTS
+   ───────────────────────────────────────────── */
+.interactive-diagram {
+    margin: 2rem 0;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    background: var(--color-card);
+    box-shadow: var(--shadow-card);
+    overflow: hidden;
+}
+.diagram-title {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-muted-foreground);
+    margin-bottom: 1rem;
+    text-align: center;
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 0.5rem;
+}
+.diagram-key {
+    margin-top: 1rem;
+    padding: 0.75rem 1rem;
+    background: color-mix(in oklch, var(--color-muted) 50%, transparent);
+    border-radius: var(--radius-md);
+    font-family: var(--font-body);
+    font-size: 0.82rem;
+    line-height: 1.5;
+    color: var(--color-muted-foreground);
+}
+.mol-container { display: flex; flex-direction: column; gap: 0; padding: 0.5rem 0; }
+.mol-step {
+    display: flex; align-items: flex-start; gap: 0.75rem;
+    padding: 0.6rem 0.75rem; border-left: 4px solid var(--color-border);
+    position: relative; animation: mol-fadein 0.5s ease-out both; transition: background 0.2s;
+}
+.mol-step:hover { background: color-mix(in oklch, var(--color-muted) 40%, transparent); }
+@keyframes mol-fadein { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: translateX(0); } }
+.mol-num {
+    flex: 0 0 28px; width: 28px; height: 28px; border-radius: 50%;
+    color: #fff; display: flex; align-items: center; justify-content: center;
+    font-family: var(--font-mono); font-size: 0.8rem; font-weight: 700;
+}
+.mol-title { font-family: var(--font-body); font-weight: 700; font-size: 0.95rem; }
+.mol-desc { font-family: var(--font-body); font-size: 0.82rem; color: var(--color-muted-foreground); }
+.mol-arrow { text-align: center; font-size: 0.9rem; color: var(--color-muted-foreground); line-height: 1; margin: -0.2rem 0; padding-left: 0.75rem; }
+.enc-flow { display: flex; flex-direction: column; align-items: center; gap: 0; }
+.enc-step {
+    display: flex; align-items: center; gap: 0.75rem;
+    padding: 0.5rem 1rem; animation: enc-pop 0.4s ease-out both;
+    width: 100%; max-width: 320px;
+}
+@keyframes enc-pop { from { opacity: 0; transform: scale(0.9); } to { opacity: 1; transform: scale(1); } }
+.enc-icon {
+    flex: 0 0 44px; width: 44px; height: 44px; border-radius: 50%;
+    border: 3px solid var(--color-border); display: flex; align-items: center; justify-content: center;
+    font-size: 1.4rem; background: var(--color-card); transition: transform 0.3s;
+}
+.enc-step:hover .enc-icon { transform: scale(1.15); }
+.enc-title { font-family: var(--font-body); font-weight: 700; font-size: 0.9rem; }
+.enc-time { font-family: var(--font-mono); font-size: 0.72rem; color: var(--color-muted-foreground); }
+.enc-connector { width: 2px; height: 16px; background: var(--color-border); position: relative; }
+.enc-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--color-accent); position: absolute; left: -2px; animation: enc-travel 1s ease-in-out infinite; }
+@keyframes enc-travel { 0% { top: 0; opacity: 1; } 100% { top: 100%; opacity: 0; } }
+.apgar-grid { width: 100%; overflow-x: auto; }
+.apgar-row { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1.2fr; gap: 1px; background: var(--color-border); margin-bottom: 1px; }
+.apgar-cell { padding: 0.6rem 0.5rem; font-family: var(--font-body); font-size: 0.82rem; background: var(--color-card); transition: background 0.2s; }
+.apgar-row:hover .apgar-cell { background: color-mix(in oklch, var(--color-muted) 40%, transparent); }
+.apgar-header .apgar-cell { font-family: var(--font-mono); font-weight: 700; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; background: var(--color-muted); }
+.apgar-sign { font-weight: 600; }
+.apgar-0 { color: var(--color-destructive); }
+.apgar-2 { color: var(--color-accent); font-weight: 600; }
+.apgar-result { display: flex; gap: 0.5rem; margin-top: 0.75rem; flex-wrap: wrap; justify-content: center; }
+.apgar-badge { padding: 0.4rem 0.8rem; border-radius: var(--radius-md); font-family: var(--font-mono); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.04em; }
+.apgar-badge.good { background: #c8e6c9; color: #2e7d32; }
+.apgar-badge.moderate { background: #fff9c4; color: #e65100; }
+.apgar-badge.severe { background: #ffcdd2; color: #c62828; }
+.dark .apgar-badge.good { background: #1b5e20; color: #a5d6a7; }
+.dark .apgar-badge.moderate { background: #4e342e; color: #ffe082; }
+.dark .apgar-badge.severe { background: #4a0000; color: #ef9a9a; }
 
 /* Timeline */
 .visual-timeline {

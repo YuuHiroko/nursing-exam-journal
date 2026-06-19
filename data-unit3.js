@@ -940,6 +940,8 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Winter 2017, Summer 2021, Winter 2024",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Antenatal care (ANC) is the systematic medical and nursing care given to a pregnant woman from conception to the start of labour. Its main aim is a <strong>safe pregnancy and a healthy mother &amp; baby</strong>. It is delivered through regular checkups (history, general &amp; obstetric examination, investigations) and health education. India promotes ANC through programmes like the RCH and PMSMA.</div>
+<div class="figure-block"><img src="assets/images/safe_motherhood.png" alt="Fig: Comprehensive Antenatal Care" loading="lazy"><div class="figure-caption">Fig: Comprehensive Antenatal Care</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">
@@ -1384,6 +1386,8 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Summer 2018, Winter 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> A high-risk pregnancy is one where the mother or baby faces a greater than normal chance of illness or death. It may be due to age, medical illness, past obstetric problems, or current complications. The nurse's job is to <strong>identify these women early, monitor closely, treat/refer in time</strong>, and educate them &mdash; to keep both mother and baby safe.</div>
+<div class="figure-block"><img src="assets/images/safe_motherhood.png" alt="Fig: Safe Motherhood and High Risk Identification" loading="lazy"><div class="figure-caption">Fig: Safe Motherhood and High Risk Identification</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">
@@ -1894,6 +1898,8 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Summer 2021",
     answer: `
 <div class="in-short"><strong>In Short:</strong> During pregnancy the reproductive organs change dramatically to hold and nourish the baby. The <strong>uterus</strong> grows from 30 g to 1000 g, the <strong>cervix</strong> softens and forms a mucus plug, the <strong>vagina</strong> becomes bluish and stretchy, and the <strong>breasts</strong> prepare for milk.</div>
+<div class="figure-block"><img src="assets/images/female_pelvis.png" alt="Fig: Types of Female Pelvis" loading="lazy"><div class="figure-caption">Fig: Types of Female Pelvis</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">
@@ -2016,6 +2022,10 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Winter 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The pelvis is the bony passage through which the baby is born. There are <strong>four types</strong> of pelvis (gynaecoid, android, anthropoid, platypelloid). The <strong>gynaecoid</strong> (true female) pelvis is best for normal delivery. Pelvic assessment checks whether the pelvis is big enough for the baby to pass.</div>
+<div class="figure-block"><img src="assets/images/female_pelvis.png" alt="Fig: Types of Female Pelvis" loading="lazy"><div class="figure-caption">Fig: Types of Female Pelvis</div></div>
+
+<div class="figure-block"><img src="assets/images/fetal_skull.png" alt="Fig: Fetal Skull &mdash; Bones, Sutures, Fontanelles and Diameters" loading="lazy"><div class="figure-caption">Fig: Fetal Skull &mdash; Bones, Sutures, Fontanelles and Diameters</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">
@@ -2088,6 +2098,8 @@ window.QUESTIONS_DATA_UNIT3 = [
 </div>
 
 <div class="editorial-example"><strong>Relatable Example:</strong> If the baby's head is the &quot;car&quot; and the pelvis is the &quot;tunnel&quot;, a gynaecoid pelvis is a wide round tunnel that lets the car pass easily, while an android pelvis is a narrow wedge tunnel that may block it (obstructed labour).</div>
+<div data-diagram="fetalSkull"></div>
+
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
@@ -2133,6 +2145,8 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Winter 2016, Summer 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The fetal skull is the most important part of the baby during delivery because it is the largest and least compressible part. It is made of soft <strong>bones</strong> joined by <strong>sutures</strong> and <strong>fontanelles</strong> (soft gaps) that allow <strong>moulding</strong> (overlapping) so the head can pass through the birth canal. Knowing its <strong>diameters</strong> helps predict easy or difficult labour.</div>
+<div class="figure-block"><img src="assets/images/fetal_skull.png" alt="Fig: Fetal Skull &mdash; Bones, Sutures, Fontanelles and Diameters" loading="lazy"><div class="figure-caption">Fig: Fetal Skull &mdash; Bones, Sutures, Fontanelles and Diameters</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">
@@ -2267,6 +2281,8 @@ window.QUESTIONS_DATA_UNIT3 = [
 &bull; Diameters table &mdash; <strong>4 marks</strong> (~8 min)<br>
 &bull; Moulding + importance in labour &mdash; <strong>3 marks</strong> (~6 min)<br>
 &bull; Conclusion &mdash; <strong>1 mark</strong> (~2 min)</div>
+<div data-diagram="fetalSkull"></div>
+
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
@@ -2318,6 +2334,8 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Winter 2019, Summer 2024",
     answer: `
 <div class="in-short"><strong>In Short:</strong> These obstetrical terms describe how the baby is lying inside the uterus. <strong>Lie</strong> = direction of baby relative to mother; <strong>presentation</strong> = part of baby coming first; <strong>position</strong> = where the baby's landmark points; <strong>attitude</strong> = how flexed the baby is; <strong>denominator</strong> = the landmark used to describe position.</div>
+<div class="figure-block"><img src="assets/images/fetal_skull.png" alt="Fig: Fetal Presentation and Skull Diameters" loading="lazy"><div class="figure-caption">Fig: Fetal Presentation and Skull Diameters</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">
@@ -2443,6 +2461,8 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Summer 2018, Winter 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Abdominal examination is done to assess the size, lie, presentation, position and wellbeing of the baby. It has three steps: <strong>Inspection</strong> (look), <strong>Palpation</strong> (feel &mdash; using the four Leopold's/fundal-lateral-pelvic grips), and <strong>Auscultation</strong> (listen to the fetal heart). The bladder must be emptied first and the woman lies comfortably with knees slightly bent.</div>
+<div class="figure-block"><img src="assets/images/leopolds_maneuvers.png" alt="Fig: Leopold's Four Manoeuvres" loading="lazy"><div class="figure-caption">Fig: Leopold's Four Manoeuvres</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">

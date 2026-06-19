@@ -278,6 +278,8 @@ window.QUESTIONS_DATA_UNIT7 = [
     years: "Winter 2019",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Family planning aims to help couples choose the right number of children and the right spacing. IUCDs (Intra-Uterine Contraceptive Devices) are small devices placed inside the uterus by a trained nurse or doctor &mdash; they are highly effective, long-lasting, and reversible (except they do not protect against STIs).</div>
+<div class="figure-block"><img src="assets/images/copper_t_iucd.png" alt="Fig: Copper-T 380A IUCD &mdash; Structure and Placement" loading="lazy"><div class="figure-caption">Fig: Copper-T 380A IUCD &mdash; Structure and Placement</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">
@@ -714,6 +716,8 @@ window.QUESTIONS_DATA_UNIT7 = [
     years: "Summer 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> A contraceptive is any method that prevents pregnancy. Intra-uterine contraceptives (IUCDs) are small devices placed inside the uterus &mdash; very effective, long-lasting, and reversible.</div>
+<div class="figure-block"><img src="assets/images/copper_t_iucd.png" alt="Fig: Intrauterine Contraceptive Device (IUCD)" loading="lazy"><div class="figure-caption">Fig: Intrauterine Contraceptive Device (IUCD)</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">
@@ -814,6 +818,8 @@ window.QUESTIONS_DATA_UNIT7 = [
     years: "Winter 2017",
     answer: `
 <div class="in-short"><strong>In Short:</strong> IUCDs are small devices inserted into the uterus to prevent pregnancy. The Copper-T 380A (free from government) and LNG-IUS (Mirena) are the main types used today. They are highly effective and long-lasting.</div>
+<div class="figure-block"><img src="assets/images/copper_t_iucd.png" alt="Fig: IUCD &mdash; Types and Placement" loading="lazy"><div class="figure-caption">Fig: IUCD &mdash; Types and Placement</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">
@@ -898,6 +904,8 @@ window.QUESTIONS_DATA_UNIT7 = [
     years: "Winter 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Copper-T (Copper-T 380A) is a small T-shaped plastic device wrapped with copper wire, placed inside the uterus to prevent pregnancy for up to 10 years. It is the most widely used government IUCD in India and is available FREE at all government health centres.</div>
+<div class="figure-block"><img src="assets/images/copper_t_iucd.png" alt="Fig: Copper-T 380A" loading="lazy"><div class="figure-caption">Fig: Copper-T 380A</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">

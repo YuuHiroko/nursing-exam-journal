@@ -166,6 +166,8 @@ window.QUESTIONS_DATA_UNIT6 = [
     &bull; Nurse's role -- <strong>2 marks</strong> (~3 min)<br>
     <em>Draw the ENC flowchart -- it earns marks and saves time explaining steps in text.</em>
   </div>
+<div data-diagram="essentialNewbornCare"></div>
+
   <div class="remember-box">
     <div class="remember-title">Quick Revision -- Things to Remember</div>
     <ul>
@@ -315,6 +317,8 @@ window.QUESTIONS_DATA_UNIT6 = [
 </div>
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Golden Hour</span> <span class="kw">dry and stimulate</span> <span class="kw">KMC / warmth</span> <span class="kw">delayed cord clamping</span> <span class="kw">Chlorhexidine 4%</span> <span class="kw">breastfeed within 1 hour</span> <span class="kw">colostrum</span> <span class="kw">Vitamin K 1 mg IM</span> <span class="kw">BCG-OPV-Hep B</span></div>
+<div data-diagram="essentialNewbornCare"></div>
+
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
@@ -355,6 +359,8 @@ window.QUESTIONS_DATA_UNIT6 = [
     years: "Summer 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Neonatal assessment = a head-to-toe check of the newborn to make sure everything is normal and detect any problems early. It includes APGAR scoring at birth, then a full physical and gestational age assessment within the first few hours.</div>
+<div class="figure-block"><img src="assets/images/newborn_assessment.png" alt="Fig: Head-to-Toe Neonatal Assessment" loading="lazy"><div class="figure-caption">Fig: Head-to-Toe Neonatal Assessment</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">
@@ -625,6 +631,8 @@ window.QUESTIONS_DATA_UNIT6 = [
     <strong>1-minute APGAR vs 5-minute APGAR:</strong> The 1-minute score tells us the condition AT birth. The 5-minute score tells us how the baby is RESPONDING to care. The 5-minute score is more important for predicting outcome.<br>
     <strong>APGAR is NOT a tool for deciding resuscitation:</strong> Resuscitation starts at birth based on three questions (term? breathing/crying? good tone?) -- do NOT wait for the APGAR score to start resuscitation.
   </div>
+<div data-diagram="apgarScore"></div>
+
   <div class="remember-box">
     <div class="remember-title">Quick Revision -- Things to Remember</div>
     <ul>

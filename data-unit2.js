@@ -11,6 +11,8 @@ window.QUESTIONS_DATA_UNIT2 = [
     years: "Winter 2021",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The female pelvis is wide, shallow, and round &mdash; perfectly shaped for childbirth. The male pelvis is narrow, deep, and heavy. The biggest difference for obstetrics: female subpubic angle is wide (80&ndash;85&deg;), inlet is round (Gynaecoid), and the coccyx moves back during delivery to let the baby through.</div>
+<div class="figure-block"><img src="assets/images/female_pelvis.png" alt="Fig: Female Pelvis &mdash; Anterior View" loading="lazy"><div class="figure-caption">Fig: Female Pelvis &mdash; Anterior View</div></div>
+
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -115,6 +117,8 @@ window.QUESTIONS_DATA_UNIT2 = [
     years: "Summer 2018",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The female pelvis has 4 bones (2 hip bones + sacrum + coccyx) and 4 types &mdash; Gynaecoid (round, 50%, best for delivery), Android (heart-shaped, 20%, difficult), Anthropoid (oval, 25%), and Platypelloid (flat, 5%, rarest). The baby enters the pelvis transversely and exits in the AP direction, which is why it rotates during delivery.</div>
+<div class="figure-block"><img src="assets/images/female_pelvis.png" alt="Fig: Female Pelvis &mdash; Bones, Joints and Diameters" loading="lazy"><div class="figure-caption">Fig: Female Pelvis &mdash; Bones, Joints and Diameters</div></div>
+
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -235,6 +239,8 @@ window.QUESTIONS_DATA_UNIT2 = [
     years: "Winter 2016, Winter 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The menstrual cycle is a 28-day hormonal process that prepares the uterus for pregnancy every month. It has 4 phases: Menstrual (Day 1&ndash;5), Proliferative (Day 6&ndash;14), Ovulation (Day 14), and Secretory (Day 15&ndash;28). The key hormones are FSH, LH, Estrogen, and Progesterone. If no pregnancy, the uterine lining sheds and the cycle restarts.</div>
+<div class="figure-block"><img src="assets/images/menstrual_cycle.png" alt="Fig: Menstrual Cycle &mdash; Phases and Hormone Levels" loading="lazy"><div class="figure-caption">Fig: Menstrual Cycle &mdash; Phases and Hormone Levels</div></div>
+
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -300,6 +306,8 @@ window.QUESTIONS_DATA_UNIT2 = [
 <div class="editorial-example">
   <strong>Relatable Example:</strong> Asha wants to avoid pregnancy naturally (Natural Family Planning). The nurse explains: "Your egg is released on Day 14 and lives only 24 hours. Sperm can survive 3 days. So avoid intercourse from Day 11-17 of your cycle." This is the Calendar/Rhythm method — understanding the menstrual cycle makes it possible. However, the nurse also explains it's only 76% effective, so barrier methods are more reliable.
 </div>
+<div data-diagram="menstrualCycle"></div>
+
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision — Things to Remember</div>
@@ -358,6 +366,8 @@ window.QUESTIONS_DATA_UNIT2 = [
     years: "Winter 2016, Winter 2017, Summer 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Fertilization = sperm meets egg in the ampulla of the fallopian tube to form a zygote (46 chromosomes). It happens within 24 hours of ovulation. The 6 steps are: Capacitation &rarr; Acrosome reaction &rarr; Penetration &rarr; Cortical reaction &rarr; Fusion of nuclei &rarr; Sex determination. The sperm determines the baby's sex (X = girl, Y = boy).</div>
+<div class="figure-block"><img src="assets/images/fertilization.png" alt="Fig: Process of Fertilization" loading="lazy"><div class="figure-caption">Fig: Process of Fertilization</div></div>
+
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -428,6 +438,8 @@ window.QUESTIONS_DATA_UNIT2 = [
 <div class="editorial-example">
   <strong>Relatable Example:</strong> Think of fertilization like a race with 300 million runners (sperm) trying to reach 1 finish line (egg). First, all runners must "warm up" for 7 hours (capacitation). Then they must break through 2 barriers (corona radiata and zona pellucida) using special tools (enzymes). The FIRST runner to reach the egg wins, and immediately the gate closes behind him (cortical reaction) — no other runner can enter. The winner merges with the egg, and a new life begins!
 </div>
+<div data-diagram="fertilizationProcess"></div>
+
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision — Things to Remember</div>
@@ -489,6 +501,8 @@ window.QUESTIONS_DATA_UNIT2 = [
     years: "Winter 2016, Winter 2019, Winter 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Fetal circulation bypasses the non-working lungs using 3 special shunts &mdash; Ductus Venosus (skips liver), Foramen Ovale (crosses heart from right to left), and Ductus Arteriosus (skips lungs). The placenta acts as the fetal lung. After birth, the baby's first breath closes all 3 shunts permanently.</div>
+<div class="figure-block"><img src="assets/images/fetal_circulation.png" alt="Fig: Fetal Circulation with Shunts" loading="lazy"><div class="figure-caption">Fig: Fetal Circulation with Shunts</div></div>
+
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -565,6 +579,8 @@ window.QUESTIONS_DATA_UNIT2 = [
 <div class="editorial-example">
   <strong>Relatable Example:</strong> Think of fetal circulation like a highway with 3 shortcuts. Normally, blood must go through the lungs (like a long detour). But since the baby's lungs are like a closed shop (not working yet), the blood takes 3 shortcuts to avoid them: Shortcut 1 (Ductus Venosus) skips the liver. Shortcut 2 (Foramen Ovale) crosses directly from right to left side of heart. Shortcut 3 (Ductus Arteriosus) jumps from lung-pipe to body-pipe. After birth, when the baby takes its first breath, the "shop opens" (lungs start working), and all 3 shortcuts close permanently!
 </div>
+<div data-diagram="fetalCirculation"></div>
+
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision — Things to Remember</div>
@@ -623,6 +639,8 @@ window.QUESTIONS_DATA_UNIT2 = [
     years: "Winter 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The placenta is the baby's all-in-one life support &mdash; it acts as lungs (O2/CO2 exchange), gut (nutrition), kidneys (waste removal), hormone factory (hCG, hPL, estrogen, progesterone), immune system (IgG transfer), and security guard (selective barrier). It weighs ~500 gm and is expelled as the afterbirth in the 3rd stage of labour.</div>
+<div class="figure-block"><img src="assets/images/placenta_anatomy.png" alt="Fig: Placenta &mdash; Cross-Section Anatomy" loading="lazy"><div class="figure-caption">Fig: Placenta &mdash; Cross-Section Anatomy</div></div>
+
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -691,6 +709,8 @@ window.QUESTIONS_DATA_UNIT2 = [
 <div class="editorial-example">
   <strong>Relatable Example:</strong> Think of the placenta as a "hotel room service" for the baby. Room service brings food (nutritive), fresh air (respiratory), takes away garbage (excretory), has a security guard at the door (protective barrier), sends messages to the hotel management (endocrine), keeps a mini-fridge stocked (storage), and gives the baby a temporary security badge (immunological/IgG transfer). But the security guard isn't perfect — some bad guys (viruses like Rubella, HIV) can sneak past!
 </div>
+<div data-diagram="placentaFunctions"></div>
+
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision — Things to Remember</div>
@@ -747,6 +767,8 @@ window.QUESTIONS_DATA_UNIT2 = [
     years: "Summer 2019",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The placenta separates in 2 ways after delivery &mdash; Schultze method (centre first, shiny fetal side appears, 80%, safer, less bleeding) and Duncan method (edge first, rough maternal side appears, 20%, more bleeding). Signs of separation: GUSH &mdash; Globular uterus, Uterus rises, Sudden blood gush, cord lengthens (Hanging cord).</div>
+<div class="figure-block"><img src="assets/images/placenta_anatomy.png" alt="Fig: Placental Anatomy and Separation" loading="lazy"><div class="figure-caption">Fig: Placental Anatomy and Separation</div></div>
+
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>

@@ -196,6 +196,8 @@ window.QUESTIONS_DATA_UNIT5 = [
     years: "Summer 2017, Winter 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Involution is the natural process by which the uterus shrinks back from its big pregnancy size (about 1000 g) to its small non-pregnant size (about 60 g) over 6 weeks. It is checked by measuring the fundal height -- the top of the uterus comes down about one finger (1 cm) per day. By day 10-12 it cannot be felt from the abdomen.</div>
+<div class="figure-block"><img src="assets/images/uterine_involution.png" alt="Fig: Uterine Involution &mdash; Day-by-Day Descent" loading="lazy"><div class="figure-caption">Fig: Uterine Involution &mdash; Day-by-Day Descent</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">
@@ -272,6 +274,8 @@ window.QUESTIONS_DATA_UNIT5 = [
   </div>
   <div class="editorial-example"><strong>Relatable Example:</strong> Think of involution like a balloon slowly deflating after a party. Each day the balloon (uterus) gets a little smaller and sinks lower until it is back to its tiny original size. The nurse's daily check is like measuring how far the balloon has deflated -- if it stays big, something is blocking it.</div>
 </div>
+<div data-diagram="uterineInvolution"></div>
+
 
 <div class="answer-section">
   <h3 class="answer-section-title">Quick Recap</h3>
@@ -391,6 +395,8 @@ window.QUESTIONS_DATA_UNIT5 = [
   </div>
   <div class="editorial-example"><strong>Relatable Example:</strong> Think of lochia like a traffic signal fading from RED to YELLOW (pink) to GREEN (white) -- it tells you the uterus is healing safely. If the light suddenly goes back to RED or starts to "smell of burning" (foul), it means something is wrong and the nurse must act.</div>
 </div>
+<div data-diagram="lochiaTimeline"></div>
+
 
 <div class="answer-section">
   <h3 class="answer-section-title">Quick Recap</h3>
@@ -517,6 +523,8 @@ window.QUESTIONS_DATA_UNIT5 = [
   </table></div>
   <div class="editorial-example"><strong>Relatable Example:</strong> Like a player who slowly warms up before a full match instead of sprinting straight away, a new mother starts with gentle breathing and Kegels in bed, then builds up to walking and full exercise by 6 weeks. Going too hard too soon can tear healing stitches -- slow and steady wins.</div>
 </div>
+<div data-diagram="lochiaTimeline"></div>
+
 
 <div class="answer-section">
   <h3 class="answer-section-title">Important Points / Precautions</h3>
@@ -566,6 +574,8 @@ window.QUESTIONS_DATA_UNIT5 = [
     years: "Winter 2019, Summer 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Breastfeeding is the best, complete, natural food for a baby. It protects the baby from infection (antibodies in milk), helps the mother (uterus shrinks, less bleeding, natural spacing), and is free and clean. Correct positioning (baby's body straight, facing the breast) and attachment (mouth covers most of the areola) are the keys to success. The nurse teaches, supports, and protects breastfeeding.</div>
+<div class="figure-block"><img src="assets/images/breastfeeding_latch.png" alt="Fig: Correct Breastfeeding Position and Attachment" loading="lazy"><div class="figure-caption">Fig: Correct Breastfeeding Position and Attachment</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">
@@ -869,6 +879,8 @@ window.QUESTIONS_DATA_UNIT5 = [
     years: "Summer 2016, Winter 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Breast care after delivery means keeping the breasts clean, supported, and well-drained by regular breastfeeding. Common problems are engorgement (over-full, hard breasts), cracked/sore nipples (from poor latch), and mastitis (painful infection with fever). Most are prevented by correct latch and frequent feeding, and treated by continued breastfeeding, warm/cold compress, and antibiotics for mastitis.</div>
+<div class="figure-block"><img src="assets/images/breastfeeding_latch.png" alt="Fig: Breastfeeding &mdash; Positioning and Common Problems" loading="lazy"><div class="figure-caption">Fig: Breastfeeding &mdash; Positioning and Common Problems</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">

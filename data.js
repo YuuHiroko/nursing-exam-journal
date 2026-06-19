@@ -302,6 +302,8 @@ window.QUESTIONS_DATA = [
     years: "Winter 2016, Summer 2017",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Maternal mortality means a mother dying due to pregnancy-related causes (during pregnancy or within 42 days of delivery). The main direct killer is <strong>bleeding (haemorrhage)</strong> and the main indirect killer is <strong>anaemia</strong>. Most of these deaths are preventable with proper care.</div>
+<div class="figure-block"><img src="assets/images/maternal_mortality.png" alt="Fig: Causes of Maternal Mortality" loading="lazy"><div class="figure-caption">Fig: Causes of Maternal Mortality</div></div>
+
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -603,6 +605,8 @@ window.QUESTIONS_DATA = [
     years: "Winter 2017, Summer 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Maternal mortality is a mother dying from pregnancy-related causes within 42 days of delivery. The nurse midwife is the frontline defender against it &mdash; she provides ANC, manages deliveries safely, handles emergencies (PPH, eclampsia), and follows up after delivery. Her early action saves lives.</div>
+<div class="figure-block"><img src="assets/images/nurse_role.png" alt="Fig: Role of Nurse Midwife in Maternal Care" loading="lazy"><div class="figure-caption">Fig: Role of Nurse Midwife in Maternal Care</div></div>
+
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -737,6 +741,8 @@ window.QUESTIONS_DATA = [
     years: "Summer 2019, Winter 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> A nurse midwife independently manages normal pregnancies and deliveries, and refers complications to doctors. She works at three stages: Antenatal (before delivery), Intranatal (during delivery), and Postnatal (after delivery). She is also a health educator, community worker, and record keeper.</div>
+<div class="figure-block"><img src="assets/images/nurse_role.png" alt="Fig: Nurse Midwife Roles" loading="lazy"><div class="figure-caption">Fig: Nurse Midwife Roles</div></div>
+
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -1198,6 +1204,8 @@ window.QUESTIONS_DATA = [
     years: "Summer 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> RCH (Reproductive and Child Health Programme) is India's one-stop programme for mothers and children. It has 5 components: Safe Motherhood, Child Health, Family Planning, Adolescent Health, and RTI/STI management. Remember with "SCARF." The key shift was from forced targets to informed choice.</div>
+<div class="figure-block"><img src="assets/images/safe_motherhood.png" alt="Fig: Safe Motherhood and RCH" loading="lazy"><div class="figure-caption">Fig: Safe Motherhood and RCH</div></div>
+
 
 <div class="answer-section">
   <h3 class="answer-section-title">Introduction</h3>
@@ -1374,6 +1382,8 @@ window.QUESTIONS_DATA = [
 </div>
 
 <div class="in-short"><strong>In Short:</strong> Safe Motherhood = every woman is safe and healthy during pregnancy, delivery, and after birth. It rests on 4 pillars (remember "FACE"): Family planning, Antenatal care, Clean &amp; safe delivery, and Emergency obstetric care. The Safe Motherhood Initiative was launched in 1987 in Nairobi.</div>
+<div class="figure-block"><img src="assets/images/safe_motherhood.png" alt="Fig: Four Pillars of Safe Motherhood" loading="lazy"><div class="figure-caption">Fig: Four Pillars of Safe Motherhood</div></div>
+
 
 <div class="answer-section">
   <h3 class="answer-section-title">Definition (Simple Language)</h3>

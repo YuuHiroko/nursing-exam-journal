@@ -164,6 +164,8 @@ window.QUESTIONS_DATA_UNIT4 = [
 &bull; Management of first stage &mdash; <strong>4 marks</strong> (~7 min)<br>
 &bull; Management of second stage &mdash; <strong>3 marks</strong> (~5 min)<br>
 Tip: Draw the cervix-opening flowchart and write management in numbered points for full marks.</div>
+<div data-diagram="mechanismOfLabour"></div>
+
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
@@ -343,6 +345,8 @@ Tip: Draw the cervix-opening flowchart and write management in numbered points f
 &bull; Physiological changes in first stage &mdash; <strong>6 marks</strong> (~10 min)<br>
 &bull; Management of first stage &mdash; <strong>6 marks</strong> (~10 min)<br>
 Tip: Add the latent/active table and the flowchart &mdash; they fetch easy marks and look complete.</div>
+<div data-diagram="cervicalDilation"></div>
+
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
@@ -394,6 +398,8 @@ Tip: Add the latent/active table and the flowchart &mdash; they fetch easy marks
     years: "Winter 2018",
     answer: `
 <div class="in-short"><strong>In Short:</strong> <strong>Normal labour</strong> = spontaneous, term, vertex baby born within 18 hours with no complications. The <strong>mechanism of labour in LOA</strong> (Left Occiput Anterior) is a series of <strong>7 movements</strong> the baby&rsquo;s head makes to pass through the pelvis: <strong>engagement, descent, flexion, internal rotation, crowning/extension, restitution, and external rotation</strong>, then expulsion. Nursing care in the first stage focuses on <strong>monitoring, comfort, and safety</strong> using the partograph.</div>
+<div class="figure-block"><img src="assets/images/mechanism_of_labour.png" alt="Fig: Cardinal Movements (Mechanism) of Labour" loading="lazy"><div class="figure-caption">Fig: Cardinal Movements (Mechanism) of Labour</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">
@@ -520,6 +526,8 @@ Tip: Add the latent/active table and the flowchart &mdash; they fetch easy marks
 &bull; Mechanism of labour in LOA (7 movements) &mdash; <strong>7 marks</strong> (~12 min)<br>
 &bull; Nursing care in first stage &mdash; <strong>6 marks</strong> (~10 min)<br>
 Tip: Draw the 7-movement flowchart and write each movement with its key point (e.g., flexion = 9.5 cm).</div>
+<div data-diagram="mechanismOfLabour"></div>
+
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
@@ -702,6 +710,8 @@ Tip: Draw the 7-movement flowchart and write each movement with its key point (e
 &bull; Physiological changes in first stage &mdash; <strong>4 marks</strong> (~7 min)<br>
 &bull; Management of first stage &mdash; <strong>5 marks</strong> (~8 min)<br>
 Tip: The true-vs-false comparison MUST be a table for full marks.</div>
+<div data-diagram="cervicalDilation"></div>
+
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
@@ -752,6 +762,8 @@ Tip: The true-vs-false comparison MUST be a table for full marks.</div>
     years: "Winter 2017, Winter 2024",
     answer: `
 <div class="in-short"><strong>In Short:</strong> <strong>Normal labour</strong> = spontaneous, term, vertex baby delivered within 18 hours with no complications. There are <strong>4 stages</strong>: 1st (cervix opens to 10 cm), 2nd (baby is born), 3rd (placenta is delivered), 4th (1-hour observation). The <strong>third stage</strong> is managed using <strong>AMTSL</strong>: (1) <strong>Oxytocin 10 IU IM</strong> within 1 minute, (2) <strong>Controlled Cord Traction</strong>, and (3) <strong>uterine massage</strong>. This prevents postpartum haemorrhage.</div>
+
+<div data-diagram="stagesOfLabour"></div>
 
 <div class="answer-section">
   <div class="figure-block">
@@ -953,6 +965,8 @@ Tip: Always write the 3 AMTSL steps clearly with the oxytocin dose &mdash; that 
     years: "Summer 2019, Winter 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The <strong>mechanism of labour</strong> is the series of passive movements the baby&rsquo;s head and body make to adapt to the mother&rsquo;s pelvis and be born. In a vertex (head-first) presentation, the baby performs <strong>cardinal movements</strong> in order: <strong>engagement &rarr; descent &rarr; flexion &rarr; internal rotation &rarr; crowning &amp; extension &rarr; restitution &rarr; external rotation &rarr; expulsion</strong>. These movements help the smallest diameter of the head (suboccipitobregmatic, 9.5 cm) pass through the curved birth canal.</div>
+<div class="figure-block"><img src="assets/images/mechanism_of_labour.png" alt="Fig: Mechanism of Normal Labour in Vertex Presentation" loading="lazy"><div class="figure-caption">Fig: Mechanism of Normal Labour in Vertex Presentation</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">
@@ -1076,6 +1090,8 @@ Tip: Always write the 3 AMTSL steps clearly with the oxytocin dose &mdash; that 
 &bull; Fetal head diameters table &mdash; <strong>2 marks</strong> (~3 min)<br>
 &bull; Flowchart + conclusion &mdash; <strong>2 marks</strong> (~3 min)<br>
 Tip: Write each movement as a numbered heading with one explaining line. Add the 9.5 cm figure &mdash; examiners love it.</div>
+<div data-diagram="mechanismOfLabour"></div>
+
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
@@ -1127,6 +1143,8 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
     years: "Winter 2019, Summer 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> A <strong>partograph</strong> is a single pre-printed chart used to record the progress of labour and the condition of mother and baby on one page. Plotting starts in the active phase (at <strong>4 cm</strong>). It has <strong>alert and action lines</strong>. If the dilatation line crosses the alert line, labour is slow; crossing the action line means urgent intervention or referral. It helps detect prolonged/obstructed labour early and prevents complications.</div>
+<div class="figure-block"><img src="assets/images/partograph.png" alt="Fig: WHO Modified Partograph" loading="lazy"><div class="figure-caption">Fig: WHO Modified Partograph</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">
@@ -1273,6 +1291,8 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
     years: "Summer 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> An <strong>episiotomy</strong> is a planned surgical cut made on the perineum (the area between the vagina and anus) during the second stage to widen the birth outlet and help the baby be born. It is done for a <strong>rigid perineum, big baby, instrumental delivery, or fetal distress</strong>. The common type is <strong>mediolateral</strong>. It is repaired in 3 layers (vaginal mucosa, muscle, skin), and nursing care focuses on <strong>RICE/comfort, hygiene, pain relief, and watching for infection</strong>.</div>
+<div class="figure-block"><img src="assets/images/episiotomy_types.png" alt="Fig: Types of Episiotomy" loading="lazy"><div class="figure-caption">Fig: Types of Episiotomy</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">
@@ -2358,6 +2378,8 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 </div>
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">keep warm / prevent hypothermia</span><span class="kw">ensure breathing</span><span class="kw">cord clamp &amp; cut</span><span class="kw">skin-to-skin</span><span class="kw">early breastfeeding within 1 hour</span><span class="kw">Vitamin K</span><span class="kw">APGAR at 1 &amp; 5 min</span><span class="kw">7&ndash;10 normal</span></div>
+<div data-diagram="apgarScore"></div>
+
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
@@ -2638,6 +2660,8 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     years: "Winter 2018, Summer 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The cardinal movements (in order) are: <strong>Engagement &rarr; Descent &rarr; Flexion &rarr; Internal rotation &rarr; Crowning &amp; Extension &rarr; Restitution &rarr; External rotation &rarr; Expulsion.</strong></div>
+<div class="figure-block"><img src="assets/images/mechanism_of_labour.png" alt="Fig: Cardinal Movements of Labour" loading="lazy"><div class="figure-caption">Fig: Cardinal Movements of Labour</div></div>
+
 
 <div class="answer-section">
   <div class="figure-block">
@@ -2690,6 +2714,8 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     <em>The clever sequence the baby follows to be born!</em>
   </div>
 </div>
+<div data-diagram="mechanismOfLabour"></div>
+
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">engagement</span><span class="kw">descent</span><span class="kw">flexion</span><span class="kw">internal rotation</span><span class="kw">extension</span><span class="kw">restitution</span><span class="kw">external rotation</span><span class="kw">expulsion</span></div>
 

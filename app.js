@@ -111,6 +111,9 @@ document.addEventListener('DOMContentLoaded', () => {
         modalUnit.textContent = getUnitLabel(q.unit);
         modalBody.innerHTML = q.answer;
         
+        // Activate interactive diagrams (if any placeholders exist)
+        if (window.activateDiagrams) window.activateDiagrams();
+        
         questionCounter.textContent = (index + 1) + ' / ' + currentQuestions.length;
         
         prevBtn.disabled = index === 0;
