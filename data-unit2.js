@@ -1248,65 +1248,19 @@ window.QUESTIONS_DATA_UNIT2 = [
     unit: 2,
     years: "Summer 2018",
     answer: `
-<div class="in-short"><strong>In Short:</strong> The female pelvis is a bony ring that supports the body and forms the <strong>birth canal</strong>. It is made of <strong>4 bones</strong> (2 innominate/hip bones, the sacrum and the coccyx). The <strong>pelvic brim</strong> divides it into the <em>false pelvis</em> (upper, supports the uterus) and the <em>true pelvis</em> (lower, through which the baby passes). The ideal female type is the <strong>gynaecoid pelvis</strong>.</div>
-
-<div class="answer-section">
-  <h3 class="answer-section-title">Bones &amp; Joints of the Pelvis</h3>
-  <ol class="answer-points">
-    <li><strong>4 Bones:</strong> Two <strong>innominate (hip) bones</strong> &mdash; each formed by fusion of <em>ilium, ischium and pubis</em> &mdash; plus the <strong>sacrum</strong> and the <strong>coccyx</strong>.</li>
-    <li><strong>4 Joints:</strong> Two <strong>sacro-iliac joints</strong>, one <strong>symphysis pubis</strong> (front) and one <strong>sacro-coccygeal joint</strong>. In pregnancy the hormone <strong>relaxin</strong> softens these joints to give a little extra room.</li>
-  </ol>
-</div>
-
-<div class="answer-section">
-  <h3 class="answer-section-title teal-title">True vs False Pelvis</h3>
-  <div class="answer-table-wrap"><table class="answer-table">
-    <thead><tr><th>Feature</th><th>False (Greater) Pelvis</th><th>True (Lesser) Pelvis</th></tr></thead>
-    <tbody>
-      <tr><td>Location</td><td>Above the pelvic brim</td><td>Below the pelvic brim</td></tr>
-      <tr><td>Function</td><td>Supports the pregnant uterus</td><td>Forms the <strong>birth canal</strong></td></tr>
-      <tr><td>Obstetric importance</td><td>Little</td><td>Very important &mdash; the baby must pass through it</td></tr>
-    </tbody>
-  </table></div>
-</div>
-
-<div class="answer-section">
-  <h3 class="answer-section-title accent-title">Planes &amp; Diameters of the True Pelvis</h3>
-  <ol class="answer-points">
-    <li><strong>Pelvic Inlet (Brim):</strong> Antero-posterior &mdash; <em>true conjugate</em> 11 cm, <em>obstetric conjugate</em> 10.5 cm (smallest &amp; most important), <em>diagonal conjugate</em> 12.5 cm; Transverse 13.5 cm; Oblique 12 cm.</li>
-    <li><strong>Pelvic Cavity:</strong> The roomiest part, almost round; all diameters about 12 cm. This is where <em>internal rotation</em> of the head occurs.</li>
-    <li><strong>Pelvic Outlet:</strong> Antero-posterior 13 cm; Transverse (bi-ischial / bi-tuberous) 11 cm. Here the head <em>extends</em> and is born.</li>
-  </ol>
-</div>
-
-<div class="answer-section">
-  <h3 class="answer-section-title">Four Types of Pelvis</h3>
-  <div class="answer-table-wrap"><table class="answer-table">
-    <thead><tr><th>Type</th><th>Shape of Brim</th><th>Suitability for Delivery</th></tr></thead>
-    <tbody>
-      <tr><td><strong>Gynaecoid</strong> (normal female)</td><td>Rounded</td><td><strong>Best</strong> &mdash; ideal for normal delivery (~50% of women)</td></tr>
-      <tr><td><strong>Android</strong> (male type)</td><td>Heart / wedge shaped</td><td>Poor &mdash; risk of obstructed labour, deep transverse arrest</td></tr>
-      <tr><td><strong>Anthropoid</strong> (ape-like)</td><td>Long oval (AP &gt; transverse)</td><td>Fair &mdash; favours occipito-posterior position</td></tr>
-      <tr><td><strong>Platypelloid</strong> (flat)</td><td>Wide oval (transverse &gt; AP)</td><td>Poor &mdash; head may fail to engage</td></tr>
-    </tbody>
-  </table></div>
-  <div class="mnemonic-box">
-    <div class="mnemonic-label">Mnemonic for the 4 types: <strong>"GAAP"</strong></div>
-    <div class="mnemonic-word"><span>G</span>-<span>A</span>-<span>A</span>-<span>P</span></div>
-    <div class="mnemonic-explain"><strong>G</strong>ynaecoid &middot; <strong>A</strong>ndroid &middot; <strong>A</strong>nthropoid &middot; <strong>P</strong>latypelloid</div>
-  </div>
-</div>
-
-<div class="remember-box">
-  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
-  <ul>
-    <li>4 pelvic bones = 2 innominate + sacrum + coccyx</li>
-    <li>Pelvic brim divides the false (upper) and true (lower) pelvis</li>
-    <li><strong>Obstetric conjugate (10.5 cm)</strong> = smallest AP diameter of the inlet the head must pass &mdash; most important measurement</li>
-    <li><strong>Gynaecoid</strong> = the ideal pelvis for normal delivery</li>
-    <li>Relaxin softens the pelvic joints in pregnancy for extra room</li>
-  </ul>
-</div>
+<div class="in-short"><strong>In Short:</strong> The female pelvis is a bony ring that supports the body and forms the <strong>birth canal</strong>. It has <strong>4 bones</strong> (2 innominate/hip bones, sacrum, coccyx). The <strong>pelvic brim</strong> divides it into the false pelvis (upper) and true pelvis (lower, through which the baby passes). The ideal female type is the <strong>gynaecoid</strong> pelvis.</div>
+<div class="answer-section"><div class="figure-block"><svg viewBox="0 0 600 172" role="img" aria-label="Fig: Parts of the female pelvis" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="20" text-anchor="middle" font-size="14" fill="var(--color-foreground)">Female Pelvis</text><rect x="24" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">4 Bones</text><text x="112" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">2 innominate + sacrum + coccyx</text><rect x="212" y="34" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Pelvic Brim</text><text x="300" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">divides true / false</text><rect x="400" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">True Pelvis</text><text x="488" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">the birth canal</text><rect x="24" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Inlet / Cavity / Outlet</text><text x="112" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">3 planes</text><rect x="212" y="104" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Gynaecoid</text><text x="300" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">ideal type</text><rect x="400" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Obstetric conjugate</text><text x="488" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">10.5 cm (key)</text></svg><div class="figure-caption">Fig: Parts of the female pelvis</div></div></div>
+<div class="answer-section"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">The pelvis protects the pelvic organs and, in women, forms the canal through which the baby is born. Knowing its bones, joints, planes and diameters helps the midwife judge whether a normal delivery is possible.</p></div>
+<div class="answer-section"><h3 class="answer-section-title">Bones &amp; Joints</h3><ol class="answer-points"><li><strong>4 Bones:</strong> two <strong>innominate (hip) bones</strong> (each = ilium + ischium + pubis), the <strong>sacrum</strong> and the <strong>coccyx</strong>.</li><li><strong>4 Joints:</strong> two sacro-iliac joints, one symphysis pubis, one sacro-coccygeal joint. <strong>Relaxin</strong> softens them in pregnancy for extra room.</li></ol></div>
+<div class="answer-section"><h3 class="answer-section-title teal-title">True vs False Pelvis</h3><div class="answer-table-wrap"><table class="answer-table"><thead><tr><th>Feature</th><th>False (Greater)</th><th>True (Lesser)</th></tr></thead><tbody><tr><td>Location</td><td>Above the brim</td><td>Below the brim</td></tr><tr><td>Function</td><td>Supports the uterus</td><td>Forms the <strong>birth canal</strong></td></tr><tr><td>Importance</td><td>Little</td><td>Very important in labour</td></tr></tbody></table></div></div>
+<div class="answer-section"><h3 class="answer-section-title accent-title">Planes &amp; Diameters of the True Pelvis</h3><ol class="answer-points"><li><strong>Inlet (brim):</strong> AP &mdash; true conjugate 11 cm, <strong>obstetric conjugate 10.5 cm</strong> (smallest, key), diagonal 12.5 cm; transverse 13.5 cm; oblique 12 cm.</li><li><strong>Cavity:</strong> roomiest, almost round, ~12 cm all round &mdash; internal rotation occurs here.</li><li><strong>Outlet:</strong> AP 13 cm; transverse (bi-ischial) 11 cm &mdash; head extends and is born.</li></ol></div>
+<div class="answer-section"><h3 class="answer-section-title">Four Types of Pelvis</h3><div class="answer-table-wrap"><table class="answer-table"><thead><tr><th>Type</th><th>Brim shape</th><th>Delivery</th></tr></thead><tbody><tr><td><strong>Gynaecoid</strong> (female)</td><td>Rounded</td><td><strong>Best</strong> (~50%)</td></tr><tr><td><strong>Android</strong> (male)</td><td>Heart-shaped</td><td>Poor &mdash; obstruction</td></tr><tr><td><strong>Anthropoid</strong></td><td>Long oval (AP&gt;TV)</td><td>Fair &mdash; favours OP</td></tr><tr><td><strong>Platypelloid</strong></td><td>Flat (TV&gt;AP)</td><td>Poor &mdash; non-engagement</td></tr></tbody></table></div></div>
+<div class="answer-section"><h3 class="answer-section-title">Mnemonic to Remember</h3><div class="mnemonic-box"><div class="mnemonic-label">4 types: <strong>"GAAP"</strong></div><div class="mnemonic-word"><span>G</span>-<span>A</span>-<span>A</span>-<span>P</span></div><div class="mnemonic-explain"><strong>G</strong>ynaecoid &middot; <strong>A</strong>ndroid &middot; <strong>A</strong>nthropoid &middot; <strong>P</strong>latypelloid</div></div></div>
+<div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>4 bones = 2 innominate + sacrum + coccyx</li><li>Brim divides false (upper) &amp; true (lower) pelvis</li><li><strong>Obstetric conjugate 10.5 cm</strong> = smallest AP diameter the head must pass</li><li><strong>Gynaecoid</strong> = ideal pelvis; Relaxin softens joints in pregnancy</li></ul></div>
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Innominate bone</span><span class="kw">Pelvic brim</span><span class="kw">True pelvis</span><span class="kw">Inlet/Cavity/Outlet</span><span class="kw">Obstetric conjugate 10.5 cm</span><span class="kw">Diagonal conjugate</span><span class="kw">Gynaecoid</span><span class="kw">Android</span></div>
+<div class="editorial-example"><strong>Relatable Example:</strong> During antenatal palpation a midwife suspects a small pelvis. She knows the baby's head (~9.5 cm) must pass the <strong>obstetric conjugate (10.5 cm)</strong> &mdash; the tightest spot &mdash; so she watches engagement closely and is ready to refer if it fails.</div>
+<div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div><ul><li><span class="term">Innominate bone</span> The hip bone &mdash; ilium + ischium + pubis fused together</li><li><span class="term">Conjugate</span> An antero-posterior (front-to-back) diameter of the pelvis</li><li><span class="term">Gynaecoid</span> The normal, rounded female pelvis &mdash; best for delivery</li><li><span class="term">Engagement</span> When the widest part of the head passes through the pelvic brim</li></ul></div>
+<div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div><details><summary>Which is the smallest and most important AP diameter of the inlet?</summary><p>The obstetric conjugate, about 10.5 cm &mdash; the head must pass through it.</p></details><details><summary>Which pelvis type is ideal for normal delivery?</summary><p>The gynaecoid (normal female) pelvis.</p></details><details><summary>Name the 4 bones of the pelvis.</summary><p>Two innominate (hip) bones, the sacrum and the coccyx.</p></details></div>
 `
   }
 ];

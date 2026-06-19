@@ -2740,43 +2740,17 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     unit: 4,
     years: "Winter 2019",
     answer: `
-<div class="in-short"><strong>In Short:</strong> The first stage of labour is from the <strong>onset of true labour to full dilatation of the cervix (10 cm)</strong>. Its physiology involves rhythmic <strong>uterine contractions</strong> (with fundal dominance, polarity and retraction), formation of upper and lower uterine segments, and progressive <strong>effacement and dilatation</strong> of the cervix.</div>
-
-<div class="answer-section">
-  <h3 class="answer-section-title teal-title">Physiological Events</h3>
-  <ol class="answer-points">
-    <li><strong>Uterine contractions:</strong>
-      <ul class="sub-points">
-        <li><strong>Fundal dominance</strong> &mdash; contraction is strongest at the fundus.</li>
-        <li><strong>Polarity</strong> &mdash; the upper segment contracts &amp; retracts while the lower segment relaxes &amp; dilates.</li>
-        <li><strong>Retraction</strong> &mdash; muscle fibres of the upper segment shorten permanently and do not fully relax, gradually pulling the cervix open.</li>
-      </ul>
-    </li>
-    <li><strong>Formation of upper and lower uterine segments</strong> with a <strong>retraction ring</strong> between them.</li>
-    <li><strong>Cervical changes:</strong> <em>Effacement</em> (taking up / thinning of the cervix) and <em>dilatation</em> (opening from 0 to 10 cm).</li>
-    <li><strong>Show:</strong> Expulsion of the blood-stained mucus plug from the cervix.</li>
-    <li><strong>Formation of the bag of forewaters</strong> and eventual <strong>rupture of membranes</strong>.</li>
-  </ol>
-</div>
-
-<div class="answer-section">
-  <h3 class="answer-section-title accent-title">Phases &amp; Duration</h3>
-  <ul class="answer-points">
-    <li><strong>Latent phase:</strong> 0&rarr;4 cm, slow.</li>
-    <li><strong>Active phase:</strong> 4&rarr;10 cm, about 1 cm/hour.</li>
-    <li><strong>Duration:</strong> Primigravida ~12 hours; Multigravida ~6&ndash;8 hours.</li>
-  </ul>
-</div>
-
-<div class="remember-box">
-  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
-  <ul>
-    <li>1st stage = onset of true labour &rarr; full dilatation (10 cm)</li>
-    <li>3 features of normal contraction: <strong>fundal dominance, polarity, retraction</strong></li>
-    <li>Cervix: <strong>effacement + dilatation</strong>; monitor on the partograph</li>
-    <li>Active phase progresses ~1 cm/hr</li>
-  </ul>
-</div>
+<div class="in-short"><strong>In Short:</strong> The first stage of labour is from the <strong>onset of true labour to full dilatation (10 cm)</strong>. Its physiology = rhythmic <strong>uterine contractions</strong> (fundal dominance, polarity, retraction), formation of upper &amp; lower uterine segments, and progressive <strong>effacement and dilatation</strong> of the cervix.</div>
+<div class="answer-section"><div class="figure-block"><svg viewBox="0 0 600 172" role="img" aria-label="Fig: Physiology of the first stage" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="20" text-anchor="middle" font-size="14" fill="var(--color-foreground)">Physiology of First Stage</text><rect x="24" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Fundal dominance</text><text x="112" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">strongest at fundus</text><rect x="212" y="34" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Polarity</text><text x="300" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">upper contracts, lower dilates</text><rect x="400" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Retraction</text><text x="488" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">fibres shorten</text><rect x="24" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Upper / Lower segments</text><text x="112" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">retraction ring</text><rect x="212" y="104" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Effacement + Dilatation</text><text x="300" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">0 &rarr; 10 cm</text><rect x="400" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Show + ROM</text><text x="488" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">mucus plug, waters</text></svg><div class="figure-caption">Fig: Physiology of the first stage</div></div></div>
+<div class="answer-section"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">In the first stage the uterus does the work of opening the cervix. Coordinated contractions gradually pull the cervix up and open so the baby can descend.</p></div>
+<div class="answer-section"><h3 class="answer-section-title teal-title">Uterine Contractions</h3><ul class="sub-points"><li><strong>Fundal dominance</strong> &mdash; contraction strongest at the fundus.</li><li><strong>Polarity</strong> &mdash; upper segment contracts &amp; retracts while the lower segment relaxes &amp; dilates.</li><li><strong>Retraction</strong> &mdash; muscle fibres shorten permanently, slowly pulling the cervix open.</li></ul></div>
+<div class="answer-section"><h3 class="answer-section-title accent-title">Segments &amp; Cervix</h3><ul class="answer-points"><li>Formation of <strong>upper &amp; lower uterine segments</strong> with a retraction ring between them.</li><li><strong>Effacement</strong> (thinning/taking up) and <strong>dilatation</strong> (opening 0&rarr;10 cm) of the cervix.</li><li><strong>Show</strong> (blood-stained mucus plug) and formation/rupture of the bag of forewaters.</li></ul></div>
+<div class="answer-section"><h3 class="answer-section-title">Phases &amp; Duration</h3><ul class="answer-points"><li><strong>Latent:</strong> 0&rarr;4 cm (slow).</li><li><strong>Active:</strong> 4&rarr;10 cm (~1 cm/hr).</li><li><strong>Duration:</strong> primi ~12 hr; multi ~6&ndash;8 hr.</li></ul></div>
+<div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>1st stage = onset of true labour &rarr; full dilatation (10 cm)</li><li>3 contraction features: <strong>fundal dominance, polarity, retraction</strong></li><li>Cervix: <strong>effacement + dilatation</strong>; plot on partograph</li><li>Active phase ~1 cm/hr</li></ul></div>
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Fundal dominance</span><span class="kw">Polarity</span><span class="kw">Retraction</span><span class="kw">Upper/lower segment</span><span class="kw">Effacement</span><span class="kw">Dilatation</span><span class="kw">Show</span><span class="kw">Latent/Active phase</span></div>
+<div class="editorial-example"><strong>Relatable Example:</strong> A midwife feels the fundus harden first during each contraction (fundal dominance) and, on examination, the cervix has thinned and opened to 5 cm &mdash; the active phase has begun.</div>
+<div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div><ul><li><span class="term">Effacement</span> Thinning &amp; shortening of the cervix</li><li><span class="term">Dilatation</span> Opening of the cervix, measured 0&ndash;10 cm</li><li><span class="term">Retraction</span> Uterine fibres shorten and do not fully relax</li><li><span class="term">Show</span> Blood-stained mucus plug passed from the cervix</li></ul></div>
+<div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div><details><summary>What are the three features of a normal uterine contraction?</summary><p>Fundal dominance, polarity and retraction.</p></details><details><summary>What defines the end of the first stage?</summary><p>Full dilatation of the cervix (10 cm).</p></details><details><summary>How fast does the active phase progress?</summary><p>About 1 cm per hour.</p></details></div>
 `
   },
   {
@@ -2787,28 +2761,15 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     unit: 4,
     years: "Winter 2016",
     answer: `
-<div class="in-short"><strong>In Short:</strong> The first stage of labour is marked by <strong>true labour pains</strong> (regular, painful uterine contractions that increase in strength), <strong>show</strong>, progressive <strong>cervical effacement and dilatation</strong>, descent of the presenting part and often <strong>rupture of membranes</strong>.</div>
-
-<div class="answer-section">
-  <h3 class="answer-section-title teal-title">Signs &amp; Symptoms</h3>
-  <ol class="answer-points">
-    <li><strong>True labour pains:</strong> Regular, rhythmic uterine contractions that <em>increase in frequency, duration and intensity</em>; felt from the back radiating to the front; not relieved by rest.</li>
-    <li><strong>Show:</strong> Expulsion of blood-stained mucus plug.</li>
-    <li><strong>Cervical changes:</strong> Progressive effacement and dilatation (felt on per-vaginal examination).</li>
-    <li><strong>Descent</strong> of the presenting part into the pelvis.</li>
-    <li><strong>Formation of the bag of forewaters</strong> and rupture of membranes (draining of liquor).</li>
-    <li>Hardening of the uterus felt on the abdomen during contractions.</li>
-  </ol>
-</div>
-
-<div class="remember-box">
-  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
-  <ul>
-    <li>Hallmark = <strong>regular painful contractions + cervical dilatation</strong></li>
-    <li>"Show" = blood-stained mucus plug</li>
-    <li>True pain: back &rarr; front, increases with time, not relieved by walking/sedation</li>
-  </ul>
-</div>
+<div class="in-short"><strong>In Short:</strong> The first stage shows <strong>true labour pains</strong> (regular contractions increasing in strength), <strong>show</strong>, progressive <strong>cervical effacement and dilatation</strong>, descent of the presenting part and often <strong>rupture of membranes</strong>.</div>
+<div class="answer-section"><div class="figure-block"><svg viewBox="0 0 600 172" role="img" aria-label="Fig: Signs &amp;amp; symptoms of the first stage" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="20" text-anchor="middle" font-size="14" fill="var(--color-foreground)">Signs of First Stage</text><rect x="24" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">True labour pains</text><text x="112" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">regular, increasing</text><rect x="212" y="34" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Show</text><text x="300" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">blood-stained mucus</text><rect x="400" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Effacement + Dilatation</text><text x="488" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">on PV exam</text><rect x="24" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Descent</text><text x="112" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">presenting part</text><rect x="212" y="104" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Bag of waters / ROM</text><text x="300" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">liquor drains</text></svg><div class="figure-caption">Fig: Signs &amp; symptoms of the first stage</div></div></div>
+<div class="answer-section"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Recognising true labour lets the midwife admit and monitor the woman at the right time. The key change that confirms labour is progressive cervical dilatation.</p></div>
+<div class="answer-section"><h3 class="answer-section-title teal-title">Signs &amp; Symptoms</h3><ol class="answer-points"><li><strong>True labour pains:</strong> regular, rhythmic contractions increasing in frequency, duration &amp; intensity; felt from back to front; not relieved by rest.</li><li><strong>Show:</strong> expulsion of blood-stained mucus plug.</li><li><strong>Cervical changes:</strong> progressive effacement &amp; dilatation on per-vaginal examination.</li><li><strong>Descent</strong> of the presenting part into the pelvis.</li><li><strong>Bag of forewaters</strong> forms and membranes rupture (liquor drains).</li><li>Uterus hardens on the abdomen during each contraction.</li></ol></div>
+<div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Hallmark = <strong>regular painful contractions + cervical dilatation</strong></li><li>&lsquo;Show&rsquo; = blood-stained mucus plug</li><li>True pain: back &rarr; front, increases, not relieved by walking/sedation</li></ul></div>
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">True labour pains</span><span class="kw">Show</span><span class="kw">Effacement</span><span class="kw">Dilatation</span><span class="kw">Descent</span><span class="kw">Rupture of membranes</span><span class="kw">Liquor</span></div>
+<div class="editorial-example"><strong>Relatable Example:</strong> A woman arrives with low backache that comes every 5 minutes and is getting stronger, plus a pinkish mucus discharge. On examination her cervix is 4 cm &mdash; she is in established first stage.</div>
+<div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div><ul><li><span class="term">Show</span> Blood-stained mucus plug released as the cervix opens</li><li><span class="term">Liquor</span> The amniotic fluid (waters) around the baby</li><li><span class="term">ROM</span> Rupture Of Membranes &mdash; the waters breaking</li></ul></div>
+<div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div><details><summary>What single sign confirms true labour?</summary><p>Progressive cervical dilatation.</p></details><details><summary>What is &lsquo;show&rsquo;?</summary><p>The blood-stained mucus plug passed from the cervix.</p></details><details><summary>How do true labour pains behave over time?</summary><p>They become more frequent, longer and stronger, and are not relieved by rest.</p></details></div>
 `
   },
   {
@@ -2820,32 +2781,14 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     years: "Winter 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> <strong>True labour pains</strong> are regular, increasing contractions that <em>dilate the cervix</em> and lead to delivery. <strong>False labour pains</strong> (Braxton Hicks) are irregular, do not increase, do <em>not</em> dilate the cervix and settle with rest.</div>
-
-<div class="answer-section">
-  <h3 class="answer-section-title teal-title">True vs False Labour Pains</h3>
-  <div class="answer-table-wrap"><table class="answer-table">
-    <thead><tr><th>Feature</th><th>True Labour</th><th>False Labour</th></tr></thead>
-    <tbody>
-      <tr><td>Contractions</td><td>Regular, rhythmic</td><td>Irregular</td></tr>
-      <tr><td>Interval</td><td>Gradually shortens</td><td>Remains long / variable</td></tr>
-      <tr><td>Intensity</td><td>Progressively increases</td><td>Stays the same or weak</td></tr>
-      <tr><td>Site of pain</td><td>Back &rarr; radiates to front/abdomen</td><td>Mainly lower abdomen / groin</td></tr>
-      <tr><td>Effect of walking</td><td>Pain increases</td><td>Pain often relieved</td></tr>
-      <tr><td>Cervix</td><td>Effaces &amp; dilates</td><td>No change</td></tr>
-      <tr><td>Show</td><td>Present</td><td>Absent</td></tr>
-      <tr><td>Effect of sedation</td><td>Not relieved</td><td>Relieved</td></tr>
-    </tbody>
-  </table></div>
-</div>
-
-<div class="remember-box">
-  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
-  <ul>
-    <li><strong>True</strong> = Regular, Rising intensity, <strong>cervical dilatation</strong>, show present, not relieved by rest</li>
-    <li><strong>False</strong> = Irregular, no dilatation, relieved by rest/sedation</li>
-    <li>The single best distinguishing feature = <strong>progressive cervical dilatation</strong></li>
-  </ul>
-</div>
+<div class="answer-section"><div class="figure-block"><svg viewBox="0 0 600 172" role="img" aria-label="Fig: True vs false labour pain" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="20" text-anchor="middle" font-size="14" fill="var(--color-foreground)">True vs False Labour</text><rect x="24" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">TRUE: Regular</text><text x="112" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">rising intensity</text><rect x="212" y="34" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">TRUE: Cervix dilates</text><text x="300" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">+ show</text><rect x="400" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">FALSE: Irregular</text><text x="488" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">weak, same</text><rect x="24" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">FALSE: No dilatation</text><text x="112" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">relieved by rest</text></svg><div class="figure-caption">Fig: True vs false labour pain</div></div></div>
+<div class="answer-section"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Many women come to hospital with abdominal pain. Telling true from false labour avoids both premature admission and dangerous delay.</p></div>
+<div class="answer-section"><h3 class="answer-section-title teal-title">True vs False Labour Pains</h3><div class="answer-table-wrap"><table class="answer-table"><thead><tr><th>Feature</th><th>True Labour</th><th>False Labour</th></tr></thead><tbody><tr><td>Contractions</td><td>Regular, rhythmic</td><td>Irregular</td></tr><tr><td>Interval</td><td>Gradually shortens</td><td>Long / variable</td></tr><tr><td>Intensity</td><td>Progressively increases</td><td>Same / weak</td></tr><tr><td>Site of pain</td><td>Back &rarr; front/abdomen</td><td>Lower abdomen / groin</td></tr><tr><td>On walking</td><td>Pain increases</td><td>Often relieved</td></tr><tr><td>Cervix</td><td>Effaces &amp; dilates</td><td>No change</td></tr><tr><td>Show</td><td>Present</td><td>Absent</td></tr><tr><td>With sedation</td><td>Not relieved</td><td>Relieved</td></tr></tbody></table></div></div>
+<div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li><strong>True</strong> = Regular, Rising, <strong>cervical dilatation</strong>, show present, not relieved by rest</li><li><strong>False</strong> = Irregular, no dilatation, relieved by rest/sedation</li><li>Best distinguishing feature = <strong>progressive cervical dilatation</strong></li></ul></div>
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">True labour</span><span class="kw">False labour</span><span class="kw">Braxton Hicks</span><span class="kw">Regular contractions</span><span class="kw">Cervical dilatation</span><span class="kw">Show</span><span class="kw">Sedation test</span></div>
+<div class="editorial-example"><strong>Relatable Example:</strong> At 36 weeks a woman has irregular tightenings that ease when she walks and rests; her cervix is closed &mdash; false labour (Braxton Hicks). She is reassured and sent home with danger-sign advice.</div>
+<div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div><ul><li><span class="term">Braxton Hicks</span> Painless &lsquo;practice&rsquo; contractions &mdash; false labour</li><li><span class="term">Effacement</span> Thinning of the cervix</li><li><span class="term">Dilatation</span> Opening of the cervix</li></ul></div>
+<div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div><details><summary>Which feature best separates true from false labour?</summary><p>Progressive cervical dilatation (true labour dilates the cervix).</p></details><details><summary>What happens to false labour pains with rest or sedation?</summary><p>They are relieved.</p></details><details><summary>Another name for false labour contractions?</summary><p>Braxton Hicks contractions.</p></details></div>
 `
   },
   {
@@ -2856,47 +2799,17 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     unit: 4,
     years: "Winter 2015, Winter 2018, Summer 2020, Winter 2020, Winter 2021, Winter 2022, Summer 2025",
     answer: `
-<div class="in-short"><strong>In Short:</strong> Oxytocin is a hormone secreted by the <strong>posterior pituitary gland</strong>. Its synthetic forms (<strong>Syntocinon / Pitocin</strong>) are used in obstetrics to <strong>contract the uterus</strong> &mdash; for inducing/augmenting labour, preventing &amp; treating postpartum haemorrhage (PPH), and it also causes the <strong>milk let-down (ejection) reflex</strong>.</div>
-
-<div class="answer-section">
-  <h3 class="answer-section-title teal-title">Actions</h3>
-  <ul class="answer-points">
-    <li>Stimulates <strong>rhythmic contraction</strong> of uterine muscle</li>
-    <li>Causes <strong>milk ejection</strong> (let-down) from the breast during suckling</li>
-    <li>Has a mild <strong>antidiuretic</strong> effect (water retention in large doses)</li>
-  </ul>
-</div>
-
-<div class="answer-section">
-  <h3 class="answer-section-title accent-title">Uses in Obstetrics &amp; Dose</h3>
-  <ol class="answer-points">
-    <li><strong>Active management of 3rd stage (AMTSL):</strong> <strong>10 IU IM</strong> within 1 minute of birth &mdash; prevents PPH.</li>
-    <li><strong>Treatment of PPH / uterine atony:</strong> 20 IU in 500 ml IV fluid as infusion.</li>
-    <li><strong>Induction &amp; augmentation of labour:</strong> dilute IV infusion, dose titrated to contractions.</li>
-    <li>After abortion / to expel retained products and to control bleeding.</li>
-  </ol>
-  <p class="answer-text"><strong>Routes:</strong> IM and IV infusion. <strong>Storage:</strong> in a refrigerator at 2&ndash;8&deg;C.</p>
-</div>
-
-<div class="answer-section">
-  <h3 class="answer-section-title">Side Effects &amp; Precautions</h3>
-  <ul class="answer-points">
-    <li><strong>Uterine hyperstimulation</strong> &rarr; fetal distress, risk of uterine rupture</li>
-    <li><strong>Water intoxication</strong> with high doses (antidiuretic effect)</li>
-    <li>Hypotension if given as rapid IV bolus &mdash; <strong>never give undiluted IV push</strong></li>
-    <li>Contraindicated for induction in CPD, malpresentation and (relative) previous caesarean &mdash; always monitor FHR and contractions</li>
-  </ul>
-</div>
-
-<div class="remember-box">
-  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
-  <ul>
-    <li>Source = <strong>posterior pituitary</strong>; synthetic = Syntocinon/Pitocin</li>
-    <li><strong>AMTSL dose = 10 IU IM</strong> within 1 minute of birth</li>
-    <li>Main danger = <strong>hyperstimulation</strong> &rarr; fetal distress / rupture</li>
-    <li>Store at 2&ndash;8&deg;C; never give as undiluted IV bolus</li>
-  </ul>
-</div>
+<div class="in-short"><strong>In Short:</strong> Oxytocin is a hormone from the <strong>posterior pituitary gland</strong>. Its synthetic forms (<strong>Syntocinon / Pitocin</strong>) are used to <strong>contract the uterus</strong> &mdash; for induction/augmentation of labour, prevention &amp; treatment of postpartum haemorrhage, and it causes the <strong>milk let-down reflex</strong>.</div>
+<div class="answer-section"><div class="figure-block"><svg viewBox="0 0 600 172" role="img" aria-label="Fig: Oxytocin uses &amp;amp; cautions" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="20" text-anchor="middle" font-size="14" fill="var(--color-foreground)">Oxytocin</text><rect x="24" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Posterior pituitary</text><text x="112" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">source</text><rect x="212" y="34" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Uterine contraction</text><text x="300" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">+ milk ejection</text><rect x="400" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">AMTSL: 10 IU IM</text><text x="488" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">prevents PPH</text><rect x="24" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">PPH: 20 IU in IV</text><text x="112" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">uterine atony</text><rect x="212" y="104" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Induction: IV drip</text><text x="300" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">titrated</text><rect x="400" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Risk: hyperstimulation</text><text x="488" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">fetal distress</text></svg><div class="figure-caption">Fig: Oxytocin uses &amp; cautions</div></div></div>
+<div class="answer-section"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Oxytocin is one of the most used drugs in the labour room. The same action &mdash; making the uterus contract &mdash; is used to start labour, speed it up, and stop bleeding after birth.</p></div>
+<div class="answer-section"><h3 class="answer-section-title teal-title">Actions</h3><ul class="answer-points"><li>Stimulates rhythmic <strong>uterine contractions</strong></li><li>Causes <strong>milk ejection</strong> (let-down) during suckling</li><li>Mild <strong>antidiuretic</strong> effect (water retention in large doses)</li></ul></div>
+<div class="answer-section"><h3 class="answer-section-title accent-title">Uses in Obstetrics &amp; Dose</h3><ol class="answer-points"><li><strong>AMTSL (3rd stage):</strong> <strong>10 IU IM</strong> within 1 minute of birth &mdash; prevents PPH.</li><li><strong>PPH / uterine atony:</strong> 20 IU in 500 ml IV fluid as infusion.</li><li><strong>Induction &amp; augmentation:</strong> dilute IV infusion, dose titrated to contractions.</li><li>After abortion / to expel retained products &amp; control bleeding.</li></ol><p class="answer-text"><strong>Routes:</strong> IM &amp; IV infusion. <strong>Storage:</strong> 2&ndash;8&deg;C (refrigerator).</p></div>
+<div class="answer-section"><h3 class="answer-section-title">Side Effects &amp; Precautions</h3><ul class="answer-points"><li><strong>Uterine hyperstimulation</strong> &rarr; fetal distress, risk of rupture</li><li><strong>Water intoxication</strong> with high doses</li><li>Hypotension if given as rapid IV bolus &mdash; <strong>never give undiluted IV push</strong></li><li>Avoid for induction in CPD, malpresentation, (relative) previous CS; always monitor FHR &amp; contractions</li></ul></div>
+<div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Source = <strong>posterior pituitary</strong>; synthetic = Syntocinon/Pitocin</li><li><strong>AMTSL dose = 10 IU IM</strong> within 1 minute</li><li>Main danger = <strong>hyperstimulation</strong> &rarr; fetal distress/rupture</li><li>Store at 2&ndash;8&deg;C; never give undiluted IV bolus</li></ul></div>
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Oxytocin</span><span class="kw">Posterior pituitary</span><span class="kw">Syntocinon/Pitocin</span><span class="kw">10 IU IM</span><span class="kw">AMTSL</span><span class="kw">Uterine atony</span><span class="kw">Hyperstimulation</span><span class="kw">Water intoxication</span></div>
+<div class="editorial-example"><strong>Relatable Example:</strong> Right after the baby is born the midwife gives 10 IU oxytocin IM into the mother's thigh; the uterus contracts firmly and bleeding is minimal &mdash; active management of the third stage.</div>
+<div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div><ul><li><span class="term">Oxytocin</span> Hormone that contracts the uterus &amp; ejects milk</li><li><span class="term">AMTSL</span> Active Management of Third Stage of Labour</li><li><span class="term">Uterine atony</span> A soft, non-contracting uterus &mdash; main cause of PPH</li><li><span class="term">IU</span> International Unit &mdash; how the dose is measured</li></ul></div>
+<div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div><details><summary>From which gland is oxytocin released?</summary><p>The posterior pituitary gland.</p></details><details><summary>What is the AMTSL dose and route?</summary><p>10 IU intramuscularly (IM) within 1 minute of birth.</p></details><details><summary>What is the most dangerous side effect?</summary><p>Uterine hyperstimulation, causing fetal distress and risk of uterine rupture.</p></details></div>
 `
   },
   {
@@ -2907,37 +2820,16 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     unit: 4,
     years: "Winter 2014",
     answer: `
-<div class="in-short"><strong>In Short:</strong> Pain-relieving drugs (analgesia) and anaesthesia given to the mother can <strong>cross the placenta</strong> and reach the baby, or lower the mother's blood pressure &mdash; both of which can affect the newborn, most importantly causing <strong>respiratory depression and a low Apgar score</strong>.</div>
-
-<div class="answer-section">
-  <h3 class="answer-section-title teal-title">Effects on the Newborn</h3>
-  <ol class="answer-points">
-    <li><strong>Opioids (Pethidine, Morphine):</strong> cross the placenta &rarr; <strong>respiratory depression</strong>, drowsiness, poor feeding, low Apgar &mdash; especially if given within 1&ndash;4 hours of birth. Reversed by <strong>naloxone</strong>.</li>
-    <li><strong>General anaesthesia:</strong> depresses the baby &rarr; respiratory depression and low Apgar; risk of aspiration in mother.</li>
-    <li><strong>Regional (epidural / spinal):</strong> safer for the baby, but can cause <strong>maternal hypotension</strong> &rarr; reduced placental blood flow &rarr; fetal bradycardia.</li>
-    <li><strong>Inhalational (Nitrous oxide / Entonox):</strong> minimal effect on the baby.</li>
-  </ol>
-</div>
-
-<div class="answer-section">
-  <h3 class="answer-section-title accent-title">Nursing Responsibilities</h3>
-  <ul class="answer-points">
-    <li>Avoid giving opioids close to delivery</li>
-    <li>Keep <strong>naloxone</strong> and full neonatal resuscitation equipment ready</li>
-    <li>Monitor the fetal heart rate and the Apgar score at 1 and 5 minutes</li>
-    <li>Prevent maternal hypotension with IV fluids and left-lateral position during epidural</li>
-  </ul>
-</div>
-
-<div class="remember-box">
-  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
-  <ul>
-    <li>Main newborn effect = <strong>respiratory depression + low Apgar</strong></li>
-    <li><strong>Naloxone</strong> reverses opioid (pethidine) depression in the baby</li>
-    <li>Epidural &rarr; maternal hypotension &rarr; fetal bradycardia</li>
-    <li>Always be ready to resuscitate the newborn</li>
-  </ul>
-</div>
+<div class="in-short"><strong>In Short:</strong> Pain-relieving drugs (analgesia) and anaesthesia given to the mother can <strong>cross the placenta</strong> or lower her blood pressure &mdash; both can affect the baby, most importantly causing <strong>respiratory depression and a low Apgar score</strong>.</div>
+<div class="answer-section"><div class="figure-block"><svg viewBox="0 0 600 172" role="img" aria-label="Fig: Drug effects on the baby" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="20" text-anchor="middle" font-size="14" fill="var(--color-foreground)">Effects on the Newborn</text><rect x="24" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Opioids</text><text x="112" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">resp depression, low Apgar</text><rect x="212" y="34" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Naloxone</text><text x="300" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">reverses opioids</text><rect x="400" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">General anaesthesia</text><text x="488" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">depression, low Apgar</text><rect x="24" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Epidural/Spinal</text><text x="112" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">maternal hypotension</text><rect x="212" y="104" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Nitrous oxide</text><text x="300" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">minimal effect</text></svg><div class="figure-caption">Fig: Drug effects on the baby</div></div></div>
+<div class="answer-section"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Whatever reaches the mother's blood can reach the baby through the placenta. So pain relief in labour must be chosen and timed to keep the newborn safe.</p></div>
+<div class="answer-section"><h3 class="answer-section-title teal-title">Effects on the Newborn</h3><ol class="answer-points"><li><strong>Opioids (Pethidine, Morphine):</strong> cross the placenta &rarr; <strong>respiratory depression</strong>, drowsiness, poor feeding, low Apgar &mdash; worst if given within 1&ndash;4 hr of birth. Reversed by <strong>naloxone</strong>.</li><li><strong>General anaesthesia:</strong> depresses the baby &rarr; respiratory depression &amp; low Apgar.</li><li><strong>Regional (epidural/spinal):</strong> safer for the baby, but <strong>maternal hypotension</strong> &rarr; reduced placental flow &rarr; fetal bradycardia.</li><li><strong>Inhalational (Nitrous oxide/Entonox):</strong> minimal effect.</li></ol></div>
+<div class="answer-section"><h3 class="answer-section-title accent-title">Nursing Responsibilities</h3><ul class="answer-points"><li>Avoid giving opioids close to delivery</li><li>Keep <strong>naloxone</strong> &amp; neonatal resuscitation equipment ready</li><li>Monitor FHR and Apgar at 1 &amp; 5 minutes</li><li>Prevent maternal hypotension (IV fluids, left-lateral position) during epidural</li></ul></div>
+<div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Main newborn effect = <strong>respiratory depression + low Apgar</strong></li><li><strong>Naloxone</strong> reverses opioid (pethidine) depression</li><li>Epidural &rarr; maternal hypotension &rarr; fetal bradycardia</li><li>Always be ready to resuscitate the newborn</li></ul></div>
+<div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Analgesia</span><span class="kw">Anaesthesia</span><span class="kw">Pethidine</span><span class="kw">Respiratory depression</span><span class="kw">Apgar</span><span class="kw">Naloxone</span><span class="kw">Epidural</span><span class="kw">Maternal hypotension</span></div>
+<div class="editorial-example"><strong>Relatable Example:</strong> Pethidine given 30 minutes before a quick delivery leaves the baby sleepy and slow to breathe; the team gives naloxone and the baby pinks up &mdash; why opioids are avoided close to birth.</div>
+<div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div><ul><li><span class="term">Analgesia</span> Pain relief without loss of consciousness</li><li><span class="term">Anaesthesia</span> Loss of sensation (regional) or consciousness (general)</li><li><span class="term">Naloxone</span> Drug that reverses opioid effects</li><li><span class="term">Apgar score</span> A 0&ndash;10 score of the newborn's condition at birth</li></ul></div>
+<div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div><details><summary>What is the main effect of opioids on the newborn?</summary><p>Respiratory depression and a low Apgar score.</p></details><details><summary>Which drug reverses it?</summary><p>Naloxone.</p></details><details><summary>How does an epidural affect the baby?</summary><p>It can cause maternal hypotension, reducing placental blood flow and causing fetal bradycardia.</p></details></div>
 `
   }
 ];
