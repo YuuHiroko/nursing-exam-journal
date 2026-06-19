@@ -1239,5 +1239,74 @@ window.QUESTIONS_DATA_UNIT2 = [
 <details><summary>What does foul-smelling amniotic fluid indicate?</summary><p>Foul-smelling amniotic fluid = chorioamnionitis (infection of the amniotic membranes and fluid). Treatment: IV antibiotics immediately + urgent delivery of the baby regardless of gestational age, as the infection threatens both mother and baby.</p></details>
 </div>
 `
+  },
+  {
+    id: 90,
+    question: "Draw a diagram of female pelvis and discuss.",
+    marks: 5,
+    repeated: 1,
+    unit: 2,
+    years: "Summer 2018",
+    answer: `
+<div class="in-short"><strong>In Short:</strong> The female pelvis is a bony ring that supports the body and forms the <strong>birth canal</strong>. It is made of <strong>4 bones</strong> (2 innominate/hip bones, the sacrum and the coccyx). The <strong>pelvic brim</strong> divides it into the <em>false pelvis</em> (upper, supports the uterus) and the <em>true pelvis</em> (lower, through which the baby passes). The ideal female type is the <strong>gynaecoid pelvis</strong>.</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Bones &amp; Joints of the Pelvis</h3>
+  <ol class="answer-points">
+    <li><strong>4 Bones:</strong> Two <strong>innominate (hip) bones</strong> &mdash; each formed by fusion of <em>ilium, ischium and pubis</em> &mdash; plus the <strong>sacrum</strong> and the <strong>coccyx</strong>.</li>
+    <li><strong>4 Joints:</strong> Two <strong>sacro-iliac joints</strong>, one <strong>symphysis pubis</strong> (front) and one <strong>sacro-coccygeal joint</strong>. In pregnancy the hormone <strong>relaxin</strong> softens these joints to give a little extra room.</li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">True vs False Pelvis</h3>
+  <div class="answer-table-wrap"><table class="answer-table">
+    <thead><tr><th>Feature</th><th>False (Greater) Pelvis</th><th>True (Lesser) Pelvis</th></tr></thead>
+    <tbody>
+      <tr><td>Location</td><td>Above the pelvic brim</td><td>Below the pelvic brim</td></tr>
+      <tr><td>Function</td><td>Supports the pregnant uterus</td><td>Forms the <strong>birth canal</strong></td></tr>
+      <tr><td>Obstetric importance</td><td>Little</td><td>Very important &mdash; the baby must pass through it</td></tr>
+    </tbody>
+  </table></div>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">Planes &amp; Diameters of the True Pelvis</h3>
+  <ol class="answer-points">
+    <li><strong>Pelvic Inlet (Brim):</strong> Antero-posterior &mdash; <em>true conjugate</em> 11 cm, <em>obstetric conjugate</em> 10.5 cm (smallest &amp; most important), <em>diagonal conjugate</em> 12.5 cm; Transverse 13.5 cm; Oblique 12 cm.</li>
+    <li><strong>Pelvic Cavity:</strong> The roomiest part, almost round; all diameters about 12 cm. This is where <em>internal rotation</em> of the head occurs.</li>
+    <li><strong>Pelvic Outlet:</strong> Antero-posterior 13 cm; Transverse (bi-ischial / bi-tuberous) 11 cm. Here the head <em>extends</em> and is born.</li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Four Types of Pelvis</h3>
+  <div class="answer-table-wrap"><table class="answer-table">
+    <thead><tr><th>Type</th><th>Shape of Brim</th><th>Suitability for Delivery</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Gynaecoid</strong> (normal female)</td><td>Rounded</td><td><strong>Best</strong> &mdash; ideal for normal delivery (~50% of women)</td></tr>
+      <tr><td><strong>Android</strong> (male type)</td><td>Heart / wedge shaped</td><td>Poor &mdash; risk of obstructed labour, deep transverse arrest</td></tr>
+      <tr><td><strong>Anthropoid</strong> (ape-like)</td><td>Long oval (AP &gt; transverse)</td><td>Fair &mdash; favours occipito-posterior position</td></tr>
+      <tr><td><strong>Platypelloid</strong> (flat)</td><td>Wide oval (transverse &gt; AP)</td><td>Poor &mdash; head may fail to engage</td></tr>
+    </tbody>
+  </table></div>
+  <div class="mnemonic-box">
+    <div class="mnemonic-label">Mnemonic for the 4 types: <strong>"GAAP"</strong></div>
+    <div class="mnemonic-word"><span>G</span>-<span>A</span>-<span>A</span>-<span>P</span></div>
+    <div class="mnemonic-explain"><strong>G</strong>ynaecoid &middot; <strong>A</strong>ndroid &middot; <strong>A</strong>nthropoid &middot; <strong>P</strong>latypelloid</div>
+  </div>
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li>4 pelvic bones = 2 innominate + sacrum + coccyx</li>
+    <li>Pelvic brim divides the false (upper) and true (lower) pelvis</li>
+    <li><strong>Obstetric conjugate (10.5 cm)</strong> = smallest AP diameter of the inlet the head must pass &mdash; most important measurement</li>
+    <li><strong>Gynaecoid</strong> = the ideal pelvis for normal delivery</li>
+    <li>Relaxin softens the pelvic joints in pregnancy for extra room</li>
+  </ul>
+</div>
+`
   }
 ];

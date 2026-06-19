@@ -2731,5 +2731,213 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 <details><summary>Which movement makes the smallest diameter present?</summary><p>Flexion &mdash; it brings the suboccipitobregmatic diameter (9.5 cm) to lead.</p></details>
 </div>
 `
+  },
+  {
+    id: 98,
+    question: "Physiology of first stage of labour.",
+    marks: 5,
+    repeated: 1,
+    unit: 4,
+    years: "Winter 2019",
+    answer: `
+<div class="in-short"><strong>In Short:</strong> The first stage of labour is from the <strong>onset of true labour to full dilatation of the cervix (10 cm)</strong>. Its physiology involves rhythmic <strong>uterine contractions</strong> (with fundal dominance, polarity and retraction), formation of upper and lower uterine segments, and progressive <strong>effacement and dilatation</strong> of the cervix.</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Physiological Events</h3>
+  <ol class="answer-points">
+    <li><strong>Uterine contractions:</strong>
+      <ul class="sub-points">
+        <li><strong>Fundal dominance</strong> &mdash; contraction is strongest at the fundus.</li>
+        <li><strong>Polarity</strong> &mdash; the upper segment contracts &amp; retracts while the lower segment relaxes &amp; dilates.</li>
+        <li><strong>Retraction</strong> &mdash; muscle fibres of the upper segment shorten permanently and do not fully relax, gradually pulling the cervix open.</li>
+      </ul>
+    </li>
+    <li><strong>Formation of upper and lower uterine segments</strong> with a <strong>retraction ring</strong> between them.</li>
+    <li><strong>Cervical changes:</strong> <em>Effacement</em> (taking up / thinning of the cervix) and <em>dilatation</em> (opening from 0 to 10 cm).</li>
+    <li><strong>Show:</strong> Expulsion of the blood-stained mucus plug from the cervix.</li>
+    <li><strong>Formation of the bag of forewaters</strong> and eventual <strong>rupture of membranes</strong>.</li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">Phases &amp; Duration</h3>
+  <ul class="answer-points">
+    <li><strong>Latent phase:</strong> 0&rarr;4 cm, slow.</li>
+    <li><strong>Active phase:</strong> 4&rarr;10 cm, about 1 cm/hour.</li>
+    <li><strong>Duration:</strong> Primigravida ~12 hours; Multigravida ~6&ndash;8 hours.</li>
+  </ul>
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li>1st stage = onset of true labour &rarr; full dilatation (10 cm)</li>
+    <li>3 features of normal contraction: <strong>fundal dominance, polarity, retraction</strong></li>
+    <li>Cervix: <strong>effacement + dilatation</strong>; monitor on the partograph</li>
+    <li>Active phase progresses ~1 cm/hr</li>
+  </ul>
+</div>
+`
+  },
+  {
+    id: 99,
+    question: "Discuss the signs and symptoms of first stage of labour.",
+    marks: 5,
+    repeated: 1,
+    unit: 4,
+    years: "Winter 2016",
+    answer: `
+<div class="in-short"><strong>In Short:</strong> The first stage of labour is marked by <strong>true labour pains</strong> (regular, painful uterine contractions that increase in strength), <strong>show</strong>, progressive <strong>cervical effacement and dilatation</strong>, descent of the presenting part and often <strong>rupture of membranes</strong>.</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Signs &amp; Symptoms</h3>
+  <ol class="answer-points">
+    <li><strong>True labour pains:</strong> Regular, rhythmic uterine contractions that <em>increase in frequency, duration and intensity</em>; felt from the back radiating to the front; not relieved by rest.</li>
+    <li><strong>Show:</strong> Expulsion of blood-stained mucus plug.</li>
+    <li><strong>Cervical changes:</strong> Progressive effacement and dilatation (felt on per-vaginal examination).</li>
+    <li><strong>Descent</strong> of the presenting part into the pelvis.</li>
+    <li><strong>Formation of the bag of forewaters</strong> and rupture of membranes (draining of liquor).</li>
+    <li>Hardening of the uterus felt on the abdomen during contractions.</li>
+  </ol>
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li>Hallmark = <strong>regular painful contractions + cervical dilatation</strong></li>
+    <li>"Show" = blood-stained mucus plug</li>
+    <li>True pain: back &rarr; front, increases with time, not relieved by walking/sedation</li>
+  </ul>
+</div>
+`
+  },
+  {
+    id: 100,
+    question: "Difference between true and false labour pain.",
+    marks: 5,
+    repeated: 1,
+    unit: 4,
+    years: "Winter 2022",
+    answer: `
+<div class="in-short"><strong>In Short:</strong> <strong>True labour pains</strong> are regular, increasing contractions that <em>dilate the cervix</em> and lead to delivery. <strong>False labour pains</strong> (Braxton Hicks) are irregular, do not increase, do <em>not</em> dilate the cervix and settle with rest.</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">True vs False Labour Pains</h3>
+  <div class="answer-table-wrap"><table class="answer-table">
+    <thead><tr><th>Feature</th><th>True Labour</th><th>False Labour</th></tr></thead>
+    <tbody>
+      <tr><td>Contractions</td><td>Regular, rhythmic</td><td>Irregular</td></tr>
+      <tr><td>Interval</td><td>Gradually shortens</td><td>Remains long / variable</td></tr>
+      <tr><td>Intensity</td><td>Progressively increases</td><td>Stays the same or weak</td></tr>
+      <tr><td>Site of pain</td><td>Back &rarr; radiates to front/abdomen</td><td>Mainly lower abdomen / groin</td></tr>
+      <tr><td>Effect of walking</td><td>Pain increases</td><td>Pain often relieved</td></tr>
+      <tr><td>Cervix</td><td>Effaces &amp; dilates</td><td>No change</td></tr>
+      <tr><td>Show</td><td>Present</td><td>Absent</td></tr>
+      <tr><td>Effect of sedation</td><td>Not relieved</td><td>Relieved</td></tr>
+    </tbody>
+  </table></div>
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li><strong>True</strong> = Regular, Rising intensity, <strong>cervical dilatation</strong>, show present, not relieved by rest</li>
+    <li><strong>False</strong> = Irregular, no dilatation, relieved by rest/sedation</li>
+    <li>The single best distinguishing feature = <strong>progressive cervical dilatation</strong></li>
+  </ul>
+</div>
+`
+  },
+  {
+    id: 101,
+    question: "Oxytocin. / Injection Oxytocin. / Pitocin.",
+    marks: 5,
+    repeated: 7,
+    unit: 4,
+    years: "Winter 2015, Winter 2018, Summer 2020, Winter 2020, Winter 2021, Winter 2022, Summer 2025",
+    answer: `
+<div class="in-short"><strong>In Short:</strong> Oxytocin is a hormone secreted by the <strong>posterior pituitary gland</strong>. Its synthetic forms (<strong>Syntocinon / Pitocin</strong>) are used in obstetrics to <strong>contract the uterus</strong> &mdash; for inducing/augmenting labour, preventing &amp; treating postpartum haemorrhage (PPH), and it also causes the <strong>milk let-down (ejection) reflex</strong>.</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Actions</h3>
+  <ul class="answer-points">
+    <li>Stimulates <strong>rhythmic contraction</strong> of uterine muscle</li>
+    <li>Causes <strong>milk ejection</strong> (let-down) from the breast during suckling</li>
+    <li>Has a mild <strong>antidiuretic</strong> effect (water retention in large doses)</li>
+  </ul>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">Uses in Obstetrics &amp; Dose</h3>
+  <ol class="answer-points">
+    <li><strong>Active management of 3rd stage (AMTSL):</strong> <strong>10 IU IM</strong> within 1 minute of birth &mdash; prevents PPH.</li>
+    <li><strong>Treatment of PPH / uterine atony:</strong> 20 IU in 500 ml IV fluid as infusion.</li>
+    <li><strong>Induction &amp; augmentation of labour:</strong> dilute IV infusion, dose titrated to contractions.</li>
+    <li>After abortion / to expel retained products and to control bleeding.</li>
+  </ol>
+  <p class="answer-text"><strong>Routes:</strong> IM and IV infusion. <strong>Storage:</strong> in a refrigerator at 2&ndash;8&deg;C.</p>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Side Effects &amp; Precautions</h3>
+  <ul class="answer-points">
+    <li><strong>Uterine hyperstimulation</strong> &rarr; fetal distress, risk of uterine rupture</li>
+    <li><strong>Water intoxication</strong> with high doses (antidiuretic effect)</li>
+    <li>Hypotension if given as rapid IV bolus &mdash; <strong>never give undiluted IV push</strong></li>
+    <li>Contraindicated for induction in CPD, malpresentation and (relative) previous caesarean &mdash; always monitor FHR and contractions</li>
+  </ul>
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li>Source = <strong>posterior pituitary</strong>; synthetic = Syntocinon/Pitocin</li>
+    <li><strong>AMTSL dose = 10 IU IM</strong> within 1 minute of birth</li>
+    <li>Main danger = <strong>hyperstimulation</strong> &rarr; fetal distress / rupture</li>
+    <li>Store at 2&ndash;8&deg;C; never give as undiluted IV bolus</li>
+  </ul>
+</div>
+`
+  },
+  {
+    id: 102,
+    question: "Discuss effects of analgesia and anaesthesia during labour on the newborn.",
+    marks: 5,
+    repeated: 1,
+    unit: 4,
+    years: "Winter 2014",
+    answer: `
+<div class="in-short"><strong>In Short:</strong> Pain-relieving drugs (analgesia) and anaesthesia given to the mother can <strong>cross the placenta</strong> and reach the baby, or lower the mother's blood pressure &mdash; both of which can affect the newborn, most importantly causing <strong>respiratory depression and a low Apgar score</strong>.</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Effects on the Newborn</h3>
+  <ol class="answer-points">
+    <li><strong>Opioids (Pethidine, Morphine):</strong> cross the placenta &rarr; <strong>respiratory depression</strong>, drowsiness, poor feeding, low Apgar &mdash; especially if given within 1&ndash;4 hours of birth. Reversed by <strong>naloxone</strong>.</li>
+    <li><strong>General anaesthesia:</strong> depresses the baby &rarr; respiratory depression and low Apgar; risk of aspiration in mother.</li>
+    <li><strong>Regional (epidural / spinal):</strong> safer for the baby, but can cause <strong>maternal hypotension</strong> &rarr; reduced placental blood flow &rarr; fetal bradycardia.</li>
+    <li><strong>Inhalational (Nitrous oxide / Entonox):</strong> minimal effect on the baby.</li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">Nursing Responsibilities</h3>
+  <ul class="answer-points">
+    <li>Avoid giving opioids close to delivery</li>
+    <li>Keep <strong>naloxone</strong> and full neonatal resuscitation equipment ready</li>
+    <li>Monitor the fetal heart rate and the Apgar score at 1 and 5 minutes</li>
+    <li>Prevent maternal hypotension with IV fluids and left-lateral position during epidural</li>
+  </ul>
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li>Main newborn effect = <strong>respiratory depression + low Apgar</strong></li>
+    <li><strong>Naloxone</strong> reverses opioid (pethidine) depression in the baby</li>
+    <li>Epidural &rarr; maternal hypotension &rarr; fetal bradycardia</li>
+    <li>Always be ready to resuscitate the newborn</li>
+  </ul>
+</div>
+`
   }
 ];

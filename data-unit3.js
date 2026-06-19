@@ -2769,4 +2769,309 @@ window.QUESTIONS_DATA_UNIT3 = [
 </div>
 `
   },
+  {
+    id: 91,
+    question: "Activities carried out in antenatal clinic.",
+    marks: 5,
+    repeated: 1,
+    unit: 3,
+    years: "Winter 2021",
+    answer: `
+<div class="in-short"><strong>In Short:</strong> The antenatal (ANC) clinic is where a pregnant woman gets regular check-ups to keep both mother and baby healthy. The main activities are <strong>registration, history taking, examination, investigations, immunization, supplements, health education, and identification &amp; referral of high-risk cases</strong>.</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Activities at the Antenatal Clinic</h3>
+  <ol class="answer-points">
+    <li><strong>Registration &amp; History:</strong> Register the woman (MCP card), take menstrual, obstetric, medical and family history; calculate EDD and gestational age.</li>
+    <li><strong>General Examination:</strong> Weight, height, BP, pulse, temperature; check for pallor (anaemia), oedema, jaundice; breast and thyroid examination.</li>
+    <li><strong>Obstetric (Abdominal) Examination:</strong> Inspection, fundal height, abdominal palpation (lie, presentation, position), and auscultation of the fetal heart sound.</li>
+    <li><strong>Investigations:</strong> Hb%, blood group &amp; Rh typing, urine (albumin &amp; sugar), blood sugar (GDM), HIV, VDRL, HBsAg, and ultrasound.</li>
+    <li><strong>Immunization &amp; Supplements:</strong> Td/TT injections; Iron-Folic-Acid and Calcium tablets; deworming.</li>
+    <li><strong>Treatment:</strong> Manage minor ailments and treat anaemia / infections.</li>
+    <li><strong>Health Education:</strong> Diet, rest, personal hygiene, antenatal exercise, danger signs, breastfeeding and birth preparedness.</li>
+    <li><strong>Risk Screening &amp; Referral:</strong> Identify high-risk pregnancies and refer to a higher centre.</li>
+    <li><strong>Records &amp; Follow-up:</strong> Maintain records and fix the next visit (GoI recommends at least 4&ndash;8 ANC visits).</li>
+  </ol>
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li>Minimum <strong>4 ANC visits</strong> (WHO 2016 now recommends 8 contacts)</li>
+    <li>Every visit: <strong>weight, BP, urine albumin/sugar, Hb, fundal height, FHS</strong></li>
+    <li><strong>Td</strong> immunization protects against maternal &amp; neonatal tetanus</li>
+    <li>IFA from 2nd trimester for at least 180 days; Calcium 1 g/day</li>
+  </ul>
+</div>
+`
+  },
+  {
+    id: 92,
+    question: "Antenatal exercises.",
+    marks: 5,
+    repeated: 2,
+    unit: 3,
+    years: "Winter 2019, Winter 2020",
+    answer: `
+<div class="in-short"><strong>In Short:</strong> Antenatal exercises are gentle, regular exercises during pregnancy that <strong>prepare the body for labour</strong>, relieve common discomforts (backache, constipation), improve circulation and breathing, and help the mother relax and recover faster after birth.</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Purposes / Benefits</h3>
+  <ul class="answer-points">
+    <li>Strengthen muscles used in labour and make delivery easier</li>
+    <li>Relieve backache, leg cramps and constipation</li>
+    <li>Improve blood circulation and prevent varicose veins / oedema</li>
+    <li>Teach breathing control and relaxation to cope with labour pain</li>
+    <li>Promote good sleep and faster postnatal recovery</li>
+  </ul>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">Types of Antenatal Exercises</h3>
+  <ol class="answer-points">
+    <li><strong>Breathing exercises:</strong> Deep (abdominal) and shallow chest breathing &mdash; used for relaxation and during contractions.</li>
+    <li><strong>Pelvic floor exercises (Kegel):</strong> Tighten and relax the pelvic muscles &mdash; prevent urine leakage and prolapse.</li>
+    <li><strong>Pelvic rocking / tilting:</strong> Relieves low backache.</li>
+    <li><strong>Squatting &amp; tailor (cross-legged) sitting:</strong> Make the pelvic joints supple and widen the outlet.</li>
+    <li><strong>Leg and foot exercises:</strong> Prevent cramps, oedema and clots.</li>
+    <li><strong>Walking &amp; relaxation techniques:</strong> Keep the body active and the mind calm.</li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Precautions</h3>
+  <ul class="answer-points">
+    <li>Avoid over-exertion; stop if pain, bleeding, breathlessness or dizziness occurs</li>
+    <li>Avoid lying flat on the back after the 4th month (supine hypotension)</li>
+    <li>Contraindicated in high-risk cases: APH, PIH/eclampsia, threatened abortion, heart disease</li>
+  </ul>
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li>Kegel = pelvic floor; Pelvic rocking = relieves backache</li>
+    <li>Breathing exercises help during contractions (especially 1st &amp; 2nd stage)</li>
+    <li>No supine position after 4 months; avoid in high-risk pregnancy</li>
+  </ul>
+</div>
+`
+  },
+  {
+    id: 93,
+    question: "Diet in pregnancy. / Antenatal diet.",
+    marks: 5,
+    repeated: 2,
+    unit: 3,
+    years: "Winter 2018, Winter 2023",
+    answer: `
+<div class="in-short"><strong>In Short:</strong> A pregnant woman needs a <strong>balanced diet</strong> with extra energy, protein, iron, calcium, folic acid and vitamins to support her own health and the baby's growth. She needs about <strong>350 extra kilocalories per day</strong> in the 2nd and 3rd trimesters, plus iron, folic-acid and calcium supplements.</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Key Nutrients &amp; Sources</h3>
+  <div class="answer-table-wrap"><table class="answer-table">
+    <thead><tr><th>Nutrient</th><th>Why Needed</th><th>Food Sources</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Protein</strong> (+ ~23 g/day)</td><td>Growth of baby, uterus, breasts</td><td>Pulses (dal), milk, curd, egg, fish, meat, soya</td></tr>
+      <tr><td><strong>Iron</strong></td><td>Prevents anaemia, makes haemoglobin</td><td>Green leafy vegetables, jaggery, dates, liver</td></tr>
+      <tr><td><strong>Calcium</strong></td><td>Baby's bones &amp; teeth</td><td>Milk, curd, paneer, ragi, til (sesame)</td></tr>
+      <tr><td><strong>Folic acid</strong></td><td>Prevents neural tube defects</td><td>Green leafy vegetables, citrus fruits, pulses</td></tr>
+      <tr><td><strong>Iodine</strong></td><td>Baby's brain development</td><td>Iodised salt, sea food</td></tr>
+      <tr><td><strong>Vitamins / Fibre / Water</strong></td><td>Immunity, prevent constipation</td><td>Fruits, vegetables, whole grains, plenty of water</td></tr>
+    </tbody>
+  </table></div>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">Supplements (GoI) &amp; Foods to Avoid</h3>
+  <ul class="answer-points">
+    <li><strong>IFA (Iron-Folic-Acid):</strong> 1 tablet daily from the 2nd trimester for at least 180 days</li>
+    <li><strong>Calcium:</strong> 1 g/day; <strong>Folic acid 400 mcg</strong> ideally from before conception</li>
+    <li><strong>Avoid:</strong> alcohol, smoking, excess tea/coffee (reduces iron absorption), junk &amp; raw/unpasteurised food</li>
+  </ul>
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li>Extra <strong>~350 kcal/day</strong> in 2nd &amp; 3rd trimester; extra protein ~23 g/day</li>
+    <li>IFA for &ge;180 days; folic acid prevents neural tube defects</li>
+    <li>Vitamin C (citrus) helps iron absorption; tea/coffee reduce it</li>
+    <li>"Eating for two" means quality, not double quantity</li>
+  </ul>
+</div>
+`
+  },
+  {
+    id: 94,
+    question: "Biochemical investigations in pregnancy.",
+    marks: 5,
+    repeated: 1,
+    unit: 3,
+    years: "Summer 2018",
+    answer: `
+<div class="in-short"><strong>In Short:</strong> Biochemical investigations are <strong>blood and urine tests</strong> done during pregnancy to confirm pregnancy, detect anaemia, infections, diabetes and high BP, screen the baby for abnormalities, and keep mother and baby safe.</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Common Investigations</h3>
+  <div class="answer-table-wrap"><table class="answer-table">
+    <thead><tr><th>Test</th><th>Purpose</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Urine for hCG (UPT)</strong></td><td>Confirms pregnancy</td></tr>
+      <tr><td><strong>Haemoglobin (Hb%)</strong></td><td>Detects anaemia (normal &ge; 11 g/dL)</td></tr>
+      <tr><td><strong>Blood group &amp; Rh typing</strong></td><td>Detects Rh-negative mother (risk of isoimmunisation)</td></tr>
+      <tr><td><strong>Blood sugar (GCT / OGTT)</strong></td><td>Screens for gestational diabetes (GDM)</td></tr>
+      <tr><td><strong>Urine albumin &amp; sugar</strong></td><td>Albumin &rarr; PIH/pre-eclampsia; sugar &rarr; GDM</td></tr>
+      <tr><td><strong>HIV, VDRL, HBsAg</strong></td><td>Screens for HIV, syphilis, hepatitis B</td></tr>
+      <tr><td><strong>TSH</strong></td><td>Detects thyroid disorders</td></tr>
+      <tr><td><strong>Double / Triple / Quadruple marker</strong></td><td>Screens for Down syndrome &amp; neural tube defects</td></tr>
+      <tr><td><strong>Amniotic fluid &mdash; AFP, L/S ratio</strong></td><td>AFP &rarr; neural tube defects; L/S ratio &rarr; lung maturity</td></tr>
+    </tbody>
+  </table></div>
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li>Normal pregnancy Hb &ge; <strong>11 g/dL</strong> (anaemia below this)</li>
+    <li><strong>Urine albumin</strong> = warning sign of pre-eclampsia</li>
+    <li><strong>L/S ratio 2:1</strong> = mature fetal lungs</li>
+    <li>High <strong>AFP</strong> = neural tube defect (spina bifida)</li>
+  </ul>
+</div>
+`
+  },
+  {
+    id: 95,
+    question: "Non Stress Test (NST).",
+    marks: 5,
+    repeated: 3,
+    unit: 3,
+    years: "Summer 2018, Summer 2020, Summer 2023",
+    answer: `
+<div class="in-short"><strong>In Short:</strong> The Non-Stress Test (NST) is a simple, <strong>non-invasive test of fetal well-being</strong> that records the baby's heart rate and how it changes with the baby's movements &mdash; using a CTG machine. A healthy baby's heart rate <strong>speeds up</strong> when it moves. "Non-stress" means no contractions are induced.</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Procedure</h3>
+  <ol class="answer-points">
+    <li>Done after <strong>28&ndash;32 weeks</strong>; woman lies in semi-Fowler's or left-lateral position (avoids supine hypotension).</li>
+    <li>Two belts of a <strong>cardiotocograph (CTG)</strong> are placed on the abdomen &mdash; one records fetal heart rate, the other uterine activity.</li>
+    <li>The mother presses a button each time she feels the baby move; recorded for <strong>20&ndash;40 minutes</strong>.</li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">Interpretation</h3>
+  <div class="answer-table-wrap"><table class="answer-table">
+    <thead><tr><th>Result</th><th>Meaning</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Reactive (Normal)</strong></td><td>&ge; 2 accelerations of &ge; 15 bpm lasting &ge; 15 seconds within 20 minutes &mdash; baby is healthy &amp; well-oxygenated</td></tr>
+      <tr><td><strong>Non-reactive</strong></td><td>No/insufficient accelerations &mdash; may mean the baby is sleeping or distressed &rarr; needs further tests (BPP / CST)</td></tr>
+    </tbody>
+  </table></div>
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li>Reactive = <strong>2 accelerations, 15 bpm, 15 sec, in 20 min</strong> ("15&times;15&times;2")</li>
+    <li>Normal baseline FHR = <strong>120&ndash;160 bpm</strong></li>
+    <li>Indications: post-dates, IUGR, reduced fetal movements, PIH, GDM, Rh-negative</li>
+    <li>Non-reactive &rarr; do Biophysical Profile or Contraction Stress Test</li>
+  </ul>
+</div>
+`
+  },
+  {
+    id: 96,
+    question: "Biophysical profile (BPP).",
+    marks: 3,
+    repeated: 1,
+    unit: 3,
+    years: "Summer 2014",
+    answer: `
+<div class="in-short"><strong>In Short:</strong> The Biophysical Profile (BPP) is a test of fetal well-being that combines an <strong>ultrasound scan with the NST</strong>. It checks <strong>5 parameters</strong>, each scored 0 or 2, for a maximum of <strong>10</strong>.</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">The 5 Components (each scored 0 or 2)</h3>
+  <ol class="answer-points">
+    <li><strong>Non-Stress Test</strong> &mdash; reactive fetal heart rate</li>
+    <li><strong>Fetal breathing movements</strong></li>
+    <li><strong>Gross body movements</strong></li>
+    <li><strong>Fetal tone</strong> (flexion/extension of limbs)</li>
+    <li><strong>Amniotic fluid volume</strong></li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">Scoring</h3>
+  <ul class="answer-points">
+    <li><strong>8&ndash;10</strong> = Normal (reassuring)</li>
+    <li><strong>6</strong> = Equivocal &mdash; repeat / monitor</li>
+    <li><strong>&le; 4</strong> = Abnormal &mdash; baby at risk, plan delivery</li>
+  </ul>
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li>5 parameters &times; 2 = maximum score <strong>10</strong></li>
+    <li>NST + 4 ultrasound parameters (breathing, movement, tone, fluid)</li>
+    <li>Score &le; 4 = deliver the baby</li>
+  </ul>
+</div>
+`
+  },
+  {
+    id: 97,
+    question: "Amniocentesis.",
+    marks: 5,
+    repeated: 1,
+    unit: 3,
+    years: "Summer 2022",
+    answer: `
+<div class="in-short"><strong>In Short:</strong> Amniocentesis is a procedure in which a small amount of <strong>amniotic fluid (15&ndash;20 ml)</strong> is removed from the uterus with a needle through the abdomen, under ultrasound guidance, to test the baby for <strong>genetic problems, neural tube defects, lung maturity or Rh disease</strong>.</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">Indications</h3>
+  <ul class="answer-points">
+    <li><strong>Genetic / chromosomal study</strong> &mdash; Down syndrome (especially advanced maternal age &gt; 35 yrs)</li>
+    <li><strong>Neural tube defects</strong> &mdash; raised alpha-fetoprotein (AFP)</li>
+    <li><strong>Rh isoimmunisation</strong> &mdash; bilirubin level in fluid</li>
+    <li><strong>Fetal lung maturity</strong> &mdash; L/S ratio (before a planned preterm delivery)</li>
+    <li>Sex-linked inherited disorders</li>
+  </ul>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Procedure &amp; Nursing Care</h3>
+  <ol class="answer-points">
+    <li>Take informed consent; ask the woman to empty her bladder; position supine.</li>
+    <li>Localise the placenta and a fluid pocket with <strong>ultrasound</strong>; clean the abdomen aseptically.</li>
+    <li>A fine needle is passed through the abdominal &amp; uterine wall and fluid is aspirated.</li>
+    <li>Give <strong>anti-D immunoglobulin</strong> if the mother is Rh-negative.</li>
+    <li>After: watch for leakage of fluid, bleeding, fever or reduced fetal movements.</li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">Complications</h3>
+  <ul class="answer-points">
+    <li>Abortion / miscarriage (about 0.5&ndash;1%)</li>
+    <li>Infection (chorioamnionitis), leakage of amniotic fluid</li>
+    <li>Rh sensitisation; rarely injury to the baby</li>
+  </ul>
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li>Best time for genetic study = <strong>15&ndash;18 weeks</strong></li>
+    <li>Always done under <strong>ultrasound guidance</strong></li>
+    <li>Give <strong>anti-D</strong> to Rh-negative mothers afterwards</li>
+    <li>Main risk = miscarriage (~1%)</li>
+  </ul>
+</div>
+`
+  },
 ];

@@ -1213,5 +1213,226 @@ window.QUESTIONS_DATA_UNIT5 = [
 <details><summary>Why is colostrum called the baby's "first vaccine"?</summary><p>Because it is rich in antibodies (especially IgA) that protect the newborn from infection, like a vaccine.</p></details>
 </div>
 `
+  },
+  {
+    id: 103,
+    question: "Physiology of lactation.",
+    marks: 5,
+    repeated: 3,
+    unit: 5,
+    years: "Winter 2019, Summer 2021, Winter 2024",
+    answer: `
+<div class="in-short"><strong>In Short:</strong> Lactation is the <strong>secretion and ejection of breast milk</strong>. It is controlled by two hormones working as two reflexes &mdash; <strong>prolactin</strong> (the milk-<em>secretion</em> reflex) and <strong>oxytocin</strong> (the milk-<em>ejection</em> or let-down reflex). Both are triggered by the baby's <strong>suckling</strong>.</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Stages of Lactation</h3>
+  <ol class="answer-points">
+    <li><strong>Mammogenesis:</strong> Growth of breast tissue during pregnancy (oestrogen &amp; progesterone).</li>
+    <li><strong>Lactogenesis:</strong> Initiation of milk secretion after delivery &mdash; once the placenta is out, oestrogen/progesterone fall and <strong>prolactin</strong> acts freely.</li>
+    <li><strong>Galactopoiesis:</strong> Maintenance of milk supply by continued <strong>suckling</strong> (prolactin + oxytocin).</li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">The Two Reflexes</h3>
+  <ol class="answer-points">
+    <li><strong>Prolactin reflex (milk secretion):</strong> Suckling &rarr; impulses to the <strong>anterior pituitary</strong> &rarr; prolactin &rarr; alveoli secrete milk. Prolactin is higher <strong>at night</strong>, so night feeds help supply.</li>
+    <li><strong>Oxytocin reflex (milk ejection / let-down):</strong> Suckling &rarr; <strong>posterior pituitary</strong> &rarr; oxytocin &rarr; myoepithelial cells around the alveoli contract &rarr; milk flows to the nipple. This reflex is <em>helped</em> by the mother's confidence and seeing/hearing the baby, and <em>inhibited</em> by pain, stress or anxiety.</li>
+  </ol>
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li><strong>Prolactin = milk production</strong> (anterior pituitary); higher at night</li>
+    <li><strong>Oxytocin = milk ejection / let-down</strong> (posterior pituitary); also contracts the uterus</li>
+    <li>Both reflexes are driven by <strong>suckling</strong> &mdash; more suckling = more milk</li>
+    <li>Stress &amp; pain inhibit the let-down reflex</li>
+    <li>Colostrum (first milk) &rarr; transitional &rarr; mature milk</li>
+  </ul>
+</div>
+`
+  },
+  {
+    id: 104,
+    question: "Lactation management.",
+    marks: 5,
+    repeated: 2,
+    unit: 5,
+    years: "Winter 2017, Winter 2024",
+    answer: `
+<div class="in-short"><strong>In Short:</strong> Lactation management means <strong>helping the mother breastfeed successfully</strong> &mdash; early initiation within 1 hour, correct positioning and attachment, exclusive breastfeeding for 6 months, feeding on demand, and managing common breast problems.</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Key Steps in Lactation Management</h3>
+  <ol class="answer-points">
+    <li><strong>Early initiation:</strong> Put the baby to the breast within <strong>1 hour</strong> of birth; give colostrum; no prelacteal feeds.</li>
+    <li><strong>Correct positioning &amp; attachment (latching):</strong> Baby's body facing the mother, chin touching the breast, mouth wide open, lower lip everted, more areola visible above than below.</li>
+    <li><strong>Exclusive breastfeeding</strong> for the first 6 months &mdash; no water, no other milk.</li>
+    <li><strong>Feed on demand</strong>, day and night; empty one breast before offering the other; burp the baby after feeds.</li>
+    <li>Avoid bottles, pacifiers and nipple confusion; teach <strong>expression &amp; storage</strong> of breast milk for working mothers.</li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">Managing Common Problems</h3>
+  <ul class="answer-points">
+    <li><strong>Breast engorgement:</strong> frequent feeding, warm compress before &amp; cold after, express milk.</li>
+    <li><strong>Sore / cracked nipples:</strong> correct the attachment, apply hindmilk, keep dry.</li>
+    <li><strong>Flat / inverted nipples:</strong> Hoffman's exercises, syringe method, nipple puller.</li>
+    <li><strong>"Not enough milk":</strong> reassure, more frequent suckling, good diet, rest, build confidence.</li>
+  </ul>
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li>Initiate breastfeeding within <strong>1 hour</strong>; exclusive BF for <strong>6 months</strong></li>
+    <li>Good attachment signs &mdash; <strong>"CALM": C</strong>hin touching, <strong>A</strong>reola more above, <strong>L</strong>ower lip everted, <strong>M</strong>outh wide open</li>
+    <li>More suckling &rarr; more milk; treat engorgement &amp; sore nipples early</li>
+  </ul>
+</div>
+`
+  },
+  {
+    id: 105,
+    question: "Psychological complications during puerperium. / Postpartum blues.",
+    marks: 5,
+    repeated: 2,
+    unit: 5,
+    years: "Summer 2016, Winter 2017",
+    answer: `
+<div class="in-short"><strong>In Short:</strong> After childbirth, hormonal changes and stress can cause psychological problems ranging from mild <strong>postpartum (baby) blues</strong>, to <strong>postpartum depression</strong>, to severe <strong>postpartum psychosis</strong>. The nurse must recognise these early and ensure the safety of both mother and baby.</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">The Three Conditions</h3>
+  <div class="answer-table-wrap"><table class="answer-table">
+    <thead><tr><th>Feature</th><th>Postpartum Blues</th><th>Postpartum Depression</th><th>Postpartum Psychosis</th></tr></thead>
+    <tbody>
+      <tr><td>Frequency</td><td>Very common (50&ndash;80%)</td><td>~10&ndash;15%</td><td>Rare (~0.1&ndash;0.2%)</td></tr>
+      <tr><td>Onset</td><td>Day 3&ndash;5</td><td>Within weeks to months</td><td>Within first 2 weeks</td></tr>
+      <tr><td>Features</td><td>Mild mood swings, weepiness, anxiety</td><td>Persistent sadness, guilt, loss of interest, sleep/appetite change</td><td>Delusions, hallucinations, confusion, risk to baby</td></tr>
+      <tr><td>Duration</td><td>Resolves in ~2 weeks</td><td>Months if untreated</td><td>Emergency</td></tr>
+      <tr><td>Management</td><td>Reassurance &amp; support only</td><td>Counselling + antidepressants</td><td>Psychiatric admission, medication; never leave baby alone with mother</td></tr>
+    </tbody>
+  </table></div>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">Nursing Role</h3>
+  <ul class="answer-points">
+    <li>Provide emotional support, listen, and reassure the mother</li>
+    <li>Screen for depression (e.g., <strong>Edinburgh Postnatal Depression Scale</strong>)</li>
+    <li>Involve the family; encourage rest and help with the baby</li>
+    <li>Watch for thoughts of self-harm or harming the baby &mdash; refer urgently</li>
+  </ul>
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li><strong>Blues</strong> = mild, day 3&ndash;5, self-limiting (only support)</li>
+    <li><strong>Depression</strong> = persistent, needs counselling &amp; medication</li>
+    <li><strong>Psychosis</strong> = emergency, delusions/hallucinations, baby at risk</li>
+    <li>Screening tool = <strong>EPDS</strong></li>
+  </ul>
+</div>
+`
+  },
+  {
+    id: 106,
+    question: "Minor ailments in puerperium.",
+    marks: 3,
+    repeated: 1,
+    unit: 5,
+    years: "Summer 2014",
+    answer: `
+<div class="in-short"><strong>In Short:</strong> Minor ailments of the puerperium are the common, <strong>not dangerous</strong> discomforts a mother feels in the weeks after delivery, such as afterpains, breast engorgement, constipation and perineal pain. They need simple care and reassurance.</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">Common Minor Ailments &amp; Care</h3>
+  <ul class="answer-points">
+    <li><strong>Afterpains:</strong> cramping as the uterus contracts (worse during breastfeeding) &mdash; reassurance, mild analgesic.</li>
+    <li><strong>Breast engorgement / sore nipples:</strong> frequent feeding, correct latch, warm/cold compress.</li>
+    <li><strong>Perineal pain:</strong> from tear/episiotomy &mdash; hygiene, sitz bath, analgesic.</li>
+    <li><strong>Constipation:</strong> high-fibre diet, plenty of fluids, early mobilisation.</li>
+    <li><strong>Retention / difficulty passing urine:</strong> privacy, warm water, early ambulation.</li>
+    <li><strong>Backache &amp; "milk fever":</strong> rest, good posture; a mild transient fever when milk comes in.</li>
+  </ul>
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li>Afterpains worsen with breastfeeding (oxytocin contracts the uterus)</li>
+    <li>Most settle with hygiene, diet, fluids, mobilisation &amp; reassurance</li>
+    <li>Distinguish from danger signs (heavy bleeding, high fever, foul lochia)</li>
+  </ul>
+</div>
+`
+  },
+  {
+    id: 107,
+    question: "Mrs. Savita is admitted to the postnatal ward one hour after delivery: (i) Define puerperium (ii) Immediate assessment (iii) Postnatal care & advice (iv) Nursing care plan for five priority diagnoses.",
+    marks: 15,
+    repeated: 1,
+    unit: 5,
+    years: "Winter 2023",
+    answer: `
+<div class="in-short"><strong>In Short:</strong> One hour after delivery Mrs. Savita is in the <strong>early puerperium</strong> &mdash; the highest-risk period for postpartum haemorrhage. Priority care is to <strong>watch the uterus, lochia and vital signs</strong>, relieve pain, prevent infection, support breastfeeding, and plan nursing care around five priority diagnoses.</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">(i) Definition of Puerperium</h3>
+  <div class="definition-box"><strong>Puerperium</strong> is the period of about <strong>6 weeks</strong> after delivery during which the reproductive organs return to their non-pregnant state (involution) and lactation is established. It begins after delivery of the placenta.</div>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title teal-title">(ii) Immediate Assessment of Mrs. Savita</h3>
+  <ol class="answer-points">
+    <li><strong>Vital signs:</strong> pulse, BP, temperature, respiration (detect shock / haemorrhage / infection).</li>
+    <li><strong>Uterus:</strong> fundal height and tone &mdash; should be firm, central, at/below the umbilicus. A soft (boggy) uterus = atony = bleeding.</li>
+    <li><strong>Lochia:</strong> amount, colour and odour; check the pad for excessive bleeding/clots.</li>
+    <li><strong>Perineum:</strong> tear/episiotomy &mdash; bleeding, swelling, haematoma.</li>
+    <li><strong>Bladder:</strong> a full bladder pushes the uterus up and causes bleeding &mdash; ensure she passes urine.</li>
+    <li><strong>Breasts:</strong> condition of nipples; initiate breastfeeding.</li>
+    <li><strong>General &amp; emotional state:</strong> pallor, mother&ndash;baby bonding.</li>
+  </ol>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title accent-title">(iii) Postnatal Care &amp; Advice</h3>
+  <ul class="answer-points">
+    <li>Monitor fundus, lochia and vitals frequently in the first hours; encourage voiding.</li>
+    <li>Promote <strong>early breastfeeding</strong> and skin-to-skin contact.</li>
+    <li>Perineal hygiene, nutritious diet (iron &amp; protein rich), plenty of fluids, rest and early ambulation.</li>
+    <li>Advise on IFA/calcium, danger signs (heavy bleeding, fever, foul lochia, headache/blurred vision), exclusive breastfeeding, immunization and <strong>postpartum family planning</strong>.</li>
+    <li>Fix a follow-up / postnatal check-up.</li>
+  </ul>
+</div>
+
+<div class="answer-section">
+  <h3 class="answer-section-title">(iv) Nursing Care Plan &mdash; Five Priority Diagnoses</h3>
+  <div class="answer-table-wrap"><table class="answer-table">
+    <thead><tr><th>Nursing Diagnosis</th><th>Goal</th><th>Key Interventions</th></tr></thead>
+    <tbody>
+      <tr><td>1. Risk for <strong>postpartum haemorrhage</strong> related to uterine atony</td><td>Uterus stays firm; no excess bleeding</td><td>Check fundal tone &amp; lochia, massage if boggy, ensure empty bladder, give oxytocics as ordered, monitor vitals</td></tr>
+      <tr><td>2. <strong>Acute pain</strong> related to afterpains &amp; perineal trauma</td><td>Pain relieved/tolerable</td><td>Analgesics as ordered, comfortable position, sitz bath, reassurance about afterpains</td></tr>
+      <tr><td>3. Risk for <strong>infection</strong> related to perineal wound &amp; lochia</td><td>No signs of infection</td><td>Perineal hygiene, hand washing, change pads, watch temperature &amp; foul lochia, aseptic wound care</td></tr>
+      <tr><td>4. <strong>Ineffective breastfeeding</strong> related to being a first-time mother</td><td>Establishes effective feeding</td><td>Teach positioning &amp; attachment, support early &amp; on-demand feeding, build confidence</td></tr>
+      <tr><td>5. Risk for <strong>urinary retention</strong> related to perineal trauma</td><td>Passes urine adequately</td><td>Encourage early voiding, provide privacy &amp; warm water, monitor output, catheterise if needed</td></tr>
+    </tbody>
+  </table></div>
+</div>
+
+<div class="remember-box">
+  <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
+  <ul>
+    <li>First hour after delivery = <strong>4th stage</strong> = highest PPH risk &rarr; watch fundus, lochia, vitals</li>
+    <li>A <strong>boggy uterus</strong> or full bladder &rarr; bleeding; massage &amp; empty bladder</li>
+    <li>Puerperium = ~6 weeks; involution + lactation established</li>
+    <li>Top priority diagnosis = <strong>risk for postpartum haemorrhage</strong></li>
+  </ul>
+</div>
+`
   }
 ];
