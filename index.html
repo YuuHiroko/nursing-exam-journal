@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css?v=18">
+    <link rel="stylesheet" href="index.css?v=19">
     <!-- Device PIN gate (runs before paint; locks page until unlocked) -->
     <script src="pin-gate.js?v=17"></script>
     <!-- Dark-mode init (runs before paint to avoid flash) -->
@@ -77,7 +77,8 @@
                 <ul class="stats-list">
                     <li><span class="stat-lbl">INDIA MMR</span><span class="stat-val">97</span></li>
                     <li><span class="stat-lbl">SDG TARGET</span><span class="stat-val">&lt;70</span></li>
-                    <li><span class="stat-lbl">TOTAL QUESTIONS</span><span class="stat-val">89</span></li>
+                    <li><span class="stat-lbl">TOTAL QUESTIONS</span><span class="stat-val" id="stat-total">89</span></li>
+                    <li><span class="stat-lbl">COMPLETED</span><span class="stat-val" id="stat-completed">0</span></li>
                 </ul>
             </div>
             
@@ -91,6 +92,15 @@
             <div class="section-header">
                 <h2 class="section-title" id="section-title">ARCHIVED QUESTIONS</h2>
                 <p class="section-subtitle" id="section-subtitle"></p>
+                <div class="progress-row">
+                    <div class="progress-bar"><div class="progress-fill" id="progress-fill"></div></div>
+                    <span class="progress-text mono-label" id="progress-text"></span>
+                    <div class="status-filter" role="group" aria-label="Filter by completion">
+                        <button class="status-btn active" type="button" data-status="all">All</button>
+                        <button class="status-btn" type="button" data-status="todo">To-Do</button>
+                        <button class="status-btn" type="button" data-status="done">Done</button>
+                    </div>
+                </div>
             </div>
             <div id="questions-list" class="articles-grid">
                 <!-- Rendered by JS -->
@@ -107,6 +117,7 @@
                     <span class="badge" id="modal-marks"></span>
                     <span class="badge" id="modal-unit" style="background:var(--accent);"></span>
                     <span class="badge-text" id="modal-meta"></span>
+                    <button class="mark-done-btn" id="mark-done" type="button" aria-pressed="false">Mark as completed</button>
                 </div>
                 <h2 id="modal-question-title" class="article-title"></h2>
             </div>
@@ -135,7 +146,7 @@
     <script src="data-unit6.js?v=18"></script>
     <script src="data-unit7.js?v=18"></script>
     <script src="diagrams.js?v=2"></script>
-    <script src="app.js?v=18"></script>
+    <script src="app.js?v=19"></script>
     <!-- Dark-mode toggle wiring (theme only; page logic lives in app.js) -->
     <script>
         (function () {

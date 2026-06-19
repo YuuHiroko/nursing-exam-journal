@@ -19,11 +19,51 @@ document.addEventListener('DOMContentLoaded', () => {
     const questionCounter = document.getElementById('question-counter');
     const prevBtn = document.getElementById('prev-question');
     const nextBtn = document.getElementById('next-question');
+    const markDoneBtn = document.getElementById('mark-done');
 
     let currentQuestions = [];
     let currentIndex = 0;
     let activeUnit = 'all';
     let activeMarks = 'all';
+    let activeStatus = 'all';            // all | todo | done
+
+    // ── Completion checklist (persisted per device) ──────────────
+    const DONE_KEY = 'examDone_v1';
+    function loadDone() {
+        try { return new Set(JSON.parse(localStorage.getItem(DONE_KEY)) || []); }
+        catch (e) { return new Set(); }
+    }
+    const doneSet = loadDone();
+    const qKey = q => q.unit + '-' + q.id;
+    const isDone = q => doneSet.has(qKey(q));
+    function saveDone() {
+        try { localStorage.setItem(DONE_KEY, JSON.stringify([...doneSet])); } catch (e) {}
+    }
+    function setDone(q, done) {
+        const k = qKey(q);
+        if (done) doneSet.add(k); else doneSet.delete(k);
+        saveDone();
+    }
+
+    // Progress bar + per-unit / overall counters.
+    const progressFill = document.getElementById('progress-fill');
+    const progressText = document.getElementById('progress-text');
+    const statCompleted = document.getElementById('stat-completed');
+    const statusBtns = document.querySelectorAll('.status-btn');
+    function updateProgress() {
+        const all = getAllQuestions();
+        // scope = current unit + marks filter (ignore the status filter so the bar shows true progress)
+        const scope = all.filter(q =>
+            (activeUnit === 'all' || q.unit == activeUnit) &&
+            (activeMarks === 'all' || q.marks == activeMarks));
+        const doneInScope = scope.filter(isDone).length;
+        const pct = scope.length ? Math.round((doneInScope / scope.length) * 100) : 0;
+        if (progressFill) progressFill.style.width = pct + '%';
+        if (progressText) progressText.textContent = doneInScope + ' / ' + scope.length + ' done (' + pct + '%)';
+        if (statCompleted) statCompleted.textContent = String(all.filter(isDone).length);
+        const statTotal = document.getElementById('stat-total');
+        if (statTotal) statTotal.textContent = String(all.length);
+    }
 
     // Merge all unit data
     function getAllQuestions() {
@@ -49,7 +89,9 @@ document.addEventListener('DOMContentLoaded', () => {
         currentQuestions = all.filter(q => {
             const unitMatch = activeUnit === 'all' || q.unit == activeUnit;
             const marksMatch = activeMarks === 'all' || q.marks == activeMarks;
-            return unitMatch && marksMatch;
+            const statusMatch = activeStatus === 'all' ||
+                (activeStatus === 'done' ? isDone(q) : !isDone(q));
+            return unitMatch && marksMatch && statusMatch;
         });
 
         // Update header
@@ -77,10 +119,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         currentQuestions.forEach((q, index) => {
             const card = document.createElement('div');
-            card.className = 'question-card';
+            card.className = 'question-card' + (isDone(q) ? ' is-done' : '');
+            card.dataset.qkey = qKey(q);
             const num = String(index + 1).padStart(2, '0');
-            
+
             card.innerHTML =
+                '<button class="q-check" type="button" aria-pressed="' + isDone(q) + '" ' +
+                    'aria-label="Mark as completed" title="Mark as completed">' +
+                    '<span class="q-check-tick">&#10003;</span></button>' +
                 '<div class="q-number">' + num + '</div>' +
                 '<div class="q-content">' +
                     '<h3 class="q-text">' + q.question + '</h3>' +
@@ -93,10 +139,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 '<div class="q-marks-area">' +
                     '<span class="marks-badge">' + q.marks + ' M</span>' +
                 '</div>';
-            
+
             card.addEventListener('click', () => openModal(index));
+            const chk = card.querySelector('.q-check');
+            chk.addEventListener('click', (e) => {
+                e.stopPropagation();                 // don't open the modal
+                const nowDone = !isDone(q);
+                setDone(q, nowDone);
+                card.classList.toggle('is-done', nowDone);
+                chk.setAttribute('aria-pressed', nowDone);
+                updateProgress();
+                if (activeStatus !== 'all') renderQuestions();  // drop/add from filtered view
+            });
             listContainer.appendChild(card);
         });
+
+        updateProgress();
     }
 
     // Modal Logic
@@ -115,7 +173,26 @@ document.addEventListener('DOMContentLoaded', () => {
         if (window.activateDiagrams) window.activateDiagrams();
         
         questionCounter.textContent = (index + 1) + ' / ' + currentQuestions.length;
-        
+
+        // Completion toggle for this question (reflect + wire)
+        if (markDoneBtn) {
+            const syncBtn = () => {
+                const d = isDone(q);
+                markDoneBtn.classList.toggle('done', d);
+                markDoneBtn.setAttribute('aria-pressed', String(d));
+                markDoneBtn.innerHTML = d ? '&#10003; Completed' : 'Mark as completed';
+            };
+            syncBtn();
+            markDoneBtn.onclick = () => {
+                const nd = !isDone(q);
+                setDone(q, nd);
+                syncBtn();
+                const card = listContainer.querySelector('[data-qkey="' + qKey(q) + '"]');
+                if (card) card.classList.toggle('is-done', nd);
+                updateProgress();
+            };
+        }
+
         prevBtn.disabled = index === 0;
         nextBtn.disabled = index === currentQuestions.length - 1;
         
@@ -166,6 +243,16 @@ document.addEventListener('DOMContentLoaded', () => {
             filterBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             activeMarks = btn.dataset.filter;
+            renderQuestions();
+        });
+    });
+
+    // Status (checklist) filtering — All / To-Do / Done
+    statusBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            statusBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            activeStatus = btn.dataset.status;
             renderQuestions();
         });
     });

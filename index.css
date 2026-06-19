@@ -445,6 +445,60 @@ img { max-width: 100%; }
     letter-spacing: 0.06em;
 }
 
+/* ─────────────────────────────────────────────
+   Completion checklist (progress bar, status filter,
+   per-card checkbox, modal mark-complete toggle)
+   ───────────────────────────────────────────── */
+.progress-row { display: flex; align-items: center; gap: 0.75rem; margin-top: 0.85rem; flex-wrap: wrap; }
+.progress-bar {
+    flex: 1 1 150px; min-width: 110px; height: 8px; border-radius: 999px; overflow: hidden;
+    background: color-mix(in oklch, var(--color-muted) 65%, transparent);
+}
+.progress-fill {
+    height: 100%; width: 0; border-radius: 999px;
+    background: linear-gradient(90deg, #43a047, #2e7d32);
+    transition: width 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.progress-text { white-space: nowrap; font-size: 0.7rem; }
+.status-filter { display: inline-flex; gap: 0.25rem; }
+.status-btn {
+    font-family: var(--font-mono); font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.04em;
+    padding: 0.3rem 0.6rem; border-radius: 999px; border: 1px solid var(--color-border);
+    background: var(--color-card); color: var(--color-muted-foreground); cursor: pointer; transition: all 0.15s ease;
+}
+.status-btn:hover { border-color: color-mix(in oklch, var(--color-accent) 55%, var(--color-border)); }
+.status-btn.active { background: var(--color-foreground); color: var(--color-background); border-color: var(--color-foreground); }
+
+/* per-card completion checkbox (absolute so the card grid is untouched) */
+.question-card { position: relative; }
+.q-check {
+    position: absolute; top: 8px; left: 8px; z-index: 3;
+    width: 22px; height: 22px; padding: 0; border-radius: 6px; cursor: pointer; line-height: 1;
+    display: inline-flex; align-items: center; justify-content: center;
+    border: 2px solid color-mix(in oklch, var(--color-border) 85%, var(--color-foreground));
+    background: var(--color-background);
+    transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+.q-check:hover { border-color: #2e7d32; transform: scale(1.12); }
+.q-check-tick { font-size: 13px; color: #fff; opacity: 0; transform: scale(0.4); transition: opacity 0.15s ease, transform 0.15s ease; }
+.question-card.is-done .q-check { background: #2e7d32; border-color: #2e7d32; }
+.question-card.is-done .q-check-tick { opacity: 1; transform: scale(1); }
+.question-card.is-done { opacity: 0.7; }
+.question-card.is-done .q-text {
+    text-decoration: line-through;
+    text-decoration-color: color-mix(in oklch, var(--color-muted-foreground) 55%, transparent);
+}
+
+/* modal mark-complete toggle */
+.mark-done-btn {
+    margin-left: auto; font-family: var(--font-mono); font-size: 0.7rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.04em; padding: 0.4rem 0.8rem; border-radius: 999px;
+    border: 1.5px solid var(--color-border); background: var(--color-card); color: var(--color-foreground);
+    cursor: pointer; transition: all 0.15s ease;
+}
+.mark-done-btn:hover { border-color: #2e7d32; color: #2e7d32; }
+.mark-done-btn.done { background: #2e7d32; border-color: #2e7d32; color: #fff; }
+
 .articles-grid {
     display: flex;
     flex-direction: column;
