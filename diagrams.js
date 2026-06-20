@@ -873,6 +873,43 @@ window.DIAGRAMS = {
       '<div class="diagram-key"><strong>Watch the marker sweep</strong> across the four stages &mdash; each segment&rsquo;s width shows how long that stage lasts (Stage 1 dominates). <strong>Stage 4</strong> is the critical PPH-watch window. Remember the flow: <em>Dilate &rarr; Deliver &rarr; Detach (placenta) &rarr; Observe.</em></div>' +
     '</div>';
     return html;
+  },
+
+  // ─── 13. NST (CTG) — Animated reactive trace (Unit 3) ────────
+  nstTrace: function () {
+    return '<div class="interactive-diagram">' +
+      '<div class="diagram-title">&#128147; Animated: Non-Stress Test (CTG) &mdash; A Reactive Trace</div>' +
+      '<svg viewBox="0 0 520 250" width="100%" style="max-width:520px;display:block;margin:0 auto;">' +
+      '<defs><style>' +
+        '@keyframes nst-bounce{0%,100%{opacity:.4;transform:translateY(0)}50%{opacity:1;transform:translateY(-4px)}}' +
+        '.nst-mv{animation:nst-bounce 1.4s ease-in-out infinite}' +
+        '.nst-mv2{animation:nst-bounce 1.4s ease-in-out infinite;animation-delay:.5s}' +
+      '</style></defs>' +
+      // CTG paper + gridlines
+      '<rect x="52" y="34" width="438" height="150" fill="var(--color-card,#fff)" stroke="var(--color-border,#ccc)"/>' +
+      '<line x1="52" y1="70" x2="490" y2="70" stroke="var(--color-border,#eee)" stroke-width="1" stroke-dasharray="3 3"/>' +
+      '<line x1="52" y1="110" x2="490" y2="110" stroke="#ef9a9a" stroke-width="1" stroke-dasharray="4 3"/>' +
+      '<line x1="52" y1="150" x2="490" y2="150" stroke="var(--color-border,#eee)" stroke-width="1" stroke-dasharray="3 3"/>' +
+      '<text x="46" y="73" text-anchor="end" font-size="9" fill="var(--color-muted-foreground,#888)">160</text>' +
+      '<text x="46" y="113" text-anchor="end" font-size="9" fill="#d32f2f">140</text>' +
+      '<text x="46" y="153" text-anchor="end" font-size="9" fill="var(--color-muted-foreground,#888)">100</text>' +
+      '<text x="271" y="200" text-anchor="middle" font-size="9" fill="var(--color-muted-foreground,#888)">&larr; 20 minutes &rarr;</text>' +
+      // FHR trace: baseline 140 with two accelerations
+      '<path d="M52,110 L120,110 Q150,111 165,85 Q185,79 205,86 Q222,111 255,110 L305,110 Q335,111 350,83 Q370,78 388,84 Q404,111 435,110 L490,110" fill="none" stroke="#d32f2f" stroke-width="2.5" stroke-linejoin="round"/>' +
+      // acceleration labels
+      '<text x="185" y="70" text-anchor="middle" font-size="9" font-weight="bold" fill="#2e7d32">&#8593;15+ bpm</text>' +
+      '<text x="369" y="66" text-anchor="middle" font-size="9" font-weight="bold" fill="#2e7d32">&#8593;15+ bpm</text>' +
+      // moving scan cursor
+      '<rect x="52" y="32" width="2.5" height="154" rx="1" fill="#111" opacity="0.55"><animate attributeName="x" from="52" to="487" dur="7s" repeatCount="indefinite"/></rect>' +
+      // fetal-movement markers under each acceleration
+      '<line x1="185" y1="185" x2="185" y2="205" stroke="#2e7d32" stroke-width="1" stroke-dasharray="2 2"/>' +
+      '<line x1="369" y1="185" x2="369" y2="205" stroke="#2e7d32" stroke-width="1" stroke-dasharray="2 2"/>' +
+      '<g class="nst-mv" style="transform-origin:185px 218px"><text x="185" y="224" text-anchor="middle" font-size="20">&#128118;</text></g>' +
+      '<g class="nst-mv2" style="transform-origin:369px 218px"><text x="369" y="224" text-anchor="middle" font-size="20">&#128118;</text></g>' +
+      '<text x="277" y="240" text-anchor="middle" font-size="9" fill="#2e7d32">baby moves &rarr; heart rate jumps up (acceleration)</text>' +
+      '</svg>' +
+      '<div class="diagram-key"><strong>Watch the heart-rate line rise</strong> each time the baby moves. A <strong>Reactive</strong> (normal) NST = <strong>at least 2 accelerations of &ge;15 bpm lasting &ge;15 seconds within 20 minutes</strong>. No accelerations = non-reactive &rarr; do a biophysical profile.</div>' +
+    '</div>';
   }
 };
 
