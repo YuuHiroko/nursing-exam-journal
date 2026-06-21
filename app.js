@@ -266,6 +266,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Initialize
-    setTimeout(() => renderQuestions(), 50);
+    // Initialize (sync — data scripts load before app.js)
+    renderQuestions();
 });
