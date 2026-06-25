@@ -12,7 +12,7 @@ window.QUESTIONS_DATA_UNIT3 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Signs and symptoms of pregnancy are the body's signals that a woman is pregnant. They are grouped into three types: <strong>Presumptive</strong> (felt by the woman), <strong>Probable</strong> (found by the examiner), and <strong>Positive</strong> (definite proof of a baby). Only positive signs confirm pregnancy 100%.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 220" role="img" aria-label="Three groups of signs of pregnancy: presumptive, probable and positive" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <rect x="15" y="40" width="180" height="160" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/>
@@ -41,12 +41,20 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">When a woman becomes pregnant, her body goes through many changes. Some changes she <em>feels</em> herself (like nausea), some are <em>found by a doctor</em> during examination (like uterus enlargement), and some are <em>definite proof</em> of a baby (like hearing the baby's heartbeat). These are called the signs and symptoms of pregnancy.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Signs &amp; Symptoms of Pregnancy:</strong> Objective and subjective indicators that confirm the presence of a developing fetus within the uterus, classified as presumptive, probable, and positive signs.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">1. Presumptive Signs (Symptoms — Felt by the Woman)</h3>
   <p class="answer-text">These are <strong>subjective</strong> — only the woman feels them. They suggest pregnancy but do NOT confirm it (other conditions can cause them too).</p>
   <div class="answer-table-wrap"><table class="answer-table">
@@ -63,7 +71,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </table></div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">2. Probable Signs (Found by the Examiner)</h3>
   <p class="answer-text">These are <strong>objective</strong> — a nurse or doctor finds them on examination. They are more reliable but still not 100% proof.</p>
   <div class="answer-table-wrap"><table class="answer-table">
@@ -80,7 +88,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </table></div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">3. Positive Signs (Definite Proof of Pregnancy)</h3>
   <p class="answer-text">These signs <strong>confirm pregnancy 100%</strong>. No other condition can cause them.</p>
   <ol class="answer-points">
@@ -92,9 +100,9 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Mnemonic to Remember</h3>
-  <div class="mnemonic-box">
+  <div class="mnemonic-box animate-scale-in">
     <div class="mnemonic-label">Mnemonic for Probable Signs: <strong>"HCG BHB"</strong></div>
     <div class="mnemonic-word"><span>H</span>-<span>C</span>-<span>G</span>-<span>B</span>-<span>H</span>-<span>B</span></div>
     <div class="mnemonic-explain">
@@ -105,6 +113,36 @@ window.QUESTIONS_DATA_UNIT3 = [
       <strong>H</strong> = Hormone test (UPT)<br>
       <strong>B</strong> = Braxton Hicks
     </div>
+  </div>
+</div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Signs and Symptoms of Pregnancy</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Suspected Pregnancy</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Presumptive Signs</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Amenorrhoea, nausea, breast changes</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Probable Signs</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Hegar's, Chadwick's, uterine enlargement</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Positive Signs</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">FHS, fetal movements, USG confirmation</div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Pregnancy Confirmed</div>
   </div>
 </div>
 
@@ -142,6 +180,11 @@ window.QUESTIONS_DATA_UNIT3 = [
   <details><summary>What does quickening mean and when does it appear?</summary><p>Quickening is the first time the mother feels her baby moving. It appears at 18&ndash;20 weeks in a first-time mother (primigravida) and at 16&ndash;18 weeks in a woman who has delivered before (multigravida).</p></details>
   <details><summary>What hormone is detected in a urine pregnancy test?</summary><p>hCG (human Chorionic Gonadotropin), produced by the developing placenta.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Early recognition of signs and symptoms of pregnancy enables timely antenatal registration and care. The nurse plays a vital role in health education, ensuring the mother understands these changes as normal physiological adaptations for the well-being of both mother and fetus.</p>
+</div>
 `
   },
 
@@ -158,7 +201,7 @@ window.QUESTIONS_DATA_UNIT3 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> The first trimester (weeks 1&ndash;12) brings dramatic hormonal changes. The rising hCG hormone causes nausea and vomiting. The uterus grows, breasts become tender, blood volume starts rising, and the kidneys work harder. These changes support the rapidly developing baby.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 240" role="img" aria-label="Physiological changes during the first trimester of pregnancy" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" font-size="14" fill="var(--color-foreground)">First Trimester (Weeks 1&ndash;12)</text>
@@ -184,12 +227,20 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The <strong>first trimester</strong> covers the first 12 weeks of pregnancy. This is when the baby (embryo/fetus) is forming all its organs. The mother's body makes huge changes driven by hormones &mdash; especially <strong>hCG</strong> and <strong>progesterone</strong> &mdash; to support this rapid growth.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>First Trimester (Weeks 1&ndash;12):</strong> The initial 12 weeks of pregnancy during which the most profound hormonal and anatomical changes occur, driven primarily by rising hCG, progesterone, and estrogen levels to support implantation and organogenesis.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Physiological Changes System by System</h3>
 
   <h3 class="answer-section-title">1. Reproductive System</h3>
@@ -257,7 +308,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Key Hormone Changes in 1st Trimester</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Hormone</th><th>What It Does</th></tr></thead>
@@ -267,6 +318,42 @@ window.QUESTIONS_DATA_UNIT3 = [
       <tr><td><strong>Oestrogen</strong></td><td>Causes breast changes, uterine growth, increased blood flow</td></tr>
     </tbody>
   </table></div>
+</div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Physiological Changes — 1st Trimester</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">1st Trimester (0–12 weeks)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Reproductive</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Uterus enlarges; Hegar's sign; Chadwick's sign</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Cardiovascular</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">CO rises; plasma volume increases; BP falls</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">GI / Metabolic</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Nausea, vomiting; progesterone rises; weight gain begins</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Renal</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">GFR increases; frequency of micturition</div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Adaptation to Pregnancy Complete</div>
+  </div>
 </div>
 
 <div class="remember-box">
@@ -303,6 +390,11 @@ window.QUESTIONS_DATA_UNIT3 = [
   <details><summary>How much weight should a woman gain in the first trimester?</summary><p>Only 1&ndash;2 kg (much less than later trimesters). Some women even lose weight due to vomiting.</p></details>
   <details><summary>What is the role of the corpus luteum in 1st trimester?</summary><p>It produces progesterone to maintain the uterine lining and prevent miscarriage until the placenta takes over at about 12 weeks.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">First-trimester physiological changes are largely driven by hormonal surges and may cause significant discomfort for the mother. Nurse-led counselling on nutrition, rest, and warning signs during this critical period forms the cornerstone of safe antenatal care.</p>
+</div>
 `
   },
 
@@ -319,7 +411,7 @@ window.QUESTIONS_DATA_UNIT3 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> During the entire antenatal period (all 9 months), every system in the mother's body changes to support the growing baby. Key changes: blood volume rises by 40&ndash;50%, heart works harder, kidneys filter more, uterus grows from 30 g to 1000 g, and hormones like oestrogen, progesterone, and relaxin remodel the body.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 250" role="img" aria-label="System-wise physiological changes during the antenatal period" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <ellipse cx="300" cy="125" rx="46" ry="60" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
@@ -342,12 +434,20 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The antenatal period means the period of pregnancy &mdash; from conception to the onset of labour. During this time the mother's body makes remarkable adaptations to nourish, protect, and grow the baby. These are called <strong>physiological changes</strong> (normal, healthy changes &mdash; not disease).</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Physiological Changes in Antenatal Period:</strong> Normal, adaptive alterations occurring in all organ systems of the mother during pregnancy (conception to onset of labour) to meet the increased metabolic demands of the growing fetus and prepare the body for parturition.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">1. Uterus (Womb)</h3>
   <ul class="sub-points">
     <li>Weight: 30 g &rarr; 1000 g (about 33 times heavier!)</li>
@@ -358,7 +458,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">2. Cardiovascular System</h3>
   <ul class="sub-points">
     <li><strong>Blood volume:</strong> increases by 40&ndash;50% (from ~4.5 L to ~6.5 L). Plasma rises more than red cells &rarr; physiological anaemia</li>
@@ -370,7 +470,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">3. Blood Changes (Haematological)</h3>
   <ul class="sub-points">
     <li>RBC mass increases by 20&ndash;30%, but plasma increases by 40&ndash;50% &rarr; <strong>dilutional (physiological) anaemia</strong></li>
@@ -381,7 +481,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">4. Respiratory System</h3>
   <ul class="sub-points">
     <li>Progesterone stimulates respiratory centre &rarr; woman breathes deeper (increased tidal volume by 40%)</li>
@@ -391,7 +491,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">5. Urinary System</h3>
   <ul class="sub-points">
     <li>GFR (kidney filtration rate) increases by 50% &rarr; kidneys work harder</li>
@@ -401,7 +501,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">6. Gastrointestinal System</h3>
   <ul class="sub-points">
     <li>Nausea, vomiting (1st trimester)</li>
@@ -412,7 +512,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">7. Musculoskeletal System</h3>
   <ul class="sub-points">
     <li><strong>Relaxin hormone</strong> loosens joints and ligaments &rarr; pelvis widens to allow delivery</li>
@@ -421,7 +521,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">8. Skin Changes</h3>
   <ul class="sub-points">
     <li>Hyperpigmentation: linea nigra, chloasma (mask of pregnancy on face), darkening of areola</li>
@@ -431,7 +531,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">9. Endocrine (Hormonal) Changes</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Hormone</th><th>Change</th><th>Effect</th></tr></thead>
@@ -445,7 +545,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </table></div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Weight Gain in Pregnancy</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Trimester</th><th>Expected Weight Gain</th></tr></thead>
@@ -456,6 +556,48 @@ window.QUESTIONS_DATA_UNIT3 = [
       <tr><td><strong>Total (normal BMI woman)</strong></td><td><strong>11&ndash;13 kg</strong></td></tr>
     </tbody>
   </table></div>
+</div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Physiological Changes — Antenatal Period</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Antenatal Physiological Adaptation</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Cardiovascular</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">↑ CO, plasma volume; physiological anaemia</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Respiratory</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">↑ tidal volume; diaphragm elevated; dyspnoea</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Renal</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">↑ GFR; glycosuria; hydronephrosis risk</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Endocrine</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">↑ hCG, oestrogen, progesterone, cortisol</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Musculoskeletal</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Ligament laxity; lordosis; pelvic girdle pain</div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Maternal Adaptation Supports Fetal Growth</div>
+  </div>
 </div>
 
 <div class="remember-box">
@@ -492,6 +634,11 @@ window.QUESTIONS_DATA_UNIT3 = [
   <details><summary>What causes backache and waddling gait in pregnancy?</summary><p>Relaxin hormone loosens joints and ligaments; the pelvis widens. Combined with the shifted centre of gravity from the growing abdomen, this causes lumbar lordosis (backache) and waddling gait.</p></details>
   <details><summary>What is the total expected weight gain in a normal pregnancy?</summary><p>11&ndash;13 kg for a woman with normal BMI (most in 2nd and 3rd trimesters).</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Understanding antenatal physiological changes is essential for distinguishing normal adaptations from pathological conditions. Midwives and nurses must monitor these changes at every ANC visit to ensure maternal and fetal safety throughout the antenatal period.</p>
+</div>
 `
   },
 
@@ -508,7 +655,21 @@ window.QUESTIONS_DATA_UNIT3 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Pregnancy causes several normal skin changes due to hormones (oestrogen, progesterone, MSH). The main changes are darkening (hyperpigmentation), stretch marks, and increased oiliness. Most fade after delivery.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Pregnancy induces widespread cutaneous changes due to hormonal, immunological, and mechanical factors. These skin changes are predominantly benign and reversible, yet they can cause significant psychological distress if not adequately explained to the expectant mother.</p>
+</div>
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Skin Changes in Pregnancy:</strong> Physiological dermatological alterations arising during gestation, primarily due to elevated estrogen, progesterone, and melanocyte-stimulating hormone (MSH), manifesting as pigmentation changes, vascular changes, and connective tissue modifications.
+  </div>
+</div>
+
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 220" role="img" aria-label="Skin changes during pregnancy on a body outline" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <ellipse cx="150" cy="55" rx="26" ry="30" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="1.5"/>
@@ -534,7 +695,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Skin Changes During Pregnancy</h3>
   <ol class="answer-points">
     <li><strong>Hyperpigmentation (darkening of skin):</strong>
@@ -571,6 +732,11 @@ window.QUESTIONS_DATA_UNIT3 = [
   <details><summary>What is chloasma and what causes it?</summary><p>Chloasma (mask of pregnancy) is brown pigmentation on the face (forehead, cheeks, nose). It is caused by increased MSH (melanocyte-stimulating hormone) during pregnancy.</p></details>
   <details><summary>Name three main skin changes in pregnancy.</summary><p>Linea nigra, chloasma, striae gravidarum (stretch marks), spider naevi, palmar erythema, increased sweating/oiliness.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Most skin changes during pregnancy are self-limiting and resolve postpartum. Nurses must reassure mothers about normal changes such as linea nigra and chloasma, while remaining vigilant for pruritic conditions like PUPPP or obstetric cholestasis that may require medical intervention.</p>
+</div>
 `
   },
 
@@ -587,7 +753,7 @@ window.QUESTIONS_DATA_UNIT3 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Pregnancy puts the heart under great demand. Blood volume rises by 40&ndash;50%, cardiac output rises by 30&ndash;50%, and heart rate rises by 10&ndash;15 beats/min. These changes ensure adequate blood supply to the uterus, placenta, and baby. Most changes are at maximum by 28&ndash;32 weeks.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 240" role="img" aria-label="Bar chart of cardiovascular changes in pregnancy" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Approximate rise in pregnancy</text>
@@ -614,7 +780,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">During pregnancy the cardiovascular system (heart + blood vessels) makes very significant changes to:</p>
   <ul class="sub-points">
@@ -624,7 +790,15 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Cardiovascular Changes in Pregnancy:</strong> Adaptive haemodynamic and structural alterations in the maternal cardiovascular system during pregnancy, characterised by increased cardiac output, plasma volume expansion, and decreased systemic vascular resistance to meet the perfusion demands of the uteroplacental unit.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">1. Blood Volume</h3>
   <ul class="sub-points">
     <li>Total blood volume increases by <strong>40&ndash;50%</strong> (from ~4.5 L to ~6.5 L)</li>
@@ -636,7 +810,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   <div class="editorial-example"><strong>Relatable Example:</strong> Imagine adding more water to a glass of juice &mdash; the juice is still there, but looks lighter. Similarly, blood volume rises but Hb looks lower.</div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">2. Cardiac Output</h3>
   <ul class="sub-points">
     <li>Cardiac output (amount of blood heart pumps per minute) increases by <strong>30&ndash;50%</strong></li>
@@ -647,7 +821,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">3. Heart Rate</h3>
   <ul class="sub-points">
     <li>Resting heart rate increases by <strong>10&ndash;15 beats/min</strong></li>
@@ -655,7 +829,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">4. Blood Pressure</h3>
   <ul class="sub-points">
     <li><strong>1st trimester:</strong> BP falls slightly (progesterone relaxes blood vessel walls)</li>
@@ -665,7 +839,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">5. Heart Position &amp; Sounds</h3>
   <ul class="sub-points">
     <li>As the uterus enlarges, the diaphragm is pushed up &rarr; heart is displaced upward and to the left</li>
@@ -674,7 +848,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">6. Supine Hypotension Syndrome</h3>
   <ul class="sub-points">
     <li>When a pregnant woman lies flat on her back (supine), the heavy uterus presses on the <strong>inferior vena cava</strong> (the big vein returning blood to the heart)</li>
@@ -684,7 +858,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">7. Coagulation (Blood Clotting) Changes</h3>
   <ul class="sub-points">
     <li>Fibrinogen (main clotting protein) rises by 50%</li>
@@ -695,7 +869,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Summary Table</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Parameter</th><th>Change in Pregnancy</th><th>Peak</th></tr></thead>
@@ -743,6 +917,11 @@ window.QUESTIONS_DATA_UNIT3 = [
   <details><summary>Why does pregnancy create a risk of DVT?</summary><p>Pregnancy is a hypercoagulable state &mdash; clotting factors (especially fibrinogen) rise significantly, making blood clot more easily. Combined with reduced mobility, this increases deep vein thrombosis risk.</p></details>
   <details><summary>What is physiological anaemia of pregnancy?</summary><p>Plasma volume rises by 50% but RBC mass only rises by 20&ndash;30%, so haemoglobin appears diluted. This is a normal, expected finding &mdash; not true iron-deficiency anaemia.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Cardiovascular changes in pregnancy are profound and place significant demands on the maternal heart. Early identification of women with pre-existing cardiac conditions, combined with vigilant monitoring of blood pressure and fluid balance, is critical for preventing maternal morbidity and mortality under MUHS antenatal care protocols.</p>
+</div>
 `
   },
 
@@ -759,7 +938,7 @@ window.QUESTIONS_DATA_UNIT3 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> History taking is the <em>first step</em> in antenatal assessment. A thorough obstetric history tells us who the patient is, what her current pregnancy is like, what happened in past pregnancies, and what medical risks she carries &mdash; helping us plan safe, individualized antenatal care.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 250" role="img" aria-label="Components of obstetric history taking" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Components of Obstetric History (B-C-M-O-M-F-P)</text>
@@ -785,12 +964,20 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Before a nurse or doctor does any physical examination of a pregnant woman, a detailed <strong>obstetric history</strong> is taken. This is the most important step &mdash; it helps identify high-risk women early and plan care accordingly.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>History Taking:</strong> A systematic process of collecting relevant personal, obstetric, medical, and family information from a pregnant woman prior to physical examination to guide safe antenatal care.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">1. Biodata (Personal Identification)</h3>
   <ul class="sub-points">
     <li>Name, age, address, religion</li>
@@ -801,7 +988,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   <p class="answer-text"><em>Why important:</em> Age matters &mdash; women below 18 and above 35 years are at higher risk. Occupation tells us about physical strain and chemical exposure.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">2. Chief Complaint (Why She Has Come)</h3>
   <ul class="sub-points">
     <li>Missed period? Nausea? Swelling? Pain?</li>
@@ -809,7 +996,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">3. Menstrual History</h3>
   <ul class="sub-points">
     <li><strong>LMP (Last Menstrual Period):</strong> First day of last normal period &rarr; used to calculate Expected Date of Delivery (EDD)</li>
@@ -820,7 +1007,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">4. Obstetric History (Past Pregnancies) &mdash; GPTAL</h3>
   <p class="answer-text">Record the woman's previous pregnancies using the <strong>GPTAL formula:</strong></p>
   <div class="answer-table-wrap"><table class="answer-table">
@@ -836,7 +1023,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   <p class="answer-text">For each past pregnancy, record: mode of delivery (normal/LSCS), complications, birth weight, outcome of baby.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">5. History of Present Pregnancy</h3>
   <ul class="sub-points">
     <li>Gestational age (how many weeks pregnant)</li>
@@ -849,7 +1036,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">6. Medical and Surgical History</h3>
   <ul class="sub-points">
     <li>Diabetes, hypertension, tuberculosis, heart disease, epilepsy, thyroid disorders, anaemia</li>
@@ -860,7 +1047,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">7. Family History</h3>
   <ul class="sub-points">
     <li>Diabetes, hypertension, twins, tuberculosis in family</li>
@@ -869,7 +1056,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">8. Personal and Social History</h3>
   <ul class="sub-points">
     <li>Diet &mdash; vegetarian/non-vegetarian, quality of food</li>
@@ -880,7 +1067,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for History Taking: <strong>"B-C-M-O-M-F-P"</strong></div>
   <div class="mnemonic-word"><span>B</span>-<span>C</span>-<span>M</span>-<span>O</span>-<span>M</span>-<span>F</span>-<span>P</span></div>
   <div class="mnemonic-explain">
@@ -891,6 +1078,25 @@ window.QUESTIONS_DATA_UNIT3 = [
     <strong>M</strong> = Medical/Surgical history<br>
     <strong>F</strong> = Family history<br>
     <strong>P</strong> = Personal/Social history
+  </div>
+</div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: History Taking — Obstetrical Examination</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Welcome &amp; Establish Rapport</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Personal History (name, age, address, religion)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Chief Complaint &amp; Present History</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Obstetric History (gravida, para, LMP, EDD)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Medical &amp; Surgical History</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Family &amp; Socio-economic History</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Plan Care &amp; Document</div>
   </div>
 </div>
 
@@ -925,6 +1131,11 @@ window.QUESTIONS_DATA_UNIT3 = [
   <details><summary>What does GPTAL stand for?</summary><p>G = Gravida (total pregnancies), P = Para (deliveries &gt;28 weeks), T = Term deliveries (&gt;37 weeks), A = Abortions (&lt;28 weeks), L = Living children.</p></details>
   <details><summary>Why is the woman's age important in obstetric history?</summary><p>Below 18: adolescent pregnancy &mdash; risk of obstructed labour, anaemia, eclampsia. Above 35: elderly primigravida &mdash; higher risk of chromosomal abnormalities, hypertension, diabetes, operative delivery.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Thorough history taking is the cornerstone of obstetrical assessment &mdash; it identifies high-risk factors early and enables individualised care planning. A skilled midwife uses this information to prioritise interventions and ensure maternal &amp; fetal safety throughout pregnancy.</p>
+</div>
 `
   },
 
@@ -940,10 +1151,16 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Winter 2017, Summer 2021, Winter 2024",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Antenatal care (ANC) is the systematic medical and nursing care given to a pregnant woman from conception to the start of labour. Its main aim is a <strong>safe pregnancy and a healthy mother &amp; baby</strong>. It is delivered through regular checkups (history, general &amp; obstetric examination, investigations) and health education. India promotes ANC through programmes like the RCH and PMSMA.</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Antenatal care (ANC) is the organised surveillance and medical care provided to a pregnant woman from conception until the onset of labour. In India, the Ministry of Health recommends a minimum of four ANC visits (4 ANC protocol) to reduce maternal &amp; perinatal mortality. The goal is to identify and manage complications early, ensuring a safe pregnancy outcome for both mother and baby.</p>
+</div>
+
 <div class="figure-block"><img src="assets/images/safe_motherhood.png" alt="Fig: Comprehensive Antenatal Care" loading="lazy"><div class="figure-caption">Fig: Comprehensive Antenatal Care</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 220" role="img" aria-label="Aims and steps of antenatal care" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <ellipse cx="300" cy="55" rx="150" ry="38" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
@@ -970,15 +1187,15 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Antenatal care (ANC)</strong> is the planned, systematic supervision and care of a woman during pregnancy &mdash; from conception until the onset of labour &mdash; to ensure the wellbeing of both the mother and the growing baby.
     <br><br>WHO recommends a minimum of <strong>8 ANC contacts</strong>; the Government of India recommends a minimum of <strong>4 antenatal visits</strong>.
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Aims &amp; Objectives of Antenatal Care</h3>
   <ol class="answer-points">
     <li>To promote, protect and maintain the <strong>health of the mother</strong> during pregnancy.</li>
@@ -992,9 +1209,9 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Steps of Antenatal Assessment (Flow)</h3>
-  <div class="flowchart">
+  <div class="flowchart animate-fade-in">
     <div class="flowchart-container">
       <div class="flow-box">1. History Taking</div>
       <div class="flow-arrow">&darr;</div>
@@ -1011,7 +1228,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">1. History Taking</h3>
   <ul class="sub-points">
     <li><strong>Biodata:</strong> name, age, address, occupation</li>
@@ -1022,7 +1239,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">2. General Examination</h3>
   <ul class="sub-points">
     <li><strong>Vital signs:</strong> temperature, pulse, respiration, blood pressure (BP &ge;140/90 = warning)</li>
@@ -1033,7 +1250,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">3. Systemic Examination</h3>
   <ul class="sub-points">
     <li><strong>Cardiovascular system:</strong> heart sounds, murmurs</li>
@@ -1042,7 +1259,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">4. Obstetrical (Abdominal) Examination</h3>
   <ul class="sub-points">
     <li><strong>Inspection:</strong> shape, size of abdomen, linea nigra, striae, scars, fetal movements</li>
@@ -1051,7 +1268,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">5. Investigations</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Test</th><th>Purpose</th></tr></thead>
@@ -1066,7 +1283,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </table></div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">6. Advice, Immunization &amp; Health Education</h3>
   <ul class="sub-points">
     <li><strong>TT/Td immunization:</strong> 2 doses (or 1 booster) to prevent tetanus</li>
@@ -1075,7 +1292,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Nurse's Role in Antenatal Care</h3>
   <ol class="answer-points">
     <li>Register the woman early and maintain her ANC (Mother &amp; Child Protection) card.</li>
@@ -1087,7 +1304,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ol>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for ANC examination order: <strong>"His General System Of Investigation &amp; Advice"</strong></div>
   <div class="mnemonic-explain">
     <strong>H</strong>istory &rarr; <strong>G</strong>eneral exam &rarr; <strong>S</strong>ystemic exam &rarr; <strong>O</strong>bstetric exam &rarr; <strong>I</strong>nvestigations &rarr; <strong>A</strong>dvice/health education.
@@ -1155,7 +1372,13 @@ window.QUESTIONS_DATA_UNIT3 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Minor disorders of pregnancy are common, mild discomforts caused by normal hormonal and physical changes. They are NOT dangerous but cause distress. Examples: morning sickness, heartburn, constipation, backache, leg cramps. They are mostly managed with simple advice, diet and reassurance &mdash; not heavy medicines.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Minor disorders of pregnancy are common physiological discomforts arising from hormonal, anatomical, and metabolic changes during gestation. Although not life-threatening, they significantly affect the quality of life and daily functioning of the pregnant woman. Timely nursing education and simple interventions provide effective relief and prevent unnecessary anxiety.</p>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 230" role="img" aria-label="Common minor disorders of pregnancy and their simple management" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="150" y="22" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Minor disorder</text>
@@ -1186,12 +1409,12 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box"><strong>Minor disorders of pregnancy</strong> are the common, mild and self-limiting discomforts that arise from the normal physiological (hormonal and mechanical) changes of pregnancy. They do not threaten the life of the mother or baby but need understanding and simple management.</div>
+  <div class="definition-box animate-scale-in"><strong>Minor disorders of pregnancy</strong> are the common, mild and self-limiting discomforts that arise from the normal physiological (hormonal and mechanical) changes of pregnancy. They do not threaten the life of the mother or baby but need understanding and simple management.</div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Common Minor Disorders &amp; Their Management</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Disorder</th><th>Cause (Simple)</th><th>Management</th></tr></thead>
@@ -1209,7 +1432,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </table></div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Nurse's Role</h3>
   <ol class="answer-points">
     <li>Reassure the woman that these are normal and temporary.</li>
@@ -1220,6 +1443,42 @@ window.QUESTIONS_DATA_UNIT3 = [
 </div>
 
 <div class="editorial-example"><strong>Relatable Example:</strong> Meena in her 8th week vomits every morning. The ANM tells her to nibble a dry biscuit before getting out of bed and to eat small meals &mdash; simple advice that controls her morning sickness without medicine.</div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Minor Disorders of Pregnancy</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Minor Disorders of Pregnancy</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">1st Trimester</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Nausea/vomiting, frequency, breast tenderness</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Small frequent meals; reassurance; antiemetics</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">2nd Trimester</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Heartburn, constipation, varicosities</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Antacids; high-fibre diet; elevation; support hose</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">3rd Trimester</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Backache, oedema, insomnia, dyspnoea</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Rest; posture; elevation of limbs; lateral position</div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Reassure, Document, Follow Up</div>
+  </div>
+</div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
@@ -1250,6 +1509,11 @@ window.QUESTIONS_DATA_UNIT3 = [
   <details><summary>Why does constipation occur in pregnancy and how is it managed?</summary><p>Progesterone slows bowel movement and iron tablets worsen it. Manage with high-fibre diet, plenty of water, fruits and walking.</p></details>
   <details><summary>Which "minor" symptom must NOT be ignored?</summary><p>Severe vomiting (hyperemesis), severe swelling with high BP (pre-eclampsia), and bleeding &mdash; these are danger signs, not minor disorders.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Minor disorders of pregnancy are expected physiological changes that respond well to conservative management and health education. The nurse plays a pivotal role in reassuring the mother, advising dietary &amp; postural modifications, and distinguishing minor discomforts from warning signs that require immediate medical attention.</p>
+</div>
 `
   },
 
@@ -1266,7 +1530,7 @@ window.QUESTIONS_DATA_UNIT3 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Pregnancy is diagnosed by collecting clues from the woman's symptoms, the examiner's findings, and definite proof of a baby. These are grouped as <strong>presumptive</strong> (felt by woman), <strong>probable</strong> (found by examiner), and <strong>positive</strong> (confirm 100%). USG, fetal heart sound and fetal parts give a sure diagnosis.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 210" role="img" aria-label="Diagnosis of pregnancy by reliability of signs" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Reliability increases &rarr;</text>
@@ -1286,12 +1550,20 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Diagnosing pregnancy means confirming that a woman is carrying a baby. The signs are traditionally divided into three groups based on how reliable they are.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Pregnancy:</strong> A physiological state in which a fertilised ovum (zygote) implants and develops within the uterus, lasting approximately 280 days (40 weeks) from the first day of the last menstrual period (LMP) to delivery.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">1. Presumptive Signs (Subjective &mdash; Felt by Woman)</h3>
   <ul class="sub-points">
     <li>Amenorrhoea (missed period)</li>
@@ -1305,7 +1577,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   <p class="answer-text"><em>These only suggest pregnancy &mdash; other conditions can cause them.</em></p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">2. Probable Signs (Objective &mdash; Found by Examiner)</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Sign</th><th>Meaning</th></tr></thead>
@@ -1321,7 +1593,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </table></div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">3. Positive Signs (100% Confirm Pregnancy)</h3>
   <ol class="answer-points">
     <li><strong>Fetal heart sound (FHS):</strong> 120&ndash;160 beats/min (Doppler from 10&ndash;12 wks; Pinard after 20 wks)</li>
@@ -1331,13 +1603,34 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ol>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for three groups: <strong>"PPP"</strong></div>
   <div class="mnemonic-word"><span>P</span>-<span>P</span>-<span>P</span></div>
   <div class="mnemonic-explain">
     <strong>P</strong>resumptive = Patient feels<br>
     <strong>P</strong>robable = Practitioner finds<br>
     <strong>P</strong>ositive = Proof of baby
+  </div>
+</div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Diagnosis of Pregnancy</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Suspected Pregnancy</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Presumptive Signs</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Amenorrhoea, nausea, breast changes, quickening</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Probable Signs</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Hegar's, Chadwick's, uterine enlargement, UPT positive</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Positive Signs</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">FHS on Doppler, fetal movements felt, USG fetal parts</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Pregnancy Confirmed — Initiate ANC</div>
   </div>
 </div>
 
@@ -1371,6 +1664,11 @@ window.QUESTIONS_DATA_UNIT3 = [
   <details><summary>Why is a positive urine pregnancy test only a probable sign?</summary><p>Because it detects the hormone hCG, which can rarely be raised in other conditions (like molar pregnancy or some tumours), so it strongly suggests but does not 100% prove a live baby.</p></details>
   <details><summary>Which signs confirm pregnancy with certainty?</summary><p>Fetal heart sound, fetal movements felt by the examiner, fetal parts on palpation, and USG showing the fetus/heartbeat.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Accurate diagnosis of pregnancy using presumptive, probable, and positive signs &mdash; confirmed by serum &beta;-hCG and ultrasonography &mdash; is essential for timely initiation of antenatal care. Early diagnosis enables prompt identification of ectopic pregnancy and other complications, thereby reducing maternal morbidity &amp; mortality.</p>
+</div>
 `
   },
 
@@ -1386,10 +1684,16 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Summer 2018, Winter 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> A high-risk pregnancy is one where the mother or baby faces a greater than normal chance of illness or death. It may be due to age, medical illness, past obstetric problems, or current complications. The nurse's job is to <strong>identify these women early, monitor closely, treat/refer in time</strong>, and educate them &mdash; to keep both mother and baby safe.</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">High-risk pregnancy refers to a pregnancy in which the mother, fetus, or newborn is at increased risk of morbidity or mortality compared to the general obstetric population. In India, high-risk pregnancies contribute significantly to the maternal mortality ratio (MMR) and perinatal mortality rate (PMR). Early identification, close monitoring, and multidisciplinary nursing management are critical to improving outcomes.</p>
+</div>
+
 <div class="figure-block"><img src="assets/images/safe_motherhood.png" alt="Fig: Safe Motherhood and High Risk Identification" loading="lazy"><div class="figure-caption">Fig: Safe Motherhood and High Risk Identification</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 230" role="img" aria-label="Four groups of high-risk pregnancy factors and nurse's response" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">High-Risk Factors (A-M-P-C)</text>
@@ -1416,12 +1720,12 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box"><strong>High-risk pregnancy</strong> is a pregnancy in which the life or health of the mother and/or the baby is at increased risk of complications, illness or death due to certain conditions or factors present before or during pregnancy.</div>
+  <div class="definition-box animate-scale-in"><strong>High-risk pregnancy</strong> is a pregnancy in which the life or health of the mother and/or the baby is at increased risk of complications, illness or death due to certain conditions or factors present before or during pregnancy.</div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">High-Risk Factors</h3>
 
   <h3 class="answer-section-title">A. Maternal Factors (Age &amp; Body)</h3>
@@ -1458,9 +1762,9 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Identification &amp; Referral Flow</h3>
-  <div class="flowchart">
+  <div class="flowchart animate-fade-in">
     <div class="flowchart-container">
       <div class="flow-box">Screen every ANC visit (history + exam)</div>
       <div class="flow-arrow">&darr;</div>
@@ -1475,7 +1779,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Nursing Management</h3>
   <ol class="answer-points">
     <li><strong>Early identification:</strong> Take detailed history, do thorough examination at every visit, maintain a risk register.</li>
@@ -1491,7 +1795,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Danger Signs Every Woman Must Know</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Danger Sign</th><th>Possible Problem</th></tr></thead>
@@ -1506,7 +1810,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </table></div>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for high-risk factors: <strong>"A-M-P-C"</strong></div>
   <div class="mnemonic-word"><span>A</span>-<span>M</span>-<span>P</span>-<span>C</span></div>
   <div class="mnemonic-explain">
@@ -1577,7 +1881,7 @@ window.QUESTIONS_DATA_UNIT3 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Antenatal advice is the health education a nurse gives a pregnant woman so she can stay healthy and have a safe delivery. It covers diet, rest, hygiene, exercise, sex, immunization, IFA tablets, danger signs and preparation for labour and breastfeeding.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 220" role="img" aria-label="Areas of antenatal advice to a pregnant woman" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Areas of Antenatal Advice</text>
@@ -1603,12 +1907,20 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Health education is an essential part of antenatal care. A well-informed mother takes better care of herself, recognises danger signs early, and prepares for a safe delivery.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Antenatal Advice:</strong> Systematic health education and guidance provided to a pregnant woman and her family during the antenatal period to promote safe motherhood, optimal fetal growth, and preparedness for labour, delivery, and newborn care.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Areas of Antenatal Advice</h3>
   <ol class="answer-points">
     <li><strong>Diet:</strong> Balanced, high-protein diet with extra iron, calcium, folic acid, and vitamins; plenty of green vegetables, milk, pulses, fruits. Extra 350 kcal/day.</li>
@@ -1626,7 +1938,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ol>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic: <strong>"DR HEIDI"</strong></div>
   <div class="mnemonic-explain">
     <strong>D</strong>iet &middot; <strong>R</strong>est &middot; <strong>H</strong>ygiene &middot; <strong>E</strong>xercise &middot; <strong>I</strong>mmunization+IFA &middot; <strong>D</strong>anger signs &middot; <strong>I</strong>nstitutional delivery prep
@@ -1634,6 +1946,25 @@ window.QUESTIONS_DATA_UNIT3 = [
 </div>
 
 <div class="editorial-example"><strong>Relatable Example:</strong> At the Anganwadi, the ANM counsels pregnant Radha to eat dal, green leafy vegetables and jaggery for iron, rest on her left side, take her IFA tablet daily, and rush to the PHC if she sees any bleeding &mdash; classic antenatal advice.</div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Antenatal Health Education</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Begin Health Education at 1st ANC Visit</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Nutrition — balanced diet, iron, folic acid</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Rest, Sleep &amp; Safe Exercise</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Danger Signs — when to seek help immediately</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Immunisation (TT/Td) &amp; IFA Tablets</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Personal Hygiene &amp; Breast Care</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Plan Institutional Delivery &amp; Postnatal Care</div>
+  </div>
+</div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
@@ -1664,6 +1995,11 @@ window.QUESTIONS_DATA_UNIT3 = [
   <details><summary>Why advise the left lateral position?</summary><p>It lifts the uterus off the inferior vena cava, improving blood return to the heart and blood flow to the baby.</p></details>
   <details><summary>List four things to advise the woman to avoid.</summary><p>Smoking, alcohol, tobacco, self-medication, X-rays and heavy lifting/strenuous work.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Comprehensive antenatal advice empowers the pregnant woman to adopt health-promoting behaviours, recognize danger signs early, and seek timely care &mdash; directly contributing to reduction of maternal and perinatal morbidity and mortality. The nurse plays a pivotal role as health educator throughout the antenatal period under the RMNCH+A framework.</p>
+</div>
 `
   },
 
@@ -1680,7 +2016,7 @@ window.QUESTIONS_DATA_UNIT3 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> During pregnancy a woman needs extra energy, protein, iron, calcium, folic acid and vitamins to grow a healthy baby and stay healthy herself. She needs about <strong>350 extra kcal/day</strong> and roughly <strong>extra 23 g protein/day</strong> (ICMR). The diet should be balanced and locally affordable.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 240" role="img" aria-label="Extra nutrients needed in pregnancy" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Extra Nutritional Needs in Pregnancy (ICMR)</text>
@@ -1708,12 +2044,20 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">A pregnant woman is &quot;eating for two&quot; in quality (not quantity). Good nutrition prevents anaemia, low birth weight, and birth defects, and supports the rapidly growing baby.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Nutrition in Pregnancy:</strong> The science of providing adequate macronutrients and micronutrients to meet the increased metabolic demands of the mother and support optimal fetal growth, development, and placental function throughout pregnancy.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Extra Nutritional Needs (ICMR)</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Nutrient</th><th>Extra Need</th><th>Why / Food Sources</th></tr></thead>
@@ -1729,7 +2073,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </table></div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Principles of a Good Pregnancy Diet</h3>
   <ul class="sub-points">
     <li>Balanced diet with all food groups (cereals, pulses, milk, vegetables, fruits, fats)</li>
@@ -1743,10 +2087,40 @@ window.QUESTIONS_DATA_UNIT3 = [
 
 <div class="editorial-example"><strong>Relatable Example:</strong> A simple Indian pregnancy thali: roti/rice + dal + green sabzi (palak) + curd/milk + a fruit + jaggery, plus the daily IFA tablet &mdash; cheap, balanced and complete.</div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for key extra nutrients: <strong>"PIC-Fo"</strong></div>
   <div class="mnemonic-explain">
     <strong>P</strong>rotein &middot; <strong>I</strong>ron &middot; <strong>C</strong>alcium &middot; <strong>Fo</strong>lic acid (the four pregnancy stars)
+  </div>
+</div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Nutritional Needs in Pregnancy</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Dietary Assessment at 1st Visit</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Macronutrients</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">+350 kcal/day; ↑ protein 78g/day</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Micronutrients</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Iron 60mg, Folic acid 500mcg, Calcium 1200mg</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Fluids</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">2–3 L/day; avoid raw/processed food</div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Adequate Maternal &amp; Fetal Nutrition Ensured</div>
   </div>
 </div>
 
@@ -1779,6 +2153,11 @@ window.QUESTIONS_DATA_UNIT3 = [
   <details><summary>Which nutrient prevents neural tube defects and where is it found?</summary><p>Folic acid &mdash; found in green leafy vegetables, citrus fruits, pulses, and the IFA tablet.</p></details>
   <details><summary>Why avoid tea/coffee with meals in pregnancy?</summary><p>Tannins in tea/coffee reduce iron absorption, worsening anaemia. Vitamin C-rich foods, by contrast, improve iron absorption.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Adequate nutrition during pregnancy prevents complications such as anaemia, preeclampsia, intrauterine growth restriction, and neural tube defects. The nurse must counsel every pregnant woman on a balanced, culturally acceptable diet and ensure regular monitoring of weight gain as per ICMR guidelines.</p>
+</div>
 `
   },
 
@@ -1795,7 +2174,22 @@ window.QUESTIONS_DATA_UNIT3 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> During pregnancy, two key preventive measures are given: <strong>tetanus immunization (TT/Td)</strong> to protect the mother and newborn from tetanus, and <strong>IFA (Iron + Folic Acid) tablets</strong> to prevent anaemia and birth defects. Both are free under India's national programme.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Immunization and iron&ndash;folic acid supplementation during pregnancy are essential preventive interventions under India&rsquo;s National Health Mission. Tetanus Toxoid (TT) / Td vaccination protects the mother and newborn against tetanus, while IFA supplementation prevents iron-deficiency anaemia &mdash; one of the most prevalent nutritional disorders in pregnant Indian women.</p>
+</div>
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>TT/Td Immunization:</strong> Active immunization of a pregnant woman with Tetanus Toxoid or Tetanus&ndash;Diphtheria toxoid to prevent maternal and neonatal tetanus by stimulating protective antibody formation.<br/><br/>
+    <strong>IFA Prophylaxis:</strong> Supplementation with Iron &amp; Folic Acid tablets to prevent or treat iron-deficiency anaemia and neural tube defects during pregnancy, as recommended by the Government of India antenatal care protocol.
+  </div>
+</div>
+
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 210" role="img" aria-label="Tetanus immunization and IFA prophylaxis in pregnancy" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <rect x="20" y="30" width="270" height="160" rx="8" fill="var(--accent)" stroke="var(--color-border)" stroke-width="1.5"/>
@@ -1817,7 +2211,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">1. Tetanus Immunization (TT / Td)</h3>
   <p class="answer-text">Tetanus toxoid (now replaced by Td &mdash; Tetanus + diphtheria) protects the mother and prevents <strong>neonatal tetanus</strong> (a deadly newborn infection from the cut cord).</p>
   <div class="answer-table-wrap"><table class="answer-table">
@@ -1833,7 +2227,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">2. IFA Prophylaxis (Iron &amp; Folic Acid)</h3>
   <ul class="sub-points">
     <li><strong>Why:</strong> Iron prevents anaemia; folic acid prevents neural tube defects in the baby.</li>
@@ -1847,10 +2241,27 @@ window.QUESTIONS_DATA_UNIT3 = [
 
 <div class="editorial-example"><strong>Relatable Example:</strong> At the sub-centre, the ANM gives Geeta her first Td injection at her booking visit and a strip of IFA tablets, telling her to take one daily after lunch with lemon water and not to worry about the black stools.</div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Remember: <strong>"2 &amp; 100"</strong></div>
   <div class="mnemonic-explain">
     <strong>2</strong> doses of TT/Td in first pregnancy &middot; <strong>100</strong> IFA tablets minimum.
+  </div>
+</div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: TT/Td Immunisation &amp; IFA Prophylaxis</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">1st ANC Visit (as early as possible)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">TT1 / Td1 Dose — 0.5mL IM</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Wait 4 Weeks</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">TT2 / Td2 Dose — 0.5mL IM (at least 4 wks before EDD)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">IFA Tablet — 1 tablet daily (100 days minimum)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Neonatal Tetanus Prevented; Anaemia Prevented</div>
   </div>
 </div>
 
@@ -1883,6 +2294,11 @@ window.QUESTIONS_DATA_UNIT3 = [
   <details><summary>State the IFA prophylactic dose and duration.</summary><p>One tablet daily (60 mg elemental iron + 500 &micro;g folic acid) for at least 100 days, started after the first trimester. Anaemic women take two tablets/day.</p></details>
   <details><summary>Why is folic acid important and when should it ideally start?</summary><p>It prevents neural tube defects (brain/spine defects) and should ideally start before conception and continue in the first trimester.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">TT/Td immunization and daily IFA supplementation are low-cost, high-impact interventions that significantly reduce maternal and neonatal mortality. Nurses must ensure timely administration, record keeping in the MCP card, and counselling on compliance &mdash; especially for IFA tablets &mdash; to achieve the targets set under PMSMA and NHM.</p>
+</div>
 `
   },
 
@@ -1898,10 +2314,24 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Summer 2021",
     answer: `
 <div class="in-short"><strong>In Short:</strong> During pregnancy the reproductive organs change dramatically to hold and nourish the baby. The <strong>uterus</strong> grows from 30 g to 1000 g, the <strong>cervix</strong> softens and forms a mucus plug, the <strong>vagina</strong> becomes bluish and stretchy, and the <strong>breasts</strong> prepare for milk.</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Pregnancy induces profound physiological adaptations in the female reproductive system to accommodate the growing fetus, prepare the birth canal for labour, and support lactation. These changes begin early in the first trimester under the influence of human chorionic gonadotropin (hCG), oestrogen, and progesterone, and progressively intensify until term.</p>
+</div>
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Physiological Changes in Pregnancy:</strong> Normal, hormone-mediated structural and functional adaptations occurring in the uterus, cervix, vagina, ovaries, and breasts during pregnancy to support fetal growth, prepare for parturition, and facilitate breastfeeding.
+  </div>
+</div>
+
+
 <div class="figure-block"><img src="assets/images/female_pelvis.png" alt="Fig: Types of Female Pelvis" loading="lazy"><div class="figure-caption">Fig: Types of Female Pelvis</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 230" role="img" aria-label="Reproductive organ changes during pregnancy" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Reproductive System Changes</text>
@@ -1921,7 +2351,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">1. Uterus</h3>
   <ul class="sub-points">
     <li>Weight: 30 g &rarr; 1000 g; capacity: 10 mL &rarr; ~5000 mL</li>
@@ -1932,7 +2362,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">2. Cervix</h3>
   <ul class="sub-points">
     <li>Becomes soft (<strong>Goodell's sign</strong>) and bluish (<strong>Chadwick's sign</strong>)</li>
@@ -1941,7 +2371,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">3. Vagina</h3>
   <ul class="sub-points">
     <li>Bluish-violet colour (increased blood flow &mdash; Chadwick's sign)</li>
@@ -1950,7 +2380,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">4. Ovaries &amp; Fallopian Tubes</h3>
   <ul class="sub-points">
     <li>Ovulation and menstruation stop</li>
@@ -1958,7 +2388,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">5. Breasts</h3>
   <ul class="sub-points">
     <li>Enlarge, feel tender and heavy</li>
@@ -1968,7 +2398,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Sign mnemonic: <strong>"GCC"</strong></div>
   <div class="mnemonic-explain">
     <strong>G</strong>oodell (soft cervix) &middot; <strong>C</strong>hadwick (bluish vagina) &middot; <strong>C</strong>orpus luteum (early progesterone)
@@ -2007,6 +2437,11 @@ window.QUESTIONS_DATA_UNIT3 = [
   <details><summary>What is the mucus plug and its function?</summary><p>The operculum &mdash; a plug of mucus in the cervical canal that seals the uterus and protects it from infection. It is expelled (&quot;show&quot;) before labour.</p></details>
   <details><summary>What are Goodell's and Chadwick's signs?</summary><p>Goodell's = softening of the cervix; Chadwick's = bluish-violet discolouration of the vagina and cervix from increased blood flow.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Understanding physiological changes in the reproductive system enables the nurse to differentiate normal adaptations from pathological deviations, provide accurate health education, and perform competent antenatal assessments. These changes reverse progressively during the puerperium &mdash; highlighting the importance of postnatal follow-up as well.</p>
+</div>
 `
   },
 
@@ -2027,7 +2462,7 @@ window.QUESTIONS_DATA_UNIT3 = [
 <div class="figure-block"><img src="assets/images/fetal_skull.png" alt="Fig: Fetal Skull &mdash; Bones, Sutures, Fontanelles and Diameters" loading="lazy"><div class="figure-caption">Fig: Fetal Skull &mdash; Bones, Sutures, Fontanelles and Diameters</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 220" role="img" aria-label="Four types of female pelvis brim shapes" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Four Types of Pelvic Brim (Caldwell-Moloy)</text>
@@ -2049,12 +2484,21 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The female pelvis is divided into the <strong>false pelvis</strong> (upper, supports the uterus) and the <strong>true pelvis</strong> (lower, the actual birth canal). Assessing the pelvis helps predict whether vaginal delivery is possible.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Pelvic Assessment:</strong> Clinical &amp; radiological evaluation of the size, shape, and diameters of the bony pelvis to determine its adequacy for the passage of the fetal presenting part during labour.<br/><br/>
+    <strong>Female Pelvis:</strong> The bony basin formed by the two hip bones, sacrum, and coccyx that forms the birth canal; classified into four types &mdash; Gynaecoid, Android, Anthropoid, and Platypelloid &mdash; based on the shape of the pelvic inlet (Caldwell&ndash;Moloy classification).
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Four Types of Pelvis (Caldwell-Moloy)</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Type</th><th>Shape of Brim</th><th>Suitability for Delivery</th></tr></thead>
@@ -2067,7 +2511,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </table></div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Methods of Pelvic Assessment</h3>
   <ol class="answer-points">
     <li><strong>Clinical pelvimetry (per vaginal examination):</strong> Done near term to feel the sacral promontory, ischial spines, and pubic arch.</li>
@@ -2077,7 +2521,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Important Pelvic Diameters (Inlet)</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Diameter</th><th>Approx. Measurement</th></tr></thead>
@@ -2090,7 +2534,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </table></div>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Pelvis types mnemonic: <strong>"GAAP"</strong></div>
   <div class="mnemonic-explain">
     <strong>G</strong>ynaecoid &middot; <strong>A</strong>ndroid &middot; <strong>A</strong>nthropoid &middot; <strong>P</strong>latypelloid (only Gynaecoid is ideal!)
@@ -2100,6 +2544,41 @@ window.QUESTIONS_DATA_UNIT3 = [
 <div class="editorial-example"><strong>Relatable Example:</strong> If the baby's head is the &quot;car&quot; and the pelvis is the &quot;tunnel&quot;, a gynaecoid pelvis is a wide round tunnel that lets the car pass easily, while an android pelvis is a narrow wedge tunnel that may block it (obstructed labour).</div>
 <div data-diagram="fetalSkull"></div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Pelvic Assessment — Types of Female Pelvis</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Pelvic Assessment (Clinical / X-ray / CT)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Gynaecoid</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Round inlet; favourable — normal vaginal delivery</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Android</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Heart-shaped; narrow; obstructed labour risk</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Anthropoid</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Oval AP; OP position common; usually delivers vaginally</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Platypelloid</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Flat transverse; deep transverse arrest; CS likely</div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Plan Mode of Delivery Accordingly</div>
+  </div>
+</div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
@@ -2130,6 +2609,11 @@ window.QUESTIONS_DATA_UNIT3 = [
   <details><summary>Name the four types of pelvis.</summary><p>Gynaecoid, android, anthropoid, platypelloid (Caldwell-Moloy classification).</p></details>
   <details><summary>What does a maternal height below 145 cm suggest?</summary><p>A possibly contracted pelvis and higher risk of cephalo-pelvic disproportion (CPD) and obstructed labour.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Pelvic assessment is a critical component of antenatal care that helps predict cephalopelvic disproportion and plan the mode of delivery. The nurse must understand pelvic types and assist the obstetrician during clinical pelvimetry, ensuring that women with android or platypelloid pelvis are identified early for specialist referral and birth planning.</p>
+</div>
 `
   },
 
@@ -2148,7 +2632,7 @@ window.QUESTIONS_DATA_UNIT3 = [
 <div class="figure-block"><img src="assets/images/fetal_skull.png" alt="Fig: Fetal Skull &mdash; Bones, Sutures, Fontanelles and Diameters" loading="lazy"><div class="figure-caption">Fig: Fetal Skull &mdash; Bones, Sutures, Fontanelles and Diameters</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 280" role="img" aria-label="Fetal skull viewed from above showing bones, sutures and fontanelles" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Fetal Skull (view from above)</text>
@@ -2177,12 +2661,20 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The fetal skull has three parts: the <strong>vault</strong> (top, where bones are soft and can mould), the <strong>face</strong>, and the <strong>base</strong> (firm, protects the brain stem). The vault is the part that concerns the midwife most during delivery.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Fetal Skull:</strong> The fetal skull is a bony structure formed by membranous bones that are loosely connected by sutures and fontanelles, allowing moulding during labour to facilitate passage through the birth canal.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">1. Bones of the Vault</h3>
   <ul class="sub-points">
     <li><strong>2 Frontal bones</strong> (forehead)</li>
@@ -2193,7 +2685,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   <p class="answer-text">These bones are <strong>ossified but not fused</strong>, allowing moulding during labour.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">2. Sutures (Lines Where Bones Meet)</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Suture</th><th>Location</th></tr></thead>
@@ -2206,7 +2698,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </table></div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">3. Fontanelles (Soft Gaps Where Sutures Meet)</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Fontanelle</th><th>Shape</th><th>Closes by</th></tr></thead>
@@ -2218,7 +2710,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   <p class="answer-text">During a vaginal examination, feeling these fontanelles helps identify the <strong>position</strong> of the baby's head.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">4. Regions / Landmarks of the Skull</h3>
   <ul class="sub-points">
     <li><strong>Occiput</strong> &mdash; back of head (behind posterior fontanelle)</li>
@@ -2229,7 +2721,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">5. Diameters of the Fetal Skull</h3>
   <p class="answer-text">The diameter that passes through the pelvis depends on how well the head is flexed (chin tucked).</p>
   <div class="answer-table-wrap"><table class="answer-table">
@@ -2245,7 +2737,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   <p class="answer-text"><strong>Transverse diameters:</strong> Biparietal (BPD) = 9.5 cm; Bitemporal = 8 cm.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">6. Moulding</h3>
   <ul class="sub-points">
     <li><strong>Moulding</strong> = overlapping of the skull bones at the sutures during labour to reduce the head size so it can pass through the pelvis.</li>
@@ -2254,7 +2746,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Importance in Labour</h3>
   <ol class="answer-points">
     <li>Fontanelles and sutures help identify the <strong>position</strong> of the head on vaginal examination.</li>
@@ -2265,7 +2757,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ol>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Smallest diameter mnemonic: <strong>"Flex = 9.5"</strong></div>
   <div class="mnemonic-explain">
     A <strong>well-flexed</strong> vertex presents the <strong>suboccipito-bregmatic</strong> diameter = <strong>9.5 cm</strong>, the smallest and best for delivery. A <strong>brow</strong> presents the <strong>mento-vertical</strong> = 13.5 cm, the largest.
@@ -2334,10 +2826,28 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Winter 2019, Summer 2024",
     answer: `
 <div class="in-short"><strong>In Short:</strong> These obstetrical terms describe how the baby is lying inside the uterus. <strong>Lie</strong> = direction of baby relative to mother; <strong>presentation</strong> = part of baby coming first; <strong>position</strong> = where the baby's landmark points; <strong>attitude</strong> = how flexed the baby is; <strong>denominator</strong> = the landmark used to describe position.</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Assessment of the fetal position within the uterus is fundamental to obstetric management and predicting the course of labour. Standardised terminology &mdash; lie, presentation, position, attitude, and denominator &mdash; allows clinicians to communicate fetal orientation accurately and plan safe delivery.</p>
+</div>
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definitions</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Lie:</strong> Relationship of the long axis of the fetus to the long axis of the uterus (longitudinal, transverse, or oblique).<br><br>
+    <strong>Presentation:</strong> The part of the fetus that occupies the lower pole of the uterus and overlies the pelvic brim (cephalic, breech, or shoulder).<br><br>
+    <strong>Position:</strong> The relationship of the denominator of the presenting part to the maternal pelvis.<br><br>
+    <strong>Attitude:</strong> The relationship of the fetal parts to one another &mdash; normally one of universal flexion.<br><br>
+    <strong>Denominator:</strong> An arbitrary fixed point on the presenting part used to describe position (e.g., occiput in vertex, sacrum in breech).
+  </div>
+</div>
+
+
 <div class="figure-block"><img src="assets/images/fetal_skull.png" alt="Fig: Fetal Presentation and Skull Diameters" loading="lazy"><div class="figure-caption">Fig: Fetal Presentation and Skull Diameters</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 230" role="img" aria-label="Obstetrical terms lie, presentation, attitude, position and denominator" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="150" y="22" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Term</text>
@@ -2367,7 +2877,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Definitions</h3>
   <ol class="answer-points">
     <li><strong>Lie:</strong> The relationship of the long axis (spine) of the baby to the long axis of the mother's uterus.
@@ -2402,7 +2912,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Quick Comparison</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Term</th><th>Answers the question&hellip;</th><th>Normal finding</th></tr></thead>
@@ -2446,6 +2956,11 @@ window.QUESTIONS_DATA_UNIT3 = [
   <details><summary>What is the denominator and what is it in each presentation?</summary><p>The denominator is the landmark used to describe position: occiput (vertex), mentum/chin (face), and sacrum (breech).</p></details>
   <details><summary>What does LOA mean?</summary><p>Left Occipito-Anterior &mdash; the baby's occiput points to the mother's left and front; the commonest and most favourable position.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Accurate determination of lie, presentation, position, attitude, and denominator guides the obstetrician in anticipating the mechanism of labour and identifying malpresentations early. Timely recognition of abnormal fetal orientation allows intervention to reduce maternal &amp; perinatal morbidity.</p>
+</div>
 `
   },
 
@@ -2461,10 +2976,24 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Summer 2018, Winter 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Abdominal examination is done to assess the size, lie, presentation, position and wellbeing of the baby. It has three steps: <strong>Inspection</strong> (look), <strong>Palpation</strong> (feel &mdash; using the four Leopold's/fundal-lateral-pelvic grips), and <strong>Auscultation</strong> (listen to the fetal heart). The bladder must be emptied first and the woman lies comfortably with knees slightly bent.</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Abdominal examination is the cornerstone of antenatal assessment, providing vital information about fetal lie, presentation, position, growth, and well-being without invasive procedures. A systematic approach &mdash; inspection &rarr; palpation &rarr; Leopold manoeuvres &rarr; auscultation &mdash; ensures no findings are missed and forms the basis of safe pregnancy monitoring in Indian clinical practice.</p>
+</div>
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Leopold Manoeuvres:</strong> A standardised set of four systematic external palpation techniques described by Christian Gerhard Leopold, used to determine fetal lie, presentation, position, and degree of engagement in the maternal pelvis.
+  </div>
+</div>
+
+
 <div class="figure-block"><img src="assets/images/leopolds_maneuvers.png" alt="Fig: Leopold's Four Manoeuvres" loading="lazy"><div class="figure-caption">Fig: Leopold's Four Manoeuvres</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 230" role="img" aria-label="Four Leopold's manoeuvres of abdominal palpation" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="20" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Leopold's Manoeuvres (F-L-P-D)</text>
@@ -2493,7 +3022,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Purpose</h3>
   <ul class="sub-points">
     <li>Assess fetal growth and gestational age (fundal height)</li>
@@ -2503,7 +3032,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Preparation</h3>
   <ul class="sub-points">
     <li>Explain the procedure; obtain consent and ensure privacy</li>
@@ -2513,7 +3042,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">1. Inspection (Look)</h3>
   <ul class="sub-points">
     <li><strong>Shape &amp; size</strong> of the abdomen (longitudinal ovoid is normal)</li>
@@ -2523,9 +3052,9 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">2. Palpation (Feel) &mdash; Leopold's Manoeuvres</h3>
-  <div class="flowchart">
+  <div class="flowchart animate-fade-in">
     <div class="flowchart-container">
       <div class="flow-box">Grip 1: Fundal palpation</div>
       <div class="flow-arrow">&darr;</div>
@@ -2548,7 +3077,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   <p class="answer-text"><strong>Fundal height landmarks:</strong> 12 wks = symphysis pubis; 20 wks = umbilicus; 36 wks = xiphisternum.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">3. Auscultation (Listen)</h3>
   <ul class="sub-points">
     <li>Use a <strong>Pinard fetal stethoscope</strong> or Doppler</li>
@@ -2559,7 +3088,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Nurse's Responsibilities</h3>
   <ol class="answer-points">
     <li>Maintain privacy, comfort and warmth</li>
@@ -2570,7 +3099,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   </ol>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Four grips mnemonic: <strong>"F-L-P-D"</strong></div>
   <div class="mnemonic-explain">
     <strong>F</strong>undal &rarr; <strong>L</strong>ateral &rarr; <strong>P</strong>elvic (Pawlik's) &rarr; <strong>D</strong>eep pelvic
@@ -2636,7 +3165,13 @@ window.QUESTIONS_DATA_UNIT3 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Quickening is the first time a pregnant woman feels her baby move. It is a presumptive sign of pregnancy and a useful marker of fetal wellbeing.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Fetal movements are an important indicator of fetal well-being and serve as a reassuring sign of an intact fetal central nervous system. Quickening &mdash; the mother&rsquo;s first subjective awareness of fetal movements &mdash; is a key milestone in pregnancy that also aids in clinical estimation of gestational age.</p>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 200" role="img" aria-label="Timing of quickening in primigravida and multigravida" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Quickening = first fetal movements felt</text>
@@ -2657,12 +3192,12 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box"><strong>Quickening</strong> is the first perception of fetal movements by the mother. It usually feels like a flutter or light kick in the lower abdomen.</div>
+  <div class="definition-box animate-scale-in"><strong>Quickening</strong> is the first perception of fetal movements by the mother. It usually feels like a flutter or light kick in the lower abdomen.</div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Key Points</h3>
   <ul class="sub-points">
     <li><strong>Primigravida</strong> (first pregnancy): felt at about <strong>18&ndash;20 weeks</strong></li>
@@ -2689,6 +3224,11 @@ window.QUESTIONS_DATA_UNIT3 = [
   <details><summary>When is quickening felt in a first pregnancy versus later pregnancies?</summary><p>About 18&ndash;20 weeks in a primigravida and 16&ndash;18 weeks in a multigravida (who recognises the sensation earlier).</p></details>
   <details><summary>Which type of pregnancy sign is quickening?</summary><p>A presumptive (subjective) sign &mdash; felt by the woman, suggesting but not confirming pregnancy.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Quickening typically occurs at 18&ndash;20 weeks in primigravidae and 16&ndash;18 weeks in multigravidae, and its timing assists in confirming the EDD. A decrease in fetal movements below 10 in 12 hours warrants immediate obstetric evaluation, as diminished movements may signal fetal compromise and necessitate prompt intervention.</p>
+</div>
 `
   },
 
@@ -2705,7 +3245,13 @@ window.QUESTIONS_DATA_UNIT3 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> EDD is the estimated date on which a woman is likely to deliver. It is calculated from the first day of the last menstrual period (LMP) using <strong>Naegele's rule</strong>: add 9 months and 7 days (or add 280 days).</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">The Expected Date of Delivery (EDD) is the estimated date on which a pregnant woman is likely to deliver, calculated from a known last menstrual period (LMP). Accurate estimation of EDD is essential for monitoring fetal growth, planning antenatal care, and identifying post-term pregnancies in clinical practice across India.</p>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 200" role="img" aria-label="Naegele's rule for calculating expected date of delivery" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Naegele's Rule for EDD</text>
@@ -2727,14 +3273,14 @@ window.QUESTIONS_DATA_UNIT3 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box"><strong>Expected Date of Delivery (EDD)</strong> is the calculated date around which a pregnant woman is expected to give birth, normally about 280 days (40 weeks) from the first day of her last menstrual period.</div>
+  <div class="definition-box animate-scale-in"><strong>Expected Date of Delivery (EDD)</strong> is the calculated date around which a pregnant woman is expected to give birth, normally about 280 days (40 weeks) from the first day of her last menstrual period.</div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Naegele's Rule</h3>
-  <div class="flowchart">
+  <div class="flowchart animate-fade-in">
     <div class="flowchart-container">
       <div class="flow-box">Take first day of LMP</div>
       <div class="flow-arrow">&darr;</div>
@@ -2767,6 +3313,11 @@ window.QUESTIONS_DATA_UNIT3 = [
   <details><summary>State Naegele's rule.</summary><p>EDD = first day of LMP + 9 months + 7 days (about 280 days), assuming a regular 28-day cycle.</p></details>
   <details><summary>If the LMP is 5th April, what is the EDD?</summary><p>5th April + 9 months = 5th January; + 7 days = 12th January.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Naegele&rsquo;s rule provides a simple, reliable method to calculate EDD: add 9 months &amp; 7 days (or subtract 3 months &amp; add 7 days) to the first day of the LMP, assuming a regular 28-day cycle. When LMP is uncertain, early ultrasound before 20 weeks offers a more accurate EDD and should be used to confirm or revise the clinically calculated date.</p>
+</div>
 `
   },
   {
@@ -2778,14 +3329,27 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Winter 2021",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The antenatal (ANC) clinic gives a pregnant woman regular check-ups to keep her and the baby healthy. Main activities: <strong>registration, history, examination, investigations, immunization, supplements, health education, and identifying &amp; referring high-risk cases</strong>.</div>
-<div class="answer-section"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Antenatal care is the planned care given through pregnancy. The clinic is where it happens &mdash; to keep the pregnancy healthy, find problems early, and prepare the mother for birth.</p></div>
-<div class="answer-section"><h3 class="answer-section-title teal-title">Activities at the Clinic</h3><div class="answer-table-wrap"><table class="answer-table"><thead><tr><th>Activity</th><th>What is done</th></tr></thead><tbody><tr><td><strong>Registration &amp; history</strong></td><td>MCP card; menstrual, obstetric, medical &amp; family history; calculate EDD &amp; gestation</td></tr><tr><td><strong>General examination</strong></td><td>Weight, height, BP, pulse, temperature; pallor, oedema, jaundice; breast &amp; thyroid</td></tr><tr><td><strong>Obstetric examination</strong></td><td>Fundal height, abdominal palpation (lie, presentation, position), fetal heart sound</td></tr><tr><td><strong>Investigations</strong></td><td>Hb%, blood group &amp; Rh, urine (albumin/sugar), blood sugar, HIV, VDRL, HBsAg, USG</td></tr><tr><td><strong>Immunization &amp; supplements</strong></td><td>Td injections; IFA &amp; calcium; deworming</td></tr><tr><td><strong>Health education</strong></td><td>Diet, rest, hygiene, exercise, danger signs, breastfeeding, birth preparedness</td></tr><tr><td><strong>Risk screening &amp; referral</strong></td><td>Identify high-risk pregnancy &amp; refer to higher centre</td></tr><tr><td><strong>Records &amp; follow-up</strong></td><td>Maintain records; fix next visit (&ge; 4&ndash;8 contacts)</td></tr></tbody></table></div></div>
-<div class="answer-section"><div class="flowchart"><div class="flowchart-title">Flow of an Antenatal Visit</div><div class="flowchart-container"><div class="flow-box highlight">Woman arrives at ANC clinic</div><div class="flow-arrow">&darr;</div><div class="flow-box">Register + History (MCP card, EDD)</div><div class="flow-arrow">&darr;</div><div class="flow-box">Examination (Wt, BP, pallor, abdominal palpation, FHS)</div><div class="flow-arrow">&darr;</div><div class="flow-branch"><div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">Investigations (Hb, blood group, urine, USG)</div></div><div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">Immunize + Supplements (Td, IFA, calcium)</div></div></div><div class="flow-arrow">&darr;</div><div class="flow-box">Health education + Risk screening</div><div class="flow-arrow">&darr;</div><div class="flow-box highlight">Treat / Refer + Record + Next visit</div></div></div></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Antenatal care is the planned care given through pregnancy. The clinic is where it happens &mdash; to keep the pregnancy healthy, find problems early, and prepare the mother for birth.</p></div>
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Antenatal Clinic:</strong> A specialized outpatient facility where systematic assessment, education, and care are provided to pregnant women at regular intervals throughout pregnancy to ensure maternal and fetal well-being.
+  </div>
+</div>
+
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title teal-title">Activities at the Clinic</h3><div class="answer-table-wrap"><table class="answer-table"><thead><tr><th>Activity</th><th>What is done</th></tr></thead><tbody><tr><td><strong>Registration &amp; history</strong></td><td>MCP card; menstrual, obstetric, medical &amp; family history; calculate EDD &amp; gestation</td></tr><tr><td><strong>General examination</strong></td><td>Weight, height, BP, pulse, temperature; pallor, oedema, jaundice; breast &amp; thyroid</td></tr><tr><td><strong>Obstetric examination</strong></td><td>Fundal height, abdominal palpation (lie, presentation, position), fetal heart sound</td></tr><tr><td><strong>Investigations</strong></td><td>Hb%, blood group &amp; Rh, urine (albumin/sugar), blood sugar, HIV, VDRL, HBsAg, USG</td></tr><tr><td><strong>Immunization &amp; supplements</strong></td><td>Td injections; IFA &amp; calcium; deworming</td></tr><tr><td><strong>Health education</strong></td><td>Diet, rest, hygiene, exercise, danger signs, breastfeeding, birth preparedness</td></tr><tr><td><strong>Risk screening &amp; referral</strong></td><td>Identify high-risk pregnancy &amp; refer to higher centre</td></tr><tr><td><strong>Records &amp; follow-up</strong></td><td>Maintain records; fix next visit (&ge; 4&ndash;8 contacts)</td></tr></tbody></table></div></div>
+<div class="answer-section animate-slide-up"><div class="flowchart animate-fade-in"><div class="flowchart-title">Flow of an Antenatal Visit</div><div class="flowchart-container"><div class="flow-box highlight">Woman arrives at ANC clinic</div><div class="flow-arrow">&darr;</div><div class="flow-box">Register + History (MCP card, EDD)</div><div class="flow-arrow">&darr;</div><div class="flow-box">Examination (Wt, BP, pallor, abdominal palpation, FHS)</div><div class="flow-arrow">&darr;</div><div class="flow-branch"><div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">Investigations (Hb, blood group, urine, USG)</div></div><div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">Immunize + Supplements (Td, IFA, calcium)</div></div></div><div class="flow-arrow">&darr;</div><div class="flow-box">Health education + Risk screening</div><div class="flow-arrow">&darr;</div><div class="flow-box highlight">Treat / Refer + Record + Next visit</div></div></div></div>
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>At least <strong>4 ANC visits</strong> (WHO 2016: 8 contacts)</li><li>Every visit: weight, BP, urine, Hb, fundal height, FHS</li><li><strong>Td</strong> prevents maternal &amp; neonatal tetanus</li><li>IFA from 2nd trimester for &ge;180 days; calcium 1 g/day</li></ul></div>
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">MCP card</span><span class="kw">EDD</span><span class="kw">Td immunization</span><span class="kw">IFA</span><span class="kw">Fundal height</span><span class="kw">FHS</span><span class="kw">High-risk referral</span><span class="kw">8 ANC contacts</span></div>
 <div class="editorial-example"><strong>Relatable Example:</strong> At a PHC, the ANM weighs Sita, checks her BP and Hb, tests her urine, gives IFA and a Td shot, and teaches danger signs &mdash; all in one antenatal visit.</div>
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div><ul><li><span class="term">ANC</span> Antenatal Care &mdash; care during pregnancy</li><li><span class="term">MCP card</span> Mother &amp; Child Protection card &mdash; the pregnancy record</li><li><span class="term">EDD</span> Expected Date of Delivery</li><li><span class="term">Td</span> Tetanus-diphtheria vaccine given in pregnancy</li></ul></div>
 <div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div><details><summary>How many ANC visits are recommended?</summary><p>Minimum 4; WHO 2016 recommends 8 contacts.</p></details><details><summary>What is checked in urine at every visit?</summary><p>Albumin (pre-eclampsia) and sugar (GDM).</p></details><details><summary>Which immunization is given?</summary><p>Td, to prevent maternal &amp; neonatal tetanus.</p></details></div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Antenatal clinic activities form the cornerstone of safe motherhood initiatives in India. Regular attendance at antenatal clinics under JSSK and PMSMA schemes significantly reduces maternal and perinatal morbidity and mortality by enabling early detection and timely management of high-risk conditions.</p>
+</div>
 `
   },
   {
@@ -2797,16 +3361,49 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Winter 2019, Winter 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Antenatal exercises are gentle, regular exercises in pregnancy that <strong>prepare the body for labour</strong>, relieve backache &amp; constipation, improve circulation and breathing, and help the mother relax and recover faster.</div>
-<div class="answer-section"><div class="figure-block"><svg viewBox="0 0 600 150" role="img" aria-label="diagram" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="22" text-anchor="middle" font-size="14" fill="var(--color-foreground)"font-weight="bold">Antenatal Exercises</text><rect x="40" y="45" width="100" height="74" rx="10" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="90" y="80" text-anchor="middle" font-size="22">&#129496;</text><text x="90" y="105" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Breathing</text><rect x="152" y="45" width="100" height="74" rx="10" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="202" y="80" text-anchor="middle" font-size="22">&#129003;</text><text x="202" y="105" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Pelvic floor</text><rect x="264" y="45" width="100" height="74" rx="10" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="314" y="80" text-anchor="middle" font-size="22">&#129495;</text><text x="314" y="105" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Pelvic rock</text><rect x="376" y="45" width="100" height="74" rx="10" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="426" y="80" text-anchor="middle" font-size="22">&#129485;</text><text x="426" y="105" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Squatting</text><rect x="488" y="45" width="100" height="74" rx="10" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="538" y="80" text-anchor="middle" font-size="22">&#129461;</text><text x="538" y="105" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Leg/foot</text></svg><div class="figure-caption">Fig: Common antenatal exercises</div></div></div>
-<div class="answer-section"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Pregnancy changes posture and strains the back and pelvis. Simple exercises keep the mother fit, ease discomforts, and teach the breathing and relaxation used in labour.</p></div>
-<div class="answer-section"><h3 class="answer-section-title teal-title">Benefits</h3><ul class="answer-points"><li>Strengthen muscles used in labour &mdash; easier delivery</li><li>Relieve backache, leg cramps &amp; constipation</li><li>Improve circulation; prevent varicose veins / oedema</li><li>Teach breathing &amp; relaxation to cope with pain</li><li>Promote sleep and faster postnatal recovery</li></ul></div>
-<div class="answer-section"><h3 class="answer-section-title accent-title">Types of Exercises</h3><div class="answer-table-wrap"><table class="answer-table"><thead><tr><th>Exercise</th><th>Purpose</th></tr></thead><tbody><tr><td>Breathing (deep/chest)</td><td>Relaxation &amp; control during contractions</td></tr><tr><td>Pelvic floor (Kegel)</td><td>Prevent urine leakage &amp; prolapse</td></tr><tr><td>Pelvic rocking / tilting</td><td>Relieve low backache</td></tr><tr><td>Squatting &amp; tailor sitting</td><td>Supple pelvic joints, widen outlet</td></tr><tr><td>Leg &amp; foot exercises</td><td>Prevent cramps, oedema, clots</td></tr></tbody></table></div></div>
-<div class="answer-section"><h3 class="answer-section-title">Precautions</h3><ul class="answer-points"><li>Stop if pain, bleeding, breathlessness or dizziness</li><li>Avoid lying flat on the back after 4 months (supine hypotension)</li><li>Avoid in APH, PIH/eclampsia, threatened abortion, heart disease</li></ul></div>
+<div class="answer-section animate-slide-up"><div class="figure-block"><svg viewBox="0 0 600 150" role="img" aria-label="diagram" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="22" text-anchor="middle" font-size="14" fill="var(--color-foreground)" font-weight="bold">Antenatal Exercises</text><rect x="40" y="45" width="100" height="74" rx="10" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="90" y="80" text-anchor="middle" font-size="22">&#129496;</text><text x="90" y="105" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Breathing</text><rect x="152" y="45" width="100" height="74" rx="10" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="202" y="80" text-anchor="middle" font-size="22">&#129003;</text><text x="202" y="105" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Pelvic floor</text><rect x="264" y="45" width="100" height="74" rx="10" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="314" y="80" text-anchor="middle" font-size="22">&#129495;</text><text x="314" y="105" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Pelvic rock</text><rect x="376" y="45" width="100" height="74" rx="10" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="426" y="80" text-anchor="middle" font-size="22">&#129485;</text><text x="426" y="105" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Squatting</text><rect x="488" y="45" width="100" height="74" rx="10" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="538" y="80" text-anchor="middle" font-size="22">&#129461;</text><text x="538" y="105" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Leg/foot</text></svg><div class="figure-caption">Fig: Common antenatal exercises</div></div></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Pregnancy changes posture and strains the back and pelvis. Simple exercises keep the mother fit, ease discomforts, and teach the breathing and relaxation used in labour.</p></div>
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Antenatal Exercises:</strong> Planned, structured physical activities recommended during pregnancy to strengthen muscles, improve posture, relieve discomforts, and prepare the body for labour and delivery &mdash; prescribed after thorough assessment of maternal condition.
+  </div>
+</div>
+
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title teal-title">Benefits</h3><ul class="answer-points"><li>Strengthen muscles used in labour &mdash; easier delivery</li><li>Relieve backache, leg cramps &amp; constipation</li><li>Improve circulation; prevent varicose veins / oedema</li><li>Teach breathing &amp; relaxation to cope with pain</li><li>Promote sleep and faster postnatal recovery</li></ul></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title accent-title">Types of Exercises</h3><div class="answer-table-wrap"><table class="answer-table"><thead><tr><th>Exercise</th><th>Purpose</th></tr></thead><tbody><tr><td>Breathing (deep/chest)</td><td>Relaxation &amp; control during contractions</td></tr><tr><td>Pelvic floor (Kegel)</td><td>Prevent urine leakage &amp; prolapse</td></tr><tr><td>Pelvic rocking / tilting</td><td>Relieve low backache</td></tr><tr><td>Squatting &amp; tailor sitting</td><td>Supple pelvic joints, widen outlet</td></tr><tr><td>Leg &amp; foot exercises</td><td>Prevent cramps, oedema, clots</td></tr></tbody></table></div></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Precautions</h3><ul class="answer-points"><li>Stop if pain, bleeding, breathlessness or dizziness</li><li>Avoid lying flat on the back after 4 months (supine hypotension)</li><li>Avoid in APH, PIH/eclampsia, threatened abortion, heart disease</li></ul></div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Antenatal Exercises</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">1st Trimester — Begin Gentle Exercises</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Breathing Exercises — diaphragmatic &amp; costal</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Pelvic Floor Exercises (Kegel's)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Back Strengthening &amp; Posture Correction</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Leg Exercises — reduce varicosities/oedema</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Relaxation Techniques</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Daily Walking 30 mins — Throughout Pregnancy</div>
+  </div>
+</div>
+
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Kegel = pelvic floor; pelvic rocking = backache</li><li>Breathing exercises help during contractions</li><li>No supine position after 4 months</li><li>Avoid in high-risk pregnancy</li></ul></div>
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Kegel</span><span class="kw">Pelvic rocking</span><span class="kw">Tailor sitting</span><span class="kw">Breathing exercise</span><span class="kw">Supine hypotension</span><span class="kw">Relaxation</span><span class="kw">Squatting</span></div>
 <div class="editorial-example"><strong>Relatable Example:</strong> A physiotherapist teaches a 7-month pregnant woman pelvic rocking for backache, Kegels to avoid leakage, and breathing she can use when labour starts.</div>
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div><ul><li><span class="term">Kegel exercise</span> Tightening the pelvic-floor muscles to strengthen them</li><li><span class="term">Supine hypotension</span> Low BP from lying flat &mdash; the uterus presses on a big vein</li><li><span class="term">Pelvic rocking</span> Gently tilting the pelvis to ease backache</li></ul></div>
 <div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div><details><summary>Which exercise strengthens the pelvic floor?</summary><p>Kegel exercises.</p></details><details><summary>Why avoid lying flat after 4 months?</summary><p>Supine hypotension &mdash; the uterus compresses the vena cava, lowering BP.</p></details><details><summary>Name two conditions where exercise is avoided.</summary><p>APH and PIH/eclampsia (also threatened abortion, heart disease).</p></details></div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Antenatal exercises such as Kegel&rsquo;s, pelvic tilts, and breathing techniques promote physical and psychological well-being during pregnancy. The nurse plays a vital role in teaching, demonstrating, and supervising these exercises while identifying contraindications such as placenta praevia or preterm labour risk.</p>
+</div>
 `
   },
   {
@@ -2818,16 +3415,29 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Winter 2018, Winter 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> A pregnant woman needs a <strong>balanced diet</strong> with extra energy, protein, iron, calcium, folic acid and vitamins &mdash; about <strong>350 extra kcal/day</strong> in the 2nd &amp; 3rd trimesters, plus iron-folic-acid and calcium supplements.</div>
-<div class="answer-section"><div class="figure-block"><svg viewBox="0 0 600 230" role="img" aria-label="diagram" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="22" text-anchor="middle" font-size="14" fill="var(--color-foreground)"font-weight="bold">Balanced Diet in Pregnancy</text><circle cx="170" cy="125" r="80" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2"/><path d="M170,125 L170,45 A80,80 0 0,1 250,125 Z" fill="#a5d6a7" opacity="0.7"/><path d="M170,125 L250,125 A80,80 0 0,1 170,205 Z" fill="#ffcc80" opacity="0.7"/><path d="M170,125 L170,205 A80,80 0 0,1 90,125 Z" fill="#ef9a9a" opacity="0.7"/><path d="M170,125 L90,125 A80,80 0 0,1 170,45 Z" fill="#fff59d" opacity="0.7"/><text x="205" y="90" text-anchor="middle" font-size="10" fill="var(--color-foreground)">Veg /</text><text x="205" y="102" text-anchor="middle" font-size="10" fill="var(--color-foreground)">Fruit</text><text x="205" y="165" text-anchor="middle" font-size="10" fill="var(--color-foreground)">Grains</text><text x="135" y="165" text-anchor="middle" font-size="10" fill="var(--color-foreground)">Protein</text><text x="135" y="90" text-anchor="middle" font-size="10" fill="var(--color-foreground)">Dairy</text><rect x="300" y="55" width="270" height="140" rx="8" fill="var(--color-muted)" stroke="var(--color-border)"/><text x="315" y="80" font-size="12" font-weight="bold" fill="var(--color-foreground)">+ Supplements (GoI):</text><text x="315" y="103" font-size="11" fill="var(--color-foreground)">&bull; IFA &mdash; 1 tab/day, &ge;180 days</text><text x="315" y="124" font-size="11" fill="var(--color-foreground)">&bull; Calcium 1 g/day</text><text x="315" y="145" font-size="11" fill="var(--color-foreground)">&bull; Folic acid 400 mcg (pre-conception)</text><text x="315" y="171" font-size="11" fill="var(--color-foreground)">&bull; Extra ~350 kcal/day (2nd-3rd tri)</text></svg><div class="figure-caption">Fig: A balanced pregnancy plate + GoI supplements</div></div></div>
-<div class="answer-section"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Good nutrition keeps the mother healthy and lets the baby grow well. She does not need to &lsquo;eat for two&rsquo; in quantity, but needs better quality food and a few key supplements.</p></div>
-<div class="answer-section"><h3 class="answer-section-title teal-title">Key Nutrients &amp; Sources</h3><div class="answer-table-wrap"><table class="answer-table"><thead><tr><th>Nutrient</th><th>Why needed</th><th>Sources</th></tr></thead><tbody><tr><td>Protein (+~23 g/day)</td><td>Baby, uterus, breasts</td><td>Dal, milk, curd, egg, fish, soya</td></tr><tr><td>Iron</td><td>Prevents anaemia</td><td>Green leafy veg, jaggery, dates</td></tr><tr><td>Calcium</td><td>Baby's bones/teeth</td><td>Milk, curd, ragi, til</td></tr><tr><td>Folic acid</td><td>Prevents neural tube defects</td><td>Green veg, citrus, pulses</td></tr><tr><td>Iodine</td><td>Baby's brain</td><td>Iodised salt, sea food</td></tr><tr><td>Vitamins/Fibre/Water</td><td>Immunity, prevent constipation</td><td>Fruits, vegetables, whole grains</td></tr></tbody></table></div></div>
-<div class="answer-section"><h3 class="answer-section-title accent-title">Supplements &amp; Foods to Avoid</h3><ul class="answer-points"><li><strong>IFA:</strong> 1 tablet daily from 2nd trimester for &ge;180 days</li><li><strong>Calcium</strong> 1 g/day; <strong>folic acid 400 mcg</strong> from before conception</li><li><strong>Avoid:</strong> alcohol, smoking, excess tea/coffee (reduces iron), junk &amp; raw food</li></ul></div>
-<div class="answer-section"><h3 class="answer-section-title">Mnemonic to Remember</h3><div class="mnemonic-box"><div class="mnemonic-label">The extras: <strong>"PICFI"</strong></div><div class="mnemonic-word"><span>P</span>-<span>I</span>-<span>C</span>-<span>F</span>-<span>I</span></div><div class="mnemonic-explain"><strong>P</strong>rotein &middot; <strong>I</strong>ron &middot; <strong>C</strong>alcium &middot; <strong>F</strong>olic acid &middot; <strong>I</strong>odine</div></div></div>
+<div class="answer-section animate-slide-up"><div class="figure-block"><svg viewBox="0 0 600 230" role="img" aria-label="diagram" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="22" text-anchor="middle" font-size="14" fill="var(--color-foreground)" font-weight="bold">Balanced Diet in Pregnancy</text><circle cx="170" cy="125" r="80" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2"/><path d="M170,125 L170,45 A80,80 0 0,1 250,125 Z" fill="#a5d6a7" opacity="0.7"/><path d="M170,125 L250,125 A80,80 0 0,1 170,205 Z" fill="#ffcc80" opacity="0.7"/><path d="M170,125 L170,205 A80,80 0 0,1 90,125 Z" fill="#ef9a9a" opacity="0.7"/><path d="M170,125 L90,125 A80,80 0 0,1 170,45 Z" fill="#fff59d" opacity="0.7"/><text x="205" y="90" text-anchor="middle" font-size="10" fill="var(--color-foreground)">Veg /</text><text x="205" y="102" text-anchor="middle" font-size="10" fill="var(--color-foreground)">Fruit</text><text x="205" y="165" text-anchor="middle" font-size="10" fill="var(--color-foreground)">Grains</text><text x="135" y="165" text-anchor="middle" font-size="10" fill="var(--color-foreground)">Protein</text><text x="135" y="90" text-anchor="middle" font-size="10" fill="var(--color-foreground)">Dairy</text><rect x="300" y="55" width="270" height="140" rx="8" fill="var(--color-muted)" stroke="var(--color-border)"/><text x="315" y="80" font-size="12" font-weight="bold" fill="var(--color-foreground)">+ Supplements (GoI):</text><text x="315" y="103" font-size="11" fill="var(--color-foreground)">&bull; IFA &mdash; 1 tab/day, &ge;180 days</text><text x="315" y="124" font-size="11" fill="var(--color-foreground)">&bull; Calcium 1 g/day</text><text x="315" y="145" font-size="11" fill="var(--color-foreground)">&bull; Folic acid 400 mcg (pre-conception)</text><text x="315" y="171" font-size="11" fill="var(--color-foreground)">&bull; Extra ~350 kcal/day (2nd-3rd tri)</text></svg><div class="figure-caption">Fig: A balanced pregnancy plate + GoI supplements</div></div></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Good nutrition keeps the mother healthy and lets the baby grow well. She does not need to &lsquo;eat for two&rsquo; in quantity, but needs better quality food and a few key supplements.</p></div>
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Antenatal Diet:</strong> A nutritionally balanced dietary plan prescribed during pregnancy that meets the increased caloric, protein, vitamin, and mineral requirements of both mother and developing fetus, as per ICMR recommended dietary allowances (RDA) for Indian pregnant women.
+  </div>
+</div>
+
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title teal-title">Key Nutrients &amp; Sources</h3><div class="answer-table-wrap"><table class="answer-table"><thead><tr><th>Nutrient</th><th>Why needed</th><th>Sources</th></tr></thead><tbody><tr><td>Protein (+~23 g/day)</td><td>Baby, uterus, breasts</td><td>Dal, milk, curd, egg, fish, soya</td></tr><tr><td>Iron</td><td>Prevents anaemia</td><td>Green leafy veg, jaggery, dates</td></tr><tr><td>Calcium</td><td>Baby's bones/teeth</td><td>Milk, curd, ragi, til</td></tr><tr><td>Folic acid</td><td>Prevents neural tube defects</td><td>Green veg, citrus, pulses</td></tr><tr><td>Iodine</td><td>Baby's brain</td><td>Iodised salt, sea food</td></tr><tr><td>Vitamins/Fibre/Water</td><td>Immunity, prevent constipation</td><td>Fruits, vegetables, whole grains</td></tr></tbody></table></div></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title accent-title">Supplements &amp; Foods to Avoid</h3><ul class="answer-points"><li><strong>IFA:</strong> 1 tablet daily from 2nd trimester for &ge;180 days</li><li><strong>Calcium</strong> 1 g/day; <strong>folic acid 400 mcg</strong> from before conception</li><li><strong>Avoid:</strong> alcohol, smoking, excess tea/coffee (reduces iron), junk &amp; raw food</li></ul></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Mnemonic to Remember</h3><div class="mnemonic-box animate-scale-in"><div class="mnemonic-label">The extras: <strong>"PICFI"</strong></div><div class="mnemonic-word"><span>P</span>-<span>I</span>-<span>C</span>-<span>F</span>-<span>I</span></div><div class="mnemonic-explain"><strong>P</strong>rotein &middot; <strong>I</strong>ron &middot; <strong>C</strong>alcium &middot; <strong>F</strong>olic acid &middot; <strong>I</strong>odine</div></div></div>
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Extra <strong>~350 kcal/day</strong> in 2nd &amp; 3rd trimester</li><li>IFA for &ge;180 days; folic acid prevents NTDs</li><li>Vitamin C (citrus) boosts iron absorption; tea/coffee reduce it</li></ul></div>
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Balanced diet</span><span class="kw">350 kcal</span><span class="kw">Protein</span><span class="kw">IFA</span><span class="kw">Folic acid 400 mcg</span><span class="kw">Calcium 1 g</span><span class="kw">Iodine</span><span class="kw">Anaemia</span></div>
 <div class="editorial-example"><strong>Relatable Example:</strong> The nurse tells a vegetarian mother to add dal, milk, green leafy veg and jaggery, take her IFA tablet with lemon water (vitamin C), and avoid tea right after meals &mdash; so her iron stays high.</div>
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div><ul><li><span class="term">IFA</span> Iron-Folic-Acid tablet given in pregnancy</li><li><span class="term">NTD</span> Neural Tube Defect &mdash; prevented by folic acid</li><li><span class="term">kcal</span> Kilocalorie &mdash; unit of food energy</li></ul></div>
 <div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div><details><summary>How many extra kcal/day are needed in late pregnancy?</summary><p>About 350 kcal/day in the 2nd and 3rd trimesters.</p></details><details><summary>Which vitamin prevents neural tube defects?</summary><p>Folic acid (best before conception).</p></details><details><summary>What reduces iron absorption?</summary><p>Tea and coffee with meals.</p></details></div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Adequate antenatal nutrition prevents complications such as anaemia, intrauterine growth restriction (IUGR), and neural tube defects. Nurses must counsel pregnant women using culturally appropriate, locally available foods and screen for nutritional deficiencies at every antenatal visit.</p>
+</div>
 `
   },
   {
@@ -2839,14 +3449,27 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Summer 2018",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Biochemical investigations are <strong>blood and urine tests</strong> done in pregnancy to confirm it and detect anaemia, infections, diabetes and high BP, and to screen the baby for abnormalities.</div>
-<div class="answer-section"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">These tests guide safe antenatal care &mdash; some confirm the pregnancy, some protect the mother (anaemia, infection, diabetes), and some screen the baby.</p></div>
-<div class="answer-section"><h3 class="answer-section-title teal-title">Common Investigations</h3><div class="answer-table-wrap"><table class="answer-table"><thead><tr><th>Test</th><th>Purpose / Normal</th></tr></thead><tbody><tr><td>Urine for hCG (UPT)</td><td>Confirms pregnancy</td></tr><tr><td>Haemoglobin (Hb%)</td><td>Anaemia (normal &ge; 11 g/dL)</td></tr><tr><td>Blood group &amp; Rh</td><td>Detects Rh-negative mother</td></tr><tr><td>Blood sugar (GCT/OGTT)</td><td>Gestational diabetes</td></tr><tr><td>Urine albumin &amp; sugar</td><td>Albumin &rarr; PIH; sugar &rarr; GDM</td></tr><tr><td>HIV, VDRL, HBsAg</td><td>HIV, syphilis, hepatitis B</td></tr><tr><td>TSH</td><td>Thyroid disorders</td></tr><tr><td>Double/Triple/Quad marker</td><td>Down syndrome &amp; NTD screening</td></tr><tr><td>Amniotic fluid &mdash; AFP, L/S ratio</td><td>NTD; fetal lung maturity (2:1)</td></tr></tbody></table></div></div>
-<div class="answer-section"><div class="flowchart"><div class="flowchart-title">Grouping of Investigations</div><div class="flowchart-container"><div class="flow-box highlight">Biochemical Investigations in Pregnancy</div><div class="flow-arrow">&darr;</div><div class="flow-branch"><div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">BLOOD: Hb, group &amp; Rh, sugar, HIV, VDRL, HBsAg, TSH</div></div><div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">URINE: albumin, sugar, ketones, culture</div></div><div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">SPECIAL: markers, AFP, L/S ratio (amniotic fluid)</div></div></div></div></div></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">These tests guide safe antenatal care &mdash; some confirm the pregnancy, some protect the mother (anaemia, infection, diabetes), and some screen the baby.</p></div>
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Biochemical Investigations in Pregnancy:</strong> Laboratory tests performed on maternal blood, urine, or amniotic fluid during the antenatal period to assess maternal health, detect fetal abnormalities, screen for infections, and monitor pregnancy-related complications.
+  </div>
+</div>
+
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title teal-title">Common Investigations</h3><div class="answer-table-wrap"><table class="answer-table"><thead><tr><th>Test</th><th>Purpose / Normal</th></tr></thead><tbody><tr><td>Urine for hCG (UPT)</td><td>Confirms pregnancy</td></tr><tr><td>Haemoglobin (Hb%)</td><td>Anaemia (normal &ge; 11 g/dL)</td></tr><tr><td>Blood group &amp; Rh</td><td>Detects Rh-negative mother</td></tr><tr><td>Blood sugar (GCT/OGTT)</td><td>Gestational diabetes</td></tr><tr><td>Urine albumin &amp; sugar</td><td>Albumin &rarr; PIH; sugar &rarr; GDM</td></tr><tr><td>HIV, VDRL, HBsAg</td><td>HIV, syphilis, hepatitis B</td></tr><tr><td>TSH</td><td>Thyroid disorders</td></tr><tr><td>Double/Triple/Quad marker</td><td>Down syndrome &amp; NTD screening</td></tr><tr><td>Amniotic fluid &mdash; AFP, L/S ratio</td><td>NTD; fetal lung maturity (2:1)</td></tr></tbody></table></div></div>
+<div class="answer-section animate-slide-up"><div class="flowchart animate-fade-in"><div class="flowchart-title">Grouping of Investigations</div><div class="flowchart-container"><div class="flow-box highlight">Biochemical Investigations in Pregnancy</div><div class="flow-arrow">&darr;</div><div class="flow-branch"><div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">BLOOD: Hb, group &amp; Rh, sugar, HIV, VDRL, HBsAg, TSH</div></div><div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">URINE: albumin, sugar, ketones, culture</div></div><div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">SPECIAL: markers, AFP, L/S ratio (amniotic fluid)</div></div></div></div></div></div>
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Normal pregnancy Hb &ge; <strong>11 g/dL</strong></li><li>Urine albumin = warning of pre-eclampsia</li><li><strong>L/S ratio 2:1</strong> = mature fetal lungs</li><li>High <strong>AFP</strong> = neural tube defect</li></ul></div>
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">hCG</span><span class="kw">Hb 11 g/dL</span><span class="kw">Rh typing</span><span class="kw">OGTT</span><span class="kw">Urine albumin</span><span class="kw">VDRL</span><span class="kw">Triple marker</span><span class="kw">L/S ratio</span></div>
 <div class="editorial-example"><strong>Relatable Example:</strong> At booking, the nurse sends Meena's blood for Hb, group and HIV/VDRL and tests her urine for albumin and sugar &mdash; catching her mild anaemia early.</div>
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div><ul><li><span class="term">hCG</span> Human Chorionic Gonadotropin &mdash; the pregnancy hormone</li><li><span class="term">OGTT</span> Oral Glucose Tolerance Test for diabetes</li><li><span class="term">AFP</span> Alpha-Fetoprotein &mdash; high = neural tube defect</li><li><span class="term">L/S ratio</span> Lecithin/Sphingomyelin &mdash; shows lung maturity</li></ul></div>
 <div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div><details><summary>Lowest normal haemoglobin in pregnancy?</summary><p>11 g/dL; below is anaemia.</p></details><details><summary>Why test urine for albumin?</summary><p>It warns of pre-eclampsia (PIH).</p></details><details><summary>L/S ratio showing mature lungs?</summary><p>2:1 or more.</p></details></div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Routine biochemical screening &mdash; including hemoglobin, blood group, VDRL, HIV, urine albumin, and blood glucose &mdash; is mandatory under Government of India antenatal care protocols. Timely interpretation and follow-up of these investigations enable early intervention and significantly improve perinatal outcomes.</p>
+</div>
 `
   },
   {
@@ -2859,14 +3482,58 @@ window.QUESTIONS_DATA_UNIT3 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> The Non-Stress Test (NST) is a simple, <strong>non-invasive test of fetal well-being</strong> recording the baby's heart rate and how it changes with movement, using a CTG machine. A healthy baby's heart rate <strong>speeds up</strong> when it moves &mdash; &lsquo;non-stress&rsquo; means no contractions are induced.</div>
 <div data-diagram="nstTrace"></div>
-<div class="answer-section"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Late in pregnancy we must know the baby is getting enough oxygen. The NST checks this safely, watching whether the heart rate accelerates with the baby's own movements.</p></div>
-<div class="answer-section"><h3 class="answer-section-title teal-title">Procedure</h3><ol class="answer-points"><li>Done after <strong>28&ndash;32 weeks</strong>; mother semi-Fowler's / left-lateral.</li><li>Two CTG belts on the abdomen &mdash; one records fetal heart rate, one records uterine activity.</li><li>Mother presses a button on each movement; traced for <strong>20&ndash;40 minutes</strong>.</li></ol></div>
-<div class="answer-section"><h3 class="answer-section-title accent-title">Interpretation</h3><div class="answer-table-wrap"><table class="answer-table"><thead><tr><th>Result</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>Reactive (normal)</strong></td><td>&ge; 2 accelerations of &ge;15 bpm lasting &ge;15 sec in 20 min &mdash; baby healthy</td></tr><tr><td><strong>Non-reactive</strong></td><td>No/insufficient accelerations &mdash; baby asleep or distressed &rarr; do BPP / CST</td></tr></tbody></table></div></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Late in pregnancy we must know the baby is getting enough oxygen. The NST checks this safely, watching whether the heart rate accelerates with the baby's own movements.</p></div>
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Non-Stress Test (NST):</strong> A non-invasive antepartum fetal surveillance test that monitors fetal heart rate (FHR) responses to fetal movements using cardiotocography (CTG); a <em>reactive</em> NST (two or more accelerations of &ge;15 bpm lasting &ge;15 seconds within 20 minutes) indicates fetal well-being.
+  </div>
+</div>
+
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title teal-title">Procedure</h3><ol class="answer-points"><li>Done after <strong>28&ndash;32 weeks</strong>; mother semi-Fowler's / left-lateral.</li><li>Two CTG belts on the abdomen &mdash; one records fetal heart rate, one records uterine activity.</li><li>Mother presses a button on each movement; traced for <strong>20&ndash;40 minutes</strong>.</li></ol></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title accent-title">Interpretation</h3><div class="answer-table-wrap"><table class="answer-table"><thead><tr><th>Result</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>Reactive (normal)</strong></td><td>&ge; 2 accelerations of &ge;15 bpm lasting &ge;15 sec in 20 min &mdash; baby healthy</td></tr><tr><td><strong>Non-reactive</strong></td><td>No/insufficient accelerations &mdash; baby asleep or distressed &rarr; do BPP / CST</td></tr></tbody></table></div></div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Non-Stress Test (NST)</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Explain Procedure &amp; Take Consent</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Position: Left Lateral / Semi-recumbent</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Apply CTG Transducers — FHR &amp; uterine activity</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Record Trace for 20 Minutes</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Reactive NST</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">≥2 accelerations in 20 min; fetal well-being confirmed</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Non-Reactive NST</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Extend to 40 min; fetal stimulation; proceed to BPP/CST</div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Document &amp; Plan Accordingly</div>
+  </div>
+</div>
+
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Reactive = <strong>2 accelerations, 15 bpm, 15 sec, in 20 min</strong> (&lsquo;15&times;15&times;2&rsquo;)</li><li>Normal baseline FHR = <strong>120&ndash;160 bpm</strong></li><li>Indications: post-dates, IUGR, reduced movements, PIH, GDM, Rh-negative</li><li>Non-reactive &rarr; Biophysical Profile or Contraction Stress Test</li></ul></div>
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">NST</span><span class="kw">CTG</span><span class="kw">Reactive</span><span class="kw">Acceleration 15 bpm</span><span class="kw">FHR 120-160</span><span class="kw">Non-reactive</span><span class="kw">Fetal well-being</span></div>
 <div class="editorial-example"><strong>Relatable Example:</strong> A post-dates mother reports fewer movements. The nurse does an NST; it is reactive (the heart rate jumps with each kick) &mdash; reassuring that the baby is well.</div>
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div><ul><li><span class="term">NST</span> Non-Stress Test &mdash; FHR response to movement</li><li><span class="term">CTG</span> Cardiotocograph &mdash; records FHR &amp; contractions</li><li><span class="term">Acceleration</span> A temporary rise in fetal heart rate &mdash; a good sign</li><li><span class="term">Reactive</span> A normal NST with enough accelerations</li></ul></div>
 <div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div><details><summary>What makes an NST 'reactive'?</summary><p>At least 2 accelerations of 15 bpm lasting 15 seconds within 20 minutes.</p></details><details><summary>Normal baseline fetal heart rate?</summary><p>120&ndash;160 bpm.</p></details><details><summary>After a non-reactive NST?</summary><p>Do a biophysical profile or contraction stress test.</p></details></div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">NST is a primary screening tool for fetal well-being in high-risk pregnancies such as post-datism, gestational diabetes, and IUGR. A non-reactive NST warrants further evaluation with a biophysical profile or contraction stress test. Nurses must be competent in CTG application, tracing interpretation, and timely reporting of non-reactive patterns.</p>
+</div>
 `
   },
   {
@@ -2878,12 +3545,66 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Summer 2014",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The Biophysical Profile (BPP) tests fetal well-being by combining an <strong>ultrasound scan with the NST</strong>. It checks <strong>5 parameters</strong>, each scored 0 or 2, for a maximum of <strong>10</strong>.</div>
-<div class="answer-section"><div class="figure-block"><svg viewBox="0 0 600 200" role="img" aria-label="diagram" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="22" text-anchor="middle" font-size="14" fill="var(--color-foreground)"font-weight="bold">Biophysical Profile &mdash; 5 &times; 2 = 10</text><rect x="60" y="40" width="380" height="24" rx="5" fill="var(--color-card)" stroke="var(--color-border)"/><text x="74" y="56" font-size="12" fill="var(--color-foreground)">1. Non-Stress Test (reactive)</text><rect x="450" y="40" width="46" height="24" rx="5" fill="#a5d6a7" stroke="#2e7d32"/><text x="473" y="56" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">2</text><rect x="60" y="70" width="380" height="24" rx="5" fill="var(--color-secondary)" stroke="var(--color-border)"/><text x="74" y="86" font-size="12" fill="var(--color-foreground)">2. Fetal breathing movements</text><rect x="450" y="70" width="46" height="24" rx="5" fill="#a5d6a7" stroke="#2e7d32"/><text x="473" y="86" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">2</text><rect x="60" y="100" width="380" height="24" rx="5" fill="var(--color-card)" stroke="var(--color-border)"/><text x="74" y="116" font-size="12" fill="var(--color-foreground)">3. Gross body movements</text><rect x="450" y="100" width="46" height="24" rx="5" fill="#a5d6a7" stroke="#2e7d32"/><text x="473" y="116" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">2</text><rect x="60" y="130" width="380" height="24" rx="5" fill="var(--color-secondary)" stroke="var(--color-border)"/><text x="74" y="146" font-size="12" fill="var(--color-foreground)">4. Fetal tone</text><rect x="450" y="130" width="46" height="24" rx="5" fill="#a5d6a7" stroke="#2e7d32"/><text x="473" y="146" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">2</text><rect x="60" y="160" width="380" height="24" rx="5" fill="var(--color-card)" stroke="var(--color-border)"/><text x="74" y="176" font-size="12" fill="var(--color-foreground)">5. Amniotic fluid volume</text><rect x="450" y="160" width="46" height="24" rx="5" fill="#a5d6a7" stroke="#2e7d32"/><text x="473" y="176" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">2</text><text x="300" y="195" text-anchor="middle" font-size="11" fill="#777">8-10 normal &middot; 6 equivocal &middot; &le;4 deliver</text></svg><div class="figure-caption">Fig: The 5 BPP parameters &amp; scoring</div></div></div>
-<div class="answer-section"><h3 class="answer-section-title teal-title">The 5 Components &amp; Scoring</h3><ul class="answer-points"><li><strong>NST</strong> (reactive FHR), <strong>fetal breathing</strong>, <strong>body movements</strong>, <strong>fetal tone</strong>, <strong>amniotic fluid</strong> &mdash; each 0 or 2.</li><li><strong>8&ndash;10</strong> = normal; <strong>6</strong> = equivocal (repeat/monitor); <strong>&le;4</strong> = abnormal &rarr; deliver.</li></ul></div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">The Biophysical Profile (BPP) is a comprehensive antepartum surveillance method that combines real-time ultrasonography with cardiotocography to assess five biophysical parameters of the fetus. It is widely used in high-risk obstetric care to evaluate uteroplacental function and fetal oxygenation status.</p>
+</div>
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Biophysical Profile (BPP):</strong> A scoring system (maximum score 10/10) that evaluates five fetal parameters &mdash; fetal breathing movements, gross body movements, fetal tone, amniotic fluid index (AFI), and non-stress test &mdash; each assigned 2 points; a score of &ge;8 indicates fetal well-being and a score of &le;4 indicates fetal compromise requiring urgent intervention.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up"><div class="figure-block"><svg viewBox="0 0 600 200" role="img" aria-label="diagram" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="22" text-anchor="middle" font-size="14" fill="var(--color-foreground)" font-weight="bold">Biophysical Profile &mdash; 5 &times; 2 = 10</text><rect x="60" y="40" width="380" height="24" rx="5" fill="var(--color-card)" stroke="var(--color-border)"/><text x="74" y="56" font-size="12" fill="var(--color-foreground)">1. Non-Stress Test (reactive)</text><rect x="450" y="40" width="46" height="24" rx="5" fill="#a5d6a7" stroke="#2e7d32"/><text x="473" y="56" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">2</text><rect x="60" y="70" width="380" height="24" rx="5" fill="var(--color-secondary)" stroke="var(--color-border)"/><text x="74" y="86" font-size="12" fill="var(--color-foreground)">2. Fetal breathing movements</text><rect x="450" y="70" width="46" height="24" rx="5" fill="#a5d6a7" stroke="#2e7d32"/><text x="473" y="86" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">2</text><rect x="60" y="100" width="380" height="24" rx="5" fill="var(--color-card)" stroke="var(--color-border)"/><text x="74" y="116" font-size="12" fill="var(--color-foreground)">3. Gross body movements</text><rect x="450" y="100" width="46" height="24" rx="5" fill="#a5d6a7" stroke="#2e7d32"/><text x="473" y="116" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">2</text><rect x="60" y="130" width="380" height="24" rx="5" fill="var(--color-secondary)" stroke="var(--color-border)"/><text x="74" y="146" font-size="12" fill="var(--color-foreground)">4. Fetal tone</text><rect x="450" y="130" width="46" height="24" rx="5" fill="#a5d6a7" stroke="#2e7d32"/><text x="473" y="146" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">2</text><rect x="60" y="160" width="380" height="24" rx="5" fill="var(--color-card)" stroke="var(--color-border)"/><text x="74" y="176" font-size="12" fill="var(--color-foreground)">5. Amniotic fluid volume</text><rect x="450" y="160" width="46" height="24" rx="5" fill="#a5d6a7" stroke="#2e7d32"/><text x="473" y="176" text-anchor="middle" font-size="12" font-weight="bold" fill="#1b5e20">2</text><text x="300" y="195" text-anchor="middle" font-size="11" fill="#777">8-10 normal &middot; 6 equivocal &middot; &le;4 deliver</text></svg><div class="figure-caption">Fig: The 5 BPP parameters &amp; scoring</div></div></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title teal-title">The 5 Components &amp; Scoring</h3><ul class="answer-points"><li><strong>NST</strong> (reactive FHR), <strong>fetal breathing</strong>, <strong>body movements</strong>, <strong>fetal tone</strong>, <strong>amniotic fluid</strong> &mdash; each 0 or 2.</li><li><strong>8&ndash;10</strong> = normal; <strong>6</strong> = equivocal (repeat/monitor); <strong>&le;4</strong> = abnormal &rarr; deliver.</li></ul></div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Biophysical Profile (BPP)</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Indication — Suspected Fetal Compromise</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">USG — Score 5 Parameters (2 pts each)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">FHR (NST) + Fetal Breathing + Movements + Tone + AFI</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Score ≥ 8</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Normal — routine ANC; repeat weekly</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Score 6</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Equivocal — repeat in 24 hrs</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Score ≤ 4</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Abnormal — consider delivery; NICU alert</div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Act on Score — Manage Accordingly</div>
+  </div>
+</div>
+
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>5 parameters &times; 2 = maximum <strong>10</strong></li><li>NST + 4 ultrasound items (breathing, movement, tone, fluid)</li><li>Score &le; 4 &rarr; deliver the baby</li></ul></div>
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">BPP</span><span class="kw">NST</span><span class="kw">Fetal tone</span><span class="kw">Amniotic fluid index</span><span class="kw">Score 8-10</span><span class="kw">Score &le;4</span></div>
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div><ul><li><span class="term">BPP</span> Biophysical Profile &mdash; 5-part ultrasound + NST</li><li><span class="term">Fetal tone</span> The baby's muscle tone &mdash; limbs flexing/extending</li></ul></div>
 <div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div><details><summary>Maximum BPP score?</summary><p>10 (5 parameters, each 0 or 2).</p></details><details><summary>What does &le;4 mean?</summary><p>Abnormal &mdash; the baby is at risk; plan delivery.</p></details></div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">BPP offers high sensitivity and specificity for detecting fetal hypoxia and is the gold standard for antepartum fetal surveillance in high-risk pregnancies. The nurse&rsquo;s role includes patient preparation, assisting with CTG recording, explaining the procedure to the mother, and escalating abnormal scores to the obstetrician for prompt decision-making.</p>
+</div>
 `
   },
   {
@@ -2895,16 +3616,53 @@ window.QUESTIONS_DATA_UNIT3 = [
     years: "Summer 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Amniocentesis is removing a small amount of <strong>amniotic fluid (15&ndash;20 ml)</strong> from the uterus with a needle through the abdomen, under ultrasound guidance, to test the baby for <strong>genetic problems, neural tube defects, lung maturity or Rh disease</strong>.</div>
-<div class="answer-section"><div class="figure-block"><svg viewBox="0 0 600 250" role="img" aria-label="diagram" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="22" text-anchor="middle" font-size="14" fill="var(--color-foreground)"font-weight="bold">Amniocentesis (under USG guidance)</text><ellipse cx="250" cy="150" rx="150" ry="95" fill="#e3f2fd" stroke="var(--color-foreground)" stroke-width="2"/><text x="250" y="60" text-anchor="middle" font-size="11" fill="var(--color-foreground)"fill="#777">Uterus</text><path d="M230,150 q-15,40 5,70 q20,-10 25,-45" fill="#f8bbd0" stroke="#c2185b" stroke-width="1.5"/><circle cx="250" cy="135" r="34" fill="#fff9c4" stroke="#f9a825" stroke-width="1.5"/><text x="250" y="140" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Baby</text><text x="330" y="200" text-anchor="middle" font-size="10" fill="var(--color-foreground)"fill="#1565c0">Amniotic fluid</text><line x1="250" y1="10" x2="250" y2="175" stroke="#555" stroke-width="2.5"/><polygon points="250,178 245,168 255,168" fill="#555"/><text x="250" y="28" text-anchor="middle" font-size="10" fill="var(--color-foreground)"fill="#555">Needle</text><rect x="120" y="40" width="46" height="22" rx="5" fill="var(--color-secondary)" stroke="var(--color-foreground)"/><text x="143" y="55" text-anchor="middle" font-size="9" fill="var(--color-foreground)">USG</text><rect x="420" y="70" width="160" height="120" rx="8" fill="var(--color-muted)" stroke="var(--color-border)"/><text x="435" y="95" font-size="11" font-weight="bold" fill="var(--color-foreground)">Tests on fluid:</text><text x="435" y="118" font-size="10.5" fill="var(--color-foreground)">&bull; Karyotype (Down)</text><text x="435" y="136" font-size="10.5" fill="var(--color-foreground)">&bull; AFP (NTD)</text><text x="435" y="154" font-size="10.5" fill="var(--color-foreground)">&bull; Bilirubin (Rh)</text><text x="435" y="172" font-size="10.5" fill="var(--color-foreground)">&bull; L/S ratio (lungs)</text></svg><div class="figure-caption">Fig: Amniocentesis under ultrasound guidance</div></div></div>
-<div class="answer-section"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Sometimes we need information only the amniotic fluid can give &mdash; its cells and chemicals reveal genetic and other problems. Amniocentesis collects it safely under ultrasound.</p></div>
-<div class="answer-section"><h3 class="answer-section-title teal-title">Indications</h3><ul class="answer-points"><li><strong>Genetic/chromosomal</strong> study &mdash; Down syndrome (esp. age &gt; 35)</li><li><strong>Neural tube defects</strong> &mdash; raised AFP</li><li><strong>Rh isoimmunisation</strong> &mdash; bilirubin level</li><li><strong>Fetal lung maturity</strong> &mdash; L/S ratio</li><li>Sex-linked inherited disorders</li></ul></div>
-<div class="answer-section"><h3 class="answer-section-title accent-title">Procedure &amp; Nursing Care</h3><ol class="answer-points"><li>Informed consent; empty bladder; supine.</li><li>Localise placenta &amp; fluid pocket with <strong>ultrasound</strong>; clean aseptically.</li><li>Pass a fine needle and aspirate fluid.</li><li>Give <strong>anti-D</strong> if mother is Rh-negative.</li><li>After: watch for leakage, bleeding, fever, reduced movements.</li></ol></div>
-<div class="answer-section"><h3 class="answer-section-title">Complications</h3><ul class="answer-points"><li>Abortion/miscarriage (~0.5&ndash;1%)</li><li>Infection (chorioamnionitis), fluid leakage</li><li>Rh sensitisation; rarely injury to the baby</li></ul></div>
+<div class="answer-section animate-slide-up"><div class="figure-block"><svg viewBox="0 0 600 250" role="img" aria-label="diagram" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="22" text-anchor="middle" font-size="14" fill="var(--color-foreground)" font-weight="bold">Amniocentesis (under USG guidance)</text><ellipse cx="250" cy="150" rx="150" ry="95" fill="#e3f2fd" stroke="var(--color-foreground)" stroke-width="2"/><text x="250" y="60" text-anchor="middle" font-size="11" fill="#777">Uterus</text><path d="M230,150 q-15,40 5,70 q20,-10 25,-45" fill="#f8bbd0" stroke="#c2185b" stroke-width="1.5"/><circle cx="250" cy="135" r="34" fill="#fff9c4" stroke="#f9a825" stroke-width="1.5"/><text x="250" y="140" text-anchor="middle" font-size="11" fill="var(--color-foreground)">Baby</text><text x="330" y="200" text-anchor="middle" font-size="10" fill="#1565c0">Amniotic fluid</text><line x1="250" y1="10" x2="250" y2="175" stroke="#555" stroke-width="2.5"/><polygon points="250,178 245,168 255,168" fill="#555"/><text x="250" y="28" text-anchor="middle" font-size="10" fill="#555">Needle</text><rect x="120" y="40" width="46" height="22" rx="5" fill="var(--color-secondary)" stroke="var(--color-foreground)"/><text x="143" y="55" text-anchor="middle" font-size="9" fill="var(--color-foreground)">USG</text><rect x="420" y="70" width="160" height="120" rx="8" fill="var(--color-muted)" stroke="var(--color-border)"/><text x="435" y="95" font-size="11" font-weight="bold" fill="var(--color-foreground)">Tests on fluid:</text><text x="435" y="118" font-size="10.5" fill="var(--color-foreground)">&bull; Karyotype (Down)</text><text x="435" y="136" font-size="10.5" fill="var(--color-foreground)">&bull; AFP (NTD)</text><text x="435" y="154" font-size="10.5" fill="var(--color-foreground)">&bull; Bilirubin (Rh)</text><text x="435" y="172" font-size="10.5" fill="var(--color-foreground)">&bull; L/S ratio (lungs)</text></svg><div class="figure-caption">Fig: Amniocentesis under ultrasound guidance</div></div></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Sometimes we need information only the amniotic fluid can give &mdash; its cells and chemicals reveal genetic and other problems. Amniocentesis collects it safely under ultrasound.</p></div>
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Amniocentesis:</strong> An invasive prenatal diagnostic procedure in which approximately 15&ndash;20 mL of amniotic fluid is aspirated transabdominally under ultrasound guidance &mdash; usually between 15&ndash;18 weeks of gestation &mdash; for chromosomal analysis, biochemical testing, fetal lung maturity assessment, or therapeutic decompression in polyhydramnios.
+  </div>
+</div>
+
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title teal-title">Indications</h3><ul class="answer-points"><li><strong>Genetic/chromosomal</strong> study &mdash; Down syndrome (esp. age &gt; 35)</li><li><strong>Neural tube defects</strong> &mdash; raised AFP</li><li><strong>Rh isoimmunisation</strong> &mdash; bilirubin level</li><li><strong>Fetal lung maturity</strong> &mdash; L/S ratio</li><li>Sex-linked inherited disorders</li></ul></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title accent-title">Procedure &amp; Nursing Care</h3><ol class="answer-points"><li>Informed consent; empty bladder; supine.</li><li>Localise placenta &amp; fluid pocket with <strong>ultrasound</strong>; clean aseptically.</li><li>Pass a fine needle and aspirate fluid.</li><li>Give <strong>anti-D</strong> if mother is Rh-negative.</li><li>After: watch for leakage, bleeding, fever, reduced movements.</li></ol></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Complications</h3><ul class="answer-points"><li>Abortion/miscarriage (~0.5&ndash;1%)</li><li>Infection (chorioamnionitis), fluid leakage</li><li>Rh sensitisation; rarely injury to the baby</li></ul></div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Amniocentesis</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Indication: Genetic / Chromosomal Diagnosis</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Explain Procedure; Informed Written Consent</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">USG — Locate Placenta &amp; Fluid Pocket</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Skin Antisepsis; Local Anaesthesia</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Needle Insertion — USG Guided (15–20 wks)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Aspirate 15–20 mL Amniotic Fluid</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Send to Lab — Karyotype, Biochemistry, Culture</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Monitor FHR &amp; Watch for Complications</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Report Results &amp; Counsel Parents</div>
+  </div>
+</div>
+
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Best time for genetic study = <strong>15&ndash;18 weeks</strong></li><li>Always under <strong>ultrasound guidance</strong></li><li>Give <strong>anti-D</strong> to Rh-negative mothers</li><li>Main risk = miscarriage (~1%)</li></ul></div>
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Amniocentesis</span><span class="kw">Amniotic fluid</span><span class="kw">15-18 weeks</span><span class="kw">Karyotype</span><span class="kw">AFP</span><span class="kw">L/S ratio</span><span class="kw">Anti-D</span><span class="kw">Miscarriage 1%</span></div>
 <div class="editorial-example"><strong>Relatable Example:</strong> A 38-year-old mother has amniocentesis at 16 weeks. Under ultrasound, fluid is drawn for chromosomes; being Rh-negative, she is given anti-D afterwards.</div>
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div><ul><li><span class="term">Amniocentesis</span> Drawing amniotic fluid with a needle to test the baby</li><li><span class="term">Karyotype</span> A picture of chromosomes &mdash; detects Down syndrome</li><li><span class="term">Anti-D</span> Injection protecting a Rh-negative mother from sensitisation</li></ul></div>
 <div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div><details><summary>Best time for genetic study?</summary><p>15&ndash;18 weeks.</p></details><details><summary>What must a Rh-negative mother get afterwards?</summary><p>Anti-D immunoglobulin.</p></details><details><summary>Main risk?</summary><p>Miscarriage (~1%).</p></details></div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Amniocentesis carries a procedure-related fetal loss risk of approximately 0.5&ndash;1% and is performed only after informed consent and genetic counselling. The nurse&rsquo;s responsibilities include pre-procedure preparation (positioning, consent, bladder emptying), assisting the obstetrician during the procedure, and post-procedure monitoring for signs of leakage of liquor, abdominal pain, or fetal distress.</p>
+</div>
 `
   }
 ];

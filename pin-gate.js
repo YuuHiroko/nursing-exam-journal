@@ -108,7 +108,7 @@
                 '<span class="pin-eyebrow">RESTRICTED · ASSESSMENT MODE</span>' +
                 '<h2 class="pin-title">ENTER ACCESS PIN</h2>' +
                 '<p class="pin-sub">This device must be unlocked with a valid PIN. ' +
-                    'The first PIN used locks to this device — it can’t be ' +
+                    ‘The first PIN used locks to this device — it can\’t be ‘ +
                     'switched to another PIN later.</p>' +
                 '<form class="pin-form" id="pin-form" autocomplete="off" novalidate>' +
                     '<input class="pin-input" id="pin-input" type="password" ' +
@@ -149,7 +149,7 @@
             // Hard device lock: once this device is bound to a PIN, it will
             // only ever accept that same PIN.
             var bind = readBind();
-            if (bind && bind.pin !== pin) {
+            if (bind && (bind.pin !== pin || bind.fp !== fp)) {
                 fail('This device is already registered to a different PIN.');
                 return;
             }

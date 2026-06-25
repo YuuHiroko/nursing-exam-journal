@@ -9,7 +9,7 @@ window.QUESTIONS_DATA_UNIT6 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> A normal newborn is a baby born between 37-42 weeks of pregnancy, weighing 2.5-4 kg, with no birth defects. Minor ailments are small, common problems that go away on their own. Essential newborn care (ENC) is the set of simple but life-saving actions done right after birth -- warmth, breathing, cord care, feeding, and hygiene.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 250" role="img" aria-label="Essential newborn care steps from warmth to immunization" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">Essential Newborn Care -- Sequence</text>
@@ -44,14 +44,14 @@ window.QUESTIONS_DATA_UNIT6 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The first few hours and days after birth are the most dangerous time for a baby. Most newborn deaths happen in the <strong>first 28 days of life</strong>. Good newborn care by the nurse can prevent these deaths. Understanding what a normal newborn looks like helps us quickly spot problems.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition of Normal Newborn</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     A <strong>Normal (Term) Newborn</strong> is a baby who is:<br>
     &bull; Born between <strong>37-42 completed weeks</strong> of pregnancy (full term)<br>
     &bull; Birth weight between <strong>2.5 kg to 4 kg</strong><br>
@@ -81,7 +81,7 @@ window.QUESTIONS_DATA_UNIT6 = [
   </table></div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Minor Ailments of the Newborn</h3>
   <p class="answer-text">These are <strong>common, harmless conditions</strong> that look alarming to parents but usually go away on their own.</p>
   <ol class="answer-points">
@@ -97,17 +97,17 @@ window.QUESTIONS_DATA_UNIT6 = [
     <li><strong>Umbilical Hernia:</strong> Small bulge at navel. Usually closes on its own by age 1-2 years.</li>
     <li><strong>Epstein Pearls:</strong> Small white cysts on roof of mouth (palate). Harmless, disappear in weeks.</li>
   </ol>
-  <div class="mnemonic-box">
+  <div class="mnemonic-box animate-scale-in">
     <div class="mnemonic-label">Mnemonic for Minor Ailments -- "My Baby Enjoys Many Beautiful Comfortable Visions"</div>
     <div class="mnemonic-word"><span>M</span>-<span>B</span>-<span>E</span>-<span>M</span>-<span>B</span>-<span>C</span>-<span>V</span></div>
     <div class="mnemonic-explain"><strong>M</strong> = Milia &bull; <strong>B</strong> = Breast engorgement &bull; <strong>E</strong> = Erythema toxicum &bull; <strong>M</strong> = Mongolian spots &bull; <strong>B</strong> = Birth weight loss &bull; <strong>C</strong> = Caput/Cephalhaematoma &bull; <strong>V</strong> = Vaginal discharge</div>
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Essential Newborn Care (ENC)</h3>
   <p class="answer-text">Essential Newborn Care is the set of proven, simple actions that every nurse must do right after a baby is born.</p>
-  <div class="flowchart">
+  <div class="flowchart animate-fade-in">
     <div class="flowchart-title">Flowchart: Essential Newborn Care -- Sequence of Actions</div>
     <div class="flowchart-container">
       <div class="flow-box highlight">Baby is born</div>
@@ -145,7 +145,7 @@ window.QUESTIONS_DATA_UNIT6 = [
   <div class="editorial-example"><strong>Relatable Example:</strong> Think of a newborn like a phone just unboxed -- it needs to be warmed up (no hypothermia), charged immediately (breastfeeding = colostrum), protected from viruses (vaccines), and given the right setup (cord care, eye drops, Vitamin K). The nurse is the setup technician who makes sure everything runs right from minute one.</div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Nurse's Role in Newborn Care</h3>
   <ol class="answer-points">
     <li>Ensure warm delivery room; keep all equipment ready before delivery</li>
@@ -218,7 +218,7 @@ window.QUESTIONS_DATA_UNIT6 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Immediate newborn care = the first actions in the first 60-90 minutes after birth. The key steps are: DRY &rarr; WARM &rarr; CORD &rarr; BREATHE &rarr; FEED &rarr; PROTECT (vaccines + Vitamin K). These simple steps prevent most newborn deaths.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 230" role="img" aria-label="Golden hour timeline of immediate newborn care DWCABFV" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">The Golden Hour -- DWCABFV</text>
@@ -256,14 +256,22 @@ window.QUESTIONS_DATA_UNIT6 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The first hour after birth is called the <strong>"Golden Hour"</strong> for newborns. Actions taken in this period can save the baby's life. The nurse must know and follow these steps every time a baby is born.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Essential Care of Newborn:</strong> A set of evidence-based interventions provided immediately after birth to ensure the survival, health, and well-being of the neonate, including thermal protection, airway clearance, cord care, and initiation of breastfeeding.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Steps of Immediate / Essential Newborn Care</h3>
-  <div class="mnemonic-box">
+  <div class="mnemonic-box animate-scale-in">
     <div class="mnemonic-label">Mnemonic -- "DWCABFV"</div>
     <div class="mnemonic-word"><span>D</span>-<span>W</span>-<span>C</span>-<span>A</span>-<span>B</span>-<span>F</span>-<span>V</span></div>
     <div class="mnemonic-explain">
@@ -303,7 +311,7 @@ window.QUESTIONS_DATA_UNIT6 = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Danger Signs -- When to Call Doctor Immediately</h3>
   <ul class="sub-points">
     <li>Not feeding, very sleepy, lethargic</li>
@@ -319,6 +327,28 @@ window.QUESTIONS_DATA_UNIT6 = [
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Golden Hour</span> <span class="kw">dry and stimulate</span> <span class="kw">KMC / warmth</span> <span class="kw">delayed cord clamping</span> <span class="kw">Chlorhexidine 4%</span> <span class="kw">breastfeed within 1 hour</span> <span class="kw">colostrum</span> <span class="kw">Vitamin K 1 mg IM</span> <span class="kw">BCG-OPV-Hep B</span></div>
 <div data-diagram="essentialNewbornCare"></div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Essential / Immediate Care of Newborn</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Delivery of Newborn</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Dry &amp; Warm (prevent hypothermia)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Assess Breathing &amp; Cry</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Clear Airway if Needed</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Clamp &amp; Cut Cord</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Eye Care (1% silver nitrate)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Vitamin K 1 mg IM</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Weight &amp; Anthropometry</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Initiate Breastfeeding (within 1 hr)</div>
+  </div>
+</div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
@@ -348,6 +378,11 @@ window.QUESTIONS_DATA_UNIT6 = [
 <details><summary>Name the three vaccines given at birth.</summary><p>BCG (TB), OPV-0 (polio), Hepatitis B-0.</p></details>
 <details><summary>What is Chlorhexidine used for in newborn care?</summary><p>Applied to the umbilical cord stump (4% gel) to prevent omphalitis (cord infection), especially in home deliveries.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Essential newborn care following WHO &amp; FIGO guidelines significantly reduces neonatal morbidity and mortality. Prompt, systematic care in the first golden hour &mdash; particularly early skin-to-skin contact and breastfeeding &mdash; is a cornerstone of neonatal nursing practice under MUHS curriculum.</p>
+</div>
 `
   },
   {
@@ -362,7 +397,7 @@ window.QUESTIONS_DATA_UNIT6 = [
 <div class="figure-block"><img src="assets/images/newborn_assessment.png" alt="Fig: Head-to-Toe Neonatal Assessment" loading="lazy"><div class="figure-caption">Fig: Head-to-Toe Neonatal Assessment</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 300" role="img" aria-label="Head to toe neonatal assessment checklist" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">Head-to-Toe Neonatal Assessment</text>
@@ -389,12 +424,20 @@ window.QUESTIONS_DATA_UNIT6 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Every newborn must be assessed <strong>systematically</strong> right after birth. This helps us find problems early -- and early finding = better treatment = healthier baby. The nurse is often the first person to detect abnormalities in the newborn.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Neonatal Assessment:</strong> A systematic head-to-toe physical and behavioral examination of the newborn conducted within the first 24 hours of birth to identify congenital anomalies, physiological adaptations, and any deviations from normal that require early intervention.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">When to Assess</h3>
   <ol class="answer-points">
     <li><strong>At birth:</strong> APGAR score at 1 min and 5 min</li>
@@ -404,7 +447,7 @@ window.QUESTIONS_DATA_UNIT6 = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Complete Neonatal Assessment</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>System / Area</th><th>What to Check</th><th>Normal Finding</th></tr></thead>
@@ -428,7 +471,7 @@ window.QUESTIONS_DATA_UNIT6 = [
   </table></div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Primitive Reflexes of the Newborn</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Reflex</th><th>How to Test</th><th>Normal Response</th></tr></thead>
@@ -449,6 +492,25 @@ window.QUESTIONS_DATA_UNIT6 = [
 </div>
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">head-to-toe examination</span> <span class="kw">APGAR at 1 and 5 min</span> <span class="kw">gestational age</span> <span class="kw">anterior fontanel</span> <span class="kw">primitive reflexes</span> <span class="kw">Moro / rooting / grasp</span> <span class="kw">red reflex</span> <span class="kw">patent anus</span> <span class="kw">danger signs</span></div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Neonatal Assessment</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Birth of Neonate</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">APGAR at 1 &amp; 5 Minutes</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Head-to-Toe Physical Exam</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Anthropometry (weight/length/HC)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Gestational Age (Ballard Score)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Identify Risk Factors</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Documentation &amp; Care Plan</div>
+  </div>
+</div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
@@ -478,6 +540,11 @@ window.QUESTIONS_DATA_UNIT6 = [
 <details><summary>Is a positive Babinski sign normal in a newborn?</summary><p>Yes, it is normal in newborns. Upward fanning of toes when outer sole is stroked is expected until about 12-18 months. In adults, it signals a brain problem.</p></details>
 <details><summary>What does patency of anus mean and why test it?</summary><p>Patency means the anus is open (not closed / imperforate). Testing ensures meconium can pass. Imperforate anus is a surgical emergency in newborns.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Thorough neonatal assessment enables early detection of life-threatening conditions and guides timely referral. The nurse's role in systematic observation and documentation is critical for promoting optimal neonatal outcomes in both hospital and community settings.</p>
+</div>
 `
   },
   {
@@ -490,7 +557,7 @@ window.QUESTIONS_DATA_UNIT6 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> The APGAR score is a quick 10-point test done at 1 minute and 5 minutes after birth to check how well the newborn is adapting outside the womb. It tests 5 signs: Appearance (colour), Pulse (heart rate), Grimace (reflex), Activity (muscle tone), Respiration (breathing). Score 7-10 = healthy; below 7 = needs help.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 300" role="img" aria-label="APGAR score chart of five signs each scored zero one or two" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="20" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">APGAR Score (each sign 0, 1 or 2)</text>
@@ -547,14 +614,22 @@ window.QUESTIONS_DATA_UNIT6 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The APGAR score was introduced in 1952 by <strong>Dr. Virginia Apgar</strong> (an American anaesthesiologist). It is the <strong>most widely used tool in the world</strong> to quickly assess a newborn's condition right after birth. It tells us: "Is this baby doing well on its own, or does it need help right now?"</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>APGAR Score:</strong> A rapid, standardized scoring system devised by Dr. Virginia Apgar (1952) to evaluate the newborn's condition at 1 minute and 5 minutes after birth, assessing five parameters &mdash; Appearance, Pulse, Grimace, Activity, and Respiration &mdash; each scored 0&ndash;2 (total 0&ndash;10).
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">APGAR Score Table</h3>
-  <div class="mnemonic-box">
+  <div class="mnemonic-box animate-scale-in">
     <div class="mnemonic-label">Mnemonic -- APGAR stands for:</div>
     <div class="mnemonic-word"><span>A</span>-<span>P</span>-<span>G</span>-<span>A</span>-<span>R</span></div>
     <div class="mnemonic-explain">
@@ -616,7 +691,7 @@ window.QUESTIONS_DATA_UNIT6 = [
   <p class="answer-text"><strong>Maximum score = 10</strong> (2 points each for 5 signs). Assessed at <strong>1 minute</strong> and again at <strong>5 minutes</strong> after birth.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Interpretation of APGAR Score</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>APGAR Score</th><th>Interpretation</th><th>What to Do</th></tr></thead>
@@ -633,7 +708,34 @@ window.QUESTIONS_DATA_UNIT6 = [
   </div>
 <div data-diagram="apgarScore"></div>
 
-  <div class="remember-box">
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: APGAR Score</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Assess at 1 &amp; 5 Minutes</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Score Each Parameter 0–2</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">A: Appearance (skin colour)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">P: Pulse (heart rate)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">G: Grimace (reflex irritability)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">A: Activity (muscle tone)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">R: Respiration (effort &amp; rate)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Total Score</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">0–3: Severe asphyxia → Resuscitate</div></div>
+      <div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">4–6: Moderate → Stimulate &amp; O₂</div></div>
+      <div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box highlight">7–10: Normal → Routine care</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="remember-box">
     <div class="remember-title">Quick Revision -- Things to Remember</div>
     <ul>
       <li>Total score: <strong>10</strong> (5 signs x 2 points each)</li>
@@ -665,6 +767,11 @@ window.QUESTIONS_DATA_UNIT6 = [
 <details><summary>At what two time points is APGAR recorded?</summary><p>At 1 minute and at 5 minutes after birth.</p></details>
 <details><summary>Which APGAR sign is considered the most important and why?</summary><p>Pulse (heart rate) is the most important. It best reflects the baby's overall oxygen status and cardiovascular condition at birth.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">APGAR score remains the gold standard for immediate postnatal assessment worldwide. A score of 7&ndash;10 indicates a healthy newborn, 4&ndash;6 requires stimulation, and &lt;4 necessitates immediate resuscitation &mdash; making prompt scoring an essential nursing competency in the delivery room.</p>
+</div>
 `
   },
   {
@@ -677,7 +784,7 @@ window.QUESTIONS_DATA_UNIT6 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Both caput succedaneum and cephalhaematoma are swellings on a newborn's head seen after delivery. Caput = swelling of the skin (soft tissue) that crosses skull bone boundaries and disappears in 2-3 days. Cephalhaematoma = blood collected under the skull bone covering (periosteum) that stays within bone boundaries and takes 6-8 weeks to go away.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 290" role="img" aria-label="Caput succedaneum crosses suture lines while cephalhaematoma stays within one bone" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">Caput vs Cephalhaematoma (scalp cross-section)</text>
@@ -708,12 +815,21 @@ window.QUESTIONS_DATA_UNIT6 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Two common head swellings seen in newborns after vaginal delivery are caput succedaneum and cephalhaematoma. Students often confuse them. The key difference is <strong>WHERE the fluid/blood collects</strong> and <strong>whether it crosses suture lines</strong>.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definitions</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Caput Succedaneum:</strong> Diffuse, edematous swelling of the scalp soft tissue crossing suture lines, caused by pressure of the cervix on the presenting part during labor; resolves within 24&ndash;48 hours.<br/><br/>
+    <strong>Cephalhaematoma:</strong> A collection of blood between the periosteum and skull bone (subperiosteal hemorrhage) that does not cross suture lines, caused by rupture of periosteal blood vessels during delivery; resolves within 6&ndash;8 weeks.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Side-by-Side Comparison Table</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead>
@@ -798,9 +914,9 @@ window.QUESTIONS_DATA_UNIT6 = [
   </table></div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Easy Memory Trick</h3>
-  <div class="mnemonic-box">
+  <div class="mnemonic-box animate-scale-in">
     <div class="mnemonic-label">Mnemonic -- "CROSS vs CONFINED"</div>
     <div class="mnemonic-word"><span>C</span>-<span>C</span></div>
     <div class="mnemonic-explain">
@@ -844,6 +960,11 @@ window.QUESTIONS_DATA_UNIT6 = [
 <details><summary>Why should cephalhaematoma NOT be aspirated (drained with a needle)?</summary><p>Aspiration introduces infection risk into the blood collection, which can lead to osteomyelitis (bone infection) or abscess. The blood reabsorbs on its own safely.</p></details>
 <details><summary>Which condition carries a higher risk of neonatal jaundice and why?</summary><p>Cephalhaematoma, because the large blood pool slowly breaks down. As red blood cells are destroyed, bilirubin is released, causing jaundice.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Distinguishing caput succedaneum from cephalhaematoma is a vital neonatal nursing skill &mdash; caput is benign and resolves rapidly, while cephalhaematoma may predispose to neonatal jaundice due to blood reabsorption and rarely requires intervention. Accurate assessment prevents unnecessary parental anxiety and guides appropriate management.</p>
+</div>
 `
   },
   {
@@ -856,7 +977,13 @@ window.QUESTIONS_DATA_UNIT6 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Fontanels are the soft spots on a newborn's skull where the skull bones have not yet joined. They allow the skull to compress (mould) during delivery and expand as the brain grows. They also act as a clinical window: bulging = high brain pressure; sunken = dehydration.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Fontanels are membranous gaps between the cranial bones of a newborn's skull that allow for molding during delivery and rapid brain growth in early infancy. In clinical practice, assessment of fontanel tension and size provides valuable information about intracranial pressure, hydration status, and neurological well-being of the neonate.</p>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 300" role="img" aria-label="Top view of newborn skull showing anterior and posterior fontanelles and sutures" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">Fontanels (top view of skull)</text>
@@ -885,16 +1012,16 @@ window.QUESTIONS_DATA_UNIT6 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">What Are Fontanels?</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Fontanels</strong> are the membranous (soft, fibrous) gaps between the skull bones of a newborn. They are covered only by a tough fibrous membrane (not bone yet). The two important fontanels are:<br>
     &bull; <strong>Anterior (front) fontanel:</strong> Diamond-shaped, at the top of the head. Closes by <strong>18 months</strong>.<br>
     &bull; <strong>Posterior (back) fontanel:</strong> Triangular, at the back of the head. Closes by <strong>6-8 weeks</strong>.
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Importance / Clinical Significance of Fontanels</h3>
   <ol class="answer-points">
     <li><strong>Allow skull moulding during labour:</strong> The skull bones overlap slightly to reduce head size as the baby passes through the birth canal. Without fontanels (if bones were fused), normal delivery would be impossible.</li>
@@ -925,6 +1052,11 @@ window.QUESTIONS_DATA_UNIT6 = [
 <details><summary>When does the anterior fontanel normally close?</summary><p>By 18 months of age.</p></details>
 <details><summary>What does a bulging fontanel indicate?</summary><p>Raised intracranial pressure -- possible causes include meningitis, hydrocephalus, or intracranial haemorrhage.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Fontanels serve as critical clinical windows into the newborn's neurological and systemic health. Nurses must routinely assess fontanel size, tension, and closure timing to detect conditions such as hydrocephalus, meningitis, or dehydration early, thereby facilitating timely intervention and improved neonatal outcomes.</p>
+</div>
 `
   },
   {
@@ -937,7 +1069,13 @@ window.QUESTIONS_DATA_UNIT6 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Immunization means giving vaccines (weakened germs or their parts) to train the body to fight dangerous diseases before they can cause harm. India's Universal Immunization Programme (UIP) provides free vaccines to all children from birth to 5 years, protecting against 12 major diseases.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Immunization is one of the most cost-effective public health interventions, protecting children against vaccine-preventable diseases that contribute significantly to under-five mortality in India. The Universal Immunization Programme (UIP) under the Government of India provides free vaccines to all children from birth through adolescence, following the schedule recommended by the Indian Academy of Pediatrics (IAP) and the National Immunization Schedule (NIS).</p>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 250" role="img" aria-label="Birth dose immunization schedule BCG OPV-0 and Hepatitis B-0" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">Vaccines Given at Birth (within 24 hours)</text>
@@ -965,15 +1103,15 @@ window.QUESTIONS_DATA_UNIT6 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Immunization</strong> is the process of making a person <strong>immune (protected)</strong> against a specific disease by giving them a <strong>vaccine</strong>. The vaccine teaches the body's immune system to recognise and fight the real germ, so if the germ attacks later, the body destroys it quickly before the person gets sick.<br><br>
     Simple way: <strong>"Training your body's army before the enemy arrives."</strong>
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Types of Immunity</h3>
   <ol class="answer-points">
     <li><strong>Active Immunity:</strong> Body makes its own antibodies (soldiers) after being exposed to the vaccine or the real disease. Lasts for years. Example: giving BCG vaccine.</li>
@@ -981,7 +1119,7 @@ window.QUESTIONS_DATA_UNIT6 = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">India National Immunization Schedule (UIP) -- Birth to School Age</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead>
@@ -1061,7 +1199,7 @@ window.QUESTIONS_DATA_UNIT6 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Nurse's Role in Immunization</h3>
   <ol class="answer-points">
     <li>Maintain cold chain (vaccines must be stored at 2-8&deg;C)</li>
@@ -1076,6 +1214,25 @@ window.QUESTIONS_DATA_UNIT6 = [
 </div>
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Universal Immunization Programme</span> <span class="kw">active vs passive immunity</span> <span class="kw">BCG-OPV-Hep B at birth</span> <span class="kw">Pentavalent</span> <span class="kw">MR at 9 months</span> <span class="kw">cold chain 2-8&deg;C</span> <span class="kw">VVM</span> <span class="kw">MCP card</span> <span class="kw">defaulter tracking</span></div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Immunization Schedule (UIP)</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">At Birth: BCG, OPV-0, Hep-B₁</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">6 Weeks: OPV-1, Penta-1, RVV-1, fIPV-1</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">10 Weeks: OPV-2, Penta-2, RVV-2</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">14 Weeks: OPV-3, Penta-3, RVV-3, fIPV-2</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">9 Months: MR-1, Vit A (1st dose), JE-1</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">15–18 Months: MR-2, DPT booster-1, OPV booster, JE-2</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">5–6 Years: DPT booster-2</div>
+  </div>
+</div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
@@ -1110,6 +1267,11 @@ window.QUESTIONS_DATA_UNIT6 = [
 <details><summary>At what age is the Measles-Rubella (MR) first dose given in India?</summary><p>At 9 months of age.</p></details>
 <details><summary>What is cold chain and why is it important?</summary><p>Cold chain is the system of storing and transporting vaccines at 2-8 degrees Celsius from manufacturer to child. If the cold chain breaks, the vaccine loses its potency and will not protect the child.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Adherence to the national immunization schedule is essential to build herd immunity and eliminate vaccine-preventable diseases across India. Nurses play a pivotal role in educating parents, maintaining the cold chain, administering vaccines safely, and documenting immunization records to ensure complete and timely coverage for every child.</p>
+</div>
 `
   },
   {
@@ -1122,7 +1284,13 @@ window.QUESTIONS_DATA_UNIT6 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> BFHI (Baby Friendly Hospital Initiative) is a global programme by WHO and UNICEF (launched 1991) to encourage hospitals to support breastfeeding. A hospital gets the "Baby Friendly" title only if it follows the "Ten Steps to Successful Breastfeeding." The goal is to make breastfeeding the normal, healthy choice for every mother and baby.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">The Baby Friendly Hospital Initiative (BFHI) is a global program launched in 1991 by WHO and UNICEF to promote, protect, and support breastfeeding by transforming maternity services worldwide. In India, BFHI-accredited hospitals implement the &ldquo;Ten Steps to Successful Breastfeeding,&rdquo; ensuring that every mother receives the support needed to initiate and sustain exclusive breastfeeding for the first six months of life.</p>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 280" role="img" aria-label="Ten steps to successful breastfeeding under BFHI" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="15" font-weight="bold">BFHI -- Ten Steps to Successful Breastfeeding</text>
@@ -1154,17 +1322,17 @@ window.QUESTIONS_DATA_UNIT6 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition and Background</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Baby Friendly Hospital Initiative (BFHI)</strong> is a global campaign launched by <strong>WHO and UNICEF in 1991</strong> to promote, protect, and support breastfeeding by transforming maternity practices in health facilities worldwide.<br><br>
     A hospital is certified as <strong>"Baby Friendly"</strong> when it fully implements the <strong>Ten Steps to Successful Breastfeeding</strong> and does not accept free or low-cost breast milk substitutes (formula).
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Ten Steps to Successful Breastfeeding (Core of BFHI)</h3>
-  <div class="mnemonic-box">
+  <div class="mnemonic-box animate-scale-in">
     <div class="mnemonic-label">Memory Aid -- Steps 1-5 = POLICY steps (what the HOSPITAL must do); Steps 6-10 = PRACTICE steps (what staff must DO WITH the mother)</div>
     <div class="mnemonic-explain">A simple way to organise all 10 steps in your memory.</div>
   </div>
@@ -1182,7 +1350,7 @@ window.QUESTIONS_DATA_UNIT6 = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Benefits of BFHI</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>For Baby</th><th>For Mother</th><th>For Society</th></tr></thead>
@@ -1197,7 +1365,7 @@ window.QUESTIONS_DATA_UNIT6 = [
   <div class="editorial-example"><strong>Relatable Example:</strong> A government hospital in Pune, Maharashtra gets BFHI certification. The nurses help every mother start breastfeeding within 1 hour of delivery, do not give any formula unless prescribed by the doctor, keep mother and baby in the same room all day, and run a mother support group on Saturdays. Infant mortality in that hospital drops significantly within 2 years of implementing BFHI.</div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Nurse's Role in BFHI</h3>
   <ol class="answer-points">
     <li>Support skin-to-skin contact and first breastfeed within 1 hour of birth</li>
@@ -1208,7 +1376,35 @@ window.QUESTIONS_DATA_UNIT6 = [
     <li>Refer to lactation consultant or breastfeeding support group if difficulties arise</li>
     <li>Follow hospital BFHI policy at all times</li>
   </ol>
-  <div class="remember-box">
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: BFHI — 10 Steps to Success</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">WHO/UNICEF Launch BFHI (1991)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Steps 1–2: Policy &amp; Staff Training</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Step 3: Antenatal Breastfeeding Education</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Step 4: Skin-to-Skin within 1 Hour</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Step 5: Support &amp; Teach Breastfeeding</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Step 6: No Formula/Supplements</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Step 7: Rooming-in 24 Hours</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Step 8: Demand Feeding (on cue)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Step 9: No Pacifiers or Teats</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Step 10: Refer to Support Groups</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">BFHI Certification Awarded</div>
+  </div>
+</div>
+
+<div class="remember-box">
     <div class="remember-title">Quick Revision -- Things to Remember</div>
     <ul>
       <li>BFHI launched by <strong>WHO + UNICEF in 1991</strong></li>
@@ -1240,6 +1436,11 @@ window.QUESTIONS_DATA_UNIT6 = [
 <details><summary>What is Step 4 of the Ten Steps?</summary><p>Help mothers initiate breastfeeding within one hour of birth (skin-to-skin contact immediately after delivery -- the Golden Hour).</p></details>
 <details><summary>What is "rooming-in" and why does BFHI require it?</summary><p>Rooming-in means the baby stays with the mother in the same hospital room 24 hours a day. BFHI requires it because it promotes bonding, encourages demand feeding, and improves breastfeeding success rates.</p></details>
 <details><summary>Why does BFHI say "no pacifiers or artificial nipples" for breastfeeding babies?</summary><p>Pacifiers and artificial nipples cause "nipple confusion" -- the baby gets used to the easy flow from a bottle/pacifier and becomes frustrated with breastfeeding, which requires more effort. This reduces breastfeeding frequency and milk supply.</p></details>
+</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">BFHI certification signifies a hospital's commitment to evidence-based maternity care that prioritizes the health of both mother and newborn. Nurses and midwives are central to BFHI implementation &mdash; through skilled breastfeeding support, early skin-to-skin contact, and rooming-in practices, they lay the foundation for optimal infant nutrition and lifelong health.</p>
 </div>
 `
   }

@@ -14,12 +14,20 @@ window.QUESTIONS_DATA_UNIT2 = [
 <div class="figure-block"><img src="assets/images/female_pelvis.png" alt="Fig: Female Pelvis &mdash; Anterior View" loading="lazy"><div class="figure-caption">Fig: Female Pelvis &mdash; Anterior View</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The pelvis is a bony structure at the bottom of the spine that supports the body and protects the pelvic organs. In women, the pelvis has a VERY special job — the baby has to pass through it during delivery. That is why the female pelvis is shaped differently from the male pelvis. Knowing these differences is very important for a nurse midwife.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Pelvis:</strong> A bony ring formed by two hip bones (ilium, ischium, pubis), sacrum, and coccyx; the female pelvis is gynaecoid in shape &mdash; wider, shallower, and with a broader subpubic angle (&gt;90&deg;) &mdash; specifically adapted for parturition, whereas the male pelvis is android, narrow, and funnel-shaped with a subpubic angle &lt;70&deg;.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Comparison Table</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -48,7 +56,7 @@ window.QUESTIONS_DATA_UNIT2 = [
 </aside>
 
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for Female Pelvis Features</div>
   <div class="mnemonic-word"><span>W</span>ide <span>S</span>hallow <span>L</span>ight</div>
   <div class="mnemonic-explain">
@@ -76,7 +84,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     The female pelvis is specifically designed for childbearing — it is wider, shallower, and more spacious than the male pelvis. Understanding these differences helps the nurse midwife assess whether a normal vaginal delivery is possible or if complications may arise.
@@ -120,12 +128,20 @@ window.QUESTIONS_DATA_UNIT2 = [
 <div class="figure-block"><img src="assets/images/female_pelvis.png" alt="Fig: Female Pelvis &mdash; Bones, Joints and Diameters" loading="lazy"><div class="figure-caption">Fig: Female Pelvis &mdash; Bones, Joints and Diameters</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The female pelvis is made up of 4 bones — 2 hip bones (innominate), 1 sacrum, and 1 coccyx. It is divided into the False Pelvis (upper, wider part) and the True Pelvis (lower part through which the baby passes). The true pelvis is what matters most in obstetrics.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Female Pelvis:</strong> The bony basin formed by the two innominate bones, sacrum, and coccyx that encloses the true pelvis (obstetric pelvis), bounded above by the pelvic brim (inlet) and below by the pelvic outlet; its four diameters &mdash; anteroposterior, oblique, and transverse &mdash; at inlet, cavity, and outlet determine the adequacy of the birth canal for fetal passage.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <img src="assets/female_pelvis.png" alt="Female Pelvis Diagram" style="width:100%; max-width:600px; border-radius: var(--radius-md); box-shadow: var(--shadow-card);">
     <div class="figure-caption">Fig 1: Educational Diagram: The Female Pelvis</div>
@@ -144,7 +160,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   <div class="exam-tip"><strong>Memory Trick:</strong> At the INLET, transverse is widest. At the OUTLET, AP is widest. Baby enters transverse, exits AP — that is why baby rotates during delivery!</div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">4 Types of Female Pelvis</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -167,7 +183,7 @@ window.QUESTIONS_DATA_UNIT2 = [
 </aside>
 
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for 4 Types of Pelvis</div>
   <div class="mnemonic-word"><span>G</span>-<span>A</span>-<span>A</span>-<span>P</span></div>
   <div class="mnemonic-explain">
@@ -196,7 +212,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     The female pelvis is the bony passage through which the baby must travel. Knowing the bones, joints, diameters, and types of pelvis helps the nurse midwife predict whether a normal delivery is possible or if complications should be anticipated.
@@ -242,19 +258,19 @@ window.QUESTIONS_DATA_UNIT2 = [
 <div class="figure-block"><img src="assets/images/menstrual_cycle.png" alt="Fig: Menstrual Cycle &mdash; Phases and Hormone Levels" loading="lazy"><div class="figure-caption">Fig: Menstrual Cycle &mdash; Phases and Hormone Levels</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The menstrual cycle is a monthly process that prepares a woman's body for pregnancy. It is controlled by hormones from the brain (pituitary gland) and the ovaries. The average cycle is 28 days. If pregnancy does not happen, the lining of the uterus sheds — this is menstruation (periods).</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition (Simple Language)</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Menstrual Cycle</strong> = A series of hormonal changes that happen every month in a woman's body to prepare for pregnancy. It starts on Day 1 of menstruation and ends on Day 1 of the next period. Average length = <strong>28 days</strong> (normal range: 21-35 days).
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <img src="assets/menstrual_cycle.png" alt="Menstrual Cycle Hormones" style="width:100%; max-width:600px; border-radius: var(--radius-md); box-shadow: var(--shadow-card);">
     <div class="figure-caption">Fig 2: Educational Diagram: Hormones and Phases of the Menstrual Cycle</div>
@@ -274,7 +290,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   <div class="exam-tip"><strong>Memory Trick:</strong> Think <strong>"M-P-O-S"</strong> = <strong>M</strong>enstrual, <strong>P</strong>roliferative, <strong>O</strong>vulation, <strong>S</strong>ecretory. Or remember: "My Period Occurs Soon"</div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Key Hormones Summary</h3>
   <ol class="answer-points">
     <li><strong>FSH (Follicle Stimulating Hormone):</strong> From pituitary. Grows the follicle in ovary.</li>
@@ -292,7 +308,7 @@ window.QUESTIONS_DATA_UNIT2 = [
 </aside>
 
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for 4 Phases</div>
   <div class="mnemonic-word">"<span>M</span>y <span>P</span>eriod <span>O</span>ccurs <span>S</span>oon"</div>
   <div class="mnemonic-explain">
@@ -308,6 +324,29 @@ window.QUESTIONS_DATA_UNIT2 = [
 </div>
 <div data-diagram="menstrualCycle"></div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Menstrual Cycle</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Menstruation (Day 1–5)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Follicular Phase (Day 1–13)<br><small>FSH → follicle growth → oestrogen rise</small></div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Ovulation (Day 14)<br><small>LH surge → Graafian follicle ruptures</small></div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Luteal Phase (Day 15–28)<br><small>Corpus luteum → progesterone</small></div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">No Fertilization<br><small>Corpus luteum degenerates → menstruation</small></div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Fertilization occurs<br><small>HCG maintains corpus luteum → pregnancy</small></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision — Things to Remember</div>
@@ -323,7 +362,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     The menstrual cycle is a beautifully coordinated hormonal dance between the brain and ovaries. Understanding it is essential for family planning, infertility counseling, and identifying menstrual disorders. The nurse midwife uses this knowledge to educate women about their reproductive health.
@@ -369,14 +408,14 @@ window.QUESTIONS_DATA_UNIT2 = [
 <div class="figure-block"><img src="assets/images/fertilization.png" alt="Fig: Process of Fertilization" loading="lazy"><div class="figure-caption">Fig: Process of Fertilization</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Fertilization is the magical moment when a sperm cell meets and fuses with an egg cell to create a new life. It is the very first step of pregnancy. Understanding fertilization is important for reproductive health, infertility treatment, and family planning.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition (Simple Language)</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Fertilization</strong> = The process by which a <strong>sperm</strong> (male cell) fuses with an <strong>ovum/egg</strong> (female cell) to form a single cell called <strong>zygote</strong>.<br><br>
     <strong>Site:</strong> Ampulla of the Fallopian tube (outer one-third)<br>
     <strong>Time:</strong> Usually within 24 hours after ovulation<br>
@@ -384,7 +423,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Steps of Fertilization</h3>
   <ol class="answer-points">
     <li><strong>Capacitation:</strong> Sperm undergoes chemical changes inside the female genital tract (takes 7 hours). This removes the outer coating and makes sperm hyper-active so it can penetrate the egg.
@@ -403,7 +442,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   <div class="exam-tip"><strong>Memory Trick:</strong> Steps = <strong>"CAPFS"</strong> = <strong>C</strong>apacitation, <strong>A</strong>crosome reaction, <strong>P</strong>enetration, <strong>F</strong>usion (Syngamy), <strong>S</strong>ex determination</div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conditions Necessary for Fertilization</h3>
   <ol class="answer-points">
     <li>Ovulation must have occurred (mature egg released)</li>
@@ -422,7 +461,7 @@ window.QUESTIONS_DATA_UNIT2 = [
 </aside>
 
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for Steps of Fertilization</div>
   <div class="mnemonic-word"><span>C</span>-<span>A</span>-<span>P</span>-<span>C</span>-<span>F</span>-<span>S</span></div>
   <div class="mnemonic-explain">
@@ -440,6 +479,26 @@ window.QUESTIONS_DATA_UNIT2 = [
 </div>
 <div data-diagram="fertilizationProcess"></div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Fertilization</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Sperm deposited in vagina</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Capacitation in female tract<br><small>Sperm gains fertilizing ability</small></div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Sperm reaches ampulla of fallopian tube</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Acrosome reaction<br><small>Enzymes dissolve zona pellucida</small></div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Sperm penetrates ovum</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Cortical reaction<br><small>Blocks polyspermy</small></div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Pronuclei fusion (syngamy)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Zygote formed (2n) → Cleavage begins</div>
+  </div>
+</div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision — Things to Remember</div>
@@ -456,7 +515,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     Fertilization is the union of sperm and ovum in the ampulla of the fallopian tube. It involves capacitation, acrosome reaction, penetration, cortical reaction, and fusion of nuclei. The resulting zygote is the beginning of a new life. Knowledge of fertilization is essential for understanding conception, contraception, and infertility management.
@@ -504,12 +563,20 @@ window.QUESTIONS_DATA_UNIT2 = [
 <div class="figure-block"><img src="assets/images/fetal_circulation.png" alt="Fig: Fetal Circulation with Shunts" loading="lazy"><div class="figure-caption">Fig: Fetal Circulation with Shunts</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Fetal circulation is different from adult circulation because the baby's lungs are NOT working inside the womb. The baby gets oxygen from the mother through the placenta — not by breathing. So the blood has to bypass the lungs using special shortcuts called "shunts." These shunts close after birth when the baby starts breathing.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Fetal Circulation:</strong> The specialized cardiovascular circuit present in the fetus that bypasses the non-functional fetal lungs and liver via three unique shunts &mdash; the ductus venosus, foramen ovale, and ductus arteriosus &mdash; allowing oxygenated blood from the placenta (via the umbilical vein, pO&sub2; ~30&ndash;35 mmHg) to perfuse vital organs, with deoxygenated blood returning to the placenta through the two umbilical arteries.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <img src="assets/fetal_circulation.png" alt="Fetal Circulation Shunts" style="width:100%; max-width:600px; border-radius: var(--radius-md); box-shadow: var(--shadow-card);">
     <div class="figure-caption">Fig 3: Educational Diagram: Fetal Circulation and the 3 Shunts</div>
@@ -528,7 +595,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   <div class="exam-tip"><strong>Memory Trick:</strong> <strong>"DVD"</strong> = <strong>D</strong>uctus <strong>V</strong>enosus, For. Ovale (in the miD<strong>D</strong>le), <strong>D</strong>uctus Arteriosus. All 3 bypass the lungs!</div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Pathway of Fetal Blood</h3>
   <ol class="answer-points">
     <li><strong>Placenta</strong> sends oxygenated blood to fetus via <strong>Umbilical Vein</strong> (only vein carrying O2-rich blood!)</li>
@@ -541,7 +608,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Key Differences: Fetal vs Adult</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -565,7 +632,7 @@ window.QUESTIONS_DATA_UNIT2 = [
 </aside>
 
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for 3 Fetal Shunts</div>
   <div class="mnemonic-word"><span>D</span>-<span>F</span>-<span>D</span></div>
   <div class="mnemonic-explain">
@@ -581,6 +648,31 @@ window.QUESTIONS_DATA_UNIT2 = [
 </div>
 <div data-diagram="fetalCirculation"></div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Fetal Circulation</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Oxygenated blood from placenta<br><small>via umbilical vein</small></div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Ductus venosus<br><small>bypasses fetal liver → IVC</small></div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Right atrium</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Foramen ovale<br><small>→ Left atrium → Left ventricle → Aorta</small></div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Right ventricle → Pulmonary artery<br><small>→ Ductus arteriosus → Aorta</small></div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Systemic circulation (body tissues)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Deoxygenated blood → umbilical arteries → placenta</div>
+  </div>
+</div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision — Things to Remember</div>
@@ -597,7 +689,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     Fetal circulation uses 3 shunts (Ductus Venosus, Foramen Ovale, Ductus Arteriosus) to bypass the non-functioning lungs and liver. The placenta acts as the lung for gas exchange. After birth, the baby's first breath causes these shunts to close and the circulation converts to the adult pattern. Understanding fetal circulation helps nurses identify congenital heart defects early.
@@ -642,20 +734,20 @@ window.QUESTIONS_DATA_UNIT2 = [
 <div class="figure-block"><img src="assets/images/placenta_anatomy.png" alt="Fig: Placenta &mdash; Cross-Section Anatomy" loading="lazy"><div class="figure-caption">Fig: Placenta &mdash; Cross-Section Anatomy</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The placenta is a temporary organ that forms during pregnancy and connects the mother to the baby through the umbilical cord. Think of it as the baby's "life support system" — it provides food, oxygen, removes waste, produces hormones, and even protects the baby from infections. Without the placenta, the baby cannot survive inside the womb.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition (Simple Language)</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Placenta</strong> = A disc-shaped organ attached to the uterine wall that connects mother and fetus via the umbilical cord. It is the interface where exchange of gases, nutrients, and waste occurs between maternal and fetal blood (without mixing!).<br><br>
     <strong>Weight:</strong> ~500 gm | <strong>Diameter:</strong> ~20 cm | <strong>Expelled:</strong> After baby is born (3rd stage of labour)
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <img src="assets/placenta_anatomy.png" alt="Placenta Anatomy" style="width:100%; max-width:600px; border-radius: var(--radius-md); box-shadow: var(--shadow-card);">
     <div class="figure-caption">Fig 4: Educational Diagram: Anatomy of the Placenta and Umbilical Cord</div>
@@ -692,7 +784,7 @@ window.QUESTIONS_DATA_UNIT2 = [
 </aside>
 
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for Placental Functions</div>
   <div class="mnemonic-word"><span>R</span>-<span>N</span>-<span>E</span>-<span>P</span>-<span>E</span>-<span>S</span>-<span>I</span></div>
   <div class="mnemonic-explain">
@@ -711,6 +803,44 @@ window.QUESTIONS_DATA_UNIT2 = [
 </div>
 <div data-diagram="placentaFunctions"></div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Functions of Placenta</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Placenta</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Nutritive<br><small>Glucose, amino acids, fats to fetus</small></div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Respiratory<br><small>O₂ to fetus; CO₂ removed</small></div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Excretory<br><small>Urea, bilirubin removed</small></div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Endocrine<br><small>HCG, HPL, oestrogen, progesterone</small></div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Protective<br><small>Partial barrier to pathogens</small></div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Immunological<br><small>IgG transfer → passive immunity</small></div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Fetal growth and development ensured</div>
+  </div>
+</div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision — Things to Remember</div>
@@ -726,7 +856,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     The placenta is a multi-functional organ that acts as the baby's lungs, gut, kidneys, endocrine gland, and immune system all in one. It is essential for fetal survival and growth. The nurse midwife must understand placental function to identify complications like placental insufficiency, abruption, and previa early.
@@ -770,12 +900,20 @@ window.QUESTIONS_DATA_UNIT2 = [
 <div class="figure-block"><img src="assets/images/placenta_anatomy.png" alt="Fig: Placental Anatomy and Separation" loading="lazy"><div class="figure-caption">Fig: Placental Anatomy and Separation</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">After the baby is born, the placenta must separate from the uterine wall and be expelled. This is the 3rd stage of labour. The placenta separates in one of two ways — depending on WHERE the separation starts. Understanding this is important because it affects how much bleeding occurs.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Ovary:</strong> A paired female gonad, almond-shaped (~3 &times; 2 &times; 1 cm), situated in the ovarian fossa on the lateral pelvic wall, consisting of an outer cortex (containing follicles at various stages) and an inner medulla (vascular stroma); it performs dual functions of oogenesis (gametogenesis) and steroidogenesis (secretion of oestrogen, progesterone, and androgens) under hypothalamo&ndash;pituitary control.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Two Types of Placental Separation</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -793,7 +931,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Signs of Placental Separation</h3>
   <ol class="answer-points">
     <li><strong>Uterus becomes globular</strong> (round and firm) and rises up in abdomen</li>
@@ -812,7 +950,7 @@ window.QUESTIONS_DATA_UNIT2 = [
 </aside>
 
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for Placental Separation</div>
   <div class="mnemonic-word"><span>S</span>chultze = <span>S</span>hiny | <span>D</span>uncan = <span>D</span>irty</div>
   <div class="mnemonic-explain">
@@ -838,7 +976,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     Placental separation occurs by either Schultze method (centre first, more common, safer) or Duncan method (edge first, more bleeding). The nurse midwife must watch for signs of separation and manage the third stage actively to prevent postpartum haemorrhage.
@@ -882,12 +1020,20 @@ window.QUESTIONS_DATA_UNIT2 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Amniotic fluid is the clear, straw-coloured liquid surrounding the baby in the womb. Normal volume peaks at 36&ndash;38 weeks (~800&ndash;1000 ml). It protects the baby, regulates temperature, allows movement, helps develop lungs and gut, and cushions the umbilical cord. Too much = polyhydramnios (&gt;2000 ml); too little = oligohydramnios (&lt;300 ml).</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Amniotic fluid is the clear liquid that surrounds the baby inside the uterus. Think of it as the baby's "swimming pool" — it protects the baby, helps the baby move and grow, and maintains a constant temperature. Too much or too little amniotic fluid can indicate problems.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Ovulation:</strong> The LH-surge&ndash;triggered rupture of the mature Graafian follicle (~Day 14 of a 28-day cycle) releasing the secondary oocyte (arrested in metaphase II) into the peritoneal cavity for pick-up by the fallopian tube fimbriae; <strong>Oogenesis</strong> is the entire process of formation and maturation of the female gamete from primordial oogonia (present since fetal life) through primary and secondary oocytes to the mature ovum, completed only upon fertilization.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Physical Characteristics</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -905,7 +1051,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Functions of Amniotic Fluid</h3>
   <ol class="answer-points">
     <li><strong>Protection:</strong> Acts as a shock absorber — protects baby from injuries, bumps, and external pressure</li>
@@ -919,7 +1065,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Abnormalities</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -940,7 +1086,7 @@ window.QUESTIONS_DATA_UNIT2 = [
 </aside>
 
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for Functions of Amniotic Fluid</div>
   <div class="mnemonic-word"><span>P</span>-<span>T</span>-<span>M</span>-<span>A</span>-<span>L</span>-<span>S</span>-<span>U</span>-<span>C</span></div>
   <div class="mnemonic-explain">
@@ -959,6 +1105,38 @@ window.QUESTIONS_DATA_UNIT2 = [
   <strong>Relatable Example:</strong> Think of amniotic fluid as the baby's personal swimming pool inside the womb. The pool water (1) acts as a cushion if mom falls (protection), (2) keeps the pool at a constant warm temperature, (3) lets the baby swim and exercise (muscle development), (4) prevents the baby's fingers and toes from sticking together (no adhesions). The baby even drinks the pool water (practice swallowing) and "breathes" it in and out (lung exercise). Too much water (polyhydramnios) or too little (oligohydramnios) signals something is wrong with the baby.
 </div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Oogenesis &amp; Ovulation</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Oogonium (fetal ovary)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Primary oocyte<br><small>Arrested at Prophase I</small></div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Primordial follicle → Primary follicle<br><small>FSH stimulation at puberty</small></div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Secondary follicle<br><small>Antrum forms; oestrogen secreted</small></div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Graafian (tertiary) follicle<br><small>LH surge triggers Meiosis I completion</small></div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Ovulation — secondary oocyte released</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Not fertilized<br><small>Oocyte degenerates</small></div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Fertilized → Meiosis II completes → Ovum</div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Corpus luteum forms → progesterone</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Corpus albicans (if no pregnancy)</div>
+  </div>
+</div>
+
 <div class="remember-box">
   <div class="remember-title">Quick Revision — Things to Remember</div>
   <ul>
@@ -973,7 +1151,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     Amniotic fluid is essential for fetal protection, growth, and development. It has specific physical characteristics that can be tested. Both too much (polyhydramnios) and too little (oligohydramnios) fluid can indicate serious problems. The nurse midwife should monitor fundal height and refer for AFI assessment when abnormalities are suspected.
@@ -1015,19 +1193,19 @@ window.QUESTIONS_DATA_UNIT2 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Amniotic fluid serves 9 key functions for the fetus: protection (shock absorber), temperature regulation, free movement (muscle/bone development), prevents adhesions, lung development (fetal breathing), GI development (swallowing), fluid balance (kidneys), symmetrical growth, and umbilical cord protection. Without enough fluid, the baby develops serious deformities (Potter syndrome).</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Amniotic fluid is the life-giving liquid in which the unborn baby floats inside the womb. For the fetus specifically, this fluid serves many critical roles — from physical protection to helping organs develop properly. Without adequate amniotic fluid, the fetus can develop serious deformities.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Amniotic Fluid</strong> = Clear, pale fluid filling the amniotic sac that surrounds and protects the fetus during pregnancy. Volume peaks at 36-38 weeks (~1000 ml).
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Functions for the Fetus</h3>
   <ol class="answer-points">
     <li><strong>Mechanical Protection (Cushion):</strong> Acts like a shock absorber. Protects the baby from external trauma, pressure, and injury. If the mother falls or gets hit on the abdomen, the fluid absorbs the shock.
@@ -1077,7 +1255,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     Amniotic fluid is not just water — it is a vital environment for fetal survival and development. It protects, nourishes, and helps develop the lungs, gut, muscles, and bones of the baby. Adequate amniotic fluid volume is one of the most important indicators of fetal health that the nurse midwife should monitor.
@@ -1121,12 +1299,20 @@ window.QUESTIONS_DATA_UNIT2 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Amniotic fluid assessment &mdash; by AFI (normal 8&ndash;24 cm), colour, and amniocentesis &mdash; is a window into fetal health. Green fluid = fetal distress (meconium). Golden fluid = Rh problem. Amniocentesis can detect lung maturity (L/S ratio &ge;2:1), chromosomal disorders (Down syndrome), neural tube defects (AFP), and Rh incompatibility (bilirubin).</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Assessing amniotic fluid — its volume, color, and composition — gives us VERY important information about the health of both the mother and the baby. It is like a "window" into how well the pregnancy is going. Abnormal findings can alert us to serious problems that need immediate action.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Fertilization:</strong> The fusion of a capacitated spermatozoon with the secondary oocyte, typically in the ampullary region of the fallopian tube within 12&ndash;24 hours of ovulation, resulting in a diploid zygote and completion of meiosis II; <strong>Implantation</strong> is the embedding of the free blastocyst into the decidualized endometrium of the posterior wall of the uterine body, occurring approximately 6&ndash;10 days after fertilization and mediated by trophoblastic invasion.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Methods of Assessment</h3>
   <ol class="answer-points">
     <li><strong>Amniotic Fluid Index (AFI):</strong> Measured by ultrasound. The uterus is divided into 4 quadrants. The deepest pocket of fluid in each quadrant is measured and added together.
@@ -1142,7 +1328,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Colour of Amniotic Fluid and Its Meaning</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -1159,7 +1345,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Tests Done on Amniotic Fluid (via Amniocentesis)</h3>
   <ol class="answer-points">
     <li><strong>L/S Ratio (Lecithin/Sphingomyelin):</strong> Tells if baby's lungs are mature. L/S ratio of 2:1 or more = lungs mature. Important before planning preterm delivery.</li>
@@ -1178,7 +1364,7 @@ window.QUESTIONS_DATA_UNIT2 = [
 </aside>
 
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for AF Colour Meaning</div>
   <div class="mnemonic-word"><span>C</span>-<span>G</span>-<span>G</span>-<span>B</span>-<span>D</span></div>
   <div class="mnemonic-explain">
@@ -1192,6 +1378,25 @@ window.QUESTIONS_DATA_UNIT2 = [
 
 <div class="editorial-example">
   <strong>Relatable Example:</strong> During labour, the nurse ruptures the membranes and notices the fluid is GREEN. She immediately knows this means the baby has passed meconium (stool) — a sign of fetal distress, like the baby saying "I'm in trouble!" She calls the doctor, starts continuous fetal heart monitoring, prepares the suction machine and oxygen for when the baby is born (in case baby inhales the meconium), and keeps the neonatal resuscitation team on standby. The COLOR of amniotic fluid can literally tell you whether the baby is okay or in danger.
+</div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Fertilization &amp; Implantation</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Sperm + Secondary oocyte (ampulla)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Fertilization → Zygote (2n)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Cleavage divisions<br><small>Zygote travels along fallopian tube</small></div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Morula (16 cells, day 3–4)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Blastocyst (day 5–6)<br><small>Inner cell mass + trophoblast</small></div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Zona pellucida hatches</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Implantation in endometrium (day 6–10)<br><small>Posterior wall of uterus, upper segment</small></div>
+  </div>
 </div>
 
 <div class="remember-box">
@@ -1208,7 +1413,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     Assessment of amniotic fluid — its volume (AFI), colour, and composition — is a critical tool in obstetric care. It helps detect fetal distress, lung maturity, genetic disorders, Rh problems, and infections. The nurse midwife should always observe the colour of amniotic fluid when membranes rupture and report any abnormality immediately.
@@ -1249,18 +1454,74 @@ window.QUESTIONS_DATA_UNIT2 = [
     years: "Summer 2018",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The female pelvis is a bony ring of <strong>4 bones</strong> (2 innominate/hip bones, sacrum, coccyx) that forms the <strong>birth canal</strong>. The <strong>pelvic brim</strong> splits it into the false pelvis (upper) and true pelvis (lower). The ideal type for delivery is the <strong>gynaecoid</strong> pelvis.</div>
-<div class="answer-section"><div class="figure-block"><svg viewBox="0 0 600 290" role="img" aria-label="diagram" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="22" text-anchor="middle" font-size="15" fill="var(--color-foreground)"font-weight="bold">Female Pelvis &mdash; Brim &amp; Diameters</text><ellipse cx="190" cy="135" rx="130" ry="86" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2.5"/><ellipse cx="190" cy="135" rx="92" ry="58" fill="none" stroke="var(--color-border)" stroke-width="1.5" stroke-dasharray="4 3"/><line x1="190" y1="49" x2="190" y2="221" stroke="#1565c0" stroke-width="2.5"/><polygon points="190,49 185,60 195,60" fill="#1565c0"/><polygon points="190,221 185,210 195,210" fill="#1565c0"/><line x1="60" y1="135" x2="320" y2="135" stroke="#2e7d32" stroke-width="2.5"/><polygon points="60,135 71,130 71,140" fill="#2e7d32"/><polygon points="320,135 309,130 309,140" fill="#2e7d32"/><text x="115" y="128" text-anchor="middle" font-size="11" fill="var(--color-foreground)"fill="#777">Sacral promontory</text><text x="330" y="120" font-size="11" fill="#1565c0">AP (true 11 cm,</text><text x="330" y="135" font-size="11" fill="#1565c0">obstetric 10.5 cm)</text><text x="330" y="165" font-size="11" fill="#2e7d32">Transverse 13.5 cm</text><text x="190" y="245" text-anchor="middle" font-size="11" fill="var(--color-foreground)"fill="#777">Pelvic brim divides true / false pelvis</text><text x="495" y="40" text-anchor="middle" font-size="12" fill="var(--color-foreground)"font-weight="bold">4 Types</text><circle cx="430" cy="80" r="20" fill="var(--accent)" opacity="0.5" stroke="var(--color-foreground)"/><text x="430" y="110" text-anchor="middle" font-size="9" fill="var(--color-foreground)">Gynaecoid</text><path d="M470,68 Q490,55 510,68 Q500,90 490,98 Q480,90 470,68Z" fill="var(--color-secondary)" stroke="var(--color-foreground)"/><text x="490" y="110" text-anchor="middle" font-size="9" fill="var(--color-foreground)">Android</text><ellipse cx="430" cy="160" rx="14" ry="24" fill="var(--accent)" opacity="0.4" stroke="var(--color-foreground)"/><text x="430" y="196" text-anchor="middle" font-size="9" fill="var(--color-foreground)">Anthropoid</text><ellipse cx="490" cy="160" rx="26" ry="13" fill="var(--color-secondary)" stroke="var(--color-foreground)"/><text x="490" y="196" text-anchor="middle" font-size="9" fill="var(--color-foreground)">Platypelloid</text></svg><div class="figure-caption">Fig: Female pelvic brim, diameters and the 4 types</div></div></div>
-<div class="answer-section"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">The pelvis carries the body's weight and, in women, surrounds the canal the baby travels through. Knowing its bones, joints, planes and diameters lets the midwife judge whether a normal vaginal delivery is possible.</p></div>
-<div class="answer-section"><h3 class="answer-section-title">Definition</h3><div class="definition-box">The <strong>pelvis</strong> is a bony ring at the lower trunk, formed by 4 bones, that supports the abdominal organs and forms the bony part of the birth canal.<br><br>&bull; It is divided by the <strong>pelvic brim</strong> into the <strong>false (greater) pelvis</strong> above and the <strong>true (lesser) pelvis</strong> below.<br>&bull; Only the <strong>true pelvis</strong> matters for childbirth.</div></div>
-<div class="answer-section"><h3 class="answer-section-title teal-title">Bones &amp; Joints</h3><ol class="answer-points"><li><strong>4 Bones:</strong> two <strong>innominate (hip) bones</strong> (each = ilium + ischium + pubis), the <strong>sacrum</strong> and the <strong>coccyx</strong>.</li><li><strong>4 Joints:</strong> two sacro-iliac joints, one symphysis pubis, one sacro-coccygeal joint. <strong>Relaxin</strong> softens them in pregnancy for extra room.</li></ol></div>
-<div class="answer-section"><h3 class="answer-section-title accent-title">Planes &amp; Diameters of the True Pelvis</h3><div class="answer-table-wrap"><table class="answer-table"><thead><tr><th>Plane</th><th>AP diameter</th><th>Transverse</th></tr></thead><tbody><tr><td><strong>Inlet (brim)</strong></td><td>True 11 / Obstetric 10.5 / Diagonal 12.5 cm</td><td>13.5 cm</td></tr><tr><td><strong>Cavity</strong></td><td>12 cm (round, roomiest)</td><td>12 cm</td></tr><tr><td><strong>Outlet</strong></td><td>13 cm</td><td>11 cm (bi-ischial)</td></tr></tbody></table></div><p class="answer-text">The <strong>obstetric conjugate (10.5 cm)</strong> is the smallest and most important &mdash; the head must pass it to engage.</p></div>
-<div class="answer-section"><h3 class="answer-section-title">Four Types of Pelvis</h3><div class="answer-table-wrap"><table class="answer-table"><thead><tr><th>Type</th><th>Brim shape</th><th>Delivery</th></tr></thead><tbody><tr><td><strong>Gynaecoid</strong> (female)</td><td>Rounded</td><td><strong>Best</strong> (~50%)</td></tr><tr><td><strong>Android</strong> (male)</td><td>Heart-shaped</td><td>Poor &mdash; obstruction</td></tr><tr><td><strong>Anthropoid</strong></td><td>Long oval (AP&gt;TV)</td><td>Fair &mdash; favours OP</td></tr><tr><td><strong>Platypelloid</strong></td><td>Flat (TV&gt;AP)</td><td>Poor &mdash; non-engagement</td></tr></tbody></table></div></div>
-<div class="answer-section"><h3 class="answer-section-title">Mnemonic to Remember</h3><div class="mnemonic-box"><div class="mnemonic-label">4 types: <strong>"GAAP"</strong></div><div class="mnemonic-word"><span>G</span>-<span>A</span>-<span>A</span>-<span>P</span></div><div class="mnemonic-explain"><strong>G</strong>ynaecoid &middot; <strong>A</strong>ndroid &middot; <strong>A</strong>nthropoid &middot; <strong>P</strong>latypelloid</div></div></div>
+<div class="answer-section animate-slide-up"><div class="figure-block"><svg viewBox="0 0 600 290" role="img" aria-label="diagram" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="22" text-anchor="middle" font-size="15" fill="var(--color-foreground)" font-weight="bold">Female Pelvis &mdash; Brim &amp; Diameters</text><ellipse cx="190" cy="135" rx="130" ry="86" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2.5"/><ellipse cx="190" cy="135" rx="92" ry="58" fill="none" stroke="var(--color-border)" stroke-width="1.5" stroke-dasharray="4 3"/><line x1="190" y1="49" x2="190" y2="221" stroke="#1565c0" stroke-width="2.5"/><polygon points="190,49 185,60 195,60" fill="#1565c0"/><polygon points="190,221 185,210 195,210" fill="#1565c0"/><line x1="60" y1="135" x2="320" y2="135" stroke="#2e7d32" stroke-width="2.5"/><polygon points="60,135 71,130 71,140" fill="#2e7d32"/><polygon points="320,135 309,130 309,140" fill="#2e7d32"/><text x="115" y="128" text-anchor="middle" font-size="11" fill="#777">Sacral promontory</text><text x="330" y="120" font-size="11" fill="#1565c0">AP (true 11 cm,</text><text x="330" y="135" font-size="11" fill="#1565c0">obstetric 10.5 cm)</text><text x="330" y="165" font-size="11" fill="#2e7d32">Transverse 13.5 cm</text><text x="190" y="245" text-anchor="middle" font-size="11" fill="#777">Pelvic brim divides true / false pelvis</text><text x="495" y="40" text-anchor="middle" font-size="12" fill="var(--color-foreground)" font-weight="bold">4 Types</text><circle cx="430" cy="80" r="20" fill="var(--accent)" opacity="0.5" stroke="var(--color-foreground)"/><text x="430" y="110" text-anchor="middle" font-size="9" fill="var(--color-foreground)">Gynaecoid</text><path d="M470,68 Q490,55 510,68 Q500,90 490,98 Q480,90 470,68Z" fill="var(--color-secondary)" stroke="var(--color-foreground)"/><text x="490" y="110" text-anchor="middle" font-size="9" fill="var(--color-foreground)">Android</text><ellipse cx="430" cy="160" rx="14" ry="24" fill="var(--accent)" opacity="0.4" stroke="var(--color-foreground)"/><text x="430" y="196" text-anchor="middle" font-size="9" fill="var(--color-foreground)">Anthropoid</text><ellipse cx="490" cy="160" rx="26" ry="13" fill="var(--color-secondary)" stroke="var(--color-foreground)"/><text x="490" y="196" text-anchor="middle" font-size="9" fill="var(--color-foreground)">Platypelloid</text></svg><div class="figure-caption">Fig: Female pelvic brim, diameters and the 4 types</div></div></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">The pelvis carries the body's weight and, in women, surrounds the canal the baby travels through. Knowing its bones, joints, planes and diameters lets the midwife judge whether a normal vaginal delivery is possible.</p></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Definition</h3><div class="definition-box animate-scale-in">The <strong>pelvis</strong> is a bony ring at the lower trunk, formed by 4 bones, that supports the abdominal organs and forms the bony part of the birth canal.<br><br>&bull; It is divided by the <strong>pelvic brim</strong> into the <strong>false (greater) pelvis</strong> above and the <strong>true (lesser) pelvis</strong> below.<br>&bull; Only the <strong>true pelvis</strong> matters for childbirth.</div></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title teal-title">Bones &amp; Joints</h3><ol class="answer-points"><li><strong>4 Bones:</strong> two <strong>innominate (hip) bones</strong> (each = ilium + ischium + pubis), the <strong>sacrum</strong> and the <strong>coccyx</strong>.</li><li><strong>4 Joints:</strong> two sacro-iliac joints, one symphysis pubis, one sacro-coccygeal joint. <strong>Relaxin</strong> softens them in pregnancy for extra room.</li></ol></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title accent-title">Planes &amp; Diameters of the True Pelvis</h3><div class="answer-table-wrap"><table class="answer-table"><thead><tr><th>Plane</th><th>AP diameter</th><th>Transverse</th></tr></thead><tbody><tr><td><strong>Inlet (brim)</strong></td><td>True 11 / Obstetric 10.5 / Diagonal 12.5 cm</td><td>13.5 cm</td></tr><tr><td><strong>Cavity</strong></td><td>12 cm (round, roomiest)</td><td>12 cm</td></tr><tr><td><strong>Outlet</strong></td><td>13 cm</td><td>11 cm (bi-ischial)</td></tr></tbody></table></div><p class="answer-text">The <strong>obstetric conjugate (10.5 cm)</strong> is the smallest and most important &mdash; the head must pass it to engage.</p></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Four Types of Pelvis</h3><div class="answer-table-wrap"><table class="answer-table"><thead><tr><th>Type</th><th>Brim shape</th><th>Delivery</th></tr></thead><tbody><tr><td><strong>Gynaecoid</strong> (female)</td><td>Rounded</td><td><strong>Best</strong> (~50%)</td></tr><tr><td><strong>Android</strong> (male)</td><td>Heart-shaped</td><td>Poor &mdash; obstruction</td></tr><tr><td><strong>Anthropoid</strong></td><td>Long oval (AP&gt;TV)</td><td>Fair &mdash; favours OP</td></tr><tr><td><strong>Platypelloid</strong></td><td>Flat (TV&gt;AP)</td><td>Poor &mdash; non-engagement</td></tr></tbody></table></div></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Mnemonic to Remember</h3><div class="mnemonic-box animate-scale-in"><div class="mnemonic-label">4 types: <strong>"GAAP"</strong></div><div class="mnemonic-word"><span>G</span>-<span>A</span>-<span>A</span>-<span>P</span></div><div class="mnemonic-explain"><strong>G</strong>ynaecoid &middot; <strong>A</strong>ndroid &middot; <strong>A</strong>nthropoid &middot; <strong>P</strong>latypelloid</div></div></div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Amniotic Fluid</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Amniotic Fluid</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Sources<br><small>Fetal urine (main), lung fluid, amnion, fetal skin (early)</small></div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Functions<br><small>Cushions fetus, maintains temp, permits movement, prevents adhesions</small></div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Normal Volume<br><small>500–1000 mL at term</small></div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Assessment Methods</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">AFI (Amniotic Fluid Index)<br><small>Normal 8–18 cm</small></div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Single Deepest Pocket<br><small>Normal 2–8 cm</small></div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Amniocentesis<br><small>Cytology, biochemistry</small></div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Polyhydramnios<br><small>AFI &gt;18 cm; GDM, fetal anomalies</small></div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Oligohydramnios<br><small>AFI &lt;5 cm; renal agenesis, IUGR</small></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>4 bones = 2 innominate + sacrum + coccyx; 4 joints</li><li>Brim divides false (upper) &amp; true (lower) pelvis</li><li><strong>Obstetric conjugate 10.5 cm</strong> = smallest AP diameter the head must pass</li><li><strong>Gynaecoid</strong> = ideal; Relaxin softens joints in pregnancy</li></ul></div>
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Innominate bone</span><span class="kw">Pelvic brim</span><span class="kw">Inlet/Cavity/Outlet</span><span class="kw">Obstetric conjugate 10.5 cm</span><span class="kw">Diagonal conjugate 12.5</span><span class="kw">Gynaecoid</span><span class="kw">Android</span><span class="kw">Engagement</span></div>
 <div class="editorial-example"><strong>Relatable Example:</strong> On antenatal palpation a midwife suspects a small pelvis. She knows the well-flexed head (~9.5 cm) must pass the <strong>obstetric conjugate (10.5 cm)</strong> &mdash; the tightest spot &mdash; so she watches engagement and refers early if it fails.</div>
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div><ul><li><span class="term">Innominate bone</span> The hip bone &mdash; ilium + ischium + pubis fused</li><li><span class="term">Conjugate</span> A front-to-back (AP) diameter of the pelvis</li><li><span class="term">Gynaecoid</span> The normal rounded female pelvis &mdash; best for delivery</li><li><span class="term">Engagement</span> When the widest part of the head passes the pelvic brim</li></ul></div>
 <div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div><details><summary>Which is the smallest, most important AP diameter of the inlet?</summary><p>The obstetric conjugate, ~10.5 cm.</p></details><details><summary>Which pelvis type is ideal for normal delivery?</summary><p>The gynaecoid (normal female) pelvis.</p></details><details><summary>Name the 4 bones of the pelvis.</summary><p>Two innominate (hip) bones, the sacrum and the coccyx.</p></details></div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Amniotic fluid is indispensable for fetal survival &mdash; it cushions against trauma, permits lung maturation, and allows musculoskeletal development; deviations such as polyhydramnios or oligohydramnios signal serious fetal or maternal pathology requiring prompt evaluation. The nurse midwife must monitor amniotic fluid index (AFI) on ultrasound, recognise warning signs of PROM or meconium-stained liquor, and initiate timely referral in line with MUHS &amp; INC competency standards. Early identification and skilled management of amniotic fluid abnormalities directly reduce perinatal morbidity and mortality, reflecting the core role of the nurse midwife in safe obstetric care.</p>
+</div>
 `
   }
 ];

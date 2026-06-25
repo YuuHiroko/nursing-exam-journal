@@ -12,7 +12,7 @@ window.QUESTIONS_DATA_UNIT4 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> <strong>Normal labour</strong> means the baby is born naturally at term (37&ndash;42 weeks), head-first (vertex), with the cervix opening on its own, and delivery happening within about 18 hours, with no complications. In the <strong>first stage</strong>, the uterus contracts more and more, the cervix thins (effacement) and opens (dilatation) from 0 to 10 cm, and a bloody &ldquo;show&rdquo; comes out. Management in the first stage = monitor with a <strong>partograph</strong>; in the second stage = guide pushing and conduct a safe delivery.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 230" role="img" aria-label="Timeline of the four stages of labour with their durations" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">The Four Stages of Labour</text>
@@ -44,20 +44,20 @@ window.QUESTIONS_DATA_UNIT4 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Labour is the natural process by which the baby, placenta, and membranes are pushed out of the uterus through the birth canal. For a nurse midwife, understanding normal labour is the foundation of safe delivery care. When labour is normal, the nurse only needs to support and monitor. When something goes wrong, she must spot it early and refer.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition of Normal Labour</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Normal labour (Eutocia)</strong> is the process where labour starts on its own (<strong>spontaneous onset</strong>) at <strong>term (37&ndash;42 weeks)</strong>, the baby is in <strong>vertex (head-down) presentation</strong>, the cervix shows <strong>progressive dilatation and effacement</strong>, and the baby is delivered <strong>vaginally within 18 hours (primigravida) or 12 hours (multigravida)</strong> &mdash; <strong>without any complication</strong> to mother or baby.
   </div>
   <p class="answer-text">In simple words: the labour begins by itself, the baby comes head-first, the cervix opens steadily, the baby is born within a normal time, and nobody gets hurt.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">The Four Stages of Labour (Quick Overview)</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -72,7 +72,7 @@ window.QUESTIONS_DATA_UNIT4 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Physiological Changes During First Stage of Labour</h3>
   <p class="answer-text">The first stage is the longest. Many changes happen in the body to open the cervix and push the baby down.</p>
   <ol class="answer-points">
@@ -91,7 +91,7 @@ window.QUESTIONS_DATA_UNIT4 = [
   </ol>
 </div>
 
-<div class="flowchart">
+<div class="flowchart animate-fade-in">
   <div class="flowchart-title">First Stage &mdash; How the Cervix Opens</div>
   <div class="flowchart-container">
     <div class="flowchart-step">Strong rhythmic contractions begin</div>
@@ -106,7 +106,7 @@ window.QUESTIONS_DATA_UNIT4 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Management of Woman in FIRST Stage</h3>
   <ol class="answer-points">
     <li><strong>Admission &amp; assessment:</strong> Check contractions, FHR, BP, pulse, temperature, urine, show, and membranes.</li>
@@ -123,7 +123,7 @@ window.QUESTIONS_DATA_UNIT4 = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Management of Woman in SECOND Stage</h3>
   <ol class="answer-points">
     <li><strong>Confirm full dilatation (10 cm)</strong> by vaginal examination before allowing pushing.</li>
@@ -137,7 +137,7 @@ window.QUESTIONS_DATA_UNIT4 = [
   </ol>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for First Stage Care</div>
   <div class="mnemonic-word"><span>P</span>-<span>A</span>-<span>R</span>-<span>T</span>-<span>O</span></div>
   <div class="mnemonic-explain">
@@ -179,7 +179,7 @@ Tip: Draw the cervix-opening flowchart and write management in numbered points f
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     Normal labour is a natural, well-organised process. The nurse midwife&rsquo;s job is to monitor the mother and baby closely using the partograph, give comfort and support in the first stage, and conduct a safe, gentle delivery in the second stage. Early detection of danger signs and timely referral are the keys to a healthy mother and baby.
@@ -219,7 +219,7 @@ Tip: Draw the cervix-opening flowchart and write management in numbered points f
     answer: `
 <div class="in-short"><strong>In Short:</strong> <strong>Normal labour</strong> is when labour starts by itself at term (37&ndash;42 weeks), the baby is head-first (vertex), the cervix opens steadily, and the baby is born within about 18 hours with no problems. In the <strong>first stage</strong>, contractions get stronger, the cervix thins (effacement) and opens from 0 to 10 cm, the &ldquo;show&rdquo; appears, and the baby&rsquo;s skull moulds. Management means careful <strong>partograph</strong> monitoring, comfort, bladder care, and watching for danger signs.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 240" role="img" aria-label="Cervical effacement and dilatation during the first stage of labour" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Cervix: Effacement then Dilatation</text>
@@ -250,19 +250,19 @@ Tip: Draw the cervix-opening flowchart and write management in numbered points f
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Labour is how the baby moves out of the uterus into the world. The first stage is the longest and most important stage because the cervix must open fully before the baby can be born. A nurse midwife must understand the changes and how to care for the woman safely.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition of Normal Labour</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Normal labour</strong> is the process where labour begins <strong>spontaneously</strong> at <strong>term (37&ndash;42 weeks)</strong>, with the fetus in <strong>vertex presentation</strong>, showing <strong>progressive cervical dilatation and effacement</strong>, ending in <strong>vaginal delivery within 18 hours (primigravida) or 12 hours (multigravida)</strong>, with <strong>no complications</strong> to mother or baby.
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Physiological Changes During First Stage</h3>
   <p class="answer-text">The first stage runs from the onset of true labour to full dilatation (10 cm). Many body changes happen:</p>
   <ol class="answer-points">
@@ -286,7 +286,7 @@ Tip: Draw the cervix-opening flowchart and write management in numbered points f
   </table>
 </div>
 
-<div class="flowchart">
+<div class="flowchart animate-fade-in">
   <div class="flowchart-title">First Stage &mdash; Step by Step</div>
   <div class="flowchart-container">
     <div class="flowchart-step">True labour begins (regular contractions + show)</div>
@@ -301,7 +301,7 @@ Tip: Draw the cervix-opening flowchart and write management in numbered points f
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Management of First Stage of Labour</h3>
   <ol class="answer-points">
     <li><strong>Admission &amp; assessment:</strong> Assess contractions, FHR, BP, temperature, pulse, urine, show, and membranes.</li>
@@ -319,7 +319,7 @@ Tip: Draw the cervix-opening flowchart and write management in numbered points f
   </ol>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic &mdash; First Stage Monitoring</div>
   <div class="mnemonic-word"><span>F</span>-<span>I</span>-<span>R</span>-<span>S</span>-<span>T</span></div>
   <div class="mnemonic-explain">
@@ -360,7 +360,7 @@ Tip: Add the latent/active table and the flowchart &mdash; they fetch easy marks
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     The first stage of labour is the longest and needs the most monitoring. By understanding the physiological changes and using the partograph wisely, the nurse midwife can detect problems early, keep the woman comfortable, and ensure a safe progress towards delivery.
@@ -401,7 +401,7 @@ Tip: Add the latent/active table and the flowchart &mdash; they fetch easy marks
 <div class="figure-block"><img src="assets/images/mechanism_of_labour.png" alt="Fig: Cardinal Movements (Mechanism) of Labour" loading="lazy"><div class="figure-caption">Fig: Cardinal Movements (Mechanism) of Labour</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 250" role="img" aria-label="Sequence of seven movements in the mechanism of labour in LOA position" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Mechanism of Labour (LOA) - 7 Movements</text>
@@ -434,20 +434,20 @@ Tip: Add the latent/active table and the flowchart &mdash; they fetch easy marks
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">For the baby to be born, the head must turn and adjust as it passes through the curved pelvis. These adjustments are called the <strong>mechanism of labour</strong>. The most common and favourable position is <strong>LOA (Left Occiput Anterior)</strong>. A nurse midwife must understand this mechanism and also know how to care for the mother during the long first stage.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition of Normal Labour</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Normal labour</strong> is the <strong>spontaneous onset</strong> of labour at <strong>term (37&ndash;42 weeks)</strong>, with the baby in <strong>vertex presentation</strong>, showing <strong>progressive cervical dilatation and effacement</strong>, and ending in <strong>vaginal delivery within 18 hours (primi) / 12 hours (multi)</strong>, with <strong>no complications</strong>.
   </div>
   <p class="answer-text"><strong>LOA</strong> means the baby&rsquo;s occiput (back of the head) points towards the mother&rsquo;s left and front &mdash; the best position for a normal delivery.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Mechanism of Labour in LOA Position</h3>
   <p class="answer-text">The head performs <strong>7 movements</strong> to be born:</p>
   <ol class="answer-points">
@@ -462,7 +462,7 @@ Tip: Add the latent/active table and the flowchart &mdash; they fetch easy marks
   <p class="answer-text"><strong>Expulsion:</strong> The <strong>anterior shoulder</strong> is delivered first under the pubic arch, then the <strong>posterior shoulder</strong>, and the rest of the body follows.</p>
 </div>
 
-<div class="flowchart">
+<div class="flowchart animate-fade-in">
   <div class="flowchart-title">Mechanism of Labour (LOA) &mdash; 7 Movements</div>
   <div class="flowchart-container">
     <div class="flowchart-step">1. Engagement (head enters pelvic brim)</div>
@@ -481,7 +481,7 @@ Tip: Add the latent/active table and the flowchart &mdash; they fetch easy marks
   </div>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for the 7 Movements</div>
   <div class="mnemonic-word"><span>E</span>very <span>D</span>ecent <span>F</span>amily <span>I</span>nvites <span>C</span>ousins <span>R</span>ound <span>E</span>venings</div>
   <div class="mnemonic-explain">
@@ -490,7 +490,7 @@ Tip: Add the latent/active table and the flowchart &mdash; they fetch easy marks
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Nursing Care in First Stage of Labour</h3>
   <ol class="answer-points">
     <li><strong>Admission &amp; assessment:</strong> Check contractions, FHR, BP, pulse, temperature, urine, show, and membranes. Reassure the mother.</li>
@@ -541,7 +541,7 @@ Tip: Draw the 7-movement flowchart and write each movement with its key point (e
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     The mechanism of labour shows how cleverly the baby&rsquo;s head adapts to the shape of the pelvis through 7 smooth movements. Together with attentive nursing care in the first stage, this knowledge helps the nurse midwife support a safe, normal vaginal delivery and spot any deviation early.
@@ -580,7 +580,7 @@ Tip: Draw the 7-movement flowchart and write each movement with its key point (e
     answer: `
 <div class="in-short"><strong>In Short:</strong> <strong>Labour</strong> is the process of pushing the baby, placenta, and membranes out of the uterus. <strong>True labour</strong> has regular contractions that get stronger and open the cervix; <strong>false labour</strong> (Braxton Hicks) is irregular, does not open the cervix, and goes away with walking. In the <strong>first stage</strong>, contractions strengthen, the cervix effaces and dilates (0&ndash;10 cm), and the show appears. Management = <strong>partograph monitoring, comfort, and safety</strong>.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 240" role="img" aria-label="Comparison of true labour and false labour" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">True Labour vs False Labour</text>
@@ -610,19 +610,19 @@ Tip: Draw the 7-movement flowchart and write each movement with its key point (e
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Many women come to hospital with abdominal pain, but not all of them are in true labour. A nurse midwife must know how to tell true labour from false labour, understand the body changes in the first stage, and care for the woman correctly.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition of Labour</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Labour</strong> is the physiological process by which the <strong>fetus, placenta, and membranes</strong> are expelled from the uterus through the birth canal. <strong>Normal labour</strong> starts spontaneously at term (37&ndash;42 weeks), with a vertex presentation, progressive cervical dilatation, ending in vaginal delivery within 18 hours, with no complications.
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">True Labour vs False Labour Pains</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -639,7 +639,7 @@ Tip: Draw the 7-movement flowchart and write each movement with its key point (e
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Physiological Changes During First Stage</h3>
   <ol class="answer-points">
     <li><strong>Uterus:</strong> Contractions increase in frequency (every 3&ndash;5 min), duration (45&ndash;60 sec), and intensity; the lower uterine segment forms and a <strong>retraction ring</strong> develops.</li>
@@ -652,7 +652,7 @@ Tip: Draw the 7-movement flowchart and write each movement with its key point (e
   </ol>
 </div>
 
-<div class="flowchart">
+<div class="flowchart animate-fade-in">
   <div class="flowchart-title">Is it True or False Labour?</div>
   <div class="flowchart-container">
     <div class="flowchart-step">Woman has abdominal pain</div>
@@ -665,7 +665,7 @@ Tip: Draw the 7-movement flowchart and write each movement with its key point (e
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Management of Woman in First Stage</h3>
   <ol class="answer-points">
     <li><strong>Admission &amp; assessment:</strong> Check contractions, FHR, BP, pulse, temperature, urine, show, and membranes.</li>
@@ -683,7 +683,7 @@ Tip: Draw the 7-movement flowchart and write each movement with its key point (e
   </ol>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic &mdash; True Labour Signs</div>
   <div class="mnemonic-word"><span>R</span>-<span>I</span>-<span>S</span>-<span>E</span></div>
   <div class="mnemonic-explain">
@@ -724,7 +724,7 @@ Tip: The true-vs-false comparison MUST be a table for full marks.</div>
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     Telling true labour from false labour prevents unnecessary admissions and missed real labour. By recognising the physiological changes and managing the first stage carefully with a partograph, the nurse midwife ensures a safe and smooth start to delivery.
@@ -765,7 +765,7 @@ Tip: The true-vs-false comparison MUST be a table for full marks.</div>
 
 <div data-diagram="stagesOfLabour"></div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 250" role="img" aria-label="Active management of third stage of labour and signs of placental separation" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">AMTSL &amp; Signs of Placental Separation</text>
@@ -797,19 +797,19 @@ Tip: The true-vs-false comparison MUST be a table for full marks.</div>
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The third stage of labour is short but very dangerous &mdash; this is when most bleeding (postpartum haemorrhage) can happen. Active management of this stage saves lives. Every nurse midwife must know it perfectly.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition of Normal Labour</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Normal labour</strong> is the <strong>spontaneous onset</strong> of labour at <strong>term (37&ndash;42 weeks)</strong>, with the baby in <strong>vertex presentation</strong>, showing <strong>progressive cervical dilatation and effacement</strong>, ending in <strong>vaginal delivery within 18 hours (primi) / 12 hours (multi)</strong>, with <strong>no complications</strong> to mother or baby.
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Stages of Normal Labour</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -824,7 +824,7 @@ Tip: The true-vs-false comparison MUST be a table for full marks.</div>
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Management of Third Stage (AMTSL)</h3>
   <p class="answer-text"><strong>AMTSL = Active Management of the Third Stage of Labour.</strong> It has 3 key steps to deliver the placenta safely and prevent bleeding:</p>
   <ol class="answer-points">
@@ -834,7 +834,7 @@ Tip: The true-vs-false comparison MUST be a table for full marks.</div>
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Signs of Placental Separation</h3>
   <ul class="sub-points">
     <li><strong>Gush of blood</strong> from the vagina.</li>
@@ -843,7 +843,7 @@ Tip: The true-vs-false comparison MUST be a table for full marks.</div>
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Mechanisms of Placental Expulsion</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -858,7 +858,7 @@ Tip: The true-vs-false comparison MUST be a table for full marks.</div>
   </div>
 </div>
 
-<div class="flowchart">
+<div class="flowchart animate-fade-in">
   <div class="flowchart-title">AMTSL &mdash; Active Management Steps</div>
   <div class="flowchart-container">
     <div class="flowchart-step">Baby is born &mdash; rule out second baby</div>
@@ -875,7 +875,7 @@ Tip: The true-vs-false comparison MUST be a table for full marks.</div>
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">After Placental Delivery &mdash; Nursing Care</h3>
   <ol class="answer-points">
     <li><strong>Inspect the placenta</strong> and membranes for completeness (a retained piece causes bleeding).</li>
@@ -887,7 +887,7 @@ Tip: The true-vs-false comparison MUST be a table for full marks.</div>
   </ol>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for AMTSL Steps</div>
   <div class="mnemonic-word"><span>O</span>-<span>C</span>-<span>M</span></div>
   <div class="mnemonic-explain">
@@ -927,7 +927,7 @@ Tip: Always write the 3 AMTSL steps clearly with the oxytocin dose &mdash; that 
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     The third stage is short but the most critical for preventing postpartum haemorrhage. By practising AMTSL &mdash; oxytocin, controlled cord traction, and uterine massage &mdash; and checking that the placenta is complete, the nurse midwife protects the mother from dangerous bleeding and ensures a safe end to labour.
@@ -968,7 +968,7 @@ Tip: Always write the 3 AMTSL steps clearly with the oxytocin dose &mdash; that 
 <div class="figure-block"><img src="assets/images/mechanism_of_labour.png" alt="Fig: Mechanism of Normal Labour in Vertex Presentation" loading="lazy"><div class="figure-caption">Fig: Mechanism of Normal Labour in Vertex Presentation</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 260" role="img" aria-label="Cardinal movements of labour in order in vertex presentation" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Cardinal Movements (Vertex)</text>
@@ -1001,20 +1001,20 @@ Tip: Always write the 3 AMTSL steps clearly with the oxytocin dose &mdash; that 
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The pelvis is not a straight tube &mdash; it is curved and has different shapes at different levels. So the baby&rsquo;s head cannot just go straight down. It must turn, bend, and adjust at every level. These adjustments, made automatically by the uterine contractions, are called the <strong>mechanism of labour</strong> or <strong>cardinal movements</strong>. Knowing them helps the midwife understand normal progress and detect when something is wrong.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     The <strong>mechanism of labour</strong> is the <strong>series of passive movements</strong> undergone by the fetal presenting part (the head in vertex presentation) as it <strong>adapts to the shape and dimensions of the maternal pelvis</strong> while passing through the birth canal during labour.
   </div>
   <p class="answer-text">The most common position is <strong>LOA (Left Occiput Anterior)</strong> &mdash; the back of the baby&rsquo;s head points to the mother&rsquo;s left front.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">The Cardinal Movements (Step by Step)</h3>
   <ol class="answer-points">
     <li><strong>Engagement:</strong> The widest part of the head (<strong>biparietal diameter, 9.5 cm</strong>) passes through the brim (inlet) of the pelvis. In primigravidas this usually happens before labour; in multigravidas it may happen during labour.</li>
@@ -1029,7 +1029,7 @@ Tip: Always write the 3 AMTSL steps clearly with the oxytocin dose &mdash; that 
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Key Fetal Head Diameters</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -1044,7 +1044,7 @@ Tip: Always write the 3 AMTSL steps clearly with the oxytocin dose &mdash; that 
   </div>
 </div>
 
-<div class="flowchart">
+<div class="flowchart animate-fade-in">
   <div class="flowchart-title">Cardinal Movements in Order</div>
   <div class="flowchart-container">
     <div class="flowchart-step">Engagement (head enters brim, biparietal 9.5 cm)</div>
@@ -1063,7 +1063,7 @@ Tip: Always write the 3 AMTSL steps clearly with the oxytocin dose &mdash; that 
   </div>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for Cardinal Movements</div>
   <div class="mnemonic-word"><span>E</span>very <span>D</span>arling <span>F</span>etus <span>I</span>s <span>C</span>oming <span>E</span>arly <span>R</span>eady <span>E</span>nough</div>
   <div class="mnemonic-explain">
@@ -1105,7 +1105,7 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     The cardinal movements are nature&rsquo;s clever way of letting a relatively large baby pass through a curved, bony pelvis safely. By understanding each step, the nurse midwife can recognise normal progress, assist the birth gently, and quickly identify abnormalities such as a deflexed head or failure of rotation.
@@ -1143,10 +1143,16 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
     years: "Winter 2019, Summer 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> A <strong>partograph</strong> is a single pre-printed chart used to record the progress of labour and the condition of mother and baby on one page. Plotting starts in the active phase (at <strong>4 cm</strong>). It has <strong>alert and action lines</strong>. If the dilatation line crosses the alert line, labour is slow; crossing the action line means urgent intervention or referral. It helps detect prolonged/obstructed labour early and prevents complications.</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">The partograph is a graphical tool used to monitor the progress of labour and the condition of the mother and fetus. It serves as an early warning system to detect abnormal labour patterns and prevent complications. The WHO recommends its universal use in all healthcare settings to reduce maternal and neonatal morbidity.</p>
+</div>
+
 <div class="figure-block"><img src="assets/images/partograph.png" alt="Fig: WHO Modified Partograph" loading="lazy"><div class="figure-caption">Fig: WHO Modified Partograph</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 280" role="img" aria-label="Simplified partograph with cervical dilatation curve, alert line and action line" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">The Partograph (Cervicograph)</text>
@@ -1185,14 +1191,14 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     A <strong>partograph (partogram)</strong> is a <strong>graphic (pictorial) record</strong> of the progress of labour and the maternal and fetal condition, plotted against time on a single chart. It was promoted by the <strong>WHO</strong> as a low-cost tool to detect abnormal labour early.
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Components of the Partograph</h3>
   <ol class="answer-points">
     <li><strong>Patient information:</strong> Name, age, gravida/para, hospital number, time of admission, and time of membrane rupture.</li>
@@ -1202,7 +1208,7 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">How to Plot (Key Points)</h3>
   <ul class="sub-points">
     <li>Begin plotting cervical dilatation only in the <strong>active phase (4 cm)</strong>.</li>
@@ -1212,7 +1218,7 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
   </ul>
 </div>
 
-<div class="flowchart">
+<div class="flowchart animate-fade-in">
   <div class="flowchart-title">Reading the Alert &amp; Action Lines</div>
   <div class="flowchart-container">
     <div class="flowchart-step">Plot dilatation from 4 cm</div>
@@ -1225,7 +1231,7 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Importance of the Partograph</h3>
   <ol class="answer-points">
     <li>Detects <strong>prolonged and obstructed labour</strong> early.</li>
@@ -1236,7 +1242,7 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
   </ol>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic &mdash; What the Partograph Records</div>
   <div class="mnemonic-word"><span>F</span>-<span>P</span>-<span>M</span></div>
   <div class="mnemonic-explain">
@@ -1276,6 +1282,11 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
 <details><summary>What does crossing the action line mean?</summary><p>Labour is abnormally slow / obstructed &mdash; intervene urgently or refer for higher care (e.g., C-section).</p></details>
 <details><summary>Name the three main sections of the partograph.</summary><p>Fetal condition, Progress of labour, and Maternal condition.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">The partograph remains one of the most cost-effective tools in obstetric care, enabling timely intervention and reducing unnecessary caesarean sections. Consistent use by skilled birth attendants is essential for safe labour management in all MUHS-affiliated institutions.</p>
+</div>
 `
   },
 
@@ -1294,7 +1305,7 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
 <div class="figure-block"><img src="assets/images/episiotomy_types.png" alt="Fig: Types of Episiotomy" loading="lazy"><div class="figure-caption">Fig: Types of Episiotomy</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 270" role="img" aria-label="Types of episiotomy incisions on the perineum: median and mediolateral" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Types of Episiotomy Incision</text>
@@ -1320,19 +1331,19 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">During delivery, the perineum sometimes cannot stretch enough and may tear in an uncontrolled, ragged way. To prevent a bad tear and to help the baby out faster when needed, the midwife/doctor may make a clean, controlled cut &mdash; an episiotomy. A clean cut heals better than a jagged tear.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     An <strong>episiotomy</strong> is a <strong>planned surgical incision</strong> made on the <strong>perineum and the posterior vaginal wall</strong> during the second stage of labour to <strong>enlarge the vaginal outlet</strong> and facilitate the delivery of the baby. (Also called <strong>perineotomy</strong>.)
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Indications</h3>
   <ol class="answer-points">
     <li><strong>Rigid / inelastic perineum</strong> that will not stretch (common in primigravidas).</li>
@@ -1345,7 +1356,7 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Types of Episiotomy</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -1360,7 +1371,7 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Procedure of Repair (Episiorrhaphy)</h3>
   <ol class="answer-points">
     <li><strong>Preparation:</strong> Position in lithotomy, good light, clean and drape, ensure the placenta is delivered first and the uterus is contracted.</li>
@@ -1377,7 +1388,7 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
   </ol>
 </div>
 
-<div class="flowchart">
+<div class="flowchart animate-fade-in">
   <div class="flowchart-title">Episiotomy &mdash; Cut to Repair</div>
   <div class="flowchart-container">
     <div class="flowchart-step">Perineum bulging, crowning, indication present</div>
@@ -1392,7 +1403,7 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Nursing Care After Episiotomy</h3>
   <ol class="answer-points">
     <li><strong>Perineal hygiene:</strong> Clean front to back; change pads frequently; keep the area dry.</li>
@@ -1406,7 +1417,7 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
   </ol>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic &mdash; Wound Assessment (REEDA)</div>
   <div class="mnemonic-word"><span>R</span>-<span>E</span>-<span>E</span>-<span>D</span>-<span>A</span></div>
   <div class="mnemonic-explain">
@@ -1447,7 +1458,7 @@ Tip: Emphasise the 3-layer repair and the per-rectal check &mdash; these score w
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     An episiotomy, when truly indicated, is a simple procedure that protects the perineum and helps deliver the baby safely. Correct timing, a proper 3-layer repair, and careful nursing care &mdash; especially hygiene, pain relief, and watching for infection &mdash; ensure smooth healing and a comfortable recovery for the mother.
@@ -1486,7 +1497,7 @@ Tip: Emphasise the 3-layer repair and the per-rectal check &mdash; these score w
     answer: `
 <div class="in-short"><strong>In Short:</strong> Pain relief in labour can be <strong>non-pharmacological</strong> (no medicine) &mdash; breathing exercises, back massage, position changes, warm compress, a supportive companion &mdash; or <strong>pharmacological</strong> (medicines) &mdash; opioids like pethidine, inhalation (Entonox), and <strong>epidural analgesia</strong> (the most effective). The midwife combines comfort measures with reassurance and uses drugs as prescribed.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 250" role="img" aria-label="Methods of pain relief in labour: non-pharmacological and pharmacological" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Pain Relief in Labour</text>
@@ -1514,12 +1525,20 @@ Tip: Emphasise the 3-layer repair and the per-rectal check &mdash; these score w
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Labour pain is one of the most severe pains a woman experiences. Good pain management reduces fear and exhaustion, helps labour progress, and makes the birth experience positive. The nurse midwife should know both drug-free and drug-based methods.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Pain Relief in Labour:</strong> The use of pharmacological and non-pharmacological methods to reduce or eliminate the pain of uterine contractions and birth, while maintaining maternal consciousness and fetal well-being.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">A. Non-Pharmacological Methods</h3>
   <ol class="answer-points">
     <li><strong>Breathing techniques:</strong> Slow, deep breathing during contractions (e.g., Lamaze method).</li>
@@ -1532,7 +1551,7 @@ Tip: Emphasise the 3-layer repair and the per-rectal check &mdash; these score w
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">B. Pharmacological Methods</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -1547,7 +1566,7 @@ Tip: Emphasise the 3-layer repair and the per-rectal check &mdash; these score w
   </div>
 </div>
 
-<div class="flowchart">
+<div class="flowchart animate-fade-in">
   <div class="flowchart-title">Choosing Pain Relief</div>
   <div class="flowchart-container">
     <div class="flowchart-step">Start with non-drug comfort measures + support</div>
@@ -1560,7 +1579,7 @@ Tip: Emphasise the 3-layer repair and the per-rectal check &mdash; these score w
   </div>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic &mdash; Non-Drug Comfort</div>
   <div class="mnemonic-word"><span>B</span>-<span>M</span>-<span>P</span>-<span>S</span></div>
   <div class="mnemonic-explain">
@@ -1600,6 +1619,11 @@ Tip: Emphasise the 3-layer repair and the per-rectal check &mdash; these score w
 <details><summary>Which is the most effective pharmacological method?</summary><p>Epidural (regional) analgesia.</p></details>
 <details><summary>Why avoid opioids like pethidine just before delivery?</summary><p>They cross to the baby and can cause respiratory depression (breathing difficulty) in the newborn.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Effective pain management in labour enhances the birthing experience, reduces maternal stress hormones, and promotes fetal oxygenation. The choice of method must be individualised, balancing maternal comfort with fetal safety and the available resources of the healthcare facility.</p>
+</div>
 `
   },
 
@@ -1616,7 +1640,7 @@ Tip: Emphasise the 3-layer repair and the per-rectal check &mdash; these score w
     answer: `
 <div class="in-short"><strong>In Short:</strong> The <strong>second stage</strong> runs from <strong>full dilatation (10 cm) to the birth of the baby</strong>. The midwife confirms full dilatation, positions the woman, guides her bearing-down efforts, monitors <strong>FHR every 5 minutes</strong>, and conducts the delivery gently: <strong>control the head, check for the cord, deliver the shoulders, then the body</strong>. Immediately after, she dries the baby, keeps it warm, ensures breathing, and starts skin-to-skin contact and early breastfeeding.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 230" role="img" aria-label="Steps in conducting a normal delivery from full dilatation to newborn care" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Conduct of Normal Delivery (2nd Stage)</text>
@@ -1649,19 +1673,19 @@ Tip: Emphasise the 3-layer repair and the per-rectal check &mdash; these score w
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The second stage is the most active and exciting stage &mdash; the baby is finally born. It demands careful technique to protect the baby and the mother&rsquo;s perineum. A calm, skilled midwife can make this stage safe and smooth.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     The <strong>second stage of labour</strong> is the period from <strong>full cervical dilatation (10 cm)</strong> to the <strong>complete delivery of the baby</strong>. It lasts about <strong>1&ndash;2 hours in a primigravida</strong> and <strong>about 30 minutes in a multigravida</strong>.
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Signs of Second Stage</h3>
   <ul class="sub-points">
     <li>Strong, expulsive contractions with an <strong>urge to bear down</strong>.</li>
@@ -1671,7 +1695,7 @@ Tip: Emphasise the 3-layer repair and the per-rectal check &mdash; these score w
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Management of Second Stage</h3>
   <ol class="answer-points">
     <li><strong>Confirm full dilatation (10 cm)</strong> by vaginal examination before allowing active pushing.</li>
@@ -1684,7 +1708,7 @@ Tip: Emphasise the 3-layer repair and the per-rectal check &mdash; these score w
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conduct of Normal Delivery</h3>
   <ol class="answer-points">
     <li><strong>Delivery of the head:</strong> As the head crowns, support the perineum with one hand and control the head with the other to allow <strong>slow delivery by flexion then extension</strong> (prevents sudden delivery and tears).</li>
@@ -1697,7 +1721,7 @@ Tip: Emphasise the 3-layer repair and the per-rectal check &mdash; these score w
   </ol>
 </div>
 
-<div class="flowchart">
+<div class="flowchart animate-fade-in">
   <div class="flowchart-title">Conduct of Normal Delivery</div>
   <div class="flowchart-container">
     <div class="flowchart-step">Confirm 10 cm + crowning</div>
@@ -1712,7 +1736,7 @@ Tip: Emphasise the 3-layer repair and the per-rectal check &mdash; these score w
   </div>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic &mdash; Immediate Newborn Care</div>
   <div class="mnemonic-word"><span>W</span>-<span>A</span>-<span>C</span>-<span>S</span></div>
   <div class="mnemonic-explain">
@@ -1752,7 +1776,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     Skilful management of the second stage and a gentle, controlled delivery protect both mother and baby. By confirming full dilatation, guiding pushing, monitoring the fetal heart, and conducting the birth step by step, the nurse midwife ensures a safe arrival and a healthy start for the newborn through skin-to-skin contact and early breastfeeding.
@@ -1791,7 +1815,13 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     answer: `
 <div class="in-short"><strong>In Short:</strong> <strong>AMTSL</strong> is the active way of managing the third stage to deliver the placenta quickly and prevent postpartum haemorrhage (PPH). It has <strong>3 steps</strong>: (1) <strong>Oxytocin 10 IU IM</strong> within 1 minute of birth, (2) <strong>Controlled Cord Traction (CCT)</strong> with suprapubic counter-traction, and (3) <strong>uterine massage</strong> after the placenta is out. It is recommended by WHO and is part of India&rsquo;s NHM safe-delivery practice.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Active Management of the Third Stage of Labour (AMTSL) is a package of evidence-based interventions to prevent postpartum haemorrhage (PPH), the leading cause of maternal mortality in India. It involves a structured sequence of actions immediately after delivery of the baby. AMTSL reduces the risk of PPH by up to 60% and is mandated by the Indian Ministry of Health &amp; Family Welfare.</p>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 200" role="img" aria-label="Three steps of active management of the third stage of labour" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">AMTSL - Three Steps (O-C-M)</text>
@@ -1816,14 +1846,14 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>AMTSL (Active Management of the Third Stage of Labour)</strong> is a <strong>set of interventions</strong> done soon after the baby&rsquo;s birth to <strong>speed up placental delivery and reduce blood loss</strong>, thereby preventing <strong>postpartum haemorrhage (PPH)</strong> &mdash; the leading cause of maternal death.
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">The Three Steps of AMTSL</h3>
   <ol class="answer-points">
     <li><strong>Uterotonic &mdash; Oxytocin 10 IU IM:</strong> Given within <strong>1 minute</strong> of the baby&rsquo;s birth (after ruling out a second baby). It makes the uterus contract strongly.</li>
@@ -1832,7 +1862,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </ol>
 </div>
 
-<div class="flowchart">
+<div class="flowchart animate-fade-in">
   <div class="flowchart-title">AMTSL Steps</div>
   <div class="flowchart-container">
     <div class="flowchart-step">Baby born &mdash; rule out second baby</div>
@@ -1845,7 +1875,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Importance / Benefits</h3>
   <ul class="sub-points">
     <li>Prevents <strong>postpartum haemorrhage</strong> (main benefit).</li>
@@ -1855,7 +1885,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </ul>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for AMTSL</div>
   <div class="mnemonic-word"><span>O</span>-<span>C</span>-<span>M</span></div>
   <div class="mnemonic-explain">
@@ -1895,6 +1925,11 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 <details><summary>What is the main purpose of AMTSL?</summary><p>To prevent postpartum haemorrhage (PPH) and reduce maternal death.</p></details>
 <details><summary>Why is counter-traction important during CCT?</summary><p>To prevent uterine inversion (the uterus being pulled inside-out).</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">AMTSL is the single most effective intervention to prevent PPH and should be practised at every delivery by all skilled birth attendants. Proficiency in its correct sequence &mdash; oxytocin administration, controlled cord traction, and uterine massage &mdash; is a core competency in MUHS nursing examinations.</p>
+</div>
 `
   },
 
@@ -1911,7 +1946,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     answer: `
 <div class="in-short"><strong>In Short:</strong> After the baby is born, the placenta separates from the uterine wall. The <strong>signs of separation</strong> are: a <strong>gush of blood</strong>, <strong>lengthening of the cord</strong>, and the <strong>uterus rising and becoming globular (round &amp; hard)</strong>. The placenta then comes out by one of two methods: <strong>Schultze</strong> (shiny fetal side first, central separation, less bleeding, common) or <strong>Matthews Duncan</strong> (dull maternal edge first, more bleeding, less common).</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 240" role="img" aria-label="Schultze and Matthews Duncan methods of placental expulsion" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Methods of Placental Expulsion</text>
@@ -1941,12 +1976,20 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">After delivery of the baby, the uterus continues to contract, the placental site shrinks, and the placenta peels off. Recognising the signs of separation tells the midwife the right moment to deliver the placenta safely.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Placental Separation:</strong> The physiological process by which the placenta detaches from the uterine wall after delivery of the fetus, occurring by one of two mechanisms &mdash; the Schultze mechanism (central separation, fetal surface first) or the Matthews Duncan mechanism (marginal separation, maternal surface first).
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Signs of Placental Separation</h3>
   <ol class="answer-points">
     <li><strong>Gush of blood</strong> from the vagina (blood that was behind the placenta is released).</li>
@@ -1956,7 +1999,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Methods of Placental Expulsion</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -1972,7 +2015,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </div>
 </div>
 
-<div class="flowchart">
+<div class="flowchart animate-fade-in">
   <div class="flowchart-title">Placental Separation &amp; Expulsion</div>
   <div class="flowchart-container">
     <div class="flowchart-step">Uterus contracts &rarr; placental site shrinks</div>
@@ -1985,7 +2028,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </div>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic &mdash; Signs of Separation</div>
   <div class="mnemonic-word"><span>G</span>-<span>L</span>-<span>U</span></div>
   <div class="mnemonic-explain">
@@ -2026,6 +2069,11 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 <details><summary>Which method shows the shiny fetal surface first?</summary><p>The Schultze method (central separation, less bleeding, more common).</p></details>
 <details><summary>Which method causes more bleeding?</summary><p>The Matthews Duncan method (the maternal edge separates first, so blood escapes earlier).</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Recognising the signs of placental separation is essential before applying controlled cord traction to prevent uterine inversion. The Schultze mechanism accounts for approximately 80% of cases and is associated with less blood loss compared to the Matthews Duncan mechanism.</p>
+</div>
 `
   },
 
@@ -2042,7 +2090,13 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     answer: `
 <div class="in-short"><strong>In Short:</strong> <strong>Induction of labour</strong> means starting labour artificially (before it begins on its own) when continuing the pregnancy is risky for mother or baby. Common <strong>indications</strong> include post-term pregnancy, pre-eclampsia, PROM, diabetes, and IUGR. <strong>Methods</strong> are <strong>medical</strong> (prostaglandins, oxytocin), <strong>surgical</strong> (ARM/amniotomy), and <strong>mechanical</strong> (Foley catheter, membrane sweeping). The Bishop score guides readiness.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Induction of labour (IOL) refers to the artificial initiation of uterine contractions before the spontaneous onset of labour, with the aim of achieving vaginal delivery. It is indicated when the risks of continuing the pregnancy outweigh the risks of delivery. IOL rates have risen significantly in India with increased antenatal surveillance and post-date pregnancies.</p>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 210" role="img" aria-label="Methods of induction of labour: medical, surgical and mechanical" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Methods of Induction of Labour</text>
@@ -2068,14 +2122,14 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Induction of labour</strong> is the <strong>artificial initiation of uterine contractions</strong> (before spontaneous onset) after the period of viability, to achieve <strong>vaginal delivery</strong> when it is safer for the mother or baby than continuing the pregnancy.
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Indications</h3>
   <ol class="answer-points">
     <li><strong>Post-term pregnancy</strong> (beyond 42 weeks).</li>
@@ -2088,7 +2142,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Methods of Induction</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -2102,7 +2156,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </div>
 </div>
 
-<div class="flowchart">
+<div class="flowchart animate-fade-in">
   <div class="flowchart-title">Approach to Induction</div>
   <div class="flowchart-container">
     <div class="flowchart-step">Confirm indication + assess Bishop score</div>
@@ -2115,7 +2169,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </div>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic &mdash; Methods of Induction</div>
   <div class="mnemonic-word"><span>M</span>-<span>S</span>-<span>M</span></div>
   <div class="mnemonic-explain">
@@ -2155,6 +2209,11 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 <details><summary>What are the three groups of induction methods?</summary><p>Medical (prostaglandins, oxytocin), Surgical (amniotomy/ARM), and Mechanical (Foley catheter, membrane sweeping).</p></details>
 <details><summary>What guides whether the cervix is ready for induction?</summary><p>The Bishop score.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Successful induction depends on careful patient selection, accurate assessment of cervical favourability using the Bishop score, and close fetal monitoring throughout the process. Nurses play a critical role in monitoring oxytocin infusion, detecting hyperstimulation, and ensuring maternal &amp; fetal safety during IOL.</p>
+</div>
 `
   },
 
@@ -2171,7 +2230,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     answer: `
 <div class="in-short"><strong>In Short:</strong> Fetal well-being in labour is monitored mainly by checking the <strong>fetal heart rate (FHR)</strong> &mdash; normal is <strong>110&ndash;160 bpm</strong>. Methods include <strong>intermittent auscultation</strong> (fetoscope/Doppler) and <strong>continuous electronic monitoring (CTG)</strong>. We also watch the <strong>colour of the liquor</strong> (meconium = warning) and <strong>fetal movements</strong>. Abnormal FHR, meconium-stained liquor, or distress means urgent action.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 240" role="img" aria-label="Monitoring fetal heart rate and CTG features during labour" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Monitoring Fetal Well-being</text>
@@ -2196,12 +2255,20 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Labour is stressful for the baby because each contraction temporarily reduces oxygen supply. Continuous monitoring helps the midwife detect early signs of fetal distress and act before harm occurs.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Fetal Well-Being Monitoring:</strong> The systematic assessment of fetal condition during labour using clinical and electronic methods to detect early signs of fetal compromise and prevent adverse perinatal outcomes.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Methods of Monitoring</h3>
   <ol class="answer-points">
     <li><strong>Intermittent auscultation:</strong> Listen to FHR with a <strong>Pinard fetoscope</strong> or <strong>hand-held Doppler</strong> &mdash; every <strong>30 min</strong> in latent phase, every <strong>15 min</strong> in active phase, and every <strong>5 min</strong> in second stage. Count for a full minute after a contraction.</li>
@@ -2212,7 +2279,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Understanding CTG</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -2227,7 +2294,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </div>
 </div>
 
-<div class="flowchart">
+<div class="flowchart animate-fade-in">
   <div class="flowchart-title">If FHR Becomes Abnormal</div>
   <div class="flowchart-container">
     <div class="flowchart-step">Abnormal FHR or meconium-stained liquor</div>
@@ -2240,7 +2307,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </div>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic &mdash; Reading a CTG (DR C BRAVADO simplified)</div>
   <div class="mnemonic-word"><span>B</span>-<span>V</span>-<span>A</span>-<span>D</span></div>
   <div class="mnemonic-explain">
@@ -2281,6 +2348,11 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 <details><summary>How often is FHR checked in the active phase and second stage?</summary><p>Every 15 minutes in the active phase and every 5 minutes in the second stage.</p></details>
 <details><summary>What does meconium-stained liquor indicate?</summary><p>Possible fetal distress &mdash; the baby may be short of oxygen.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Continuous and vigilant monitoring of fetal well-being during labour is essential to detect fetal distress early and enable timely obstetric intervention. A partograph combined with electronic fetal monitoring remains the gold standard in MUHS &amp; Indian tertiary care settings for ensuring safe perinatal outcomes.</p>
+</div>
 `
   },
 
@@ -2297,7 +2369,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     answer: `
 <div class="in-short"><strong>In Short:</strong> Immediate newborn care means <strong>keeping the baby warm, ensuring it breathes, clearing the airway if needed, clamping and cutting the cord, and starting skin-to-skin contact and early breastfeeding</strong> within the first hour. The <strong>APGAR score</strong> (taken at 1 and 5 minutes) checks 5 signs &mdash; Appearance, Pulse, Grimace, Activity, Respiration &mdash; each scored 0&ndash;2, giving a total out of 10.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 280" role="img" aria-label="APGAR score chart of five signs each scored zero one or two" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">APGAR Score (at 1 &amp; 5 minutes)</text>
@@ -2329,12 +2401,20 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The first minutes after birth are critical. Good immediate care prevents the two big newborn dangers &mdash; <strong>hypothermia (cold)</strong> and <strong>asphyxia (no breathing)</strong>. The APGAR score quickly tells how well the baby is adapting.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>APGAR Score:</strong> A rapid neonatal assessment tool introduced by Dr. Virginia Apgar (1952), evaluated at 1 and 5 minutes of birth, scoring five parameters &mdash; Appearance, Pulse, Grimace, Activity, and Respiration &mdash; each on a scale of 0&ndash;2 (maximum score: 10).
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Immediate Care of the Newborn</h3>
   <ol class="answer-points">
     <li><strong>Keep warm:</strong> Dry the baby quickly, remove the wet cloth, and wrap in a warm dry towel (prevent hypothermia).</li>
@@ -2347,7 +2427,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">APGAR Score</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -2364,7 +2444,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   <p class="answer-text"><strong>Interpretation:</strong> 7&ndash;10 = normal; 4&ndash;6 = moderate asphyxia (needs help); 0&ndash;3 = severe asphyxia (needs resuscitation).</p>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic &mdash; APGAR</div>
   <div class="mnemonic-word"><span>A</span>-<span>P</span>-<span>G</span>-<span>A</span>-<span>R</span></div>
   <div class="mnemonic-explain">
@@ -2380,6 +2460,31 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">keep warm / prevent hypothermia</span><span class="kw">ensure breathing</span><span class="kw">cord clamp &amp; cut</span><span class="kw">skin-to-skin</span><span class="kw">early breastfeeding within 1 hour</span><span class="kw">Vitamin K</span><span class="kw">APGAR at 1 &amp; 5 min</span><span class="kw">7&ndash;10 normal</span></div>
 <div data-diagram="apgarScore"></div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Immediate Newborn Care</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Baby born — note time of birth</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Dry, warm, stimulate</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Assess APGAR at 1 &amp; 5 minutes</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">APGAR ≥7 — Routine care</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">APGAR &lt;7 — Clear airway, resuscitate</div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Clamp &amp; cut cord</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Initiate breastfeeding — Document</div>
+  </div>
+</div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
@@ -2406,6 +2511,11 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 <details><summary>When is the APGAR score taken?</summary><p>At 1 minute and again at 5 minutes after birth.</p></details>
 <details><summary>What APGAR score is normal?</summary><p>7 to 10. A score of 4&ndash;6 means moderate asphyxia and 0&ndash;3 means severe asphyxia needing resuscitation.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Immediate and systematic care of the newborn at birth, combined with timely APGAR scoring, is critical for identifying neonates requiring resuscitation and ensuring optimal adaptation to extrauterine life. Early intervention guided by APGAR findings significantly reduces neonatal morbidity and mortality.</p>
+</div>
 `
   },
 
@@ -2422,7 +2532,13 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     answer: `
 <div class="in-short"><strong>In Short:</strong> <strong>Lightening</strong> = the baby&rsquo;s head settling deeper into the pelvis a few weeks before labour, easing breathing. <strong>Show</strong> = the blood-stained mucus plug coming out as the cervix begins to open. <strong>Engagement</strong> = the widest part of the head passing the pelvic brim.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">As term approaches, the presenting part descends into the pelvis and a series of preliminary signs herald the onset of labour. Lightening, Show, and Engagement are three key prelabour events that indicate the body&rsquo;s preparation for delivery and are routinely assessed in antenatal clinics across India.</p>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 220" role="img" aria-label="Three pre-labour signs: lightening, show and engagement" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Lightening - Show - Engagement</text>
@@ -2452,15 +2568,15 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definitions</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>(a) Lightening:</strong> The <strong>descent (sinking) of the fetal head into the pelvis</strong> about 2&ndash;3 weeks before labour in primigravidas. It relieves pressure on the diaphragm, so the mother breathes more easily (&ldquo;feels lighter&rdquo;).
   </div>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>(b) Show:</strong> The <strong>discharge of the blood-stained mucus plug</strong> (operculum) from the cervix as it starts to efface and dilate &mdash; an early sign of labour.
   </div>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>(c) Engagement:</strong> The passage of the <strong>widest diameter of the presenting part (biparietal diameter, 9.5 cm) through the pelvic brim (inlet)</strong>. The head is then said to be &ldquo;engaged.&rdquo;
   </div>
 </div>
@@ -2470,6 +2586,30 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 </div>
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">lightening &mdash; head descends 2&ndash;3 wks before labour</span><span class="kw">show &mdash; blood-stained mucus plug</span><span class="kw">engagement &mdash; biparietal diameter crosses brim</span></div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Prelabour Signs</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Approaching term (36–40 weeks)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Lightening<br>Head descends; dyspnoea relieved</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Show<br>Mucus plug expelled; pink discharge</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Engagement<br>Widest diameter enters pelvis</div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Confirms imminent onset of labour</div>
+  </div>
+</div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
@@ -2481,6 +2621,11 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 <div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div>
 <details><summary>What is lightening?</summary><p>The sinking of the fetal head into the pelvis 2&ndash;3 weeks before labour, easing the mother&rsquo;s breathing.</p></details>
 <details><summary>What is the &quot;show&quot;?</summary><p>The blood-stained mucus plug released from the cervix as it begins to open &mdash; an early sign of labour.</p></details>
+</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Recognition of Lightening, Show, and Engagement by the obstetric nurse is vital for anticipating the onset of labour and counselling the expectant mother. These signs together confirm fetal descent and cervical readiness, guiding timely hospital admission and birth planning.</p>
 </div>
 `
   },
@@ -2498,7 +2643,13 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     answer: `
 <div class="in-short"><strong>In Short:</strong> The <strong>Bishop score</strong> is a pre-induction scoring system that checks how &ldquo;ripe&rdquo; (ready) the cervix is for labour by assessing 5 features. A higher score means the cervix is favourable and induction is more likely to succeed.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Assessment of cervical ripeness is essential before induction of labour to predict its success and minimize complications. The Bishop Score is the most widely used pre-induction cervical scoring system in MUHS &amp; Indian obstetric practice, enabling clinicians to objectively evaluate readiness of the cervix for labour.</p>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 220" role="img" aria-label="Five parameters of the Bishop score for cervical readiness" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Bishop Score - 5 Cervical Features</text>
@@ -2529,14 +2680,14 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     The <strong>Bishop score (cervical score)</strong> is a <strong>scoring system used to assess the favourability (readiness) of the cervix for induction of labour</strong>. It rates <strong>5 features</strong> &mdash; cervical <strong>dilatation, effacement, consistency, position</strong>, and the <strong>station of the presenting part</strong> &mdash; each scored 0&ndash;3, giving a total out of 13.
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Interpretation</h3>
   <ul class="sub-points">
     <li><strong>Score &gt; 6 (favourable):</strong> Cervix is ripe &mdash; induction likely to succeed.</li>
@@ -2544,7 +2695,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </ul>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic &mdash; Bishop Score Components</div>
   <div class="mnemonic-word"><span>D</span>-<span>E</span>-<span>C</span>-<span>P</span>-<span>S</span></div>
   <div class="mnemonic-explain">
@@ -2554,6 +2705,30 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 </div>
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">cervical favourability</span><span class="kw">induction of labour</span><span class="kw">dilatation, effacement, consistency, position, station</span><span class="kw">score &gt; 6 favourable</span></div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Bishop Score Assessment</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Assess 5 parameters (score 0–3 each)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Dilatation, Effacement, Station, Consistency, Position</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Score &lt;6<br>Unfavourable → Ripen cervix</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Score 6–8<br>Intermediate → ARM</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Score &gt;8<br>Favourable → Induce</div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
@@ -2565,6 +2740,11 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 <div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div>
 <details><summary>What does the Bishop score assess?</summary><p>The readiness (favourability) of the cervix for induction of labour.</p></details>
 <details><summary>What Bishop score is considered favourable?</summary><p>A score greater than 6 indicates a favourable (ripe) cervix.</p></details>
+</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">The Bishop Score provides an objective, evidence-based method for evaluating cervical favourability prior to induction of labour. A score of &ge;8 predicts successful induction comparable to spontaneous labour, while a low score warrants cervical ripening agents before proceeding, thus reducing the risk of failed induction and caesarean section.</p>
 </div>
 `
   },
@@ -2582,7 +2762,21 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     answer: `
 <div class="in-short"><strong>In Short:</strong> Labour has <strong>4 stages</strong>: 1st (onset to full dilatation, 10 cm), 2nd (full dilatation to birth of baby), 3rd (birth to delivery of placenta), and 4th (1 hour of observation after the placenta).</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Labour is defined as the process by which the products of conception are expelled from the uterus after the period of viability. It is a coordinated physiological process divided into distinct stages, each with characteristic clinical features and specific nursing &amp; obstetric management protocols recognised under MUHS curriculum.</p>
+</div>
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Labour:</strong> The process of progressive uterine contractions leading to effacement and dilatation of the cervix, descent of the presenting part, and ultimate expulsion of the fetus, placenta, and membranes from the uterus after 28 weeks of gestation.
+  </div>
+</div>
+
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 200" role="img" aria-label="The four stages of labour with their durations" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Stages of Labour with Duration</text>
@@ -2613,7 +2807,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Stages of Labour</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -2634,6 +2828,19 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">first stage to 10 cm</span><span class="kw">second stage birth of baby</span><span class="kw">third stage placenta</span><span class="kw">fourth stage 1-hour observation</span></div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Stages of Labour</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">1st Stage — Cervical effacement &amp; dilatation<br>Latent: 0–4 cm | Active: 4–10 cm<br>Primi: ~12 h | Multi: ~6 h</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">2nd Stage — Expulsion of fetus<br>Primi: up to 2 h | Multi: up to 1 h</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">3rd Stage — Placental delivery<br>5–30 minutes</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">4th Stage — Immediate postpartum recovery<br>1–2 hours after delivery</div>
+  </div>
+</div>
+
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
 <li><span class="term">Primi</span> Primigravida &mdash; a woman pregnant for the first time</li>
@@ -2644,6 +2851,11 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 <div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div>
 <details><summary>How many stages of labour are there and what marks the end of the first?</summary><p>Four stages. The first stage ends at full cervical dilatation (10 cm).</p></details>
 <details><summary>How long is the normal third stage?</summary><p>5&ndash;15 minutes (maximum 30 minutes).</p></details>
+</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Understanding the stages of labour and their normal durations enables the obstetric nurse to monitor progress using a partograph, identify deviations from normal, and initiate timely interventions. Prolonged labour in any stage requires prompt medical evaluation to prevent maternal and fetal morbidity.</p>
 </div>
 `
   },
@@ -2660,10 +2872,24 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     years: "Winter 2018, Summer 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The cardinal movements (in order) are: <strong>Engagement &rarr; Descent &rarr; Flexion &rarr; Internal rotation &rarr; Crowning &amp; Extension &rarr; Restitution &rarr; External rotation &rarr; Expulsion.</strong></div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">During the first and second stages of labour, the fetus undergoes a series of passive positional changes in response to uterine contractions and pelvic architecture. These sequential movements, collectively termed cardinal movements (or mechanisms) of labour, facilitate the passage of the fetal head through the birth canal in the most efficient manner.</p>
+</div>
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Cardinal Movements of Labour:</strong> The series of passive, sequential positional changes undergone by the fetal presenting part during its descent through the maternal pelvis, designed to present the smallest fetal diameters to the corresponding pelvic dimensions at each level.
+  </div>
+</div>
+
+
 <div class="figure-block"><img src="assets/images/mechanism_of_labour.png" alt="Fig: Cardinal Movements of Labour" loading="lazy"><div class="figure-caption">Fig: Cardinal Movements of Labour</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 200" role="img" aria-label="The cardinal movements of labour listed in order" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="22" text-anchor="middle" fill="var(--color-foreground)" font-size="14" font-weight="bold">Cardinal Movements (in order)</text>
@@ -2692,7 +2918,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Cardinal Movements of Labour</h3>
   <ol class="answer-points">
     <li><strong>Engagement</strong> &mdash; widest part of head crosses the pelvic brim.</li>
@@ -2706,7 +2932,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   </ol>
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for Cardinal Movements</div>
   <div class="mnemonic-word"><span>E</span>very <span>D</span>arling <span>F</span>etus <span>I</span>s <span>C</span>oming <span>E</span>arly <span>R</span>eady <span>E</span>nough</div>
   <div class="mnemonic-explain">
@@ -2719,6 +2945,25 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">engagement</span><span class="kw">descent</span><span class="kw">flexion</span><span class="kw">internal rotation</span><span class="kw">extension</span><span class="kw">restitution</span><span class="kw">external rotation</span><span class="kw">expulsion</span></div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Cardinal Movements of Labour</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Engagement — head enters pelvic brim</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Descent — downward movement through pelvis</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Flexion — chin on chest</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Internal rotation — occiput to anterior</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Extension — head delivered under pubic arch</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">External rotation (Restitution) — head aligns with shoulders</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Expulsion — anterior then posterior shoulder delivered</div>
+  </div>
+</div>
+
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
 <li><span class="term">Flexion</span> The chin tucking onto the chest so the smallest head diameter presents</li>
@@ -2729,6 +2974,11 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
 <div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div>
 <details><summary>List the cardinal movements in order.</summary><p>Engagement, Descent, Flexion, Internal rotation, Crowning &amp; Extension, Restitution, External rotation, Expulsion.</p></details>
 <details><summary>Which movement makes the smallest diameter present?</summary><p>Flexion &mdash; it brings the suboccipitobregmatic diameter (9.5 cm) to lead.</p></details>
+</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Knowledge of the cardinal movements of labour is fundamental to understanding normal birth mechanics and recognising abnormal presentations or arrest disorders. The obstetric nurse must be familiar with each movement to provide appropriate support, assess progress, and assist the birth attendant during delivery.</p>
 </div>
 `
   },
@@ -2741,16 +2991,47 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     years: "Winter 2019",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The first stage of labour is from the <strong>onset of true labour to full dilatation (10 cm)</strong>. Its physiology = rhythmic <strong>uterine contractions</strong> (fundal dominance, polarity, retraction), formation of upper &amp; lower uterine segments, and progressive <strong>effacement and dilatation</strong> of the cervix.</div>
-<div class="answer-section"><div class="figure-block"><svg viewBox="0 0 600 172" role="img" aria-label="Fig: Physiology of the first stage" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="20" text-anchor="middle" font-size="14" fill="var(--color-foreground)">Physiology of First Stage</text><rect x="24" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Fundal dominance</text><text x="112" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">strongest at fundus</text><rect x="212" y="34" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Polarity</text><text x="300" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">upper contracts, lower dilates</text><rect x="400" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Retraction</text><text x="488" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">fibres shorten</text><rect x="24" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Upper / Lower segments</text><text x="112" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">retraction ring</text><rect x="212" y="104" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Effacement + Dilatation</text><text x="300" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">0 &rarr; 10 cm</text><rect x="400" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Show + ROM</text><text x="488" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">mucus plug, waters</text></svg><div class="figure-caption">Fig: Physiology of the first stage</div></div></div>
-<div class="answer-section"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">In the first stage the uterus does the work of opening the cervix. Coordinated contractions gradually pull the cervix up and open so the baby can descend.</p></div>
-<div class="answer-section"><h3 class="answer-section-title teal-title">Uterine Contractions</h3><ul class="sub-points"><li><strong>Fundal dominance</strong> &mdash; contraction strongest at the fundus.</li><li><strong>Polarity</strong> &mdash; upper segment contracts &amp; retracts while the lower segment relaxes &amp; dilates.</li><li><strong>Retraction</strong> &mdash; muscle fibres shorten permanently, slowly pulling the cervix open.</li></ul></div>
-<div class="answer-section"><h3 class="answer-section-title accent-title">Segments &amp; Cervix</h3><ul class="answer-points"><li>Formation of <strong>upper &amp; lower uterine segments</strong> with a retraction ring between them.</li><li><strong>Effacement</strong> (thinning/taking up) and <strong>dilatation</strong> (opening 0&rarr;10 cm) of the cervix.</li><li><strong>Show</strong> (blood-stained mucus plug) and formation/rupture of the bag of forewaters.</li></ul></div>
-<div class="answer-section"><h3 class="answer-section-title">Phases &amp; Duration</h3><ul class="answer-points"><li><strong>Latent:</strong> 0&rarr;4 cm (slow).</li><li><strong>Active:</strong> 4&rarr;10 cm (~1 cm/hr).</li><li><strong>Duration:</strong> primi ~12 hr; multi ~6&ndash;8 hr.</li></ul></div>
+<div class="answer-section animate-slide-up"><div class="figure-block"><svg viewBox="0 0 600 172" role="img" aria-label="Fig: Physiology of the first stage" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="20" text-anchor="middle" font-size="14" fill="var(--color-foreground)">Physiology of First Stage</text><rect x="24" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Fundal dominance</text><text x="112" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">strongest at fundus</text><rect x="212" y="34" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Polarity</text><text x="300" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">upper contracts, lower dilates</text><rect x="400" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Retraction</text><text x="488" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">fibres shorten</text><rect x="24" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Upper / Lower segments</text><text x="112" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">retraction ring</text><rect x="212" y="104" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Effacement + Dilatation</text><text x="300" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">0 &rarr; 10 cm</text><rect x="400" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Show + ROM</text><text x="488" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">mucus plug, waters</text></svg><div class="figure-caption">Fig: Physiology of the first stage</div></div></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">In the first stage the uterus does the work of opening the cervix. Coordinated contractions gradually pull the cervix up and open so the baby can descend.</p></div>
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>First Stage of Labour:</strong> The period from onset of true labour pains to full dilatation of the cervix (10 cm), comprising the latent phase (0&ndash;3 cm) and active phase (4&ndash;10 cm).
+  </div>
+</div>
+
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title teal-title">Uterine Contractions</h3><ul class="sub-points"><li><strong>Fundal dominance</strong> &mdash; contraction strongest at the fundus.</li><li><strong>Polarity</strong> &mdash; upper segment contracts &amp; retracts while the lower segment relaxes &amp; dilates.</li><li><strong>Retraction</strong> &mdash; muscle fibres shorten permanently, slowly pulling the cervix open.</li></ul></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title accent-title">Segments &amp; Cervix</h3><ul class="answer-points"><li>Formation of <strong>upper &amp; lower uterine segments</strong> with a retraction ring between them.</li><li><strong>Effacement</strong> (thinning/taking up) and <strong>dilatation</strong> (opening 0&rarr;10 cm) of the cervix.</li><li><strong>Show</strong> (blood-stained mucus plug) and formation/rupture of the bag of forewaters.</li></ul></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Phases &amp; Duration</h3><ul class="answer-points"><li><strong>Latent:</strong> 0&rarr;4 cm (slow).</li><li><strong>Active:</strong> 4&rarr;10 cm (~1 cm/hr).</li><li><strong>Duration:</strong> primi ~12 hr; multi ~6&ndash;8 hr.</li></ul></div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Physiology of First Stage</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Uterine contractions begin (Braxton Hicks → true)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Cervical effacement (shortening &amp; thinning)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Cervical dilatation (0 → 10 cm)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Forewaters form — bag of membranes</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Presenting part descends</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Cervix fully dilated — 2nd stage begins</div>
+  </div>
+</div>
+
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>1st stage = onset of true labour &rarr; full dilatation (10 cm)</li><li>3 contraction features: <strong>fundal dominance, polarity, retraction</strong></li><li>Cervix: <strong>effacement + dilatation</strong>; plot on partograph</li><li>Active phase ~1 cm/hr</li></ul></div>
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Fundal dominance</span><span class="kw">Polarity</span><span class="kw">Retraction</span><span class="kw">Upper/lower segment</span><span class="kw">Effacement</span><span class="kw">Dilatation</span><span class="kw">Show</span><span class="kw">Latent/Active phase</span></div>
 <div class="editorial-example"><strong>Relatable Example:</strong> A midwife feels the fundus harden first during each contraction (fundal dominance) and, on examination, the cervix has thinned and opened to 5 cm &mdash; the active phase has begun.</div>
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div><ul><li><span class="term">Effacement</span> Thinning &amp; shortening of the cervix</li><li><span class="term">Dilatation</span> Opening of the cervix, measured 0&ndash;10 cm</li><li><span class="term">Retraction</span> Uterine fibres shorten and do not fully relax</li><li><span class="term">Show</span> Blood-stained mucus plug passed from the cervix</li></ul></div>
 <div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div><details><summary>What are the three features of a normal uterine contraction?</summary><p>Fundal dominance, polarity and retraction.</p></details><details><summary>What defines the end of the first stage?</summary><p>Full dilatation of the cervix (10 cm).</p></details><details><summary>How fast does the active phase progress?</summary><p>About 1 cm per hour.</p></details></div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">The first stage of labour is the longest stage and requires vigilant monitoring of maternal vitals, uterine contractions, and fetal heart rate. Skilled midwifery care during this phase ensures safe progression and early detection of complications such as prolonged labour or fetal distress.</p>
+</div>
 `
   },
   {
@@ -2762,14 +3043,54 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     years: "Winter 2016",
     answer: `
 <div class="in-short"><strong>In Short:</strong> The first stage shows <strong>true labour pains</strong> (regular contractions increasing in strength), <strong>show</strong>, progressive <strong>cervical effacement and dilatation</strong>, descent of the presenting part and often <strong>rupture of membranes</strong>.</div>
-<div class="answer-section"><div class="figure-block"><svg viewBox="0 0 600 172" role="img" aria-label="Fig: Signs &amp;amp; symptoms of the first stage" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="20" text-anchor="middle" font-size="14" fill="var(--color-foreground)">Signs of First Stage</text><rect x="24" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">True labour pains</text><text x="112" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">regular, increasing</text><rect x="212" y="34" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Show</text><text x="300" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">blood-stained mucus</text><rect x="400" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Effacement + Dilatation</text><text x="488" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">on PV exam</text><rect x="24" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Descent</text><text x="112" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">presenting part</text><rect x="212" y="104" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Bag of waters / ROM</text><text x="300" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">liquor drains</text></svg><div class="figure-caption">Fig: Signs &amp; symptoms of the first stage</div></div></div>
-<div class="answer-section"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Recognising true labour lets the midwife admit and monitor the woman at the right time. The key change that confirms labour is progressive cervical dilatation.</p></div>
-<div class="answer-section"><h3 class="answer-section-title teal-title">Signs &amp; Symptoms</h3><ol class="answer-points"><li><strong>True labour pains:</strong> regular, rhythmic contractions increasing in frequency, duration &amp; intensity; felt from back to front; not relieved by rest.</li><li><strong>Show:</strong> expulsion of blood-stained mucus plug.</li><li><strong>Cervical changes:</strong> progressive effacement &amp; dilatation on per-vaginal examination.</li><li><strong>Descent</strong> of the presenting part into the pelvis.</li><li><strong>Bag of forewaters</strong> forms and membranes rupture (liquor drains).</li><li>Uterus hardens on the abdomen during each contraction.</li></ol></div>
+<div class="answer-section animate-slide-up"><div class="figure-block"><svg viewBox="0 0 600 172" role="img" aria-label="Fig: Signs &amp;amp; symptoms of the first stage" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="20" text-anchor="middle" font-size="14" fill="var(--color-foreground)">Signs of First Stage</text><rect x="24" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">True labour pains</text><text x="112" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">regular, increasing</text><rect x="212" y="34" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Show</text><text x="300" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">blood-stained mucus</text><rect x="400" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Effacement + Dilatation</text><text x="488" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">on PV exam</text><rect x="24" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Descent</text><text x="112" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">presenting part</text><rect x="212" y="104" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Bag of waters / ROM</text><text x="300" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">liquor drains</text></svg><div class="figure-caption">Fig: Signs &amp; symptoms of the first stage</div></div></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Recognising true labour lets the midwife admit and monitor the woman at the right time. The key change that confirms labour is progressive cervical dilatation.</p></div>
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Signs &amp; Symptoms of First Stage:</strong> Objective and subjective indicators that signify the onset and progression of the first stage of labour, including regular uterine contractions, cervical changes, and show.
+  </div>
+</div>
+
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title teal-title">Signs &amp; Symptoms</h3><ol class="answer-points"><li><strong>True labour pains:</strong> regular, rhythmic contractions increasing in frequency, duration &amp; intensity; felt from back to front; not relieved by rest.</li><li><strong>Show:</strong> expulsion of blood-stained mucus plug.</li><li><strong>Cervical changes:</strong> progressive effacement &amp; dilatation on per-vaginal examination.</li><li><strong>Descent</strong> of the presenting part into the pelvis.</li><li><strong>Bag of forewaters</strong> forms and membranes rupture (liquor drains).</li><li>Uterus hardens on the abdomen during each contraction.</li></ol></div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Signs of First Stage of Labour</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Patient presents with possible labour</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Show (blood-stained mucus)</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Regular uterine contractions</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Rupture of membranes (ROM)</div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Confirm: cervical dilatation ≥3 cm</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Admit — begin partograph</div>
+  </div>
+</div>
+
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Hallmark = <strong>regular painful contractions + cervical dilatation</strong></li><li>&lsquo;Show&rsquo; = blood-stained mucus plug</li><li>True pain: back &rarr; front, increases, not relieved by walking/sedation</li></ul></div>
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">True labour pains</span><span class="kw">Show</span><span class="kw">Effacement</span><span class="kw">Dilatation</span><span class="kw">Descent</span><span class="kw">Rupture of membranes</span><span class="kw">Liquor</span></div>
 <div class="editorial-example"><strong>Relatable Example:</strong> A woman arrives with low backache that comes every 5 minutes and is getting stronger, plus a pinkish mucus discharge. On examination her cervix is 4 cm &mdash; she is in established first stage.</div>
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div><ul><li><span class="term">Show</span> Blood-stained mucus plug released as the cervix opens</li><li><span class="term">Liquor</span> The amniotic fluid (waters) around the baby</li><li><span class="term">ROM</span> Rupture Of Membranes &mdash; the waters breaking</li></ul></div>
 <div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div><details><summary>What single sign confirms true labour?</summary><p>Progressive cervical dilatation.</p></details><details><summary>What is &lsquo;show&rsquo;?</summary><p>The blood-stained mucus plug passed from the cervix.</p></details><details><summary>How do true labour pains behave over time?</summary><p>They become more frequent, longer and stronger, and are not relieved by rest.</p></details></div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Accurate recognition of the signs and symptoms of the first stage of labour enables the nurse-midwife to initiate timely admission, partograph monitoring, and supportive care. Early identification of abnormal patterns such as absent show or infrequent contractions guides prompt obstetric intervention.</p>
+</div>
 `
   },
   {
@@ -2781,14 +3102,27 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     years: "Winter 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> <strong>True labour pains</strong> are regular, increasing contractions that <em>dilate the cervix</em> and lead to delivery. <strong>False labour pains</strong> (Braxton Hicks) are irregular, do not increase, do <em>not</em> dilate the cervix and settle with rest.</div>
-<div class="answer-section"><div class="figure-block"><svg viewBox="0 0 600 172" role="img" aria-label="Fig: True vs false labour pain" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="20" text-anchor="middle" font-size="14" fill="var(--color-foreground)">True vs False Labour</text><rect x="24" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">TRUE: Regular</text><text x="112" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">rising intensity</text><rect x="212" y="34" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">TRUE: Cervix dilates</text><text x="300" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">+ show</text><rect x="400" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">FALSE: Irregular</text><text x="488" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">weak, same</text><rect x="24" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">FALSE: No dilatation</text><text x="112" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">relieved by rest</text></svg><div class="figure-caption">Fig: True vs false labour pain</div></div></div>
-<div class="answer-section"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Many women come to hospital with abdominal pain. Telling true from false labour avoids both premature admission and dangerous delay.</p></div>
-<div class="answer-section"><h3 class="answer-section-title teal-title">True vs False Labour Pains</h3><div class="answer-table-wrap"><table class="answer-table"><thead><tr><th>Feature</th><th>True Labour</th><th>False Labour</th></tr></thead><tbody><tr><td>Contractions</td><td>Regular, rhythmic</td><td>Irregular</td></tr><tr><td>Interval</td><td>Gradually shortens</td><td>Long / variable</td></tr><tr><td>Intensity</td><td>Progressively increases</td><td>Same / weak</td></tr><tr><td>Site of pain</td><td>Back &rarr; front/abdomen</td><td>Lower abdomen / groin</td></tr><tr><td>On walking</td><td>Pain increases</td><td>Often relieved</td></tr><tr><td>Cervix</td><td>Effaces &amp; dilates</td><td>No change</td></tr><tr><td>Show</td><td>Present</td><td>Absent</td></tr><tr><td>With sedation</td><td>Not relieved</td><td>Relieved</td></tr></tbody></table></div></div>
+<div class="answer-section animate-slide-up"><div class="figure-block"><svg viewBox="0 0 600 172" role="img" aria-label="Fig: True vs false labour pain" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="20" text-anchor="middle" font-size="14" fill="var(--color-foreground)">True vs False Labour</text><rect x="24" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">TRUE: Regular</text><text x="112" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">rising intensity</text><rect x="212" y="34" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">TRUE: Cervix dilates</text><text x="300" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">+ show</text><rect x="400" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">FALSE: Irregular</text><text x="488" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">weak, same</text><rect x="24" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">FALSE: No dilatation</text><text x="112" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">relieved by rest</text></svg><div class="figure-caption">Fig: True vs false labour pain</div></div></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Many women come to hospital with abdominal pain. Telling true from false labour avoids both premature admission and dangerous delay.</p></div>
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>True Labour Pain:</strong> Regular, progressive uterine contractions causing cervical effacement and dilatation. <strong>False Labour (Braxton Hicks):</strong> Irregular, non-progressive uterine tightenings that do not result in cervical change.
+  </div>
+</div>
+
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title teal-title">True vs False Labour Pains</h3><div class="answer-table-wrap"><table class="answer-table"><thead><tr><th>Feature</th><th>True Labour</th><th>False Labour</th></tr></thead><tbody><tr><td>Contractions</td><td>Regular, rhythmic</td><td>Irregular</td></tr><tr><td>Interval</td><td>Gradually shortens</td><td>Long / variable</td></tr><tr><td>Intensity</td><td>Progressively increases</td><td>Same / weak</td></tr><tr><td>Site of pain</td><td>Back &rarr; front/abdomen</td><td>Lower abdomen / groin</td></tr><tr><td>On walking</td><td>Pain increases</td><td>Often relieved</td></tr><tr><td>Cervix</td><td>Effaces &amp; dilates</td><td>No change</td></tr><tr><td>Show</td><td>Present</td><td>Absent</td></tr><tr><td>With sedation</td><td>Not relieved</td><td>Relieved</td></tr></tbody></table></div></div>
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li><strong>True</strong> = Regular, Rising, <strong>cervical dilatation</strong>, show present, not relieved by rest</li><li><strong>False</strong> = Irregular, no dilatation, relieved by rest/sedation</li><li>Best distinguishing feature = <strong>progressive cervical dilatation</strong></li></ul></div>
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">True labour</span><span class="kw">False labour</span><span class="kw">Braxton Hicks</span><span class="kw">Regular contractions</span><span class="kw">Cervical dilatation</span><span class="kw">Show</span><span class="kw">Sedation test</span></div>
 <div class="editorial-example"><strong>Relatable Example:</strong> At 36 weeks a woman has irregular tightenings that ease when she walks and rests; her cervix is closed &mdash; false labour (Braxton Hicks). She is reassured and sent home with danger-sign advice.</div>
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div><ul><li><span class="term">Braxton Hicks</span> Painless &lsquo;practice&rsquo; contractions &mdash; false labour</li><li><span class="term">Effacement</span> Thinning of the cervix</li><li><span class="term">Dilatation</span> Opening of the cervix</li></ul></div>
 <div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div><details><summary>Which feature best separates true from false labour?</summary><p>Progressive cervical dilatation (true labour dilates the cervix).</p></details><details><summary>What happens to false labour pains with rest or sedation?</summary><p>They are relieved.</p></details><details><summary>Another name for false labour contractions?</summary><p>Braxton Hicks contractions.</p></details></div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Differentiating true from false labour is a critical nursing competency to prevent unnecessary hospital admission and maternal anxiety. A vaginal examination confirming cervical change remains the definitive assessment criterion in the Indian midwifery setting.</p>
+</div>
 `
   },
   {
@@ -2800,16 +3134,56 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     years: "Winter 2015, Winter 2018, Summer 2020, Winter 2020, Winter 2021, Winter 2022, Summer 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Oxytocin is a hormone from the <strong>posterior pituitary gland</strong>. Its synthetic forms (<strong>Syntocinon / Pitocin</strong>) are used to <strong>contract the uterus</strong> &mdash; for induction/augmentation of labour, prevention &amp; treatment of postpartum haemorrhage, and it causes the <strong>milk let-down reflex</strong>.</div>
-<div class="answer-section"><div class="figure-block"><svg viewBox="0 0 600 172" role="img" aria-label="Fig: Oxytocin uses &amp;amp; cautions" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="20" text-anchor="middle" font-size="14" fill="var(--color-foreground)">Oxytocin</text><rect x="24" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Posterior pituitary</text><text x="112" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">source</text><rect x="212" y="34" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Uterine contraction</text><text x="300" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">+ milk ejection</text><rect x="400" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">AMTSL: 10 IU IM</text><text x="488" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">prevents PPH</text><rect x="24" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">PPH: 20 IU in IV</text><text x="112" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">uterine atony</text><rect x="212" y="104" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Induction: IV drip</text><text x="300" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">titrated</text><rect x="400" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Risk: hyperstimulation</text><text x="488" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">fetal distress</text></svg><div class="figure-caption">Fig: Oxytocin uses &amp; cautions</div></div></div>
-<div class="answer-section"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Oxytocin is one of the most used drugs in the labour room. The same action &mdash; making the uterus contract &mdash; is used to start labour, speed it up, and stop bleeding after birth.</p></div>
-<div class="answer-section"><h3 class="answer-section-title teal-title">Actions</h3><ul class="answer-points"><li>Stimulates rhythmic <strong>uterine contractions</strong></li><li>Causes <strong>milk ejection</strong> (let-down) during suckling</li><li>Mild <strong>antidiuretic</strong> effect (water retention in large doses)</li></ul></div>
-<div class="answer-section"><h3 class="answer-section-title accent-title">Uses in Obstetrics &amp; Dose</h3><ol class="answer-points"><li><strong>AMTSL (3rd stage):</strong> <strong>10 IU IM</strong> within 1 minute of birth &mdash; prevents PPH.</li><li><strong>PPH / uterine atony:</strong> 20 IU in 500 ml IV fluid as infusion.</li><li><strong>Induction &amp; augmentation:</strong> dilute IV infusion, dose titrated to contractions.</li><li>After abortion / to expel retained products &amp; control bleeding.</li></ol><p class="answer-text"><strong>Routes:</strong> IM &amp; IV infusion. <strong>Storage:</strong> 2&ndash;8&deg;C (refrigerator).</p></div>
-<div class="answer-section"><h3 class="answer-section-title">Side Effects &amp; Precautions</h3><ul class="answer-points"><li><strong>Uterine hyperstimulation</strong> &rarr; fetal distress, risk of rupture</li><li><strong>Water intoxication</strong> with high doses</li><li>Hypotension if given as rapid IV bolus &mdash; <strong>never give undiluted IV push</strong></li><li>Avoid for induction in CPD, malpresentation, (relative) previous CS; always monitor FHR &amp; contractions</li></ul></div>
+<div class="answer-section animate-slide-up"><div class="figure-block"><svg viewBox="0 0 600 172" role="img" aria-label="Fig: Oxytocin uses &amp;amp; cautions" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="20" text-anchor="middle" font-size="14" fill="var(--color-foreground)">Oxytocin</text><rect x="24" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Posterior pituitary</text><text x="112" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">source</text><rect x="212" y="34" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Uterine contraction</text><text x="300" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">+ milk ejection</text><rect x="400" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">AMTSL: 10 IU IM</text><text x="488" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">prevents PPH</text><rect x="24" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">PPH: 20 IU in IV</text><text x="112" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">uterine atony</text><rect x="212" y="104" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Induction: IV drip</text><text x="300" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">titrated</text><rect x="400" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Risk: hyperstimulation</text><text x="488" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">fetal distress</text></svg><div class="figure-caption">Fig: Oxytocin uses &amp; cautions</div></div></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Oxytocin is one of the most used drugs in the labour room. The same action &mdash; making the uterus contract &mdash; is used to start labour, speed it up, and stop bleeding after birth.</p></div>
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Oxytocin (Pitocin):</strong> A synthetic posterior pituitary hormone used to initiate or augment uterine contractions, administered intravenously under strict supervision for induction of labour, augmentation of labour, or prevention of postpartum haemorrhage.
+  </div>
+</div>
+
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title teal-title">Actions</h3><ul class="answer-points"><li>Stimulates rhythmic <strong>uterine contractions</strong></li><li>Causes <strong>milk ejection</strong> (let-down) during suckling</li><li>Mild <strong>antidiuretic</strong> effect (water retention in large doses)</li></ul></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title accent-title">Uses in Obstetrics &amp; Dose</h3><ol class="answer-points"><li><strong>AMTSL (3rd stage):</strong> <strong>10 IU IM</strong> within 1 minute of birth &mdash; prevents PPH.</li><li><strong>PPH / uterine atony:</strong> 20 IU in 500 ml IV fluid as infusion.</li><li><strong>Induction &amp; augmentation:</strong> dilute IV infusion, dose titrated to contractions.</li><li>After abortion / to expel retained products &amp; control bleeding.</li></ol><p class="answer-text"><strong>Routes:</strong> IM &amp; IV infusion. <strong>Storage:</strong> 2&ndash;8&deg;C (refrigerator).</p></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Side Effects &amp; Precautions</h3><ul class="answer-points"><li><strong>Uterine hyperstimulation</strong> &rarr; fetal distress, risk of rupture</li><li><strong>Water intoxication</strong> with high doses</li><li>Hypotension if given as rapid IV bolus &mdash; <strong>never give undiluted IV push</strong></li><li>Avoid for induction in CPD, malpresentation, (relative) previous CS; always monitor FHR &amp; contractions</li></ul></div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Oxytocin Infusion Protocol</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Indication confirmed (induction / augmentation)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Dilute oxytocin in normal saline (10 IU in 500 mL)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Start infusion at low dose (2–4 mIU/min)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Titrate every 30 min to adequate contractions</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">3 contractions/10 min — Maintain dose</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box highlight">Hyperstimulation / FHR change — Stop infusion</div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Monitor FHR, contractions, BP continuously</div>
+  </div>
+</div>
+
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Source = <strong>posterior pituitary</strong>; synthetic = Syntocinon/Pitocin</li><li><strong>AMTSL dose = 10 IU IM</strong> within 1 minute</li><li>Main danger = <strong>hyperstimulation</strong> &rarr; fetal distress/rupture</li><li>Store at 2&ndash;8&deg;C; never give undiluted IV bolus</li></ul></div>
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Oxytocin</span><span class="kw">Posterior pituitary</span><span class="kw">Syntocinon/Pitocin</span><span class="kw">10 IU IM</span><span class="kw">AMTSL</span><span class="kw">Uterine atony</span><span class="kw">Hyperstimulation</span><span class="kw">Water intoxication</span></div>
 <div class="editorial-example"><strong>Relatable Example:</strong> Right after the baby is born the midwife gives 10 IU oxytocin IM into the mother's thigh; the uterus contracts firmly and bleeding is minimal &mdash; active management of the third stage.</div>
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div><ul><li><span class="term">Oxytocin</span> Hormone that contracts the uterus &amp; ejects milk</li><li><span class="term">AMTSL</span> Active Management of Third Stage of Labour</li><li><span class="term">Uterine atony</span> A soft, non-contracting uterus &mdash; main cause of PPH</li><li><span class="term">IU</span> International Unit &mdash; how the dose is measured</li></ul></div>
 <div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div><details><summary>From which gland is oxytocin released?</summary><p>The posterior pituitary gland.</p></details><details><summary>What is the AMTSL dose and route?</summary><p>10 IU intramuscularly (IM) within 1 minute of birth.</p></details><details><summary>What is the most dangerous side effect?</summary><p>Uterine hyperstimulation, causing fetal distress and risk of uterine rupture.</p></details></div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Oxytocin is a high-alert medication requiring continuous electronic fetal monitoring and uterine contraction assessment. The nurse must be vigilant for uterine hyperstimulation, fetal distress, and water intoxication, and must discontinue the infusion immediately if any adverse signs appear.</p>
+</div>
 `
   },
   {
@@ -2821,15 +3195,55 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
     years: "Winter 2014",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Pain-relieving drugs (analgesia) and anaesthesia given to the mother can <strong>cross the placenta</strong> or lower her blood pressure &mdash; both can affect the baby, most importantly causing <strong>respiratory depression and a low Apgar score</strong>.</div>
-<div class="answer-section"><div class="figure-block"><svg viewBox="0 0 600 172" role="img" aria-label="Fig: Drug effects on the baby" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="20" text-anchor="middle" font-size="14" fill="var(--color-foreground)">Effects on the Newborn</text><rect x="24" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Opioids</text><text x="112" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">resp depression, low Apgar</text><rect x="212" y="34" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Naloxone</text><text x="300" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">reverses opioids</text><rect x="400" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">General anaesthesia</text><text x="488" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">depression, low Apgar</text><rect x="24" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Epidural/Spinal</text><text x="112" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">maternal hypotension</text><rect x="212" y="104" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Nitrous oxide</text><text x="300" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">minimal effect</text></svg><div class="figure-caption">Fig: Drug effects on the baby</div></div></div>
-<div class="answer-section"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Whatever reaches the mother's blood can reach the baby through the placenta. So pain relief in labour must be chosen and timed to keep the newborn safe.</p></div>
-<div class="answer-section"><h3 class="answer-section-title teal-title">Effects on the Newborn</h3><ol class="answer-points"><li><strong>Opioids (Pethidine, Morphine):</strong> cross the placenta &rarr; <strong>respiratory depression</strong>, drowsiness, poor feeding, low Apgar &mdash; worst if given within 1&ndash;4 hr of birth. Reversed by <strong>naloxone</strong>.</li><li><strong>General anaesthesia:</strong> depresses the baby &rarr; respiratory depression &amp; low Apgar.</li><li><strong>Regional (epidural/spinal):</strong> safer for the baby, but <strong>maternal hypotension</strong> &rarr; reduced placental flow &rarr; fetal bradycardia.</li><li><strong>Inhalational (Nitrous oxide/Entonox):</strong> minimal effect.</li></ol></div>
-<div class="answer-section"><h3 class="answer-section-title accent-title">Nursing Responsibilities</h3><ul class="answer-points"><li>Avoid giving opioids close to delivery</li><li>Keep <strong>naloxone</strong> &amp; neonatal resuscitation equipment ready</li><li>Monitor FHR and Apgar at 1 &amp; 5 minutes</li><li>Prevent maternal hypotension (IV fluids, left-lateral position) during epidural</li></ul></div>
+<div class="answer-section animate-slide-up"><div class="figure-block"><svg viewBox="0 0 600 172" role="img" aria-label="Fig: Drug effects on the baby" style="width:100%;height:auto;display:block;font-family:var(--font-body);"><text x="300" y="20" text-anchor="middle" font-size="14" fill="var(--color-foreground)">Effects on the Newborn</text><rect x="24" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Opioids</text><text x="112" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">resp depression, low Apgar</text><rect x="212" y="34" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Naloxone</text><text x="300" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">reverses opioids</text><rect x="400" y="34" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="488" y="55" text-anchor="middle" font-size="12" fill="var(--color-foreground)">General anaesthesia</text><text x="488" y="73" text-anchor="middle" font-size="11" fill="var(--color-foreground)">depression, low Apgar</text><rect x="24" y="104" width="176" height="56" rx="8" fill="var(--color-secondary)" stroke="var(--color-border)" stroke-width="1.5"/><text x="112" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Epidural/Spinal</text><text x="112" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">maternal hypotension</text><rect x="212" y="104" width="176" height="56" rx="8" fill="var(--color-card)" stroke="var(--color-border)" stroke-width="1.5"/><text x="300" y="125" text-anchor="middle" font-size="12" fill="var(--color-foreground)">Nitrous oxide</text><text x="300" y="143" text-anchor="middle" font-size="11" fill="var(--color-foreground)">minimal effect</text></svg><div class="figure-caption">Fig: Drug effects on the baby</div></div></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title">Introduction</h3><p class="answer-text">Whatever reaches the mother's blood can reach the baby through the placenta. So pain relief in labour must be chosen and timed to keep the newborn safe.</p></div>
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Neonatal Effects of Analgesia &amp; Anaesthesia:</strong> Physiological alterations in the newborn resulting from transplacental transfer of analgesic or anaesthetic agents administered to the mother during labour, affecting neonatal respiration, tone, and neurobehavioural status.
+  </div>
+</div>
+
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title teal-title">Effects on the Newborn</h3><ol class="answer-points"><li><strong>Opioids (Pethidine, Morphine):</strong> cross the placenta &rarr; <strong>respiratory depression</strong>, drowsiness, poor feeding, low Apgar &mdash; worst if given within 1&ndash;4 hr of birth. Reversed by <strong>naloxone</strong>.</li><li><strong>General anaesthesia:</strong> depresses the baby &rarr; respiratory depression &amp; low Apgar.</li><li><strong>Regional (epidural/spinal):</strong> safer for the baby, but <strong>maternal hypotension</strong> &rarr; reduced placental flow &rarr; fetal bradycardia.</li><li><strong>Inhalational (Nitrous oxide/Entonox):</strong> minimal effect.</li></ol></div>
+<div class="answer-section animate-slide-up"><h3 class="answer-section-title accent-title">Nursing Responsibilities</h3><ul class="answer-points"><li>Avoid giving opioids close to delivery</li><li>Keep <strong>naloxone</strong> &amp; neonatal resuscitation equipment ready</li><li>Monitor FHR and Apgar at 1 &amp; 5 minutes</li><li>Prevent maternal hypotension (IV fluids, left-lateral position) during epidural</li></ul></div>
+
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Analgesia Effects on Newborn</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Maternal analgesia / anaesthesia administered</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Opioids (Pethidine)<br>Neonatal respiratory depression</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Epidural<br>Fetal bradycardia (maternal hypotension)</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">General anaesthesia<br>Neonatal CNS &amp; respiratory depression</div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Assess APGAR — Naloxone if opioid-induced apnoea</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Resuscitate as needed — Monitor temperature</div>
+  </div>
+</div>
+
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Main newborn effect = <strong>respiratory depression + low Apgar</strong></li><li><strong>Naloxone</strong> reverses opioid (pethidine) depression</li><li>Epidural &rarr; maternal hypotension &rarr; fetal bradycardia</li><li>Always be ready to resuscitate the newborn</li></ul></div>
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Analgesia</span><span class="kw">Anaesthesia</span><span class="kw">Pethidine</span><span class="kw">Respiratory depression</span><span class="kw">Apgar</span><span class="kw">Naloxone</span><span class="kw">Epidural</span><span class="kw">Maternal hypotension</span></div>
 <div class="editorial-example"><strong>Relatable Example:</strong> Pethidine given 30 minutes before a quick delivery leaves the baby sleepy and slow to breathe; the team gives naloxone and the baby pinks up &mdash; why opioids are avoided close to birth.</div>
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div><ul><li><span class="term">Analgesia</span> Pain relief without loss of consciousness</li><li><span class="term">Anaesthesia</span> Loss of sensation (regional) or consciousness (general)</li><li><span class="term">Naloxone</span> Drug that reverses opioid effects</li><li><span class="term">Apgar score</span> A 0&ndash;10 score of the newborn's condition at birth</li></ul></div>
 <div class="self-test"><div class="self-test-title">Test Yourself (cover the answers first!)</div><details><summary>What is the main effect of opioids on the newborn?</summary><p>Respiratory depression and a low Apgar score.</p></details><details><summary>Which drug reverses it?</summary><p>Naloxone.</p></details><details><summary>How does an epidural affect the baby?</summary><p>It can cause maternal hypotension, reducing placental blood flow and causing fetal bradycardia.</p></details></div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">The nurse must anticipate neonatal depression when opioids or general anaesthetics have been used intrapartum, ensuring resuscitation equipment and naloxone are immediately available. APGAR scoring at 1 and 5 minutes guides timely neonatal resuscitation and monitoring in the NICU as required.</p>
+</div>
 `
   }
 ];

@@ -21,11 +21,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const nextBtn = document.getElementById('next-question');
     const markDoneBtn = document.getElementById('mark-done');
 
+    // Syllabus view elements
+    const syllabusBtn = document.getElementById('syllabus-btn');
+    const progressRow = document.querySelector('.progress-row');
+
     let currentQuestions = [];
     let currentIndex = 0;
     let activeUnit = 'all';
     let activeMarks = 'all';
     let activeStatus = 'all';            // all | todo | done
+    let showSyllabus = false;            // when true, main area shows the syllabus
 
     // ── Completion checklist (persisted per device) ──────────────
     const DONE_KEY = 'examDone_v1';
@@ -166,22 +171,155 @@ document.addEventListener('DOMContentLoaded', () => {
         updateProgress();
     }
 
+    // ── Syllabus view ────────────────────────────────────────────
+    // Renders the official MUHS/INC course outline (window.SYLLABUS_DATA)
+    // into the main content area, in newsprint house style.
+    const esc = (s) => String(s)
+        .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+    function ul(items, cls) {
+        return '<ul class="' + cls + '">' +
+            items.map(i => '<li>' + esc(i) + '</li>').join('') + '</ul>';
+    }
+
+    function renderUnit(u) {
+        const hours = [];
+        if (u.hours) {
+            if (u.hours.t) hours.push(u.hours.t + ' T');
+            if (u.hours.l) hours.push(u.hours.l + ' L');
+            if (u.hours.c) hours.push(u.hours.c + ' C');
+        }
+        const hoursHtml = hours.length
+            ? '<span class="syl-hours">' + hours.map(h => '<span>' + h + '</span>').join('') + '</span>'
+            : '';
+
+        const outcomes = (u.outcomes && u.outcomes.length)
+            ? '<div class="syl-outcomes"><span class="syl-mini-label">Learning Outcomes</span>' +
+                ul(u.outcomes, 'syl-outcome-list') + '</div>'
+            : '';
+
+        const topics = (u.topics || []).map(t => {
+            const head = t.heading
+                ? '<h5 class="syl-topic-head">' + esc(t.heading) + '</h5>' : '';
+            return '<div class="syl-topic">' + head + ul(t.items, 'syl-content-list') + '</div>';
+        }).join('');
+
+        return '<article class="syl-unit">' +
+            '<div class="syl-unit-head">' +
+                '<span class="syl-unit-roman">UNIT ' + esc(u.roman) + '</span>' +
+                '<h4 class="syl-unit-title">' + esc(u.title) + '</h4>' +
+                hoursHtml +
+            '</div>' +
+            outcomes +
+            '<div class="syl-content"><span class="syl-mini-label">Content</span>' + topics + '</div>' +
+        '</article>';
+    }
+
+    function renderPracticum(course) {
+        const blocks = [];
+        if (course.practiceCompetencies && course.practiceCompetencies.length) {
+            blocks.push('<div class="syl-prac-block"><h5 class="syl-topic-head">Practice Competencies</h5>' +
+                ul(course.practiceCompetencies, 'syl-content-list syl-ol') + '</div>');
+        }
+        if (course.skillLab && course.skillLab.length) {
+            blocks.push('<div class="syl-prac-block"><h5 class="syl-topic-head">Skill Lab — Procedures</h5>' +
+                ul(course.skillLab, 'syl-content-list syl-ol') + '</div>');
+        }
+        if (course.clinical && course.clinical.length) {
+            const post = course.clinical.map(c =>
+                '<div class="syl-posting">' +
+                    '<div class="syl-posting-head"><span class="syl-posting-area">' + esc(c.area) + '</span>' +
+                        '<span class="syl-hours"><span>' + esc(c.weeks) + '</span></span></div>' +
+                    ul(c.skills, 'syl-content-list') +
+                '</div>').join('');
+            blocks.push('<div class="syl-prac-block"><h5 class="syl-topic-head">Clinical Postings</h5>' + post + '</div>');
+        }
+        if (!blocks.length) return '';
+        return '<details class="syl-details"><summary>Practicum — Skill Lab & Clinical Postings</summary>' +
+            '<div class="syl-details-body">' + blocks.join('') + '</div></details>';
+    }
+
+    function renderCourse(course) {
+        const meta = [
+            'Placement: ' + course.placement,
+            'Theory: ' + course.theory,
+            course.practicum
+        ].filter(Boolean).map(m => '<span>' + esc(m) + '</span>').join('');
+
+        const comp = (course.competencies && course.competencies.length)
+            ? '<details class="syl-details"><summary>Course Competencies</summary>' +
+                '<div class="syl-details-body">' + ul(course.competencies, 'syl-content-list syl-ol') + '</div></details>'
+            : '';
+
+        const units = course.units.map(renderUnit).join('');
+
+        return '<section class="syl-course" id="syl-' + esc(course.id) + '">' +
+            '<header class="syl-course-head">' +
+                '<span class="syl-course-code">' + esc(course.course) + '</span>' +
+                '<h3 class="syl-course-title">' + esc(course.fullTitle) +
+                    (course.subtitle ? ' <em>' + esc(course.subtitle) + '</em>' : '') + '</h3>' +
+                '<div class="syl-course-meta">' + meta + '</div>' +
+                (course.description ? '<p class="syl-desc">' + esc(course.description) + '</p>' : '') +
+            '</header>' +
+            comp +
+            '<div class="syl-units">' + units + '</div>' +
+            renderPracticum(course) +
+        '</section>';
+    }
+
+    function renderSyllabus() {
+        const data = window.SYLLABUS_DATA;
+        sectionTitle.textContent = 'COURSE SYLLABUS';
+        if (!data || !data.courses) {
+            listContainer.innerHTML = '<div style="padding:2rem;text-align:center;"><span class="mono-label">SYLLABUS DATA NOT LOADED.</span></div>';
+            return;
+        }
+        sectionSubtitle.textContent = 'MUHS / INC B.Sc Nursing — official course outline';
+
+        const nav = '<div class="syl-jump">' +
+            data.courses.map(c => '<a href="#syl-' + esc(c.id) + '">' + esc(c.course) + '</a>').join('') +
+        '</div>';
+
+        const courses = data.courses.map(renderCourse).join('');
+
+        const refs = (data.references && data.references.length)
+            ? '<section class="syl-course"><header class="syl-course-head">' +
+                '<h3 class="syl-course-title">Reference Books</h3></header>' +
+                ul(data.references, 'syl-content-list') + '</section>'
+            : '';
+
+        listContainer.innerHTML = '<div class="syllabus-wrap">' + nav + courses + refs + '</div>';
+    }
+
+    function enterSyllabus() {
+        showSyllabus = true;
+        unitBtns.forEach(b => b.classList.remove('active'));
+        if (syllabusBtn) syllabusBtn.classList.add('active');
+        if (progressRow) progressRow.style.display = 'none';
+        renderSyllabus();
+        try { window.scrollTo({ top: 0, behavior: 'smooth' }); } catch (e) {}
+    }
+
+    function exitSyllabus() {
+        showSyllabus = false;
+        if (syllabusBtn) syllabusBtn.classList.remove('active');
+        if (progressRow) progressRow.style.display = '';
+    }
+
     // Modal Logic
     function openModal(index) {
         if (!currentQuestions[index]) return;
         currentIndex = index;
         const q = currentQuestions[index];
-        
+
         modalTitle.innerHTML = q.question;
         modalMeta.textContent = 'REPEATED: ' + q.repeated + ' TIMES | ' + q.years;
         modalMarks.textContent = q.marks + ' MARKS';
         modalUnit.textContent = getUnitLabel(q.unit);
-        modalBody.innerHTML = q.answer;
-        
-        // Activate interactive diagrams (if any placeholders exist)
-        if (window.activateDiagrams) window.activateDiagrams();
-        
+
         questionCounter.textContent = (index + 1) + ' / ' + currentQuestions.length;
+        prevBtn.disabled = index === 0;
+        nextBtn.disabled = index === currentQuestions.length - 1;
 
         // Completion toggle for this question (reflect + wire)
         if (markDoneBtn) {
@@ -202,13 +340,19 @@ document.addEventListener('DOMContentLoaded', () => {
             };
         }
 
-        prevBtn.disabled = index === 0;
-        nextBtn.disabled = index === currentQuestions.length - 1;
-        
+        // Show modal BEFORE injecting content so CSS animations fire on a visible element.
+        // (Animations on display:none elements don't run — they'd skip to end-state instantly.)
         overlay.classList.remove('hidden');
         document.body.style.overflow = 'hidden';
         overlay.scrollTop = 0;
         modalBody.scrollTop = 0;
+
+        // Inject answer in the next animation frame — guarantees the overlay is painted
+        // before animation timers start, so slideUp / fadeIn / scaleIn all play correctly.
+        requestAnimationFrame(() => {
+            modalBody.innerHTML = q.answer || '';
+            if (window.activateDiagrams) window.activateDiagrams();
+        });
     }
 
     function closeModal() {
@@ -236,9 +380,18 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.key === 'ArrowRight' && !nextBtn.disabled) openModal(currentIndex + 1);
     });
 
+    // Syllabus toggle
+    if (syllabusBtn) {
+        syllabusBtn.addEventListener('click', () => {
+            if (showSyllabus) { exitSyllabus(); renderQuestions(); }
+            else enterSyllabus();
+        });
+    }
+
     // Unit filtering
     unitBtns.forEach(btn => {
         btn.addEventListener('click', () => {
+            exitSyllabus();
             unitBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             activeUnit = btn.dataset.unit;
@@ -249,6 +402,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Marks filtering
     filterBtns.forEach(btn => {
         btn.addEventListener('click', () => {
+            exitSyllabus();
             filterBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             activeMarks = btn.dataset.filter;
@@ -259,6 +413,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Status (checklist) filtering — All / To-Do / Done
     statusBtns.forEach(btn => {
         btn.addEventListener('click', () => {
+            exitSyllabus();
             statusBtns.forEach(b => b.classList.remove('active'));
             btn.classList.add('active');
             activeStatus = btn.dataset.status;

@@ -13,7 +13,7 @@ window.QUESTIONS_DATA_UNIT7 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Contraception means preventing pregnancy using medicines, devices, or methods. There are many choices &mdash; from condoms to pills to permanent surgery. A first-time mother (primipara) needs clear, friendly teaching about WHEN and HOW to start family planning after delivery.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 320" role="img" aria-label="Classification of contraceptive methods into temporary and permanent" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <rect x="220" y="12" width="160" height="40" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
@@ -50,26 +50,26 @@ window.QUESTIONS_DATA_UNIT7 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Family planning is every couple's right. By spacing pregnancies, mothers stay healthier, babies are stronger, and families have a better quality of life. Nurses play a key role in teaching couples to choose the method that suits them best.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Contraception</strong> (contra = against, conception = fertilisation) means <strong>using any method, device, or medicine to prevent pregnancy</strong> temporarily or permanently.<br><br>
     Simply: <em>"Steps taken by a couple to avoid getting pregnant when they do not want a baby right now."</em>
   </div>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Family Planning</strong> means choosing <strong>how many children to have and when to have them</strong>, using contraception, spacing births, and getting help for infertility if needed.
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Classification of Contraceptive Methods</h3>
 
-  <div class="mnemonic-box">
+  <div class="mnemonic-box animate-scale-in">
     <div class="mnemonic-label">Mnemonic to remember all categories: <strong>"BINPH"</strong></div>
     <div class="mnemonic-word"><span>B</span>-<span>I</span>-<span>N</span>-<span>P</span>-<span>H</span></div>
     <div class="mnemonic-explain">
@@ -81,7 +81,7 @@ window.QUESTIONS_DATA_UNIT7 = [
     </div>
   </div>
 
-  <div class="flowchart">
+  <div class="flowchart animate-fade-in">
     <div class="flowchart-title">Flowchart: Classification of Contraceptive Methods</div>
     <div class="flowchart-container">
       <div class="flow-box highlight">Contraceptive Methods</div>
@@ -143,7 +143,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   </table></div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Health Education Plan for a Primipara (First-Time Mother)</h3>
   <p class="answer-text">A <strong>primipara</strong> (a woman who has just delivered her first baby) needs special guidance about when to start contraception and which method is safest for her and her baby.</p>
 
@@ -210,7 +210,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Nurse's Role in Family Planning</h3>
   <ol class="answer-points">
     <li><strong>Counsellor:</strong> Explain all options without bias; respect the couple's choice</li>
@@ -222,7 +222,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Conclusion</h3>
   <div class="conclusion-box">
     Contraception is a gift of choice. With so many safe methods available, every couple can plan a healthy family. The nurse's role is not to push any one method but to inform, support, and empower &mdash; so the couple can make the best decision for their health and happiness.
@@ -278,10 +278,16 @@ window.QUESTIONS_DATA_UNIT7 = [
     years: "Winter 2019",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Family planning aims to help couples choose the right number of children and the right spacing. IUCDs (Intra-Uterine Contraceptive Devices) are small devices placed inside the uterus by a trained nurse or doctor &mdash; they are highly effective, long-lasting, and reversible (except they do not protect against STIs).</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Family planning is a cornerstone of India's National Health Mission, empowering couples to decide the number and spacing of children. Intrauterine contraceptive devices (IUCDs) are among the most effective, cost-efficient, and widely promoted reversible methods under the government's family planning programme. A nurse midwife must be well-versed in IUCD counselling, insertion technique, and follow-up care to reduce maternal and infant morbidity across communities.</p>
+</div>
+
 <div class="figure-block"><img src="assets/images/copper_t_iucd.png" alt="Fig: Copper-T 380A IUCD &mdash; Structure and Placement" loading="lazy"><div class="figure-caption">Fig: Copper-T 380A IUCD &mdash; Structure and Placement</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 300" role="img" aria-label="IUCD positioned inside the uterus with threads through the cervix" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <path d="M300 60 C230 60 200 90 195 140 C190 190 230 210 250 215 L250 250 C250 262 270 262 270 250 L270 218 C290 220 310 220 330 218 L330 250 C330 262 350 262 350 250 L350 215 C370 210 410 190 405 140 C400 90 370 60 300 60 Z" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2"/>
@@ -305,9 +311,9 @@ window.QUESTIONS_DATA_UNIT7 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Aims and Objectives of Family Planning</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Family Planning</strong> means helping individuals and couples <strong>decide freely and responsibly the number, spacing, and timing of their children</strong> and to have the information and means to do so, and to attain the highest standard of sexual and reproductive health.
   </div>
 
@@ -338,15 +344,15 @@ window.QUESTIONS_DATA_UNIT7 = [
   <div class="editorial-example"><strong>Relatable Example:</strong> Savita from a village near Pune attends her 6-week postnatal visit. The nurse counsels her on 3-year spacing, explains LAM, and offers Copper-T insertion free of charge &mdash; this is family planning in action.</div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Intra-Uterine Contraceptive Devices (IUCDs)</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>IUCD</strong> (Intra-Uterine Contraceptive Device) is a <strong>small device inserted into the uterus (womb)</strong> by a trained health worker to prevent pregnancy. It is long-acting, reversible, and very effective.
   </div>
 
   <h4 style="margin-top:10px;"><strong>Types of IUCDs</strong></h4>
 
-  <div class="flowchart">
+  <div class="flowchart animate-fade-in">
     <div class="flowchart-title">Flowchart: Types of IUCDs</div>
     <div class="flowchart-container">
       <div class="flow-box highlight">IUCDs</div>
@@ -482,7 +488,13 @@ window.QUESTIONS_DATA_UNIT7 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Preconception care = taking care of a woman's health BEFORE she gets pregnant, so the pregnancy starts in the best possible conditions. Planned parenthood = deciding when and how many children to have. The nurse midwife is the backbone of India's National Family Welfare Programme, doing everything from counselling to providing contraceptives to referrals.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Preconception care optimises a woman's health before pregnancy, directly reducing congenital anomalies, maternal complications, and neonatal mortality. Under India's National Family Welfare Programme, the nurse midwife serves as the primary contact for counselling couples on planned parenthood, spacing, and pre-pregnancy health. Early intervention through structured preconception services reflects the government's commitment to a healthy mother and a healthy child.</p>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 280" role="img" aria-label="Preconception care checklist before pregnancy" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <rect x="150" y="12" width="300" height="38" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
@@ -514,16 +526,16 @@ window.QUESTIONS_DATA_UNIT7 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition of Preconception Care</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Preconception Care</strong> is <strong>health care provided to a woman (and her partner) BEFORE conception (before getting pregnant)</strong> to identify and reduce risks that could affect the pregnancy and the baby.<br><br>
     Simply: <em>"Taking care of your health BEFORE you try to get pregnant, so that you and your baby have the healthiest possible start."</em>
   </div>
   <p class="answer-text">It bridges the gap between routine health care and antenatal care. Ideally, it begins 3&ndash;6 months before the couple plans to conceive.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Components of Preconception Care</h3>
   <ol class="answer-points">
     <li><strong>Medical assessment:</strong> Check for diabetes, hypertension, anaemia, thyroid disorders, epilepsy, heart disease</li>
@@ -546,7 +558,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   <div class="editorial-example"><strong>Relatable Example:</strong> Priya, 27 years old, wants to start a family. Her doctor prescribes folic acid 400 mcg, corrects her anaemia (Hb was 9 g/dL), updates her rubella vaccine, and counsels her to stop iron deficiency over the next 3 months before trying to conceive. This is preconception care.</div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Objectives of Planned Parenthood</h3>
   <p class="answer-text"><strong>Planned Parenthood</strong> means consciously deciding to have children at the right time, with the right spacing, and with the right preparation.</p>
   <ol class="answer-points">
@@ -563,7 +575,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   <div class="analogy-box"><strong>Think of it like&hellip;</strong> a garden. If you plant too many seeds too close together, none of them grow well. But if you space the plants properly, give each one water and nutrients, they all flourish. That is planned parenthood &mdash; giving each child the space and resources to thrive.</div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">National Family Welfare Programme (NFWP) &mdash; Overview</h3>
   <p class="answer-text">India launched its <strong>National Family Planning Programme in 1952</strong> &mdash; the world's FIRST national family planning programme. It was renamed the <strong>National Family Welfare Programme</strong> to reflect a broader, voluntary, and rights-based approach.</p>
 
@@ -582,7 +594,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   </table></div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Role of Nurse Midwife in the National Family Welfare Programme</h3>
   <ol class="answer-points">
     <li><strong>Identification of eligible couples:</strong>
@@ -648,7 +660,42 @@ window.QUESTIONS_DATA_UNIT7 = [
     </li>
   </ol>
 
-  <div class="remember-box">
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Preconception Care Process</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Pre-pregnancy counselling visit</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Medical / obstetric history review</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Nutritional assessment &amp; iron / folate</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Rubella &amp; Hep-B vaccination</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Genetic &amp; carrier screening</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Optimise BMI / chronic disease</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Planned conception</div>
+  </div>
+</div>
+<div class="flowchart animate-fade-in" style="margin-top:1.2rem">
+  <div class="flowchart-title">Flowchart: National Family Welfare Programme</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Government policy &amp; funding</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">District / PHC-level implementation</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Awareness — ASHA / ANM outreach</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Free contraceptive services</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Sterilisation incentives (NSV / tubectomy)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Population stabilisation achieved</div>
+  </div>
+</div>
+
+<div class="remember-box">
     <div class="remember-title">Quick Revision &mdash; Things to Remember</div>
     <ul>
       <li>Preconception care starts 3&ndash;6 months BEFORE pregnancy</li>
@@ -663,7 +710,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Conclusion</h3>
   <div class="conclusion-box">
     Preconception care prepares the best possible environment for a new life to begin. Planned parenthood gives families the power to thrive. And the nurse midwife, working at the community level through the NFWP, is the thread that connects all these services to the families who need them most.
@@ -716,10 +763,16 @@ window.QUESTIONS_DATA_UNIT7 = [
     years: "Summer 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> A contraceptive is any method that prevents pregnancy. Intra-uterine contraceptives (IUCDs) are small devices placed inside the uterus &mdash; very effective, long-lasting, and reversible.</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Contraception is fundamental to reproductive autonomy and a key strategy in reducing India's maternal mortality rate by preventing unintended and high-risk pregnancies. Intrauterine contraceptive devices represent one of the most reliable and cost-effective long-acting reversible options available in both government and private healthcare settings. The nurse midwife must possess comprehensive knowledge of contraceptive types, mechanisms, and client-centred counselling to facilitate informed choice.</p>
+</div>
+
 <div class="figure-block"><img src="assets/images/copper_t_iucd.png" alt="Fig: Intrauterine Contraceptive Device (IUCD)" loading="lazy"><div class="figure-caption">Fig: Intrauterine Contraceptive Device (IUCD)</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 240" role="img" aria-label="Types of intra-uterine contraceptive devices" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <rect x="210" y="12" width="180" height="36" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
@@ -747,18 +800,18 @@ window.QUESTIONS_DATA_UNIT7 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Contraceptive</strong> is any <strong>method, device, or medication used to prevent fertilisation or implantation</strong>, thereby preventing pregnancy.<br><br>
     A <strong>contraceptive</strong> can be temporary (reversible) or permanent (irreversible).
   </div>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Intra-Uterine Contraceptive Device (IUCD)</strong> is a <strong>small device placed inside the uterine cavity</strong> by a trained health worker to prevent pregnancy. It is one of the most effective long-acting reversible contraceptive (LARC) methods available.
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Types of IUCDs</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Type</th><th>Example</th><th>Mechanism</th><th>Duration</th></tr></thead>
@@ -787,6 +840,36 @@ window.QUESTIONS_DATA_UNIT7 = [
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Contraceptive</span> <span class="kw">IUCD</span> <span class="kw">LARC</span> <span class="kw">Copper-T 380A</span> <span class="kw">LNG-IUS</span> <span class="kw">Spermicidal</span> <span class="kw">Levonorgestrel</span> <span class="kw">PPIUCD</span></div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Classification of Contraceptives</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Contraceptive methods</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Reversible</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">IUCD / Hormonal / Barrier / Natural</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Permanent</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Tubectomy / Vasectomy</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Emergency</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">ECP / Cu-IUCD ≤120 hrs</div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Prevent unintended pregnancy</div>
+  </div>
+</div>
+
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Contraceptive = any method/device/medicine that prevents pregnancy; can be temporary or permanent</li><li>IUCD is a Long-Acting Reversible Contraceptive (LARC) placed inside the uterus</li><li>Copper-T 380A = non-hormonal, 10 years, 99.2% effective</li><li>LNG-IUS (Mirena) = hormonal, 5 years, 99.8%, makes periods lighter</li><li>Best insertion time = days 1&ndash;7 of cycle or within 48 hours of delivery (PPIUCD)</li><li>IUCD does NOT protect against STIs/HIV</li></ul></div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
@@ -803,6 +886,11 @@ window.QUESTIONS_DATA_UNIT7 = [
 <details><summary>How long does Copper-T 380A work?</summary><p>10 years.</p></details>
 <details><summary>Name 2 contraindications for IUCD.</summary><p>Active PID (pelvic infection) and suspected/confirmed pregnancy.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">IUCDs remain a highly effective, long-acting, and cost-effective contraceptive choice under India's National Family Welfare Programme. The nurse midwife plays a pivotal role in client selection, pre-insertion counselling, aseptic insertion, and timely follow-up to prevent complications such as PID, expulsion, or ectopic pregnancy. Promoting informed choice and ensuring continuity of care are key nursing responsibilities in reproductive health.</p>
+</div>
 `
   },
 
@@ -818,10 +906,16 @@ window.QUESTIONS_DATA_UNIT7 = [
     years: "Winter 2017",
     answer: `
 <div class="in-short"><strong>In Short:</strong> IUCDs are small devices inserted into the uterus to prevent pregnancy. The Copper-T 380A (free from government) and LNG-IUS (Mirena) are the main types used today. They are highly effective and long-lasting.</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Intrauterine contraceptive devices are among the most widely used family planning methods in India, promoted extensively under the National Family Welfare Programme due to their high efficacy, long duration of action, and minimal systemic side effects. Available in copper-bearing and hormone-releasing variants, IUCDs suit a wide range of women including postpartum and nulliparous clients. The nurse midwife is a key provider of IUCD services at primary and community health centres across the country.</p>
+</div>
+
 <div class="figure-block"><img src="assets/images/copper_t_iucd.png" alt="Fig: IUCD &mdash; Types and Placement" loading="lazy"><div class="figure-caption">Fig: IUCD &mdash; Types and Placement</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 280" role="img" aria-label="T-shaped IUCD placed inside the uterine cavity" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <path d="M300 50 C235 50 205 78 200 125 C196 172 232 192 252 197 L252 232 C252 244 270 244 270 232 L270 200 C290 202 310 202 330 200 L330 232 C330 244 348 244 348 232 L348 197 C368 192 404 172 400 125 C395 78 365 50 300 50 Z" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2"/>
@@ -839,14 +933,14 @@ window.QUESTIONS_DATA_UNIT7 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>IUCD (Intra-Uterine Contraceptive Device)</strong> is a <strong>small foreign body placed inside the uterine cavity</strong> by a trained provider to prevent pregnancy. It is one of the safest, most effective, and most cost-effective long-acting reversible methods of contraception.
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Types and Features</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Feature</th><th>Copper-T 380A</th><th>LNG-IUS (Mirena)</th></tr></thead>
@@ -874,6 +968,25 @@ window.QUESTIONS_DATA_UNIT7 = [
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">IUCD</span> <span class="kw">Copper-T 380A</span> <span class="kw">LNG-IUS</span> <span class="kw">PPIUCD</span> <span class="kw">Spermicidal</span> <span class="kw">Expulsion</span> <span class="kw">Perforation</span> <span class="kw">Threads</span></div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: IUCD Care Process</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Counselling &amp; informed consent</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Rule out pregnancy / infection</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Timing: Day 2–5 of cycle</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Bimanual exam → uterine sounding</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Insert IUCD aseptically</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Thread check; post-insertion advice</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Follow-up: 6 weeks then annual</div>
+  </div>
+</div>
+
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Copper-T 380A = non-hormonal, 10 years, makes periods heavier</li><li>LNG-IUS (Mirena) = hormonal, 5 years, makes periods lighter</li><li>Copper-T can also act as emergency contraception within 5 days</li><li>Best insertion time = days 1&ndash;7 of cycle, within 48 hours of delivery, or post-abortion</li><li>Main complications = expulsion, rare perforation, PID if inserted during infection</li><li>Teach woman to check threads monthly after each period</li></ul></div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
@@ -888,6 +1001,11 @@ window.QUESTIONS_DATA_UNIT7 = [
 <details><summary>What is the mechanism of Copper-T?</summary><p>Copper ions are toxic to sperm (spermicidal), prevent fertilisation, and also prevent implantation of a fertilised egg.</p></details>
 <details><summary>How is LNG-IUS different from Copper-T?</summary><p>LNG-IUS releases the hormone levonorgestrel, which thickens cervical mucus and thins the uterine lining. It makes periods lighter, unlike Copper-T which can make them heavier.</p></details>
 <details><summary>When can Copper-T be used as emergency contraception?</summary><p>Within 5 days (120 hours) of unprotected sex.</p></details>
+</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">IUCDs are cornerstone devices in India's family planning strategy due to their high efficacy (over 99%), low cost, and long duration of action. The nurse midwife must ensure thorough counselling, proper client selection, and vigilant post-insertion follow-up to maximise benefits and minimise complications. Early recognition of warning signs such as prolonged bleeding, pain, or fever is essential for safe IUCD use.</p>
 </div>
 `
   },
@@ -904,10 +1022,16 @@ window.QUESTIONS_DATA_UNIT7 = [
     years: "Winter 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Copper-T (Copper-T 380A) is a small T-shaped plastic device wrapped with copper wire, placed inside the uterus to prevent pregnancy for up to 10 years. It is the most widely used government IUCD in India and is available FREE at all government health centres.</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">The Copper-T (CuT-380A) is the most commonly inserted IUCD in India, freely distributed under the Government of India's family planning supply chain and offered at all levels of the public health system. Its copper ions create a spermicidal intrauterine environment, offering over 99% contraceptive efficacy for up to 10 years without requiring daily user action. Nurse midwives trained under the IUCD 380A insertion programme are essential to scaling up this service at the community level.</p>
+</div>
+
 <div class="figure-block"><img src="assets/images/copper_t_iucd.png" alt="Fig: Copper-T 380A" loading="lazy"><div class="figure-caption">Fig: Copper-T 380A</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 280" role="img" aria-label="Labelled Copper-T 380A device showing copper wire and threads" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <line x1="300" y1="50" x2="300" y2="180" stroke="var(--color-foreground)" stroke-width="8" stroke-linecap="round"/>
@@ -931,15 +1055,15 @@ window.QUESTIONS_DATA_UNIT7 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Copper-T 380A</strong> is a <strong>T-shaped polyethylene frame wound with copper wire</strong>, inserted into the uterine cavity to provide long-term contraception. The "380" refers to 380 square mm of copper on the device.<br><br>
     It is non-hormonal, reversible, and highly effective.
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Key Facts About Copper-T</h3>
   <ol class="answer-points">
     <li><strong>Mechanism of action:</strong>
@@ -988,6 +1112,25 @@ window.QUESTIONS_DATA_UNIT7 = [
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Copper-T 380A</span> <span class="kw">Spermicidal</span> <span class="kw">99.2%</span> <span class="kw">10 years</span> <span class="kw">Emergency contraception</span> <span class="kw">PPIUCD</span> <span class="kw">Menorrhagia</span> <span class="kw">Expulsion</span></div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Copper-T Insertion Process</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Counselling &amp; consent</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Rule out pregnancy / STI / PID</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Optimal timing: Day 2–5 of menses</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Sound uterus; measure cavity depth</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Load &amp; insert Cu-T aseptically</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Trim threads 2–3 cm at os</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Follow-up 6 weeks; valid 10 yrs</div>
+  </div>
+</div>
+
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Copper-T 380A = T-shaped device with 380 sq mm copper; lasts 10 years</li><li>Copper ions are spermicidal; do NOT stop ovulation</li><li>99.2% effective; fertility returns immediately after removal</li><li>Can be used as emergency contraception within 5 days (most effective EC)</li><li>Main side effects = heavier, painful periods and risk of expulsion</li><li>Non-hormonal &rarr; safe for breastfeeding mothers; free at all government centres</li></ul></div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
@@ -1003,6 +1146,11 @@ window.QUESTIONS_DATA_UNIT7 = [
 <details><summary>How does Copper-T prevent pregnancy?</summary><p>Copper ions are released and are toxic (spermicidal) to sperm, killing or immobilising them. It also alters the uterine environment to prevent implantation.</p></details>
 <details><summary>For how long does Copper-T work?</summary><p>10 years. Fertility returns immediately after removal.</p></details>
 <details><summary>Can Copper-T be used as emergency contraception?</summary><p>Yes &mdash; it can be inserted within 5 days (120 hours) of unprotected sex and is nearly 100% effective as emergency contraception.</p></details>
+</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">The Copper-T is one of the most widely distributed contraceptives under the GoI free supply scheme, offering up to 10 years of protection with a Pearl Index below 1. The nurse midwife must be competent in CuT insertion using the no-touch technique, client education on thread checking, and early management of complications. Empowering women with accurate information about Copper-T significantly contributes to India's population stabilisation goals.</p>
 </div>
 `
   },
@@ -1020,7 +1168,13 @@ window.QUESTIONS_DATA_UNIT7 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Temporary methods of family planning are reversible &mdash; when you stop using them, you can get pregnant again. They include barrier methods (condom, diaphragm), hormonal methods (pills, injections, implants), IUCDs, and natural methods (LAM, rhythm method). Every couple can choose what suits them best.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Temporary methods of family planning are essential tools for couples who wish to delay, space, or limit childbearing without permanently surrendering fertility. India's National Family Welfare Programme offers a wide basket of reversible contraceptive choices from barrier and hormonal methods to IUCDs to accommodate diverse cultural, religious, and health needs. The nurse midwife's role in counselling clients to select and correctly use the most appropriate temporary method is central to achieving national reproductive health targets.</p>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 240" role="img" aria-label="Four categories of temporary family planning methods" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <rect x="180" y="10" width="240" height="34" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
@@ -1046,13 +1200,13 @@ window.QUESTIONS_DATA_UNIT7 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Temporary methods of family planning</strong> are <strong>reversible contraceptive methods</strong> that prevent pregnancy as long as they are used. When stopped, fertility returns and the woman can get pregnant again.
   </div>
 
-  <div class="mnemonic-box">
+  <div class="mnemonic-box animate-scale-in">
     <div class="mnemonic-label">Mnemonic: <strong>"BINH"</strong> for temporary methods</div>
     <div class="mnemonic-word"><span>B</span>-<span>I</span>-<span>N</span>-<span>H</span></div>
     <div class="mnemonic-explain">
@@ -1064,7 +1218,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Types of Temporary Methods</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Category</th><th>Method</th><th>How it Works</th><th>Effectiveness</th></tr></thead>
@@ -1089,6 +1243,42 @@ window.QUESTIONS_DATA_UNIT7 = [
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Reversible</span> <span class="kw">Barrier</span> <span class="kw">Hormonal</span> <span class="kw">IUCD</span> <span class="kw">LAM</span> <span class="kw">OCP</span> <span class="kw">DMPA / Antara</span> <span class="kw">Birth spacing</span></div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Temporary Family Planning Methods</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Temporary contraception needed</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Barrier</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Condom / Diaphragm / Spermicide</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Hormonal</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">OCP / DMPA / Implant</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">IUCD</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Cu-T / LNG-IUS</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Natural</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">LAM / Rhythm / Abstinence</div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Reversible pregnancy prevention</div>
+  </div>
+</div>
+
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Temporary = reversible; fertility returns after stopping</li><li>Mnemonic BINH: Barrier, IUCD, Natural, Hormonal</li><li>Condom is the only method that also protects against STIs/HIV</li><li>LAM is 98% effective only if all 3 criteria are met (baby &lt;6 months, exclusive breastfeeding, no periods)</li><li>Combined OCP is avoided in breastfeeding; mini-pill and DMPA are safe</li><li>GOI free methods = Antara (DMPA), Chhaya (weekly pill), Copper-T</li></ul></div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
@@ -1104,6 +1294,11 @@ window.QUESTIONS_DATA_UNIT7 = [
 <details><summary>What does "temporary" method mean in family planning?</summary><p>Reversible &mdash; fertility returns after stopping the method. The person can get pregnant again.</p></details>
 <details><summary>Which is the only temporary method that also protects against STIs?</summary><p>Condom (both male and female condoms).</p></details>
 <details><summary>What are the 3 conditions for LAM to be effective?</summary><p>1. Baby is less than 6 months old. 2. Exclusively breastfeeding (day and night). 3. Periods have not returned.</p></details>
+</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Temporary contraceptive methods provide flexible, reversible pregnancy prevention suited to couples who wish to space or delay births. The nurse midwife must counsel clients on correct and consistent use of chosen methods, common side effects, and when to seek medical advice. Promoting spacing of at least 2 to 3 years between pregnancies through reversible contraception directly reduces maternal and infant mortality in the Indian setting.</p>
 </div>
 `
   },
@@ -1121,7 +1316,13 @@ window.QUESTIONS_DATA_UNIT7 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Emergency contraception (EC) is used AFTER unprotected sex to prevent pregnancy. It is NOT an abortion pill &mdash; it prevents pregnancy from starting. The main options are the emergency contraceptive pill (ECP) within 72 hours, or Copper-T within 5 days.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Emergency contraception is a critical safety net that prevents unintended pregnancy following unprotected intercourse, sexual assault, or contraceptive failure. In India, levonorgestrel emergency pills (I-Pill, Unwanted-72) are available over-the-counter, making nurse midwife counselling on appropriate use and limitations especially important. Timely access to EC services, guided by a non-judgmental nurse, can prevent unsafe abortions and their associated maternal morbidity.</p>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 230" role="img" aria-label="Emergency contraception timeline showing 72 hour and 120 hour windows" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <text x="300" y="24" text-anchor="middle" font-size="13" fill="var(--color-foreground)">Time after unprotected sex</text>
@@ -1144,15 +1345,15 @@ window.QUESTIONS_DATA_UNIT7 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Emergency Contraception (EC)</strong> refers to <strong>methods used after unprotected sexual intercourse</strong> (or contraceptive failure) to prevent pregnancy. It is also called "morning-after" or "post-coital" contraception.<br><br>
     Important: EC <strong>prevents pregnancy</strong>; it does NOT terminate an existing pregnancy (it is NOT an abortifacient).
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Indications for Emergency Contraception</h3>
   <ol class="answer-points">
     <li>Unprotected sexual intercourse</li>
@@ -1164,7 +1365,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Methods of Emergency Contraception</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Method</th><th>Drug / Device</th><th>Timing</th><th>Mechanism</th><th>Effectiveness</th></tr></thead>
@@ -1197,6 +1398,34 @@ window.QUESTIONS_DATA_UNIT7 = [
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Emergency contraception</span> <span class="kw">Levonorgestrel 1.5 mg</span> <span class="kw">72 hours</span> <span class="kw">i-Pill</span> <span class="kw">Copper-T</span> <span class="kw">Ulipristal</span> <span class="kw">Yuzpe method</span> <span class="kw">Not abortifacient</span></div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Emergency Contraception Process</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Unprotected / failed contraception</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Present within 120 hours</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">≤72 hrs: ECP (LNG 1.5 mg)</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Inhibits / delays ovulation</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">≤120 hrs: Cu-IUCD insertion</div>
+        <div class="flow-arrow">&darr;</div>
+        <div class="flow-box">Prevents implantation</div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Rule out pregnancy at 3–4 weeks</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Counsel on ongoing contraception</div>
+  </div>
+</div>
+
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>EC is used AFTER unprotected sex; it PREVENTS pregnancy, it is NOT an abortion pill</li><li>Levonorgestrel ECP = within 72 hours; earlier = more effective</li><li>Ulipristal acetate = effective up to 120 hours (5 days)</li><li>Copper-T within 5 days = most effective EC (&gt;99%)</li><li>If vomiting occurs within 2 hours of the pill, repeat the dose</li><li>EC should NOT be used as a regular method &mdash; counsel for ongoing contraception</li></ul></div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
@@ -1212,6 +1441,11 @@ window.QUESTIONS_DATA_UNIT7 = [
 <details><summary>Within how many hours should levonorgestrel ECP be taken?</summary><p>Within 72 hours (3 days) of unprotected sex. Earlier is more effective.</p></details>
 <details><summary>Which is the most effective method of emergency contraception?</summary><p>Copper-T (IUCD) inserted within 5 days &mdash; more than 99% effective.</p></details>
 <details><summary>Is the emergency contraceptive pill the same as an abortion pill?</summary><p>No. ECP prevents pregnancy from starting (before implantation). It does NOT terminate an already established pregnancy. Mifepristone is the abortion pill &mdash; a different drug entirely.</p></details>
+</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Emergency contraception is a vital second-line option that prevents unwanted pregnancies following unprotected intercourse or contraceptive failure, but should not replace regular contraceptive methods. The nurse midwife must counsel clients on the 72-hour window for maximum efficacy, potential side effects such as nausea and irregular bleeding, and the importance of adopting a regular method thereafter. Non-judgmental, confidential counselling is the hallmark of quality EC service delivery.</p>
 </div>
 `
   },
@@ -1229,7 +1463,7 @@ window.QUESTIONS_DATA_UNIT7 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Newer contraceptive methods include long-acting hormonal implants, newer IUCDs, contraceptive patches, vaginal rings, and newer male methods. These offer more convenience, fewer side effects, and more choice for couples.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 250" role="img" aria-label="Newer contraceptive modalities" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <rect x="190" y="10" width="220" height="32" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
@@ -1260,12 +1494,20 @@ window.QUESTIONS_DATA_UNIT7 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Traditional methods like condoms and pills are well-known. But newer contraceptive options give couples more flexibility. Some work for years with a single insertion; some are invisible and require no daily action; some target the male partner more effectively.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in">
+    <strong>Newer Modalities in Contraception:</strong> Advanced or recently introduced contraceptive technologies beyond conventional methods, including subdermal implants, hormonal patches, vaginal rings, single-rod implants (Implanon), and non-hormonal options such as Centchroman (Saheli), developed to improve efficacy, duration, and user acceptability.
+  </div>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Newer Contraceptive Modalities</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Method</th><th>Description</th><th>How it Works</th><th>Duration / Remarks</th></tr></thead>
@@ -1287,6 +1529,38 @@ window.QUESTIONS_DATA_UNIT7 = [
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Implanon</span> <span class="kw">LNG-IUS</span> <span class="kw">Contraceptive patch</span> <span class="kw">Vaginal ring</span> <span class="kw">Chhaya</span> <span class="kw">Antara</span> <span class="kw">RISUG</span> <span class="kw">PPIUCD</span></div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Newer Contraceptive Modalities</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Newer contraceptive options</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Subdermal implant (Implanon)</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Injectable DMPA (3-monthly)</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Vaginal ring (NuvaRing)</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Transdermal contraceptive patch</div>
+      </div>
+      <div class="flow-branch-item">
+        <div class="flow-branch-line"></div>
+        <div class="flow-box">Male methods (RISUG / gel)</div>
+      </div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Long-acting / improved compliance</div>
+  </div>
+</div>
+
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Implanon = subdermal rod, 3 years, 99.9% effective</li><li>Evra patch (weekly) and NuvaRing (3 weeks) = combined hormonal, no daily action</li><li>Chhaya = weekly ormeloxifene pill; Antara = DMPA injection every 3 months (both free GoI)</li><li>PPIUCD = Copper-T within 48 hours of delivery, uses the hospital stay</li><li>RISUG = Indian male contraceptive (injection into vas deferens), reversible, in trials</li><li>Newer methods aim for more convenience, fewer side effects, and more male options</li></ul></div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
@@ -1304,6 +1578,11 @@ window.QUESTIONS_DATA_UNIT7 = [
 <details><summary>What is Chhaya and who can use it?</summary><p>Chhaya is a weekly progestogen-only pill (ormeloxifene/centchroman), available free from the Government of India. It is suitable for women who forget to take a daily pill.</p></details>
 <details><summary>What is RISUG?</summary><p>Reversible Inhibition of Sperm Under Guidance &mdash; an Indian male contraceptive innovation. A polymer is injected into the vas deferens to inactivate sperm. It is reversible and can last over 10 years. Currently in clinical trials.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Newer contraceptive modalities address the limitations of conventional methods by offering improved efficacy, longer duration, and user-controlled delivery, thereby expanding reproductive choice for Indian women. The nurse midwife must stay updated on these advances to counsel clients accurately and support uptake of evidence-based options. Integrating newer modalities into national programmes will further reduce unmet need for family planning across India.</p>
+</div>
 `
   },
 
@@ -1320,7 +1599,13 @@ window.QUESTIONS_DATA_UNIT7 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Tubectomy is permanent female sterilisation &mdash; the fallopian tubes are cut, tied, or blocked so that sperm can never reach the egg. It is the most popular family planning method in India. It is meant to be permanent (irreversible).</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Tubectomy is India's most prevalent permanent contraceptive method, accounting for a large proportion of sterilisations performed under the National Family Welfare Programme. Conducted as a minimally invasive laparoscopic or mini-laparotomy procedure, it offers permanent, highly reliable contraception for women who have completed their desired family size. The nurse midwife plays an indispensable role in pre-operative counselling, voluntary informed consent, perioperative care, and post-operative follow-up.</p>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 270" role="img" aria-label="Tubectomy showing fallopian tubes cut and tied" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <path d="M300 90 C260 90 245 110 243 145 L243 200 C243 215 357 215 357 200 L357 145 C355 110 340 90 300 90 Z" fill="var(--color-card)" stroke="var(--color-foreground)" stroke-width="2"/>
@@ -1346,15 +1631,15 @@ window.QUESTIONS_DATA_UNIT7 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Tubectomy</strong> (also called <strong>female sterilisation</strong> or <strong>tubal ligation</strong>) is a <strong>permanent surgical method of contraception</strong> in which the <strong>fallopian tubes are blocked, cut, tied, or cauterised (burned)</strong> to prevent the egg from meeting the sperm, thereby preventing fertilisation permanently.<br><br>
     Simply: <em>"A small operation where the tubes connecting the ovaries to the uterus are permanently blocked."</em>
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Methods of Tubectomy</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Method</th><th>What is Done</th><th>Approach</th></tr></thead>
@@ -1368,7 +1653,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   </table></div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Important Points</h3>
   <ol class="answer-points">
     <li><strong>Effectiveness:</strong> 99.5% (failure rate = 0.5 per 100 women per year) &mdash; permanent failure is extremely rare</li>
@@ -1411,6 +1696,27 @@ window.QUESTIONS_DATA_UNIT7 = [
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Tubal ligation</span> <span class="kw">Pomeroy's method</span> <span class="kw">Laparoscopy</span> <span class="kw">Fallope ring</span> <span class="kw">Permanent</span> <span class="kw">FPCS</span> <span class="kw">Informed consent</span> <span class="kw">PPIUCD alternative</span></div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Tubectomy Process</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Couple desires permanent sterilisation</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Counselling: irreversibility &amp; risks</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Written informed consent</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Timing: post-partum / interval / post-MTP</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Mini-laparotomy / laparoscopy</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Pomeroy / Filshie clip technique</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Recovery: 24–48 hrs observation</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Follow-up; failure rate &lt;1%</div>
+  </div>
+</div>
+
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Tubectomy = permanent female sterilisation; fallopian tubes cut/tied/blocked</li><li>Pomeroy's method is the most common technique in India</li><li>99.5% effective; reversal rarely succeeds &mdash; decision must be voluntary and informed</li><li>Best timing = post-partum (within 7 days) or at caesarean section</li><li>FPCS gives cash incentive to woman, ASHA, and provider</li><li>If failure occurs, watch for ectopic pregnancy</li></ul></div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
@@ -1428,6 +1734,11 @@ window.QUESTIONS_DATA_UNIT7 = [
 <details><summary>What is Pomeroy's method?</summary><p>The most common tubectomy method in India: a loop of tube is tied with suture and the top of the loop is cut off. The tube seals itself with scar tissue.</p></details>
 <details><summary>What is the best post-partum time for tubectomy?</summary><p>Within 7 days of delivery (ideally within 48 hours). At this time the uterus is still large, making the tubes easily accessible through a mini-laparotomy.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Tubectomy is the most prevalent permanent contraceptive method in India and is freely offered under the National Family Welfare Programme. The nurse midwife is responsible for pre-operative counselling emphasising its permanent nature, securing voluntary informed consent, perioperative nursing care, and post-operative follow-up. Thorough counselling and emotional support ensure that women make autonomous, regret-free decisions about permanent sterilisation.</p>
+</div>
 `
   },
 
@@ -1444,7 +1755,13 @@ window.QUESTIONS_DATA_UNIT7 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Preconceptional counselling means guiding a couple BEFORE they try to get pregnant &mdash; checking health, correcting problems, giving folic acid, updating vaccines, and identifying genetic risks &mdash; so the pregnancy starts in the best possible conditions.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Preconceptional counselling is a proactive, evidence-based intervention that addresses a woman's health, nutritional status, and lifestyle risks before pregnancy to optimise perinatal outcomes. In the Indian context, where anaemia, nutritional deficiencies, and uncontrolled chronic conditions contribute heavily to maternal and foetal morbidity, early preconception care is critically important. The nurse midwife is well positioned to initiate this counselling in outpatient, antenatal, and community health settings.</p>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 250" role="img" aria-label="Components of preconceptional counselling" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <rect x="160" y="10" width="280" height="34" rx="8" fill="var(--accent)" stroke="var(--color-foreground)" stroke-width="1.5"/>
@@ -1475,16 +1792,16 @@ window.QUESTIONS_DATA_UNIT7 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Preconceptional counselling</strong> is the <strong>process of providing health advice, education, and medical evaluation to a woman (and her partner) who is planning to become pregnant</strong>, with the goal of optimising health BEFORE conception to improve the outcome for both mother and baby.<br><br>
     Simply: <em>"A health check-up and guidance session before trying to get pregnant, to give the baby the healthiest possible start."</em>
   </div>
   <p class="answer-text">It should ideally start <strong>3&ndash;6 months before planned conception</strong>.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Goals of Preconceptional Counselling</h3>
   <ol class="answer-points">
     <li>Identify and reduce <strong>risk factors</strong> before pregnancy begins</li>
@@ -1496,7 +1813,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Components of Preconceptional Counselling</h3>
   <ol class="answer-points">
     <li><strong>Medical history &amp; examination:</strong>
@@ -1547,6 +1864,27 @@ window.QUESTIONS_DATA_UNIT7 = [
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Preconception</span> <span class="kw">Folic acid 400 mcg</span> <span class="kw">Neural tube defect</span> <span class="kw">Rubella vaccine</span> <span class="kw">Teratogenic</span> <span class="kw">Genetic counselling</span> <span class="kw">BMI</span> <span class="kw">3&ndash;6 months before</span></div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Preconceptional Counselling</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Couple planning pregnancy</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Medical &amp; obstetric history review</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Genetic &amp; carrier screening</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Nutritional assessment; BMI optimisation</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Folic acid 400 mcg/day initiated</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Vaccinations (Rubella, Hep-B)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Manage chronic disease / medications</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Plan conception for optimal outcome</div>
+  </div>
+</div>
+
 <div class="remember-box"><div class="remember-title">Quick Revision &mdash; Things to Remember</div><ul><li>Begin 3&ndash;6 months before planned conception</li><li>Folic acid 400 mcg daily from at least 1 month before &rarr; prevents neural tube defects</li><li>Correct anaemia (Hb &ge;11 g/dL) and review teratogenic drugs before pregnancy</li><li>Rubella (live) vaccine given before pregnancy, never during pregnancy</li><li>Offer genetic counselling for thalassaemia, consanguinity, or age &gt;35 years</li><li>Stop smoking/alcohol; screen and treat STIs before conceiving</li></ul></div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
@@ -1564,6 +1902,11 @@ window.QUESTIONS_DATA_UNIT7 = [
 <details><summary>Why is folic acid given before conception and not just in early pregnancy?</summary><p>The neural tube closes in the first 28 days of pregnancy &mdash; often before the woman even knows she is pregnant. Folic acid must already be in her system by then, so it must be started at least 1 month before conception.</p></details>
 <details><summary>Why is rubella vaccine given before pregnancy and not during pregnancy?</summary><p>Rubella vaccine is a live attenuated vaccine, which is contraindicated in pregnancy (it could harm the fetus). It must be given at least 1 month before conception.</p></details>
 </div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Preconceptional counselling is a proactive investment in maternal and child health, enabling early correction of nutritional deficiencies, chronic disease management, and elimination of teratogenic exposures before pregnancy begins. The nurse midwife is uniquely positioned to provide this service through antenatal clinics, reproductive health camps, and community outreach. Integrating preconception care into routine nursing practice aligns with MUHS objectives of safe motherhood and responsible parenthood.</p>
+</div>
 `
   },
 
@@ -1580,7 +1923,13 @@ window.QUESTIONS_DATA_UNIT7 = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Parental counselling means guiding parents (and parents-to-be) about healthy pregnancy, child care, family planning, and parenting skills. It is given during antenatal, postnatal, and well-baby visits. The nurse's role is to educate, support, and empower families.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title">Introduction</h3>
+  <p class="answer-text">Parental counselling bridges the gap between clinical care and home-based infant and family management, supporting parents in making informed decisions about feeding, immunisation, family planning, and child development. In India's primary healthcare model, the nurse midwife serves as the most accessible and trusted source of parental guidance, especially during the postnatal period. Structured parental counselling significantly reduces preventable infant morbidity and strengthens family health outcomes.</p>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <svg viewBox="0 0 600 230" role="img" aria-label="Phases of parental counselling across the reproductive journey" style="width:100%;height:auto;display:block;font-family:var(--font-body);">
       <line x1="40" y1="120" x2="560" y2="120" stroke="var(--color-foreground)" stroke-width="2"/>
@@ -1610,15 +1959,15 @@ window.QUESTIONS_DATA_UNIT7 = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Parental counselling</strong> is the <strong>process of providing guidance, information, and emotional support to parents (and expectant parents)</strong> to help them understand and cope with pregnancy, childbirth, newborn care, child development, and parenting responsibilities.<br><br>
     It includes both <strong>pre-pregnancy (preconceptional)</strong> and <strong>post-pregnancy (postnatal and ongoing parenting)</strong> guidance.
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Objectives of Parental Counselling</h3>
   <ol class="answer-points">
     <li>Prepare parents for the physical and emotional demands of pregnancy and parenthood</li>
@@ -1631,7 +1980,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Types / Phases of Parental Counselling</h3>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Phase</th><th>When</th><th>Topics Covered</th></tr></thead>
@@ -1646,7 +1995,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   </table></div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Nurse's Role in Parental Counselling</h3>
   <ol class="answer-points">
     <li><strong>Educator:</strong> Teach parents about normal pregnancy, newborn care, breastfeeding, and growth</li>
@@ -1691,6 +2040,11 @@ window.QUESTIONS_DATA_UNIT7 = [
 <details><summary>What is parental counselling?</summary><p>The process of providing guidance, information, and emotional support to parents and expectant parents to help them prepare for and cope with pregnancy, childbirth, newborn care, and parenting.</p></details>
 <details><summary>What topics should the nurse cover at the 6-week postnatal visit?</summary><p>Breastfeeding and complementary feeding, immunisation schedule, wound care (episiotomy), screening for postnatal depression, and family planning (LAM, IUCD insertion, Antara injection, birth spacing).</p></details>
 <details><summary>Why should the husband be included in parental counselling sessions?</summary><p>Family planning is a shared responsibility. Male involvement improves contraceptive use, reduces domestic violence, improves nutrition and antenatal care attendance, and supports the mother emotionally &mdash; leading to better outcomes for the family.</p></details>
+</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Conclusion</h3>
+  <p class="answer-text">Parental counselling equips parents with the knowledge and confidence to provide optimal care for their newborn while maintaining their own health and family spacing. The nurse midwife serves as a trusted educator and counsellor, reinforcing messages on exclusive breastfeeding, immunisation, postpartum contraception, and early child development at every contact point. Effective parental counselling is central to achieving India's reproductive and child health goals and reducing preventable infant deaths.</p>
 </div>
 `
   }

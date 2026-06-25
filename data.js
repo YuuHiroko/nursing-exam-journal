@@ -12,14 +12,14 @@ window.QUESTIONS_DATA = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Maternal mortality = a mother dies because of pregnancy-related problems (during pregnancy or within 42 days of delivery). The #1 killer is <strong>bleeding (haemorrhage)</strong>. Most of these deaths are PREVENTABLE. The biggest fixes are institutional (hospital) delivery, a skilled birth attendant, and an alert nurse midwife who spots danger signs early.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Maternal mortality is one of the biggest health problems in India. Every year, thousands of mothers die during pregnancy or after delivery — and the sad part is, <strong>most of these deaths can be prevented</strong> with proper care. That's why understanding why mothers die, what we can do to stop it, and what role a nurse midwife plays is SO important — both in exams and in real life.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition (Simple Language)</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Maternal Mortality</strong> means the <strong>death of a woman during pregnancy, childbirth, or within 42 days after delivery</strong> — due to reasons related to pregnancy or its complications. It does NOT include accidental deaths (like a road accident).<br><br>
     Think of it simply: <strong>"A mother dying because of pregnancy-related problems."</strong>
   </div>
@@ -31,7 +31,7 @@ window.QUESTIONS_DATA = [
     <li>Two types of causes: <strong>Direct</strong> (caused BY pregnancy) and <strong>Indirect</strong> (old disease made WORSE by pregnancy)</li>
   </ol>
 
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Maternal Mortality Ratio (MMR) Formula:</strong><br>
     MMR = (Number of Maternal Deaths &divide; Total Live Births) &times; 1,00,000<br><br>
     <strong>Maternal Mortality Rate Formula:</strong><br>
@@ -53,7 +53,7 @@ window.QUESTIONS_DATA = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <img src="assets/exam_maternal_mortality.png" alt="Causes of Maternal Mortality Illustration" style="width:100%; max-width:600px; border-radius: var(--radius-md); box-shadow: var(--shadow-card);">
     <div class="figure-caption">Fig 1: Educational Diagram: Causes of Maternal Mortality</div>
@@ -63,7 +63,7 @@ window.QUESTIONS_DATA = [
   <p class="answer-text"><strong>Direct causes</strong> = Pregnancy ITSELF caused the problem (like bleeding after delivery)<br>
   <strong>Indirect causes</strong> = She ALREADY had a disease, and pregnancy made it worse (like anaemia becoming dangerous)</p>
 
-  <div class="flowchart">
+  <div class="flowchart animate-fade-in">
     <div class="flowchart-title">Flowchart: Classification of Causes of Maternal Mortality</div>
     <div class="flowchart-container">
       <div class="flow-box highlight">Causes of Maternal Mortality</div>
@@ -123,11 +123,11 @@ window.QUESTIONS_DATA = [
   <div class="analogy-box"><strong>Think of it like&hellip;</strong> A woman with anaemia is like a phone already at 5% battery. A healthy woman can lose a little blood at delivery and still stay "charged enough." But the anaemic woman has no reserve &mdash; even normal bleeding can switch her off. That is why anaemia (an indirect cause) makes every other complication far more deadly.</div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Strategies to Reduce Maternal Mortality</h3>
   <p class="answer-text">The government and WHO have many plans to save mothers' lives. Here are the most important ones:</p>
 
-  <div class="flowchart">
+  <div class="flowchart animate-fade-in">
     <div class="flowchart-title">Flowchart: Strategies to Reduce Maternal Mortality</div>
     <div class="flowchart-container">
       <div class="flow-box highlight">Strategies to Reduce MMR</div>
@@ -177,7 +177,7 @@ window.QUESTIONS_DATA = [
   <div class="exam-tip"><strong>📝 Easy Memory Trick for Strategies:</strong> Remember <strong>"JSJ-BEAR"</strong> — <strong>J</strong>SY, <strong>S</strong>killed Birth Attendant, <strong>J</strong>SSK, <strong>B</strong>lood bank, <strong>E</strong>mOC, <strong>A</strong>NC, <strong>R</strong>eferral transport</div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Role of Nurse Midwife in Reducing Maternal Mortality</h3>
   <p class="answer-text">The nurse midwife is basically the <strong>HERO</strong> of maternal healthcare, especially in villages. Here's what she does at every stage:</p>
 
@@ -246,7 +246,7 @@ window.QUESTIONS_DATA = [
   <strong>Clinical Note:</strong> Active management of the third stage of labour (AMTSL) is universally recommended for all vaginal births to prevent postpartum haemorrhage, which remains the leading direct cause of maternal death.
 </aside>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     Maternal mortality is a preventable tragedy. Most mothers die from bleeding, eclampsia, and infection — all of which CAN be treated if caught in time. Government programs like JSY, JSSK, and EmOC have helped reduce India's MMR from 254 to 97. But the real hero on the ground is the nurse midwife — she provides care from pregnancy to delivery to postnatal period, spots danger signs early, and saves lives every day. With better training, more resources, and community awareness, India can definitely achieve the SDG target of MMR below 70 by 2030.
@@ -305,21 +305,21 @@ window.QUESTIONS_DATA = [
 <div class="figure-block"><img src="assets/images/maternal_mortality.png" alt="Fig: Causes of Maternal Mortality" loading="lazy"><div class="figure-caption">Fig: Causes of Maternal Mortality</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Maternal mortality means a mother dying because of pregnancy-related problems. India has made good progress, but still many mothers die — especially in rural areas. Knowing the causes helps us prevent these deaths.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition (Simple Language)</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Maternal Mortality</strong> = Death of a woman during pregnancy, childbirth, or within <strong>42 days after delivery</strong> — from causes related to pregnancy. NOT from accidents.<br><br>
     <strong>India's MMR:</strong> 97 per 1,00,000 live births (SRS 2018-20)<br>
     <strong>SDG Target:</strong> Below 70 by 2030
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">A. Direct Obstetric Causes (~80%)</h3>
   <p class="answer-text">These are problems caused DIRECTLY by pregnancy. Think: "Pregnancy itself created the problem."</p>
   <ol class="answer-points">
@@ -333,7 +333,7 @@ window.QUESTIONS_DATA = [
   <div class="exam-tip"><strong>📝 Memory Trick:</strong> <strong>"HOUSE"</strong> = <strong>H</strong>aemorrhage, <strong>O</strong>bstructed labour, <strong>U</strong>nsafe abortion, <strong>S</strong>epsis, <strong>E</strong>clampsia</div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">B. Indirect Obstetric Causes (~20%)</h3>
   <p class="answer-text">Mother ALREADY had a disease. Pregnancy made it worse. Think: "Old problem + pregnancy = dangerous."</p>
   <ol class="answer-points">
@@ -345,7 +345,7 @@ window.QUESTIONS_DATA = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Quick Summary Table</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -379,7 +379,7 @@ window.QUESTIONS_DATA = [
 </aside>
 
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for Direct Causes</div>
   <div class="mnemonic-word"><span>H</span>-<span>O</span>-<span>U</span>-<span>S</span>-<span>E</span></div>
   <div class="mnemonic-explain">
@@ -395,6 +395,28 @@ window.QUESTIONS_DATA = [
   <strong>Relatable Example:</strong> Imagine Sunita, a 25-year-old woman in a village. She delivers at home with a dai. After delivery, she starts bleeding heavily (PPH) but the dai doesn't know what to do. By the time the family arranges transport to the hospital — it's too late. If an ANM had been present, she would have given oxytocin immediately and saved Sunita's life. THIS is why institutional delivery matters.
 </div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Maternal Mortality — Nurse Midwife Role</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Identify Danger Signs in Pregnancy</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Assess: Bleeding / Seizure / Sepsis</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">Direct Causes<br>(PPH, Eclampsia, Sepsis)</div></div>
+      <div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">Indirect Causes<br>(Anaemia, Heart Disease)</div></div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Emergency First Aid &amp; Stabilisation</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Timely Referral to Facility</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Definitive Management at Hospital</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Reduced Maternal Mortality</div>
+  </div>
+</div>
+
 <div class="remember-box">
   <div class="remember-title">Quick Revision — Things to Remember</div>
   <ul>
@@ -407,7 +429,7 @@ window.QUESTIONS_DATA = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     Most maternal deaths are PREVENTABLE. Bleeding is the #1 direct killer and anaemia is the #1 indirect killer in India. If we ensure proper ANC, hospital delivery, emergency care, and treat anaemia early — we can save most mothers' lives. Nurse midwives are the frontline warriors in this fight.
@@ -449,14 +471,14 @@ window.QUESTIONS_DATA = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Maternal mortality = a mother dying from pregnancy-related causes. Maternal morbidity = a mother surviving but suffering serious illness (e.g. obstetric fistula, anaemia, depression). For every 1 maternal death, 20&ndash;30 women suffer serious morbidity &mdash; so morbidity is the bigger, hidden problem.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Maternal morbidity and mortality tell us how healthy (or unhealthy) mothers are in a country. If many mothers are dying or getting sick during pregnancy — it means the healthcare system is failing them. These are VERY important indicators that WHO and governments track.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definitions (Simple Language)</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Maternal Mortality</strong> = Mother DYING because of pregnancy-related problems (during pregnancy or within 42 days after delivery).<br><br>
     <strong>Maternal Morbidity</strong> = Mother getting SICK or having health problems because of pregnancy — but she survives. Examples: fistula (hole between bladder/rectum and vagina), uterus coming out (prolapse), severe anaemia, depression after delivery.<br><br>
     <strong>Simple way to remember:</strong><br>
@@ -464,7 +486,7 @@ window.QUESTIONS_DATA = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Important Numbers to Remember</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -482,7 +504,7 @@ window.QUESTIONS_DATA = [
   <div class="exam-tip"><strong>📝 Important Fact:</strong> For every 1 maternal death, there are 20-30 women who ALMOST died (called "near-miss" cases). So morbidity is a MUCH bigger problem than mortality!</div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Causes</h3>
   <p class="answer-text"><strong>Causes of Maternal Mortality (Death):</strong></p>
   <p class="answer-text">Direct: Haemorrhage (#1), Eclampsia, Sepsis, Unsafe Abortion, Obstructed Labour<br>
@@ -499,7 +521,7 @@ window.QUESTIONS_DATA = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">How Morbidity and Mortality Are Connected</h3>
   <p class="answer-text">Think of it as a pyramid: at the top is death (mortality), but below it are MANY more women who are sick (morbidity). If we catch and treat the sick ones early, they won't die. That's why tracking BOTH is important.</p>
   <p class="answer-text"><strong>Near-miss cases</strong> (women who almost died but survived) are now tracked as an important indicator — they help us understand what went wrong and how to prevent future deaths.</p>
@@ -515,7 +537,7 @@ window.QUESTIONS_DATA = [
   <br><strong>VVF vs RVF:</strong> VVF (Vesico-Vaginal Fistula) = hole between bladder and vagina (urine leaks). RVF (Recto-Vaginal Fistula) = hole between rectum and vagina (stool leaks). Both are caused by prolonged obstructed labour.
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Measures to Reduce Both</h3>
   <ol class="answer-points">
     <li>Promote <strong>institutional deliveries</strong> through JSY and JSSK</li>
@@ -535,7 +557,7 @@ window.QUESTIONS_DATA = [
 </aside>
 
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for Maternal Morbidity Conditions</div>
   <div class="mnemonic-word"><span>F</span>-<span>A</span>-<span>P</span>-<span>D</span>-<span>I</span>-<span>I</span></div>
   <div class="mnemonic-explain">
@@ -552,6 +574,29 @@ window.QUESTIONS_DATA = [
   <strong>Relatable Example:</strong> Radha, 22, had obstructed labour for 3 days before being taken to hospital. The baby died, and Radha developed a vesicovaginal fistula (VVF) — she now leaks urine continuously. Her husband left her, she can't work, and she lives in isolation. She didn't die, but her life is destroyed. This is maternal morbidity — and it's 20-30 times more common than death.
 </div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: ANC Schedule (WHO / GoI)</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">1st Visit — Before 12 Weeks (Booking)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">History, Examination, Blood &amp; Urine Tests</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">2nd Visit — 14–26 Weeks</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Review Labs, TT-2, IFA, Anomaly Scan</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">3rd Visit — 28–32 Weeks</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Assess Foetal Growth, BP, Oedema</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">4th Visit — 36 Weeks Onwards</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Presentation, Pelvic Assessment, Birth Plan</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Delivery Planning &amp; Institutional Referral</div>
+  </div>
+</div>
+
 <div class="remember-box">
   <div class="remember-title">Quick Revision — Things to Remember</div>
   <ul>
@@ -564,7 +609,7 @@ window.QUESTIONS_DATA = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     Maternal morbidity and mortality are like two sides of a coin — morbidity is the bigger, hidden problem (20-30x more common than death). By providing proper ANC, skilled delivery care, emergency obstetric services, and addressing anaemia, we can reduce both. The nurse midwife is central to this — she catches problems early, treats what she can, and refers what she can't.
@@ -608,14 +653,14 @@ window.QUESTIONS_DATA = [
 <div class="figure-block"><img src="assets/images/nurse_role.png" alt="Fig: Role of Nurse Midwife in Maternal Care" loading="lazy"><div class="figure-caption">Fig: Role of Nurse Midwife in Maternal Care</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Maternal mortality is a big health challenge in India. But here's the good news — most maternal deaths are PREVENTABLE with proper nursing care. The nurse midwife is the first person a pregnant woman meets, and often the ONLY trained person available in villages. Her role can literally mean the difference between life and death.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition (Simple Language)</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Maternal Mortality</strong> = Death of a mother during pregnancy or within 42 days after delivery, from pregnancy-related causes (not accidents).<br><br>
     <strong>India's MMR:</strong> 97 per 1,00,000 live births | <strong>SDG Target:</strong> Below 70 by 2030<br><br>
     <strong>Top Causes:</strong> Haemorrhage (#1), Eclampsia (#2), Sepsis (#3), Unsafe Abortion, Obstructed Labour<br>
@@ -623,7 +668,7 @@ window.QUESTIONS_DATA = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <img src="assets/exam_nurse_role.png" alt="Nurse Midwife Illustration" style="width:100%; max-width:600px; border-radius: var(--radius-md); box-shadow: var(--shadow-card);">
     <div class="figure-caption">Fig 2: Educational Illustration: The Nurse Midwife caring for mother and baby</div>
@@ -669,7 +714,7 @@ window.QUESTIONS_DATA = [
   <br><strong>BEmOC vs CEmOC:</strong> BEmOC (Basic EmOC) = antibiotics, oxytocin, MgSO4, manual removal of placenta, assisted delivery. CEmOC = everything in BEmOC PLUS C-section and blood transfusion.
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for Nurse's Role</div>
   <div class="mnemonic-word"><span>A</span>-<span>I</span>-<span>D</span>-<span>E</span>-<span>C</span>-<span>H</span>-<span>D</span></div>
   <div class="mnemonic-explain">
@@ -687,6 +732,25 @@ window.QUESTIONS_DATA = [
   <strong>Relatable Example:</strong> Priya, an ANM in a village, notices that 32-year-old Meena (4th pregnancy) has a BP of 160/110 during routine ANC. Priya immediately gives her a left lateral position, arranges transport, and refers her to the district hospital. At the hospital, Meena is diagnosed with severe preeclampsia and started on MgSO4. Both mother and baby are saved. Without Priya's early detection, Meena could have developed eclampsia (fits) at home and died.
 </div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Safe Motherhood Initiative</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Pre-pregnancy / Preconception Care</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Quality Antenatal Care (4+ Visits)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Skilled Birth Attendant at Delivery</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Emergency Obstetric Care Access</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Postnatal Care (Mother &amp; Newborn)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Family Planning &amp; Birth Spacing</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Safe Motherhood &amp; Healthy Outcome</div>
+  </div>
+</div>
+
 <div class="remember-box">
   <div class="remember-title">Quick Revision — Things to Remember</div>
   <ul>
@@ -700,7 +764,7 @@ window.QUESTIONS_DATA = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     The nurse midwife is the backbone of maternal healthcare in India. From the first ANC visit to the last postnatal visit, she is there. She identifies danger early, manages emergencies, refers when needed, and educates families. Strengthening the nurse midwife's skills and support system is the single most effective strategy to reduce maternal mortality in India.
@@ -744,20 +808,20 @@ window.QUESTIONS_DATA = [
 <div class="figure-block"><img src="assets/images/nurse_role.png" alt="Fig: Nurse Midwife Roles" loading="lazy"><div class="figure-caption">Fig: Nurse Midwife Roles</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">A nurse midwife is a trained nurse who specializes in taking care of mothers during pregnancy, delivery, and after delivery. In India, especially in villages, the nurse midwife (ANM/Staff Nurse) is often the ONLY qualified healthcare person available. She is the real lifeline for pregnant mothers.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition (Simple Language)</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Nurse Midwife (ICM Definition):</strong> A trained person who can independently take care of pregnant women, conduct normal deliveries on her own, care for newborn babies, and identify problems that need doctor's help.<br><br>
     <strong>Simply put:</strong> She can handle normal pregnancies and deliveries on her own. For complications, she identifies and refers.
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Roles of Nurse in Midwifery &amp; Obstetrics</h3>
 
   <ol class="answer-points">
@@ -833,7 +897,7 @@ window.QUESTIONS_DATA = [
   <br><strong>RMC vs routine care:</strong> RMC (Respectful Maternity Care) adds dignity and emotional respect &mdash; no scolding, no abuse, maintaining privacy. It is now a standard part of safe delivery, not optional.
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for 5 Roles</div>
   <div class="mnemonic-word"><span>A</span>-<span>I</span>-<span>P</span>-<span>C</span>-<span>A</span></div>
   <div class="mnemonic-explain">
@@ -849,6 +913,26 @@ window.QUESTIONS_DATA = [
   <strong>Relatable Example:</strong> During a home visit on Day 7, nurse Kavita finds that new mother Geeta has foul-smelling vaginal discharge and 102 degree F fever. She suspects puerperal sepsis, starts oral antibiotics, and immediately refers Geeta to the CHC. She also checks the baby — finds the cord is red and swollen (umbilical sepsis). Both mother and baby get timely treatment. This is the lifesaving power of postnatal home visits.
 </div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Reproductive Health Continuum</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Preconception Care &amp; Counselling</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Antenatal Care (1st–3rd Trimester)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Intranatal Care — Safe Delivery</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">Postnatal Care (Mother)</div></div>
+      <div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">Newborn Care (Child)</div></div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Family Planning &amp; Well-Woman Care</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Optimal Women's &amp; Child Health</div>
+  </div>
+</div>
+
 <div class="remember-box">
   <div class="remember-title">Quick Revision — Things to Remember</div>
   <ul>
@@ -862,7 +946,7 @@ window.QUESTIONS_DATA = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     The nurse midwife wears many hats — she is a care provider, educator, counselor, administrator, advocate, and researcher. She is the most important person in a pregnant woman's journey from conception to safe delivery. In India, strengthening nurse midwifery services is the key to reducing maternal and neonatal mortality.
@@ -904,12 +988,24 @@ window.QUESTIONS_DATA = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> India has strong laws and programmes to protect mothers &mdash; the MTP Act (safe legal abortion), PCPNDT Act (bans sex determination), JSY/JSSK (free hospital delivery), and the Maternity Benefit Act (paid leave). A nurse must know these laws to guide patients correctly and protect herself legally.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The Indian government has made many laws and policies to protect mothers during pregnancy and childbirth. These laws ensure that women get proper healthcare, can make their own reproductive choices, and are protected from harm. As a nurse, you MUST know these — both for exams and for practice!</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <div class="definition-box animate-scale-in"><strong>Partograph (Partogram):</strong> A graphic pictorial record of the progress of labour and the condition of the mother and fetus, plotted against time on a single standardised chart. Promoted by the WHO as a low-cost, evidence-based tool to detect prolonged or obstructed labour early and guide timely referral or intervention. Labour is plotted from 4 cm cervical dilatation; crossing the <strong>alert line</strong> signals slow progress and crossing the <strong>action line</strong> (4 hours later) mandates immediate action.</div>
+</div>
+
+
+<div class="answer-section animate-slide-up stagger-1">
+  <h3 class="answer-section-title teal-title">Definition</h3>
+  <p class="answer-text"><strong>Partograph (Partogram):</strong> A graphic pictorial record of the progress of labour and the condition of the mother and fetus, plotted against time on a single standardised chart. Promoted by the WHO as a low-cost, evidence-based tool to detect prolonged or obstructed labour early and guide timely referral or intervention. Labour is plotted from 4 cm cervical dilatation; crossing the <strong>alert line</strong> signals slow progress and crossing the <strong>action line</strong> (4 hours later) mandates immediate action.</p>
+</div>
+
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Key Policies and Legislations (Table Format)</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -933,7 +1029,7 @@ window.QUESTIONS_DATA = [
   <div class="exam-tip"><strong>📝 Exam Tip:</strong> Tables score MORE marks than paragraphs. Write at least 6-8 policies with year and key feature for 5 marks. The MTP Act and PCPNDT Act are asked the most — know them well!</div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">International Commitments India Follows</h3>
   <ol class="answer-points">
     <li><strong>SDG Goal 3 (Target 3.1):</strong> Reduce MMR below 70 per 1,00,000 live births by 2030</li>
@@ -959,7 +1055,7 @@ window.QUESTIONS_DATA = [
   <br><strong>20 weeks vs 24 weeks (MTP):</strong> Up to 20 weeks = only 1 doctor's opinion needed. 20&ndash;24 weeks = 2 doctors required, only for special cases (rape, fetal abnormality, minor). After 24 weeks = only if Medical Board approves.
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for Key Years</div>
   <div class="mnemonic-word"><span>M</span>-<span>P</span>-<span>R</span>-<span>N</span>-<span>J</span>-<span>J</span></div>
   <div class="mnemonic-explain">
@@ -976,6 +1072,28 @@ window.QUESTIONS_DATA = [
   <strong>Relatable Example:</strong> A 17-year-old unmarried girl comes to the health centre crying — she is 16 weeks pregnant due to sexual abuse. The nurse knows the MTP Act allows abortion up to 24 weeks for such cases. She counsels the girl, reports the case under POCSO Act, and arranges safe abortion at the district hospital with 2 doctors' opinions. Knowledge of the law directly saved this girl's life and future.
 </div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Partograph — Use &amp; Interpretation</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Begin Partograph in Active Labour (≥4 cm)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Plot: Cervical Dilation, Foetal Descent</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Record: FHR, Contractions, Vitals, Liquor</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Plot on Alert Line (1 cm/hr expected)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">Progress Left of Alert Line — Normal Labour</div></div>
+      <div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">Reaches Alert Line — Augment / Refer</div></div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Crosses Action Line → Immediate Intervention</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Safe Delivery / Prevent Obstructed Labour</div>
+  </div>
+</div>
+
 <div class="remember-box">
   <div class="remember-title">Quick Revision — Things to Remember</div>
   <ul>
@@ -988,7 +1106,7 @@ window.QUESTIONS_DATA = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     India has a strong legal framework to protect maternal health — from the MTP Act (safe abortion) to JSSK (free delivery) to the Maternity Benefit Act (paid leave). But laws on paper are not enough — they need to be implemented properly at every PHC and village. The nurse midwife must know these laws so she can inform mothers about their rights and ensure they receive all the benefits they deserve.
@@ -1030,21 +1148,21 @@ window.QUESTIONS_DATA = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> NRHM (National Rural Health Mission) was launched in 2005 to fix rural healthcare in India. Its key achievements: ASHA workers in every village, JSY cash for hospital delivery, JSSK free delivery services, free 108/102 ambulances, and India's MMR dropping from 254 to 97. In 2013 it merged into NHM.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">NRHM is the BIGGEST and most important health programme India has ever launched. Before NRHM, rural healthcare was a mess — broken PHCs, no medicines, no staff, no ambulances. NRHM changed everything. It's the reason why most villages now have ASHAs, free ambulances, and mothers get cash for hospital delivery.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition (Simple Language)</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>NRHM (National Rural Health Mission):</strong> A massive government health programme launched on <strong>12th April 2005</strong> to improve healthcare in rural India. Special focus on 18 states with weak health indicators (like UP, Bihar, MP, Rajasthan, Jharkhand, Odisha etc.).<br><br>
     In <strong>2013</strong>, NRHM was merged into the bigger <strong>National Health Mission (NHM)</strong> which covers both rural (NRHM) and urban (NUHM) areas.<br><br>
     <strong>Simply:</strong> NRHM = Government's big plan to fix rural healthcare.
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Objectives (What NRHM Wanted to Achieve)</h3>
   <ol class="answer-points">
     <li>Reduce <strong>MMR to below 100</strong> per 1,00,000 live births &check; (achieved — current MMR = 97!)</li>
@@ -1056,10 +1174,10 @@ window.QUESTIONS_DATA = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Key Components of NRHM</h3>
 
-  <div class="flowchart">
+  <div class="flowchart animate-fade-in">
     <div class="flowchart-title">Flowchart: Key Components of NRHM</div>
     <div class="flowchart-container">
       <div class="flow-box highlight">NRHM (2005)</div>
@@ -1101,7 +1219,7 @@ window.QUESTIONS_DATA = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Achievements (What NRHM Actually Achieved)</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -1133,7 +1251,7 @@ window.QUESTIONS_DATA = [
   <br><strong>JSY vs JSSK:</strong> JSY = cash incentive for the mother. JSSK = free services (delivery, C-section, medicines, blood, food, ambulance). Both under NRHM.
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for NRHM Components</div>
   <div class="mnemonic-word"><span>A</span>-<span>J</span>-<span>J</span>-<span>V</span>-<span>A</span>-<span>I</span></div>
   <div class="mnemonic-explain">
@@ -1163,7 +1281,7 @@ window.QUESTIONS_DATA = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     NRHM is a game-changer for Indian healthcare. It created ASHAs, gave free ambulances, made hospital deliveries almost free, and improved health infrastructure across villages. It brought down MMR from 254 to 97 — a remarkable achievement. The nurse midwife is a key player in implementing NRHM at the ground level — conducting deliveries, ANC, immunization, and coordinating with ASHAs.
@@ -1207,14 +1325,14 @@ window.QUESTIONS_DATA = [
 <div class="figure-block"><img src="assets/images/safe_motherhood.png" alt="Fig: Safe Motherhood and RCH" loading="lazy"><div class="figure-caption">Fig: Safe Motherhood and RCH</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">The RCH Programme is India's comprehensive plan to take care of mothers and children together. Before RCH, India had a "target-based" family planning approach (like "you MUST sterilize X number of women this month" — very wrong!). RCH changed this to a "client-centered" approach — meaning the mother CHOOSES what she wants, and we provide all options.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition &amp; Background (Simple Language)</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>RCH Programme</strong> = A government health programme that provides all services related to mother's reproductive health + child's health under one umbrella.<br><br>
     <strong>RCH-I (Phase 1):</strong> Launched in October 1997. Replaced the old Child Survival and Safe Motherhood (CSSM) Programme.<br>
     <strong>RCH-II (Phase 2):</strong> Launched in April 2005. Became part of NRHM.<br><br>
@@ -1223,7 +1341,7 @@ window.QUESTIONS_DATA = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Objectives (What RCH Wants to Do)</h3>
   <ol class="answer-points">
     <li>Reduce maternal mortality and morbidity</li>
@@ -1235,10 +1353,10 @@ window.QUESTIONS_DATA = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">5 Components of RCH (Very Important!)</h3>
 
-  <div class="flowchart">
+  <div class="flowchart animate-fade-in">
     <div class="flowchart-title">Flowchart: Components of RCH Programme</div>
     <div class="flowchart-container">
       <div class="flow-box highlight">RCH Programme</div>
@@ -1286,7 +1404,7 @@ window.QUESTIONS_DATA = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Role of Nurse in RCH</h3>
   <p class="answer-text">The nurse provides ANC, conducts deliveries, gives immunizations, counsels on family planning, screens for RTI/STI, educates adolescents, coordinates with ASHA/AWW, and maintains all RCH records.</p>
 </div>
@@ -1308,7 +1426,7 @@ window.QUESTIONS_DATA = [
   <br><strong>Target-based vs Client-centered:</strong> Old approach = forced sterilization targets (unethical). RCH approach = cafeteria of contraceptive choices, client decides (ethical and effective).
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for 5 RCH Components</div>
   <div class="mnemonic-word"><span>S</span>-<span>C</span>-<span>F</span>-<span>A</span>-<span>R</span></div>
   <div class="mnemonic-explain">
@@ -1336,7 +1454,7 @@ window.QUESTIONS_DATA = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     RCH Programme is the backbone of India's maternal and child health services. Its biggest achievement is shifting from "forced targets" to "informed choice." By integrating safe motherhood, child health, family planning, adolescent health, and RTI/STI management under one umbrella, it ensures comprehensive care for mothers and children. The nurse midwife is the key implementer of RCH at every level.
@@ -1376,7 +1494,7 @@ window.QUESTIONS_DATA = [
     unit: 1,
     years: "Summer 2023",
     answer: `
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Safe Motherhood means making sure that every pregnant woman is healthy, delivers safely, and goes home alive with a healthy baby. It sounds obvious, but sadly, lakhs of mothers die every year worldwide because of preventable pregnancy complications. The Safe Motherhood movement started in 1987 to change this.</p>
 </div>
@@ -1385,9 +1503,9 @@ window.QUESTIONS_DATA = [
 <div class="figure-block"><img src="assets/images/safe_motherhood.png" alt="Fig: Four Pillars of Safe Motherhood" loading="lazy"><div class="figure-caption">Fig: Four Pillars of Safe Motherhood</div></div>
 
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition (Simple Language)</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Safe Motherhood</strong> = Making sure every woman gets the care she needs to be safe and healthy during pregnancy, childbirth, and after delivery.<br><br>
     <strong>Safe Motherhood Initiative (SMI):</strong> Launched in <strong>1987 in Nairobi, Kenya</strong> at an international conference organized by WHO, UNICEF, UNFPA, and World Bank.<br><br>
     <strong>Goal:</strong> Reduce maternal mortality worldwide.<br>
@@ -1395,7 +1513,7 @@ window.QUESTIONS_DATA = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <div class="figure-block">
     <img src="assets/exam_safe_motherhood.png" alt="4 Pillars of Safe Motherhood Diagram" style="width:100%; max-width:600px; border-radius: var(--radius-md); box-shadow: var(--shadow-card);">
     <div class="figure-caption">Fig 3: Educational Diagram: The 4 Pillars of Safe Motherhood</div>
@@ -1403,7 +1521,7 @@ window.QUESTIONS_DATA = [
   <h3 class="answer-section-title accent-title">4 Pillars of Safe Motherhood (VERY Important!)</h3>
   <p class="answer-text">Safe Motherhood stands on 4 pillars — like 4 legs of a table. If any one is missing, the table falls:</p>
 
-  <div class="flowchart">
+  <div class="flowchart animate-fade-in">
     <div class="flowchart-title">Flowchart: Four Pillars of Safe Motherhood</div>
     <div class="flowchart-container">
       <div class="flow-box highlight">Safe Motherhood</div>
@@ -1445,7 +1563,7 @@ window.QUESTIONS_DATA = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Key Strategies in India for Safe Motherhood</h3>
   <ol class="answer-points">
     <li><strong>JSY:</strong> Cash incentive for hospital delivery</li>
@@ -1458,7 +1576,7 @@ window.QUESTIONS_DATA = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Role of Nurse Midwife</h3>
   <p class="answer-text">The nurse midwife is central to ALL 4 pillars: she provides ANC, conducts safe deliveries, manages emergencies, counsels on family planning, coordinates with ASHA workers, and ensures every mother gets her rights under JSY/JSSK. She is the FACE of Safe Motherhood.</p>
 </div>
@@ -1480,7 +1598,7 @@ window.QUESTIONS_DATA = [
   <br><strong>LaQshya vs JSSK:</strong> LaQshya = quality improvement in LABOUR ROOMS (clean, respectful care, well-equipped). JSSK = free services (delivery, medicines, food, ambulance). Different focus.
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for 4 Pillars of Safe Motherhood</div>
   <div class="mnemonic-word"><span>F</span>-<span>A</span>-<span>C</span>-<span>E</span></div>
   <div class="mnemonic-explain">
@@ -1508,7 +1626,7 @@ window.QUESTIONS_DATA = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     Safe Motherhood is every woman's right, not a privilege. It stands on 4 pillars — family planning, antenatal care, clean & safe delivery, and essential obstetric care (remember FACE!). With government support through JSY, JSSK, and EmOC, and the tireless work of nurse midwives, India is making real progress. The goal is simple: no mother should die giving life.
@@ -1550,14 +1668,14 @@ window.QUESTIONS_DATA = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> Legal issues = laws you MUST follow (MTP Act, PCPNDT Act, POCSO, Surrogacy Act) or face punishment. Ethical issues = moral principles (Autonomy, Beneficence, Non-maleficence, Justice, Confidentiality) that guide right practice. A nurse who knows both law and ethics can never go wrong.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">When you take care of pregnant women, you deal with sensitive situations — abortion decisions, sex determination, consent for C-section, teenage pregnancy, surrogacy, HIV disclosure. These involve both LEGAL rules (laws you MUST follow or face jail/fine) and ETHICAL principles (moral values that guide your practice). A nurse must know both!</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Simple Difference</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Legal Issues</strong> = Rules written in LAW. If you break them, you can be punished — jail, fine, license cancelled.<br>
     <strong>Ethical Issues</strong> = Rules based on MORALS and VALUES. If you break them, your professional body (INC) can take action.<br><br>
     <strong>Simple way to remember:</strong><br>
@@ -1566,7 +1684,7 @@ window.QUESTIONS_DATA = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Legal Issues in Obstetrics</h3>
   <ol class="answer-points">
     <li><strong>MTP Act, 1971 (Amended 2021):</strong>
@@ -1595,7 +1713,7 @@ window.QUESTIONS_DATA = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Ethical Issues in Obstetrics</h3>
   <ol class="answer-points">
     <li><strong>Autonomy (Respect her choice):</strong> The mother has the RIGHT to decide — which hospital, which doctor, natural delivery or C-section, pain medication or not. We can advise, but we can't force.</li>
@@ -1608,7 +1726,7 @@ window.QUESTIONS_DATA = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Comparison Table (Scores Extra Marks!)</h3>
   <div class="answer-table-wrap">
     <table class="answer-table">
@@ -1625,7 +1743,7 @@ window.QUESTIONS_DATA = [
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Nurse's Responsibility</h3>
   <p class="answer-text">Know the laws (especially MTP, PCPNDT, POCSO). Always take informed consent. Maintain patient confidentiality. Document everything properly. Report suspected abuse. Practice within your scope. Follow INC Code of Ethics. When in doubt — ask your senior or legal advisor.</p>
 </div>
@@ -1647,7 +1765,7 @@ window.QUESTIONS_DATA = [
   <br><strong>Consent for minor vs adult:</strong> For adults = patient gives own consent. For minors (under 18) = guardian gives consent. In life-threatening emergencies = implied consent is valid.
 </div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for Legal Acts in Maternal Health</div>
   <div class="mnemonic-word"><span>M</span>-<span>P</span>-<span>M</span>-<span>P</span>-<span>S</span></div>
   <div class="mnemonic-explain">
@@ -1663,6 +1781,28 @@ window.QUESTIONS_DATA = [
   <strong>Relatable Example:</strong> A family demands an ultrasound technician to reveal whether the baby is a boy or girl. The technician knows this is ILLEGAL under PCPNDT Act (fine of Rs. 1 lakh + 5 years jail). She firmly refuses and explains the law. The next day, a man offers her Rs. 5000 to secretly tell the sex. She reports this attempt to the authorities. This is both a legal AND ethical situation — the nurse follows the law AND protects the girl child.
 </div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Skilled Birth Attendant (SBA) Role</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Trained SBA Present at Every Birth</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Monitor Labour with Partograph</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Conduct Clean &amp; Safe Delivery</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Active Management of 3rd Stage (AMTSL)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">Complication Detected — PPH / Sepsis</div></div>
+      <div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">Normal — Postnatal Monitoring</div></div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">First Aid &amp; Emergency Referral if Needed</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Reduced Maternal &amp; Neonatal Mortality</div>
+  </div>
+</div>
+
 <div class="remember-box">
   <div class="remember-title">Quick Revision — Things to Remember</div>
   <ul>
@@ -1676,7 +1816,7 @@ window.QUESTIONS_DATA = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     In obstetrics, you deal with life, death, and very personal decisions every day. Knowing the legal framework (MTP Act, PCPNDT Act, consent laws) protects you AND your patient. Following ethical principles (autonomy, justice, confidentiality) makes you a good and trusted nurse. A nurse who knows both law and ethics is a nurse who can never go wrong.
@@ -1718,20 +1858,20 @@ window.QUESTIONS_DATA = [
     answer: `
 <div class="in-short"><strong>In Short:</strong> An unmarried mother faces problems in 5 areas: Social (stigma), Emotional (depression), Health (hidden pregnancy, unsafe abortion risk), Financial (no support), and Legal (child custody). The nurse must be non-judgmental, maintain confidentiality, provide complete care, and connect her with support services. Remember: she came for help, not a lecture.</div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">In India, being an unmarried and pregnant woman is extremely difficult. Society judges her, family may reject her, and she might feel completely alone. But as a nurse, your job is NOT to judge — your job is to CARE. An unmarried mother needs MORE support, MORE compassion, and MORE help than other mothers — not less.</p>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition (Simple Language)</h3>
-  <div class="definition-box">
+  <div class="definition-box animate-scale-in">
     <strong>Unmarried Mother</strong> = A woman who becomes pregnant and has a baby without being legally married. This can include: single women, teenagers, victims of rape, women in live-in relationships, or women whose partner left them.<br><br>
     <strong>As a nurse, remember:</strong> She deserves the EXACT same quality of care as any married mother. No judging, no rude comments, no gossiping. Period.
   </div>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title accent-title">Problems Faced by Unmarried Mothers</h3>
   <p class="answer-text">She faces problems from every direction — society, family, money, health, law, and her own mind:</p>
 
@@ -1782,7 +1922,7 @@ window.QUESTIONS_DATA = [
   </ol>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Nursing Management (How to Care for Her)</h3>
   <ol class="answer-points">
     <li><strong>Be Non-Judgmental (MOST IMPORTANT):</strong> Accept her as she is. No moral lectures, no rude comments, no eye-rolling. Use therapeutic communication — listen actively, show empathy, maintain eye contact, use her name respectfully. Your attitude sets the tone for her entire hospital experience.</li>
@@ -1862,7 +2002,7 @@ window.QUESTIONS_DATA = [
 
 <div class="analogy-box"><strong>Think of it like&hellip;</strong> An unmarried pregnant woman is like a person who fell in a ditch on the road. Passers-by stop to stare and judge. But a nurse is supposed to be the one who climbs down, gives a hand, and helps her out &mdash; without asking how she fell in. Your job is to help her climb out, not to lecture her about the ditch.</div>
 
-<div class="mnemonic-box">
+<div class="mnemonic-box animate-scale-in">
   <div class="mnemonic-label">Mnemonic for Problems</div>
   <div class="mnemonic-word"><span>S</span>-<span>E</span>-<span>H</span>-<span>F</span>-<span>L</span></div>
   <div class="mnemonic-explain">
@@ -1878,6 +2018,26 @@ window.QUESTIONS_DATA = [
   <strong>Relatable Example:</strong> Pooja, an 18-year-old college student, comes to the PHC alone and scared — she is 14 weeks pregnant, the father has abandoned her, and her family doesn't know. She is thinking of going to a quack for abortion. The nurse: (1) reassures her without judgment, (2) confirms pregnancy and checks for any complications, (3) explains her legal right to safe MTP, (4) arranges counseling for decision-making (keep the baby, adoption, or MTP), (5) connects her with Women Helpline 181 for shelter support. This compassionate, confidential approach can save Pooja's life.
 </div>
 
+<div class="flowchart animate-fade-in">
+  <div class="flowchart-title">Flowchart: Maternal Mortality — Causes &amp; Prevention</div>
+  <div class="flowchart-container">
+    <div class="flow-box highlight">Maternal Death (Death During Pregnancy / 42 Days)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-branch">
+      <div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">Direct Causes<br>PPH, Eclampsia, Sepsis, Abortion</div></div>
+      <div class="flow-branch-item"><div class="flow-branch-line"></div><div class="flow-box">Indirect Causes<br>Anaemia, Malaria, Heart Disease</div></div>
+    </div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Three Delays Model (Recognition, Reaching, Receiving care)</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Prevention: Quality ANC + SBA + EmOC</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box">Role of Nurse: Early Detection &amp; Referral</div>
+    <div class="flow-arrow">&darr;</div>
+    <div class="flow-box highlight">Sustainable Development Goal — MMR &lt;70/lakh</div>
+  </div>
+</div>
+
 <div class="remember-box">
   <div class="remember-title">Quick Revision — Things to Remember</div>
   <ul>
@@ -1891,7 +2051,7 @@ window.QUESTIONS_DATA = [
   </ul>
 </div>
 
-<div class="answer-section">
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Conclusion</h3>
   <div class="conclusion-box">
     An unmarried mother is not a "bad person" — she is a woman who needs help. She faces social stigma, emotional trauma, financial problems, and health risks — often all at once. As a nurse midwife, your job is to provide her with the same quality of compassionate, non-judgmental, confidential care that every mother deserves. Remember: she came to you for HELP, not for a lecture. Your kindness can literally save her life and her baby's life.
