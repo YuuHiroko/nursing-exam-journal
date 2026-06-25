@@ -42,7 +42,7 @@ window.DIAGRAMS = {
       // Placenta
       '<ellipse cx="280" cy="510" rx="100" ry="35" fill="url(#fcg2)" stroke="#2e7d32" stroke-width="2"/>' +
       '<text x="280" y="515" text-anchor="middle" class="fc2-lbl" fill="#fff" font-size="14">PLACENTA</text>' +
-      '<text x="280" y="530" text-anchor="middle" font="9px var(--font-mono)" fill="#c8e6c9">(O&#8322; source for baby)</text>' +
+      '<text x="280" y="530" text-anchor="middle" style="font:9px var(--font-mono,monospace)" fill="#c8e6c9">(O&#8322; source for baby)</text>' +
 
       // Liver
       '<rect x="165" y="340" width="85" height="45" rx="14" fill="#a1887f" stroke="#5d4037" stroke-width="1.5" opacity="0.7"/>' +
@@ -50,11 +50,11 @@ window.DIAGRAMS = {
 
       // Lungs (faded - not working)
       '<ellipse cx="160" cy="220" rx="50" ry="30" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5" opacity="0.4" stroke-dasharray="4 3"/>' +
-      '<text x="160" y="218" text-anchor="middle" font="9px var(--font-mono)" fill="#90a4ae">LUNG</text>' +
-      '<text x="160" y="230" text-anchor="middle" font="8px var(--font-mono)" fill="#b0bec5">(collapsed)</text>' +
+      '<text x="160" y="218" text-anchor="middle" style="font:9px var(--font-mono,monospace)" fill="#90a4ae">LUNG</text>' +
+      '<text x="160" y="230" text-anchor="middle" style="font:8px var(--font-mono,monospace)" fill="#b0bec5">(collapsed)</text>' +
       '<ellipse cx="400" cy="220" rx="50" ry="30" fill="#e3f2fd" stroke="#90caf9" stroke-width="1.5" opacity="0.4" stroke-dasharray="4 3"/>' +
-      '<text x="400" y="218" text-anchor="middle" font="9px var(--font-mono)" fill="#90a4ae">LUNG</text>' +
-      '<text x="400" y="230" text-anchor="middle" font="8px var(--font-mono)" fill="#b0bec5">(collapsed)</text>' +
+      '<text x="400" y="218" text-anchor="middle" style="font:9px var(--font-mono,monospace)" fill="#90a4ae">LUNG</text>' +
+      '<text x="400" y="230" text-anchor="middle" style="font:8px var(--font-mono,monospace)" fill="#b0bec5">(collapsed)</text>' +
 
       // Heart with 4 chambers
       '<g class="fc2-heart">' +
@@ -87,17 +87,17 @@ window.DIAGRAMS = {
       '<path d="M207,350 C210,310 240,290 260,270" class="fc2-shunt"/>' +
       '<text x="140" y="310" class="fc2-slbl">&#9312; Ductus</text>' +
       '<text x="140" y="322" class="fc2-slbl">   Venosus</text>' +
-      '<text x="140" y="334" font="8px var(--font-mono)" fill="#7b1fa2">(bypasses liver)</text>' +
+      '<text x="140" y="334" style="font:8px var(--font-mono,monospace)" fill="#7b1fa2">(bypasses liver)</text>' +
 
       // 2. Foramen Ovale
       '<line x1="278" y1="212" x2="282" y2="212" class="fc2-shunt" stroke-width="5"/>' +
       '<text x="280" y="186" text-anchor="middle" class="fc2-slbl">&#9313; Foramen Ovale</text>' +
-      '<text x="280" y="176" text-anchor="middle" font="8px var(--font-mono)" fill="#7b1fa2">(RA &#8594; LA, skips lungs)</text>' +
+      '<text x="280" y="176" text-anchor="middle" style="font:8px var(--font-mono,monospace)" fill="#7b1fa2">(RA &#8594; LA, skips lungs)</text>' +
 
       // 3. Ductus Arteriosus
       '<path d="M240,200 C255,175 305,175 320,195" class="fc2-shunt"/>' +
       '<text x="280" y="162" text-anchor="middle" class="fc2-slbl">&#9314; Ductus Arteriosus</text>' +
-      '<text x="280" y="152" text-anchor="middle" font="8px var(--font-mono)" fill="#7b1fa2">(PA &#8594; Aorta)</text>' +
+      '<text x="280" y="152" text-anchor="middle" style="font:8px var(--font-mono,monospace)" fill="#7b1fa2">(PA &#8594; Aorta)</text>' +
 
       // ── MOVING BLOOD CELLS ──
       // Oxygenated cells (RED) — placenta → liver → DV → heart → brain
@@ -116,9 +116,9 @@ window.DIAGRAMS = {
 
       // ── VESSEL LABELS ──
       '<text x="190" y="445" class="fc2-lbl" fill="#d32f2f" font-size="10" transform="rotate(-65,190,445)">Umbilical Vein</text>' +
-      '<text x="195" y="460" font="8px var(--font-mono)" fill="#ef9a9a" transform="rotate(-65,195,460)">(O&#8322;-rich!)</text>' +
+      '<text x="195" y="460" style="font:8px var(--font-mono,monospace)" fill="#ef9a9a" transform="rotate(-65,195,460)">(O&#8322;-rich!)</text>' +
       '<text x="445" y="458" class="fc2-lbl" fill="#1565c0" font-size="10">Umb. Arteries</text>' +
-      '<text x="445" y="470" font="8px var(--font-mono)" fill="#90caf9">(CO&#8322; waste)</text>' +
+      '<text x="445" y="470" style="font:8px var(--font-mono,monospace)" fill="#90caf9">(CO&#8322; waste)</text>' +
       '<text x="335" y="148" class="fc2-lbl" fill="#d32f2f" font-size="10">Aorta &#8593;</text>' +
       '<text x="255" y="280" class="fc2-lbl" fill="#546e7a" font-size="9">IVC</text>' +
 
@@ -128,7 +128,7 @@ window.DIAGRAMS = {
       '<circle cx="25" cy="50" r="5" fill="#1e88e5"/><text x="35" y="54" class="fc2-lbl" font-size="10">Deoxygenated blood</text>' +
       '<line x1="18" y1="70" x2="35" y2="70" stroke="#9c27b0" stroke-width="3" stroke-dasharray="6 3"/>' +
       '<text x="40" y="74" class="fc2-lbl" font-size="10">Shunt (hover me!)</text>' +
-      '<text x="85" y="90" text-anchor="middle" font="8px var(--font-mono)" fill="#9c27b0">animated &#9679; = blood cells</text>' +
+      '<text x="85" y="90" text-anchor="middle" style="font:8px var(--font-mono,monospace)" fill="#9c27b0">animated &#9679; = blood cells</text>' +
 
       '</svg>' +
       '<div class="diagram-key">' +
@@ -169,7 +169,7 @@ window.DIAGRAMS = {
       '</style></defs>' +
 
       // Labels
-      '<text x="250" y="25" text-anchor="middle" font="bold 12px var(--font-body)" fill="var(--color-foreground,#222)">SITE: Ampulla of Fallopian Tube</text>' +
+      '<text x="250" y="25" text-anchor="middle" style="font:bold 12px var(--font-body,sans-serif)" fill="var(--color-foreground,#222)">SITE: Ampulla of Fallopian Tube</text>' +
 
       // Fallopian tube background
       '<path d="M0,175 Q100,130 200,160 Q300,190 400,160 Q450,150 500,175" fill="none" stroke="#ffccbc" stroke-width="60" opacity="0.3"/>' +
@@ -178,11 +178,11 @@ window.DIAGRAMS = {
       // EGG - layered structure
       // Corona Radiata (outer)
       '<circle cx="320" cy="175" r="55" class="fert-corona"/>' +
-      '<text x="320" y="120" text-anchor="middle" font="9px var(--font-mono)" fill="#e65100">Corona Radiata</text>' +
+      '<text x="320" y="120" text-anchor="middle" style="font:9px var(--font-mono,monospace)" fill="#e65100">Corona Radiata</text>' +
 
       // Zona Pellucida (middle)
       '<circle cx="320" cy="175" r="40" class="fert-zona"/>' +
-      '<text x="390" y="155" font="9px var(--font-mono)" fill="#f57f17">Zona Pellucida</text>' +
+      '<text x="390" y="155" style="font:9px var(--font-mono,monospace)" fill="#f57f17">Zona Pellucida</text>' +
 
       // Egg cell (center)
       '<circle cx="320" cy="175" r="25" fill="#fff9c4" stroke="#f9a825" stroke-width="1.5"/>' +
@@ -195,7 +195,7 @@ window.DIAGRAMS = {
         '<animate attributeName="opacity" values="0;0;0;0.8;0;0.6;0" dur="8s" repeatCount="indefinite"/>' +
         '<animate attributeName="r" values="42;42;42;48;42;46;42" dur="8s" repeatCount="indefinite"/>' +
       '</circle>' +
-      '<text x="320" y="245" text-anchor="middle" font="bold 9px var(--font-mono)" fill="#e65100" opacity="0">' +
+      '<text x="320" y="245" text-anchor="middle" style="font:bold 9px var(--font-mono,monospace)" fill="#e65100" opacity="0">' +
         '<animate attributeName="opacity" values="0;0;0;1;1;1;0" dur="8s" repeatCount="indefinite"/>' +
         'CORTICAL REACTION! Gate closed!' +
       '</text>' +
@@ -211,15 +211,15 @@ window.DIAGRAMS = {
       sperm(55, 130, 265, 155, 5.2, 0.8, true) +
 
       // Sperm labels
-      '<text x="60" y="270" font="9px var(--font-mono)" fill="#1565c0">300 million sperm</text>' +
-      '<text x="60" y="282" font="9px var(--font-mono)" fill="#1565c0">race to the egg...</text>' +
-      '<text x="60" y="294" font="bold 9px var(--font-mono)" fill="#d32f2f">Only 1 wins!</text>' +
+      '<text x="60" y="270" style="font:9px var(--font-mono,monospace)" fill="#1565c0">300 million sperm</text>' +
+      '<text x="60" y="282" style="font:9px var(--font-mono,monospace)" fill="#1565c0">race to the egg...</text>' +
+      '<text x="60" y="294" style="font:bold 9px var(--font-mono,monospace)" fill="#d32f2f">Only 1 wins!</text>' +
 
       // Step labels at bottom
       '<rect x="10" y="305" width="480" height="40" rx="8" fill="var(--color-card,#fff)" stroke="var(--color-border,#ccc)"/>' +
-      '<text x="250" y="322" text-anchor="middle" font="10px var(--font-body)" fill="var(--color-foreground,#222)">' +
+      '<text x="250" y="322" text-anchor="middle" style="font:10px var(--font-body,sans-serif)" fill="var(--color-foreground,#222)">' +
         '<tspan font-weight="bold">Steps:</tspan> Capacitation (7hr) &#8594; Acrosome Reaction &#8594; Penetration &#8594; Cortical Block &#8594; Fusion = Zygote (46 chr)</text>' +
-      '<text x="250" y="338" text-anchor="middle" font="9px var(--font-mono)" fill="#7b1fa2">' +
+      '<text x="250" y="338" text-anchor="middle" style="font:9px var(--font-mono,monospace)" fill="#7b1fa2">' +
         'Sperm carries X=Girl(XX) or Y=Boy(XY) &mdash; FATHER determines sex!</text>' +
 
       '</svg>' +
@@ -236,11 +236,11 @@ window.DIAGRAMS = {
       '<div class="diagram-title">&#128308; Animated: Cervical Dilation &mdash; 0 to 10 cm</div>' +
       '<svg viewBox="0 0 500 280" width="100%" style="max-width:500px;display:block;margin:0 auto;">' +
       '<defs><style>' +
-        '.cd-lbl{font:10px var(--font-mono);fill:var(--color-foreground,#222);text-anchor:middle}' +
+        '.cd-lbl{font:10px var(--font-mono,monospace);fill:var(--color-foreground,#222);text-anchor:middle}' +
       '</style></defs>' +
 
       // Title
-      '<text x="250" y="25" text-anchor="middle" font="bold 13px var(--font-body)" fill="var(--color-foreground)">Cervical Os Dilation During Labour</text>' +
+      '<text x="250" y="25" text-anchor="middle" style="font:bold 13px var(--font-body,sans-serif)" fill="var(--color-foreground)">Cervical Os Dilation During Labour</text>' +
 
       // 5 circles showing progressive dilation
       // 0 cm (closed)
@@ -288,16 +288,16 @@ window.DIAGRAMS = {
 
       // Phase labels at bottom
       '<rect x="15" y="200" width="200" height="65" rx="8" fill="#e8eaf6" stroke="#9fa8da"/>' +
-      '<text x="115" y="218" text-anchor="middle" font="bold 10px var(--font-body)" fill="#3f51b5">Latent Phase</text>' +
-      '<text x="115" y="232" text-anchor="middle" font="9px var(--font-mono)" fill="#5c6bc0">0&#8594;4 cm | Slow | 8-12 hrs</text>' +
-      '<text x="115" y="246" text-anchor="middle" font="9px var(--font-mono)" fill="#5c6bc0">Contractions: mild, irregular</text>' +
-      '<text x="115" y="258" text-anchor="middle" font="9px var(--font-mono)" fill="#5c6bc0">Graph: below Alert line</text>' +
+      '<text x="115" y="218" text-anchor="middle" style="font:bold 10px var(--font-body,sans-serif)" fill="#3f51b5">Latent Phase</text>' +
+      '<text x="115" y="232" text-anchor="middle" style="font:9px var(--font-mono,monospace)" fill="#5c6bc0">0&#8594;4 cm | Slow | 8-12 hrs</text>' +
+      '<text x="115" y="246" text-anchor="middle" style="font:9px var(--font-mono,monospace)" fill="#5c6bc0">Contractions: mild, irregular</text>' +
+      '<text x="115" y="258" text-anchor="middle" style="font:9px var(--font-mono,monospace)" fill="#5c6bc0">Graph: below Alert line</text>' +
 
       '<rect x="235" y="200" width="250" height="65" rx="8" fill="#c5cae9" stroke="#5c6bc0"/>' +
-      '<text x="360" y="218" text-anchor="middle" font="bold 10px var(--font-body)" fill="#283593">Active Phase</text>' +
-      '<text x="360" y="232" text-anchor="middle" font="9px var(--font-mono)" fill="#3f51b5">4&#8594;10 cm | Fast | 1 cm/hr</text>' +
-      '<text x="360" y="246" text-anchor="middle" font="9px var(--font-mono)" fill="#3f51b5">Contractions: strong, regular</text>' +
-      '<text x="360" y="258" text-anchor="middle" font="9px var(--font-mono)" fill="#3f51b5">Graph: on/above Alert line</text>' +
+      '<text x="360" y="218" text-anchor="middle" style="font:bold 10px var(--font-body,sans-serif)" fill="#283593">Active Phase</text>' +
+      '<text x="360" y="232" text-anchor="middle" style="font:9px var(--font-mono,monospace)" fill="#3f51b5">4&#8594;10 cm | Fast | 1 cm/hr</text>' +
+      '<text x="360" y="246" text-anchor="middle" style="font:9px var(--font-mono,monospace)" fill="#3f51b5">Contractions: strong, regular</text>' +
+      '<text x="360" y="258" text-anchor="middle" style="font:9px var(--font-mono,monospace)" fill="#3f51b5">Graph: on/above Alert line</text>' +
 
       '</svg>' +
       '<div class="diagram-key">' +
@@ -322,12 +322,12 @@ window.DIAGRAMS = {
           '<stop offset="100%" stop-color="#fafafa"/>' +
         '</linearGradient>' +
         '<style>' +
-          '.loc-lbl{font:10px var(--font-mono);fill:var(--color-foreground,#222);text-anchor:middle}' +
+          '.loc-lbl{font:10px var(--font-mono,monospace);fill:var(--color-foreground,#222);text-anchor:middle}' +
         '</style>' +
       '</defs>' +
 
       // Title
-      '<text x="250" y="22" text-anchor="middle" font="bold 12px var(--font-body)" fill="var(--color-foreground)">Postnatal Lochia: Color Changes Over 6 Weeks</text>' +
+      '<text x="250" y="22" text-anchor="middle" style="font:bold 12px var(--font-body,sans-serif)" fill="var(--color-foreground)">Postnatal Lochia: Color Changes Over 6 Weeks</text>' +
 
       // Main gradient bar
       '<rect x="30" y="45" width="440" height="40" rx="10" fill="url(#loc-g1)" stroke="var(--color-border,#ccc)" stroke-width="1.5"/>' +
@@ -349,22 +349,22 @@ window.DIAGRAMS = {
 
       // Phase labels
       '<rect x="40" y="120" width="110" height="70" rx="8" fill="#ffebee" stroke="#c62828" stroke-width="1.5"/>' +
-      '<text x="95" y="138" text-anchor="middle" font="bold 11px var(--font-body)" fill="#c62828">Lochia Rubra</text>' +
-      '<text x="95" y="153" text-anchor="middle" font="9px var(--font-mono)" fill="#d32f2f">Day 1-4</text>' +
-      '<text x="95" y="166" text-anchor="middle" font="9px var(--font-mono)" fill="#d32f2f">BRIGHT RED</text>' +
-      '<text x="95" y="179" text-anchor="middle" font="8px var(--font-mono)" fill="#e57373">Blood + decidua</text>' +
+      '<text x="95" y="138" text-anchor="middle" style="font:bold 11px var(--font-body,sans-serif)" fill="#c62828">Lochia Rubra</text>' +
+      '<text x="95" y="153" text-anchor="middle" style="font:9px var(--font-mono,monospace)" fill="#d32f2f">Day 1-4</text>' +
+      '<text x="95" y="166" text-anchor="middle" style="font:9px var(--font-mono,monospace)" fill="#d32f2f">BRIGHT RED</text>' +
+      '<text x="95" y="179" text-anchor="middle" style="font:8px var(--font-mono,monospace)" fill="#e57373">Blood + decidua</text>' +
 
       '<rect x="170" y="120" width="115" height="70" rx="8" fill="#fce4ec" stroke="#e91e63" stroke-width="1.5"/>' +
-      '<text x="227" y="138" text-anchor="middle" font="bold 11px var(--font-body)" fill="#c2185b">Lochia Serosa</text>' +
-      '<text x="227" y="153" text-anchor="middle" font="9px var(--font-mono)" fill="#d81b60">Day 5-9</text>' +
-      '<text x="227" y="166" text-anchor="middle" font="9px var(--font-mono)" fill="#d81b60">PINK-BROWN</text>' +
-      '<text x="227" y="179" text-anchor="middle" font="8px var(--font-mono)" fill="#ec407a">Serous + WBCs</text>' +
+      '<text x="227" y="138" text-anchor="middle" style="font:bold 11px var(--font-body,sans-serif)" fill="#c2185b">Lochia Serosa</text>' +
+      '<text x="227" y="153" text-anchor="middle" style="font:9px var(--font-mono,monospace)" fill="#d81b60">Day 5-9</text>' +
+      '<text x="227" y="166" text-anchor="middle" style="font:9px var(--font-mono,monospace)" fill="#d81b60">PINK-BROWN</text>' +
+      '<text x="227" y="179" text-anchor="middle" style="font:8px var(--font-mono,monospace)" fill="#ec407a">Serous + WBCs</text>' +
 
       '<rect x="305" y="120" width="165" height="70" rx="8" fill="#fff8e1" stroke="#ff8f00" stroke-width="1.5"/>' +
-      '<text x="387" y="138" text-anchor="middle" font="bold 11px var(--font-body)" fill="#e65100">Lochia Alba</text>' +
-      '<text x="387" y="153" text-anchor="middle" font="9px var(--font-mono)" fill="#ef6c00">Day 10 onwards</text>' +
-      '<text x="387" y="166" text-anchor="middle" font="9px var(--font-mono)" fill="#ef6c00">YELLOWISH-WHITE</text>' +
-      '<text x="387" y="179" text-anchor="middle" font="8px var(--font-mono)" fill="#ff9800">Mucus + epithelial</text>' +
+      '<text x="387" y="138" text-anchor="middle" style="font:bold 11px var(--font-body,sans-serif)" fill="#e65100">Lochia Alba</text>' +
+      '<text x="387" y="153" text-anchor="middle" style="font:9px var(--font-mono,monospace)" fill="#ef6c00">Day 10 onwards</text>' +
+      '<text x="387" y="166" text-anchor="middle" style="font:9px var(--font-mono,monospace)" fill="#ef6c00">YELLOWISH-WHITE</text>' +
+      '<text x="387" y="179" text-anchor="middle" style="font:8px var(--font-mono,monospace)" fill="#ff9800">Mucus + epithelial</text>' +
 
       '</svg>' +
       '<div class="diagram-key">' +
@@ -386,7 +386,7 @@ window.DIAGRAMS = {
         var v = [];
         for (var m = 0; m < 6; m++) { v.push(m === k ? '1' : '0'); }
         v.push(k === 0 ? '1' : '0');   // 7th key wraps back to the first frame
-        out += '<text x="' + x + '" y="' + y + '" text-anchor="middle" font-family="var(--font-mono)" font-size="' + size + '" font-weight="bold" fill="#e91e63" opacity="' + (k === 0 ? '1' : '0') + '">' +
+        out += '<text x="' + x + '" y="' + y + '" text-anchor="middle" font-family="var(--font-mono,monospace)" font-size="' + size + '" font-weight="bold" fill="#e91e63" opacity="' + (k === 0 ? '1' : '0') + '">' +
           '<animate attributeName="opacity" calcMode="discrete" values="' + v.join(';') + '" keyTimes="' + keyTimes + '" dur="8s" repeatCount="indefinite"/>' +
           arr[k] + '</text>';
       }
@@ -401,10 +401,10 @@ window.DIAGRAMS = {
 
       // Reference lines
       '<line x1="130" y1="120" x2="370" y2="120" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="4 3"/>' +
-      '<text x="380" y="124" font="9px var(--font-mono)" fill="#757575">Umbilicus</text>' +
+      '<text x="380" y="124" style="font:9px var(--font-mono,monospace)" fill="#757575">Umbilicus</text>' +
 
       '<line x1="130" y1="250" x2="370" y2="250" stroke="#bdbdbd" stroke-width="1" stroke-dasharray="4 3"/>' +
-      '<text x="380" y="254" font="9px var(--font-mono)" fill="#757575">Symphysis Pubis</text>' +
+      '<text x="380" y="254" style="font:9px var(--font-mono,monospace)" fill="#757575">Symphysis Pubis</text>' +
 
       // Animated uterus (shrinking)
       '<ellipse cx="250" cy="120" rx="55" ry="70" fill="#e91e63" opacity="0.6" stroke="#c2185b" stroke-width="2">' +
@@ -416,24 +416,24 @@ window.DIAGRAMS = {
 
       // Day counter
       '<rect x="30" y="60" width="80" height="50" rx="10" fill="var(--color-card,#fff)" stroke="#e91e63" stroke-width="2"/>' +
-      '<text x="70" y="82" text-anchor="middle" font="bold 10px var(--font-mono)" fill="#c2185b">DAY</text>' +
+      '<text x="70" y="82" text-anchor="middle" style="font:bold 10px var(--font-mono,monospace)" fill="#c2185b">DAY</text>' +
       counterSteps(days, 70, 101, '17px') +
 
       // Weight counter
       '<rect x="30" y="120" width="80" height="40" rx="10" fill="var(--color-card,#fff)" stroke="#e91e63" stroke-width="1.5"/>' +
-      '<text x="70" y="140" text-anchor="middle" font="9px var(--font-mono)" fill="#c2185b">Weight:</text>' +
+      '<text x="70" y="140" text-anchor="middle" style="font:9px var(--font-mono,monospace)" fill="#c2185b">Weight:</text>' +
       counterSteps(wts, 70, 156, '12px') +
 
       // Day markers on the side
-      '<circle cx="370" cy="120" r="4" fill="#e91e63"/><text x="395" y="124" font="9px var(--font-mono)" fill="#c2185b">Day 1: At umbilicus</text>' +
-      '<circle cx="370" cy="155" r="3" fill="#ec407a"/><text x="395" y="159" font="9px var(--font-mono)" fill="#c2185b">Day 3: 3 fingers below</text>' +
-      '<circle cx="370" cy="185" r="3" fill="#f06292"/><text x="395" y="189" font="9px var(--font-mono)" fill="#c2185b">Day 7: Halfway</text>' +
-      '<circle cx="370" cy="210" r="3" fill="#f48fb1"/><text x="395" y="214" font="9px var(--font-mono)" fill="#c2185b">Day 10: Pelvic brim</text>' +
-      '<circle cx="370" cy="240" r="3" fill="#f8bbd0"/><text x="395" y="244" font="9px var(--font-mono)" fill="#c2185b">Day 14: Not palpable!</text>' +
+      '<circle cx="370" cy="120" r="4" fill="#e91e63"/><text x="395" y="124" style="font:9px var(--font-mono,monospace)" fill="#c2185b">Day 1: At umbilicus</text>' +
+      '<circle cx="370" cy="155" r="3" fill="#ec407a"/><text x="395" y="159" style="font:9px var(--font-mono,monospace)" fill="#c2185b">Day 3: 3 fingers below</text>' +
+      '<circle cx="370" cy="185" r="3" fill="#f06292"/><text x="395" y="189" style="font:9px var(--font-mono,monospace)" fill="#c2185b">Day 7: Halfway</text>' +
+      '<circle cx="370" cy="210" r="3" fill="#f48fb1"/><text x="395" y="214" style="font:9px var(--font-mono,monospace)" fill="#c2185b">Day 10: Pelvic brim</text>' +
+      '<circle cx="370" cy="240" r="3" fill="#f8bbd0"/><text x="395" y="244" style="font:9px var(--font-mono,monospace)" fill="#c2185b">Day 14: Not palpable!</text>' +
 
       // Bottom info
       '<rect x="30" y="275" width="440" height="35" rx="8" fill="var(--color-card,#fff)" stroke="var(--color-border,#ccc)"/>' +
-      '<text x="250" y="293" text-anchor="middle" font="10px var(--font-body)" fill="var(--color-foreground,#222)">' +
+      '<text x="250" y="293" text-anchor="middle" style="font:10px var(--font-body,sans-serif)" fill="var(--color-foreground,#222)">' +
         '<tspan font-weight="bold">Rate:</tspan> ~1 cm (1 finger-breadth) per day | ' +
         '<tspan font-weight="bold">1000g &#8594; 60g</tspan> in 6 weeks | ' +
         '<tspan font-weight="bold">Oxytocin</tspan> from breastfeeding speeds involution' +
@@ -510,7 +510,7 @@ window.DIAGRAMS = {
         '@keyframes hw-draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}' +
         '.hw-line{fill:none;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:1;animation:hw-draw 4s ease-out forwards}' +
       '</style></defs>' +
-      '<text x="150" y="18" text-anchor="middle" font="bold 11px var(--font-body)" fill="var(--color-foreground)">Hormone Levels</text>' +
+      '<text x="150" y="18" text-anchor="middle" style="font:bold 11px var(--font-body,sans-serif)" fill="var(--color-foreground)">Hormone Levels</text>' +
 
       // X axis
       '<line x1="30" y1="350" x2="280" y2="350" stroke="var(--color-border,#ccc)" stroke-width="1"/>' +
@@ -536,7 +536,7 @@ window.DIAGRAMS = {
       '<text x="220" y="170" font="bold 9px monospace" fill="#9c27b0">Progesterone</text>' +
 
       // Endometrium thickness bar
-      '<text x="150" y="40" text-anchor="middle" font="10px var(--font-body)" fill="var(--color-foreground)">Endometrium</text>' +
+      '<text x="150" y="40" text-anchor="middle" style="font:10px var(--font-body,sans-serif)" fill="var(--color-foreground)">Endometrium</text>' +
       '<rect x="30" y="48" width="250" height="15" rx="4" fill="#eee" stroke="#ccc"/>' +
       '<rect x="30" y="48" width="0" height="15" rx="4" fill="#e91e63" opacity="0.6">' +
         '<animate attributeName="width" values="250;50;100;180;250;250;250" dur="6s" repeatCount="indefinite"/>' +
@@ -566,7 +566,7 @@ window.DIAGRAMS = {
         '.fs2-pf{fill:#a5d6a7;stroke:#43a047;stroke-width:2;animation:fs2-pulse 2.5s ease-in-out infinite;transform-origin:250px 290px;cursor:pointer}' +
         '.fs2-dim{stroke-width:2.5;cursor:pointer;transition:all .3s}' +
         '.fs2-dim:hover{stroke-width:5;filter:drop-shadow(0 0 4px currentColor)}' +
-        '.fs2-dlbl{font:bold 10px var(--font-mono);pointer-events:none}' +
+        '.fs2-dlbl{font:bold 10px var(--font-mono,monospace);pointer-events:none}' +
       '</style></defs>' +
 
       // Skull outline
@@ -579,31 +579,31 @@ window.DIAGRAMS = {
       '<path d="M125,300 Q250,275 375,300" class="fs2-suture"/>' +
 
       // Suture labels
-      '<text x="205" y="55" font="italic 9px var(--font-body)" fill="#8d6e63">Frontal S.</text>' +
-      '<text x="370" y="125" font="italic 9px var(--font-body)" fill="#8d6e63">Coronal S.</text>' +
-      '<text x="270" y="260" font="italic 9px var(--font-body)" fill="#8d6e63">Sagittal S.</text>' +
-      '<text x="370" y="318" font="italic 9px var(--font-body)" fill="#8d6e63">Lambdoid S.</text>' +
+      '<text x="205" y="55" style="font:italic 9px var(--font-body,sans-serif)" fill="#8d6e63">Frontal S.</text>' +
+      '<text x="370" y="125" style="font:italic 9px var(--font-body,sans-serif)" fill="#8d6e63">Coronal S.</text>' +
+      '<text x="270" y="260" style="font:italic 9px var(--font-body,sans-serif)" fill="#8d6e63">Sagittal S.</text>' +
+      '<text x="370" y="318" style="font:italic 9px var(--font-body,sans-serif)" fill="#8d6e63">Lambdoid S.</text>' +
 
       // Bone labels
-      '<text x="180" y="85" text-anchor="middle" font="bold 12px var(--font-body)" fill="var(--color-foreground)">Frontal</text>' +
-      '<text x="320" y="85" text-anchor="middle" font="bold 12px var(--font-body)" fill="var(--color-foreground)">Frontal</text>' +
-      '<text x="145" y="220" text-anchor="middle" font="bold 12px var(--font-body)" fill="var(--color-foreground)">Parietal</text>' +
-      '<text x="355" y="220" text-anchor="middle" font="bold 12px var(--font-body)" fill="var(--color-foreground)">Parietal</text>' +
-      '<text x="250" y="355" text-anchor="middle" font="bold 12px var(--font-body)" fill="var(--color-foreground)">Occipital</text>' +
+      '<text x="180" y="85" text-anchor="middle" style="font:bold 12px var(--font-body,sans-serif)" fill="var(--color-foreground)">Frontal</text>' +
+      '<text x="320" y="85" text-anchor="middle" style="font:bold 12px var(--font-body,sans-serif)" fill="var(--color-foreground)">Frontal</text>' +
+      '<text x="145" y="220" text-anchor="middle" style="font:bold 12px var(--font-body,sans-serif)" fill="var(--color-foreground)">Parietal</text>' +
+      '<text x="355" y="220" text-anchor="middle" style="font:bold 12px var(--font-body,sans-serif)" fill="var(--color-foreground)">Parietal</text>' +
+      '<text x="250" y="355" text-anchor="middle" style="font:bold 12px var(--font-body,sans-serif)" fill="var(--color-foreground)">Occipital</text>' +
 
       // Anterior Fontanelle (diamond, pulsing)
       '<polygon points="250,120 275,155 250,190 225,155" class="fs2-af"/>' +
       '<text x="250" y="158" text-anchor="middle" font="bold 8px sans-serif" fill="#e65100">Bregma</text>' +
-      '<text x="300" y="140" font="bold 10px var(--font-body)" fill="#e65100">Anterior F.</text>' +
-      '<text x="300" y="153" font="9px var(--font-mono)" fill="#ef6c00">Diamond &#9830;</text>' +
-      '<text x="300" y="165" font="8px var(--font-mono)" fill="#ff8f00">Closes: 18 months</text>' +
+      '<text x="300" y="140" style="font:bold 10px var(--font-body,sans-serif)" fill="#e65100">Anterior F.</text>' +
+      '<text x="300" y="153" style="font:9px var(--font-mono,monospace)" fill="#ef6c00">Diamond &#9830;</text>' +
+      '<text x="300" y="165" style="font:8px var(--font-mono,monospace)" fill="#ff8f00">Closes: 18 months</text>' +
 
       // Posterior Fontanelle (triangle, pulsing)
       '<polygon points="250,278 268,298 232,298" class="fs2-pf"/>' +
       '<text x="250" y="293" text-anchor="middle" font="bold 7px sans-serif" fill="#2e7d32">&#9652;</text>' +
-      '<text x="300" y="293" font="bold 10px var(--font-body)" fill="#2e7d32">Posterior F.</text>' +
-      '<text x="300" y="306" font="9px var(--font-mono)" fill="#43a047">Triangle &#9650;</text>' +
-      '<text x="300" y="318" font="8px var(--font-mono)" fill="#66bb6a">Closes: 6-8 weeks</text>' +
+      '<text x="300" y="293" style="font:bold 10px var(--font-body,sans-serif)" fill="#2e7d32">Posterior F.</text>' +
+      '<text x="300" y="306" style="font:9px var(--font-mono,monospace)" fill="#43a047">Triangle &#9650;</text>' +
+      '<text x="300" y="318" style="font:8px var(--font-mono,monospace)" fill="#66bb6a">Closes: 6-8 weeks</text>' +
 
       // ── DIAMETERS (hoverable) ──
       // Biparietal
@@ -623,10 +623,10 @@ window.DIAGRAMS = {
 
       // Info box
       '<rect x="10" y="400" width="480" height="35" rx="8" fill="var(--color-card,#fff)" stroke="var(--color-border,#ccc)"/>' +
-      '<text x="250" y="417" text-anchor="middle" font="10px var(--font-body)" fill="var(--color-foreground)">' +
+      '<text x="250" y="417" text-anchor="middle" style="font:10px var(--font-body,sans-serif)" fill="var(--color-foreground)">' +
         '<tspan font-weight="bold" fill="#d32f2f">SOB 9.5cm</tspan> = well-flexed vertex (BEST for delivery!) | ' +
         '<tspan font-weight="bold" fill="#1565c0">Biparietal 9.5cm</tspan> = widest transverse</text>' +
-      '<text x="250" y="432" text-anchor="middle" font="9px var(--font-mono)" fill="var(--color-muted-foreground)">' +
+      '<text x="250" y="432" text-anchor="middle" style="font:9px var(--font-mono,monospace)" fill="var(--color-muted-foreground)">' +
         'Presenting part in vertex = Occiput. Denominator = O. Position = LOA (most common).</text>' +
 
       '</svg>' +
@@ -768,13 +768,13 @@ window.DIAGRAMS = {
       html += '<g class="pf-node" style="transform-origin:' + nx.toFixed(1) + 'px ' + ny.toFixed(1) + 'px">';
       html += '<circle cx="' + nx.toFixed(1) + '" cy="' + ny.toFixed(1) + '" r="34" fill="' + f.color + '" opacity="0.12" stroke="' + f.color + '" stroke-width="2"/>';
       html += '<text x="' + nx.toFixed(1) + '" y="' + (ny - 8).toFixed(1) + '" text-anchor="middle" font-size="20">' + f.icon + '</text>';
-      html += '<text x="' + nx.toFixed(1) + '" y="' + (ny + 9).toFixed(1) + '" text-anchor="middle" font="bold 10px var(--font-body)" fill="' + f.color + '">' + f.name + '</text>';
-      html += '<text x="' + nx.toFixed(1) + '" y="' + (ny + 22).toFixed(1) + '" text-anchor="middle" font="8px var(--font-mono)" fill="var(--color-muted-foreground,#888)">' + f.desc + '</text>';
+      html += '<text x="' + nx.toFixed(1) + '" y="' + (ny + 9).toFixed(1) + '" text-anchor="middle" style="font:bold 10px var(--font-body,sans-serif)" fill="' + f.color + '">' + f.name + '</text>';
+      html += '<text x="' + nx.toFixed(1) + '" y="' + (ny + 22).toFixed(1) + '" text-anchor="middle" style="font:8px var(--font-mono,monospace)" fill="var(--color-muted-foreground,#888)">' + f.desc + '</text>';
       html += '</g>';
     }
 
     html += '<rect x="25" y="378" width="390" height="32" rx="8" fill="var(--color-card,#fff)" stroke="var(--color-border,#ccc)"/>';
-    html += '<text x="220" y="399" text-anchor="middle" font="10px var(--font-mono)" fill="var(--color-foreground)"><tspan font-weight="bold">PRENSS+I</tspan> = Protective, Respiratory, Excretory, Nutritive, Storage, Secretory + Immune</text>';
+    html += '<text x="220" y="399" text-anchor="middle" style="font:10px var(--font-mono,monospace)" fill="var(--color-foreground)"><tspan font-weight="bold">PRENSS+I</tspan> = Protective, Respiratory, Excretory, Nutritive, Storage, Secretory + Immune</text>';
 
     html += '</svg></div>';
     return html;
@@ -913,78 +913,52 @@ window.DIAGRAMS = {
   }
 };
 
-// ─── ACTIVATION + PLAYBACK CONTROL ─────────────────────────────
-// Diagrams start paused and only animate while actually on screen. This
-//  (a) honours prefers-reduced-motion (freezes on a legible first frame),
-//  (b) gives screen readers one label instead of a wall of <text> nodes, and
-//  (c) saves battery/CPU — ~24 looping animations no longer run unseen.
+// ─── ACTIVATION ────────────────────────────────────────────────
+// Find every [data-diagram] placeholder, replace with the live HTML,
+// and let the browser run animations immediately. No pausing on inject —
+// every previous attempt to start-paused caused race conditions in the
+// modal context where IntersectionObserver fires before layout settles.
 (function () {
   var reduceMotion = !!(window.matchMedia &&
     window.matchMedia('(prefers-reduced-motion: reduce)').matches);
-  var observer = null;
 
   function eachSvg(el, fn) {
     var svgs = el.querySelectorAll('svg');
-    for (var i = 0; i < svgs.length; i++) {
-      if (typeof fn === 'function') { try { fn(svgs[i]); } catch (e) {} }
-    }
-  }
-  function pause(el) {                       // freeze CSS anims (class) + SMIL (method)
-    el.classList.add('diagram-paused');
-    eachSvg(el, function (s) { if (s.pauseAnimations) s.pauseAnimations(); });
-  }
-  function resume(el) {
-    if (reduceMotion) return;                // keep frozen on the first frame
-    el.classList.remove('diagram-paused');
-    eachSvg(el, function (s) { if (s.unpauseAnimations) s.unpauseAnimations(); });
-  }
-  function inView(el) {
-    var r = el.getBoundingClientRect();
-    return r.width > 0 && r.height > 0 &&
-           r.top < (window.innerHeight || 0) && r.bottom > 0;
+    for (var i = 0; i < svgs.length; i++) { try { fn(svgs[i]); } catch (e) {} }
   }
 
   window.activateDiagrams = function () {
     var slots = document.querySelectorAll('[data-diagram]');
-    var fresh = [];
     for (var i = 0; i < slots.length; i++) {
       var name = slots[i].getAttribute('data-diagram');
-      if (window.DIAGRAMS[name]) {
-        slots[i].innerHTML = window.DIAGRAMS[name]();
-        slots[i].removeAttribute('data-diagram');
-        var box = slots[i].querySelector('.interactive-diagram') || slots[i];
-        var titleEl = box.querySelector('.diagram-title');
-        var label = titleEl ? titleEl.textContent.replace(/\s+/g, ' ').trim() : name;
-        eachSvg(box, function (s) {
-          s.setAttribute('role', 'img');
-          s.setAttribute('aria-label', label);
-        });
-        pause(box);                          // start paused; the observer plays it when seen
-        fresh.push(box);
-      }
-    }
-    if (!fresh.length) return;
-
-    if (observer) { observer.disconnect(); }
-    if ('IntersectionObserver' in window) {
-      observer = new IntersectionObserver(function (entries) {
-        for (var k = 0; k < entries.length; k++) {
-          if (entries[k].isIntersecting) { resume(entries[k].target); }
-          else { pause(entries[k].target); }
-        }
-      }, { threshold: 0.15 });
-      for (var f = 0; f < fresh.length; f++) { observer.observe(fresh[f]); }
-    } else {
-      for (var g = 0; g < fresh.length; g++) { resume(fresh[g]); }   // no IO support: just play
+      if (!window.DIAGRAMS[name]) continue;
+      slots[i].innerHTML = window.DIAGRAMS[name]();
+      slots[i].removeAttribute('data-diagram');
+      var box = slots[i].querySelector('.interactive-diagram') || slots[i];
+      // Accessibility label on every SVG inside this diagram.
+      var label = (box.querySelector('.diagram-title') || {}).textContent || name;
+      eachSvg(box, function (s) {
+        s.setAttribute('role', 'img');
+        s.setAttribute('aria-label', label.replace(/\s+/g, ' ').trim());
+      });
+      // No pausing on inject — CSS @media (prefers-reduced-motion) scoped to
+      // non-diagram elements handles the reduce-motion case for the rest of the page.
     }
   };
 
-  // Stop all diagrams while the tab is backgrounded; re-check what's visible on return.
+  // Pause while the tab is hidden; resume on return.
   document.addEventListener('visibilitychange', function () {
+    if (reduceMotion) return;
     var boxes = document.querySelectorAll('.interactive-diagram');
     for (var i = 0; i < boxes.length; i++) {
-      if (document.hidden || !inView(boxes[i])) { pause(boxes[i]); }
-      else { resume(boxes[i]); }
+      var box = boxes[i];
+      if (document.hidden) {
+        box.classList.add('diagram-paused');
+        eachSvg(box, function (s) { if (s.pauseAnimations) s.pauseAnimations(); });
+      } else {
+        box.classList.remove('diagram-paused');
+        eachSvg(box, function (s) { if (s.unpauseAnimations) s.unpauseAnimations(); });
+      }
     }
   });
 })();
