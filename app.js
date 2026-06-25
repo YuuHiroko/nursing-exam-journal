@@ -20,6 +20,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const prevBtn = document.getElementById('prev-question');
     const nextBtn = document.getElementById('next-question');
     const markDoneBtn = document.getElementById('mark-done');
+    const questionToggle = document.getElementById('question-toggle');
+    const articleHeader = document.getElementById('article-header');
+    const navToggle = document.getElementById('nav-toggle');
+    const navBackdrop = document.getElementById('nav-backdrop');
+    const sidebarEl = document.getElementById('sidebar');
 
     // Syllabus view elements
     const syllabusBtn = document.getElementById('syllabus-btn');
@@ -29,8 +34,33 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentIndex = 0;
     let activeUnit = 'all';
     let activeMarks = 'all';
-    let activeStatus = 'all';            // all | todo | done
+    let activeStatus = 'all';            // all | todo | done | starred
+    let activeSearch = '';               // live keyword search term
     let showSyllabus = false;            // when true, main area shows the syllabus
+
+    const toast = (msg, type) => { if (window.toast) window.toast(msg, type); };
+
+    // Per-session preference: keep the question stem expanded across prev/next.
+    let cuffExpanded = false;
+    try { cuffExpanded = sessionStorage.getItem('cuffExpanded') === '1'; } catch (e) {}
+
+    // Reference-counted scroll lock shared by the reader modal AND the nav drawer,
+    // so closing one never unlocks the page while the other is still open.
+    let scrollLocks = 0;
+    function lockScroll() { scrollLocks++; document.body.classList.add('scroll-locked'); }
+    function unlockScroll() { scrollLocks = Math.max(0, scrollLocks - 1); if (!scrollLocks) document.body.classList.remove('scroll-locked'); }
+
+    // Question Cuff — collapse/expand the question stem in the reader header.
+    function setToggleLabel(expanded) {
+        if (questionToggle && questionToggle.firstChild)
+            questionToggle.firstChild.textContent = expanded ? 'collapse question ' : 'read full question ';
+    }
+    function setCuff(expanded) {
+        if (!questionToggle) return;
+        modalTitle.classList.toggle('is-clamped', !expanded);
+        questionToggle.setAttribute('aria-expanded', String(expanded));
+        setToggleLabel(expanded);
+    }
 
     // ── Completion checklist (persisted per device) ──────────────
     const DONE_KEY = 'examDone_v1';
@@ -48,6 +78,36 @@ document.addEventListener('DOMContentLoaded', () => {
         const k = qKey(q);
         if (done) doneSet.add(k); else doneSet.delete(k);
         saveDone();
+    }
+
+    // ── Bookmarks / starred questions (persisted per device) ─────
+    const STAR_KEY = 'examStar_v1';
+    function loadStar() {
+        try { return new Set(JSON.parse(localStorage.getItem(STAR_KEY)) || []); }
+        catch (e) { return new Set(); }
+    }
+    const starSet = loadStar();
+    const isStarred = q => starSet.has(qKey(q));
+    function saveStar() {
+        try { localStorage.setItem(STAR_KEY, JSON.stringify([...starSet])); } catch (e) {}
+    }
+    function setStar(q, v) {
+        const k = qKey(q);
+        if (v) starSet.add(k); else starSet.delete(k);
+        saveStar();
+    }
+
+    // Highlight every occurrence of the live-search term inside a question.
+    function highlightTerm(text, term) {
+        text = String(text == null ? '' : text);
+        if (!term) return text;
+        const lc = text.toLowerCase(), t = term.toLowerCase();
+        let out = '', i = 0, j;
+        while ((j = lc.indexOf(t, i)) !== -1) {
+            out += text.slice(i, j) + '<mark>' + text.slice(j, j + term.length) + '</mark>';
+            i = j + term.length;
+        }
+        return out + text.slice(i);
     }
 
     // Progress bar + per-unit / overall counters.
@@ -96,12 +156,16 @@ document.addEventListener('DOMContentLoaded', () => {
         listContainer.innerHTML = '';
         const all = getAllQuestions();
         
+        const term = activeSearch.trim().toLowerCase();
         currentQuestions = all.filter(q => {
             const unitMatch = activeUnit === 'all' || q.unit == activeUnit;
             const marksMatch = activeMarks === 'all' || q.marks == activeMarks;
-            const statusMatch = activeStatus === 'all' ||
-                (activeStatus === 'done' ? isDone(q) : !isDone(q));
-            return unitMatch && marksMatch && statusMatch;
+            let statusMatch = true;
+            if (activeStatus === 'done') statusMatch = isDone(q);
+            else if (activeStatus === 'todo') statusMatch = !isDone(q);
+            else if (activeStatus === 'starred') statusMatch = isStarred(q);
+            const searchMatch = !term || String(q.question || '').toLowerCase().includes(term);
+            return unitMatch && marksMatch && statusMatch && searchMatch;
         });
 
         // Update header
@@ -125,7 +189,15 @@ document.addEventListener('DOMContentLoaded', () => {
             sectionTitle.textContent = unitNames[activeUnit] || 'UNIT ' + activeUnit;
             sectionSubtitle.textContent = currentQuestions.length + ' questions';
         }
-        
+
+        if (term) {
+            sectionSubtitle.textContent = 'Showing ' + currentQuestions.length + ' of ' +
+                all.length + ' questions for "' + activeSearch.trim() + '"';
+        } else if (activeStatus === 'starred') {
+            sectionSubtitle.textContent = currentQuestions.length + ' bookmarked question' +
+                (currentQuestions.length === 1 ? '' : 's');
+        }
+
         if (currentQuestions.length === 0) {
             listContainer.innerHTML = '<div style="padding:2rem;text-align:center;"><span class="mono-label">NO ENTRIES FOUND FOR THIS CRITERIA.</span></div>';
             return;
@@ -137,13 +209,14 @@ document.addEventListener('DOMContentLoaded', () => {
             card.dataset.qkey = qKey(q);
             const num = String(index + 1).padStart(2, '0');
 
+            const starred = isStarred(q);
             card.innerHTML =
                 '<button class="q-check" type="button" aria-pressed="' + isDone(q) + '" ' +
                     'aria-label="Mark as completed" title="Mark as completed">' +
                     '<span class="q-check-tick">&#10003;</span></button>' +
                 '<div class="q-number">' + num + '</div>' +
                 '<div class="q-content">' +
-                    '<h3 class="q-text">' + q.question + '</h3>' +
+                    '<h3 class="q-text">' + highlightTerm(q.question, activeSearch.trim()) + '</h3>' +
                     '<div class="q-meta">' +
                         '<span>' + getUnitLabel(q.unit) + '</span>' +
                         '<span>REPEATED: ' + q.repeated + 'x</span>' +
@@ -151,6 +224,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     '</div>' +
                 '</div>' +
                 '<div class="q-marks-area">' +
+                    '<button class="q-bookmark' + (starred ? ' starred' : '') + '" type="button" ' +
+                        'aria-pressed="' + starred + '" aria-label="Bookmark question" title="Bookmark">' +
+                        (starred ? '★' : '☆') + '</button>' +
                     '<span class="marks-badge">' + q.marks + ' M</span>' +
                 '</div>';
 
@@ -163,7 +239,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 card.classList.toggle('is-done', nowDone);
                 chk.setAttribute('aria-pressed', nowDone);
                 updateProgress();
+                toast(nowDone ? 'Question marked complete ✓' : 'Marked as to-do', nowDone ? 'success' : 'info');
                 if (activeStatus !== 'all') renderQuestions();  // drop/add from filtered view
+            });
+            const star = card.querySelector('.q-bookmark');
+            star.addEventListener('click', (e) => {
+                e.stopPropagation();                 // don't open the modal
+                const nowStar = !isStarred(q);
+                setStar(q, nowStar);
+                star.classList.toggle('starred', nowStar);
+                star.setAttribute('aria-pressed', nowStar);
+                star.textContent = nowStar ? '★' : '☆';
+                toast(nowStar ? 'Bookmarked ★' : 'Bookmark removed', 'info');
+                if (activeStatus === 'starred' && !nowStar) renderQuestions();  // drop from starred view
             });
             listContainer.appendChild(card);
         });
@@ -313,6 +401,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const q = currentQuestions[index];
 
         modalTitle.innerHTML = q.question;
+        if (articleHeader) articleHeader.dataset.marks = q.marks;   // marks-weight spine tint
+        if (questionToggle) questionToggle.hidden = true;
+        setCuff(false);                                             // start collapsed; measured below
         modalMeta.textContent = 'REPEATED: ' + q.repeated + ' TIMES | ' + q.years;
         modalMarks.textContent = q.marks + ' MARKS';
         modalUnit.textContent = getUnitLabel(q.unit);
@@ -337,13 +428,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 const card = listContainer.querySelector('[data-qkey="' + qKey(q) + '"]');
                 if (card) card.classList.toggle('is-done', nd);
                 updateProgress();
+                toast(nd ? 'Question marked complete ✓' : 'Marked as to-do', nd ? 'success' : 'info');
             };
         }
 
         // Show modal BEFORE injecting content so CSS animations fire on a visible element.
         // (Animations on display:none elements don't run — they'd skip to end-state instantly.)
+        // Lock scroll only on a true open transition — openModal is ALSO the
+        // prev/next handler, so re-entrant calls must not stack the lock.
+        const wasHidden = overlay.classList.contains('hidden');
         overlay.classList.remove('hidden');
-        document.body.style.overflow = 'hidden';
+        if (wasHidden) lockScroll();
         overlay.scrollTop = 0;
         modalBody.scrollTop = 0;
 
@@ -352,12 +447,21 @@ document.addEventListener('DOMContentLoaded', () => {
         requestAnimationFrame(() => {
             modalBody.innerHTML = q.answer || '';
             if (window.activateDiagrams) window.activateDiagrams();
+            // Question Cuff: reveal the toggle only when the stem exceeds 2 lines;
+            // short questions render in full with no chrome.
+            if (questionToggle) {
+                const overflows = modalTitle.scrollHeight > modalTitle.clientHeight + 1;
+                questionToggle.hidden = !overflows;
+                if (!overflows) modalTitle.classList.remove('is-clamped');
+                else if (cuffExpanded) setCuff(true);   // honour per-session preference
+            }
         });
     }
 
     function closeModal() {
+        if (overlay.classList.contains('hidden')) return;   // balance the single lock
         overlay.classList.add('hidden');
-        document.body.style.overflow = '';
+        unlockScroll();
     }
 
     // Event Listeners
@@ -396,6 +500,7 @@ document.addEventListener('DOMContentLoaded', () => {
             btn.classList.add('active');
             activeUnit = btn.dataset.unit;
             renderQuestions();
+            toast('Showing ' + currentQuestions.length + ' questions', 'info');
         });
     });
 
@@ -407,10 +512,11 @@ document.addEventListener('DOMContentLoaded', () => {
             btn.classList.add('active');
             activeMarks = btn.dataset.filter;
             renderQuestions();
+            toast('Showing ' + currentQuestions.length + ' questions', 'info');
         });
     });
 
-    // Status (checklist) filtering — All / To-Do / Done
+    // Status (checklist) filtering — All / To-Do / Done / Starred
     statusBtns.forEach(btn => {
         btn.addEventListener('click', () => {
             exitSyllabus();
@@ -420,6 +526,91 @@ document.addEventListener('DOMContentLoaded', () => {
             renderQuestions();
         });
     });
+
+    // ── Live keyword search (debounced, combines with all filters) ──
+    const searchInput = document.getElementById('q-search');
+    const searchClearBtn = document.getElementById('q-search-clear');
+    const searchBox = document.querySelector('.search-box');
+    let searchDebounce;
+    function applySearch(val) {
+        activeSearch = val;
+        if (searchBox) searchBox.classList.toggle('has-text', !!val);
+        exitSyllabus();
+        renderQuestions();
+    }
+    if (searchInput) {
+        searchInput.addEventListener('input', () => {
+            const v = searchInput.value;
+            if (searchBox) searchBox.classList.toggle('has-text', !!v);
+            clearTimeout(searchDebounce);
+            searchDebounce = setTimeout(() => applySearch(v), 150);
+        });
+        searchInput.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                searchInput.value = '';
+                clearTimeout(searchDebounce);
+                applySearch('');
+                searchInput.blur();
+            }
+        });
+    }
+    if (searchClearBtn) {
+        searchClearBtn.addEventListener('click', () => {
+            if (searchInput) searchInput.value = '';
+            clearTimeout(searchDebounce);
+            applySearch('');
+            if (searchInput) searchInput.focus();
+            toast('Showing all ' + getAllQuestions().length + ' questions', 'info');
+        });
+    }
+
+    // ── Question Cuff toggle (expand / collapse the stem in place) ──
+    if (questionToggle) {
+        questionToggle.addEventListener('click', () => {
+            const expand = modalTitle.classList.contains('is-clamped');   // clamped → expand
+            setCuff(expand);
+            cuffExpanded = expand;
+            try { sessionStorage.setItem('cuffExpanded', expand ? '1' : '0'); } catch (e) {}
+        });
+    }
+
+    // ── Mobile navigation drawer ───────────────────────────────────
+    // Reuses the SAME <aside id="sidebar"> as a slide-in panel on ≤900px.
+    function drawerOpen() { return document.body.classList.contains('nav-open'); }
+    function openDrawer() {
+        document.body.classList.add('nav-open');
+        if (navToggle) navToggle.setAttribute('aria-expanded', 'true');
+        lockScroll();
+        const first = document.getElementById('syllabus-btn');  // avoid auto-popping the keyboard
+        if (first) first.focus();
+    }
+    function closeDrawer() {
+        if (!drawerOpen()) return;
+        document.body.classList.remove('nav-open');
+        if (navToggle) { navToggle.setAttribute('aria-expanded', 'false'); navToggle.focus(); }
+        unlockScroll();
+    }
+    if (navToggle) navToggle.addEventListener('click', () => { drawerOpen() ? closeDrawer() : openDrawer(); });
+    if (navBackdrop) navBackdrop.addEventListener('click', closeDrawer);
+    // Picking any filter/unit/status/syllabus closes the drawer (mobile only).
+    if (sidebarEl) sidebarEl.addEventListener('click', (e) => {
+        if (drawerOpen() && e.target.closest('.unit-btn, .filter-btn, .status-btn, #syllabus-btn')) closeDrawer();
+    });
+    // Escape closes the drawer; focus stays trapped inside while open.
+    document.addEventListener('keydown', (e) => {
+        if (!drawerOpen()) return;
+        if (e.key === 'Escape') { closeDrawer(); return; }
+        if (e.key === 'Tab' && sidebarEl) {
+            const items = sidebarEl.querySelectorAll('a[href], button:not([disabled]):not([hidden]), input, [tabindex]:not([tabindex="-1"])');
+            const visible = Array.prototype.filter.call(items, el => el.offsetParent !== null);
+            if (!visible.length) return;
+            const first = visible[0], last = visible[visible.length - 1];
+            if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+            else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+        }
+    });
+    // Leaving the mobile breakpoint with the drawer open: tidy up.
+    window.addEventListener('resize', () => { if (window.innerWidth > 900 && drawerOpen()) closeDrawer(); });
 
     // Initialize (sync — data scripts load before app.js)
     renderQuestions();

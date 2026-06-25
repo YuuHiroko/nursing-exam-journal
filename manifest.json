@@ -1,0 +1,21 @@
+{
+  "name": "The Nursing Exam Journal",
+  "short_name": "Exam Journal",
+  "description": "MUHS B.Sc Nursing — Midwifery & Obstetrics previous-year questions with model answers. Study offline.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f1419",
+  "theme_color": "#6366f1",
+  "categories": ["education", "medical", "books"],
+  "lang": "en",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any maskable"
+    }
+  ]
+}

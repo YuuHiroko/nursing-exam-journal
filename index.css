@@ -1926,3 +1926,327 @@ html.gate-locked .site-footer { display: none !important; }
     .syl-content-list li, .syl-desc { font-size: 0.88rem; }
     .syl-course { margin-bottom: 2.25rem; }
 }
+
+/* ================================================================
+   16. PRD UPGRADE LAYER — search · toasts · reading bar · ripple ·
+       study timer · bookmark · keyboard help · focus · print
+   All tokens reused; full light/dark, reduced-motion & mobile.
+   ================================================================ */
+
+/* 16.0 Accessibility — visible keyboard focus everywhere ------- */
+:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+/* Mouse users keep the clean look (no outline on :active click). */
+.toast-stack :focus:not(:focus-visible) { outline: none; }
+
+/* 16.1 Material ripple (JS-positioned ink, CSS-animated) ------- */
+.filter-btn, .unit-btn, .status-btn, .nav-btn, .syllabus-btn,
+.mark-done-btn, .timer-btn, .search-clear {
+    position: relative;
+    overflow: hidden;
+}
+.ripple-ink {
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    background: currentColor;
+    opacity: 0.25;
+    pointer-events: none;
+    will-change: transform, opacity;
+    animation: ripple-ink 0.55s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+@keyframes ripple-ink { to { transform: scale(2.6); opacity: 0; } }
+
+/* 16.2 Live keyword search ------------------------------------ */
+.search-box { position: relative; margin-bottom: 0.85rem; }
+.search-input {
+    width: 100%;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    color: var(--color-foreground);
+    background: var(--color-card);
+    border: 1px solid var(--color-border);
+    border-radius: 9999px;
+    padding: 0.7rem 2.6rem 0.7rem 2.5rem;
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+.search-input::placeholder { color: var(--color-muted-foreground); }
+.search-input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px color-mix(in oklch, var(--color-primary) 25%, transparent);
+}
+.search-icon {
+    position: absolute; left: 0.95rem; top: 50%; transform: translateY(-50%);
+    color: var(--color-muted-foreground); font-size: 0.95rem; pointer-events: none; line-height: 1;
+}
+.search-clear {
+    position: absolute; right: 0.5rem; top: 50%; transform: translateY(-50%);
+    width: 28px; height: 28px; border-radius: 50%; border: none; padding: 0;
+    background: var(--color-muted); color: var(--color-muted-foreground);
+    cursor: pointer; display: none; align-items: center; justify-content: center;
+    font-size: 1rem; line-height: 1;
+}
+.search-box.has-text .search-clear { display: inline-flex; }
+.search-clear:hover { color: var(--color-destructive); }
+.q-text mark {
+    background: color-mix(in oklch, var(--color-secondary) 45%, transparent);
+    color: inherit; border-radius: 3px; padding: 0 2px;
+}
+
+/* 16.3 Toast notifications ------------------------------------ */
+.toast-stack {
+    position: fixed; right: 1.25rem; bottom: 1.25rem; z-index: 9000;
+    display: flex; flex-direction: column; gap: 0.6rem; align-items: flex-end;
+    pointer-events: none; max-width: calc(100vw - 2.5rem);
+}
+.toast {
+    pointer-events: auto;
+    min-width: 200px; max-width: min(360px, calc(100vw - 2.5rem));
+    background: var(--color-card); color: var(--color-card-foreground);
+    border: 1px solid var(--color-border); border-left: 4px solid var(--color-primary);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-hover);
+    padding: 0.8rem 1rem;
+    font-family: var(--font-body); font-size: 0.86rem; font-weight: 500;
+    display: flex; align-items: center; gap: 0.6rem;
+    cursor: pointer;
+    animation: toastIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.toast.toast-out { animation: toastOut 0.2s ease-in forwards; }
+.toast.success { border-left-color: #10b981; }
+.toast.warn { border-left-color: #f59e0b; }
+.toast-icon { font-size: 1rem; line-height: 1; flex-shrink: 0; }
+.toast-msg { min-width: 0; }
+@keyframes toastIn  { from { opacity: 0; transform: translateX(120%); } to { opacity: 1; transform: translateX(0); } }
+@keyframes toastOut { from { opacity: 1; transform: translateX(0); }    to { opacity: 0; transform: translateX(120%); } }
+
+/* 16.4 Reading progress bar ----------------------------------- */
+.reading-bar {
+    position: fixed; top: 0; left: 0; height: 3px; width: 0;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+    z-index: 9999; pointer-events: none;
+    transition: width 0.08s linear, opacity 0.3s ease;
+}
+.reading-bar.flash { animation: readingFlash 0.45s ease; }
+@keyframes readingFlash { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
+
+/* 16.5 Study timer (Pomodoro) in sidebar ---------------------- */
+.timer-box { text-align: center; }
+.timer-display {
+    font-family: var(--font-mono); font-size: 1.9rem; font-weight: 700;
+    letter-spacing: 0.02em; color: var(--color-foreground); line-height: 1.1;
+}
+.timer-box.is-break .timer-display { color: var(--color-secondary); }
+.timer-state {
+    font-family: var(--font-mono); font-size: 0.62rem; text-transform: uppercase;
+    letter-spacing: 0.08em; color: var(--color-muted-foreground); margin-top: 0.25rem;
+}
+.timer-controls { display: flex; gap: 0.4rem; justify-content: center; margin-top: 0.85rem; }
+.timer-btn {
+    flex: 1; max-width: 96px;
+    font-family: var(--font-body); font-size: 0.74rem; font-weight: 600;
+    padding: 0.45rem 0.7rem; border-radius: 9999px; cursor: pointer;
+    border: 1px solid var(--color-border); background: var(--color-card); color: var(--color-foreground);
+    transition: all 0.2s ease;
+}
+.timer-btn.primary { background: var(--color-primary); color: var(--color-primary-foreground); border-color: var(--color-primary); }
+.timer-btn:hover { box-shadow: var(--shadow-sm); transform: translateY(-1px); }
+
+/* 16.6 Bookmark / star on question cards ---------------------- */
+.q-marks-area { flex-direction: column; gap: 0.55rem; }
+.q-bookmark {
+    background: none; border: none; padding: 2px; cursor: pointer; line-height: 1;
+    font-size: 1.15rem; color: var(--color-muted-foreground); opacity: 0.45;
+    transition: transform 0.15s ease, opacity 0.15s ease, color 0.15s ease;
+}
+.q-bookmark:hover { transform: scale(1.22); opacity: 1; }
+.q-bookmark.starred { color: #f59e0b; opacity: 1; }
+
+/* 16.7 Keyboard shortcut help overlay ------------------------- */
+.kbd-help-overlay {
+    position: fixed; inset: 0; z-index: 9500; display: none;
+    align-items: center; justify-content: center; padding: 1.5rem;
+    background: color-mix(in oklch, var(--color-background) 55%, transparent);
+    backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+}
+.kbd-help-overlay.show { display: flex; animation: fadeIn 0.2s ease both; }
+.kbd-help-card {
+    background: var(--color-card); color: var(--color-card-foreground);
+    border: 1px solid var(--color-border); border-radius: var(--radius);
+    box-shadow: var(--shadow-hover); padding: 1.75rem 2rem; width: 100%; max-width: 420px;
+    animation: scaleIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+.kbd-help-card h3 {
+    font-family: var(--font-heading); font-size: 1.2rem; font-weight: 700;
+    margin-bottom: 1rem; display: flex; justify-content: space-between; align-items: center;
+}
+.kbd-help-close {
+    background: none; border: none; cursor: pointer; font-size: 1.3rem;
+    color: var(--color-muted-foreground); line-height: 1;
+}
+.kbd-row {
+    display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+    padding: 0.55rem 0; font-size: 0.88rem;
+    border-bottom: 1px dashed color-mix(in oklch, var(--color-border) 80%, transparent);
+}
+.kbd-row:last-child { border-bottom: none; }
+.kbd-help-card kbd {
+    font-family: var(--font-mono); font-size: 0.76rem;
+    background: var(--color-muted); color: var(--color-foreground);
+    border: 1px solid var(--color-border); border-radius: 6px;
+    padding: 0.15rem 0.5rem; box-shadow: 0 1px 0 var(--color-border);
+}
+
+/* 16.8 Mobile tweaks for the new layer ------------------------ */
+@media (max-width: 600px) {
+    .toast-stack { right: 0.75rem; left: 0.75rem; bottom: 0.75rem; align-items: stretch; }
+    .toast { max-width: none; }
+    .q-marks-area { flex-direction: row; }   /* star + badge inline on stacked cards */
+}
+
+/* 16.9 Print — clean A4 model-answer sheet -------------------- */
+@media print {
+    .top-bar, .sidebar, .site-footer, .reading-bar, .toast-stack,
+    .kbd-help-overlay, .theme-toggle, .article-footer, .close-btn,
+    .search-box, .progress-row, .masthead-meta, .mark-done-btn { display: none !important; }
+
+    html, body { background: #fff !important; color: #000 !important; }
+    .main-layout { display: block !important; padding: 0 !important; }
+    /* Only reveal the reader when an answer is actually open; never the empty shell. */
+    .overlay.hidden { display: none !important; }
+    .overlay:not(.hidden) {
+        position: static !important; display: block !important; padding: 0 !important;
+        background: #fff !important; backdrop-filter: none !important; overflow: visible !important;
+    }
+    .article-modal {
+        box-shadow: none !important; border: none !important; border-radius: 0 !important;
+        max-height: none !important; height: auto !important; margin: 0 !important;
+    }
+    .article-body { overflow: visible !important; max-height: none !important; }
+    .article-modal, .article-modal * { color: #000 !important; }
+    * { animation: none !important; transition: none !important; }
+}
+
+/* 16.10 Honour reduced-motion for all new animations --------- */
+@media (prefers-reduced-motion: reduce) {
+    .ripple-ink { display: none !important; }
+    .toast, .kbd-help-overlay.show, .kbd-help-card { animation: none !important; }
+    .reading-bar { transition: none !important; }
+}
+
+/* ================================================================
+   17. ANSWER-FIRST READER — "Question Cuff"
+   The question stem demotes to a compact, marks-tinted cuff so the
+   model answer owns the viewport. Tap the chevron to expand in place.
+   ================================================================ */
+
+/* Header now self-caps so even a fully-expanded 15-mark stem can never
+   crowd out the answer: it scrolls inside its own 42% band. */
+.article-header {
+    max-height: 42dvh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    border-left: 4px solid var(--color-border);   /* marks-weight spine */
+}
+.article-header[data-marks="15"] { border-left-color: var(--color-primary); }
+.article-header[data-marks="10"] { border-left-color: color-mix(in oklch, var(--color-primary) 70%, var(--color-muted-foreground)); }
+.article-header[data-marks="5"]  { border-left-color: color-mix(in oklch, var(--color-primary) 45%, var(--color-muted-foreground)); }
+.article-header[data-marks="2"]  { border-left-color: var(--color-muted-foreground); }
+
+/* Demote the hero title to a calm, readable cuff. */
+.article-title {
+    font-size: clamp(1.15rem, 2.4vw, 1.5rem);
+    line-height: 1.35;
+    letter-spacing: -0.01em;
+}
+.article-title.is-clamped {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* "read full question ⌄" toggle — only shown when the stem overflows. */
+.q-toggle {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    margin-top: 0.6rem; min-height: 44px; padding: 0.2rem 0.1rem;
+    background: none; border: none; cursor: pointer;
+    color: var(--color-primary);
+    font-family: var(--font-heading); font-size: 0.74rem; font-weight: 600;
+    letter-spacing: 0.05em; text-transform: uppercase;
+}
+.q-toggle[hidden] { display: none; }
+.q-toggle:hover { color: var(--color-secondary); }
+.q-toggle .chev { transition: transform 0.2s ease; font-size: 0.9rem; }
+.q-toggle[aria-expanded="true"] .chev { transform: rotate(180deg); }
+
+/* ================================================================
+   18. MOBILE NAVIGATION DRAWER (≤900px)
+   The SAME <aside id="sidebar"> slides in from the left; no markup is
+   duplicated. Hamburger lives in the top bar and morphs into an X.
+   ================================================================ */
+.nav-toggle {
+    display: none;                         /* desktop: hidden, sidebar is static */
+    width: 40px; height: 40px; flex-shrink: 0;
+    align-items: center; justify-content: center;
+    background: var(--color-card); border: 1px solid var(--color-border);
+    border-radius: 9999px; cursor: pointer; padding: 0;
+}
+.nav-toggle-bars { position: relative; width: 18px; height: 14px; }
+.nav-toggle-bars span {
+    position: absolute; left: 0; width: 100%; height: 2px; border-radius: 2px;
+    background: var(--color-foreground); transition: transform 0.3s ease, opacity 0.2s ease;
+}
+.nav-toggle-bars span:nth-child(1) { top: 0; }
+.nav-toggle-bars span:nth-child(2) { top: 6px; }
+.nav-toggle-bars span:nth-child(3) { top: 12px; }
+body.nav-open .nav-toggle-bars span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+body.nav-open .nav-toggle-bars span:nth-child(2) { opacity: 0; }
+body.nav-open .nav-toggle-bars span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+.nav-backdrop {
+    display: none;                          /* desktop: never shown */
+    position: fixed; inset: 0; z-index: 1090;
+    background: color-mix(in oklch, var(--color-background) 35%, transparent);
+    backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px);
+    opacity: 0; pointer-events: none; transition: opacity 0.35s ease;
+}
+
+@media (max-width: 900px) {
+    .nav-toggle { display: inline-flex; }
+
+    /* Turn the existing sidebar into a left drawer (overrides the static rule
+       set earlier in the ≤900px block — later same-specificity rule wins). */
+    .sidebar {
+        position: fixed; top: 0; left: 0;
+        height: 100vh; height: 100dvh;
+        width: min(86vw, 340px);
+        margin: 0; padding: 1.25rem 1.1rem 2rem;
+        overflow-y: auto; overscroll-behavior: contain;
+        background: var(--color-card);
+        border-right: 1px solid var(--color-border);
+        box-shadow: var(--shadow-hover);
+        z-index: 1100;
+        transform: translateX(-100%);
+        transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    body.nav-open .sidebar { transform: translateX(0); }
+
+    .nav-backdrop { display: block; }
+    body.nav-open .nav-backdrop { opacity: 1; pointer-events: auto; }
+}
+
+/* Shared scroll lock used by BOTH the reader modal and the drawer so neither
+   clobbers the other's lock (reference-counted in app.js). */
+body.scroll-locked { overflow: hidden; }
+
+@media (prefers-reduced-motion: reduce) {
+    .sidebar { transition: none !important; }
+    .nav-backdrop { transition: none !important; }
+    .nav-toggle-bars span { transition: none !important; }
+    .q-toggle .chev { transition: none !important; }
+}

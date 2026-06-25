@@ -5,10 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE NURSING EXAM JOURNAL – Midwifery & Obstetrics</title>
     <meta name="description" content="MUHS B.Sc Nursing exam model answers for Midwifery and Obstetrics.">
+    <meta name="theme-color" content="#6366f1">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/svg+xml" href="assets/icon.svg">
+    <link rel="apple-touch-icon" href="assets/icon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css?v=24">
+    <link rel="stylesheet" href="index.css?v=27">
     <!-- Device PIN gate (runs before paint; locks page until unlocked) -->
     <script src="pin-gate.js?v=17"></script>
     <!-- Dark-mode init (runs before paint to avoid flash) -->
@@ -26,11 +30,16 @@
     <!-- Top Bar -->
     <div class="top-bar">
         <div class="top-bar-inner">
+            <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open menu" aria-controls="sidebar" aria-expanded="false">
+                <span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+            </button>
             <span class="mono-label">VOL. 01 — MIDWIFERY & OBSTETRICS</span>
             <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode"></button>
             <span class="mono-label right-align">MUHS B.SC NURSING</span>
         </div>
     </div>
+    <!-- Backdrop for the mobile navigation drawer -->
+    <div class="nav-backdrop" id="nav-backdrop"></div>
 
     <!-- Header Masthead -->
     <header class="masthead">
@@ -45,7 +54,18 @@
 
     <div class="main-layout">
         <!-- Sidebar Navigation / Filters -->
-        <aside class="sidebar">
+        <aside class="sidebar" id="sidebar">
+            <!-- Live keyword search -->
+            <div class="sidebar-section">
+                <div class="search-box">
+                    <span class="search-icon" aria-hidden="true">🔍</span>
+                    <input type="text" id="q-search" class="search-input" inputmode="search"
+                           placeholder="Search questions…" aria-label="Search questions"
+                           autocomplete="off" enterkeyhint="search">
+                    <button type="button" id="q-search-clear" class="search-clear" aria-label="Clear search">&times;</button>
+                </div>
+            </div>
+
             <!-- Syllabus -->
             <div class="sidebar-section">
                 <button class="syllabus-btn" id="syllabus-btn" type="button">📖 View Full Syllabus</button>
@@ -85,13 +105,26 @@
             <div class="sidebar-section inverted-section">
                 <h2 class="sidebar-title inverted-title">QUICK STATS</h2>
                 <ul class="stats-list">
-                    <li><span class="stat-lbl">INDIA MMR</span><span class="stat-val">97</span></li>
+                    <li><span class="stat-lbl">INDIA MMR</span><span class="stat-val" data-count-animate>97</span></li>
                     <li><span class="stat-lbl">SDG TARGET</span><span class="stat-val">&lt;70</span></li>
                     <li><span class="stat-lbl">TOTAL QUESTIONS</span><span class="stat-val" id="stat-total">238</span></li>
                     <li><span class="stat-lbl">COMPLETED</span><span class="stat-val" id="stat-completed">0</span></li>
                 </ul>
             </div>
-            
+
+            <!-- Study timer (Pomodoro) -->
+            <div class="sidebar-section">
+                <h2 class="sidebar-title">STUDY TIMER</h2>
+                <div class="timer-box" id="study-timer">
+                    <div class="timer-display" id="timer-display">25:00</div>
+                    <div class="timer-state" id="timer-state">FOCUS · POMODORO</div>
+                    <div class="timer-controls">
+                        <button class="timer-btn primary" id="timer-toggle" type="button">Start</button>
+                        <button class="timer-btn" id="timer-reset" type="button">Reset</button>
+                    </div>
+                </div>
+            </div>
+
             <div class="sidebar-section border-none">
                 <p class="sidebar-text">Curated model answers crafted for perfect exam scoring. Featuring strict structural adherence, clinical notes, and analytical diagrams.</p>
             </div>
@@ -109,6 +142,7 @@
                         <button class="status-btn active" type="button" data-status="all">All</button>
                         <button class="status-btn" type="button" data-status="todo">To-Do</button>
                         <button class="status-btn" type="button" data-status="done">Done</button>
+                        <button class="status-btn" type="button" data-status="starred" aria-label="Bookmarked">★ Starred</button>
                     </div>
                 </div>
             </div>
@@ -121,7 +155,7 @@
     <!-- Answer Modal / Article Reader -->
     <div id="answer-overlay" class="overlay hidden" role="dialog" aria-modal="true">
         <div class="article-modal">
-            <div class="article-header">
+            <div class="article-header" id="article-header">
                 <button class="close-btn" id="close-modal" aria-label="Close">CLOSE [X]</button>
                 <div class="article-meta">
                     <span class="badge" id="modal-marks"></span>
@@ -130,6 +164,7 @@
                     <button class="mark-done-btn" id="mark-done" type="button" aria-pressed="false">Mark as completed</button>
                 </div>
                 <h2 id="modal-question-title" class="article-title"></h2>
+                <button id="question-toggle" class="q-toggle" type="button" aria-expanded="false" aria-controls="modal-question-title" hidden>read full question <span class="chev" aria-hidden="true">⌄</span></button>
             </div>
             <div class="article-body" id="modal-body"></div>
             <div class="article-footer">
@@ -158,7 +193,8 @@
     <script src="data-obg2.js?v=2"></script>
     <script src="diagrams.js?v=6"></script>
     <script src="syllabus.js?v=1"></script>
-    <script src="app.js?v=22"></script>
+    <script src="enhancements.js?v=1"></script>
+    <script src="app.js?v=24"></script>
     <!-- Dark-mode toggle wiring (theme only; page logic lives in app.js) -->
     <script>
         (function () {
@@ -173,10 +209,20 @@
             render();
             btn.addEventListener('click', function () {
                 root.classList.toggle('dark');
-                localStorage.setItem('theme', root.classList.contains('dark') ? 'dark' : 'light');
+                var dark = root.classList.contains('dark');
+                localStorage.setItem('theme', dark ? 'dark' : 'light');
                 render();
+                if (window.toast) window.toast(dark ? 'Dark mode on' : 'Light mode on', 'info');
             });
         })();
+    </script>
+    <!-- PWA: offline support via service worker (no-op on unsupported browsers) -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('sw.js').catch(function () {});
+            });
+        }
     </script>
 </body>
 </html>
