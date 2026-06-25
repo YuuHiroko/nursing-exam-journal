@@ -1,0 +1,22 @@
+{
+  "71": {
+    "intro": "",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definition</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>Essential Care of Newborn:</strong> A set of evidence-based interventions provided immediately after birth to ensure the survival, health, and well-being of the neonate, including thermal protection, airway clearance, cord care, and initiation of breastfeeding.\n  </div>\n</div>",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">Essential newborn care following WHO &amp; FIGO guidelines significantly reduces neonatal morbidity and mortality. Prompt, systematic care in the first golden hour &mdash; particularly early skin-to-skin contact and breastfeeding &mdash; is a cornerstone of neonatal nursing practice under MUHS curriculum.</p>\n</div>"
+  },
+  "72": {
+    "intro": "",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definition</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>Neonatal Assessment:</strong> A systematic head-to-toe physical and behavioral examination of the newborn conducted within the first 24 hours of birth to identify congenital anomalies, physiological adaptations, and any deviations from normal that require early intervention.\n  </div>\n</div>",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">Thorough neonatal assessment enables early detection of life-threatening conditions and guides timely referral. The nurse's role in systematic observation and documentation is critical for promoting optimal neonatal outcomes in both hospital and community settings.</p>\n</div>"
+  },
+  "73": {
+    "intro": "",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definition</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>APGAR Score:</strong> A rapid, standardized scoring system devised by Dr. Virginia Apgar (1952) to evaluate the newborn's condition at 1 minute and 5 minutes after birth, assessing five parameters &mdash; Appearance, Pulse, Grimace, Activity, and Respiration &mdash; each scored 0&ndash;2 (total 0&ndash;10).\n  </div>\n</div>",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">APGAR score remains the gold standard for immediate postnatal assessment worldwide. A score of 7&ndash;10 indicates a healthy newborn, 4&ndash;6 requires stimulation, and &lt;4 necessitates immediate resuscitation &mdash; making prompt scoring an essential nursing competency in the delivery room.</p>\n</div>"
+  },
+  "74": {
+    "intro": "",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definitions</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>Caput Succedaneum:</strong> Diffuse, edematous swelling of the scalp soft tissue crossing suture lines, caused by pressure of the cervix on the presenting part during labor; resolves within 24&ndash;48 hours.<br/><br/>\n    <strong>Cephalhaematoma:</strong> A collection of blood between the periosteum and skull bone (subperiosteal hemorrhage) that does not cross suture lines, caused by rupture of periosteal blood vessels during delivery; resolves within 6&ndash;8 weeks.\n  </div>\n</div>",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">Distinguishing caput succedaneum from cephalhaematoma is a vital neonatal nursing skill &mdash; caput is benign and resolves rapidly, while cephalhaematoma may predispose to neonatal jaundice due to blood reabsorption and rarely requires intervention. Accurate assessment prevents unnecessary parental anxiety and guides appropriate management.</p>\n</div>"
+  }
+}

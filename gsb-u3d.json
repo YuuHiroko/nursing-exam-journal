@@ -1,0 +1,27 @@
+{
+  "37": {
+    "intro": "",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definition</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>Fetal Skull:</strong> The fetal skull is a bony structure formed by membranous bones that are loosely connected by sutures and fontanelles, allowing moulding during labour to facilitate passage through the birth canal.\n  </div>\n</div>",
+    "conclusion": ""
+  },
+  "38": {
+    "intro": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title\">Introduction</h3>\n  <p class=\"answer-text\">Assessment of the fetal position within the uterus is fundamental to obstetric management and predicting the course of labour. Standardised terminology &mdash; lie, presentation, position, attitude, and denominator &mdash; allows clinicians to communicate fetal orientation accurately and plan safe delivery.</p>\n</div>",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definitions</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>Lie:</strong> Relationship of the long axis of the fetus to the long axis of the uterus (longitudinal, transverse, or oblique).<br><br>\n    <strong>Presentation:</strong> The part of the fetus that occupies the lower pole of the uterus and overlies the pelvic brim (cephalic, breech, or shoulder).<br><br>\n    <strong>Position:</strong> The relationship of the denominator of the presenting part to the maternal pelvis.<br><br>\n    <strong>Attitude:</strong> The relationship of the fetal parts to one another &mdash; normally one of universal flexion.<br><br>\n    <strong>Denominator:</strong> An arbitrary fixed point on the presenting part used to describe position (e.g., occiput in vertex, sacrum in breech).\n  </div>\n</div>",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">Accurate determination of lie, presentation, position, attitude, and denominator guides the obstetrician in anticipating the mechanism of labour and identifying malpresentations early. Timely recognition of abnormal fetal orientation allows intervention to reduce maternal &amp; perinatal morbidity.</p>\n</div>"
+  },
+  "39": {
+    "intro": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title\">Introduction</h3>\n  <p class=\"answer-text\">Abdominal examination is the cornerstone of antenatal assessment, providing vital information about fetal lie, presentation, position, growth, and well-being without invasive procedures. A systematic approach &mdash; inspection &rarr; palpation &rarr; Leopold manoeuvres &rarr; auscultation &mdash; ensures no findings are missed and forms the basis of safe pregnancy monitoring in Indian clinical practice.</p>\n</div>",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definition</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>Leopold Manoeuvres:</strong> A standardised set of four systematic external palpation techniques described by Christian Gerhard Leopold, used to determine fetal lie, presentation, position, and degree of engagement in the maternal pelvis.\n  </div>\n</div>",
+    "conclusion": ""
+  },
+  "40": {
+    "intro": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title\">Introduction</h3>\n  <p class=\"answer-text\">Fetal movements are an important indicator of fetal well-being and serve as a reassuring sign of an intact fetal central nervous system. Quickening &mdash; the mother&rsquo;s first subjective awareness of fetal movements &mdash; is a key milestone in pregnancy that also aids in clinical estimation of gestational age.</p>\n</div>",
+    "def": "",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">Quickening typically occurs at 18&ndash;20 weeks in primigravidae and 16&ndash;18 weeks in multigravidae, and its timing assists in confirming the EDD. A decrease in fetal movements below 10 in 12 hours warrants immediate obstetric evaluation, as diminished movements may signal fetal compromise and necessitate prompt intervention.</p>\n</div>"
+  },
+  "41": {
+    "intro": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title\">Introduction</h3>\n  <p class=\"answer-text\">The Expected Date of Delivery (EDD) is the estimated date on which a pregnant woman is likely to deliver, calculated from a known last menstrual period (LMP). Accurate estimation of EDD is essential for monitoring fetal growth, planning antenatal care, and identifying post-term pregnancies in clinical practice across India.</p>\n</div>",
+    "def": "",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">Naegele&rsquo;s rule provides a simple, reliable method to calculate EDD: add 9 months &amp; 7 days (or subtract 3 months &amp; add 7 days) to the first day of the LMP, assuming a regular 28-day cycle. When LMP is uncertain, early ultrasound before 20 weeks offers a more accurate EDD and should be used to confirm or revise the clinically calculated date.</p>\n</div>"
+  }
+}

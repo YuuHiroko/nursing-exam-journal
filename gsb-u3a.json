@@ -1,0 +1,27 @@
+{
+  "22": {
+    "intro": "",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definition</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>Signs &amp; Symptoms of Pregnancy:</strong> Objective and subjective indicators that confirm the presence of a developing fetus within the uterus, classified as presumptive, probable, and positive signs.\n  </div>\n</div>",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">Early recognition of signs and symptoms of pregnancy enables timely antenatal registration and care. The nurse plays a vital role in health education, ensuring the mother understands these changes as normal physiological adaptations for the well-being of both mother and fetus.</p>\n</div>"
+  },
+  "23": {
+    "intro": "",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definition</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>First Trimester (Weeks 1&ndash;12):</strong> The initial 12 weeks of pregnancy during which the most profound hormonal and anatomical changes occur, driven primarily by rising hCG, progesterone, and estrogen levels to support implantation and organogenesis.\n  </div>\n</div>",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">First-trimester physiological changes are largely driven by hormonal surges and may cause significant discomfort for the mother. Nurse-led counselling on nutrition, rest, and warning signs during this critical period forms the cornerstone of safe antenatal care.</p>\n</div>"
+  },
+  "24": {
+    "intro": "",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definition</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>Physiological Changes in Antenatal Period:</strong> Normal, adaptive alterations occurring in all organ systems of the mother during pregnancy (conception to onset of labour) to meet the increased metabolic demands of the growing fetus and prepare the body for parturition.\n  </div>\n</div>",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">Understanding antenatal physiological changes is essential for distinguishing normal adaptations from pathological conditions. Midwives and nurses must monitor these changes at every ANC visit to ensure maternal and fetal safety throughout the antenatal period.</p>\n</div>"
+  },
+  "25": {
+    "intro": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title\">Introduction</h3>\n  <p class=\"answer-text\">Pregnancy induces widespread cutaneous changes due to hormonal, immunological, and mechanical factors. These skin changes are predominantly benign and reversible, yet they can cause significant psychological distress if not adequately explained to the expectant mother.</p>\n</div>",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definition</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>Skin Changes in Pregnancy:</strong> Physiological dermatological alterations arising during gestation, primarily due to elevated estrogen, progesterone, and melanocyte-stimulating hormone (MSH), manifesting as pigmentation changes, vascular changes, and connective tissue modifications.\n  </div>\n</div>",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">Most skin changes during pregnancy are self-limiting and resolve postpartum. Nurses must reassure mothers about normal changes such as linea nigra and chloasma, while remaining vigilant for pruritic conditions like PUPPP or obstetric cholestasis that may require medical intervention.</p>\n</div>"
+  },
+  "26": {
+    "intro": "",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definition</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>Cardiovascular Changes in Pregnancy:</strong> Adaptive haemodynamic and structural alterations in the maternal cardiovascular system during pregnancy, characterised by increased cardiac output, plasma volume expansion, and decreased systemic vascular resistance to meet the perfusion demands of the uteroplacental unit.\n  </div>\n</div>",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">Cardiovascular changes in pregnancy are profound and place significant demands on the maternal heart. Early identification of women with pre-existing cardiac conditions, combined with vigilant monitoring of blood pressure and fluid balance, is critical for preventing maternal morbidity and mortality under MUHS antenatal care protocols.</p>\n</div>"
+  }
+}

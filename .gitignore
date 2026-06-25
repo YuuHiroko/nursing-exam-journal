@@ -1,0 +1,7 @@
+# Dependencies (Playwright etc. — only used by local dev/test scripts)
+node_modules/
+
+# Local dev scaffolding (browser/timing tests, validators, scratch servers)
+_*.js
+_serve.py
+_serve.*

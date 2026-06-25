@@ -1,0 +1,27 @@
+{
+  "48": {
+    "intro": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title\">Introduction</h3>\n  <p class=\"answer-text\">The partograph is a graphical tool used to monitor the progress of labour and the condition of the mother and fetus. It serves as an early warning system to detect abnormal labour patterns and prevent complications. The WHO recommends its universal use in all healthcare settings to reduce maternal and neonatal morbidity.</p>\n</div>",
+    "def": "",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">The partograph remains one of the most cost-effective tools in obstetric care, enabling timely intervention and reducing unnecessary caesarean sections. Consistent use by skilled birth attendants is essential for safe labour management in all MUHS-affiliated institutions.</p>\n</div>"
+  },
+  "50": {
+    "intro": "",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definition</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>Pain Relief in Labour:</strong> The use of pharmacological and non-pharmacological methods to reduce or eliminate the pain of uterine contractions and birth, while maintaining maternal consciousness and fetal well-being.\n  </div>\n</div>",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">Effective pain management in labour enhances the birthing experience, reduces maternal stress hormones, and promotes fetal oxygenation. The choice of method must be individualised, balancing maternal comfort with fetal safety and the available resources of the healthcare facility.</p>\n</div>"
+  },
+  "52": {
+    "intro": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title\">Introduction</h3>\n  <p class=\"answer-text\">Active Management of the Third Stage of Labour (AMTSL) is a package of evidence-based interventions to prevent postpartum haemorrhage (PPH), the leading cause of maternal mortality in India. It involves a structured sequence of actions immediately after delivery of the baby. AMTSL reduces the risk of PPH by up to 60% and is mandated by the Indian Ministry of Health &amp; Family Welfare.</p>\n</div>",
+    "def": "",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">AMTSL is the single most effective intervention to prevent PPH and should be practised at every delivery by all skilled birth attendants. Proficiency in its correct sequence &mdash; oxytocin administration, controlled cord traction, and uterine massage &mdash; is a core competency in MUHS nursing examinations.</p>\n</div>"
+  },
+  "53": {
+    "intro": "",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definition</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>Placental Separation:</strong> The physiological process by which the placenta detaches from the uterine wall after delivery of the fetus, occurring by one of two mechanisms &mdash; the Schultze mechanism (central separation, fetal surface first) or the Matthews Duncan mechanism (marginal separation, maternal surface first).\n  </div>\n</div>",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">Recognising the signs of placental separation is essential before applying controlled cord traction to prevent uterine inversion. The Schultze mechanism accounts for approximately 80% of cases and is associated with less blood loss compared to the Matthews Duncan mechanism.</p>\n</div>"
+  },
+  "54": {
+    "intro": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title\">Introduction</h3>\n  <p class=\"answer-text\">Induction of labour (IOL) refers to the artificial initiation of uterine contractions before the spontaneous onset of labour, with the aim of achieving vaginal delivery. It is indicated when the risks of continuing the pregnancy outweigh the risks of delivery. IOL rates have risen significantly in India with increased antenatal surveillance and post-date pregnancies.</p>\n</div>",
+    "def": "",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">Successful induction depends on careful patient selection, accurate assessment of cervical favourability using the Bishop score, and close fetal monitoring throughout the process. Nurses play a critical role in monitoring oxytocin infusion, detecting hyperstimulation, and ensuring maternal &amp; fetal safety during IOL.</p>\n</div>"
+  }
+}

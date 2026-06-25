@@ -1,0 +1,27 @@
+{
+  "27": {
+    "intro": "",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definition</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>History Taking:</strong> A systematic process of collecting relevant personal, obstetric, medical, and family information from a pregnant woman prior to physical examination to guide safe antenatal care.\n  </div>\n</div>",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">Thorough history taking is the cornerstone of obstetrical assessment &mdash; it identifies high-risk factors early and enables individualised care planning. A skilled midwife uses this information to prioritise interventions and ensure maternal &amp; fetal safety throughout pregnancy.</p>\n</div>"
+  },
+  "28": {
+    "intro": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title\">Introduction</h3>\n  <p class=\"answer-text\">Antenatal care (ANC) is the organised surveillance and medical care provided to a pregnant woman from conception until the onset of labour. In India, the Ministry of Health recommends a minimum of four ANC visits (4 ANC protocol) to reduce maternal &amp; perinatal mortality. The goal is to identify and manage complications early, ensuring a safe pregnancy outcome for both mother and baby.</p>\n</div>",
+    "def": "",
+    "conclusion": ""
+  },
+  "29": {
+    "intro": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title\">Introduction</h3>\n  <p class=\"answer-text\">Minor disorders of pregnancy are common physiological discomforts arising from hormonal, anatomical, and metabolic changes during gestation. Although not life-threatening, they significantly affect the quality of life and daily functioning of the pregnant woman. Timely nursing education and simple interventions provide effective relief and prevent unnecessary anxiety.</p>\n</div>",
+    "def": "",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">Minor disorders of pregnancy are expected physiological changes that respond well to conservative management and health education. The nurse plays a pivotal role in reassuring the mother, advising dietary &amp; postural modifications, and distinguishing minor discomforts from warning signs that require immediate medical attention.</p>\n</div>"
+  },
+  "30": {
+    "intro": "",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definition</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>Pregnancy:</strong> A physiological state in which a fertilised ovum (zygote) implants and develops within the uterus, lasting approximately 280 days (40 weeks) from the first day of the last menstrual period (LMP) to delivery.\n  </div>\n</div>",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">Accurate diagnosis of pregnancy using presumptive, probable, and positive signs &mdash; confirmed by serum &beta;-hCG and ultrasonography &mdash; is essential for timely initiation of antenatal care. Early diagnosis enables prompt identification of ectopic pregnancy and other complications, thereby reducing maternal morbidity &amp; mortality.</p>\n</div>"
+  },
+  "31": {
+    "intro": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title\">Introduction</h3>\n  <p class=\"answer-text\">High-risk pregnancy refers to a pregnancy in which the mother, fetus, or newborn is at increased risk of morbidity or mortality compared to the general obstetric population. In India, high-risk pregnancies contribute significantly to the maternal mortality ratio (MMR) and perinatal mortality rate (PMR). Early identification, close monitoring, and multidisciplinary nursing management are critical to improving outcomes.</p>\n</div>",
+    "def": "",
+    "conclusion": ""
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "98": {
+    "intro": "",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definition</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>First Stage of Labour:</strong> The period from onset of true labour pains to full dilatation of the cervix (10 cm), comprising the latent phase (0&ndash;3 cm) and active phase (4&ndash;10 cm).\n  </div>\n</div>",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">The first stage of labour is the longest stage and requires vigilant monitoring of maternal vitals, uterine contractions, and fetal heart rate. Skilled midwifery care during this phase ensures safe progression and early detection of complications such as prolonged labour or fetal distress.</p>\n</div>"
+  },
+  "99": {
+    "intro": "",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definition</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>Signs &amp; Symptoms of First Stage:</strong> Objective and subjective indicators that signify the onset and progression of the first stage of labour, including regular uterine contractions, cervical changes, and show.\n  </div>\n</div>",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">Accurate recognition of the signs and symptoms of the first stage of labour enables the nurse-midwife to initiate timely admission, partograph monitoring, and supportive care. Early identification of abnormal patterns such as absent show or infrequent contractions guides prompt obstetric intervention.</p>\n</div>"
+  },
+  "100": {
+    "intro": "",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definition</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>True Labour Pain:</strong> Regular, progressive uterine contractions causing cervical effacement and dilatation. <strong>False Labour (Braxton Hicks):</strong> Irregular, non-progressive uterine tightenings that do not result in cervical change.\n  </div>\n</div>",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">Differentiating true from false labour is a critical nursing competency to prevent unnecessary hospital admission and maternal anxiety. A vaginal examination confirming cervical change remains the definitive assessment criterion in the Indian midwifery setting.</p>\n</div>"
+  },
+  "101": {
+    "intro": "",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definition</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>Oxytocin (Pitocin):</strong> A synthetic posterior pituitary hormone used to initiate or augment uterine contractions, administered intravenously under strict supervision for induction of labour, augmentation of labour, or prevention of postpartum haemorrhage.\n  </div>\n</div>",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">Oxytocin is a high-alert medication requiring continuous electronic fetal monitoring and uterine contraction assessment. The nurse must be vigilant for uterine hyperstimulation, fetal distress, and water intoxication, and must discontinue the infusion immediately if any adverse signs appear.</p>\n</div>"
+  },
+  "102": {
+    "intro": "",
+    "def": "<div class=\"answer-section animate-slide-up stagger-1\">\n  <h3 class=\"answer-section-title teal-title\">Definition</h3>\n  <div class=\"definition-box animate-scale-in\">\n    <strong>Neonatal Effects of Analgesia &amp; Anaesthesia:</strong> Physiological alterations in the newborn resulting from transplacental transfer of analgesic or anaesthetic agents administered to the mother during labour, affecting neonatal respiration, tone, and neurobehavioural status.\n  </div>\n</div>",
+    "conclusion": "<div class=\"answer-section animate-slide-up\">\n  <h3 class=\"answer-section-title teal-title\">Conclusion</h3>\n  <p class=\"answer-text\">The nurse must anticipate neonatal depression when opioids or general anaesthetics have been used intrapartum, ensuring resuscitation equipment and naloxone are immediately available. APGAR scoring at 1 and 5 minutes guides timely neonatal resuscitation and monitoring in the NICU as required.</p>\n</div>"
+  }
+}
