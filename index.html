@@ -229,6 +229,11 @@
     <script defer src="syllabus.js?v=1"></script>
     <script defer src="learn-about.js?v=7"></script>
     <script defer src="enhancements.js?v=3"></script>
+    <!-- Vercel Speed Insights -->
+    <script type="module">
+        import { injectSpeedInsights } from './vendor/speed-insights.mjs';
+        injectSpeedInsights();
+    </script>
     <script defer src="app.js?v=27"></script>
     <!-- Dark-mode toggle wiring (theme only; page logic lives in app.js) -->
     <script>
