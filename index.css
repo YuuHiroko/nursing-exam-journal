@@ -1435,7 +1435,7 @@ img { max-width: 100%; }
 .dark .self-test-title,
 .dark .glossary .term { color: #f9a8d4; }
 
-/* ─────────────────────────────────────────────
+/* ────────────────────────────────────────���────
    9. MODAL FOOTER
    ───────────────────────────────────────────── */
 .article-footer {
@@ -2425,6 +2425,23 @@ md-ripple { color: var(--md-sys-color-primary); }
 /* 19.7 Question card = M3 outlined→filled tonal surface ------- */
 .question-card { box-shadow: var(--shadow-sm); }
 .question-card:hover { transform: none; box-shadow: var(--shadow-card); }
+/* Skip layout/paint for offscreen cards (cheap virtualization).
+   contain-intrinsic-size reserves space so the scrollbar stays stable. */
+.articles-grid > .question-card {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 180px;
+}
+
+/* Lazy-load (OBG-II) loading state */
+.loading-state {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 1rem; padding: 3rem 1rem; text-align: center;
+    color: var(--md-sys-color-on-surface-variant);
+}
+.loading-state md-circular-progress {
+    --md-circular-progress-size: 44px;
+    --md-circular-progress-active-indicator-color: var(--md-sys-color-primary);
+}
 .q-number {
     background: var(--md-sys-color-tertiary-container);
     color: var(--md-sys-color-on-tertiary-container);

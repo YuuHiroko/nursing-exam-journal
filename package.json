@@ -1,0 +1,14 @@
+{
+  "name": "nursing-exam-journal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nursing Exam Journal PWA — Material Design 3. Static site served from gh-pages; the only build step bundles the locally-hosted Material Web components.",
+  "scripts": {
+    "build:mwc": "node scripts/build-mwc.mjs"
+  },
+  "devDependencies": {
+    "@material/web": "2.4.1",
+    "esbuild": "^0.25.0",
+    "lit": "^3.2.1"
+  }
+}

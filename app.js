@@ -199,6 +199,17 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         if (currentQuestions.length === 0) {
+            // If an OBG-II unit is selected but its dataset hasn't loaded yet,
+            // kick off the lazy load and show a loading state instead of "none found".
+            const isOBG2Unit = ['8', '9', '10', '11'].indexOf(String(activeUnit)) !== -1;
+            const obg2 = window.__obg2;
+            if (obg2 && isOBG2Unit && obg2.status !== 'ready' && obg2.status !== 'error') {
+                listContainer.innerHTML = '<div class="loading-state" role="status" aria-live="polite">' +
+                    '<md-circular-progress indeterminate aria-label="Loading questions"></md-circular-progress>' +
+                    '<span class="mono-label">LOADING OBG-II QUESTIONS…</span></div>';
+                obg2.load();
+                return;
+            }
             listContainer.innerHTML = '<div style="padding:2rem;text-align:center;"><span class="mono-label">NO ENTRIES FOUND FOR THIS CRITERIA.</span></div>';
             return;
         }
@@ -619,6 +630,38 @@ document.addEventListener('DOMContentLoaded', () => {
     // Leaving the mobile breakpoint with the drawer open: tidy up.
     window.addEventListener('resize', () => { if (window.innerWidth > 900 && drawerOpen()) closeDrawer(); });
 
-    // Initialize (sync — data scripts load before app.js)
+    // ── Lazy-load the large OBG-II dataset (~1 MB) ─────────────────
+    // Units 1–7 render instantly from the small, eagerly-loaded data
+    // files; OBG-II is fetched after first paint (or immediately when an
+    // OBG-II unit is selected) and merged in with a graceful re-render.
+    let obg2Status = window.QUESTIONS_DATA_OBG2 ? 'ready' : 'idle';   // idle | loading | ready | error
+    function loadOBG2(onReady) {
+        if (obg2Status === 'ready') { if (onReady) onReady(); return; }
+        if (obg2Status === 'loading') return;
+        obg2Status = 'loading';
+        const s = document.createElement('script');
+        s.src = 'data-obg2.js?v=2';
+        s.async = true;
+        s.onload = () => {
+            obg2Status = 'ready';
+            renderQuestions();           // merge OBG-II into the current view
+            if (onReady) onReady();
+        };
+        s.onerror = () => { obg2Status = 'error'; renderQuestions(); };
+        document.body.appendChild(s);
+    }
+    // Expose so renderQuestions() can react to OBG-II selection / empty state.
+    window.__obg2 = { get status() { return obg2Status; }, load: loadOBG2 };
+
+    // Initialize: render units 1–7 immediately.
     renderQuestions();
+
+    // Warm OBG-II in the background once the main thread is idle.
+    if (obg2Status === 'idle') {
+        if ('requestIdleCallback' in window) {
+            requestIdleCallback(() => loadOBG2(), { timeout: 2000 });
+        } else {
+            setTimeout(() => loadOBG2(), 400);
+        }
+    }
 });

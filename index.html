@@ -11,14 +11,15 @@
     <link rel="apple-touch-icon" href="assets/icon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Material Design 3 reference typefaces (Roboto / Roboto Flex) + Material Symbols icon font -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700&family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css?v=29">
-    <!-- Material Web 3 components (custom elements register globally) -->
+    <!-- Material Design 3 reference typefaces (Roboto) + Material Symbols icon font.
+         Trimmed axes: only weights actually used; Symbols restricted to wght+FILL at opsz 24
+         to cut the font payload. display=block prevents icon-name flash. -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL@24,400..600,0..1&display=block" rel="stylesheet">
+    <link rel="stylesheet" href="index.css?v=30">
+    <!-- Material Web 3 components — bundled locally (vendor/), no CDN. Self-registers custom elements. -->
     <script type="module">
-        import 'https://esm.run/@material/web@2.4.1/all.js';
-        import { styles as typescaleStyles } from 'https://esm.run/@material/web@2.4.1/typography/md-typescale-styles.js';
+        import { typescaleStyles } from './vendor/material-web.min.js?v=1';
         if (typescaleStyles && typescaleStyles.styleSheet) {
             document.adoptedStyleSheets = [...document.adoptedStyleSheets, typescaleStyles.styleSheet];
         }
@@ -193,19 +194,21 @@
         </div>
     </footer>
 
-    <script src="data.js?v=18"></script>
-    <script src="data-unit2.js?v=21"></script>
-    <script src="data-unit3.js?v=21"></script>
-    <script src="data-unit4.js?v=20"></script>
-    <script src="data-unit5.js?v=20"></script>
-    <script src="data-unit6.js?v=18"></script>
-    <script src="data-unit7.js?v=18"></script>
-    <script src="data-obg2.js?v=2"></script>
-    <script src="diagrams.js?v=6"></script>
-    <script src="syllabus.js?v=1"></script>
-    <script src="learn-about.js?v=3"></script>
-    <script src="enhancements.js?v=2"></script>
-    <script src="app.js?v=25"></script>
+    <!-- Core data (units 1–7) + logic load deferred so they download in
+         parallel without blocking parse, and execute in order before
+         DOMContentLoaded. OBG-II is lazy-loaded by app.js after paint. -->
+    <script defer src="data.js?v=18"></script>
+    <script defer src="data-unit2.js?v=21"></script>
+    <script defer src="data-unit3.js?v=21"></script>
+    <script defer src="data-unit4.js?v=20"></script>
+    <script defer src="data-unit5.js?v=20"></script>
+    <script defer src="data-unit6.js?v=18"></script>
+    <script defer src="data-unit7.js?v=18"></script>
+    <script defer src="diagrams.js?v=6"></script>
+    <script defer src="syllabus.js?v=1"></script>
+    <script defer src="learn-about.js?v=4"></script>
+    <script defer src="enhancements.js?v=3"></script>
+    <script defer src="app.js?v=26"></script>
     <!-- Dark-mode toggle wiring (theme only; page logic lives in app.js) -->
     <script>
         (function () {

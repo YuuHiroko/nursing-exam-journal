@@ -3,7 +3,7 @@
 // after the first online visit. Cross-origin (fonts) is left to the network.
 // Bump CACHE to invalidate every cached asset in one shot.
 
-var CACHE = 'nej-cache-v1';
+var CACHE = 'nej-cache-v2';
 
 self.addEventListener('install', function (e) {
     // Activate this worker as soon as it finishes installing.
@@ -26,7 +26,28 @@ self.addEventListener('fetch', function (e) {
 
     var url;
     try { url = new URL(req.url); } catch (err) { return; }
-    if (url.origin !== self.location.origin) return;   // fonts etc. → network
+
+    // Google Fonts (CSS + font files) are the only cross-origin assets.
+    // Cache-first so the app keeps its Material typography + icons offline
+    // after the first online visit. (Material components themselves are
+    // bundled locally in vendor/ — no CDN involved.)
+    if (url.host === 'fonts.googleapis.com' || url.host === 'fonts.gstatic.com') {
+        e.respondWith((async function () {
+            var cache = await caches.open(CACHE);
+            var cached = await cache.match(req);
+            if (cached) return cached;
+            try {
+                var res = await fetch(req);
+                if (res && (res.ok || res.type === 'opaque')) cache.put(req, res.clone());
+                return res;
+            } catch (err) {
+                return cached || Response.error();
+            }
+        })());
+        return;
+    }
+
+    if (url.origin !== self.location.origin) return;   // other cross-origin → network
 
     // Navigations: the HTML shell carries the ?v= cache-busters, so it must be
     // fresh whenever the device is online — otherwise a fixed answer would never
