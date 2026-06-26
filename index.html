@@ -24,6 +24,8 @@
             document.adoptedStyleSheets = [...document.adoptedStyleSheets, typescaleStyles.styleSheet];
         }
     </script>
+    <!-- Vercel Speed Insights — bundled locally (vendor/), auto-tracks performance metrics -->
+    <script type="module" src="./vendor/speed-insights.min.js?v=1"></script>
     <!-- Device PIN gate (runs before paint; locks page until unlocked) -->
     <script src="pin-gate.js?v=18"></script>
     <!-- Dark-mode init (runs before paint to avoid flash) -->
