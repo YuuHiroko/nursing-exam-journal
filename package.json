@@ -8,9 +8,12 @@
   },
   "devDependencies": {
     "@material/web": "2.4.1",
-    "chrome-launcher": "^1.2.1",
     "esbuild": "^0.25.0",
-    "lighthouse": "^13.4.0",
     "lit": "^3.2.1"
+  },
+  "dependencies": {
+    "chrome-launcher": "^1.2.1",
+    "chrome-remote-interface": "^0.34.0",
+    "lighthouse": "^13.4.0"
   }
 }

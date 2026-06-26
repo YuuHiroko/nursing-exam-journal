@@ -2460,8 +2460,24 @@ md-icon-button[hidden] { display: none !important; }
     --md-focus-ring-color: var(--md-sys-color-primary);
     --md-focus-ring-shape: var(--md-sys-shape-corner-lg, 16px);
 }
-.question-card md-ripple { border-radius: inherit; }
-.question-card:focus-visible { outline: none; }   /* md-focus-ring handles it */
+.question-card md-ripple { border-radius: inherit; z-index: 0; }
+
+/* Stretched primary control: the question button covers the whole card so
+   the entire surface is clickable, while keeping a single, correctly-named
+   button (text = visible heading) in the a11y tree. Other controls sit above. */
+.q-open {
+    appearance: none; -webkit-appearance: none;
+    background: none; border: 0; margin: 0; padding: 0;
+    font: inherit; color: inherit; text-align: left; cursor: pointer;
+    position: static;
+}
+.q-open::after {
+    content: ''; position: absolute; inset: 0; z-index: 1;
+    border-radius: inherit;
+}
+.q-open { --md-focus-ring-shape: var(--md-sys-shape-corner-lg, 16px); }
+.q-check, .q-bookmark { position: relative; z-index: 2; }   /* above the overlay */
+.question-card:focus-within { outline: none; }   /* md-focus-ring handles it */
 
 /* Lazy-load (OBG-II) loading state */
 .loading-state {

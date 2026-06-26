@@ -218,25 +218,26 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.className = 'question-card' + (isDone(q) ? ' is-done' : '');
             card.dataset.qkey = qKey(q);
-            // M3 interaction + a11y: the card behaves like a button. The
-            // accessible name is built from the visible question text (via
-            // aria-labelledby) so it matches what's on screen (WCAG 2.5.3).
+            // Accessible "clickable card" pattern: the question heading holds a
+            // real <button> whose accessible name equals its visible text
+            // (WCAG 2.5.3), and a stretched overlay makes the whole card
+            // clickable. md-ripple/md-focus-ring provide the M3 interaction.
             const num = String(index + 1).padStart(2, '0');
-            const qTextId = 'qtext-' + qKey(q);
-            card.tabIndex = 0;
-            card.setAttribute('role', 'button');
-            card.setAttribute('aria-labelledby', qTextId);
 
             const starred = isStarred(q);
             card.innerHTML =
                 '<md-ripple></md-ripple>' +
-                '<md-focus-ring></md-focus-ring>' +
                 '<button class="q-check" type="button" aria-pressed="' + isDone(q) + '" ' +
                     'aria-label="Mark as completed" title="Mark as completed">' +
                     '<span class="q-check-tick material-symbols-outlined" aria-hidden="true">check</span></button>' +
-                '<div class="q-number">' + num + '</div>' +
+                '<div class="q-number" aria-hidden="true">' + num + '</div>' +
                 '<div class="q-content">' +
-                    '<h3 class="q-text" id="' + qTextId + '">' + highlightTerm(q.question, activeSearch.trim()) + '</h3>' +
+                    '<h3 class="q-text">' +
+                        '<button class="q-open" type="button">' +
+                            '<md-focus-ring></md-focus-ring>' +
+                            highlightTerm(q.question, activeSearch.trim()) +
+                        '</button>' +
+                    '</h3>' +
                     '<div class="q-meta">' +
                         '<span>' + getUnitLabel(q.unit) + '</span>' +
                         '<span>REPEATED: ' + q.repeated + 'x</span>' +
@@ -251,15 +252,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     '<span class="marks-badge">' + q.marks + ' M</span>' +
                 '</div>';
 
-            card.addEventListener('click', () => openModal(index));
-            // Enter / Space open the card (native button semantics for a div).
-            card.addEventListener('keydown', (e) => {
-                if (e.target !== card) return;          // let inner buttons handle their own keys
-                if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') {
-                    e.preventDefault();
-                    openModal(index);
-                }
-            });
+            // The stretched .q-open button is the primary control; native
+            // button semantics give Enter/Space activation for free.
+            card.querySelector('.q-open').addEventListener('click', () => openModal(index));
             const chk = card.querySelector('.q-check');
             chk.addEventListener('click', (e) => {
                 e.stopPropagation();                 // don't open the modal

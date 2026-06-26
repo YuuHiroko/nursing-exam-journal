@@ -108,7 +108,7 @@
                 '<span class="pin-eyebrow">RESTRICTED · ASSESSMENT MODE</span>' +
                 '<h2 class="pin-title">ENTER ACCESS PIN</h2>' +
                 '<p class="pin-sub">This device must be unlocked with a valid PIN. ' +
-                    ‘The first PIN used locks to this device — it can\’t be ‘ +
+                    'The first PIN used locks to this device — it can\'t be ' +
                     'switched to another PIN later.</p>' +
                 '<form class="pin-form" id="pin-form" autocomplete="off" novalidate>' +
                     '<input class="pin-input" id="pin-input" type="password" ' +
