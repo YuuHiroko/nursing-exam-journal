@@ -621,9 +621,23 @@
     }
     // Numeric clinical facts (500 mL, 11 g/dL, 6 weeks, 42 days, 140 mmHg…).
     var FACT_RE = '(\\d+(?:\\.\\d+)?)(\\s?(?:[\u2013-]\\s?\\d+(?:\\.\\d+)?)?)\\s?(mL|ml|g\\/dL|kg|cm|mm|mmHg|%|weeks?|days?|hours?|hrs?|minutes?|mins?|mcg|mg|IU|years?|g)\\b';
+    // Build a short label describing what a number refers to, using the words
+    // immediately AROUND the figure (not sentence boilerplate like "In Short:").
     function sentenceLabel(sent, matched) {
-        var s = sent.replace(matched, ' ').replace(/\s+/g, ' ').trim().replace(/^[\-\u2013,:;]+/, '').trim();
-        return s.split(' ').slice(0, 8).join(' ').replace(/[.,;:]+$/, '');
+        var idx = sent.indexOf(matched);
+        var before = sent.slice(0, idx);
+        var after = sent.slice(idx + matched.length);
+        // Drop leading boilerplate clauses ending in a colon ("In Short:", "Note:").
+        before = before.replace(/^.*:\s*/, '');
+        var bWords = before.replace(/[^A-Za-z0-9%\/\s.-]/g, ' ').trim().split(/\s+/).filter(Boolean);
+        var aWords = after.replace(/[^A-Za-z0-9%\/\s.-]/g, ' ').trim().split(/\s+/).filter(Boolean);
+        // Prefer the 4 words before the number (the subject); fall back to after.
+        var label = bWords.slice(-4).join(' ');
+        if (label.split(' ').length < 2) {
+            label = (label + ' ' + aWords.slice(0, 3).join(' ')).trim();
+        }
+        label = label.replace(/^[\-\u2013,:;.\s]+/, '').replace(/[.,;:\s]+$/, '');
+        return label;
     }
     function extractFacts(text) {
         var out = [], seen = {};
@@ -918,13 +932,4 @@
         });
     }
 
-    window.injectLearnAbout = function (container, q) {
-        if (!container || !q) return;
-        // never duplicate: remove any previously injected panel first
-        var existing = container.querySelector('.learn-about');
-        if (existing) existing.remove();
-        container.insertAdjacentHTML('beforeend', buildPanel(q));
-        var root = container.querySelector('.learn-about');
-        if (root) wire(root);
-    };
 })();

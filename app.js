@@ -98,11 +98,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Highlight every occurrence of the live-search term inside a question.
-    // Plain-text version of an HTML string (for aria-labels).
-    function stripTags(html) {
-        return String(html == null ? '' : html).replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
-    }
-
     function highlightTerm(text, term) {
         text = String(text == null ? '' : text);
         if (!term) return text;
@@ -223,11 +218,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.className = 'question-card' + (isDone(q) ? ' is-done' : '');
             card.dataset.qkey = qKey(q);
-            // M3 interaction + a11y: the card behaves like a button.
+            // M3 interaction + a11y: the card behaves like a button. The
+            // accessible name is built from the visible question text (via
+            // aria-labelledby) so it matches what's on screen (WCAG 2.5.3).
+            const num = String(index + 1).padStart(2, '0');
+            const qTextId = 'qtext-' + qKey(q);
             card.tabIndex = 0;
             card.setAttribute('role', 'button');
-            card.setAttribute('aria-label', 'Open question ' + (index + 1) + ': ' + stripTags(q.question));
-            const num = String(index + 1).padStart(2, '0');
+            card.setAttribute('aria-labelledby', qTextId);
 
             const starred = isStarred(q);
             card.innerHTML =
@@ -238,7 +236,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     '<span class="q-check-tick material-symbols-outlined" aria-hidden="true">check</span></button>' +
                 '<div class="q-number">' + num + '</div>' +
                 '<div class="q-content">' +
-                    '<h3 class="q-text">' + highlightTerm(q.question, activeSearch.trim()) + '</h3>' +
+                    '<h3 class="q-text" id="' + qTextId + '">' + highlightTerm(q.question, activeSearch.trim()) + '</h3>' +
                     '<div class="q-meta">' +
                         '<span>' + getUnitLabel(q.unit) + '</span>' +
                         '<span>REPEATED: ' + q.repeated + 'x</span>' +
