@@ -608,6 +608,62 @@
         return null;
     }
 
+    /* ---- 5b. Answer content analysis ------------------------------
+       Read the rendered answer text so modules can be built FROM the
+       answer (numeric facts) and de-duplicated against each other, so
+       no two modules repeat the same wording. -------------------- */
+    function laKey(q) {
+        return q && q.id != null ? 'id:' + q.id : 's:' + String((q && q.question) || '').slice(0, 60);
+    }
+    function splitSentences(text) {
+        return String(text).replace(/\s+/g, ' ').split(/(?<=[.!?;])\s+/)
+            .map(function (s) { return s.trim(); }).filter(Boolean);
+    }
+    // Numeric clinical facts (500 mL, 11 g/dL, 6 weeks, 42 days, 140 mmHg…).
+    var FACT_RE = '(\\d+(?:\\.\\d+)?)(\\s?(?:[\u2013-]\\s?\\d+(?:\\.\\d+)?)?)\\s?(mL|ml|g\\/dL|kg|cm|mm|mmHg|%|weeks?|days?|hours?|hrs?|minutes?|mins?|mcg|mg|IU|years?|g)\\b';
+    function sentenceLabel(sent, matched) {
+        var s = sent.replace(matched, ' ').replace(/\s+/g, ' ').trim().replace(/^[\-\u2013,:;]+/, '').trim();
+        return s.split(' ').slice(0, 8).join(' ').replace(/[.,;:]+$/, '');
+    }
+    function extractFacts(text) {
+        var out = [], seen = {};
+        splitSentences(text).forEach(function (sent) {
+            var re = new RegExp(FACT_RE, 'gi'), m;
+            while ((m = re.exec(sent))) {
+                var value = (m[1] + (m[2] || '') + ' ' + m[3]).replace(/\s+/g, ' ').trim();
+                var k = value.toLowerCase();
+                if (seen[k]) continue; seen[k] = 1;
+                var label = sentenceLabel(sent, m[0]);
+                if (label && label.length > 3) out.push({ value: value, label: label });
+            }
+        });
+        return out;
+    }
+    // Token-overlap so a module never restates another module.
+    function normTok(s) {
+        return String(s).toLowerCase().replace(/[^a-z0-9\s]/g, ' ').split(/\s+/)
+            .filter(function (w) { return w.length > 3; });
+    }
+    function overlap(a, b) {
+        var ta = normTok(a); if (!ta.length) return 0;
+        var tb = {}; normTok(b).forEach(function (w) { tb[w] = 1; });
+        var c = 0; ta.forEach(function (w) { if (tb[w]) c++; });
+        return c / ta.length;
+    }
+    function makeGuard() {
+        var used = [];
+        return function fresh(sig) {
+            if (!sig) return true;
+            for (var i = 0; i < used.length; i++) { if (overlap(sig, used[i]) > 0.55) return false; }
+            used.push(sig); return true;
+        };
+    }
+    function blockChildren(container) {
+        return Array.prototype.filter.call(container.children, function (el) {
+            return el.nodeType === 1 && !(el.classList && el.classList.contains('la-embed'));
+        });
+    }
+
     /* ---- 6. Builders for each module ----------------------------- */
     function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
     var seq = 0;
@@ -668,6 +724,20 @@
         '</section>';
     }
 
+    function factsModule(facts, hid) {
+        if (!facts || !facts.length) return '';
+        var rows = facts.slice(0, 3).map(function (f) {
+            return '<li class="la-fact"><span class="la-fact-value">' + esc(f.value) + '</span>' +
+                '<span class="la-fact-label">' + esc(f.label) + '</span></li>';
+        }).join('');
+        return '' +
+        '<section class="la-card la-facts" role="group" aria-labelledby="' + hid + '">' +
+            '<h3 class="la-head la-head-facts" id="' + hid + '"><span class="material-symbols-outlined" aria-hidden="true">tag</span>By the numbers</h3>' +
+            '<p class="la-text la-facts-intro">Key figures from this answer worth committing to memory:</p>' +
+            '<ul class="la-fact-list">' + rows + '</ul>' +
+        '</section>';
+    }
+
     function misconceptionModule(t, hid) {
         return '' +
         '<section class="la-card la-mis" role="group" aria-labelledby="' + hid + '">' +
@@ -683,33 +753,106 @@
         '</section>';
     }
 
-    /* ---- 7. Assemble + inject ------------------------------------ */
-    function buildPanel(q) {
+    /* ---- 7. Assemble a per-question, de-duplicated module set ------
+       Each module is built only if it can add genuinely NEW content
+       (checked against the answer text and previously-added modules).
+       Module ORDER and the chosen "extra" module vary per question
+       (stable hash) so no two answers share an identical layout. ---- */
+    function buildModuleSet(q, answerText) {
         var terms = pickTerms(q);
         var primary = terms[0];
+        var rand = rng(seedFrom(laKey(q)));
+        var guard = makeGuard();
+        guard(answerText.slice(0, 4000));   // seed guard with the answer itself
+
+        var b = 'la-h-' + (++seq) + '-';
+        var mods = [];   // { kind, html, weight } — weight hints placement order
+
+        // Vocab — only if the answer doesn't already define the term plainly.
+        if (primary && guard(primary.term + ' ' + primary.def)) {
+            mods.push({ kind: 'vocab', html: vocabModule(primary, b + 'v') });
+        }
+        // By the numbers — purely answer-derived; skip if no figures.
+        var facts = extractFacts(answerText);
+        if (facts.length) {
+            mods.push({ kind: 'facts', html: factsModule(facts, b + 'n') });
+        }
+        // Why it matters — significance, must not echo the answer.
+        if (primary && guard(primary.matters)) {
+            mods.push({ kind: 'matters', html: mattersModule(primary, b + 'm') });
+        }
+        // Quiz — grounded in the answer/terms.
         var quiz = buildQuiz(q, terms);
-        var b = 'la-h-' + (++seq);
+        if (quiz) mods.push({ kind: 'quiz', html: quizModule(quiz, b + 'q') });
+        // Stop & think — reflective; signature kept distinct.
+        if (primary && guard('reflect apply bedside ' + primary.term)) {
+            mods.push({ kind: 'think', html: thinkModule(primary, b + 't') });
+        }
+        // Common misconception — wrong vs right, must add a new fact.
+        if (primary && guard(primary.mis.wrong + ' ' + primary.mis.right)) {
+            mods.push({ kind: 'mis', html: misconceptionModule(primary, b + 'x') });
+        }
 
-        var modules = [
-            vocabModule(primary, b + 'v'),
-            mattersModule(primary, b + 'm'),
-            thinkModule(primary, b + 't'),
-            quizModule(quiz, b + 'q'),
-            misconceptionModule(primary, b + 'x')
-        ].join('');
-
-        return '' +
-        '<div class="learn-about" role="region" aria-label="Learn About: interactive study modules">' +
-            '<div class="la-banner">' +
-                '<span class="material-symbols-outlined" aria-hidden="true">school</span>' +
-                '<div>' +
-                    '<span class="la-banner-kicker">LEARN ABOUT</span>' +
-                    '<span class="la-banner-title">Interactive study modules</span>' +
-                '</div>' +
-            '</div>' +
-            modules +
-        '</div>';
+        // Vary order deterministically per question (vocab stays first when
+        // present as the anchor; the rest are shuffled for layout variety).
+        var head = mods.filter(function (m) { return m.kind === 'vocab'; });
+        var rest = shuffle(mods.filter(function (m) { return m.kind !== 'vocab'; }), rand);
+        return head.concat(rest);
     }
+
+    // Choose insertion indices that spread modules through the answer at
+    // block boundaries — never all together, never inside a block.
+    function placements(numBlocks, numModules) {
+        var spots = [];
+        if (numModules <= 0) return spots;
+        // Leave the first block to orient the reader; distribute evenly after.
+        var usable = Math.max(1, numBlocks);
+        if (numBlocks < 3 || numModules === 1) {
+            spots.push(numBlocks);   // short answer → append at end
+            for (var k = 1; k < numModules; k++) spots.push(numBlocks);
+            return spots;
+        }
+        var step = usable / (numModules + 1);
+        for (var i = 1; i <= numModules; i++) {
+            var idx = Math.round(step * i);
+            if (idx < 1) idx = 1;
+            if (idx > numBlocks) idx = numBlocks;
+            spots.push(idx);
+        }
+        return spots;
+    }
+
+    function wireModule(scope) { wire(scope); }
+
+    window.injectLearnAbout = function (container, q) {
+        if (!container || !q) return;
+        // Never duplicate: remove any previously injected embeds first.
+        container.querySelectorAll('.la-embed').forEach(function (n) { n.remove(); });
+
+        var answerText = container.textContent || '';
+        var mods = buildModuleSet(q, answerText);
+        if (!mods.length) return;
+
+        var blocks = blockChildren(container);
+        var spots = placements(blocks.length, mods.length);
+
+        // Insert from last to first so earlier indices stay valid.
+        var order = mods.map(function (m, i) { return { m: m, at: spots[i] }; })
+            .sort(function (a, b) { return b.at - a.at; });
+
+        order.forEach(function (item, n) {
+            var wrap = document.createElement('div');
+            wrap.className = 'la-embed';
+            // First inserted (top-most in reading order) carries the region label.
+            wrap.setAttribute('role', 'region');
+            wrap.setAttribute('aria-label', 'Learn About: ' + item.m.kind);
+            wrap.innerHTML = item.m.html;
+            var ref = blocks[item.at];
+            if (ref && ref.parentNode === container) container.insertBefore(wrap, ref);
+            else container.appendChild(wrap);
+            wireModule(wrap);
+        });
+    };
 
     function wire(root) {
         // Pronunciation

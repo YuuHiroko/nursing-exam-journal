@@ -590,7 +590,7 @@ img { max-width: 100%; }
     gap: 1rem;
 }
 
-/* ──────────────���──────────────────────────────
+/* ──────────────�����──────────────────────────────
    6. QUESTION CARDS
    ───────────────────────────────────────────── */
 .question-card {
@@ -2554,6 +2554,29 @@ md-icon-button[hidden] { display: none !important; }
     gap: 1rem;
 }
 
+/* Distributed Learn About module woven between answer blocks.
+   Each embed is a self-contained M3 card with a small "Learn about" tag
+   so the reader knows it's an interjected study aid, not answer text. */
+.la-embed {
+    margin: 1.6rem 0;
+    animation: laEmbedIn var(--md-sys-motion-duration-medium2, 300ms) var(--md-sys-motion-easing-emphasized-decelerate, cubic-bezier(0.05, 0.7, 0.1, 1)) both;
+}
+.la-embed > .la-card { position: relative; }
+.la-embed > .la-card::before {
+    content: 'LEARN ABOUT';
+    position: absolute; top: 0.7rem; right: 1.1rem;
+    font-family: var(--font-mono);
+    font-size: 0.6rem; letter-spacing: 0.16em;
+    opacity: 0.55;
+}
+@keyframes laEmbedIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+    .la-embed { animation: none; }
+}
+
 /* Banner header */
 .la-banner {
     display: flex; align-items: center; gap: 0.85rem;
@@ -2700,6 +2723,26 @@ md-icon-button[hidden] { display: none !important; }
 }
 .la-mis-right .la-mis-icon { color: #2e7d32; }
 .dark .la-mis-right .la-mis-icon { color: #7fd98a; }
+
+/* — By the numbers → secondary container, answer-derived figures — */
+.la-facts {
+    background: var(--md-sys-color-secondary-container);
+    color: var(--md-sys-color-on-secondary-container);
+}
+.la-facts .la-head { color: var(--md-sys-color-on-secondary-container); }
+.la-facts-intro { margin-bottom: 0.85rem; opacity: 0.9; }
+.la-fact-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.6rem; }
+.la-fact {
+    display: flex; align-items: baseline; gap: 0.85rem;
+    padding: 0.55rem 0.75rem;
+    border-radius: var(--md-sys-shape-corner-md, 12px);
+    background: color-mix(in srgb, var(--md-sys-color-on-secondary-container) 8%, transparent);
+}
+.la-fact-value {
+    font-weight: 700; font-size: 1.1rem; white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+}
+.la-fact-label { font-size: 0.95rem; line-height: 1.4; opacity: 0.92; text-transform: capitalize; }
 
 /* Responsive: stack quiz on narrow screens (M3 compact breakpoint) */
 @media (max-width: 599px) {
