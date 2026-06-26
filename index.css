@@ -8,50 +8,106 @@
    ================================================================ */
 
 /* ─────────────────────────────────────────────
-   1. DESIGN TOKENS  (Material indigo / pink)
+   1. DESIGN TOKENS — MATERIAL DESIGN 3
+   Authentic M3 color system generated from an indigo
+   primary + pink tertiary seed (m3.material.io).
+   Full sys-color roles, M3 shape scale, M3 elevation
+   (level 1-5), state-layer opacities + legacy aliases.
    ───────────────────────────────────────────── */
 :root {
-    --color-background: #f4f6fb;                     /* soft cool grey */
-    --color-foreground: #1a202c;                     /* slate ink */
-    --color-card: #ffffff;
-    --color-card-foreground: #1a202c;
-    --color-popover: #ffffff;
-    --color-popover-foreground: #1a202c;
-    --color-primary: #6366f1;                        /* indigo */
-    --color-primary-foreground: #ffffff;
-    --color-secondary: #ec4899;                      /* pink */
-    --color-secondary-foreground: #ffffff;
-    --color-muted: #eef1f7;
-    --color-muted-foreground: #64748b;
-    --color-accent: #ec4899;                         /* pink accent */
-    --color-accent-foreground: #ffffff;
-    --color-destructive: #ef4444;
-    --color-destructive-foreground: #ffffff;
-    --color-border: #e2e8f0;
-    --color-input: #e2e8f0;
-    --color-ring: #6366f1;
+    /* ---- M3 system colors · LIGHT scheme ---- */
+    --md-sys-color-primary: #4a52cc;
+    --md-sys-color-on-primary: #ffffff;
+    --md-sys-color-primary-container: #e1e0ff;
+    --md-sys-color-on-primary-container: #050678;
+    --md-sys-color-secondary: #5b5d72;
+    --md-sys-color-on-secondary: #ffffff;
+    --md-sys-color-secondary-container: #e0e1f9;
+    --md-sys-color-on-secondary-container: #181a2c;
+    --md-sys-color-tertiary: #c01975;          /* pink accent role */
+    --md-sys-color-on-tertiary: #ffffff;
+    --md-sys-color-tertiary-container: #ffd8e7;
+    --md-sys-color-on-tertiary-container: #3e0023;
+    --md-sys-color-error: #ba1a1a;
+    --md-sys-color-on-error: #ffffff;
+    --md-sys-color-error-container: #ffdad6;
+    --md-sys-color-on-error-container: #410002;
+    --md-sys-color-background: #fbf8ff;
+    --md-sys-color-on-background: #1b1b21;
+    --md-sys-color-surface: #fbf8ff;
+    --md-sys-color-on-surface: #1b1b21;
+    --md-sys-color-surface-variant: #e4e1ec;
+    --md-sys-color-on-surface-variant: #46464f;
+    --md-sys-color-surface-dim: #dbd9e0;
+    --md-sys-color-surface-bright: #fbf8ff;
+    --md-sys-color-surface-container-lowest: #ffffff;
+    --md-sys-color-surface-container-low: #f5f2fa;
+    --md-sys-color-surface-container: #efedf4;
+    --md-sys-color-surface-container-high: #e9e7ef;
+    --md-sys-color-surface-container-highest: #e4e1e9;
+    --md-sys-color-outline: #767680;
+    --md-sys-color-outline-variant: #c7c5d0;
+    --md-sys-color-inverse-surface: #303036;
+    --md-sys-color-inverse-on-surface: #f2eff7;
+    --md-sys-color-inverse-primary: #c0c1ff;
 
-    --radius: 1rem;                                  /* large rounding */
-    --radius-lg: var(--radius);
-    --radius-md: calc(var(--radius) - 2px);
-    --radius-sm: calc(var(--radius) - 4px);
+    /* ---- M3 state-layer opacities ---- */
+    --md-sys-state-hover-opacity: 0.08;
+    --md-sys-state-focus-opacity: 0.10;
+    --md-sys-state-pressed-opacity: 0.10;
 
-    --font-heading-weight: 600;
+    /* ---- M3 shape scale ---- */
+    --md-sys-shape-corner-none: 0;
+    --md-sys-shape-corner-xs: 4px;
+    --md-sys-shape-corner-sm: 8px;
+    --md-sys-shape-corner-md: 12px;
+    --md-sys-shape-corner-lg: 16px;
+    --md-sys-shape-corner-xl: 28px;
+    --md-sys-shape-corner-full: 9999px;
+
+    /* ---- App tokens mapped to M3 roles (legacy names preserved) ---- */
+    --color-background: var(--md-sys-color-background);
+    --color-foreground: var(--md-sys-color-on-surface);
+    --color-card: var(--md-sys-color-surface-container-lowest);
+    --color-card-foreground: var(--md-sys-color-on-surface);
+    --color-popover: var(--md-sys-color-surface-container-high);
+    --color-popover-foreground: var(--md-sys-color-on-surface);
+    --color-primary: var(--md-sys-color-primary);
+    --color-primary-foreground: var(--md-sys-color-on-primary);
+    --color-secondary: var(--md-sys-color-tertiary);          /* pink */
+    --color-secondary-foreground: var(--md-sys-color-on-tertiary);
+    --color-muted: var(--md-sys-color-surface-container-high);
+    --color-muted-foreground: var(--md-sys-color-on-surface-variant);
+    --color-accent: var(--md-sys-color-tertiary);             /* pink accent */
+    --color-accent-foreground: var(--md-sys-color-on-tertiary);
+    --color-destructive: var(--md-sys-color-error);
+    --color-destructive-foreground: var(--md-sys-color-on-error);
+    --color-border: var(--md-sys-color-outline-variant);
+    --color-input: var(--md-sys-color-outline-variant);
+    --color-ring: var(--md-sys-color-primary);
+
+    /* M3 shape → app radius aliases */
+    --radius: var(--md-sys-shape-corner-lg);          /* 16px */
+    --radius-lg: var(--md-sys-shape-corner-xl);       /* 28px — extra-large surfaces */
+    --radius-md: var(--md-sys-shape-corner-md);       /* 12px */
+    --radius-sm: var(--md-sys-shape-corner-sm);       /* 8px  */
+
+    --font-heading-weight: 500;                       /* M3 titles use Medium */
     --font-body-weight: 400;
 
-    /* Typography families */
-    --font-heading: "Poppins", system-ui, sans-serif;
-    --font-body: "Inter", system-ui, sans-serif;
+    /* Typography families — Roboto / Roboto Flex (M3 reference typefaces) */
+    --font-heading: "Roboto Flex", "Roboto", system-ui, sans-serif;
+    --font-body: "Roboto", "Roboto Flex", system-ui, sans-serif;
     --font-serif: var(--font-heading);
     --font-sans: var(--font-body);
-    --font-mono: "JetBrains Mono", "Courier New", monospace;
+    --font-mono: "Roboto Mono", ui-monospace, "Courier New", monospace;
 
-    /* Soft, neutral layered shadows with indigo-tinted hover lift */
-    --shadow-sm: 0 1px 2px 0 rgb(15 23 42 / 0.06);
-    --shadow-card: 0 4px 14px -4px rgb(15 23 42 / 0.10), 0 2px 6px -3px rgb(15 23 42 / 0.06);
-    --shadow-hover: 0 22px 45px -16px rgb(99 102 241 / 0.30), 0 10px 18px -10px rgb(15 23 42 / 0.14);
+    /* ---- M3 elevation (tonal shadows, levels 1 / 2 / 4) ---- */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.30), 0 1px 3px 1px rgb(0 0 0 / 0.15);
+    --shadow-card: 0 1px 2px 0 rgb(0 0 0 / 0.30), 0 2px 6px 2px rgb(0 0 0 / 0.15);
+    --shadow-hover: 0 2px 3px 0 rgb(0 0 0 / 0.30), 0 6px 10px 4px rgb(0 0 0 / 0.15);
 
-    /* Soft borders (replacing the old hard black rules) */
+    /* Borders */
     --border-thin: 1px solid var(--color-border);
     --border-thick: 2px solid var(--color-border);
 
@@ -66,30 +122,51 @@
 }
 
 .dark {
-    --color-background: #0f1419;
-    --color-foreground: #e2e8f0;
-    --color-card: #1e293b;
-    --color-card-foreground: #e2e8f0;
-    --color-popover: #1e293b;
-    --color-popover-foreground: #e2e8f0;
-    --color-primary: #6366f1;
-    --color-primary-foreground: #ffffff;
-    --color-secondary: #ec4899;
-    --color-secondary-foreground: #ffffff;
-    --color-muted: #334155;
-    --color-muted-foreground: #94a3b8;
-    --color-accent: #ec4899;
-    --color-accent-foreground: #ffffff;
-    --color-destructive: #ef4444;
-    --color-destructive-foreground: #ffffff;
-    --color-border: #334155;
-    --color-input: #334155;
-    --color-ring: #6366f1;
+    /* ---- M3 system colors · DARK scheme ---- */
+    --md-sys-color-primary: #c0c1ff;
+    --md-sys-color-on-primary: #161a8e;
+    --md-sys-color-primary-container: #3138b3;
+    --md-sys-color-on-primary-container: #e1e0ff;
+    --md-sys-color-secondary: #c4c5dd;
+    --md-sys-color-on-secondary: #2d2f42;
+    --md-sys-color-secondary-container: #434559;
+    --md-sys-color-on-secondary-container: #e0e1f9;
+    --md-sys-color-tertiary: #ffafd2;          /* pink accent role */
+    --md-sys-color-on-tertiary: #631140;
+    --md-sys-color-tertiary-container: #8c2c5d;
+    --md-sys-color-on-tertiary-container: #ffd8e7;
+    --md-sys-color-error: #ffb4ab;
+    --md-sys-color-on-error: #690005;
+    --md-sys-color-error-container: #93000a;
+    --md-sys-color-on-error-container: #ffdad6;
+    --md-sys-color-background: #121318;
+    --md-sys-color-on-background: #e4e1e9;
+    --md-sys-color-surface: #121318;
+    --md-sys-color-on-surface: #e4e1e9;
+    --md-sys-color-surface-variant: #46464f;
+    --md-sys-color-on-surface-variant: #c7c5d0;
+    --md-sys-color-surface-dim: #121318;
+    --md-sys-color-surface-bright: #383940;
+    --md-sys-color-surface-container-lowest: #0d0e13;
+    --md-sys-color-surface-container-low: #1b1b21;
+    --md-sys-color-surface-container: #1f1f25;
+    --md-sys-color-surface-container-high: #292a30;
+    --md-sys-color-surface-container-highest: #34343b;
+    --md-sys-color-outline: #918f9a;
+    --md-sys-color-outline-variant: #46464f;
+    --md-sys-color-inverse-surface: #e4e1e9;
+    --md-sys-color-inverse-on-surface: #303036;
+    --md-sys-color-inverse-primary: #4a52cc;
 
-    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.4);
-    --shadow-card: 0 4px 14px -4px rgb(0 0 0 / 0.55), 0 2px 6px -3px rgb(0 0 0 / 0.4);
-    --shadow-hover: 0 22px 45px -16px rgb(0 0 0 / 0.7), 0 10px 18px -10px rgb(0 0 0 / 0.5);
+    /* Elevation deepens in dark to compensate for tonal surfaces */
+    --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.55), 0 1px 2px 0 rgb(0 0 0 / 0.40);
+    --shadow-card: 0 2px 6px 2px rgb(0 0 0 / 0.55), 0 1px 2px 0 rgb(0 0 0 / 0.40);
+    --shadow-hover: 0 6px 12px 4px rgb(0 0 0 / 0.60), 0 2px 4px 0 rgb(0 0 0 / 0.45);
 }
+
+/* ---- Material Web component theming ----
+   md-* custom elements read --md-sys-color-* directly, so they
+   inherit the indigo/pink scheme above in both light and dark. */
 
 /* ─────────────────────────────────────────────
    2. BASE  (replaces @layer base)
@@ -1774,7 +1851,7 @@ html.gate-locked .site-footer { display: none !important; }
     .pin-btn { padding: 0.7rem; }
 }
 
-/* ─────────────────────────────────────────────
+/* ─────────────────────────────────��───────────
    SYLLABUS VIEW
    ───────────────────────────────────────────── */
 .syllabus-btn {
@@ -2238,6 +2315,195 @@ body.nav-open .nav-toggle-bars span:nth-child(3) { transform: translateY(-6px) r
 
     .nav-backdrop { display: block; }
     body.nav-open .nav-backdrop { opacity: 1; pointer-events: auto; }
+}
+
+/* ================================================================
+   19. MATERIAL DESIGN 3 REFINEMENT LAYER
+   Material Symbols iconography · M3 state layers · M3 search bar ·
+   icon buttons / FAB · chips · dialog & shape polish.
+   Appended last so these authentic M3 treatments win the cascade.
+   ================================================================ */
+
+/* 19.0 Material Symbols (M3 iconography) ---------------------- */
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+    user-select: none;
+}
+.material-symbols-outlined.filled { font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+.icon-18 { font-size: 18px; }
+.icon-20 { font-size: 20px; }
+.icon-24 { font-size: 24px; }
+
+/* 19.1 Material Web component sizing/theming ------------------ */
+md-filled-button, md-outlined-button, md-text-button,
+md-filled-tonal-button, md-elevated-button { --md-sys-color-surface: var(--color-card); }
+md-ripple { color: var(--md-sys-color-primary); }
+
+/* 19.2 M3 state layers on the editorial pill buttons ---------- */
+.filter-btn, .unit-btn, .status-btn, .nav-btn, .syllabus-btn,
+.mark-done-btn, .timer-btn {
+    transition: background-color 0.2s ease, color 0.2s ease,
+                border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.filter-btn:hover, .unit-btn:hover {
+    background: color-mix(in srgb, var(--md-sys-color-primary) 8%, transparent);
+    border-color: var(--md-sys-color-outline);
+}
+.filter-btn.active:hover, .unit-btn.active:hover {
+    background: color-mix(in srgb, var(--md-sys-color-on-primary) 8%, var(--md-sys-color-primary));
+    border-color: var(--md-sys-color-primary);
+}
+/* Selected unit/filter reads as an M3 filled button with tonal lift */
+.filter-btn.active, .unit-btn.active { box-shadow: var(--shadow-sm); }
+
+/* 19.3 M3 search bar (fully-rounded, tonal, no hard border) --- */
+.search-input {
+    background: var(--md-sys-color-surface-container-high);
+    border: 1px solid transparent;
+    border-radius: var(--md-sys-shape-corner-full);
+    color: var(--md-sys-color-on-surface);
+    box-shadow: none;
+}
+.search-input:focus {
+    border-color: var(--md-sys-color-primary);
+    box-shadow: 0 0 0 1px var(--md-sys-color-primary);
+    background: var(--md-sys-color-surface-container-high);
+}
+.search-icon, .search-clear { color: var(--md-sys-color-on-surface-variant); }
+.search-clear { background: transparent; }
+.search-clear:hover { background: color-mix(in srgb, var(--md-sys-color-on-surface) 8%, transparent); color: var(--md-sys-color-error); }
+
+/* 19.4 Theme toggle as an M3 icon button --------------------- */
+.theme-toggle {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    color: var(--md-sys-color-on-surface-variant);
+}
+.theme-toggle:hover {
+    transform: none;
+    box-shadow: none;
+    background: color-mix(in srgb, var(--md-sys-color-on-surface) 8%, transparent);
+}
+.theme-toggle .material-symbols-outlined { font-size: 22px; }
+
+/* 19.5 Hamburger as an M3 icon button ------------------------ */
+.nav-toggle:hover { background: color-mix(in srgb, var(--md-sys-color-on-surface) 8%, transparent); }
+
+/* 19.6 Syllabus button → M3 filled-tonal button -------------- */
+.syllabus-btn {
+    display: inline-flex; align-items: center; gap: 0.5rem; justify-content: center;
+    background: var(--md-sys-color-secondary-container);
+    color: var(--md-sys-color-on-secondary-container);
+    border: none;
+    border-radius: var(--md-sys-shape-corner-full);
+}
+.syllabus-btn:hover {
+    background: color-mix(in srgb, var(--md-sys-color-on-secondary-container) 8%, var(--md-sys-color-secondary-container));
+    color: var(--md-sys-color-on-secondary-container);
+    box-shadow: var(--shadow-sm);
+}
+.syllabus-btn.active {
+    background: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+}
+.syllabus-btn .material-symbols-outlined { font-size: 18px; }
+
+/* 19.7 Question card = M3 outlined→filled tonal surface ------- */
+.question-card { box-shadow: var(--shadow-sm); }
+.question-card:hover { transform: none; box-shadow: var(--shadow-card); }
+.q-number {
+    background: var(--md-sys-color-tertiary-container);
+    color: var(--md-sys-color-on-tertiary-container);
+}
+.marks-badge {
+    background: var(--md-sys-color-primary-container);
+    color: var(--md-sys-color-on-primary-container);
+}
+.q-meta span:first-child {
+    background: var(--md-sys-color-secondary-container);
+    color: var(--md-sys-color-on-secondary-container);
+}
+
+/* 19.8 Per-card checkbox + bookmark as Material Symbols ------- */
+.q-check { border-radius: var(--md-sys-shape-corner-xs); }
+.q-check-tick { font-size: 16px; }
+.question-card.is-done .q-check { background: var(--md-sys-color-primary); border-color: var(--md-sys-color-primary); }
+.q-check:hover { border-color: var(--md-sys-color-primary); }
+.q-bookmark .material-symbols-outlined { font-size: 22px; transition: font-variation-settings 0.15s ease; }
+.q-bookmark.starred { color: var(--md-sys-color-tertiary); }
+.dark .q-bookmark.starred { color: var(--md-sys-color-tertiary); }
+
+/* 19.9 Status segmented buttons → M3 selected = secondary container */
+.status-btn { background: transparent; border-color: var(--md-sys-color-outline); }
+.status-btn:hover { background: color-mix(in srgb, var(--md-sys-color-on-surface) 8%, transparent); }
+.status-btn.active {
+    background: var(--md-sys-color-secondary-container);
+    color: var(--md-sys-color-on-secondary-container);
+    border-color: var(--md-sys-color-secondary-container);
+}
+
+/* 19.10 Reader dialog → M3 surface-container-high, XL shape --- */
+.article-modal {
+    background: var(--md-sys-color-surface-container-high);
+    border: none;
+    border-radius: var(--md-sys-shape-corner-xl);
+}
+.article-header { background: transparent; }
+.article-footer { background: transparent; }
+.close-btn {
+    display: inline-flex; align-items: center; gap: 0.4rem;
+    background: transparent; border: 1px solid var(--md-sys-color-outline);
+}
+.close-btn:hover {
+    background: var(--md-sys-color-error-container);
+    color: var(--md-sys-color-on-error-container);
+    border-color: transparent;
+}
+.nav-btn {
+    background: transparent;
+    border: 1px solid var(--md-sys-color-outline);
+    box-shadow: none;
+}
+.nav-btn:hover:not(:disabled) { transform: none; box-shadow: var(--shadow-sm); }
+.badge { background: var(--md-sys-color-primary); color: var(--md-sys-color-on-primary); }
+
+/* 19.11 Timer primary action = M3 filled button -------------- */
+.timer-btn:hover { transform: none; box-shadow: var(--shadow-sm); }
+.timer-btn.primary { box-shadow: none; }
+
+/* 19.12 Overlay scrim = M3 scrim (on-surface @ low alpha) ----- */
+.overlay { background: color-mix(in srgb, var(--md-sys-color-on-surface) 40%, transparent); }
+
+/* 19.13 Sidebar cards = M3 elevated surface ------------------- */
+.sidebar-section { box-shadow: var(--shadow-sm); background: var(--md-sys-color-surface-container-low); }
+.inverted-section { background: var(--md-sys-color-primary); color: var(--md-sys-color-on-primary); }
+.dark .inverted-section .stat-val,
+.inverted-section .stat-val { color: var(--md-sys-color-tertiary-container); }
+
+/* 19.14 Pill nav top-bar = M3 surface tint ------------------- */
+.top-bar-inner {
+    background: color-mix(in srgb, var(--md-sys-color-surface) 80%, transparent);
+    border-color: var(--md-sys-color-outline-variant);
+    box-shadow: var(--shadow-sm);
+}
+
+/* 19.15 Honour reduced motion for icon morphs ---------------- */
+@media (prefers-reduced-motion: reduce) {
+    .q-bookmark .material-symbols-outlined { transition: none; }
 }
 
 /* Shared scroll lock used by BOTH the reader modal and the drawer so neither

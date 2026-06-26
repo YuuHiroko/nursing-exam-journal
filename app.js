@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
             card.innerHTML =
                 '<button class="q-check" type="button" aria-pressed="' + isDone(q) + '" ' +
                     'aria-label="Mark as completed" title="Mark as completed">' +
-                    '<span class="q-check-tick">&#10003;</span></button>' +
+                    '<span class="q-check-tick material-symbols-outlined" aria-hidden="true">check</span></button>' +
                 '<div class="q-number">' + num + '</div>' +
                 '<div class="q-content">' +
                     '<h3 class="q-text">' + highlightTerm(q.question, activeSearch.trim()) + '</h3>' +
@@ -226,7 +226,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 '<div class="q-marks-area">' +
                     '<button class="q-bookmark' + (starred ? ' starred' : '') + '" type="button" ' +
                         'aria-pressed="' + starred + '" aria-label="Bookmark question" title="Bookmark">' +
-                        (starred ? '★' : '☆') + '</button>' +
+                        '<span class="material-symbols-outlined' + (starred ? ' filled' : '') + '" aria-hidden="true">' +
+                        (starred ? 'star' : 'star_border') + '</span></button>' +
                     '<span class="marks-badge">' + q.marks + ' M</span>' +
                 '</div>';
 
@@ -249,8 +250,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 setStar(q, nowStar);
                 star.classList.toggle('starred', nowStar);
                 star.setAttribute('aria-pressed', nowStar);
-                star.textContent = nowStar ? '★' : '☆';
-                toast(nowStar ? 'Bookmarked ★' : 'Bookmark removed', 'info');
+                var starIcon = star.querySelector('.material-symbols-outlined');
+                if (starIcon) {
+                    starIcon.textContent = nowStar ? 'star' : 'star_border';
+                    starIcon.classList.toggle('filled', nowStar);
+                }
+                toast(nowStar ? 'Bookmarked' : 'Bookmark removed', 'info');
                 if (activeStatus === 'starred' && !nowStar) renderQuestions();  // drop from starred view
             });
             listContainer.appendChild(card);
@@ -418,7 +423,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const d = isDone(q);
                 markDoneBtn.classList.toggle('done', d);
                 markDoneBtn.setAttribute('aria-pressed', String(d));
-                markDoneBtn.innerHTML = d ? '&#10003; Completed' : 'Mark as completed';
+                markDoneBtn.innerHTML = d ? '<span class="material-symbols-outlined icon-18" aria-hidden="true">check</span> Completed' : 'Mark as completed';
             };
             syncBtn();
             markDoneBtn.onclick = () => {
