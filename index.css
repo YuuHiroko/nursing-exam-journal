@@ -2683,6 +2683,30 @@ md-ripple { color: var(--md-sys-color-primary); }
     .la-option { transition: none; }
 }
 
+/* 20.1 Accessibility utilities + focus states for Learn About -- */
+.sr-only {
+    position: absolute !important;
+    width: 1px; height: 1px;
+    padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0, 0, 0, 0);
+    white-space: nowrap; border: 0;
+}
+.la-option { text-align: center; }
+.la-option-text { pointer-events: none; }
+.la-option:focus-visible,
+.la-speak:focus-visible {
+    outline: 3px solid var(--md-sys-color-primary);
+    outline-offset: 3px;
+}
+.dark .la-option:focus-visible,
+.dark .la-speak:focus-visible {
+    outline-color: var(--md-sys-color-inverse-primary);
+}
+/* Make the correct answer legible regardless of theme contrast */
+.la-option.is-correct .la-option-mark { color: #2e7d32; }
+.dark .la-option.is-correct { outline-color: #7fd98a; }
+.dark .la-option.is-correct .la-option-mark { color: #7fd98a; }
+
 /* Shared scroll lock used by BOTH the reader modal and the drawer so neither
    clobbers the other's lock (reference-counted in app.js). */
 body.scroll-locked { overflow: hidden; }
