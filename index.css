@@ -2476,7 +2476,10 @@ md-icon-button[hidden] { display: none !important; }
     border-radius: inherit;
 }
 .q-open { --md-focus-ring-shape: var(--md-sys-shape-corner-lg, 16px); }
-.q-check, .q-bookmark { position: relative; z-index: 2; }   /* above the overlay */
+/* Keep the bookmark above the stretched overlay. NOTE: do NOT set a position
+   on .q-check here — it is position:absolute (z-index:3) by design; making it
+   relative turns it into a grid item and shifts .q-number into the 1fr track. */
+.q-bookmark { position: relative; z-index: 2; }
 .question-card:focus-within { outline: none; }   /* md-focus-ring handles it */
 
 /* Lazy-load (OBG-II) loading state */
