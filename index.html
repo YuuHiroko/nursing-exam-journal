@@ -41,11 +41,13 @@
     <!-- Top Bar -->
     <div class="top-bar">
         <div class="top-bar-inner">
-            <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open menu" aria-controls="sidebar" aria-expanded="false">
-                <span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
-            </button>
+            <md-icon-button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-controls="sidebar" aria-expanded="false">
+                <md-icon>menu</md-icon>
+            </md-icon-button>
             <span class="mono-label">VOL. 01 — MIDWIFERY & OBSTETRICS</span>
-            <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode"><span class="material-symbols-outlined" aria-hidden="true">dark_mode</span></button>
+            <md-icon-button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                <md-icon>dark_mode</md-icon>
+            </md-icon-button>
             <span class="mono-label right-align">MUHS B.SC NURSING</span>
         </div>
     </div>
@@ -66,15 +68,17 @@
     <div class="main-layout">
         <!-- Sidebar Navigation / Filters -->
         <aside class="sidebar" id="sidebar">
-            <!-- Live keyword search -->
+            <!-- Live keyword search (Material outlined text field) -->
             <div class="sidebar-section">
-                <div class="search-box">
-                    <span class="search-icon material-symbols-outlined" aria-hidden="true">search</span>
-                    <input type="text" id="q-search" class="search-input" inputmode="search"
-                           placeholder="Search questions…" aria-label="Search questions"
-                           autocomplete="off" enterkeyhint="search">
-                    <button type="button" id="q-search-clear" class="search-clear" aria-label="Clear search">&times;</button>
-                </div>
+                <md-outlined-text-field
+                    id="q-search" class="search-field" type="search"
+                    placeholder="Search questions…" aria-label="Search questions"
+                    autocomplete="off" enterkeyhint="search">
+                    <md-icon slot="leading-icon">search</md-icon>
+                    <md-icon-button slot="trailing-icon" id="q-search-clear" aria-label="Clear search" hidden>
+                        <md-icon>close</md-icon>
+                    </md-icon-button>
+                </md-outlined-text-field>
             </div>
 
             <!-- Syllabus -->
@@ -163,26 +167,43 @@
         </main>
     </div>
 
-    <!-- Answer Modal / Article Reader -->
-    <div id="answer-overlay" class="overlay hidden" role="dialog" aria-modal="true">
-        <div class="article-modal">
+    <!-- Answer Modal / Article Reader.
+         Custom full-screen reader (app-unique immersive layout) using real
+         Material Web controls inside: md-icon-button / md-text-button /
+         md-filled-button / md-linear-progress, with M3 motion + focus trap. -->
+    <div id="answer-overlay" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="modal-question-title">
+        <div class="article-modal" role="document">
+            <span class="focus-sentinel" tabindex="0" data-sentinel="start" aria-hidden="true"></span>
+            <md-linear-progress id="reader-progress" value="0" aria-hidden="true"></md-linear-progress>
             <div class="article-header" id="article-header">
-                <button class="close-btn" id="close-modal" aria-label="Close"><span class="material-symbols-outlined icon-18" aria-hidden="true">close</span> CLOSE</button>
+                <md-icon-button class="close-btn" id="close-modal" aria-label="Close reader">
+                    <md-icon>close</md-icon>
+                </md-icon-button>
                 <div class="article-meta">
                     <span class="badge" id="modal-marks"></span>
                     <span class="badge" id="modal-unit" style="background:var(--accent);"></span>
                     <span class="badge-text" id="modal-meta"></span>
-                    <button class="mark-done-btn" id="mark-done" type="button" aria-pressed="false">Mark as completed</button>
+                    <md-text-button class="mark-done-btn" id="mark-done" aria-pressed="false">
+                        <md-icon slot="icon" id="mark-done-icon">radio_button_unchecked</md-icon>
+                        <span id="mark-done-label">Mark as completed</span>
+                    </md-text-button>
                 </div>
                 <h2 id="modal-question-title" class="article-title"></h2>
                 <button id="question-toggle" class="q-toggle" type="button" aria-expanded="false" aria-controls="modal-question-title" hidden>read full question <span class="chev material-symbols-outlined icon-20" aria-hidden="true">expand_more</span></button>
             </div>
             <div class="article-body" id="modal-body"></div>
             <div class="article-footer">
-                <button class="nav-btn" id="prev-question"><span class="material-symbols-outlined icon-18" aria-hidden="true">arrow_back</span> PREVIOUS</button>
+                <md-text-button class="nav-btn" id="prev-question">
+                    <md-icon slot="icon">arrow_back</md-icon>
+                    Previous
+                </md-text-button>
                 <span class="mono-label" id="question-counter"></span>
-                <button class="nav-btn" id="next-question">NEXT <span class="material-symbols-outlined icon-18" aria-hidden="true">arrow_forward</span></button>
+                <md-text-button class="nav-btn" id="next-question" trailing-icon>
+                    Next
+                    <md-icon slot="icon">arrow_forward</md-icon>
+                </md-text-button>
             </div>
+            <span class="focus-sentinel" tabindex="0" data-sentinel="end" aria-hidden="true"></span>
         </div>
     </div>
 
@@ -217,7 +238,7 @@
             if (!btn) return;
             function render() {
                 var dark = root.classList.contains('dark');
-                var icon = btn.querySelector('.material-symbols-outlined');
+                var icon = btn.querySelector('md-icon, .material-symbols-outlined');
                 if (icon) icon.textContent = dark ? 'light_mode' : 'dark_mode';
                 else btn.textContent = dark ? 'light_mode' : 'dark_mode';
                 btn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');

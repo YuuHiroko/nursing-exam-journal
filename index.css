@@ -590,7 +590,7 @@ img { max-width: 100%; }
     gap: 1rem;
 }
 
-/* ─────────────────────────────────────────────
+/* ──────────────���──────────────────────────────
    6. QUESTION CARDS
    ───────────────────────────────────────────── */
 .question-card {
@@ -2369,22 +2369,22 @@ md-ripple { color: var(--md-sys-color-primary); }
 /* Selected unit/filter reads as an M3 filled button with tonal lift */
 .filter-btn.active, .unit-btn.active { box-shadow: var(--shadow-sm); }
 
-/* 19.3 M3 search bar (fully-rounded, tonal, no hard border) --- */
-.search-input {
-    background: var(--md-sys-color-surface-container-high);
-    border: 1px solid transparent;
-    border-radius: var(--md-sys-shape-corner-full);
-    color: var(--md-sys-color-on-surface);
-    box-shadow: none;
+/* 19.3 M3 search field = md-outlined-text-field (fully-rounded) --- */
+.search-field {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.85rem;
+    --md-outlined-text-field-container-shape: var(--md-sys-shape-corner-full);
+    --md-outlined-text-field-leading-space: 1rem;
+    --md-outlined-text-field-trailing-space: 0.5rem;
+    --md-outlined-text-field-top-space: 0.6rem;
+    --md-outlined-text-field-bottom-space: 0.6rem;
+    --md-outlined-field-leading-content-color: var(--md-sys-color-on-surface-variant);
 }
-.search-input:focus {
-    border-color: var(--md-sys-color-primary);
-    box-shadow: 0 0 0 1px var(--md-sys-color-primary);
-    background: var(--md-sys-color-surface-container-high);
-}
-.search-icon, .search-clear { color: var(--md-sys-color-on-surface-variant); }
-.search-clear { background: transparent; }
-.search-clear:hover { background: color-mix(in srgb, var(--md-sys-color-on-surface) 8%, transparent); color: var(--md-sys-color-error); }
+.search-field md-icon-button { --md-icon-button-icon-color: var(--md-sys-color-on-surface-variant); }
+/* Material custom elements set :host{display:...}, which beats the UA [hidden]
+   rule — restore hide-on-hidden semantics for slotted md-icon-buttons. */
+md-icon-button[hidden] { display: none !important; }
 
 /* 19.4 Theme toggle as an M3 icon button --------------------- */
 .theme-toggle {
@@ -2431,6 +2431,17 @@ md-ripple { color: var(--md-sys-color-primary); }
     content-visibility: auto;
     contain-intrinsic-size: auto 180px;
 }
+/* M3 interaction layers on the (custom) question card */
+.question-card {
+    position: relative;
+    cursor: pointer;
+    --md-ripple-hover-color: var(--md-sys-color-primary);
+    --md-ripple-pressed-color: var(--md-sys-color-primary);
+    --md-focus-ring-color: var(--md-sys-color-primary);
+    --md-focus-ring-shape: var(--md-sys-shape-corner-lg, 16px);
+}
+.question-card md-ripple { border-radius: inherit; }
+.question-card:focus-visible { outline: none; }   /* md-focus-ring handles it */
 
 /* Lazy-load (OBG-II) loading state */
 .loading-state {
@@ -2481,22 +2492,23 @@ md-ripple { color: var(--md-sys-color-primary); }
 }
 .article-header { background: transparent; }
 .article-footer { background: transparent; }
-.close-btn {
-    display: inline-flex; align-items: center; gap: 0.4rem;
-    background: transparent; border: 1px solid var(--md-sys-color-outline);
+/* Material Web reader controls (md-icon-button / md-text-button) inherit the
+   M3 scheme; these tokens just keep them on-brand within the reader. */
+.close-btn { --md-icon-button-icon-color: var(--md-sys-color-on-surface-variant); }
+.nav-btn { --md-text-button-label-text-color: var(--md-sys-color-primary); }
+.mark-done-btn { --md-text-button-label-text-color: var(--md-sys-color-primary); }
+.mark-done-btn.done { --md-text-button-label-text-color: var(--md-sys-color-primary); }
+/* Reader scroll progress (md-linear-progress) pinned under the header */
+#reader-progress {
+    --md-linear-progress-active-indicator-color: var(--md-sys-color-primary);
+    --md-linear-progress-track-color: transparent;
+    --md-linear-progress-track-height: 3px;
+    --md-linear-progress-active-indicator-height: 3px;
+    display: block;
+    width: 100%;
 }
-.close-btn:hover {
-    background: var(--md-sys-color-error-container);
-    color: var(--md-sys-color-on-error-container);
-    border-color: transparent;
-}
-.nav-btn {
-    background: transparent;
-    border: 1px solid var(--md-sys-color-outline);
-    box-shadow: none;
-}
-.nav-btn:hover:not(:disabled) { transform: none; box-shadow: var(--shadow-sm); }
 .badge { background: var(--md-sys-color-primary); color: var(--md-sys-color-on-primary); }
+.focus-sentinel { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
 
 /* 19.11 Timer primary action = M3 filled button -------------- */
 .timer-btn:hover { transform: none; box-shadow: var(--shadow-sm); }

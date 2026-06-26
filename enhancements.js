@@ -118,6 +118,7 @@
 
             var overlay = document.getElementById('answer-overlay');
             var modalBody = document.getElementById('modal-body');
+            var readerProgress = document.getElementById('reader-progress');   // md-linear-progress in reader
             var ticking = false, flashed = false;
 
             function compute() {
@@ -133,6 +134,8 @@
                 }
                 pct = Math.max(0, Math.min(100, pct));
                 bar.style.width = pct + '%';
+                // Drive the reader's Material linear-progress (0..1) while open.
+                if (readerProgress && modalOpen) readerProgress.value = pct / 100;
                 if (pct >= 99.5 && !flashed) {
                     flashed = true;
                     if (!reduceMotion) {

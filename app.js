@@ -98,6 +98,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Highlight every occurrence of the live-search term inside a question.
+    // Plain-text version of an HTML string (for aria-labels).
+    function stripTags(html) {
+        return String(html == null ? '' : html).replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+    }
+
     function highlightTerm(text, term) {
         text = String(text == null ? '' : text);
         if (!term) return text;
@@ -218,10 +223,16 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.className = 'question-card' + (isDone(q) ? ' is-done' : '');
             card.dataset.qkey = qKey(q);
+            // M3 interaction + a11y: the card behaves like a button.
+            card.tabIndex = 0;
+            card.setAttribute('role', 'button');
+            card.setAttribute('aria-label', 'Open question ' + (index + 1) + ': ' + stripTags(q.question));
             const num = String(index + 1).padStart(2, '0');
 
             const starred = isStarred(q);
             card.innerHTML =
+                '<md-ripple></md-ripple>' +
+                '<md-focus-ring></md-focus-ring>' +
                 '<button class="q-check" type="button" aria-pressed="' + isDone(q) + '" ' +
                     'aria-label="Mark as completed" title="Mark as completed">' +
                     '<span class="q-check-tick material-symbols-outlined" aria-hidden="true">check</span></button>' +
@@ -243,6 +254,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 '</div>';
 
             card.addEventListener('click', () => openModal(index));
+            // Enter / Space open the card (native button semantics for a div).
+            card.addEventListener('keydown', (e) => {
+                if (e.target !== card) return;          // let inner buttons handle their own keys
+                if (e.key === 'Enter' || e.key === ' ' || e.key === 'Spacebar') {
+                    e.preventDefault();
+                    openModal(index);
+                }
+            });
             const chk = card.querySelector('.q-check');
             chk.addEventListener('click', (e) => {
                 e.stopPropagation();                 // don't open the modal
@@ -430,11 +449,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Completion toggle for this question (reflect + wire)
         if (markDoneBtn) {
+            const markDoneLabel = document.getElementById('mark-done-label');
+            const markDoneIcon = document.getElementById('mark-done-icon');
             const syncBtn = () => {
                 const d = isDone(q);
                 markDoneBtn.classList.toggle('done', d);
                 markDoneBtn.setAttribute('aria-pressed', String(d));
-                markDoneBtn.innerHTML = d ? '<span class="material-symbols-outlined icon-18" aria-hidden="true">check</span> Completed' : 'Mark as completed';
+                if (markDoneLabel) markDoneLabel.textContent = d ? 'Completed' : 'Mark as completed';
+                if (markDoneIcon) markDoneIcon.textContent = d ? 'check_circle' : 'radio_button_unchecked';
             };
             syncBtn();
             markDoneBtn.onclick = () => {
@@ -453,8 +475,11 @@ document.addEventListener('DOMContentLoaded', () => {
         // Lock scroll only on a true open transition — openModal is ALSO the
         // prev/next handler, so re-entrant calls must not stack the lock.
         const wasHidden = overlay.classList.contains('hidden');
+        if (wasHidden) {
+            lastFocusedEl = document.activeElement;   // remember trigger for restore
+        }
         overlay.classList.remove('hidden');
-        if (wasHidden) lockScroll();
+        if (wasHidden) { lockScroll(); focusReader(); }
         overlay.scrollTop = 0;
         modalBody.scrollTop = 0;
 
@@ -476,10 +501,40 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Focus management: remember the trigger, move focus into the reader on
+    // open, restore it on close, and trap Tab within the dialog (M3 a11y).
+    let lastFocusedEl = null;
+    function focusReader() {
+        if (closeModalBtn && typeof closeModalBtn.focus === 'function') {
+            requestAnimationFrame(() => closeModalBtn.focus());
+        }
+    }
+    function getFocusable() {
+        const modal = overlay.querySelector('.article-modal');
+        if (!modal) return [];
+        return Array.prototype.filter.call(
+            modal.querySelectorAll('md-icon-button, md-text-button, md-filled-button, button, [href], input, [tabindex]:not([tabindex="-1"]):not(.focus-sentinel)'),
+            (el) => !el.hasAttribute('disabled') && el.offsetParent !== null
+        );
+    }
+    // Sentinels wrap focus around the dialog.
+    overlay.querySelectorAll('.focus-sentinel').forEach((s) => {
+        s.addEventListener('focus', () => {
+            const f = getFocusable();
+            if (!f.length) return;
+            (s.dataset.sentinel === 'start' ? f[f.length - 1] : f[0]).focus();
+        });
+    });
+
     function closeModal() {
         if (overlay.classList.contains('hidden')) return;   // balance the single lock
         overlay.classList.add('hidden');
         unlockScroll();
+        // Restore focus to the card that opened the reader.
+        if (lastFocusedEl && typeof lastFocusedEl.focus === 'function') {
+            lastFocusedEl.focus();
+            lastFocusedEl = null;
+        }
     }
 
     // Event Listeners
@@ -546,20 +601,24 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ── Live keyword search (debounced, combines with all filters) ──
+    // #q-search is an <md-outlined-text-field>; it proxies .value and fires
+    // a native 'input' event, so the wiring mirrors a plain input.
     const searchInput = document.getElementById('q-search');
     const searchClearBtn = document.getElementById('q-search-clear');
-    const searchBox = document.querySelector('.search-box');
     let searchDebounce;
+    function toggleClear(v) {
+        if (searchClearBtn) searchClearBtn.hidden = !v;
+    }
     function applySearch(val) {
         activeSearch = val;
-        if (searchBox) searchBox.classList.toggle('has-text', !!val);
+        toggleClear(!!val);
         exitSyllabus();
         renderQuestions();
     }
     if (searchInput) {
         searchInput.addEventListener('input', () => {
             const v = searchInput.value;
-            if (searchBox) searchBox.classList.toggle('has-text', !!v);
+            toggleClear(!!v);
             clearTimeout(searchDebounce);
             searchDebounce = setTimeout(() => applySearch(v), 150);
         });
