@@ -452,6 +452,8 @@ document.addEventListener('DOMContentLoaded', () => {
         requestAnimationFrame(() => {
             modalBody.innerHTML = q.answer || '';
             if (window.activateDiagrams) window.activateDiagrams();
+            // Append Google "Learn About" interactive study modules to every answer
+            if (window.injectLearnAbout) window.injectLearnAbout(modalBody, q);
             // Question Cuff: reveal the toggle only when the stem exceeds 2 lines;
             // short questions render in full with no chrome.
             if (questionToggle) {
