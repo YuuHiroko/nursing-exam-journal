@@ -45,6 +45,9 @@
                 <md-icon>menu</md-icon>
             </md-icon-button>
             <span class="mono-label">VOL. 01 — MIDWIFERY & OBSTETRICS</span>
+            <md-icon-button id="export-pdf-toolbar" aria-label="Export to PDF" title="Export to PDF">
+                <md-icon>picture_as_pdf</md-icon>
+            </md-icon-button>
             <md-icon-button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
                 <md-icon>dark_mode</md-icon>
             </md-icon-button>
@@ -198,6 +201,9 @@
                     Previous
                 </md-text-button>
                 <span class="mono-label" id="question-counter"></span>
+                <md-icon-button id="export-pdf-modal" aria-label="Export to PDF" title="Export this answer to PDF">
+                    <md-icon>picture_as_pdf</md-icon>
+                </md-icon-button>
                 <md-text-button class="nav-btn" id="next-question" trailing-icon>
                     Next
                     <md-icon slot="icon">arrow_forward</md-icon>
@@ -229,7 +235,8 @@
     <script defer src="syllabus.js?v=1"></script>
     <script defer src="learn-about.js?v=7"></script>
     <script defer src="enhancements.js?v=3"></script>
-    <script defer src="app.js?v=30"></script>
+    <script defer src="app.js?v=31"></script>
+    <script defer src="pdf-export.js?v=1"></script>
     <!-- Dark-mode toggle wiring (theme only; page logic lives in app.js) -->
     <script>
         (function () {
