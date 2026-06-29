@@ -2854,7 +2854,7 @@ body.scroll-locked { overflow: hidden; }
    in from the right on all screen sizes.
    ═══════════════════════════════════════════════════════════════════ */
 
-/* 20.1 Overlay wrapper — full viewport, backdrop on tablet/desktop only */
+/* 20.1 Overlay wrapper �� full viewport, backdrop on tablet/desktop only */
 .overlay {
     position: fixed !important;
     inset: 0 !important;
@@ -2873,16 +2873,9 @@ body.scroll-locked { overflow: hidden; }
     display: none !important;
 }
 
-/* Dim backdrop — only on tablet and desktop (injected via pseudo) */
-@media (min-width: 768px) {
-    .overlay::before {
-        content: '';
-        position: fixed;
-        inset: 0;
-        background: rgba(20, 20, 28, 0.48);
-        z-index: 0;
-        pointer-events: auto;
-    }
+/* Issue 4 — Backdrop: clearly dims background content */
+.overlay:not(.hidden) {
+    background: rgba(0, 0, 0, 0.6) !important;
 }
 
 /* 20.2 Panel — full-height, slides in from the right */
@@ -2902,16 +2895,23 @@ body.scroll-locked { overflow: hidden; }
     display: flex !important;
     flex-direction: column !important;
     overflow: hidden !important;
-    transform: translateX(100%);
+    /* Issue 2 — slide animation */
+    will-change: transform !important;
+    transform: translateX(100%) !important;
     transition: transform 280ms cubic-bezier(0.05, 0.7, 0.1, 1.0) !important;
     animation: none !important;
     background: var(--md-sys-color-surface-container-high, var(--color-card)) !important;
 }
+/* Issue 2 — hidden state keeps panel off-screen */
+.overlay.hidden .article-modal {
+    transform: translateX(100%) !important;
+}
+/* Issue 2 — visible state slides panel in */
 .overlay:not(.hidden) .article-modal {
     transform: translateX(0) !important;
 }
 
-/* Tablet: full-width panel with backdrop */
+/* Mobile + tablet (< 1200px): full-width panel */
 @media (min-width: 768px) {
     .article-modal {
         width: 100% !important;
@@ -2920,8 +2920,8 @@ body.scroll-locked { overflow: hidden; }
     }
 }
 
-/* Desktop: panel capped at 720px, anchored right */
-@media (min-width: 1025px) {
+/* Issue 1 — Desktop (≥ 1200px): cap at 720px */
+@media (min-width: 1200px) {
     .article-modal {
         width: 720px !important;
         max-width: 720px !important;
@@ -2938,6 +2938,7 @@ body.scroll-locked { overflow: hidden; }
 }
 
 /* 20.4 Header — sticky at top, never scrolls away */
+/* Issue 3 — tighter padding so more answer is visible */
 .overlay .article-header {
     position: sticky !important;
     top: 0 !important;
@@ -2945,7 +2946,7 @@ body.scroll-locked { overflow: hidden; }
     flex-shrink: 0 !important;
     max-height: none !important;
     overflow-y: visible !important;
-    padding: 0.85rem 1rem 0.9rem !important;
+    padding: 8px 12px !important;
     border-bottom: 1px solid var(--md-sys-color-outline-variant, var(--color-border)) !important;
     background: var(--md-sys-color-surface-container-high, var(--color-card)) !important;
     display: flex !important;
@@ -2958,7 +2959,7 @@ body.scroll-locked { overflow: hidden; }
     display: flex !important;
     flex-wrap: wrap !important;
     align-items: center !important;
-    gap: 0.45rem !important;
+    gap: 6px !important;
     margin-bottom: 0 !important;
 }
 .overlay .close-btn {
@@ -2967,6 +2968,7 @@ body.scroll-locked { overflow: hidden; }
 }
 
 /* 20.5 Title — always fully visible, no clamp, no truncation */
+/* Issue 3 — 15px with tighter margin-top */
 .overlay .article-title,
 .overlay #modal-question-title {
     display: block !important;
@@ -2978,9 +2980,9 @@ body.scroll-locked { overflow: hidden; }
     line-height: 1.45 !important;
     letter-spacing: -0.01em !important;
     font-weight: 700 !important;
-    margin-top: 0.1rem !important;
+    margin-top: 6px !important;
 }
-@media (min-width: 1025px) {
+@media (min-width: 1200px) {
     .overlay .article-title,
     .overlay #modal-question-title {
         font-size: 17px !important;
@@ -3004,7 +3006,7 @@ body.scroll-locked { overflow: hidden; }
     line-height: 1.75 !important;
     scroll-behavior: smooth !important;
 }
-@media (min-width: 1025px) {
+@media (min-width: 1200px) {
     .overlay .article-body {
         padding: 1.75rem 2rem 2.5rem !important;
         font-size: 15px !important;
@@ -3037,9 +3039,15 @@ body.scroll-locked { overflow: hidden; }
     background: var(--md-sys-color-surface-container-high, var(--color-card)) !important;
     flex-wrap: nowrap !important;
 }
-.overlay .nav-btn {
+/* Issue 5 — nav button shared styles */
+.overlay .nav-btn,
+.overlay #prev-question,
+.overlay #next-question {
     min-height: 44px !important;
     min-width: 44px !important;
+    border: 0.5px solid rgba(255, 255, 255, 0.18) !important;
+    border-radius: 8px !important;
+    padding: 0 16px !important;
 }
 .overlay #question-counter {
     font-size: 0.72rem !important;
