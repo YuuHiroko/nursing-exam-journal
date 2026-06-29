@@ -122,6 +122,7 @@
                 '</form>' +
                 '<p class="pin-error" id="pin-error" role="alert" aria-live="assertive"></p>' +
                 '<span class="pin-device">DEVICE ID · ' + fp.toUpperCase() + '</span>' +
+                '<button class="pin-reset" id="pin-reset" type="button">Reset This Device</button>' +
             '</div>';
 
         document.body.appendChild(gate);
@@ -129,11 +130,25 @@
         var form = gate.querySelector('#pin-form');
         var input = gate.querySelector('#pin-input');
         var error = gate.querySelector('#pin-error');
+        var resetBtn = gate.querySelector('#pin-reset');
 
         // Clear the error as the user edits.
         input.addEventListener('input', function () {
             error.textContent = '';
             gate.classList.remove('shake');
+        });
+
+        // Reset device binding
+        resetBtn.addEventListener('click', function () {
+            try {
+                localStorage.removeItem(BIND_KEY);
+                localStorage.removeItem(STORAGE_KEY);
+                error.textContent = 'Device reset. Try any valid PIN.';
+                input.value = '';
+                input.focus();
+            } catch (e) {
+                error.textContent = 'Error resetting device.';
+            }
         });
 
         form.addEventListener('submit', function (e) {
