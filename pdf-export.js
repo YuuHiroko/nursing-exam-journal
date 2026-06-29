@@ -615,11 +615,6 @@
         injectStyles();
         wireButtons();
     }
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', init);
-    } else {
-        init();
-    }
 
     /* ════════════════════════════════════════════════════════════════
        PRINT + DIALOG CSS
@@ -720,5 +715,12 @@
             '.pdf-theme-contrast .answer-text,.pdf-theme-contrast li,.pdf-theme-contrast p{color:#000 !important;}',
         '}'
     ].join('\n');
+
+    /* Boot — runs after PRINT_CSS is defined so injectStyles() always has the CSS. */
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', init);
+    } else {
+        init();
+    }
 
 })();
