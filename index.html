@@ -17,36 +17,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL@24,400..600,0..1&display=block" rel="stylesheet">
     <link rel="stylesheet" href="index.css?v=35">
-    <style>
-        /* Hide all app content until authentication succeeds */
-        body > .top-bar,
-        body > .nav-backdrop,
-        body > header,
-        body > .main-layout,
-        body > footer,
-        body > .site-footer {
-            display: none;
-        }
-
-        /* Only show gate during boot */
-        #fingerprint-gate-container {
-            display: block;
-        }
-
-        /* After unlock, show app */
-        body.app-unlocked > .top-bar,
-        body.app-unlocked > .nav-backdrop,
-        body.app-unlocked > header,
-        body.app-unlocked > .main-layout,
-        body.app-unlocked > footer,
-        body.app-unlocked > .site-footer {
-            display: revert;
-        }
-
-        body.app-unlocked #fingerprint-gate-container {
-            display: none;
-        }
-    </style>
     <!-- Material Web 3 components — bundled locally (vendor/), no CDN. Self-registers custom elements. -->
     <script type="module">
         import { typescaleStyles } from './vendor/material-web.min.js?v=1';
@@ -54,8 +24,8 @@
             document.adoptedStyleSheets = [...document.adoptedStyleSheets, typescaleStyles.styleSheet];
         }
     </script>
-    <!-- Fingerprint-based access gate (runs before paint; blocks until authenticated) -->
-    <script src="fingerprint-gate.js?v=7"></script>
+    <!-- Device PIN gate (runs before paint; locks page until unlocked) -->
+    <script src="pin-gate.js?v=18"></script>
     <!-- Dark-mode init (runs before paint to avoid flash) -->
     <script>
         (function () {
@@ -75,14 +45,9 @@
                 <md-icon>menu</md-icon>
             </md-icon-button>
             <span class="mono-label">VOL. 01 — MIDWIFERY & OBSTETRICS</span>
-            <div style="display: flex; align-items: center; gap: 8px; margin-left: auto;">
-                <md-icon-button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
-                    <md-icon>dark_mode</md-icon>
-                </md-icon-button>
-                <md-icon-button id="logout-btn" aria-label="Logout" title="Logout">
-                    <md-icon>logout</md-icon>
-                </md-icon-button>
-            </div>
+            <md-icon-button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                <md-icon>dark_mode</md-icon>
+            </md-icon-button>
             <span class="mono-label right-align">MUHS B.SC NURSING</span>
         </div>
     </div>
@@ -264,7 +229,7 @@
     <script defer src="syllabus.js?v=1"></script>
     <script defer src="learn-about.js?v=7"></script>
     <script defer src="enhancements.js?v=3"></script>
-    <script defer src="app.js?v=29"></script>
+    <script defer src="app.js?v=30"></script>
     <!-- Dark-mode toggle wiring (theme only; page logic lives in app.js) -->
     <script>
         (function () {
