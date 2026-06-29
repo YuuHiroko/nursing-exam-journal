@@ -23,8 +23,8 @@
     // ── EDIT ME ─────────────────────────────────────────────────────────────
     // Add/replace the PINs you hand out. One per student is a good pattern.
     var VALID_PINS = [
-        '1707',
-        '2579',
+        '2557',
+        '7890',
         '3579',
         '2573'
     ];
