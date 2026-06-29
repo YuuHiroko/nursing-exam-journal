@@ -22,11 +22,12 @@
 
     // ── EDIT ME ─────────────────────────────────────────────────────────────
     // Add/replace the PINs you hand out. One per student is a good pattern.
+    // RESET: New PIN codes for fresh start
     var VALID_PINS = [
-        '2557',
-        '7890',
-        '3579',
-        '2573'
+        '1234',
+        '5678',
+        '9012',
+        '3456'
     ];
     // ────────────────────────────────────────────────────────────────────────
 
