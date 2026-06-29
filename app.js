@@ -705,27 +705,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // Expose so renderQuestions() can react to OBG-II selection / empty state.
     window.__obg2 = { get status() { return obg2Status; }, load: loadOBG2 };
 
-    // ── Public API consumed by the PDF export module (pdf-export.js) ──
-    // Kept intentionally small so the export engine stays decoupled from the
-    // app's internals — it only reads questions + per-device study state.
-    window.ExamApp = {
-        getAllQuestions: function () { return getAllQuestions(); },
-        getCurrentQuestion: function () {
-            if (!overlay || overlay.classList.contains('hidden')) return null;
-            return currentQuestions[currentIndex] || null;
-        },
-        isModalOpen: function () { return !!overlay && !overlay.classList.contains('hidden'); },
-        getActiveUnit: function () { return activeUnit; },
-        isDone: function (q) { return isDone(q); },
-        isStarred: function (q) { return isStarred(q); },
-        getUnitLabel: function (u) { return getUnitLabel(u); },
-        // Best-effort load of the lazy OBG-II dataset before a full-subject export.
-        ensureOBG2: function (cb) {
-            if (window.__obg2 && window.__obg2.status !== 'ready') window.__obg2.load(cb);
-            else if (typeof cb === 'function') cb();
-        }
-    };
-
     // Initialize: render units 1–7 immediately.
     renderQuestions();
 
