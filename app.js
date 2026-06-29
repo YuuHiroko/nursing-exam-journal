@@ -1,7 +1,21 @@
 // THE NURSING EXAM JOURNAL
 // Minimalist Monochrome / Newsprint App Logic — Multi-Unit Support
 
-document.addEventListener('DOMContentLoaded', () => {
+// Setup logout handler (runs immediately, not gated)
+function setupLogoutHandler() {
+    const logoutBtn = document.getElementById('logout-btn');
+    if (logoutBtn) {
+        logoutBtn.addEventListener('click', () => {
+            if (window.GateController && window.GateController.logout) {
+                window.GateController.logout();
+                document.body.classList.remove('app-unlocked');
+            }
+        });
+    }
+}
+
+// Wrapped initialization: only runs after fingerprint gate unlocks
+function initializeApp() {
     const listContainer = document.getElementById('questions-list');
     const filterBtns = document.querySelectorAll('.filter-btn');
     const unitBtns = document.querySelectorAll('.unit-btn');
@@ -716,4 +730,34 @@ document.addEventListener('DOMContentLoaded', () => {
             setTimeout(() => loadOBG2(), 400);
         }
     }
+}
+
+// Initialize only after fingerprint gate unlocks
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+        // Gate may have already unlocked by now (auto-unlock on stored session)
+        if (window.GateController && window.GateController.isUnlocked && window.GateController.isUnlocked()) {
+            initializeApp();
+        }
+    });
+} else {
+    // Page already loaded
+    if (window.GateController && window.GateController.isUnlocked && window.GateController.isUnlocked()) {
+        initializeApp();
+    }
+}
+
+// Listen for gate-unlocked event (fires when user successfully authenticates)
+window.addEventListener('gate-unlocked', () => {
+    // Show app container
+    document.body.classList.add('app-unlocked');
+    // Setup logout handler
+    setupLogoutHandler();
+    // Initialize app modules
+    initializeApp();
 });
+
+// Also setup logout handler on DOMContentLoaded (for auto-unlocked sessions)
+document.addEventListener('DOMContentLoaded', () => {
+    setupLogoutHandler();
+}, { once: true });
