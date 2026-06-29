@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // The stretched .q-open button is the primary control; native
             // button semantics give Enter/Space activation for free.
-            card.querySelector('.q-open').addEventListener('click', () => openModal(index));
+            card.querySelector('.q-open').addEventListener('click', () => openModalWithFeatures(index));
             const chk = card.querySelector('.q-check');
             chk.addEventListener('click', (e) => {
                 e.stopPropagation();                 // don't open the modal
@@ -522,13 +522,616 @@ document.addEventListener('DOMContentLoaded', () => {
     function closeModal() {
         if (overlay.classList.contains('hidden')) return;   // balance the single lock
         overlay.classList.add('hidden');
+        document.body.style.overflow = '';
         unlockScroll();
         // Restore focus to the card that opened the reader.
         if (lastFocusedEl && typeof lastFocusedEl.focus === 'function') {
             lastFocusedEl.focus();
             lastFocusedEl = null;
         }
+        // Feature cleanups
+        removeSwipeListeners();
+        removeReadProgressListener();
+        clearAnswerSearch();
+        removeHighlightToolbar();
     }
+
+    // ── Panel fix: body overflow ──────────────────────────────────────
+    // openModal already calls lockScroll() which adds scroll-locked class.
+    // Additionally set body overflow directly for the slide-in panel.
+    const _origOpen = openModal;
+    // Patch openModal to set body overflow on first open.
+    // (We patch at call-site below in the wrapper rather than redefining.)
+
+    // ══════════════════════════════════════════════════════════════════
+    // FEATURE 1 — Swipe left/right gesture (mobile)
+    // ══════════════════════════════════════════════════════════════════
+    let swipeTouchStartX = 0, swipeTouchStartY = 0;
+    function onSwipeTouchStart(e) {
+        swipeTouchStartX = e.touches[0].clientX;
+        swipeTouchStartY = e.touches[0].clientY;
+    }
+    function onSwipeTouchEnd(e) {
+        const dx = e.changedTouches[0].clientX - swipeTouchStartX;
+        const dy = e.changedTouches[0].clientY - swipeTouchStartY;
+        if (Math.abs(dx) < 60 || Math.abs(dx) <= Math.abs(dy)) return;
+        if (dx < 0 && currentIndex < currentQuestions.length - 1) openModalWithFeatures(currentIndex + 1);
+        else if (dx > 0 && currentIndex > 0) openModalWithFeatures(currentIndex - 1);
+    }
+    const articleModal = overlay.querySelector('.article-modal');
+    function addSwipeListeners() {
+        if (!articleModal) return;
+        articleModal.addEventListener('touchstart', onSwipeTouchStart, { passive: true });
+        articleModal.addEventListener('touchend', onSwipeTouchEnd, { passive: true });
+    }
+    function removeSwipeListeners() {
+        if (!articleModal) return;
+        articleModal.removeEventListener('touchstart', onSwipeTouchStart);
+        articleModal.removeEventListener('touchend', onSwipeTouchEnd);
+    }
+
+    // ══════════════════════════════════════════════════════════════════
+    // FEATURE 2 — Highlight text and save notes
+    // ══════════════════════════════════════════════════════════════════
+    const NOTES_KEY = 'nej-notes';
+    const HIGHLIGHTS_KEY = 'nej-highlights';
+    let hlToolbar = null;
+
+    function loadNotes() {
+        try { return JSON.parse(localStorage.getItem(NOTES_KEY)) || {}; } catch (e) { return {}; }
+    }
+    function saveNotes(obj) {
+        try { localStorage.setItem(NOTES_KEY, JSON.stringify(obj)); } catch (e) {}
+    }
+    function loadHighlights() {
+        try { return JSON.parse(localStorage.getItem(HIGHLIGHTS_KEY)) || {}; } catch (e) { return {}; }
+    }
+    function saveHighlights(obj) {
+        try { localStorage.setItem(HIGHLIGHTS_KEY, JSON.stringify(obj)); } catch (e) {}
+    }
+
+    function removeHighlightToolbar() {
+        if (hlToolbar && hlToolbar.parentNode) hlToolbar.parentNode.removeChild(hlToolbar);
+        hlToolbar = null;
+    }
+
+    function showHighlightToolbar(x, y, onHighlight, onNote) {
+        removeHighlightToolbar();
+        hlToolbar = document.createElement('div');
+        hlToolbar.className = 'highlight-toolbar';
+        hlToolbar.innerHTML =
+            '<button class="hl-btn" type="button">Highlight</button>' +
+            '<button class="note-btn" type="button">Note</button>';
+        hlToolbar.style.left = x + 'px';
+        hlToolbar.style.top = (y - 48) + 'px';
+        document.body.appendChild(hlToolbar);
+        hlToolbar.querySelector('.hl-btn').addEventListener('mousedown', (e) => { e.preventDefault(); onHighlight(); });
+        hlToolbar.querySelector('.note-btn').addEventListener('mousedown', (e) => { e.preventDefault(); onNote(); });
+        // Auto-hide on outside click
+        setTimeout(() => {
+            document.addEventListener('mousedown', removeHighlightToolbar, { once: true });
+            document.addEventListener('touchstart', removeHighlightToolbar, { once: true });
+        }, 0);
+    }
+
+    function restoreAnnotations(q) {
+        const key = qKey(q);
+        // Restore note box
+        const notes = loadNotes();
+        const existingNote = modalBody.querySelector('.saved-note-box');
+        if (existingNote) existingNote.parentNode.removeChild(existingNote);
+        if (notes[key]) {
+            const noteBox = document.createElement('div');
+            noteBox.className = 'saved-note-box';
+            noteBox.textContent = notes[key];
+            modalBody.insertBefore(noteBox, modalBody.firstChild);
+        }
+        // Restore highlights by re-injecting saved HTML
+        const highlights = loadHighlights();
+        if (highlights[key]) {
+            // highlights[key] stores the full innerHTML with <mark> tags
+            modalBody.innerHTML = highlights[key];
+            // Re-inject note box on top after restoring highlights
+            if (notes[key]) {
+                const noteBox2 = document.createElement('div');
+                noteBox2.className = 'saved-note-box';
+                noteBox2.textContent = notes[key];
+                modalBody.insertBefore(noteBox2, modalBody.firstChild);
+            }
+        }
+    }
+
+    function onSelectionChange() {
+        const sel = window.getSelection();
+        if (!sel || sel.isCollapsed || !sel.toString().trim()) {
+            removeHighlightToolbar();
+            return;
+        }
+        // Only trigger inside modal body
+        const range = sel.getRangeAt(0);
+        if (!modalBody.contains(range.commonAncestorContainer)) return;
+        const rect = range.getBoundingClientRect();
+        const x = rect.left + rect.width / 2 - 60;
+        const y = rect.top + window.scrollY;
+
+        showHighlightToolbar(x, y,
+            // Highlight
+            () => {
+                const q = currentQuestions[currentIndex];
+                if (!q) return;
+                try {
+                    const mark = document.createElement('mark');
+                    range.surroundContents(mark);
+                } catch (e) {}
+                sel.removeAllRanges();
+                removeHighlightToolbar();
+                // Save innerHTML without the note box
+                const noteBox = modalBody.querySelector('.saved-note-box');
+                if (noteBox) noteBox.parentNode.removeChild(noteBox);
+                const highlights = loadHighlights();
+                highlights[qKey(q)] = modalBody.innerHTML;
+                saveHighlights(highlights);
+                restoreAnnotations(q);
+            },
+            // Note
+            () => {
+                sel.removeAllRanges();
+                removeHighlightToolbar();
+                const q = currentQuestions[currentIndex];
+                if (!q) return;
+                const noteText = prompt('Add a note for this question:');
+                if (!noteText) return;
+                const notes = loadNotes();
+                notes[qKey(q)] = noteText;
+                saveNotes(notes);
+                restoreAnnotations(q);
+            }
+        );
+    }
+
+    function addHighlightListeners() {
+        modalBody.addEventListener('mouseup', onSelectionChange);
+        modalBody.addEventListener('touchend', onSelectionChange);
+    }
+    function removeHighlightListeners() {
+        modalBody.removeEventListener('mouseup', onSelectionChange);
+        modalBody.removeEventListener('touchend', onSelectionChange);
+    }
+
+    // ══════════════════════════════════════════════════════════════════
+    // FEATURE 3 — Star button in header
+    // ══════════════════════════════════════════════════════════════════
+    let starBtn = null;
+    function injectStarBtn() {
+        if (articleHeader.querySelector('#reader-star-btn')) return;
+        starBtn = document.createElement('md-icon-button');
+        starBtn.id = 'reader-star-btn';
+        starBtn.className = 'star-btn';
+        starBtn.setAttribute('aria-label', 'Bookmark question');
+        starBtn.setAttribute('title', 'Bookmark');
+        starBtn.innerHTML = '<md-icon id="reader-star-icon">star_border</md-icon>';
+        const meta = articleHeader.querySelector('.article-meta');
+        if (meta) meta.appendChild(starBtn);
+    }
+    function syncStarBtn(q) {
+        if (!starBtn) return;
+        const s = isStarred(q);
+        const icon = starBtn.querySelector('md-icon, #reader-star-icon');
+        if (icon) {
+            icon.textContent = s ? 'star' : 'star_border';
+            icon.className = s ? 'star-filled' : '';
+        }
+        starBtn.setAttribute('aria-pressed', String(s));
+    }
+    function setupStarBtn(q) {
+        if (!starBtn) return;
+        syncStarBtn(q);
+        starBtn.onclick = () => {
+            const nowStar = !isStarred(q);
+            setStar(q, nowStar);
+            syncStarBtn(q);
+            // Sync the card in the list
+            const card = listContainer.querySelector('[data-qkey="' + qKey(q) + '"]');
+            if (card) {
+                const cardStar = card.querySelector('.q-bookmark');
+                const cardIcon = card.querySelector('.q-bookmark .material-symbols-outlined');
+                if (cardStar) {
+                    cardStar.classList.toggle('starred', nowStar);
+                    cardStar.setAttribute('aria-pressed', String(nowStar));
+                }
+                if (cardIcon) {
+                    cardIcon.textContent = nowStar ? 'star' : 'star_border';
+                    cardIcon.classList.toggle('filled', nowStar);
+                }
+            }
+            toast(nowStar ? 'Bookmarked' : 'Bookmark removed', 'info');
+            if (activeStatus === 'starred' && !nowStar) renderQuestions();
+        };
+    }
+
+    // ══════════════════════════════════════════════════════════════════
+    // FEATURE 4 — Reading progress %
+    // ══════════════════════════════════════════════════════════════════
+    let readPctEl = null;
+    let readProgressHandler = null;
+
+    function injectReadPct() {
+        if (articleHeader.querySelector('#read-pct')) return;
+        readPctEl = document.createElement('span');
+        readPctEl.id = 'read-pct';
+        readPctEl.textContent = '0%';
+        const meta = articleHeader.querySelector('.article-meta');
+        if (meta) meta.appendChild(readPctEl);
+    }
+
+    function addReadProgressListener() {
+        removeReadProgressListener();
+        const readerProgress = document.getElementById('reader-progress');
+        readProgressHandler = () => {
+            const sh = modalBody.scrollHeight - modalBody.clientHeight;
+            const pct = sh > 0 ? Math.round(modalBody.scrollTop / sh * 100) : 100;
+            if (readPctEl) readPctEl.textContent = pct + '%';
+            if (readerProgress) readerProgress.value = pct / 100;
+        };
+        modalBody.addEventListener('scroll', readProgressHandler, { passive: true });
+        readProgressHandler(); // set initial state
+    }
+    function removeReadProgressListener() {
+        if (readProgressHandler) {
+            modalBody.removeEventListener('scroll', readProgressHandler);
+            readProgressHandler = null;
+        }
+    }
+
+    // ══════════════════════════════════════════════════════════════════
+    // FEATURE 5 — Keyboard shortcuts (document keydown)
+    // ══════════════════════════════════════════════════════════════════
+    // Already has Escape/ArrowLeft/ArrowRight in existing listener.
+    // We extend it with ArrowDown/Up and Ctrl+D/S.
+    // The existing listener at line 546 handles Escape/ArrowLeft/Right;
+    // we add a second listener for the new shortcuts.
+    document.addEventListener('keydown', (e) => {
+        if (overlay.classList.contains('hidden')) return;
+        // ArrowDown = next
+        if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            if (currentIndex < currentQuestions.length - 1) openModalWithFeatures(currentIndex + 1);
+        }
+        // ArrowUp = prev
+        if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            if (currentIndex > 0) openModalWithFeatures(currentIndex - 1);
+        }
+        // Ctrl/Cmd+D = toggle done
+        if ((e.ctrlKey || e.metaKey) && e.key === 'd') {
+            e.preventDefault();
+            if (markDoneBtn) markDoneBtn.click();
+        }
+        // Ctrl/Cmd+S = toggle star
+        if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+            e.preventDefault();
+            if (starBtn) starBtn.click();
+        }
+    });
+
+    // ══════════════════════════════════════════════════════════════════
+    // FEATURE 6 — Flashcard mode
+    // ══════════════════════════════════════════════════════════════════
+    const FC_KEY = 'nej-flashcard-mode';
+    let flashcardMode = false;
+    try { flashcardMode = localStorage.getItem(FC_KEY) === '1'; } catch (e) {}
+    let flashcardBtn = null;
+    let flashcardOverlayEl = null;
+    let flashcardRevealed = false;
+
+    function injectFlashcardBtn() {
+        if (articleHeader.querySelector('#reader-flashcard-btn')) return;
+        flashcardBtn = document.createElement('md-icon-button');
+        flashcardBtn.id = 'reader-flashcard-btn';
+        flashcardBtn.setAttribute('aria-label', 'Flashcard mode');
+        flashcardBtn.setAttribute('title', 'Flashcard mode');
+        flashcardBtn.innerHTML = '<md-icon>quiz</md-icon>';
+        if (flashcardMode) flashcardBtn.classList.add('flashcard-btn-active');
+        const meta = articleHeader.querySelector('.article-meta');
+        if (meta) meta.appendChild(flashcardBtn);
+        flashcardBtn.addEventListener('click', () => {
+            flashcardMode = !flashcardMode;
+            try { localStorage.setItem(FC_KEY, flashcardMode ? '1' : '0'); } catch (e) {}
+            flashcardBtn.classList.toggle('flashcard-btn-active', flashcardMode);
+            if (flashcardMode) showFlashcardOverlay();
+            else hideFlashcardOverlay();
+        });
+    }
+
+    function showFlashcardOverlay() {
+        hideFlashcardOverlay();
+        flashcardRevealed = false;
+        const body = modalBody;
+        if (!body) return;
+        flashcardOverlayEl = document.createElement('div');
+        flashcardOverlayEl.className = 'flashcard-overlay';
+        flashcardOverlayEl.innerHTML =
+            '<span class="flashcard-icon material-symbols-outlined">visibility_off</span>' +
+            '<span class="flashcard-prompt">Tap to reveal answer</span>';
+        body.appendChild(flashcardOverlayEl);
+        flashcardOverlayEl.addEventListener('click', revealFlashcard, { once: true });
+    }
+    function hideFlashcardOverlay() {
+        if (flashcardOverlayEl && flashcardOverlayEl.parentNode) {
+            flashcardOverlayEl.parentNode.removeChild(flashcardOverlayEl);
+        }
+        flashcardOverlayEl = null;
+    }
+    function revealFlashcard() {
+        flashcardRevealed = true;
+        hideFlashcardOverlay();
+    }
+
+    // ══════════════════════════════════════════════════════════════════
+    // FEATURE 7 — Font size control
+    // ══════════════════════════════════════════════════════════════════
+    const FONT_KEY = 'nej-font-size';
+    let currentFontSize = 15;
+    try { currentFontSize = parseInt(localStorage.getItem(FONT_KEY), 10) || 15; } catch (e) {}
+
+    function applyFontSize() {
+        modalBody.style.fontSize = currentFontSize + 'px';
+    }
+    function saveFontSize() {
+        try { localStorage.setItem(FONT_KEY, String(currentFontSize)); } catch (e) {}
+    }
+    function injectFontCtrl() {
+        if (articleHeader.querySelector('#reader-font-dec')) return;
+        const dec = document.createElement('button');
+        dec.id = 'reader-font-dec';
+        dec.className = 'font-ctrl-btn';
+        dec.type = 'button';
+        dec.setAttribute('aria-label', 'Decrease font size');
+        dec.textContent = 'A−';
+        const inc = document.createElement('button');
+        inc.id = 'reader-font-inc';
+        inc.className = 'font-ctrl-btn';
+        inc.type = 'button';
+        inc.setAttribute('aria-label', 'Increase font size');
+        inc.textContent = 'A+';
+        dec.addEventListener('click', () => {
+            currentFontSize = Math.max(12, currentFontSize - 1);
+            applyFontSize(); saveFontSize();
+        });
+        inc.addEventListener('click', () => {
+            currentFontSize = Math.min(20, currentFontSize + 1);
+            applyFontSize(); saveFontSize();
+        });
+        const meta = articleHeader.querySelector('.article-meta');
+        if (meta) { meta.appendChild(dec); meta.appendChild(inc); }
+    }
+
+    // ══════════════════════════════════════════════════════════════════
+    // FEATURE 8 — Search inside current answer
+    // ══════════════════════════════════════════════════════════════════
+    let answerSearchBar = null;
+    let searchMatches = [];
+    let searchMatchIdx = 0;
+
+    function clearAnswerSearch() {
+        if (answerSearchBar) {
+            answerSearchBar.style.display = 'none';
+            const inp = answerSearchBar.querySelector('input');
+            if (inp) inp.value = '';
+        }
+        // Remove search-match spans without triggering full re-render
+        const marks = modalBody.querySelectorAll('span.search-match');
+        marks.forEach(m => {
+            const parent = m.parentNode;
+            if (parent) parent.replaceChild(document.createTextNode(m.textContent), m);
+        });
+        searchMatches = [];
+        searchMatchIdx = 0;
+        if (answerSearchBar) {
+            const cnt = answerSearchBar.querySelector('.search-count');
+            if (cnt) cnt.textContent = '';
+        }
+    }
+
+    function runAnswerSearch(term) {
+        // Clear existing highlights first
+        const existingMarks = modalBody.querySelectorAll('span.search-match');
+        existingMarks.forEach(m => {
+            const parent = m.parentNode;
+            if (parent) parent.replaceChild(document.createTextNode(m.textContent), m);
+        });
+        searchMatches = [];
+        searchMatchIdx = 0;
+        if (!term) {
+            const cnt = answerSearchBar && answerSearchBar.querySelector('.search-count');
+            if (cnt) cnt.textContent = '';
+            return;
+        }
+        // Walk text nodes and wrap matches
+        const walker = document.createTreeWalker(modalBody, NodeFilter.SHOW_TEXT, {
+            acceptNode: (node) => {
+                // Skip saved-note-box and search-bar
+                let p = node.parentNode;
+                while (p && p !== modalBody) {
+                    if (p.classList && (p.classList.contains('saved-note-box') || p.classList.contains('answer-search-bar'))) return NodeFilter.FILTER_REJECT;
+                    p = p.parentNode;
+                }
+                return NodeFilter.FILTER_ACCEPT;
+            }
+        });
+        const nodes = [];
+        let n;
+        while ((n = walker.nextNode())) nodes.push(n);
+
+        const lcTerm = term.toLowerCase();
+        nodes.forEach(textNode => {
+            const val = textNode.nodeValue;
+            const lcVal = val.toLowerCase();
+            let idx = 0, start;
+            const frag = document.createDocumentFragment();
+            let lastIdx = 0;
+            while ((start = lcVal.indexOf(lcTerm, idx)) !== -1) {
+                frag.appendChild(document.createTextNode(val.slice(lastIdx, start)));
+                const span = document.createElement('span');
+                span.className = 'search-match';
+                span.textContent = val.slice(start, start + term.length);
+                frag.appendChild(span);
+                searchMatches.push(span);
+                lastIdx = start + term.length;
+                idx = lastIdx;
+            }
+            if (searchMatches.length && lastIdx < val.length) {
+                frag.appendChild(document.createTextNode(val.slice(lastIdx)));
+            }
+            if (searchMatches.length && frag.childNodes.length > 1) {
+                textNode.parentNode.replaceChild(frag, textNode);
+            }
+        });
+
+        const cnt = answerSearchBar && answerSearchBar.querySelector('.search-count');
+        if (!searchMatches.length) {
+            if (cnt) cnt.textContent = '0 results';
+            return;
+        }
+        goToSearchMatch(0);
+    }
+
+    function goToSearchMatch(idx) {
+        searchMatches.forEach(m => m.classList.remove('active'));
+        if (!searchMatches.length) return;
+        searchMatchIdx = (idx + searchMatches.length) % searchMatches.length;
+        const active = searchMatches[searchMatchIdx];
+        active.classList.add('active');
+        active.scrollIntoView({ block: 'center', behavior: 'smooth' });
+        const cnt = answerSearchBar && answerSearchBar.querySelector('.search-count');
+        if (cnt) cnt.textContent = (searchMatchIdx + 1) + ' / ' + searchMatches.length;
+    }
+
+    function injectAnswerSearchBar() {
+        if (overlay.querySelector('.answer-search-bar')) {
+            answerSearchBar = overlay.querySelector('.answer-search-bar');
+            return;
+        }
+        answerSearchBar = document.createElement('div');
+        answerSearchBar.className = 'answer-search-bar';
+        answerSearchBar.style.display = 'none';
+        answerSearchBar.innerHTML =
+            '<input type="search" placeholder="Search in answer…" aria-label="Search in answer">' +
+            '<span class="search-count"></span>' +
+            '<button type="button" aria-label="Previous match" style="background:none;border:none;color:rgba(255,255,255,0.5);cursor:pointer;font-size:16px;">↑</button>' +
+            '<button type="button" aria-label="Next match" style="background:none;border:none;color:rgba(255,255,255,0.5);cursor:pointer;font-size:16px;">↓</button>' +
+            '<button type="button" aria-label="Close search" style="background:none;border:none;color:rgba(255,255,255,0.5);cursor:pointer;font-size:14px;">✕</button>';
+
+        const articleModalEl = overlay.querySelector('.article-modal');
+        // Insert before article-body
+        articleModalEl.insertBefore(answerSearchBar, modalBody);
+
+        const [inp, , prevMatchBtn, nextMatchBtn, closeSearchBtn] = answerSearchBar.children;
+        inp.addEventListener('input', () => runAnswerSearch(inp.value));
+        inp.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') { e.stopPropagation(); clearAnswerSearch(); }
+            if (e.key === 'Enter') goToSearchMatch(searchMatchIdx + 1);
+        });
+        prevMatchBtn.addEventListener('click', () => goToSearchMatch(searchMatchIdx - 1));
+        nextMatchBtn.addEventListener('click', () => goToSearchMatch(searchMatchIdx + 1));
+        closeSearchBtn.addEventListener('click', () => clearAnswerSearch());
+    }
+
+    function injectSearchBtn() {
+        if (articleHeader.querySelector('#reader-search-btn')) return;
+        const btn = document.createElement('md-icon-button');
+        btn.id = 'reader-search-btn';
+        btn.setAttribute('aria-label', 'Search in answer');
+        btn.setAttribute('title', 'Search in answer');
+        btn.innerHTML = '<md-icon>search</md-icon>';
+        btn.addEventListener('click', () => {
+            if (!answerSearchBar) injectAnswerSearchBar();
+            const showing = answerSearchBar.style.display !== 'none';
+            answerSearchBar.style.display = showing ? 'none' : 'flex';
+            if (!showing) answerSearchBar.querySelector('input').focus();
+            else clearAnswerSearch();
+        });
+        const meta = articleHeader.querySelector('.article-meta');
+        if (meta) meta.appendChild(btn);
+    }
+
+    // ══════════════════════════════════════════════════════════════════
+    // FEATURE 9 — Print / export answer as PDF
+    // ══════════════════════════════════════════════════════════════════
+    function injectPrintBtn() {
+        if (articleHeader.querySelector('#reader-print-btn')) return;
+        const btn = document.createElement('md-icon-button');
+        btn.id = 'reader-print-btn';
+        btn.setAttribute('aria-label', 'Print / export as PDF');
+        btn.setAttribute('title', 'Print / export as PDF');
+        btn.innerHTML = '<md-icon>print</md-icon>';
+        btn.addEventListener('click', () => {
+            const q = currentQuestions[currentIndex];
+            if (!q) return;
+            const win = window.open('', '_blank');
+            if (!win) return;
+            win.document.write(
+                '<!DOCTYPE html><html><head>' +
+                '<meta charset="UTF-8">' +
+                '<title>' + (q.question || 'Answer') + '</title>' +
+                '<style>' +
+                'body{margin:2cm;font-family:Georgia,serif;color:#111;background:#fff;font-size:13pt;line-height:1.7;}' +
+                'h1{font-size:16pt;margin-bottom:1.2em;border-bottom:2px solid #111;padding-bottom:0.4em;}' +
+                'table{border-collapse:collapse;width:100%;}' +
+                'td,th{border:1px solid #555;padding:6px 10px;}' +
+                'mark{background:rgba(245,200,66,0.4);}' +
+                '.saved-note-box{border-left:3px solid #4a52cc;padding:8px 12px;margin:12px 0;background:#f0f0ff;}' +
+                '@media print{body{margin:1.5cm;}}' +
+                '</style></head><body>' +
+                '<h1>' + (q.question || '') + '</h1>' +
+                (modalBody.innerHTML || '') +
+                '</body></html>'
+            );
+            win.document.close();
+            win.focus();
+            setTimeout(() => win.print(), 400);
+        });
+        const meta = articleHeader.querySelector('.article-meta');
+        if (meta) meta.appendChild(btn);
+    }
+
+    // ══════════════════════════════════════════════════════════════════
+    // ONE-TIME INJECTION: run once after DOM is ready
+    // (buttons are injected once and persist; only state is synced per-open)
+    // ══════════════════════════════════════════════════════════════════
+    injectStarBtn();
+    injectReadPct();
+    injectFlashcardBtn();
+    injectFontCtrl();
+    injectSearchBtn();
+    injectPrintBtn();
+    injectAnswerSearchBar();
+    applyFontSize(); // restore saved font size on load
+
+    // Patch openModal to wire up per-question features after content loads
+    const _originalOpenModal = openModal;
+    function openModalWithFeatures(index) {
+        _originalOpenModal(index);
+        document.body.style.overflow = 'hidden';
+        const q = currentQuestions[index];
+        if (!q) return;
+        // Per-open setup (after rAF so content is painted)
+        requestAnimationFrame(() => {
+            setupStarBtn(q);
+            addReadProgressListener();
+            addSwipeListeners();
+            addHighlightListeners();
+            applyFontSize();
+            restoreAnnotations(q);
+            if (flashcardMode) showFlashcardOverlay();
+            else hideFlashcardOverlay();
+        });
+    }
+
+    // Re-wire all call sites that call openModal to use the patched version.
+    // Since openModal is closed over in callbacks, we intercept at event level:
+    overlay.querySelector('#prev-question') && (prevBtn.onclick = null);
+    overlay.querySelector('#next-question') && (nextBtn.onclick = null);
 
     // Event Listeners
     closeModalBtn.addEventListener('click', closeModal);
@@ -537,17 +1140,17 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     prevBtn.addEventListener('click', () => {
-        if (currentIndex > 0) openModal(currentIndex - 1);
+        if (currentIndex > 0) openModalWithFeatures(currentIndex - 1);
     });
     nextBtn.addEventListener('click', () => {
-        if (currentIndex < currentQuestions.length - 1) openModal(currentIndex + 1);
+        if (currentIndex < currentQuestions.length - 1) openModalWithFeatures(currentIndex + 1);
     });
 
     document.addEventListener('keydown', (e) => {
         if (overlay.classList.contains('hidden')) return;
-        if (e.key === 'Escape') closeModal();
-        if (e.key === 'ArrowLeft' && !prevBtn.disabled) openModal(currentIndex - 1);
-        if (e.key === 'ArrowRight' && !nextBtn.disabled) openModal(currentIndex + 1);
+        if (e.key === 'Escape') { e.preventDefault(); closeModal(); }
+        if (e.key === 'ArrowLeft' && !prevBtn.disabled) { e.preventDefault(); openModalWithFeatures(currentIndex - 1); }
+        if (e.key === 'ArrowRight' && !nextBtn.disabled) { e.preventDefault(); openModalWithFeatures(currentIndex + 1); }
     });
 
     // Syllabus toggle

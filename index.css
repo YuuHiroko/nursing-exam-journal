@@ -2849,26 +2849,275 @@ body.scroll-locked { overflow: hidden; }
 }
 
 /* ═══════════════════════════════════════════════════════════════════
-   20. FULL-HEIGHT SLIDE-IN READER PANEL
-   Replaces the floating modal with a right-anchored panel that slides
-   in from the right on all screen sizes.
+   20. FULL-HEIGHT SLIDE-IN READER PANEL + FEATURE STYLES
    ═══════════════════════════════════════════════════════════════════ */
 
-/* 20.1 Overlay wrapper �� full viewport, backdrop on tablet/desktop only */
+/* 20.1 Overlay wrapper */
 .overlay {
-    position: fixed !important;
-    inset: 0 !important;
-    z-index: 1000 !important;
-    display: flex !important;
-    align-items: stretch !important;
-    justify-content: flex-end !important;
-    padding: 0 !important;
-    overflow: hidden !important;
-    background: transparent !important;
-    backdrop-filter: none !important;
-    -webkit-backdrop-filter: none !important;
-    animation: none !important;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background: transparent;
+    display: flex;
+    pointer-events: none;
 }
+.overlay.hidden {
+    visibility: hidden;
+    pointer-events: none;
+}
+.overlay.hidden .article-modal {
+    transform: translateX(100%);
+    opacity: 0;
+}
+.overlay:not(.hidden) {
+    visibility: visible;
+    pointer-events: auto;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* 20.2 Panel */
+.article-modal {
+    width: 100vw;
+    height: 100dvh;
+    max-width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1),
+                opacity 0.2s ease;
+    will-change: transform;
+    overflow: hidden;
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    background: var(--md-sys-color-surface-container-high, var(--color-card));
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .article-modal { transition: none; }
+}
+
+/* 20.3 Progress bar */
+#reader-progress {
+    flex-shrink: 0;
+    order: -1;
+    width: 100%;
+}
+
+/* 20.4 Header */
+.overlay .article-header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    flex-shrink: 0;
+    max-height: none;
+    overflow-y: visible;
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--md-sys-color-outline-variant, var(--color-border));
+    background: var(--md-sys-color-surface-container-high, var(--color-card));
+    display: flex;
+    flex-direction: column;
+    gap: 0.45rem;
+}
+.overlay .article-header .article-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 0;
+}
+.overlay .close-btn {
+    margin-bottom: 0;
+    flex-shrink: 0;
+}
+
+/* 20.5 Title */
+.overlay .article-title,
+.overlay #modal-question-title {
+    display: block;
+    -webkit-line-clamp: unset;
+    overflow: visible;
+    text-overflow: clip;
+    white-space: normal;
+    font-size: 15px;
+    line-height: 1.45;
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    margin-top: 6px;
+}
+@media (min-width: 1200px) {
+    .overlay .article-title,
+    .overlay #modal-question-title { font-size: 17px; }
+}
+
+/* 20.6 Hide toggle */
+#question-toggle { display: none !important; }
+
+/* 20.7 Body */
+.overlay .article-body {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+    padding: 1.25rem 1.1rem 2rem;
+    font-size: 14px;
+    line-height: 1.75;
+    position: relative;
+}
+@media (min-width: 1200px) {
+    .overlay .article-body {
+        padding: 1.75rem 2rem 2.5rem;
+        font-size: 15px;
+    }
+}
+.overlay .article-body::-webkit-scrollbar { width: 4px; }
+.overlay .article-body::-webkit-scrollbar-track { background: transparent; }
+.overlay .article-body::-webkit-scrollbar-thumb {
+    background: var(--md-sys-color-outline-variant, var(--color-border));
+    border-radius: 9999px;
+}
+.overlay .article-body::-webkit-scrollbar-thumb:hover {
+    background: var(--md-sys-color-outline, var(--color-muted-foreground));
+}
+
+/* 20.8 Footer */
+.overlay .article-footer {
+    position: sticky;
+    bottom: 0;
+    z-index: 2;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-top: 1px solid var(--md-sys-color-outline-variant, var(--color-border));
+    background: var(--md-sys-color-surface-container-high, var(--color-card));
+    flex-wrap: nowrap;
+}
+.overlay .nav-btn,
+.overlay #prev-question,
+.overlay #next-question {
+    min-height: 44px;
+    min-width: 44px;
+    border: 0.5px solid rgba(255, 255, 255, 0.18) !important;
+    border-radius: 8px;
+    padding: 0 16px;
+}
+.overlay #question-counter {
+    font-size: 0.72rem;
+    width: auto;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+/* ── Feature 2: Highlight toolbar & saved notes ── */
+.highlight-toolbar {
+    position: fixed;
+    background: #1a1a2e;
+    border: 0.5px solid rgba(255,255,255,0.15);
+    border-radius: 8px;
+    padding: 4px 6px;
+    display: flex;
+    gap: 6px;
+    z-index: 2000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+.highlight-toolbar button {
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+.hl-btn { background: #f5c842; color: #111; }
+.note-btn { background: #4a52cc; color: #fff; }
+mark { background: rgba(245,200,66,0.35); color: inherit; border-radius: 2px; }
+.saved-note-box {
+    margin: 12px 0;
+    padding: 10px 14px;
+    background: rgba(74,82,204,0.1);
+    border-left: 3px solid #4a52cc;
+    border-radius: 0 8px 8px 0;
+    font-size: 13px;
+    color: rgba(255,255,255,0.7);
+    white-space: pre-wrap;
+}
+
+/* ── Feature 3: Star button ── */
+.star-btn { --md-icon-button-icon-size: 20px; }
+.star-filled { color: #f5c842; }
+
+/* ── Feature 4: Read progress % ── */
+#read-pct {
+    font-size: 11px;
+    color: rgba(255,255,255,0.35);
+    margin-left: auto;
+    white-space: nowrap;
+}
+
+/* ── Feature 6: Flashcard mode ── */
+.flashcard-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--md-sys-color-surface, #111);
+    z-index: 5;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 12px;
+}
+.flashcard-prompt { font-size: 16px; color: rgba(255,255,255,0.5); }
+.flashcard-icon { font-size: 36px; color: rgba(255,255,255,0.2); }
+.flashcard-btn-active { color: #f5c842 !important; }
+
+/* ── Feature 7: Font size controls ── */
+.font-ctrl-btn {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px 8px;
+    border: 0.5px solid rgba(255,255,255,0.15);
+    border-radius: 6px;
+    background: none;
+    color: rgba(255,255,255,0.6);
+    cursor: pointer;
+    line-height: 1;
+}
+.font-ctrl-btn:hover { background: rgba(255,255,255,0.07); }
+
+/* ── Feature 8: Answer search bar ── */
+.search-match { background: rgba(245,200,66,0.4); border-radius: 2px; }
+.search-match.active { background: rgba(245,200,66,0.8); color: #111; }
+.answer-search-bar {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-top: 0.5px solid rgba(255,255,255,0.08);
+    background: var(--md-sys-color-surface, #111);
+    flex-shrink: 0;
+}
+.answer-search-bar input {
+    flex: 1;
+    background: rgba(255,255,255,0.07);
+    border: 0.5px solid rgba(255,255,255,0.15);
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 13px;
+    color: #fff;
+    outline: none;
+}
+.search-count { font-size: 12px; color: rgba(255,255,255,0.4); white-space: nowrap; }
 .overlay.hidden {
     display: none !important;
 }
