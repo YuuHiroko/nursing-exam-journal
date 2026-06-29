@@ -2852,55 +2852,35 @@ body.scroll-locked { overflow: hidden; }
    20. FULL-HEIGHT SLIDE-IN READER PANEL + FEATURE STYLES
    ═══════════════════════════════════════════════════════════════════ */
 
-/* 20.1 Overlay wrapper */
+/* 20.1 Overlay wrapper — default centered-card modal */
 .overlay {
     position: fixed;
     inset: 0;
     z-index: 1000;
-    background: transparent;
     display: flex;
-    pointer-events: none;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }
 .overlay.hidden {
-    visibility: hidden;
-    pointer-events: none;
-}
-.overlay.hidden .article-modal {
-    transform: translateX(100%);
-    opacity: 0;
-}
-.overlay:not(.hidden) {
-    visibility: visible;
-    pointer-events: auto;
-    background: rgba(0, 0, 0, 0.6);
+    display: none;
 }
 
-/* 20.2 Panel */
+/* 20.2 Modal card — default partial-screen centered card */
 .article-modal {
-    width: 100vw;
-    height: 100dvh;
-    max-width: 100vw;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    position: relative;
+    width: 100%;
+    max-width: 740px;
+    max-height: 90vh;
     display: flex;
     flex-direction: column;
-    transform: translateX(0);
-    opacity: 1;
-    transition: transform 0.28s cubic-bezier(0.4, 0, 0.2, 1),
-                opacity 0.2s ease;
-    will-change: transform;
     overflow: hidden;
-    border-radius: 0;
-    border: none;
-    box-shadow: none;
+    border-radius: 16px;
     background: var(--md-sys-color-surface-container-high, var(--color-card));
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .article-modal { transition: none; }
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.32);
 }
 
 /* 20.3 Progress bar */
@@ -3118,200 +3098,71 @@ mark { background: rgba(245,200,66,0.35); color: inherit; border-radius: 2px; }
     outline: none;
 }
 .search-count { font-size: 12px; color: rgba(255,255,255,0.4); white-space: nowrap; }
-.overlay.hidden {
-    display: none !important;
+/* ── Reader Mode button ── */
+.reader-mode-btn {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 10px;
+    border: 0.5px solid rgba(128, 128, 128, 0.3);
+    border-radius: 99px;
+    background: none;
+    color: rgba(128, 128, 128, 0.8);
+    cursor: pointer;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+.reader-mode-btn.active {
+    background: #4a52cc;
+    border-color: #4a52cc;
+    color: #fff;
 }
 
-/* Issue 4 — Backdrop: clearly dims background content */
-.overlay:not(.hidden) {
-    background: rgba(0, 0, 0, 0.6) !important;
+/* ── Reader Pill Nav ── */
+.reader-pill-nav {
+    position: fixed;
+    bottom: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99999;
+    background: rgba(20, 20, 28, 0.92);
+    border: 0.5px solid rgba(255, 255, 255, 0.12);
+    border-radius: 99px;
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
-
-/* 20.2 Panel — full-height, slides in from the right */
-.article-modal {
-    position: relative !important;
-    z-index: 1 !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    height: 100vh !important;
-    height: 100dvh !important;
-    max-height: 100vh !important;
-    max-height: 100dvh !important;
-    margin: 0 !important;
-    border-radius: 0 !important;
-    border: none !important;
-    box-shadow: none !important;
-    display: flex !important;
-    flex-direction: column !important;
-    overflow: hidden !important;
-    /* Issue 2 — slide animation */
-    will-change: transform !important;
-    transform: translateX(100%) !important;
-    transition: transform 280ms cubic-bezier(0.05, 0.7, 0.1, 1.0) !important;
-    animation: none !important;
-    background: var(--md-sys-color-surface-container-high, var(--color-card)) !important;
+.reader-pill-nav button {
+    background: none;
+    border: none;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    font-size: 20px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    line-height: 1;
 }
-/* Issue 2 — hidden state keeps panel off-screen */
-.overlay.hidden .article-modal {
-    transform: translateX(100%) !important;
+.reader-pill-nav button:hover {
+    background: rgba(255, 255, 255, 0.08);
 }
-/* Issue 2 — visible state slides panel in */
-.overlay:not(.hidden) .article-modal {
-    transform: translateX(0) !important;
+.reader-pill-counter {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.45);
+    white-space: nowrap;
+    min-width: 64px;
+    text-align: center;
 }
-
-/* Mobile + tablet (< 1200px): full-width panel */
-@media (min-width: 768px) {
-    .article-modal {
-        width: 100% !important;
-        max-width: 100% !important;
-        box-shadow: -8px 0 32px rgba(0, 0, 0, 0.18) !important;
-    }
+:root:not(.dark) .reader-pill-nav {
+    background: rgba(240, 235, 225, 0.95);
+    border-color: rgba(0, 0, 0, 0.1);
 }
-
-/* Issue 1 — Desktop (≥ 1200px): cap at 720px */
-@media (min-width: 1200px) {
-    .article-modal {
-        width: 720px !important;
-        max-width: 720px !important;
-        box-shadow: -12px 0 40px rgba(0, 0, 0, 0.22) !important;
-    }
+:root:not(.dark) .reader-pill-nav button {
+    color: rgba(0, 0, 0, 0.6);
 }
-
-/* 20.3 Progress bar — pinned at very top of panel */
-#reader-progress {
-    position: relative !important;
-    flex-shrink: 0 !important;
-    order: -1 !important;
-    width: 100% !important;
-}
-
-/* 20.4 Header — sticky at top, never scrolls away */
-/* Issue 3 — tighter padding so more answer is visible */
-.overlay .article-header {
-    position: sticky !important;
-    top: 0 !important;
-    z-index: 2 !important;
-    flex-shrink: 0 !important;
-    max-height: none !important;
-    overflow-y: visible !important;
-    padding: 8px 12px !important;
-    border-bottom: 1px solid var(--md-sys-color-outline-variant, var(--color-border)) !important;
-    background: var(--md-sys-color-surface-container-high, var(--color-card)) !important;
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 0.45rem !important;
-}
-
-/* Top row: close btn + badges + mark-done all in one tight line */
-.overlay .article-header .article-meta {
-    display: flex !important;
-    flex-wrap: wrap !important;
-    align-items: center !important;
-    gap: 6px !important;
-    margin-bottom: 0 !important;
-}
-.overlay .close-btn {
-    margin-bottom: 0 !important;
-    flex-shrink: 0 !important;
-}
-
-/* 20.5 Title — always fully visible, no clamp, no truncation */
-/* Issue 3 — 15px with tighter margin-top */
-.overlay .article-title,
-.overlay #modal-question-title {
-    display: block !important;
-    -webkit-line-clamp: unset !important;
-    overflow: visible !important;
-    text-overflow: clip !important;
-    white-space: normal !important;
-    font-size: 15px !important;
-    line-height: 1.45 !important;
-    letter-spacing: -0.01em !important;
-    font-weight: 700 !important;
-    margin-top: 6px !important;
-}
-@media (min-width: 1200px) {
-    .overlay .article-title,
-    .overlay #modal-question-title {
-        font-size: 17px !important;
-    }
-}
-
-/* 20.6 Hide the toggle permanently — title is always fully visible */
-#question-toggle {
-    display: none !important;
-}
-
-/* 20.7 Body — scrollable middle section */
-.overlay .article-body {
-    flex: 1 1 auto !important;
-    min-height: 0 !important;
-    overflow-y: auto !important;
-    -webkit-overflow-scrolling: touch !important;
-    overscroll-behavior: contain !important;
-    padding: 1.25rem 1.1rem 2rem !important;
-    font-size: 14px !important;
-    line-height: 1.75 !important;
-    scroll-behavior: smooth !important;
-}
-@media (min-width: 1200px) {
-    .overlay .article-body {
-        padding: 1.75rem 2rem 2.5rem !important;
-        font-size: 15px !important;
-    }
-}
-
-/* Thin custom scrollbar for the body */
-.overlay .article-body::-webkit-scrollbar { width: 4px; }
-.overlay .article-body::-webkit-scrollbar-track { background: transparent; }
-.overlay .article-body::-webkit-scrollbar-thumb {
-    background: var(--md-sys-color-outline-variant, var(--color-border));
-    border-radius: 9999px;
-}
-.overlay .article-body::-webkit-scrollbar-thumb:hover {
-    background: var(--md-sys-color-outline, var(--color-muted-foreground));
-}
-
-/* 20.8 Footer — sticky at bottom, 44px min touch target for nav buttons */
-.overlay .article-footer {
-    position: sticky !important;
-    bottom: 0 !important;
-    z-index: 2 !important;
-    flex-shrink: 0 !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-    gap: 0.5rem !important;
-    padding: 0.75rem 1rem !important;
-    border-top: 1px solid var(--md-sys-color-outline-variant, var(--color-border)) !important;
-    background: var(--md-sys-color-surface-container-high, var(--color-card)) !important;
-    flex-wrap: nowrap !important;
-}
-/* Issue 5 — nav button shared styles */
-.overlay .nav-btn,
-.overlay #prev-question,
-.overlay #next-question {
-    min-height: 44px !important;
-    min-width: 44px !important;
-    border: 0.5px solid rgba(255, 255, 255, 0.18) !important;
-    border-radius: 8px !important;
-    padding: 0 16px !important;
-}
-.overlay #question-counter {
-    font-size: 0.72rem !important;
-    order: 0 !important;
-    width: auto !important;
-    text-align: center !important;
-    flex-shrink: 0 !important;
-}
-
-/* 20.9 Dark mode — surface tokens already handle it; scrim darkens further */
-.dark .overlay::before {
-    background: rgba(0, 0, 0, 0.6);
-}
-
-/* 20.10 Reduced motion — skip slide transition */
-@media (prefers-reduced-motion: reduce) {
-    .article-modal { transition: none !important; }
+:root:not(.dark) .reader-pill-counter {
+    color: rgba(0, 0, 0, 0.4);
 }

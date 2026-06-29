@@ -475,12 +475,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (wasHidden) {
             lockScroll();
             focusReader();
-            const modal = document.querySelector('.article-modal');
-            if (modal) {
-                if (modal.requestFullscreen) modal.requestFullscreen().catch(() => {});
-                else if (modal.webkitRequestFullscreen) modal.webkitRequestFullscreen();
-                else if (modal.mozRequestFullScreen) modal.mozRequestFullScreen();
-            }
         }
         overlay.scrollTop = 0;
         modalBody.scrollTop = 0;
@@ -533,8 +527,11 @@ document.addEventListener('DOMContentLoaded', () => {
         overlay.classList.add('hidden');
         document.body.style.overflow = '';
         unlockScroll();
-        if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
-        else if (document.webkitFullscreenElement) document.webkitExitFullscreen();
+        // Deactivate reader mode if it was on when panel closed
+        if (window._readerModeActive) {
+            window._readerModeActive = false;
+            deactivateReaderMode();
+        }
         // Restore focus to the card that opened the reader.
         if (lastFocusedEl && typeof lastFocusedEl.focus === 'function') {
             lastFocusedEl.focus();
@@ -548,39 +545,20 @@ document.addEventListener('DOMContentLoaded', () => {
         removeHighlightListeners();
     }
 
-    // ── Fullscreen change: if the user exits fullscreen manually (Esc or OS),
-    // close the panel so both stay in sync.
+    // ── Fullscreen change: user exits fullscreen (Esc/browser button) → deactivate reader mode only.
     document.addEventListener('fullscreenchange', () => {
         if (!document.fullscreenElement && !document.webkitFullscreenElement) {
-            if (!overlay.classList.contains('hidden')) {
-                overlay.classList.add('hidden');
-                document.body.style.overflow = '';
-                unlockScroll();
-                if (lastFocusedEl && typeof lastFocusedEl.focus === 'function') {
-                    lastFocusedEl.focus();
-                    lastFocusedEl = null;
-                }
-                removeSwipeListeners();
-                removeReadProgressListener();
-                clearAnswerSearch();
-                removeHighlightToolbar();
+            if (window._readerModeActive) {
+                window._readerModeActive = false;
+                deactivateReaderMode();
             }
         }
     });
     document.addEventListener('webkitfullscreenchange', () => {
         if (!document.fullscreenElement && !document.webkitFullscreenElement) {
-            if (!overlay.classList.contains('hidden')) {
-                overlay.classList.add('hidden');
-                document.body.style.overflow = '';
-                unlockScroll();
-                if (lastFocusedEl && typeof lastFocusedEl.focus === 'function') {
-                    lastFocusedEl.focus();
-                    lastFocusedEl = null;
-                }
-                removeSwipeListeners();
-                removeReadProgressListener();
-                clearAnswerSearch();
-                removeHighlightToolbar();
+            if (window._readerModeActive) {
+                window._readerModeActive = false;
+                deactivateReaderMode();
             }
         }
     });
@@ -1149,6 +1127,163 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ══════════════════════════════════════════════════════════════════
+    // FEATURE 10 — Reader Mode
+    // ══════════════════════════════════════════════════════════════════
+    const READER_MODE_KEY = 'nej-reader-mode';
+    window._readerModeActive = false;
+    let readerModeBtn = null;
+    let readerPillNav = null;
+
+    function injectReaderModeBtn() {
+        if (articleHeader.querySelector('.reader-mode-btn')) return;
+        readerModeBtn = document.createElement('button');
+        readerModeBtn.className = 'reader-mode-btn';
+        readerModeBtn.type = 'button';
+        readerModeBtn.textContent = 'Reader';
+        readerModeBtn.setAttribute('aria-label', 'Toggle reader mode');
+        readerModeBtn.addEventListener('click', () => {
+            if (window._readerModeActive) {
+                window._readerModeActive = false;
+                deactivateReaderMode();
+            } else {
+                window._readerModeActive = true;
+                activateReaderMode();
+            }
+        });
+        // Insert between .mark-done-btn and close button
+        const meta = articleHeader.querySelector('.article-meta');
+        if (meta) {
+            const closeBtn = meta.querySelector('.close-btn, [aria-label="Close"]');
+            if (closeBtn) meta.insertBefore(readerModeBtn, closeBtn);
+            else meta.appendChild(readerModeBtn);
+        }
+    }
+
+    function activateReaderMode() {
+        try { localStorage.setItem(READER_MODE_KEY, '1'); } catch (e) {}
+        // Fullscreen on documentElement so everything goes fullscreen
+        if (document.documentElement.requestFullscreen) {
+            document.documentElement.requestFullscreen().catch(() => {});
+        } else if (document.documentElement.webkitRequestFullscreen) {
+            document.documentElement.webkitRequestFullscreen();
+        }
+        // Overlay: transparent background, full stretch
+        overlay.style.cssText = 'position:fixed;inset:0;background:transparent;display:flex;align-items:stretch;padding:0;';
+        // Modal: full-screen
+        const modalEl = overlay.querySelector('.article-modal');
+        if (modalEl) {
+            const isDark = document.documentElement.classList.contains('dark');
+            modalEl.style.cssText =
+                'width:100vw;max-width:100vw;height:100dvh;max-height:100dvh;' +
+                'border-radius:0;border:none;box-shadow:none;' +
+                'position:fixed;top:0;left:0;right:0;bottom:0;' +
+                'background:' + (isDark ? '#0f0f11' : '#f5f0e8') + ';';
+        }
+        // Body: focused reading layout
+        const liveBody = document.getElementById('modal-body');
+        if (liveBody) {
+            liveBody.style.cssText =
+                'font-size:' + currentFontSize + 'px;' +
+                'line-height:1.85;max-width:680px;margin:0 auto;padding:32px 24px;';
+        }
+        // Hide UI chrome
+        const toHide = [
+            '.top-bar', '.site-footer',
+            '#modal-marks', '#modal-unit', '#modal-meta',
+            '.mark-done-btn', '.star-btn', '.font-ctrl-btn',
+            '#reader-search-btn'
+        ];
+        toHide.forEach(sel => {
+            const el = document.querySelector(sel);
+            if (el) el.style.display = 'none';
+        });
+        // Enlarge title
+        const titleEl = document.getElementById('modal-question-title');
+        if (titleEl) titleEl.style.fontSize = '22px';
+        // Hide existing footer
+        const footer = overlay.querySelector('.article-footer');
+        if (footer) footer.style.display = 'none';
+        // Inject pill nav
+        injectReaderPillNav();
+        // Mark button active
+        if (readerModeBtn) readerModeBtn.classList.add('active');
+    }
+
+    function deactivateReaderMode() {
+        try { localStorage.setItem(READER_MODE_KEY, '0'); } catch (e) {}
+        // Exit fullscreen
+        if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
+        else if (document.webkitFullscreenElement) document.webkitExitFullscreen();
+        // Restore overlay and modal inline styles
+        overlay.style.cssText = '';
+        const modalEl = overlay.querySelector('.article-modal');
+        if (modalEl) modalEl.style.cssText = '';
+        // Restore body inline styles
+        const liveBody = document.getElementById('modal-body');
+        if (liveBody) liveBody.style.cssText = '';
+        // Restore hidden elements
+        const restoreMap = {
+            '.top-bar': 'block',
+            '.site-footer': 'block',
+            '#modal-marks': 'inline-flex',
+            '#modal-unit': 'inline-flex',
+            '#modal-meta': 'inline',
+            '.mark-done-btn': '',
+            '.star-btn': '',
+            '.font-ctrl-btn': '',
+            '#reader-search-btn': ''
+        };
+        Object.keys(restoreMap).forEach(sel => {
+            const el = document.querySelector(sel);
+            if (el) el.style.display = restoreMap[sel];
+        });
+        // Restore title size
+        const titleEl = document.getElementById('modal-question-title');
+        if (titleEl) titleEl.style.fontSize = '';
+        // Restore footer
+        const footer = overlay.querySelector('.article-footer');
+        if (footer) footer.style.display = '';
+        // Remove pill nav
+        if (readerPillNav && readerPillNav.parentNode) {
+            readerPillNav.parentNode.removeChild(readerPillNav);
+            readerPillNav = null;
+        }
+        // Deactivate button
+        if (readerModeBtn) readerModeBtn.classList.remove('active');
+    }
+
+    function injectReaderPillNav() {
+        // Remove any existing pill nav first
+        if (readerPillNav && readerPillNav.parentNode) {
+            readerPillNav.parentNode.removeChild(readerPillNav);
+        }
+        readerPillNav = document.createElement('div');
+        readerPillNav.className = 'reader-pill-nav';
+        readerPillNav.innerHTML =
+            '<button type="button" aria-label="Previous question">&#8592;</button>' +
+            '<span class="reader-pill-counter"></span>' +
+            '<button type="button" aria-label="Next question">&#8594;</button>';
+        document.body.appendChild(readerPillNav);
+
+        const [prevPill, pillCounter, nextPill] = readerPillNav.children;
+        // Sync counter immediately
+        pillCounter.textContent = questionCounter.textContent;
+        // Wire buttons to the same logic as the modal nav buttons
+        prevPill.addEventListener('click', () => {
+            if (currentIndex > 0) openModalWithFeatures(currentIndex - 1);
+        });
+        nextPill.addEventListener('click', () => {
+            if (currentIndex < currentQuestions.length - 1) openModalWithFeatures(currentIndex + 1);
+        });
+        // Keep counter in sync: observe #question-counter mutations
+        if (window._pillCounterObserver) window._pillCounterObserver.disconnect();
+        window._pillCounterObserver = new MutationObserver(() => {
+            pillCounter.textContent = questionCounter.textContent;
+        });
+        window._pillCounterObserver.observe(questionCounter, { childList: true, characterData: true, subtree: true });
+    }
+
+    // ══════════════════════════════════════════════════════════════════
     // ONE-TIME INJECTION: run once after DOM is ready
     // (buttons are injected once and persist; only state is synced per-open)
     // ══════════════════════════════════════════════════════════════════
@@ -1159,6 +1294,7 @@ document.addEventListener('DOMContentLoaded', () => {
     injectSearchBtn();
     injectPrintBtn();
     injectAnswerSearchBar();
+    injectReaderModeBtn();
     applyFontSize(); // restore saved font size on load
 
     // Patch openModal to wire up per-question features after content loads
@@ -1189,6 +1325,28 @@ document.addEventListener('DOMContentLoaded', () => {
             // Feature 6 — flashcard mode
             if (flashcardMode) showFlashcardOverlay();
             else hideFlashcardOverlay();
+            // Feature 10 — Reader Mode: auto-enable if persisted, sync pill counter
+            let rmPref = false;
+            try { rmPref = localStorage.getItem(READER_MODE_KEY) === '1'; } catch (e) {}
+            if (rmPref && !window._readerModeActive) {
+                window._readerModeActive = true;
+                activateReaderMode();
+            } else if (window._readerModeActive) {
+                // Already active (navigating between questions): re-apply body styles
+                // and sync pill counter
+                const activeBody = document.getElementById('modal-body');
+                if (activeBody) {
+                    activeBody.style.fontSize = currentFontSize + 'px';
+                    activeBody.style.lineHeight = '1.85';
+                    activeBody.style.maxWidth = '680px';
+                    activeBody.style.margin = '0 auto';
+                    activeBody.style.padding = '32px 24px';
+                }
+                if (readerPillNav) {
+                    const pillCounter = readerPillNav.querySelector('.reader-pill-counter');
+                    if (pillCounter) pillCounter.textContent = questionCounter.textContent;
+                }
+            }
         }));
     }
 
