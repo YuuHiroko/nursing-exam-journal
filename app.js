@@ -472,7 +472,16 @@ document.addEventListener('DOMContentLoaded', () => {
             lastFocusedEl = document.activeElement;   // remember trigger for restore
         }
         overlay.classList.remove('hidden');
-        if (wasHidden) { lockScroll(); focusReader(); }
+        if (wasHidden) {
+            lockScroll();
+            focusReader();
+            const modal = document.querySelector('.article-modal');
+            if (modal) {
+                if (modal.requestFullscreen) modal.requestFullscreen().catch(() => {});
+                else if (modal.webkitRequestFullscreen) modal.webkitRequestFullscreen();
+                else if (modal.mozRequestFullScreen) modal.mozRequestFullScreen();
+            }
+        }
         overlay.scrollTop = 0;
         modalBody.scrollTop = 0;
 
@@ -524,6 +533,8 @@ document.addEventListener('DOMContentLoaded', () => {
         overlay.classList.add('hidden');
         document.body.style.overflow = '';
         unlockScroll();
+        if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
+        else if (document.webkitFullscreenElement) document.webkitExitFullscreen();
         // Restore focus to the card that opened the reader.
         if (lastFocusedEl && typeof lastFocusedEl.focus === 'function') {
             lastFocusedEl.focus();
@@ -534,14 +545,45 @@ document.addEventListener('DOMContentLoaded', () => {
         removeReadProgressListener();
         clearAnswerSearch();
         removeHighlightToolbar();
+        removeHighlightListeners();
     }
 
-    // ── Panel fix: body overflow ──────────────────────────────────────
-    // openModal already calls lockScroll() which adds scroll-locked class.
-    // Additionally set body overflow directly for the slide-in panel.
-    const _origOpen = openModal;
-    // Patch openModal to set body overflow on first open.
-    // (We patch at call-site below in the wrapper rather than redefining.)
+    // ── Fullscreen change: if the user exits fullscreen manually (Esc or OS),
+    // close the panel so both stay in sync.
+    document.addEventListener('fullscreenchange', () => {
+        if (!document.fullscreenElement && !document.webkitFullscreenElement) {
+            if (!overlay.classList.contains('hidden')) {
+                overlay.classList.add('hidden');
+                document.body.style.overflow = '';
+                unlockScroll();
+                if (lastFocusedEl && typeof lastFocusedEl.focus === 'function') {
+                    lastFocusedEl.focus();
+                    lastFocusedEl = null;
+                }
+                removeSwipeListeners();
+                removeReadProgressListener();
+                clearAnswerSearch();
+                removeHighlightToolbar();
+            }
+        }
+    });
+    document.addEventListener('webkitfullscreenchange', () => {
+        if (!document.fullscreenElement && !document.webkitFullscreenElement) {
+            if (!overlay.classList.contains('hidden')) {
+                overlay.classList.add('hidden');
+                document.body.style.overflow = '';
+                unlockScroll();
+                if (lastFocusedEl && typeof lastFocusedEl.focus === 'function') {
+                    lastFocusedEl.focus();
+                    lastFocusedEl = null;
+                }
+                removeSwipeListeners();
+                removeReadProgressListener();
+                clearAnswerSearch();
+                removeHighlightToolbar();
+            }
+        }
+    });
 
     // ══════════════════════════════════════════════════════════════════
     // FEATURE 1 — Swipe left/right gesture (mobile)
@@ -602,8 +644,9 @@ document.addEventListener('DOMContentLoaded', () => {
         hlToolbar.innerHTML =
             '<button class="hl-btn" type="button">Highlight</button>' +
             '<button class="note-btn" type="button">Note</button>';
+        hlToolbar.style.position = 'fixed';
         hlToolbar.style.left = x + 'px';
-        hlToolbar.style.top = (y - 48) + 'px';
+        hlToolbar.style.top = y + 'px';
         document.body.appendChild(hlToolbar);
         hlToolbar.querySelector('.hl-btn').addEventListener('mousedown', (e) => { e.preventDefault(); onHighlight(); });
         hlToolbar.querySelector('.note-btn').addEventListener('mousedown', (e) => { e.preventDefault(); onNote(); });
@@ -643,7 +686,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function onSelectionChange() {
         const sel = window.getSelection();
-        if (!sel || sel.isCollapsed || !sel.toString().trim()) {
+        if (!sel || sel.isCollapsed || !sel.toString().trim() || sel.toString().trim().length === 0) {
             removeHighlightToolbar();
             return;
         }
@@ -651,8 +694,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const range = sel.getRangeAt(0);
         if (!modalBody.contains(range.commonAncestorContainer)) return;
         const rect = range.getBoundingClientRect();
-        const x = rect.left + rect.width / 2 - 60;
-        const y = rect.top + window.scrollY;
+        // toolbar is position:fixed so use viewport coords directly (no scrollY offset)
+        const x = rect.left;
+        const y = rect.top - 40;
 
         showHighlightToolbar(x, y,
             // Highlight
@@ -846,14 +890,18 @@ document.addEventListener('DOMContentLoaded', () => {
     function showFlashcardOverlay() {
         hideFlashcardOverlay();
         flashcardRevealed = false;
-        const body = modalBody;
-        if (!body) return;
+        // Attach to .article-modal directly so it is not clipped by modalBody's overflow
+        const articleModalEl = overlay.querySelector('.article-modal');
+        if (!articleModalEl) return;
         flashcardOverlayEl = document.createElement('div');
         flashcardOverlayEl.className = 'flashcard-overlay';
+        flashcardOverlayEl.style.position = 'absolute';
+        flashcardOverlayEl.style.inset = '0';
+        flashcardOverlayEl.style.zIndex = '5';
         flashcardOverlayEl.innerHTML =
             '<span class="flashcard-icon material-symbols-outlined">visibility_off</span>' +
             '<span class="flashcard-prompt">Tap to reveal answer</span>';
-        body.appendChild(flashcardOverlayEl);
+        articleModalEl.appendChild(flashcardOverlayEl);
         flashcardOverlayEl.addEventListener('click', revealFlashcard, { once: true });
     }
     function hideFlashcardOverlay() {
@@ -875,7 +923,8 @@ document.addEventListener('DOMContentLoaded', () => {
     try { currentFontSize = parseInt(localStorage.getItem(FONT_KEY), 10) || 15; } catch (e) {}
 
     function applyFontSize() {
-        modalBody.style.fontSize = currentFontSize + 'px';
+        const liveBody = document.getElementById('modal-body');
+        if (liveBody) liveBody.style.fontSize = currentFontSize + 'px';
     }
     function saveFontSize() {
         try { localStorage.setItem(FONT_KEY, String(currentFontSize)); } catch (e) {}
@@ -919,8 +968,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const inp = answerSearchBar.querySelector('input');
             if (inp) inp.value = '';
         }
-        // Remove search-match spans without triggering full re-render
-        const marks = modalBody.querySelectorAll('span.search-match');
+        // Remove search-match spans — grab fresh reference each time
+        const freshBody = document.getElementById('modal-body');
+        const marks = freshBody ? freshBody.querySelectorAll('span.search-match') : [];
         marks.forEach(m => {
             const parent = m.parentNode;
             if (parent) parent.replaceChild(document.createTextNode(m.textContent), m);
@@ -934,8 +984,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function runAnswerSearch(term) {
+        // Always grab a fresh reference to #modal-body so we get current content
+        const freshBody = document.getElementById('modal-body');
+        if (!freshBody) return;
         // Clear existing highlights first
-        const existingMarks = modalBody.querySelectorAll('span.search-match');
+        const existingMarks = freshBody.querySelectorAll('span.search-match');
         existingMarks.forEach(m => {
             const parent = m.parentNode;
             if (parent) parent.replaceChild(document.createTextNode(m.textContent), m);
@@ -948,11 +1001,11 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
         // Walk text nodes and wrap matches
-        const walker = document.createTreeWalker(modalBody, NodeFilter.SHOW_TEXT, {
+        const walker = document.createTreeWalker(freshBody, NodeFilter.SHOW_TEXT, {
             acceptNode: (node) => {
                 // Skip saved-note-box and search-bar
                 let p = node.parentNode;
-                while (p && p !== modalBody) {
+                while (p && p !== freshBody) {
                     if (p.classList && (p.classList.contains('saved-note-box') || p.classList.contains('answer-search-bar'))) return NodeFilter.FILTER_REJECT;
                     p = p.parentNode;
                 }
@@ -1115,17 +1168,28 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.style.overflow = 'hidden';
         const q = currentQuestions[index];
         if (!q) return;
-        // Per-open setup (after rAF so content is painted)
-        requestAnimationFrame(() => {
+        // openModal injects content in its own rAF; we use a double-rAF here so
+        // our setup always runs AFTER content has been written to modalBody.
+        requestAnimationFrame(() => requestAnimationFrame(() => {
+            // Feature 3 — star button state
             setupStarBtn(q);
+            // Feature 4 — read progress: grab fresh reference each time
             addReadProgressListener();
+            // Feature 1 — swipe
             addSwipeListeners();
+            // Feature 2 — highlight
             addHighlightListeners();
-            applyFontSize();
+            // Feature 7 — font size: apply saved size to the live #modal-body
+            const savedSize = parseInt(localStorage.getItem(FONT_KEY), 10);
+            if (savedSize) currentFontSize = savedSize;
+            const liveBody = document.getElementById('modal-body');
+            if (liveBody) liveBody.style.fontSize = currentFontSize + 'px';
+            // Feature 2 — restore annotations
             restoreAnnotations(q);
+            // Feature 6 — flashcard mode
             if (flashcardMode) showFlashcardOverlay();
             else hideFlashcardOverlay();
-        });
+        }));
     }
 
     // Re-wire all call sites that call openModal to use the patched version.
