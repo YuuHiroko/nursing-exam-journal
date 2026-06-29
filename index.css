@@ -2847,3 +2847,214 @@ body.scroll-locked { overflow: hidden; }
     .nav-toggle-bars span { transition: none !important; }
     .q-toggle .chev { transition: none !important; }
 }
+
+/* ═══════════════════════════════════════════════════════════════════
+   20. FULL-HEIGHT SLIDE-IN READER PANEL
+   Replaces the floating modal with a right-anchored panel that slides
+   in from the right on all screen sizes.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* 20.1 Overlay wrapper — full viewport, backdrop on tablet/desktop only */
+.overlay {
+    position: fixed !important;
+    inset: 0 !important;
+    z-index: 1000 !important;
+    display: flex !important;
+    align-items: stretch !important;
+    justify-content: flex-end !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    background: transparent !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    animation: none !important;
+}
+.overlay.hidden {
+    display: none !important;
+}
+
+/* Dim backdrop — only on tablet and desktop (injected via pseudo) */
+@media (min-width: 768px) {
+    .overlay::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background: rgba(20, 20, 28, 0.48);
+        z-index: 0;
+        pointer-events: auto;
+    }
+}
+
+/* 20.2 Panel — full-height, slides in from the right */
+.article-modal {
+    position: relative !important;
+    z-index: 1 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100vh !important;
+    height: 100dvh !important;
+    max-height: 100vh !important;
+    max-height: 100dvh !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: hidden !important;
+    transform: translateX(100%);
+    transition: transform 280ms cubic-bezier(0.05, 0.7, 0.1, 1.0) !important;
+    animation: none !important;
+    background: var(--md-sys-color-surface-container-high, var(--color-card)) !important;
+}
+.overlay:not(.hidden) .article-modal {
+    transform: translateX(0) !important;
+}
+
+/* Tablet: full-width panel with backdrop */
+@media (min-width: 768px) {
+    .article-modal {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-shadow: -8px 0 32px rgba(0, 0, 0, 0.18) !important;
+    }
+}
+
+/* Desktop: panel capped at 720px, anchored right */
+@media (min-width: 1025px) {
+    .article-modal {
+        width: 720px !important;
+        max-width: 720px !important;
+        box-shadow: -12px 0 40px rgba(0, 0, 0, 0.22) !important;
+    }
+}
+
+/* 20.3 Progress bar — pinned at very top of panel */
+#reader-progress {
+    position: relative !important;
+    flex-shrink: 0 !important;
+    order: -1 !important;
+    width: 100% !important;
+}
+
+/* 20.4 Header — sticky at top, never scrolls away */
+.overlay .article-header {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 2 !important;
+    flex-shrink: 0 !important;
+    max-height: none !important;
+    overflow-y: visible !important;
+    padding: 0.85rem 1rem 0.9rem !important;
+    border-bottom: 1px solid var(--md-sys-color-outline-variant, var(--color-border)) !important;
+    background: var(--md-sys-color-surface-container-high, var(--color-card)) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.45rem !important;
+}
+
+/* Top row: close btn + badges + mark-done all in one tight line */
+.overlay .article-header .article-meta {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    gap: 0.45rem !important;
+    margin-bottom: 0 !important;
+}
+.overlay .close-btn {
+    margin-bottom: 0 !important;
+    flex-shrink: 0 !important;
+}
+
+/* 20.5 Title — always fully visible, no clamp, no truncation */
+.overlay .article-title,
+.overlay #modal-question-title {
+    display: block !important;
+    -webkit-line-clamp: unset !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    white-space: normal !important;
+    font-size: 15px !important;
+    line-height: 1.45 !important;
+    letter-spacing: -0.01em !important;
+    font-weight: 700 !important;
+    margin-top: 0.1rem !important;
+}
+@media (min-width: 1025px) {
+    .overlay .article-title,
+    .overlay #modal-question-title {
+        font-size: 17px !important;
+    }
+}
+
+/* 20.6 Hide the toggle permanently — title is always fully visible */
+#question-toggle {
+    display: none !important;
+}
+
+/* 20.7 Body — scrollable middle section */
+.overlay .article-body {
+    flex: 1 1 auto !important;
+    min-height: 0 !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    overscroll-behavior: contain !important;
+    padding: 1.25rem 1.1rem 2rem !important;
+    font-size: 14px !important;
+    line-height: 1.75 !important;
+    scroll-behavior: smooth !important;
+}
+@media (min-width: 1025px) {
+    .overlay .article-body {
+        padding: 1.75rem 2rem 2.5rem !important;
+        font-size: 15px !important;
+    }
+}
+
+/* Thin custom scrollbar for the body */
+.overlay .article-body::-webkit-scrollbar { width: 4px; }
+.overlay .article-body::-webkit-scrollbar-track { background: transparent; }
+.overlay .article-body::-webkit-scrollbar-thumb {
+    background: var(--md-sys-color-outline-variant, var(--color-border));
+    border-radius: 9999px;
+}
+.overlay .article-body::-webkit-scrollbar-thumb:hover {
+    background: var(--md-sys-color-outline, var(--color-muted-foreground));
+}
+
+/* 20.8 Footer — sticky at bottom, 44px min touch target for nav buttons */
+.overlay .article-footer {
+    position: sticky !important;
+    bottom: 0 !important;
+    z-index: 2 !important;
+    flex-shrink: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 0.5rem !important;
+    padding: 0.75rem 1rem !important;
+    border-top: 1px solid var(--md-sys-color-outline-variant, var(--color-border)) !important;
+    background: var(--md-sys-color-surface-container-high, var(--color-card)) !important;
+    flex-wrap: nowrap !important;
+}
+.overlay .nav-btn {
+    min-height: 44px !important;
+    min-width: 44px !important;
+}
+.overlay #question-counter {
+    font-size: 0.72rem !important;
+    order: 0 !important;
+    width: auto !important;
+    text-align: center !important;
+    flex-shrink: 0 !important;
+}
+
+/* 20.9 Dark mode — surface tokens already handle it; scrim darkens further */
+.dark .overlay::before {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* 20.10 Reduced motion — skip slide transition */
+@media (prefers-reduced-motion: reduce) {
+    .article-modal { transition: none !important; }
+}
