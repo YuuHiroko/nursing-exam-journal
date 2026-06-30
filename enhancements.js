@@ -13,7 +13,7 @@
     // Defined synchronously so callers loaded after this file can use it.
     (function () {
         var stack = null;
-        var ICONS = { success: '✓', info: '•', warn: '!' };
+        var ICONS = { success: 'check_circle', info: 'info', warn: 'warning' };
 
         function ensureStack() {
             if (stack && document.body.contains(stack)) return stack;
@@ -33,7 +33,7 @@
                 var el = document.createElement('div');
                 el.className = 'toast ' + type;
                 el.setAttribute('role', 'status');
-                el.innerHTML = '<span class="toast-icon"></span><span class="toast-msg"></span>';
+                el.innerHTML = '<span class="toast-icon material-symbols-outlined" aria-hidden="true"></span><span class="toast-msg"></span>';
                 el.querySelector('.toast-icon').textContent = ICONS[type] || ICONS.info;
                 el.querySelector('.toast-msg').textContent = msg;
                 s.appendChild(el);
@@ -89,6 +89,27 @@
             }, { passive: true });
         }
 
+        // ── 1b. Material Web ripple on question cards ────────────
+        // Uses the real <md-ripple> component from @material/web for
+        // authentic M3 ink. Re-applied as the list re-renders.
+        (function () {
+            if (reduceMotion || !('customElements' in window)) return;
+            var list = document.getElementById('questions-list');
+            if (!list) return;
+            function addRipple(card) {
+                if (card.querySelector(':scope > md-ripple')) return;
+                card.appendChild(document.createElement('md-ripple'));
+            }
+            function scan() {
+                var cards = list.querySelectorAll('.question-card');
+                for (var i = 0; i < cards.length; i++) addRipple(cards[i]);
+            }
+            customElements.whenDefined('md-ripple').then(function () {
+                scan();
+                new MutationObserver(scan).observe(list, { childList: true });
+            }).catch(function () {});
+        })();
+
         // ── 2. Reading progress bar ──────────────────────────────
         (function () {
             var bar = document.createElement('div');
@@ -97,6 +118,7 @@
 
             var overlay = document.getElementById('answer-overlay');
             var modalBody = document.getElementById('modal-body');
+            var readerProgress = document.getElementById('reader-progress');   // md-linear-progress in reader
             var ticking = false, flashed = false;
 
             function compute() {
@@ -112,6 +134,8 @@
                 }
                 pct = Math.max(0, Math.min(100, pct));
                 bar.style.width = pct + '%';
+                // Drive the reader's Material linear-progress (0..1) while open.
+                if (readerProgress && modalOpen) readerProgress.value = pct / 100;
                 if (pct >= 99.5 && !flashed) {
                     flashed = true;
                     if (!reduceMotion) {

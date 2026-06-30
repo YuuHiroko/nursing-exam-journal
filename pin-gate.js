@@ -23,10 +23,13 @@
     // ── EDIT ME ─────────────────────────────────────────────────────────────
     // Add/replace the PINs you hand out. One per student is a good pattern.
     var VALID_PINS = [
-        '1707',
-        '2579',
+        '5678',
+        '9012',
+        '3456',
+        '2557',
         '3579',
-        '2573'
+        '9999',
+        '2509'
     ];
     // ────────────────────────────────────────────────────────────────────────
 
@@ -108,7 +111,7 @@
                 '<span class="pin-eyebrow">RESTRICTED · ASSESSMENT MODE</span>' +
                 '<h2 class="pin-title">ENTER ACCESS PIN</h2>' +
                 '<p class="pin-sub">This device must be unlocked with a valid PIN. ' +
-                    ‘The first PIN used locks to this device — it can\’t be ‘ +
+                    'The first PIN used locks to this device — it can\'t be ' +
                     'switched to another PIN later.</p>' +
                 '<form class="pin-form" id="pin-form" autocomplete="off" novalidate>' +
                     '<input class="pin-input" id="pin-input" type="password" ' +
@@ -119,6 +122,7 @@
                 '</form>' +
                 '<p class="pin-error" id="pin-error" role="alert" aria-live="assertive"></p>' +
                 '<span class="pin-device">DEVICE ID · ' + fp.toUpperCase() + '</span>' +
+                '<button class="pin-reset" id="pin-reset" type="button">Reset This Device</button>' +
             '</div>';
 
         document.body.appendChild(gate);
@@ -126,11 +130,25 @@
         var form = gate.querySelector('#pin-form');
         var input = gate.querySelector('#pin-input');
         var error = gate.querySelector('#pin-error');
+        var resetBtn = gate.querySelector('#pin-reset');
 
         // Clear the error as the user edits.
         input.addEventListener('input', function () {
             error.textContent = '';
             gate.classList.remove('shake');
+        });
+
+        // Reset device binding
+        resetBtn.addEventListener('click', function () {
+            try {
+                localStorage.removeItem(BIND_KEY);
+                localStorage.removeItem(STORAGE_KEY);
+                error.textContent = 'Device reset. Try any valid PIN.';
+                input.value = '';
+                input.focus();
+            } catch (e) {
+                error.textContent = 'Error resetting device.';
+            }
         });
 
         form.addEventListener('submit', function (e) {

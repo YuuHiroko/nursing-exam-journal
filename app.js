@@ -199,6 +199,17 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         if (currentQuestions.length === 0) {
+            // If an OBG-II unit is selected but its dataset hasn't loaded yet,
+            // kick off the lazy load and show a loading state instead of "none found".
+            const isOBG2Unit = ['8', '9', '10', '11'].indexOf(String(activeUnit)) !== -1;
+            const obg2 = window.__obg2;
+            if (obg2 && isOBG2Unit && obg2.status !== 'ready' && obg2.status !== 'error') {
+                listContainer.innerHTML = '<div class="loading-state" role="status" aria-live="polite">' +
+                    '<span class="material-symbols-outlined loading-spinner" aria-hidden="true">progress_activity</span>' +
+                    '<span class="mono-label">LOADING OBG-II QUESTIONS…</span></div>';
+                obg2.load();
+                return;
+            }
             listContainer.innerHTML = '<div style="padding:2rem;text-align:center;"><span class="mono-label">NO ENTRIES FOUND FOR THIS CRITERIA.</span></div>';
             return;
         }
@@ -207,16 +218,26 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.className = 'question-card' + (isDone(q) ? ' is-done' : '');
             card.dataset.qkey = qKey(q);
+            // Accessible "clickable card" pattern: the question heading holds a
+            // real <button> whose accessible name equals its visible text
+            // (WCAG 2.5.3), and a stretched overlay makes the whole card
+            // clickable. md-ripple/md-focus-ring provide the M3 interaction.
             const num = String(index + 1).padStart(2, '0');
 
             const starred = isStarred(q);
             card.innerHTML =
+                '<md-ripple></md-ripple>' +
                 '<button class="q-check" type="button" aria-pressed="' + isDone(q) + '" ' +
                     'aria-label="Mark as completed" title="Mark as completed">' +
-                    '<span class="q-check-tick">&#10003;</span></button>' +
-                '<div class="q-number">' + num + '</div>' +
+                    '<span class="q-check-tick material-symbols-outlined" aria-hidden="true">check</span></button>' +
+                '<div class="q-number" aria-hidden="true">' + num + '</div>' +
                 '<div class="q-content">' +
-                    '<h3 class="q-text">' + highlightTerm(q.question, activeSearch.trim()) + '</h3>' +
+                    '<h3 class="q-text">' +
+                        '<button class="q-open" type="button">' +
+                            '<md-focus-ring></md-focus-ring>' +
+                            highlightTerm(q.question, activeSearch.trim()) +
+                        '</button>' +
+                    '</h3>' +
                     '<div class="q-meta">' +
                         '<span>' + getUnitLabel(q.unit) + '</span>' +
                         '<span>REPEATED: ' + q.repeated + 'x</span>' +
@@ -226,11 +247,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 '<div class="q-marks-area">' +
                     '<button class="q-bookmark' + (starred ? ' starred' : '') + '" type="button" ' +
                         'aria-pressed="' + starred + '" aria-label="Bookmark question" title="Bookmark">' +
-                        (starred ? '★' : '☆') + '</button>' +
+                        '<span class="material-symbols-outlined' + (starred ? ' filled' : '') + '" aria-hidden="true">' +
+                        (starred ? 'star' : 'star_border') + '</span></button>' +
                     '<span class="marks-badge">' + q.marks + ' M</span>' +
                 '</div>';
 
-            card.addEventListener('click', () => openModal(index));
+            // The stretched .q-open button is the primary control; native
+            // button semantics give Enter/Space activation for free.
+            card.querySelector('.q-open').addEventListener('click', () => openModalWithFeatures(index));
             const chk = card.querySelector('.q-check');
             chk.addEventListener('click', (e) => {
                 e.stopPropagation();                 // don't open the modal
@@ -249,8 +273,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 setStar(q, nowStar);
                 star.classList.toggle('starred', nowStar);
                 star.setAttribute('aria-pressed', nowStar);
-                star.textContent = nowStar ? '★' : '☆';
-                toast(nowStar ? 'Bookmarked ★' : 'Bookmark removed', 'info');
+                var starIcon = star.querySelector('.material-symbols-outlined');
+                if (starIcon) {
+                    starIcon.textContent = nowStar ? 'star' : 'star_border';
+                    starIcon.classList.toggle('filled', nowStar);
+                }
+                toast(nowStar ? 'Bookmarked' : 'Bookmark removed', 'info');
                 if (activeStatus === 'starred' && !nowStar) renderQuestions();  // drop from starred view
             });
             listContainer.appendChild(card);
@@ -414,11 +442,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Completion toggle for this question (reflect + wire)
         if (markDoneBtn) {
+            const markDoneLabel = document.getElementById('mark-done-label');
+            const markDoneIcon = document.getElementById('mark-done-icon');
             const syncBtn = () => {
                 const d = isDone(q);
                 markDoneBtn.classList.toggle('done', d);
                 markDoneBtn.setAttribute('aria-pressed', String(d));
-                markDoneBtn.innerHTML = d ? '&#10003; Completed' : 'Mark as completed';
+                if (markDoneLabel) markDoneLabel.textContent = d ? 'Completed' : 'Mark as completed';
+                if (markDoneIcon) markDoneIcon.textContent = d ? 'check_circle' : 'radio_button_unchecked';
             };
             syncBtn();
             markDoneBtn.onclick = () => {
@@ -437,8 +468,14 @@ document.addEventListener('DOMContentLoaded', () => {
         // Lock scroll only on a true open transition — openModal is ALSO the
         // prev/next handler, so re-entrant calls must not stack the lock.
         const wasHidden = overlay.classList.contains('hidden');
+        if (wasHidden) {
+            lastFocusedEl = document.activeElement;   // remember trigger for restore
+        }
         overlay.classList.remove('hidden');
-        if (wasHidden) lockScroll();
+        if (wasHidden) {
+            lockScroll();
+            focusReader();
+        }
         overlay.scrollTop = 0;
         modalBody.scrollTop = 0;
 
@@ -447,6 +484,8 @@ document.addEventListener('DOMContentLoaded', () => {
         requestAnimationFrame(() => {
             modalBody.innerHTML = q.answer || '';
             if (window.activateDiagrams) window.activateDiagrams();
+            // Append Google "Learn About" interactive study modules to every answer
+            if (window.injectLearnAbout) window.injectLearnAbout(modalBody, q);
             // Question Cuff: reveal the toggle only when the stem exceeds 2 lines;
             // short questions render in full with no chrome.
             if (questionToggle) {
@@ -458,11 +497,863 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Focus management: remember the trigger, move focus into the reader on
+    // open, restore it on close, and trap Tab within the dialog (M3 a11y).
+    let lastFocusedEl = null;
+    function focusReader() {
+        if (closeModalBtn && typeof closeModalBtn.focus === 'function') {
+            requestAnimationFrame(() => closeModalBtn.focus());
+        }
+    }
+    function getFocusable() {
+        const modal = overlay.querySelector('.article-modal');
+        if (!modal) return [];
+        return Array.prototype.filter.call(
+            modal.querySelectorAll('md-icon-button, md-text-button, md-filled-button, button, [href], input, [tabindex]:not([tabindex="-1"]):not(.focus-sentinel)'),
+            (el) => !el.hasAttribute('disabled') && el.offsetParent !== null
+        );
+    }
+    // Sentinels wrap focus around the dialog.
+    overlay.querySelectorAll('.focus-sentinel').forEach((s) => {
+        s.addEventListener('focus', () => {
+            const f = getFocusable();
+            if (!f.length) return;
+            (s.dataset.sentinel === 'start' ? f[f.length - 1] : f[0]).focus();
+        });
+    });
+
     function closeModal() {
         if (overlay.classList.contains('hidden')) return;   // balance the single lock
         overlay.classList.add('hidden');
+        document.body.style.overflow = '';
         unlockScroll();
+        // Deactivate reader mode if it was on when panel closed
+        if (window._readerModeActive) {
+            window._readerModeActive = false;
+            deactivateReaderMode();
+        }
+        // Restore focus to the card that opened the reader.
+        if (lastFocusedEl && typeof lastFocusedEl.focus === 'function') {
+            lastFocusedEl.focus();
+            lastFocusedEl = null;
+        }
+        // Feature cleanups
+        removeSwipeListeners();
+        removeReadProgressListener();
+        clearAnswerSearch();
+        removeHighlightToolbar();
+        removeHighlightListeners();
     }
+
+    // ── Fullscreen change: user exits fullscreen (Esc/browser button) → deactivate reader mode only.
+    document.addEventListener('fullscreenchange', () => {
+        if (!document.fullscreenElement && !document.webkitFullscreenElement) {
+            if (window._readerModeActive) {
+                window._readerModeActive = false;
+                deactivateReaderMode();
+            }
+        }
+    });
+    document.addEventListener('webkitfullscreenchange', () => {
+        if (!document.fullscreenElement && !document.webkitFullscreenElement) {
+            if (window._readerModeActive) {
+                window._readerModeActive = false;
+                deactivateReaderMode();
+            }
+        }
+    });
+
+    // ══════════════════════════════════════════════════════════════════
+    // FEATURE 1 — Swipe left/right gesture (mobile)
+    // ══════════════════════════════════════════════════════════════════
+    let swipeTouchStartX = 0, swipeTouchStartY = 0;
+    function onSwipeTouchStart(e) {
+        swipeTouchStartX = e.touches[0].clientX;
+        swipeTouchStartY = e.touches[0].clientY;
+    }
+    function onSwipeTouchEnd(e) {
+        const dx = e.changedTouches[0].clientX - swipeTouchStartX;
+        const dy = e.changedTouches[0].clientY - swipeTouchStartY;
+        if (Math.abs(dx) < 60 || Math.abs(dx) <= Math.abs(dy)) return;
+        if (dx < 0 && currentIndex < currentQuestions.length - 1) openModalWithFeatures(currentIndex + 1);
+        else if (dx > 0 && currentIndex > 0) openModalWithFeatures(currentIndex - 1);
+    }
+    const articleModal = overlay.querySelector('.article-modal');
+    function addSwipeListeners() {
+        if (!articleModal) return;
+        articleModal.addEventListener('touchstart', onSwipeTouchStart, { passive: true });
+        articleModal.addEventListener('touchend', onSwipeTouchEnd, { passive: true });
+    }
+    function removeSwipeListeners() {
+        if (!articleModal) return;
+        articleModal.removeEventListener('touchstart', onSwipeTouchStart);
+        articleModal.removeEventListener('touchend', onSwipeTouchEnd);
+    }
+
+    // ══════════════════════════════════════════════════════════════════
+    // FEATURE 2 — Highlight text and save notes
+    // ══════════════════════════════════════════════════════════════════
+    const NOTES_KEY = 'nej-notes';
+    const HIGHLIGHTS_KEY = 'nej-highlights';
+    let hlToolbar = null;
+
+    function loadNotes() {
+        try { return JSON.parse(localStorage.getItem(NOTES_KEY)) || {}; } catch (e) { return {}; }
+    }
+    function saveNotes(obj) {
+        try { localStorage.setItem(NOTES_KEY, JSON.stringify(obj)); } catch (e) {}
+    }
+    function loadHighlights() {
+        try { return JSON.parse(localStorage.getItem(HIGHLIGHTS_KEY)) || {}; } catch (e) { return {}; }
+    }
+    function saveHighlights(obj) {
+        try { localStorage.setItem(HIGHLIGHTS_KEY, JSON.stringify(obj)); } catch (e) {}
+    }
+
+    function removeHighlightToolbar() {
+        if (hlToolbar && hlToolbar.parentNode) hlToolbar.parentNode.removeChild(hlToolbar);
+        hlToolbar = null;
+    }
+
+    function showHighlightToolbar(x, y, onHighlight, onNote) {
+        removeHighlightToolbar();
+        hlToolbar = document.createElement('div');
+        hlToolbar.className = 'highlight-toolbar';
+        hlToolbar.innerHTML =
+            '<button class="hl-btn" type="button">Highlight</button>' +
+            '<button class="note-btn" type="button">Note</button>';
+        hlToolbar.style.position = 'fixed';
+        hlToolbar.style.left = x + 'px';
+        hlToolbar.style.top = y + 'px';
+        document.body.appendChild(hlToolbar);
+        hlToolbar.querySelector('.hl-btn').addEventListener('mousedown', (e) => { e.preventDefault(); onHighlight(); });
+        hlToolbar.querySelector('.note-btn').addEventListener('mousedown', (e) => { e.preventDefault(); onNote(); });
+        // Auto-hide on outside click
+        setTimeout(() => {
+            document.addEventListener('mousedown', removeHighlightToolbar, { once: true });
+            document.addEventListener('touchstart', removeHighlightToolbar, { once: true });
+        }, 0);
+    }
+
+    function restoreAnnotations(q) {
+        const key = qKey(q);
+        // Restore note box
+        const notes = loadNotes();
+        const existingNote = modalBody.querySelector('.saved-note-box');
+        if (existingNote) existingNote.parentNode.removeChild(existingNote);
+        if (notes[key]) {
+            const noteBox = document.createElement('div');
+            noteBox.className = 'saved-note-box';
+            noteBox.textContent = notes[key];
+            modalBody.insertBefore(noteBox, modalBody.firstChild);
+        }
+        // Restore highlights by re-injecting saved HTML
+        const highlights = loadHighlights();
+        if (highlights[key]) {
+            // highlights[key] stores the full innerHTML with <mark> tags
+            modalBody.innerHTML = highlights[key];
+            // Re-inject note box on top after restoring highlights
+            if (notes[key]) {
+                const noteBox2 = document.createElement('div');
+                noteBox2.className = 'saved-note-box';
+                noteBox2.textContent = notes[key];
+                modalBody.insertBefore(noteBox2, modalBody.firstChild);
+            }
+        }
+    }
+
+    function onSelectionChange() {
+        const sel = window.getSelection();
+        if (!sel || sel.isCollapsed || !sel.toString().trim() || sel.toString().trim().length === 0) {
+            removeHighlightToolbar();
+            return;
+        }
+        // Only trigger inside modal body
+        const range = sel.getRangeAt(0);
+        if (!modalBody.contains(range.commonAncestorContainer)) return;
+        const rect = range.getBoundingClientRect();
+        // toolbar is position:fixed so use viewport coords directly (no scrollY offset)
+        const x = rect.left;
+        const y = rect.top - 40;
+
+        showHighlightToolbar(x, y,
+            // Highlight
+            () => {
+                const q = currentQuestions[currentIndex];
+                if (!q) return;
+                try {
+                    const mark = document.createElement('mark');
+                    range.surroundContents(mark);
+                } catch (e) {}
+                sel.removeAllRanges();
+                removeHighlightToolbar();
+                // Save innerHTML without the note box
+                const noteBox = modalBody.querySelector('.saved-note-box');
+                if (noteBox) noteBox.parentNode.removeChild(noteBox);
+                const highlights = loadHighlights();
+                highlights[qKey(q)] = modalBody.innerHTML;
+                saveHighlights(highlights);
+                restoreAnnotations(q);
+            },
+            // Note
+            () => {
+                sel.removeAllRanges();
+                removeHighlightToolbar();
+                const q = currentQuestions[currentIndex];
+                if (!q) return;
+                const noteText = prompt('Add a note for this question:');
+                if (!noteText) return;
+                const notes = loadNotes();
+                notes[qKey(q)] = noteText;
+                saveNotes(notes);
+                restoreAnnotations(q);
+            }
+        );
+    }
+
+    function addHighlightListeners() {
+        modalBody.addEventListener('mouseup', onSelectionChange);
+        modalBody.addEventListener('touchend', onSelectionChange);
+    }
+    function removeHighlightListeners() {
+        modalBody.removeEventListener('mouseup', onSelectionChange);
+        modalBody.removeEventListener('touchend', onSelectionChange);
+    }
+
+    // ══════════════════════════════════════════════════════════════════
+    // FEATURE 3 — Star button in header
+    // ══════════════════════════════════════════════════════════════════
+    let starBtn = null;
+    function injectStarBtn() {
+        if (articleHeader.querySelector('#reader-star-btn')) return;
+        starBtn = document.createElement('md-icon-button');
+        starBtn.id = 'reader-star-btn';
+        starBtn.className = 'star-btn';
+        starBtn.setAttribute('aria-label', 'Bookmark question');
+        starBtn.setAttribute('title', 'Bookmark');
+        starBtn.innerHTML = '<md-icon id="reader-star-icon">star_border</md-icon>';
+        const meta = articleHeader.querySelector('.article-meta');
+        if (meta) meta.appendChild(starBtn);
+    }
+    function syncStarBtn(q) {
+        if (!starBtn) return;
+        const s = isStarred(q);
+        const icon = starBtn.querySelector('md-icon, #reader-star-icon');
+        if (icon) {
+            icon.textContent = s ? 'star' : 'star_border';
+            icon.className = s ? 'star-filled' : '';
+        }
+        starBtn.setAttribute('aria-pressed', String(s));
+    }
+    function setupStarBtn(q) {
+        if (!starBtn) return;
+        syncStarBtn(q);
+        starBtn.onclick = () => {
+            const nowStar = !isStarred(q);
+            setStar(q, nowStar);
+            syncStarBtn(q);
+            // Sync the card in the list
+            const card = listContainer.querySelector('[data-qkey="' + qKey(q) + '"]');
+            if (card) {
+                const cardStar = card.querySelector('.q-bookmark');
+                const cardIcon = card.querySelector('.q-bookmark .material-symbols-outlined');
+                if (cardStar) {
+                    cardStar.classList.toggle('starred', nowStar);
+                    cardStar.setAttribute('aria-pressed', String(nowStar));
+                }
+                if (cardIcon) {
+                    cardIcon.textContent = nowStar ? 'star' : 'star_border';
+                    cardIcon.classList.toggle('filled', nowStar);
+                }
+            }
+            toast(nowStar ? 'Bookmarked' : 'Bookmark removed', 'info');
+            if (activeStatus === 'starred' && !nowStar) renderQuestions();
+        };
+    }
+
+    // ══════════════════════════════════════════════════════════════════
+    // FEATURE 4 — Reading progress %
+    // ══════════════════════════════════════════════════════════════════
+    let readPctEl = null;
+    let readProgressHandler = null;
+
+    function injectReadPct() {
+        if (articleHeader.querySelector('#read-pct')) return;
+        readPctEl = document.createElement('span');
+        readPctEl.id = 'read-pct';
+        readPctEl.textContent = '0%';
+        const meta = articleHeader.querySelector('.article-meta');
+        if (meta) meta.appendChild(readPctEl);
+    }
+
+    function addReadProgressListener() {
+        removeReadProgressListener();
+        const readerProgress = document.getElementById('reader-progress');
+        readProgressHandler = () => {
+            const sh = modalBody.scrollHeight - modalBody.clientHeight;
+            const pct = sh > 0 ? Math.round(modalBody.scrollTop / sh * 100) : 100;
+            if (readPctEl) readPctEl.textContent = pct + '%';
+            if (readerProgress) readerProgress.value = pct / 100;
+        };
+        modalBody.addEventListener('scroll', readProgressHandler, { passive: true });
+        readProgressHandler(); // set initial state
+    }
+    function removeReadProgressListener() {
+        if (readProgressHandler) {
+            modalBody.removeEventListener('scroll', readProgressHandler);
+            readProgressHandler = null;
+        }
+    }
+
+    // ══════════════════════════════════════════════════════════════════
+    // FEATURE 5 — Keyboard shortcuts (document keydown)
+    // ══════════════════════════════════════════════════════════════════
+    // Already has Escape/ArrowLeft/ArrowRight in existing listener.
+    // We extend it with ArrowDown/Up and Ctrl+D/S.
+    // The existing listener at line 546 handles Escape/ArrowLeft/Right;
+    // we add a second listener for the new shortcuts.
+    document.addEventListener('keydown', (e) => {
+        if (overlay.classList.contains('hidden')) return;
+        // ArrowDown = next
+        if (e.key === 'ArrowDown') {
+            e.preventDefault();
+            if (currentIndex < currentQuestions.length - 1) openModalWithFeatures(currentIndex + 1);
+        }
+        // ArrowUp = prev
+        if (e.key === 'ArrowUp') {
+            e.preventDefault();
+            if (currentIndex > 0) openModalWithFeatures(currentIndex - 1);
+        }
+        // Ctrl/Cmd+D = toggle done
+        if ((e.ctrlKey || e.metaKey) && e.key === 'd') {
+            e.preventDefault();
+            if (markDoneBtn) markDoneBtn.click();
+        }
+        // Ctrl/Cmd+S = toggle star
+        if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+            e.preventDefault();
+            if (starBtn) starBtn.click();
+        }
+    });
+
+    // ══════════════════════════════════════════════════════════════════
+    // FEATURE 6 — Flashcard mode
+    // ══════════════════════════════════════════════════════════════════
+    const FC_KEY = 'nej-flashcard-mode';
+    let flashcardMode = false;
+    try { flashcardMode = localStorage.getItem(FC_KEY) === '1'; } catch (e) {}
+    let flashcardBtn = null;
+    let flashcardOverlayEl = null;
+    let flashcardRevealed = false;
+
+    function injectFlashcardBtn() {
+        if (articleHeader.querySelector('#reader-flashcard-btn')) return;
+        flashcardBtn = document.createElement('md-icon-button');
+        flashcardBtn.id = 'reader-flashcard-btn';
+        flashcardBtn.setAttribute('aria-label', 'Flashcard mode');
+        flashcardBtn.setAttribute('title', 'Flashcard mode');
+        flashcardBtn.innerHTML = '<md-icon>quiz</md-icon>';
+        if (flashcardMode) flashcardBtn.classList.add('flashcard-btn-active');
+        const meta = articleHeader.querySelector('.article-meta');
+        if (meta) meta.appendChild(flashcardBtn);
+        flashcardBtn.addEventListener('click', () => {
+            flashcardMode = !flashcardMode;
+            try { localStorage.setItem(FC_KEY, flashcardMode ? '1' : '0'); } catch (e) {}
+            flashcardBtn.classList.toggle('flashcard-btn-active', flashcardMode);
+            if (flashcardMode) showFlashcardOverlay();
+            else hideFlashcardOverlay();
+        });
+    }
+
+    function showFlashcardOverlay() {
+        hideFlashcardOverlay();
+        flashcardRevealed = false;
+        // Attach to .article-modal directly so it is not clipped by modalBody's overflow
+        const articleModalEl = overlay.querySelector('.article-modal');
+        if (!articleModalEl) return;
+        flashcardOverlayEl = document.createElement('div');
+        flashcardOverlayEl.className = 'flashcard-overlay';
+        flashcardOverlayEl.style.position = 'absolute';
+        flashcardOverlayEl.style.inset = '0';
+        flashcardOverlayEl.style.zIndex = '5';
+        flashcardOverlayEl.innerHTML =
+            '<span class="flashcard-icon material-symbols-outlined">visibility_off</span>' +
+            '<span class="flashcard-prompt">Tap to reveal answer</span>';
+        articleModalEl.appendChild(flashcardOverlayEl);
+        flashcardOverlayEl.addEventListener('click', revealFlashcard, { once: true });
+    }
+    function hideFlashcardOverlay() {
+        if (flashcardOverlayEl && flashcardOverlayEl.parentNode) {
+            flashcardOverlayEl.parentNode.removeChild(flashcardOverlayEl);
+        }
+        flashcardOverlayEl = null;
+    }
+    function revealFlashcard() {
+        flashcardRevealed = true;
+        hideFlashcardOverlay();
+    }
+
+    // ══════════════════════════════════════════════════════════════════
+    // FEATURE 7 — Font size control
+    // ══════════════════════════════════════════════════════════════════
+    const FONT_KEY = 'nej-font-size';
+    let currentFontSize = 15;
+    try { currentFontSize = parseInt(localStorage.getItem(FONT_KEY), 10) || 15; } catch (e) {}
+
+    function applyFontSize() {
+        const liveBody = document.getElementById('modal-body');
+        if (liveBody) liveBody.style.fontSize = currentFontSize + 'px';
+    }
+    function saveFontSize() {
+        try { localStorage.setItem(FONT_KEY, String(currentFontSize)); } catch (e) {}
+    }
+    function injectFontCtrl() {
+        if (articleHeader.querySelector('#reader-font-dec')) return;
+        const dec = document.createElement('button');
+        dec.id = 'reader-font-dec';
+        dec.className = 'font-ctrl-btn';
+        dec.type = 'button';
+        dec.setAttribute('aria-label', 'Decrease font size');
+        dec.textContent = 'A−';
+        const inc = document.createElement('button');
+        inc.id = 'reader-font-inc';
+        inc.className = 'font-ctrl-btn';
+        inc.type = 'button';
+        inc.setAttribute('aria-label', 'Increase font size');
+        inc.textContent = 'A+';
+        dec.addEventListener('click', () => {
+            currentFontSize = Math.max(12, currentFontSize - 1);
+            applyFontSize(); saveFontSize();
+        });
+        inc.addEventListener('click', () => {
+            currentFontSize = Math.min(20, currentFontSize + 1);
+            applyFontSize(); saveFontSize();
+        });
+        const meta = articleHeader.querySelector('.article-meta');
+        if (meta) { meta.appendChild(dec); meta.appendChild(inc); }
+    }
+
+    // ══════════════════════════════════════════════════════════════════
+    // FEATURE 8 — Search inside current answer
+    // ══════════════════════════════════════════════════════════════════
+    let answerSearchBar = null;
+    let searchMatches = [];
+    let searchMatchIdx = 0;
+
+    function clearAnswerSearch() {
+        if (answerSearchBar) {
+            answerSearchBar.style.display = 'none';
+            const inp = answerSearchBar.querySelector('input');
+            if (inp) inp.value = '';
+        }
+        // Remove search-match spans — grab fresh reference each time
+        const freshBody = document.getElementById('modal-body');
+        const marks = freshBody ? freshBody.querySelectorAll('span.search-match') : [];
+        marks.forEach(m => {
+            const parent = m.parentNode;
+            if (parent) parent.replaceChild(document.createTextNode(m.textContent), m);
+        });
+        searchMatches = [];
+        searchMatchIdx = 0;
+        if (answerSearchBar) {
+            const cnt = answerSearchBar.querySelector('.search-count');
+            if (cnt) cnt.textContent = '';
+        }
+    }
+
+    function runAnswerSearch(term) {
+        // Always grab a fresh reference to #modal-body so we get current content
+        const freshBody = document.getElementById('modal-body');
+        if (!freshBody) return;
+        // Clear existing highlights first
+        const existingMarks = freshBody.querySelectorAll('span.search-match');
+        existingMarks.forEach(m => {
+            const parent = m.parentNode;
+            if (parent) parent.replaceChild(document.createTextNode(m.textContent), m);
+        });
+        searchMatches = [];
+        searchMatchIdx = 0;
+        if (!term) {
+            const cnt = answerSearchBar && answerSearchBar.querySelector('.search-count');
+            if (cnt) cnt.textContent = '';
+            return;
+        }
+        // Walk text nodes and wrap matches
+        const walker = document.createTreeWalker(freshBody, NodeFilter.SHOW_TEXT, {
+            acceptNode: (node) => {
+                // Skip saved-note-box and search-bar
+                let p = node.parentNode;
+                while (p && p !== freshBody) {
+                    if (p.classList && (p.classList.contains('saved-note-box') || p.classList.contains('answer-search-bar'))) return NodeFilter.FILTER_REJECT;
+                    p = p.parentNode;
+                }
+                return NodeFilter.FILTER_ACCEPT;
+            }
+        });
+        const nodes = [];
+        let n;
+        while ((n = walker.nextNode())) nodes.push(n);
+
+        const lcTerm = term.toLowerCase();
+        nodes.forEach(textNode => {
+            const val = textNode.nodeValue;
+            const lcVal = val.toLowerCase();
+            let idx = 0, start;
+            const frag = document.createDocumentFragment();
+            let lastIdx = 0;
+            while ((start = lcVal.indexOf(lcTerm, idx)) !== -1) {
+                frag.appendChild(document.createTextNode(val.slice(lastIdx, start)));
+                const span = document.createElement('span');
+                span.className = 'search-match';
+                span.textContent = val.slice(start, start + term.length);
+                frag.appendChild(span);
+                searchMatches.push(span);
+                lastIdx = start + term.length;
+                idx = lastIdx;
+            }
+            if (searchMatches.length && lastIdx < val.length) {
+                frag.appendChild(document.createTextNode(val.slice(lastIdx)));
+            }
+            if (searchMatches.length && frag.childNodes.length > 1) {
+                textNode.parentNode.replaceChild(frag, textNode);
+            }
+        });
+
+        const cnt = answerSearchBar && answerSearchBar.querySelector('.search-count');
+        if (!searchMatches.length) {
+            if (cnt) cnt.textContent = '0 results';
+            return;
+        }
+        goToSearchMatch(0);
+    }
+
+    function goToSearchMatch(idx) {
+        searchMatches.forEach(m => m.classList.remove('active'));
+        if (!searchMatches.length) return;
+        searchMatchIdx = (idx + searchMatches.length) % searchMatches.length;
+        const active = searchMatches[searchMatchIdx];
+        active.classList.add('active');
+        active.scrollIntoView({ block: 'center', behavior: 'smooth' });
+        const cnt = answerSearchBar && answerSearchBar.querySelector('.search-count');
+        if (cnt) cnt.textContent = (searchMatchIdx + 1) + ' / ' + searchMatches.length;
+    }
+
+    function injectAnswerSearchBar() {
+        if (overlay.querySelector('.answer-search-bar')) {
+            answerSearchBar = overlay.querySelector('.answer-search-bar');
+            return;
+        }
+        answerSearchBar = document.createElement('div');
+        answerSearchBar.className = 'answer-search-bar';
+        answerSearchBar.style.display = 'none';
+        answerSearchBar.innerHTML =
+            '<input type="search" placeholder="Search in answer…" aria-label="Search in answer">' +
+            '<span class="search-count"></span>' +
+            '<button type="button" aria-label="Previous match" style="background:none;border:none;color:rgba(255,255,255,0.5);cursor:pointer;font-size:16px;">↑</button>' +
+            '<button type="button" aria-label="Next match" style="background:none;border:none;color:rgba(255,255,255,0.5);cursor:pointer;font-size:16px;">↓</button>' +
+            '<button type="button" aria-label="Close search" style="background:none;border:none;color:rgba(255,255,255,0.5);cursor:pointer;font-size:14px;">✕</button>';
+
+        const articleModalEl = overlay.querySelector('.article-modal');
+        // Insert before article-body
+        articleModalEl.insertBefore(answerSearchBar, modalBody);
+
+        const [inp, , prevMatchBtn, nextMatchBtn, closeSearchBtn] = answerSearchBar.children;
+        inp.addEventListener('input', () => runAnswerSearch(inp.value));
+        inp.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') { e.stopPropagation(); clearAnswerSearch(); }
+            if (e.key === 'Enter') goToSearchMatch(searchMatchIdx + 1);
+        });
+        prevMatchBtn.addEventListener('click', () => goToSearchMatch(searchMatchIdx - 1));
+        nextMatchBtn.addEventListener('click', () => goToSearchMatch(searchMatchIdx + 1));
+        closeSearchBtn.addEventListener('click', () => clearAnswerSearch());
+    }
+
+    function injectSearchBtn() {
+        if (articleHeader.querySelector('#reader-search-btn')) return;
+        const btn = document.createElement('md-icon-button');
+        btn.id = 'reader-search-btn';
+        btn.setAttribute('aria-label', 'Search in answer');
+        btn.setAttribute('title', 'Search in answer');
+        btn.innerHTML = '<md-icon>search</md-icon>';
+        btn.addEventListener('click', () => {
+            if (!answerSearchBar) injectAnswerSearchBar();
+            const showing = answerSearchBar.style.display !== 'none';
+            answerSearchBar.style.display = showing ? 'none' : 'flex';
+            if (!showing) answerSearchBar.querySelector('input').focus();
+            else clearAnswerSearch();
+        });
+        const meta = articleHeader.querySelector('.article-meta');
+        if (meta) meta.appendChild(btn);
+    }
+
+    // ══════════════════════════════════════════════════════════════════
+    // FEATURE 9 — Print / export answer as PDF
+    // ══════════════════════════════════════════════════════════════════
+    function injectPrintBtn() {
+        if (articleHeader.querySelector('#reader-print-btn')) return;
+        const btn = document.createElement('md-icon-button');
+        btn.id = 'reader-print-btn';
+        btn.setAttribute('aria-label', 'Print / export as PDF');
+        btn.setAttribute('title', 'Print / export as PDF');
+        btn.innerHTML = '<md-icon>print</md-icon>';
+        btn.addEventListener('click', () => {
+            const q = currentQuestions[currentIndex];
+            if (!q) return;
+            const win = window.open('', '_blank');
+            if (!win) return;
+            win.document.write(
+                '<!DOCTYPE html><html><head>' +
+                '<meta charset="UTF-8">' +
+                '<title>' + (q.question || 'Answer') + '</title>' +
+                '<style>' +
+                'body{margin:2cm;font-family:Georgia,serif;color:#111;background:#fff;font-size:13pt;line-height:1.7;}' +
+                'h1{font-size:16pt;margin-bottom:1.2em;border-bottom:2px solid #111;padding-bottom:0.4em;}' +
+                'table{border-collapse:collapse;width:100%;}' +
+                'td,th{border:1px solid #555;padding:6px 10px;}' +
+                'mark{background:rgba(245,200,66,0.4);}' +
+                '.saved-note-box{border-left:3px solid #4a52cc;padding:8px 12px;margin:12px 0;background:#f0f0ff;}' +
+                '@media print{body{margin:1.5cm;}}' +
+                '</style></head><body>' +
+                '<h1>' + (q.question || '') + '</h1>' +
+                (modalBody.innerHTML || '') +
+                '</body></html>'
+            );
+            win.document.close();
+            win.focus();
+            setTimeout(() => win.print(), 400);
+        });
+        const meta = articleHeader.querySelector('.article-meta');
+        if (meta) meta.appendChild(btn);
+    }
+
+    // ══════════════════════════════════════════════════════════════════
+    // FEATURE 10 — Reader Mode
+    // ══════════════════════════════════════════════════════════════════
+    const READER_MODE_KEY = 'nej-reader-mode';
+    window._readerModeActive = false;
+    let readerModeBtn = null;
+    let readerPillNav = null;
+
+    function injectReaderModeBtn() {
+        if (articleHeader.querySelector('.reader-mode-btn')) return;
+        readerModeBtn = document.createElement('button');
+        readerModeBtn.className = 'reader-mode-btn';
+        readerModeBtn.type = 'button';
+        readerModeBtn.textContent = 'Reader';
+        readerModeBtn.setAttribute('aria-label', 'Toggle reader mode');
+        readerModeBtn.addEventListener('click', () => {
+            if (window._readerModeActive) {
+                window._readerModeActive = false;
+                deactivateReaderMode();
+            } else {
+                window._readerModeActive = true;
+                activateReaderMode();
+            }
+        });
+        // Insert between .mark-done-btn and close button
+        const meta = articleHeader.querySelector('.article-meta');
+        if (meta) {
+            const closeBtn = meta.querySelector('.close-btn, [aria-label="Close"]');
+            if (closeBtn) meta.insertBefore(readerModeBtn, closeBtn);
+            else meta.appendChild(readerModeBtn);
+        }
+    }
+
+    function activateReaderMode() {
+        try { localStorage.setItem(READER_MODE_KEY, '1'); } catch (e) {}
+        // Fullscreen on documentElement so everything goes fullscreen
+        if (document.documentElement.requestFullscreen) {
+            document.documentElement.requestFullscreen().catch(() => {});
+        } else if (document.documentElement.webkitRequestFullscreen) {
+            document.documentElement.webkitRequestFullscreen();
+        }
+        // Overlay: transparent background, full stretch
+        overlay.style.cssText = 'position:fixed;inset:0;background:transparent;display:flex;align-items:stretch;padding:0;';
+        // Modal: full-screen
+        const modalEl = overlay.querySelector('.article-modal');
+        if (modalEl) {
+            const isDark = document.documentElement.classList.contains('dark');
+            modalEl.style.cssText =
+                'width:100vw;max-width:100vw;height:100dvh;max-height:100dvh;' +
+                'border-radius:0;border:none;box-shadow:none;' +
+                'position:fixed;top:0;left:0;right:0;bottom:0;' +
+                'background:' + (isDark ? '#0f0f11' : '#f5f0e8') + ';';
+        }
+        // Body: focused reading layout
+        const liveBody = document.getElementById('modal-body');
+        if (liveBody) {
+            liveBody.style.cssText =
+                'font-size:' + currentFontSize + 'px;' +
+                'line-height:1.85;max-width:680px;margin:0 auto;padding:32px 24px;';
+        }
+        // Hide UI chrome
+        const toHide = [
+            '.top-bar', '.site-footer',
+            '#modal-marks', '#modal-unit', '#modal-meta',
+            '.mark-done-btn', '.star-btn', '.font-ctrl-btn',
+            '#reader-search-btn'
+        ];
+        toHide.forEach(sel => {
+            const el = document.querySelector(sel);
+            if (el) el.style.display = 'none';
+        });
+        // Enlarge title
+        const titleEl = document.getElementById('modal-question-title');
+        if (titleEl) titleEl.style.fontSize = '22px';
+        // Hide existing footer
+        const footer = overlay.querySelector('.article-footer');
+        if (footer) footer.style.display = 'none';
+        // Inject pill nav
+        injectReaderPillNav();
+        // Mark button active
+        if (readerModeBtn) readerModeBtn.classList.add('active');
+    }
+
+    function deactivateReaderMode() {
+        try { localStorage.setItem(READER_MODE_KEY, '0'); } catch (e) {}
+        // Exit fullscreen
+        if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
+        else if (document.webkitFullscreenElement) document.webkitExitFullscreen();
+        // Restore overlay and modal inline styles
+        overlay.style.cssText = '';
+        const modalEl = overlay.querySelector('.article-modal');
+        if (modalEl) modalEl.style.cssText = '';
+        // Restore body inline styles
+        const liveBody = document.getElementById('modal-body');
+        if (liveBody) liveBody.style.cssText = '';
+        // Restore hidden elements
+        const restoreMap = {
+            '.top-bar': 'block',
+            '.site-footer': 'block',
+            '#modal-marks': 'inline-flex',
+            '#modal-unit': 'inline-flex',
+            '#modal-meta': 'inline',
+            '.mark-done-btn': '',
+            '.star-btn': '',
+            '.font-ctrl-btn': '',
+            '#reader-search-btn': ''
+        };
+        Object.keys(restoreMap).forEach(sel => {
+            const el = document.querySelector(sel);
+            if (el) el.style.display = restoreMap[sel];
+        });
+        // Restore title size
+        const titleEl = document.getElementById('modal-question-title');
+        if (titleEl) titleEl.style.fontSize = '';
+        // Restore footer
+        const footer = overlay.querySelector('.article-footer');
+        if (footer) footer.style.display = '';
+        // Remove pill nav
+        if (readerPillNav && readerPillNav.parentNode) {
+            readerPillNav.parentNode.removeChild(readerPillNav);
+            readerPillNav = null;
+        }
+        // Deactivate button
+        if (readerModeBtn) readerModeBtn.classList.remove('active');
+    }
+
+    function injectReaderPillNav() {
+        // Remove any existing pill nav first
+        if (readerPillNav && readerPillNav.parentNode) {
+            readerPillNav.parentNode.removeChild(readerPillNav);
+        }
+        readerPillNav = document.createElement('div');
+        readerPillNav.className = 'reader-pill-nav';
+        readerPillNav.innerHTML =
+            '<button type="button" aria-label="Previous question">&#8592;</button>' +
+            '<span class="reader-pill-counter"></span>' +
+            '<button type="button" aria-label="Next question">&#8594;</button>';
+        document.body.appendChild(readerPillNav);
+
+        const [prevPill, pillCounter, nextPill] = readerPillNav.children;
+        // Sync counter immediately
+        pillCounter.textContent = questionCounter.textContent;
+        // Wire buttons to the same logic as the modal nav buttons
+        prevPill.addEventListener('click', () => {
+            if (currentIndex > 0) openModalWithFeatures(currentIndex - 1);
+        });
+        nextPill.addEventListener('click', () => {
+            if (currentIndex < currentQuestions.length - 1) openModalWithFeatures(currentIndex + 1);
+        });
+        // Keep counter in sync: observe #question-counter mutations
+        if (window._pillCounterObserver) window._pillCounterObserver.disconnect();
+        window._pillCounterObserver = new MutationObserver(() => {
+            pillCounter.textContent = questionCounter.textContent;
+        });
+        window._pillCounterObserver.observe(questionCounter, { childList: true, characterData: true, subtree: true });
+    }
+
+    // ══════════════════════════════════════════════════════════════════
+    // ONE-TIME INJECTION: run once after DOM is ready
+    // (buttons are injected once and persist; only state is synced per-open)
+    // ══════════════════════════════════════════════════════════════════
+    injectStarBtn();
+    injectReadPct();
+    injectFlashcardBtn();
+    injectFontCtrl();
+    injectSearchBtn();
+    injectPrintBtn();
+    injectAnswerSearchBar();
+    injectReaderModeBtn();
+    applyFontSize(); // restore saved font size on load
+
+    // Patch openModal to wire up per-question features after content loads
+    const _originalOpenModal = openModal;
+    function openModalWithFeatures(index) {
+        _originalOpenModal(index);
+        document.body.style.overflow = 'hidden';
+        const q = currentQuestions[index];
+        if (!q) return;
+        // openModal injects content in its own rAF; we use a double-rAF here so
+        // our setup always runs AFTER content has been written to modalBody.
+        requestAnimationFrame(() => requestAnimationFrame(() => {
+            // Feature 3 — star button state
+            setupStarBtn(q);
+            // Feature 4 — read progress: grab fresh reference each time
+            addReadProgressListener();
+            // Feature 1 — swipe
+            addSwipeListeners();
+            // Feature 2 — highlight
+            addHighlightListeners();
+            // Feature 7 — font size: apply saved size to the live #modal-body
+            const savedSize = parseInt(localStorage.getItem(FONT_KEY), 10);
+            if (savedSize) currentFontSize = savedSize;
+            const liveBody = document.getElementById('modal-body');
+            if (liveBody) liveBody.style.fontSize = currentFontSize + 'px';
+            // Feature 2 — restore annotations
+            restoreAnnotations(q);
+            // Feature 6 — flashcard mode
+            if (flashcardMode) showFlashcardOverlay();
+            else hideFlashcardOverlay();
+            // Feature 10 — Reader Mode: auto-enable if persisted, sync pill counter
+            let rmPref = false;
+            try { rmPref = localStorage.getItem(READER_MODE_KEY) === '1'; } catch (e) {}
+            if (rmPref && !window._readerModeActive) {
+                window._readerModeActive = true;
+                activateReaderMode();
+            } else if (window._readerModeActive) {
+                // Already active (navigating between questions): re-apply body styles
+                // and sync pill counter
+                const activeBody = document.getElementById('modal-body');
+                if (activeBody) {
+                    activeBody.style.fontSize = currentFontSize + 'px';
+                    activeBody.style.lineHeight = '1.85';
+                    activeBody.style.maxWidth = '680px';
+                    activeBody.style.margin = '0 auto';
+                    activeBody.style.padding = '32px 24px';
+                }
+                if (readerPillNav) {
+                    const pillCounter = readerPillNav.querySelector('.reader-pill-counter');
+                    if (pillCounter) pillCounter.textContent = questionCounter.textContent;
+                }
+            }
+        }));
+    }
+
+    // Re-wire all call sites that call openModal to use the patched version.
+    // Since openModal is closed over in callbacks, we intercept at event level:
+    overlay.querySelector('#prev-question') && (prevBtn.onclick = null);
+    overlay.querySelector('#next-question') && (nextBtn.onclick = null);
 
     // Event Listeners
     closeModalBtn.addEventListener('click', closeModal);
@@ -471,17 +1362,17 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     prevBtn.addEventListener('click', () => {
-        if (currentIndex > 0) openModal(currentIndex - 1);
+        if (currentIndex > 0) openModalWithFeatures(currentIndex - 1);
     });
     nextBtn.addEventListener('click', () => {
-        if (currentIndex < currentQuestions.length - 1) openModal(currentIndex + 1);
+        if (currentIndex < currentQuestions.length - 1) openModalWithFeatures(currentIndex + 1);
     });
 
     document.addEventListener('keydown', (e) => {
         if (overlay.classList.contains('hidden')) return;
-        if (e.key === 'Escape') closeModal();
-        if (e.key === 'ArrowLeft' && !prevBtn.disabled) openModal(currentIndex - 1);
-        if (e.key === 'ArrowRight' && !nextBtn.disabled) openModal(currentIndex + 1);
+        if (e.key === 'Escape') { e.preventDefault(); closeModal(); }
+        if (e.key === 'ArrowLeft' && !prevBtn.disabled) { e.preventDefault(); openModalWithFeatures(currentIndex - 1); }
+        if (e.key === 'ArrowRight' && !nextBtn.disabled) { e.preventDefault(); openModalWithFeatures(currentIndex + 1); }
     });
 
     // Syllabus toggle
@@ -528,20 +1419,24 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ── Live keyword search (debounced, combines with all filters) ──
+    // #q-search is an <md-outlined-text-field>; it proxies .value and fires
+    // a native 'input' event, so the wiring mirrors a plain input.
     const searchInput = document.getElementById('q-search');
     const searchClearBtn = document.getElementById('q-search-clear');
-    const searchBox = document.querySelector('.search-box');
     let searchDebounce;
+    function toggleClear(v) {
+        if (searchClearBtn) searchClearBtn.hidden = !v;
+    }
     function applySearch(val) {
         activeSearch = val;
-        if (searchBox) searchBox.classList.toggle('has-text', !!val);
+        toggleClear(!!val);
         exitSyllabus();
         renderQuestions();
     }
     if (searchInput) {
         searchInput.addEventListener('input', () => {
             const v = searchInput.value;
-            if (searchBox) searchBox.classList.toggle('has-text', !!v);
+            toggleClear(!!v);
             clearTimeout(searchDebounce);
             searchDebounce = setTimeout(() => applySearch(v), 150);
         });
@@ -612,6 +1507,38 @@ document.addEventListener('DOMContentLoaded', () => {
     // Leaving the mobile breakpoint with the drawer open: tidy up.
     window.addEventListener('resize', () => { if (window.innerWidth > 900 && drawerOpen()) closeDrawer(); });
 
-    // Initialize (sync — data scripts load before app.js)
+    // ── Lazy-load the large OBG-II dataset (~1 MB) ─────────────────
+    // Units 1–7 render instantly from the small, eagerly-loaded data
+    // files; OBG-II is fetched after first paint (or immediately when an
+    // OBG-II unit is selected) and merged in with a graceful re-render.
+    let obg2Status = window.QUESTIONS_DATA_OBG2 ? 'ready' : 'idle';   // idle | loading | ready | error
+    function loadOBG2(onReady) {
+        if (obg2Status === 'ready') { if (onReady) onReady(); return; }
+        if (obg2Status === 'loading') return;
+        obg2Status = 'loading';
+        const s = document.createElement('script');
+        s.src = 'data-obg2.js?v=2';
+        s.async = true;
+        s.onload = () => {
+            obg2Status = 'ready';
+            renderQuestions();           // merge OBG-II into the current view
+            if (onReady) onReady();
+        };
+        s.onerror = () => { obg2Status = 'error'; renderQuestions(); };
+        document.body.appendChild(s);
+    }
+    // Expose so renderQuestions() can react to OBG-II selection / empty state.
+    window.__obg2 = { get status() { return obg2Status; }, load: loadOBG2 };
+
+    // Initialize: render units 1–7 immediately.
     renderQuestions();
+
+    // Warm OBG-II in the background once the main thread is idle.
+    if (obg2Status === 'idle') {
+        if ('requestIdleCallback' in window) {
+            requestIdleCallback(() => loadOBG2(), { timeout: 2000 });
+        } else {
+            setTimeout(() => loadOBG2(), 400);
+        }
+    }
 });

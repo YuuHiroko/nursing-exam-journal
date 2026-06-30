@@ -5,16 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>THE NURSING EXAM JOURNAL – Midwifery & Obstetrics</title>
     <meta name="description" content="MUHS B.Sc Nursing exam model answers for Midwifery and Obstetrics.">
-    <meta name="theme-color" content="#6366f1">
+    <meta name="theme-color" content="#4a52cc">
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/svg+xml" href="assets/icon.svg">
     <link rel="apple-touch-icon" href="assets/icon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css?v=27">
+    <!-- Material Design 3 reference typefaces (Roboto) + Material Symbols icon font.
+         Trimmed axes: only weights actually used; Symbols restricted to wght+FILL at opsz 24
+         to cut the font payload. display=block prevents icon-name flash. -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL@24,400..600,0..1&display=block" rel="stylesheet">
+    <link rel="stylesheet" href="index.css?v=38">
+    <!-- Material Web 3 components — bundled locally (vendor/), no CDN. Self-registers custom elements. -->
+    <script type="module">
+        import { typescaleStyles } from './vendor/material-web.min.js?v=1';
+        if (typescaleStyles && typescaleStyles.styleSheet) {
+            document.adoptedStyleSheets = [...document.adoptedStyleSheets, typescaleStyles.styleSheet];
+        }
+    </script>
     <!-- Device PIN gate (runs before paint; locks page until unlocked) -->
-    <script src="pin-gate.js?v=17"></script>
+    <script src="pin-gate.js?v=18"></script>
     <!-- Dark-mode init (runs before paint to avoid flash) -->
     <script>
         (function () {
@@ -31,10 +42,12 @@
     <div class="top-bar">
         <div class="top-bar-inner">
             <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open menu" aria-controls="sidebar" aria-expanded="false">
-                <span class="nav-toggle-bars" aria-hidden="true"><span></span><span></span><span></span></span>
+                <div class="nav-toggle-bars"><span></span><span></span><span></span></div>
             </button>
             <span class="mono-label">VOL. 01 — MIDWIFERY & OBSTETRICS</span>
-            <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode"></button>
+            <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+                <span class="material-symbols-outlined" aria-hidden="true">dark_mode</span>
+            </button>
             <span class="mono-label right-align">MUHS B.SC NURSING</span>
         </div>
     </div>
@@ -58,17 +71,17 @@
             <!-- Live keyword search -->
             <div class="sidebar-section">
                 <div class="search-box">
-                    <span class="search-icon" aria-hidden="true">🔍</span>
-                    <input type="text" id="q-search" class="search-input" inputmode="search"
-                           placeholder="Search questions…" aria-label="Search questions"
-                           autocomplete="off" enterkeyhint="search">
-                    <button type="button" id="q-search-clear" class="search-clear" aria-label="Clear search">&times;</button>
+                    <span class="search-icon material-symbols-outlined" aria-hidden="true">search</span>
+                    <input class="search-input" id="q-search" type="search" placeholder="Search questions…" aria-label="Search questions" autocomplete="off" enterkeyhint="search">
+                    <button class="search-clear" id="q-search-clear" type="button" aria-label="Clear search" hidden>
+                        <span class="material-symbols-outlined" aria-hidden="true" style="font-size:16px">close</span>
+                    </button>
                 </div>
             </div>
 
             <!-- Syllabus -->
             <div class="sidebar-section">
-                <button class="syllabus-btn" id="syllabus-btn" type="button">📖 View Full Syllabus</button>
+                <button class="syllabus-btn" id="syllabus-btn" type="button"><span class="material-symbols-outlined" aria-hidden="true">menu_book</span> View Full Syllabus</button>
             </div>
 
             <!-- Unit Selector -->
@@ -142,7 +155,7 @@
                         <button class="status-btn active" type="button" data-status="all">All</button>
                         <button class="status-btn" type="button" data-status="todo">To-Do</button>
                         <button class="status-btn" type="button" data-status="done">Done</button>
-                        <button class="status-btn" type="button" data-status="starred" aria-label="Bookmarked">★ Starred</button>
+                        <button class="status-btn" type="button" data-status="starred"><span class="material-symbols-outlined filled icon-18" aria-hidden="true">star</span> Starred</button>
                     </div>
                 </div>
             </div>
@@ -152,26 +165,41 @@
         </main>
     </div>
 
-    <!-- Answer Modal / Article Reader -->
-    <div id="answer-overlay" class="overlay hidden" role="dialog" aria-modal="true">
-        <div class="article-modal">
+    <!-- Answer Modal / Article Reader.
+         Custom full-screen reader (app-unique immersive layout) using real
+         Material Web controls inside: md-icon-button / md-text-button /
+         md-filled-button / md-linear-progress, with M3 motion + focus trap. -->
+    <div id="answer-overlay" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="modal-question-title">
+        <div class="article-modal" role="document">
+            <span class="focus-sentinel" tabindex="0" data-sentinel="start" aria-hidden="true"></span>
+            <div id="reader-progress" role="progressbar" aria-valuemin="0" aria-valuemax="1" aria-valuenow="0" aria-hidden="true"><div id="reader-progress-bar"></div></div>
             <div class="article-header" id="article-header">
-                <button class="close-btn" id="close-modal" aria-label="Close">CLOSE [X]</button>
+                <button class="close-btn" id="close-modal" type="button" aria-label="Close reader">close</button>
                 <div class="article-meta">
                     <span class="badge" id="modal-marks"></span>
                     <span class="badge" id="modal-unit" style="background:var(--accent);"></span>
                     <span class="badge-text" id="modal-meta"></span>
-                    <button class="mark-done-btn" id="mark-done" type="button" aria-pressed="false">Mark as completed</button>
+                    <button class="mark-done-btn" id="mark-done" type="button" aria-pressed="false">
+                        <span class="material-symbols-outlined" id="mark-done-icon" aria-hidden="true">radio_button_unchecked</span>
+                        <span id="mark-done-label">Mark as completed</span>
+                    </button>
                 </div>
                 <h2 id="modal-question-title" class="article-title"></h2>
-                <button id="question-toggle" class="q-toggle" type="button" aria-expanded="false" aria-controls="modal-question-title" hidden>read full question <span class="chev" aria-hidden="true">⌄</span></button>
+                <button id="question-toggle" class="q-toggle" type="button" aria-expanded="false" aria-controls="modal-question-title" hidden>read full question <span class="chev material-symbols-outlined icon-20" aria-hidden="true">expand_more</span></button>
             </div>
             <div class="article-body" id="modal-body"></div>
             <div class="article-footer">
-                <button class="nav-btn" id="prev-question">&larr; PREVIOUS</button>
+                <button class="nav-btn" id="prev-question" type="button">
+                    <span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>
+                    Previous
+                </button>
                 <span class="mono-label" id="question-counter"></span>
-                <button class="nav-btn" id="next-question">NEXT &rarr;</button>
+                <button class="nav-btn" id="next-question" type="button">
+                    Next
+                    <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
+                </button>
             </div>
+            <span class="focus-sentinel" tabindex="0" data-sentinel="end" aria-hidden="true"></span>
         </div>
     </div>
 
@@ -183,18 +211,21 @@
         </div>
     </footer>
 
-    <script src="data.js?v=18"></script>
-    <script src="data-unit2.js?v=21"></script>
-    <script src="data-unit3.js?v=21"></script>
-    <script src="data-unit4.js?v=20"></script>
-    <script src="data-unit5.js?v=20"></script>
-    <script src="data-unit6.js?v=18"></script>
-    <script src="data-unit7.js?v=18"></script>
-    <script src="data-obg2.js?v=2"></script>
-    <script src="diagrams.js?v=6"></script>
-    <script src="syllabus.js?v=1"></script>
-    <script src="enhancements.js?v=1"></script>
-    <script src="app.js?v=24"></script>
+    <!-- Core data (units 1–7) + logic load deferred so they download in
+         parallel without blocking parse, and execute in order before
+         DOMContentLoaded. OBG-II is lazy-loaded by app.js after paint. -->
+    <script defer src="data.js?v=18"></script>
+    <script defer src="data-unit2.js?v=21"></script>
+    <script defer src="data-unit3.js?v=21"></script>
+    <script defer src="data-unit4.js?v=20"></script>
+    <script defer src="data-unit5.js?v=20"></script>
+    <script defer src="data-unit6.js?v=18"></script>
+    <script defer src="data-unit7.js?v=18"></script>
+    <script defer src="diagrams.js?v=6"></script>
+    <script defer src="syllabus.js?v=1"></script>
+    <script defer src="learn-about.js?v=7"></script>
+    <script defer src="enhancements.js?v=3"></script>
+    <script defer src="app.js?v=32"></script>
     <!-- Dark-mode toggle wiring (theme only; page logic lives in app.js) -->
     <script>
         (function () {
@@ -203,7 +234,9 @@
             if (!btn) return;
             function render() {
                 var dark = root.classList.contains('dark');
-                btn.textContent = dark ? '☀' : '☾';
+                var icon = btn.querySelector('.material-symbols-outlined');
+                if (icon) icon.textContent = dark ? 'light_mode' : 'dark_mode';
+                else btn.textContent = dark ? 'light_mode' : 'dark_mode';
                 btn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
             }
             render();
