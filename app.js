@@ -205,7 +205,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const obg2 = window.__obg2;
             if (obg2 && isOBG2Unit && obg2.status !== 'ready' && obg2.status !== 'error') {
                 listContainer.innerHTML = '<div class="loading-state" role="status" aria-live="polite">' +
-                    '<md-circular-progress indeterminate aria-label="Loading questions"></md-circular-progress>' +
+                    '<span class="material-symbols-outlined loading-spinner" aria-hidden="true">progress_activity</span>' +
                     '<span class="mono-label">LOADING OBG-II QUESTIONS…</span></div>';
                 obg2.load();
                 return;
