@@ -65,6 +65,88 @@
             mis: { wrong: 'Safe motherhood begins only when labour starts.', right: 'It begins before pregnancy and continues through the postnatal period.' }
         },
 
+        /* ── NRS Units 101-108 — Nursing Research & Statistics ──── */
+        nursing_research: {
+            unit: 101, term: 'Nursing Research', ipa: '/ˈnɜːsɪŋ rɪˈsɜːtʃ/',
+            keys: ['nursing research', 'define nursing research', 'definition of nursing research'],
+            def: 'A systematic, rigorous, and objective process of inquiry that generates or validates knowledge to improve nursing practice, education, and patient outcomes.',
+            matters: 'Without research, nursing would rely on tradition and guesswork instead of science. Research is the foundation of evidence-based nursing care.',
+            mis: { wrong: 'Nursing research is the same as medical research and only doctors can do it.', right: 'Nursing research focuses on nursing phenomena and can be conducted by nurses. It builds a unique body of nursing knowledge.' },
+            quiz: { q: 'Which of the following is the ultimate goal of nursing research?', opts: [{ t: 'Improve the quality of patient care', correct: true }, { t: 'Publish articles in medical journals', correct: false }] }
+        },
+        evidence_based_practice: {
+            unit: 101, term: 'Evidence-Based Practice (EBP)', ipa: '/ˈɛvɪdəns beɪst ˈpræktɪs/',
+            keys: ['evidence based practice', 'ebp', 'evidence-based practice'],
+            def: 'The conscientious, explicit, and judicious use of best current research evidence, combined with clinical expertise and patient values, to guide nursing decisions.',
+            matters: 'EBP ensures every nursing action is grounded in the best available proof — not habit or tradition — directly improving patient safety and outcomes.',
+            mis: { wrong: 'EBP means following only the research evidence, regardless of what the patient wants.', right: 'EBP has 3 components: best research evidence + clinical expertise + patient values/preferences. Patient choice is essential.' },
+            quiz: { q: 'How many components make up Evidence-Based Practice?', opts: [{ t: 'Three (evidence + expertise + patient values)', correct: true }, { t: 'One (research evidence only)', correct: false }] }
+        },
+        scientific_method: {
+            unit: 101, term: 'Scientific Method', ipa: '/ˌsaɪənˈtɪfɪk ˈmɛθəd/',
+            keys: ['scientific method', 'steps of scientific method', 'scientific research'],
+            def: 'A systematic, logical, and objective approach to answering questions by observing, hypothesizing, testing, analyzing data, and drawing conclusions.',
+            matters: 'The scientific method eliminates bias and ensures findings are trustworthy. All nursing research follows this method to produce reliable, replicable knowledge.',
+            mis: { wrong: 'The scientific method is just collecting data.', right: 'It is a complete cycle: Observation → Hypothesis → Data Collection → Analysis → Conclusions → Dissemination.' },
+            quiz: { q: 'What comes AFTER formulating a hypothesis in the scientific method?', opts: [{ t: 'Data collection / testing the hypothesis', correct: true }, { t: 'Writing the research report', correct: false }] }
+        },
+        hypothesis: {
+            unit: 101, term: 'Hypothesis', ipa: '/haɪˈpɒθɪsɪs/',
+            keys: ['hypothesis', 'null hypothesis', 'research hypothesis', 'hypotheses'],
+            def: 'A testable, predictive statement about the expected relationship between variables, formulated before data collection begins.',
+            matters: 'A clear hypothesis gives the study direction and provides a benchmark against which results are compared to confirm or refute the prediction.',
+            mis: { wrong: 'A hypothesis is the same as a conclusion.', right: 'A hypothesis is stated BEFORE the study; a conclusion is drawn AFTER analyzing the data.' },
+            quiz: { q: 'A hypothesis is formulated at which stage of the research process?', opts: [{ t: 'Before data collection (in the conceptual phase)', correct: true }, { t: 'After data analysis is complete', correct: false }] }
+        },
+        conceptual_framework: {
+            unit: 101, term: 'Conceptual Framework', ipa: '/kənˈsɛptʃuəl ˈfreɪmwɜːk/',
+            keys: ['conceptual framework', 'theoretical framework', 'framework for research'],
+            def: "A researcher's own structured map of key concepts and their proposed relationships, which guides all phases of a research study.",
+            matters: 'It defines the boundaries of the study, informs data collection, and provides context for interpreting results — preventing unfocused research.',
+            mis: { wrong: 'A conceptual framework and a theoretical framework are the same thing.', right: "A conceptual framework is built by the researcher from multiple concepts; a theoretical framework borrows an existing published theory (e.g., Orem's Self-Care Model)." },
+            quiz: { q: 'A researcher creates their own map linking "nurse workload," "patient satisfaction," and "medication errors." This is an example of a:', opts: [{ t: 'Conceptual framework', correct: true }, { t: 'Theoretical framework', correct: false }] }
+        },
+        delimitations_limitations: {
+            unit: 101, term: 'Delimitations & Limitations', ipa: '/dɪˌlɪmɪˈteɪʃənz ˈlɪmɪˈteɪʃənz/',
+            keys: ['delimitation', 'limitation', 'delimitations and limitations', 'limitations of research'],
+            def: 'Delimitations are deliberate boundaries the researcher CHOOSES to set before the study; Limitations are weaknesses BEYOND the researcher\'s control that affect the study\'s validity or generalizability.',
+            matters: 'Declaring both honestly reflects research integrity — it tells readers exactly what the study covers and where its findings may not apply.',
+            mis: { wrong: 'Delimitations and limitations mean the same thing — both are weaknesses.', right: 'Delimitations are intentional scope decisions (chosen by researcher); limitations are uncontrollable constraints (discovered during/after the study).' },
+            quiz: { q: 'A researcher restricts the study to only female nurses aged 25-40 at one hospital. This is a:', opts: [{ t: 'Delimitation (a deliberate choice)', correct: true }, { t: 'Limitation (an uncontrollable weakness)', correct: false }] }
+        },
+        quantitative_research: {
+            unit: 101, term: 'Quantitative Research', ipa: '/ˈkwɒntɪtətɪv rɪˈsɜːtʃ/',
+            keys: ['quantitative research', 'quantitative study', 'quantitative design'],
+            def: 'A formal, objective, systematic process of collecting numerical data and analyzing it using statistics to describe, explain, predict, or control nursing phenomena.',
+            matters: 'Quantitative designs (especially RCTs) produce the strongest evidence for testing nursing interventions — essential for building EBP protocols.',
+            mis: { wrong: 'Quantitative research is always better than qualitative.', right: 'Both are valuable — quantitative answers "how many/much" with numbers; qualitative answers "what does it mean/feel like" with words. The best approach depends on the research question.' },
+            quiz: { q: 'Which statement best describes quantitative research?', opts: [{ t: 'Collects numerical data and uses statistics for analysis', correct: true }, { t: 'Collects in-depth experiences using interviews and themes', correct: false }] }
+        },
+        pico_framework: {
+            unit: 101, term: 'PICO Framework (EBP)', ipa: '/ˈpiːkoʊ/',
+            keys: ['pico', 'pico question', 'pico format', 'clinical question'],
+            def: 'A structured format for framing clinical questions in EBP: P = Patient/Population, I = Intervention, C = Comparison, O = Outcome.',
+            matters: 'A well-formed PICO question guides a targeted literature search and ensures the evidence found is directly relevant to the clinical problem.',
+            mis: { wrong: 'Any research question is a valid PICO question.', right: 'A PICO question is specifically structured to include all four elements — Patient, Intervention, Comparison, and Outcome — for focused, searchable EBP queries.' },
+            quiz: { q: 'In the PICO framework, the "C" stands for:', opts: [{ t: 'Comparison (what the intervention is compared to)', correct: true }, { t: 'Conclusion of the study', correct: false }] }
+        },
+        pilot_study: {
+            unit: 101, term: 'Pilot Study', ipa: '/ˈpaɪlət ˈstʌdi/',
+            keys: ['pilot study', 'pre-test', 'feasibility study'],
+            def: 'A small-scale trial run of the main research study, usually with 10% of the planned sample size, conducted before the full study to test and refine the research process.',
+            matters: 'A pilot study catches problems with instruments, procedures, or time estimates early — preventing wasted effort and resources in the main study.',
+            mis: { wrong: 'A pilot study is optional and rarely done in nursing research.', right: 'A pilot study is a best-practice step in quantitative research design. It is especially important before expensive or large studies to ensure feasibility.' },
+            quiz: { q: 'What is the main purpose of conducting a pilot study?', opts: [{ t: 'To test and refine the research tools and procedure before the full study', correct: true }, { t: 'To collect the final results for publication', correct: false }] }
+        },
+        validity_reliability: {
+            unit: 101, term: 'Validity & Reliability', ipa: '/vəˈlɪdɪti rɪˌlaɪəˈbɪlɪti/',
+            keys: ['validity', 'reliability', 'validity and reliability', 'instrument validity'],
+            def: 'Validity means a tool measures what it is supposed to measure. Reliability means a tool gives consistent, repeatable results every time it is used.',
+            matters: 'Without valid and reliable instruments, research data is meaningless — it is essential to establish both before using any tool for data collection.',
+            mis: { wrong: 'Validity and reliability mean the same thing.', right: 'A tool can be reliable (consistent) but not valid (not measuring the right thing). Example: a scale that always reads 2 kg heavy is reliable, but not valid.' },
+            quiz: { q: 'A pain scale that consistently gives the same score for the same level of pain is said to be:', opts: [{ t: 'Reliable', correct: true }, { t: 'Valid', correct: false }] }
+        },
+
         /* ── Unit II — Anatomy & physiology ─────────────────────── */
         female_pelvis: {
             unit: 2, term: 'Female (Gynaecoid) Pelvis', ipa: '/ˈfiːmeɪl ˈpɛlvɪs/',

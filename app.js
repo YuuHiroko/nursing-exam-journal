@@ -140,14 +140,19 @@ document.addEventListener('DOMContentLoaded', () => {
         const unit6 = window.QUESTIONS_DATA_UNIT6 || [];
         const unit7 = window.QUESTIONS_DATA_UNIT7 || [];
         const obg2  = window.QUESTIONS_DATA_OBG2 || [];   // OBG-II (high-risk), units 8-11
-        return [...unit1, ...unit2, ...unit3, ...unit4, ...unit5, ...unit6, ...unit7, ...obg2];
+        // NRS — Nursing Research & Statistics (VII Sem), units 101-108
+        const nrs1  = window.QUESTIONS_DATA_NRS_UNIT1 || [];
+        return [...unit1, ...unit2, ...unit3, ...unit4, ...unit5, ...unit6, ...unit7, ...obg2, ...nrs1];
     }
 
     function getUnitLabel(unit) {
         const labels = {
             1: 'UNIT I', 2: 'UNIT II', 3: 'UNIT III', 4: 'UNIT IV', 5: 'UNIT V', 6: 'UNIT VI', 7: 'UNIT VII',
             8: 'OBG-II · HIGH-RISK PREG', 9: 'OBG-II · ABNORMAL LABOUR',
-            10: 'OBG-II · HIGH-RISK NB', 11: 'OBG-II · GYNAEC'
+            10: 'OBG-II · HIGH-RISK NB', 11: 'OBG-II · GYNAEC',
+            // NRS — Nursing Research & Statistics
+            101: 'NRS · UNIT I', 102: 'NRS · UNIT II', 103: 'NRS · UNIT III', 104: 'NRS · UNIT IV',
+            105: 'NRS · UNIT V', 106: 'NRS · UNIT VI', 107: 'NRS · UNIT VII', 108: 'NRS · UNIT VIII'
         };
         return labels[unit] || 'UNIT ' + unit;
     }
@@ -184,7 +189,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 '8': 'OBG-II UNIT I: HIGH-RISK PREGNANCY',
                 '9': 'OBG-II UNIT II & III: ABNORMAL LABOUR & POSTNATAL PROBLEMS',
                 '10': 'OBG-II UNIT IV: HIGH-RISK NEWBORN',
-                '11': 'OBG-II UNIT V: GYNAECOLOGICAL DISORDERS'
+                '11': 'OBG-II UNIT V: GYNAECOLOGICAL DISORDERS',
+                // NRS — Nursing Research & Statistics
+                '101': 'NRS UNIT I: INTRODUCTION TO RESEARCH & RESEARCH PROCESS',
+                '102': 'NRS UNIT II: RESEARCH PROCESS (CONTD.)',
+                '103': 'NRS UNIT III: REVIEW OF LITERATURE',
+                '104': 'NRS UNIT IV: RESEARCH APPROACHES & DESIGNS',
+                '105': 'NRS UNIT V: SAMPLING & DATA COLLECTION',
+                '106': 'NRS UNIT VI: ANALYSIS OF DATA',
+                '107': 'NRS UNIT VII: INTRODUCTION TO STATISTICS',
+                '108': 'NRS UNIT VIII: COMMUNICATION & UTILIZATION OF RESEARCH'
             };
             sectionTitle.textContent = unitNames[activeUnit] || 'UNIT ' + activeUnit;
             sectionSubtitle.textContent = currentQuestions.length + ' questions';
@@ -594,8 +608,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // ── Live keyword search (debounced, combines with all filters) ──
-    // #q-search is an <md-outlined-text-field>; it proxies .value and fires
-    // a native 'input' event, so the wiring mirrors a plain input.
+    // #q-search is a native <input type="search"> that fires standard 'input' events.
     const searchInput = document.getElementById('q-search');
     const searchClearBtn = document.getElementById('q-search-clear');
     let searchDebounce;

@@ -910,8 +910,173 @@ window.DIAGRAMS = {
       '</svg>' +
       '<div class="diagram-key"><strong>Watch the heart-rate line rise</strong> each time the baby moves. A <strong>Reactive</strong> (normal) NST = <strong>at least 2 accelerations of &ge;15 bpm lasting &ge;15 seconds within 20 minutes</strong>. No accelerations = non-reactive &rarr; do a biophysical profile.</div>' +
     '</div>';
+  },
+
+  // ─── NRS-1. RESEARCH PROCESS FLOWCHART ───────────────────────
+  researchProcess: function () {
+    var steps = [
+      ['Problem Identification','#6366f1'],['Literature Review','#8b5cf6'],
+      ['Conceptual Framework','#a855f7'],['Research Design','#ec4899'],
+      ['Sampling','#f43f5e'],['Data Collection','#ef4444'],
+      ['Data Analysis','#f97316'],['Report Writing','#eab308'],
+      ['Utilization / EBP','#22c55e']
+    ];
+    // 3x3 grid, left-to-right top-to-bottom
+    var bW=130,bH=54,rr=10,gapX=60,gapY=20,startX=18,startY=30;
+    var positions=[];
+    for(var i=0;i<9;i++){
+      var col=i%3, row=Math.floor(i/3);
+      positions.push([startX+col*(bW+gapX), startY+row*(bH+gapY)]);
+    }
+    var arrows='';
+    for(var a=0;a<steps.length-1;a++){
+      var p0=positions[a],p1=positions[a+1];
+      var isSameRow=(Math.floor(a/3)===Math.floor((a+1)/3));
+      var x1,y1,x2,y2,d;
+      if(isSameRow){
+        x1=p0[0]+bW; y1=p0[1]+bH/2; x2=p1[0]; y2=p1[1]+bH/2;
+        d='M'+x1+','+y1+' L'+x2+','+y2;
+      } else {
+        // wrap: right-end of last col row to left-start of first col next row
+        x1=p0[0]+bW/2; y1=p0[1]+bH;
+        x2=p1[0]+bW/2; y2=p1[1];
+        d='M'+x1+','+y1+' C'+x1+','+(y1+12)+' '+x2+','+(y2-12)+' '+x2+','+y2;
+      }
+      arrows+='<path d="'+d+'" fill="none" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#rpa)">'
+        +'<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="'+(a*0.3)+'s" repeatCount="indefinite"/>'
+        +'</path>';
+    }
+    var boxes='';
+    for(var b=0;b<steps.length;b++){
+      var s=steps[b],px=positions[b][0],py=positions[b][1],c=s[1],delay=(b*0.35).toFixed(2);
+      boxes+='<rect x="'+px+'" y="'+py+'" width="'+bW+'" height="'+bH+'" rx="'+rr+'" fill="'+c+'" opacity="0.12">'
+        +'<animate attributeName="opacity" values="0.08;0.22;0.08" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/>'
+        +'</rect>'
+        +'<rect x="'+px+'" y="'+py+'" width="'+bW+'" height="'+bH+'" rx="'+rr+'" fill="none" stroke="'+c+'" stroke-width="2">'
+        +'<animate attributeName="stroke-width" values="1.5;3;1.5" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/>'
+        +'</rect>'
+        +'<circle cx="'+(px+16)+'" cy="'+(py+16)+'" r="10" fill="'+c+'"/>'
+        +'<text x="'+(px+16)+'" y="'+(py+20)+'" text-anchor="middle" fill="#fff" font-size="10" font-weight="700">'+(b+1)+'</text>';
+      var words=s[0].split(' ');
+      var line1=words.slice(0,2).join(' '), line2=words.slice(2).join(' ');
+      boxes+='<text x="'+(px+bW/2+4)+'" y="'+(py+28)+'" text-anchor="middle" fill="'+c+'" font-size="9.5" font-weight="600">'+line1+'</text>';
+      if(line2) boxes+='<text x="'+(px+bW/2+4)+'" y="'+(py+42)+'" text-anchor="middle" fill="'+c+'" font-size="9.5" font-weight="600">'+line2+'</text>';
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">⚗ Animated: 9 Steps of the Research Process</div>'
+      +'<svg viewBox="0 0 576 248" width="100%" style="max-width:576px;display:block;margin:0 auto;">'
+        +'<defs><marker id="rpa" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker></defs>'
+        +arrows+boxes
+      +'</svg>'
+      +'<div class="diagram-key"><strong>9 Steps glow in sequence.</strong> Research flows from Problem Identification → Literature Review → Framework → Design → Sampling → Data Collection → Analysis → Report → EBP Utilization. Each step builds on the last.</div>'
+    +'</div>';
+  },
+
+  // ─── NRS-2. EBP TRIAD — Pulsing Venn Diagram ─────────────────
+  ebpTriad: function () {
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">⊕ Animated: Evidence-Based Practice (EBP) Triad</div>'
+      +'<svg viewBox="0 0 460 350" width="100%" style="max-width:460px;display:block;margin:0 auto;">'
+        +'<defs>'
+          +'<filter id="ebpglow"><feGaussianBlur stdDeviation="5" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter>'
+        +'</defs>'
+        // Research Evidence — top-left
+        +'<ellipse cx="175" cy="148" rx="105" ry="90" fill="#6366f1" fill-opacity="0.1" stroke="#6366f1" stroke-width="2">'
+          +'<animate attributeName="rx" values="105;112;105" dur="4s" repeatCount="indefinite"/>'
+          +'<animate attributeName="fill-opacity" values="0.08;0.18;0.08" dur="4s" repeatCount="indefinite"/>'
+        +'</ellipse>'
+        // Clinical Expertise — top-right
+        +'<ellipse cx="285" cy="148" rx="105" ry="90" fill="#ec4899" fill-opacity="0.1" stroke="#ec4899" stroke-width="2">'
+          +'<animate attributeName="rx" values="105;112;105" dur="4s" begin="1.3s" repeatCount="indefinite"/>'
+          +'<animate attributeName="fill-opacity" values="0.08;0.18;0.08" dur="4s" begin="1.3s" repeatCount="indefinite"/>'
+        +'</ellipse>'
+        // Patient Values — bottom
+        +'<ellipse cx="230" cy="228" rx="105" ry="90" fill="#22c55e" fill-opacity="0.1" stroke="#22c55e" stroke-width="2">'
+          +'<animate attributeName="rx" values="105;112;105" dur="4s" begin="2.6s" repeatCount="indefinite"/>'
+          +'<animate attributeName="fill-opacity" values="0.08;0.18;0.08" dur="4s" begin="2.6s" repeatCount="indefinite"/>'
+        +'</ellipse>'
+        // EBP glowing centre
+        +'<circle cx="230" cy="178" r="30" fill="#fff" opacity="0.92" filter="url(#ebpglow)">'
+          +'<animate attributeName="r" values="26;34;26" dur="2s" repeatCount="indefinite"/>'
+        +'</circle>'
+        +'<text x="230" y="174" text-anchor="middle" fill="#1e293b" font-size="10.5" font-weight="800">EBP</text>'
+        +'<text x="230" y="188" text-anchor="middle" fill="#475569" font-size="8.5">Best Practice</text>'
+        // Labels
+        +'<text x="138" y="92" text-anchor="middle" fill="#4f46e5" font-size="12" font-weight="700">Research</text>'
+        +'<text x="138" y="108" text-anchor="middle" fill="#4f46e5" font-size="12" font-weight="700">Evidence</text>'
+        +'<text x="322" y="92" text-anchor="middle" fill="#be185d" font-size="12" font-weight="700">Clinical</text>'
+        +'<text x="322" y="108" text-anchor="middle" fill="#be185d" font-size="12" font-weight="700">Expertise</text>'
+        +'<text x="230" y="316" text-anchor="middle" fill="#15803d" font-size="12" font-weight="700">Patient Values &amp; Context</text>'
+        // Intersection pulse dots
+        +'<circle cx="230" cy="122" r="5" fill="#6366f1"><animate attributeName="r" values="4;9;4" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/></circle>'
+        +'<circle cx="192" cy="210" r="5" fill="#22c55e"><animate attributeName="r" values="4;9;4" dur="2s" begin="0.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;1;0.4" dur="2s" begin="0.7s" repeatCount="indefinite"/></circle>'
+        +'<circle cx="268" cy="210" r="5" fill="#ec4899"><animate attributeName="r" values="4;9;4" dur="2s" begin="1.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;1;0.4" dur="2s" begin="1.4s" repeatCount="indefinite"/></circle>'
+      +'</svg>'
+      +'<div class="diagram-key"><strong>EBP = Research Evidence + Clinical Expertise + Patient Values.</strong> The three pulsing circles must overlap at the glowing centre for true Evidence-Based Practice. The intersection points show where partial integration occurs.</div>'
+    +'</div>';
+  },
+
+  // ─── NRS-3. SCIENTIFIC METHOD CYCLE — Spinning animated cycle ─
+  scientificMethod: function () {
+    var steps3=[
+      {l:'Observation',c:'#6366f1',a:-90},
+      {l:'Hypothesis',c:'#8b5cf6',a:-30},
+      {l:'Experiment',c:'#ec4899',a:30},
+      {l:'Analysis',c:'#f43f5e',a:90},
+      {l:'Conclusion',c:'#f97316',a:150},
+      {l:'Theory / EBP',c:'#22c55e',a:210}
+    ];
+    var cx3=230,cy3=175,r3=120,rN=38;
+    var nodes3='',arrs3='';
+    for(var n=0;n<steps3.length;n++){
+      var s3=steps3[n],rad3=s3.a*Math.PI/180;
+      var nx3=cx3+r3*Math.cos(rad3), ny3=cy3+r3*Math.sin(rad3);
+      var d3=(n*0.5).toFixed(1);
+      nodes3+='<circle cx="'+nx3+'" cy="'+ny3+'" r="'+rN+'" fill="'+s3.c+'" opacity="0.12">'
+        +'<animate attributeName="opacity" values="0.08;0.22;0.08" dur="3s" begin="'+d3+'s" repeatCount="indefinite"/>'
+        +'</circle>'
+        +'<circle cx="'+nx3+'" cy="'+ny3+'" r="'+rN+'" fill="none" stroke="'+s3.c+'" stroke-width="2">'
+        +'<animate attributeName="stroke-width" values="1.5;3;1.5" dur="3s" begin="'+d3+'s" repeatCount="indefinite"/>'
+        +'</circle>';
+      var ws3=s3.l.split(' ');
+      if(ws3.length===1){
+        nodes3+='<text x="'+nx3+'" y="'+(ny3+4)+'" text-anchor="middle" fill="'+s3.c+'" font-size="10" font-weight="700">'+s3.l+'</text>';
+      } else {
+        nodes3+='<text x="'+nx3+'" y="'+(ny3-3)+'" text-anchor="middle" fill="'+s3.c+'" font-size="9.5" font-weight="700">'+ws3[0]+'</text>';
+        nodes3+='<text x="'+nx3+'" y="'+(ny3+11)+'" text-anchor="middle" fill="'+s3.c+'" font-size="9.5" font-weight="700">'+ws3.slice(1).join(' ')+'</text>';
+      }
+      var ns3=steps3[(n+1)%steps3.length],nrad3=ns3.a*Math.PI/180;
+      var nx4=cx3+r3*Math.cos(nrad3), ny4=cy3+r3*Math.sin(nrad3);
+      var mpx3=(nx3+nx4)/2+(cx3-(nx3+nx4)/2)*0.4;
+      var mpy3=(ny3+ny4)/2+(cy3-(ny3+ny4)/2)*0.4;
+      arrs3+='<path d="M'+nx3+','+ny3+' Q'+mpx3+','+mpy3+' '+nx4+','+ny4+'" fill="none" stroke="#cbd5e1" stroke-width="1.5" marker-end="url(#sma)">'
+        +'<animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="3s" begin="'+d3+'s" repeatCount="indefinite"/>'
+        +'</path>';
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">⟳ Animated: The Scientific Method Cycle</div>'
+      +'<svg viewBox="0 0 460 350" width="100%" style="max-width:460px;display:block;margin:0 auto;">'
+        +'<defs>'
+          +'<marker id="sma" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker>'
+          +'<linearGradient id="smg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#6366f1"/><stop offset="50%" stop-color="#ec4899"/><stop offset="100%" stop-color="#22c55e"/></linearGradient>'
+        +'</defs>'
+        // Rotating dashed ring
+        +'<circle cx="'+cx3+'" cy="'+cy3+'" r="'+(r3+22)+'" fill="none" stroke="url(#smg)" stroke-width="1.5" stroke-dasharray="10 14" opacity="0.35">'
+          +'<animateTransform attributeName="transform" type="rotate" from="0 '+cx3+' '+cy3+'" to="360 '+cx3+' '+cy3+'" dur="18s" repeatCount="indefinite"/>'
+        +'</circle>'
+        +arrs3+nodes3
+        // Centre label
+        +'<circle cx="'+cx3+'" cy="'+cy3+'" r="33" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>'
+        +'<text x="'+cx3+'" y="'+(cy3-4)+'" text-anchor="middle" fill="#334155" font-size="9.5" font-weight="700">Scientific</text>'
+        +'<text x="'+cx3+'" y="'+(cy3+10)+'" text-anchor="middle" fill="#334155" font-size="9.5" font-weight="700">Method</text>'
+        +'<text x="230" y="336" text-anchor="middle" fill="#64748b" font-size="9.5" font-family="monospace">Steps glow in sequence — the cycle repeats</text>'
+      +'</svg>'
+      +'<div class="diagram-key"><strong>Scientific Method is cyclic:</strong> Observation → Hypothesis → Experiment → Analysis → Conclusion → Theory/EBP → loops back to new Observations. This iterative process is the foundation of evidence-based nursing research.</div>'
+    +'</div>';
   }
+
 };
+
 
 // ─── ACTIVATION ────────────────────────────────────────────────
 // Find every [data-diagram] placeholder, replace with the live HTML,

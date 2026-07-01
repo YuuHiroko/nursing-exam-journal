@@ -769,6 +769,229 @@ window.SYLLABUS_DATA = {
           ]
         }
       ]
+    },
+
+    /* ════════════════════════════════════════════════════════════════
+       NURSING RESEARCH AND STATISTICS  (VII SEMESTER)
+       ════════════════════════════════════════════════════════════════ */
+    {
+      id: "nrs",
+      course: "NRS",
+      fullTitle: "Nursing Research and Statistics",
+      placement: "VII Semester",
+      theory: "2 Credits (40 hours)",
+      practicum: "Practicum (Lab/Skill Lab): 1 Credit (40 hrs) · Clinical Project: 40 hrs",
+      description:
+        "The Course is designed to enable students to develop an understanding of basic concepts of research, research process and statistics. It is further structured to conduct/participate in need-based research studies in various settings and utilize the research findings to provide quality nursing care.",
+      units: [
+        {
+          roman: "I & II",
+          title: "Research and Research Process",
+          hours: { t: 10 },
+          outcomes: [
+            "Explain the introduction and need for nursing research.",
+            "Define research and nursing research.",
+            "Describe the steps of the scientific method and characteristics of good research.",
+            "Outline the steps of the research process.",
+            "Explain Evidence-Based Practice — concept, purposes, steps, and barriers.",
+            "Formulate a research problem, objectives, and hypotheses."
+          ],
+          topics: [
+            {
+              heading: "Introduction",
+              items: [
+                "Introduction and need for nursing research",
+                "Definition of Research and Nursing Research",
+                "Steps of scientific method and Characteristics of good research",
+                "Steps of Research process overview"
+              ]
+            },
+            {
+              heading: "Evidence-Based Practice (EBP)",
+              items: [
+                "Concept and Meaning of EBP",
+                "Purposes of EBP",
+                "Steps of EBP Process",
+                "Barriers to EBP"
+              ]
+            },
+            {
+              heading: "Research Problem / Question",
+              items: [
+                "Identification of problem area",
+                "Problem statement",
+                "Criteria of a good research problem",
+                "Writing objectives and hypotheses",
+                "Limitations and Delimitations of research"
+              ]
+            }
+          ]
+        },
+        {
+          roman: "III",
+          title: "Review of Literature",
+          hours: { t: 4 },
+          outcomes: [
+            "Identify sources and locations for literature review.",
+            "Conduct online searches using CINAHL, Cochrane, and PubMed.",
+            "Describe the purposes and method of review of literature."
+          ],
+          topics: [
+            {
+              heading: "Literature Review",
+              items: [
+                "Location and Sources of literature",
+                "Online search — CINAHL, COCHRANE, PubMed, MEDLINE",
+                "Purposes and Method of review of literature"
+              ]
+            }
+          ]
+        },
+        {
+          roman: "IV",
+          title: "Research Approaches and Designs",
+          hours: { t: 6 },
+          outcomes: [
+            "Differentiate between historical, survey, and experimental research approaches.",
+            "Compare qualitative and quantitative research designs."
+          ],
+          topics: [
+            {
+              heading: "Research Approaches",
+              items: [
+                "Historical, Survey, and Experimental approaches"
+              ]
+            },
+            {
+              heading: "Research Designs",
+              items: [
+                "Qualitative research designs",
+                "Quantitative research designs"
+              ]
+            }
+          ]
+        },
+        {
+          roman: "V",
+          title: "Sampling and Data Collection",
+          hours: { t: 8 },
+          outcomes: [
+            "Define population, sample, and sampling criteria.",
+            "Identify factors influencing sampling and types of sampling techniques.",
+            "Describe data collection methods, instruments, validity, and reliability.",
+            "Apply ethical principles in data collection and conduct a pilot study."
+          ],
+          topics: [
+            {
+              heading: "Sampling",
+              items: [
+                "Definition of Population, Sample, Sampling criteria",
+                "Factors influencing sampling process",
+                "Types of sampling techniques — probability and non-probability"
+              ]
+            },
+            {
+              heading: "Data Collection",
+              items: [
+                "Data — why, what, from whom, when, and where to collect",
+                "Data collection methods and instruments",
+                "Methods: Questioning, Interviewing, Observations, Record analysis, Measurement",
+                "Types of instruments — structured, semi-structured, unstructured",
+                "Validity and Reliability of the Instrument",
+                "Research ethics and Informed Consent",
+                "Pilot study",
+                "Data collection procedure"
+              ]
+            }
+          ]
+        },
+        {
+          roman: "VI",
+          title: "Analysis of Data",
+          hours: { t: 4 },
+          outcomes: [
+            "Describe the processes of compilation, tabulation, classification, summarization, presentation, and interpretation of data."
+          ],
+          topics: [
+            {
+              heading: "Data Analysis",
+              items: [
+                "Compilation, Tabulation, Classification of data",
+                "Summarization and Presentation of data",
+                "Interpretation of data"
+              ]
+            }
+          ]
+        },
+        {
+          roman: "VII",
+          title: "Introduction to Statistics",
+          hours: { t: 6 },
+          outcomes: [
+            "Define statistics and identify its uses in nursing research.",
+            "Describe frequency distribution and graphical presentation.",
+            "Calculate mean, median, mode, and standard deviation.",
+            "Explain normal probability and tests of significance.",
+            "Compute co-efficient of correlation.",
+            "Identify statistical packages and their applications."
+          ],
+          topics: [
+            {
+              heading: "Statistics Basics",
+              items: [
+                "Definition, use of statistics, and scales of measurement (Nominal, Ordinal, Interval, Ratio)",
+                "Frequency distribution and graphical presentation of data (bar chart, histogram, pie chart)",
+                "Measures of central tendency — Mean, Median, Mode",
+                "Measures of dispersion — Standard deviation",
+                "Normal probability curve"
+              ]
+            },
+            {
+              heading: "Inferential Statistics",
+              items: [
+                "Tests of significance — t-test, chi-square test, ANOVA",
+                "Co-efficient of correlation (Pearson, Spearman)",
+                "Statistical packages — SPSS, R, MS-Excel and their applications"
+              ]
+            }
+          ]
+        },
+        {
+          roman: "VIII",
+          title: "Communication and Utilization of Research",
+          hours: { t: 2 },
+          outcomes: [
+            "Describe the communication of research findings including verbal report.",
+            "Write a research report and a scientific article/paper.",
+            "Conduct a critical review of published research including publication ethics.",
+            "Apply research findings to clinical practice."
+          ],
+          topics: [
+            {
+              heading: "Communication of Research",
+              items: [
+                "Communication of research findings (including Verbal report)",
+                "Writing research report — format and structure",
+                "Writing a scientific article/paper for journal publication",
+                "Critical review of published research",
+                "Publication ethics — plagiarism, authorship, predatory journals",
+                "Utilization of research findings in nursing practice (EBP)",
+                "Conducting group research project"
+              ]
+            }
+          ]
+        }
+      ],
+      skillLab: [
+        "Formulate a research problem and write objectives and hypotheses",
+        "Conduct a review of literature using CINAHL, Cochrane, and PubMed databases",
+        "Develop and critically assess a data collection instrument (questionnaire/checklist)",
+        "Establish validity and reliability of an instrument",
+        "Analyse data using descriptive statistics (mean, median, mode, SD) on SPSS/Excel",
+        "Prepare and present tables, charts, and graphs",
+        "Write a mini research report",
+        "Critical appraisal of a published research article"
+      ]
     }
   ]
 };

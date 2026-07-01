@@ -2847,3 +2847,238 @@ body.scroll-locked { overflow: hidden; }
     .nav-toggle-bars span { transition: none !important; }
     .q-toggle .chev { transition: none !important; }
 }
+
+/* ================================================================
+   21. NATIVE ELEMENT REPLACEMENTS (Material Web removed)
+   These styles replace the Material Web custom elements with
+   pure-CSS native equivalents that work on all protocols.
+   ================================================================ */
+
+/* ── 21.1 Icon button base ─────────────────────────────────────── */
+.icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: transparent;
+    color: var(--color-foreground);
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: background 0.15s ease, transform 0.15s ease;
+    position: relative;
+    overflow: hidden;
+}
+.icon-btn:hover {
+    background: color-mix(in oklch, var(--color-foreground) 10%, transparent);
+}
+.icon-btn:active { transform: scale(0.92); }
+.icon-btn .material-symbols-outlined { font-size: 22px; pointer-events: none; }
+
+/* Nav toggle (hamburger) */
+.nav-toggle.icon-btn { color: var(--md-sys-color-on-surface-variant); }
+/* Theme toggle */
+.theme-toggle.icon-btn { color: var(--md-sys-color-on-surface-variant); }
+/* Close button in reader */
+.close-btn.icon-btn { color: var(--md-sys-color-on-surface-variant); }
+
+/* ── 21.2 Native search field ──────────────────────────────────── */
+.search-field-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0.85rem;
+    background: var(--md-sys-color-surface-container-highest);
+    border: 1.5px solid var(--md-sys-color-outline-variant);
+    border-radius: var(--md-sys-shape-corner-full);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    padding: 0 0.4rem 0 0.9rem;
+}
+.search-field-wrap:focus-within {
+    border-color: var(--md-sys-color-primary);
+    box-shadow: 0 0 0 3px color-mix(in oklch, var(--md-sys-color-primary) 15%, transparent);
+}
+.search-icon {
+    font-size: 20px;
+    color: var(--md-sys-color-on-surface-variant);
+    flex-shrink: 0;
+    pointer-events: none;
+    margin-right: 0.4rem;
+}
+.search-field-wrap .search-field {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    color: var(--color-foreground);
+    padding: 0.6rem 0;
+    outline: none;
+    width: 100%;
+    margin-bottom: 0;
+}
+.search-field-wrap .search-field::placeholder { color: var(--md-sys-color-on-surface-variant); }
+.search-field-wrap .search-field::-webkit-search-cancel-button { display: none; }
+.search-clear-btn.icon-btn { width: 32px; height: 32px; color: var(--md-sys-color-on-surface-variant); }
+.search-clear-btn.icon-btn .material-symbols-outlined { font-size: 18px; }
+[hidden] { display: none !important; }
+
+/* ── 21.3 Reader progress bar ──────────────────────────────────── */
+.reader-progress-bar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: transparent;
+    z-index: 10;
+    flex-shrink: 0;
+}
+.reader-progress-fill {
+    height: 100%;
+    width: 0%;
+    background: var(--md-sys-color-primary);
+    transition: width 0.1s linear;
+    border-radius: 0 9999px 9999px 0;
+}
+
+/* ── 21.4 Nav buttons (Previous / Next) as native buttons ───────── */
+.article-footer .nav-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.55rem 1.1rem;
+    border-radius: var(--md-sys-shape-corner-full);
+    border: none;
+    background: transparent;
+    color: var(--md-sys-color-primary);
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s ease;
+    letter-spacing: 0.01em;
+}
+.article-footer .nav-btn:hover {
+    background: color-mix(in oklch, var(--md-sys-color-primary) 10%, transparent);
+}
+.article-footer .nav-btn:disabled {
+    opacity: 0.38;
+    cursor: default;
+}
+.article-footer .nav-btn .material-symbols-outlined { font-size: 20px; }
+
+/* ── 21.5 Mark-done button ─────────────────────────────────────── */
+.mark-done-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.4rem 0.85rem;
+    border-radius: var(--md-sys-shape-corner-full);
+    border: 1px solid var(--md-sys-color-outline-variant);
+    background: transparent;
+    color: var(--md-sys-color-on-surface-variant);
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+    white-space: nowrap;
+}
+.mark-done-btn:hover {
+    background: color-mix(in oklch, var(--md-sys-color-primary) 8%, transparent);
+    border-color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-primary);
+}
+.mark-done-btn[aria-pressed="true"],
+.mark-done-btn.done {
+    background: var(--md-sys-color-primary-container);
+    color: var(--md-sys-color-on-primary-container);
+    border-color: var(--md-sys-color-primary-container);
+}
+.mark-done-btn .material-symbols-outlined { font-size: 18px; }
+
+/* ── 21.6 Fix question card grid with native elements ──────────── */
+/* Prevent unregistered custom elements from breaking the grid */
+md-ripple, md-focus-ring, md-icon, md-icon-button,
+md-text-button, md-linear-progress, md-circular-progress {
+    display: contents;
+}
+/* q-marks-area must always sit in column 3 regardless of MD component state */
+.q-marks-area {
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 0.75rem 0.9rem;
+    min-width: 64px;
+}
+
+/* ── 21.7 Staggered entrance animations for answer sections ───── */
+.answer-section {
+    animation: answerSlideUp 0.4s var(--md-sys-motion-easing-emphasized-decelerate, cubic-bezier(0.05,0.7,0.1,1)) both;
+}
+.answer-section:nth-child(1)  { animation-delay: 0.05s; }
+.answer-section:nth-child(2)  { animation-delay: 0.10s; }
+.answer-section:nth-child(3)  { animation-delay: 0.15s; }
+.answer-section:nth-child(4)  { animation-delay: 0.20s; }
+.answer-section:nth-child(5)  { animation-delay: 0.25s; }
+.answer-section:nth-child(6)  { animation-delay: 0.30s; }
+.answer-section:nth-child(7)  { animation-delay: 0.35s; }
+.answer-section:nth-child(8)  { animation-delay: 0.40s; }
+.answer-section:nth-child(n+9){ animation-delay: 0.45s; }
+
+@keyframes answerSlideUp {
+    from { opacity: 0; transform: translateY(18px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+.definition-box.animate-scale-in {
+    animation: answerScaleIn 0.35s var(--md-sys-motion-easing-emphasized-decelerate, cubic-bezier(0.05,0.7,0.1,1)) 0.08s both;
+}
+@keyframes answerScaleIn {
+    from { opacity: 0; transform: scale(0.96); }
+    to   { opacity: 1; transform: scale(1); }
+}
+
+/* ── 21.8 NRS subject accent color ─────────────────────────────── */
+/* NRS cards get a teal number column to visually distinguish from OBG units */
+.question-card[data-subject="nrs"] .q-number {
+    background: color-mix(in oklch, #0d9488 40%, transparent);
+    color: #0f4742;
+}
+.dark .question-card[data-subject="nrs"] .q-number {
+    background: color-mix(in oklch, #14b8a6 25%, transparent);
+    color: #5eead4;
+}
+
+/* ── 21.9 Interactive diagram NRS styles ───────────────────────── */
+.nrs-diagram {
+    margin: 1.5rem 0;
+    border-radius: var(--md-sys-shape-corner-lg);
+    overflow: hidden;
+    background: var(--md-sys-color-surface-container-low);
+    border: 1px solid var(--md-sys-color-outline-variant);
+}
+.nrs-diagram .diagram-title {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--md-sys-color-on-surface-variant);
+    padding: 0.6rem 1rem;
+    background: var(--md-sys-color-surface-container);
+    border-bottom: 1px solid var(--md-sys-color-outline-variant);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .answer-section { animation: none; }
+    .definition-box.animate-scale-in { animation: none; }
+}
+
