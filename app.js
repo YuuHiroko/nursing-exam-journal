@@ -142,7 +142,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const obg2  = window.QUESTIONS_DATA_OBG2 || [];   // OBG-II (high-risk), units 8-11
         // NRS — Nursing Research & Statistics (VII Sem), units 101-108
         const nrs1  = window.QUESTIONS_DATA_NRS_UNIT1 || [];
-        return [...unit1, ...unit2, ...unit3, ...unit4, ...unit5, ...unit6, ...unit7, ...obg2, ...nrs1];
+        const nrs2  = window.QUESTIONS_DATA_NRS_UNIT2 || [];
+        const nrs3  = window.QUESTIONS_DATA_NRS_UNIT3 || [];
+        return [...unit1, ...unit2, ...unit3, ...unit4, ...unit5, ...unit6, ...unit7, ...obg2, ...nrs1, ...nrs2, ...nrs3];
     }
 
     function getUnitLabel(unit) {
