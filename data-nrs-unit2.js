@@ -367,6 +367,49 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
   years: "Summer 2023 Phase III",
   answer: `
 
+<div class="tree-diagram">
+  <div class="tree-title">🌳 Types of Hypothesis — Classification Tree</div>
+  <div class="tree-root">
+    <div class="tree-node root">Hypothesis</div>
+    <div class="tree-connector"></div>
+    <div style="position:relative; width:100%;">
+      <div class="tree-branches">
+        <div class="tree-branch-wrap">
+          <div class="tree-branch-connector"></div>
+          <div class="tree-node branch">Research Hypothesis (H₁)</div>
+          <div class="tree-branch-connector"></div>
+          <div class="tree-sub-branches">
+            <div class="tree-branch-wrap">
+              <div class="tree-branch-connector"></div>
+              <div class="tree-node leaf-blue">Directional<br><small>→ predicts direction</small></div>
+            </div>
+            <div class="tree-branch-wrap">
+              <div class="tree-branch-connector"></div>
+              <div class="tree-node leaf-green">Non-Directional<br><small>→ predicts difference</small></div>
+            </div>
+          </div>
+        </div>
+        <div class="tree-branch-wrap">
+          <div class="tree-branch-connector"></div>
+          <div class="tree-node branch">Null Hypothesis (H₀)</div>
+          <div class="tree-branch-connector"></div>
+          <div class="tree-sub-branches">
+            <div class="tree-branch-wrap">
+              <div class="tree-branch-connector"></div>
+              <div class="tree-node leaf-red">Statistical Null<br><small>→ no effect</small></div>
+            </div>
+            <div class="tree-branch-wrap">
+              <div class="tree-branch-connector"></div>
+              <div class="tree-node leaf-amber">Nil Hypothesis<br><small>→ no relationship</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <div class="in-short"><strong>In Short:</strong> Hypothesis can be classified <strong>by nature</strong> (Research H1 vs Null H0), <strong>by direction</strong> (Directional vs Non-directional), and <strong>by complexity</strong> (Simple vs Complex). Understanding the classification helps choose the correct statistical test and write the hypothesis correctly.</div>
 
 <div class="answer-section animate-slide-up">
@@ -541,6 +584,49 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
   years: "Summer 2022 Phase II",
   answer: `
 
+<div class="tree-diagram">
+  <div class="tree-title">🌳 Types of Hypothesis — Classification Tree</div>
+  <div class="tree-root">
+    <div class="tree-node root">Hypothesis</div>
+    <div class="tree-connector"></div>
+    <div style="position:relative; width:100%;">
+      <div class="tree-branches">
+        <div class="tree-branch-wrap">
+          <div class="tree-branch-connector"></div>
+          <div class="tree-node branch">Research Hypothesis (H₁)</div>
+          <div class="tree-branch-connector"></div>
+          <div class="tree-sub-branches">
+            <div class="tree-branch-wrap">
+              <div class="tree-branch-connector"></div>
+              <div class="tree-node leaf-blue">Directional<br><small>→ predicts direction</small></div>
+            </div>
+            <div class="tree-branch-wrap">
+              <div class="tree-branch-connector"></div>
+              <div class="tree-node leaf-green">Non-Directional<br><small>→ predicts difference</small></div>
+            </div>
+          </div>
+        </div>
+        <div class="tree-branch-wrap">
+          <div class="tree-branch-connector"></div>
+          <div class="tree-node branch">Null Hypothesis (H₀)</div>
+          <div class="tree-branch-connector"></div>
+          <div class="tree-sub-branches">
+            <div class="tree-branch-wrap">
+              <div class="tree-branch-connector"></div>
+              <div class="tree-node leaf-red">Statistical Null<br><small>→ no effect</small></div>
+            </div>
+            <div class="tree-branch-wrap">
+              <div class="tree-branch-connector"></div>
+              <div class="tree-node leaf-amber">Nil Hypothesis<br><small>→ no relationship</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <div class="in-short"><strong>In Short:</strong> A hypothesis is either a <strong>Research Hypothesis (H1)</strong> predicting an effect EXISTS, or a <strong>Null Hypothesis (H0)</strong> predicting NO effect. H1 can be further divided into <strong>Directional</strong> (specifies higher/lower) and <strong>Non-directional</strong> (just "different"). It can also be <strong>Simple</strong> (1 IV, 1 DV) or <strong>Complex</strong> (multiple IVs or DVs).</div>
 
 <div class="answer-section animate-slide-up">
@@ -642,6 +728,49 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
   unit: 102,
   years: "Summer 2024 Phase II",
   answer: `
+
+<div class="tree-diagram">
+  <div class="tree-title">🌳 Types of Hypothesis — Classification Tree</div>
+  <div class="tree-root">
+    <div class="tree-node root">Hypothesis</div>
+    <div class="tree-connector"></div>
+    <div style="position:relative; width:100%;">
+      <div class="tree-branches">
+        <div class="tree-branch-wrap">
+          <div class="tree-branch-connector"></div>
+          <div class="tree-node branch">Research Hypothesis (H₁)</div>
+          <div class="tree-branch-connector"></div>
+          <div class="tree-sub-branches">
+            <div class="tree-branch-wrap">
+              <div class="tree-branch-connector"></div>
+              <div class="tree-node leaf-blue">Directional<br><small>→ predicts direction</small></div>
+            </div>
+            <div class="tree-branch-wrap">
+              <div class="tree-branch-connector"></div>
+              <div class="tree-node leaf-green">Non-Directional<br><small>→ predicts difference</small></div>
+            </div>
+          </div>
+        </div>
+        <div class="tree-branch-wrap">
+          <div class="tree-branch-connector"></div>
+          <div class="tree-node branch">Null Hypothesis (H₀)</div>
+          <div class="tree-branch-connector"></div>
+          <div class="tree-sub-branches">
+            <div class="tree-branch-wrap">
+              <div class="tree-branch-connector"></div>
+              <div class="tree-node leaf-red">Statistical Null<br><small>→ no effect</small></div>
+            </div>
+            <div class="tree-branch-wrap">
+              <div class="tree-branch-connector"></div>
+              <div class="tree-node leaf-amber">Nil Hypothesis<br><small>→ no relationship</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <div class="in-short"><strong>In Short:</strong> A <strong>hypothesis</strong> is a testable prediction about the relationship between variables. Types: <strong>Research (H1)</strong> vs <strong>Null (H0)</strong> by nature; <strong>Directional</strong> vs <strong>Non-directional</strong> by direction; <strong>Simple</strong> vs <strong>Complex</strong> by variable count. H0 is the one statistically tested; if p &lt; 0.05, H0 is rejected.</div>
 
@@ -864,6 +993,49 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
   years: "Winter 2025",
   answer: `
 
+<div class="tree-diagram">
+  <div class="tree-title">🌳 Types of Hypothesis — Classification Tree</div>
+  <div class="tree-root">
+    <div class="tree-node root">Hypothesis</div>
+    <div class="tree-connector"></div>
+    <div style="position:relative; width:100%;">
+      <div class="tree-branches">
+        <div class="tree-branch-wrap">
+          <div class="tree-branch-connector"></div>
+          <div class="tree-node branch">Research Hypothesis (H₁)</div>
+          <div class="tree-branch-connector"></div>
+          <div class="tree-sub-branches">
+            <div class="tree-branch-wrap">
+              <div class="tree-branch-connector"></div>
+              <div class="tree-node leaf-blue">Directional<br><small>→ predicts direction</small></div>
+            </div>
+            <div class="tree-branch-wrap">
+              <div class="tree-branch-connector"></div>
+              <div class="tree-node leaf-green">Non-Directional<br><small>→ predicts difference</small></div>
+            </div>
+          </div>
+        </div>
+        <div class="tree-branch-wrap">
+          <div class="tree-branch-connector"></div>
+          <div class="tree-node branch">Null Hypothesis (H₀)</div>
+          <div class="tree-branch-connector"></div>
+          <div class="tree-sub-branches">
+            <div class="tree-branch-wrap">
+              <div class="tree-branch-connector"></div>
+              <div class="tree-node leaf-red">Statistical Null<br><small>→ no effect</small></div>
+            </div>
+            <div class="tree-branch-wrap">
+              <div class="tree-branch-connector"></div>
+              <div class="tree-node leaf-amber">Nil Hypothesis<br><small>→ no relationship</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 <div class="in-short"><strong>In Short:</strong> A <strong>hypothesis</strong> is a tentative, testable prediction about the relationship between two or more variables. Types: <strong>H1 (Research)</strong> — effect exists; <strong>H0 (Null)</strong> — no effect; <strong>Directional</strong> — predicts the direction; <strong>Non-directional</strong> — predicts difference but not direction; <strong>Simple</strong> — 1 IV, 1 DV; <strong>Complex</strong> — multiple IVs/DVs.</div>
 
 <div class="answer-section animate-slide-up">
@@ -971,6 +1143,35 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
   unit: 102,
   years: "Winter 2024 Phase II",
   answer: `
+
+<div class="variable-diagram">
+  <div class="var-title">🔗 Variable Relationship Diagram</div>
+  <div class="var-main-row">
+    <div class="var-box iv">
+      <div class="var-box-label">Independent Variable</div>
+      <div class="var-box-name">Cause / Input</div>
+      <div class="var-box-example">e.g., Foot massage, Teaching programme</div>
+    </div>
+    <div class="var-arrow">→</div>
+    <div class="var-box dv">
+      <div class="var-box-label">Dependent Variable</div>
+      <div class="var-box-name">Effect / Output</div>
+      <div class="var-box-example">e.g., Pain score, Knowledge level</div>
+    </div>
+  </div>
+  <div class="var-confounders-label">↕ Confounding / Extraneous Variables (may interfere):</div>
+  <div class="var-confounders">
+    <div class="var-box cv" style="min-width:100px; padding:0.5rem;">
+      <div class="var-box-label">Confounding</div>
+      <div class="var-box-name" style="font-size:0.76rem">Age, Gender</div>
+    </div>
+    <div class="var-box ev" style="min-width:100px; padding:0.5rem;">
+      <div class="var-box-label">Extraneous</div>
+      <div class="var-box-name" style="font-size:0.76rem">Environment, Stress</div>
+    </div>
+  </div>
+</div>
+
 
 <div class="in-short"><strong>In Short:</strong> A <strong>variable</strong> is any characteristic that varies (takes different values) among subjects. Main types: <strong>Independent (IV)</strong> = cause/intervention, <strong>Dependent (DV)</strong> = effect/outcome, <strong>Extraneous</strong> = confounders, <strong>Demographic</strong> = background characteristics, <strong>Continuous</strong> = measured on a scale, <strong>Discrete</strong> = counted in whole numbers.</div>
 
@@ -1256,6 +1457,27 @@ H0: "There is no significant difference in anxiety scores between music therapy 
   years: "Winter 2024 Phase II",
   answer: `
 
+<div class="comparison-split">
+  <div class="vs-badge">⚠️ Limitation <span>VS</span> Delimitation — Don't Confuse!</div>
+  <div class="comp-col left">
+    <div class="comp-col-title">⛔ Limitation</div>
+    <div class="comp-item"><strong>Meaning:</strong> Weaknesses the researcher CANNOT control — discovered after or during study.</div>
+    <div class="comp-item"><strong>Who decides:</strong> Happens naturally, not by researcher's choice.</div>
+    <div class="comp-item"><strong>Effect:</strong> Reduces generalizability / validity of findings.</div>
+    <div class="comp-item"><strong>Examples:</strong> Hawthorne effect, small sample size, biased self-reporting by patients.</div>
+    <div class="comp-item"><strong>Mnemonic:</strong> L for "Left behind" — things the researcher couldn't fix.</div>
+  </div>
+  <div class="comp-col right">
+    <div class="comp-col-title">✅ Delimitation</div>
+    <div class="comp-item"><strong>Meaning:</strong> Boundaries the researcher INTENTIONALLY sets — decided before the study.</div>
+    <div class="comp-item"><strong>Who decides:</strong> The researcher chooses these to keep the study focused.</div>
+    <div class="comp-item"><strong>Effect:</strong> Narrows the scope of the study (intentionally).</div>
+    <div class="comp-item"><strong>Examples:</strong> Only studying female patients, only age 20–40, only one hospital.</div>
+    <div class="comp-item"><strong>Mnemonic:</strong> D for "Decided" — researcher draws a boundary deliberately.</div>
+  </div>
+</div>
+
+
 <div class="in-short"><strong>In Short:</strong> <strong>Assumption</strong> = a condition <em>taken for granted</em> without testing (foundation of the study). <strong>Hypothesis</strong> = a testable prediction <em>formally tested</em> using statistics. The key difference: assumptions are ACCEPTED without proof; hypotheses are TESTED with data and either supported or rejected.</div>
 
 <div class="answer-section animate-slide-up">
@@ -1361,6 +1583,35 @@ H0: "There is no significant difference in anxiety scores between music therapy 
   unit: 102,
   years: "Winter 2025 Phase III",
   answer: `
+
+<div class="variable-diagram">
+  <div class="var-title">🔗 Variable Relationship Diagram</div>
+  <div class="var-main-row">
+    <div class="var-box iv">
+      <div class="var-box-label">Independent Variable</div>
+      <div class="var-box-name">Cause / Input</div>
+      <div class="var-box-example">e.g., Foot massage, Teaching programme</div>
+    </div>
+    <div class="var-arrow">→</div>
+    <div class="var-box dv">
+      <div class="var-box-label">Dependent Variable</div>
+      <div class="var-box-name">Effect / Output</div>
+      <div class="var-box-example">e.g., Pain score, Knowledge level</div>
+    </div>
+  </div>
+  <div class="var-confounders-label">↕ Confounding / Extraneous Variables (may interfere):</div>
+  <div class="var-confounders">
+    <div class="var-box cv" style="min-width:100px; padding:0.5rem;">
+      <div class="var-box-label">Confounding</div>
+      <div class="var-box-name" style="font-size:0.76rem">Age, Gender</div>
+    </div>
+    <div class="var-box ev" style="min-width:100px; padding:0.5rem;">
+      <div class="var-box-label">Extraneous</div>
+      <div class="var-box-name" style="font-size:0.76rem">Environment, Stress</div>
+    </div>
+  </div>
+</div>
+
 
 <div class="in-short"><strong>In Short:</strong> A <strong>variable</strong> is any characteristic that takes different values among subjects. Types: <strong>Independent (IV)</strong> = cause, <strong>Dependent (DV)</strong> = effect, <strong>Extraneous</strong> = confounders, <strong>Demographic</strong> = background info, <strong>Continuous</strong> = any value on scale, <strong>Discrete</strong> = whole numbers counted, <strong>Qualitative</strong> = categories, <strong>Quantitative</strong> = numbers.</div>
 

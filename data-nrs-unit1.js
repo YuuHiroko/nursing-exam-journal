@@ -8,6 +8,36 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   unit: 101,
   years: "Winter 2022",
   answer: `
+
+<div class="flip-card-pair">
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <div class="fc-icon">🗺️</div>
+        <div class="fc-term">Conceptual Framework</div>
+        <div class="fc-hint">(hover to reveal definition)</div>
+      </div>
+      <div class="flip-card-back">
+        <div class="fc-def">Built by the <strong>researcher</strong> using multiple concepts from different sources combined with their own logic. NOT borrowed from any single theory.</div>
+        <div class="fc-example">Example: Researcher combines Roy's Adaptation + Orem's Self-Care concepts to create a new framework</div>
+      </div>
+    </div>
+  </div>
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <div class="fc-icon">📖</div>
+        <div class="fc-term">Theoretical Framework</div>
+        <div class="fc-hint">(hover to reveal definition)</div>
+      </div>
+      <div class="flip-card-back">
+        <div class="fc-def">Borrowed <strong>directly from ONE existing established theory</strong> — applied as-is to the research study without modification.</div>
+        <div class="fc-example">Example: Using Orem's Self-Care Deficit Theory as-is to guide a study on self-care in diabetic patients</div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="in-short"><strong>In Short:</strong> A <strong>conceptual framework</strong> is like a map showing how the key ideas in a research study connect to each other. The researcher builds this map using their own logic &mdash; it guides the entire study from beginning to end.</div>
 
 <div class="answer-section animate-slide-up">
@@ -832,6 +862,21 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   unit: 101,
   years: "Summer 2022 Phase II",
   answer: `
+
+<div class="process-steps">
+  <div class="ps-title">🔬 Steps in the Research Process (Scientific Method)</div>
+  <div class="ps-step"><div class="ps-num">1</div><div class="ps-content"><strong>Identify &amp; Define the Problem</strong><span>Select a researchable, feasible, relevant nursing problem. Write a clear problem statement.</span></div><div class="ps-icon">🔍</div></div>
+  <div class="ps-step"><div class="ps-num">2</div><div class="ps-content"><strong>Review of Literature (ROL)</strong><span>Search existing studies, journals, textbooks. Identify what is already known and the gap.</span></div><div class="ps-icon">📚</div></div>
+  <div class="ps-step"><div class="ps-num">3</div><div class="ps-content"><strong>Formulate Aims, Objectives &amp; Hypothesis</strong><span>State what the study will achieve and predict the expected outcome (hypothesis).</span></div><div class="ps-icon">🎯</div></div>
+  <div class="ps-step"><div class="ps-num">4</div><div class="ps-content"><strong>Select Research Design</strong><span>Experimental / Quasi-experimental / Descriptive / Correlational, etc.</span></div><div class="ps-icon">📐</div></div>
+  <div class="ps-step"><div class="ps-num">5</div><div class="ps-content"><strong>Select Sample &amp; Setting</strong><span>Define population, choose sampling method (random, purposive), calculate sample size.</span></div><div class="ps-icon">👥</div></div>
+  <div class="ps-step"><div class="ps-num">6</div><div class="ps-content"><strong>Develop Data Collection Tool</strong><span>Structured interview, questionnaire, observation checklist, physiological measures.</span></div><div class="ps-icon">📋</div></div>
+  <div class="ps-step"><div class="ps-num">7</div><div class="ps-content"><strong>Collect Data</strong><span>Carry out the study — implement intervention (if experimental), collect measurements.</span></div><div class="ps-icon">📊</div></div>
+  <div class="ps-step"><div class="ps-num">8</div><div class="ps-content"><strong>Analyze Data</strong><span>Apply statistical tests (mean, SD, t-test, chi-square) or qualitative analysis.</span></div><div class="ps-icon">🔢</div></div>
+  <div class="ps-step"><div class="ps-num">9</div><div class="ps-content"><strong>Interpret Results &amp; Draw Conclusions</strong><span>Accept/reject hypothesis, compare with previous studies, state limitations.</span></div><div class="ps-icon">💡</div></div>
+  <div class="ps-step"><div class="ps-num">10</div><div class="ps-content"><strong>Communicate &amp; Utilize Findings</strong><span>Publish in journals, present at conferences, apply in nursing practice (EBP).</span></div><div class="ps-icon">📢</div></div>
+</div>
+
 <div class="in-short"><strong>In Short:</strong> The scientific method is a <strong>step-by-step logical way of finding answers</strong>. It goes: Observation &rarr; Literature Review &rarr; Hypothesis &rarr; Design &rarr; Data Collection &rarr; Data Analysis &rarr; Interpret Results &rarr; Conclude &amp; Disseminate. Remember: <strong>OR-FD-CDIC.</strong></div>
 
 <div class="answer-section animate-slide-up">
@@ -1055,6 +1100,21 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   unit: 101,
   years: "Summer 2022 Phase II",
   answer: `
+
+<div class="process-steps">
+  <div class="ps-title">🔬 Steps in the Research Process (Scientific Method)</div>
+  <div class="ps-step"><div class="ps-num">1</div><div class="ps-content"><strong>Identify &amp; Define the Problem</strong><span>Select a researchable, feasible, relevant nursing problem. Write a clear problem statement.</span></div><div class="ps-icon">🔍</div></div>
+  <div class="ps-step"><div class="ps-num">2</div><div class="ps-content"><strong>Review of Literature (ROL)</strong><span>Search existing studies, journals, textbooks. Identify what is already known and the gap.</span></div><div class="ps-icon">📚</div></div>
+  <div class="ps-step"><div class="ps-num">3</div><div class="ps-content"><strong>Formulate Aims, Objectives &amp; Hypothesis</strong><span>State what the study will achieve and predict the expected outcome (hypothesis).</span></div><div class="ps-icon">🎯</div></div>
+  <div class="ps-step"><div class="ps-num">4</div><div class="ps-content"><strong>Select Research Design</strong><span>Experimental / Quasi-experimental / Descriptive / Correlational, etc.</span></div><div class="ps-icon">📐</div></div>
+  <div class="ps-step"><div class="ps-num">5</div><div class="ps-content"><strong>Select Sample &amp; Setting</strong><span>Define population, choose sampling method (random, purposive), calculate sample size.</span></div><div class="ps-icon">👥</div></div>
+  <div class="ps-step"><div class="ps-num">6</div><div class="ps-content"><strong>Develop Data Collection Tool</strong><span>Structured interview, questionnaire, observation checklist, physiological measures.</span></div><div class="ps-icon">📋</div></div>
+  <div class="ps-step"><div class="ps-num">7</div><div class="ps-content"><strong>Collect Data</strong><span>Carry out the study — implement intervention (if experimental), collect measurements.</span></div><div class="ps-icon">📊</div></div>
+  <div class="ps-step"><div class="ps-num">8</div><div class="ps-content"><strong>Analyze Data</strong><span>Apply statistical tests (mean, SD, t-test, chi-square) or qualitative analysis.</span></div><div class="ps-icon">🔢</div></div>
+  <div class="ps-step"><div class="ps-num">9</div><div class="ps-content"><strong>Interpret Results &amp; Draw Conclusions</strong><span>Accept/reject hypothesis, compare with previous studies, state limitations.</span></div><div class="ps-icon">💡</div></div>
+  <div class="ps-step"><div class="ps-num">10</div><div class="ps-content"><strong>Communicate &amp; Utilize Findings</strong><span>Publish in journals, present at conferences, apply in nursing practice (EBP).</span></div><div class="ps-icon">📢</div></div>
+</div>
+
 <div class="in-short"><strong>In Short:</strong> Quantitative research uses <strong>numbers and statistics</strong>. Its process has 5 phases: <strong>Conceptual</strong> (planning) &rarr; <strong>Design &amp; Planning</strong> &rarr; <strong>Empirical</strong> (data collection) &rarr; <strong>Analytic</strong> (statistics) &rarr; <strong>Dissemination</strong> (sharing). Remember: <strong>C-D-E-A-D.</strong></div>
 
 <div class="answer-section animate-slide-up">
@@ -1202,6 +1262,21 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   unit: 101,
   years: "Summer 2024 Phase II",
   answer: `
+
+<div class="process-steps">
+  <div class="ps-title">🔬 Steps in the Research Process (Scientific Method)</div>
+  <div class="ps-step"><div class="ps-num">1</div><div class="ps-content"><strong>Identify &amp; Define the Problem</strong><span>Select a researchable, feasible, relevant nursing problem. Write a clear problem statement.</span></div><div class="ps-icon">🔍</div></div>
+  <div class="ps-step"><div class="ps-num">2</div><div class="ps-content"><strong>Review of Literature (ROL)</strong><span>Search existing studies, journals, textbooks. Identify what is already known and the gap.</span></div><div class="ps-icon">📚</div></div>
+  <div class="ps-step"><div class="ps-num">3</div><div class="ps-content"><strong>Formulate Aims, Objectives &amp; Hypothesis</strong><span>State what the study will achieve and predict the expected outcome (hypothesis).</span></div><div class="ps-icon">🎯</div></div>
+  <div class="ps-step"><div class="ps-num">4</div><div class="ps-content"><strong>Select Research Design</strong><span>Experimental / Quasi-experimental / Descriptive / Correlational, etc.</span></div><div class="ps-icon">📐</div></div>
+  <div class="ps-step"><div class="ps-num">5</div><div class="ps-content"><strong>Select Sample &amp; Setting</strong><span>Define population, choose sampling method (random, purposive), calculate sample size.</span></div><div class="ps-icon">👥</div></div>
+  <div class="ps-step"><div class="ps-num">6</div><div class="ps-content"><strong>Develop Data Collection Tool</strong><span>Structured interview, questionnaire, observation checklist, physiological measures.</span></div><div class="ps-icon">📋</div></div>
+  <div class="ps-step"><div class="ps-num">7</div><div class="ps-content"><strong>Collect Data</strong><span>Carry out the study — implement intervention (if experimental), collect measurements.</span></div><div class="ps-icon">📊</div></div>
+  <div class="ps-step"><div class="ps-num">8</div><div class="ps-content"><strong>Analyze Data</strong><span>Apply statistical tests (mean, SD, t-test, chi-square) or qualitative analysis.</span></div><div class="ps-icon">🔢</div></div>
+  <div class="ps-step"><div class="ps-num">9</div><div class="ps-content"><strong>Interpret Results &amp; Draw Conclusions</strong><span>Accept/reject hypothesis, compare with previous studies, state limitations.</span></div><div class="ps-icon">💡</div></div>
+  <div class="ps-step"><div class="ps-num">10</div><div class="ps-content"><strong>Communicate &amp; Utilize Findings</strong><span>Publish in journals, present at conferences, apply in nursing practice (EBP).</span></div><div class="ps-icon">📢</div></div>
+</div>
+
 
 <div class="in-short"><strong>In Short:</strong> The <strong>scientific method</strong> is a logical, objective, systematic way of investigating problems using measurable evidence. Its 4 core principles: Empirical, Systematic, Objective, Replicable. Its 8 steps: OR-FD-CDIC. It replaced tradition and guesswork with science-based, verifiable knowledge.</div>
 
@@ -1423,6 +1498,27 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   unit: 101,
   years: "Summer 2024 Phase II",
   answer: `
+
+<div class="comparison-split">
+  <div class="vs-badge">⚠️ Limitation <span>VS</span> Delimitation — Don't Confuse!</div>
+  <div class="comp-col left">
+    <div class="comp-col-title">⛔ Limitation</div>
+    <div class="comp-item"><strong>Meaning:</strong> Weaknesses the researcher CANNOT control — discovered after or during study.</div>
+    <div class="comp-item"><strong>Who decides:</strong> Happens naturally, not by researcher's choice.</div>
+    <div class="comp-item"><strong>Effect:</strong> Reduces generalizability / validity of findings.</div>
+    <div class="comp-item"><strong>Examples:</strong> Hawthorne effect, small sample size, biased self-reporting by patients.</div>
+    <div class="comp-item"><strong>Mnemonic:</strong> L for "Left behind" — things the researcher couldn't fix.</div>
+  </div>
+  <div class="comp-col right">
+    <div class="comp-col-title">✅ Delimitation</div>
+    <div class="comp-item"><strong>Meaning:</strong> Boundaries the researcher INTENTIONALLY sets — decided before the study.</div>
+    <div class="comp-item"><strong>Who decides:</strong> The researcher chooses these to keep the study focused.</div>
+    <div class="comp-item"><strong>Effect:</strong> Narrows the scope of the study (intentionally).</div>
+    <div class="comp-item"><strong>Examples:</strong> Only studying female patients, only age 20–40, only one hospital.</div>
+    <div class="comp-item"><strong>Mnemonic:</strong> D for "Decided" — researcher draws a boundary deliberately.</div>
+  </div>
+</div>
+
 
 <div class="in-short"><strong>In Short:</strong> <strong>Limitation</strong> = weakness BEYOND the researcher's control (e.g., small sample, single setting). <strong>Delimitation</strong> = boundary SET BY the researcher intentionally (e.g., only adult patients, only one hospital). Limitations WEAKEN generalizability; Delimitations DEFINE scope.</div>
 
@@ -1728,6 +1824,21 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   unit: 101,
   years: "Winter 2025",
   answer: `
+
+<div class="evidence-pyramid">
+  <div class="pyramid-title">📊 Levels of Evidence Pyramid — EBP</div>
+  <div class="pyramid-level pyramid-level-1">Systematic Reviews &amp; Meta-analyses<div class="pyramid-label">Highest evidence — synthesizes all RCTs</div></div>
+  <div class="pyramid-level pyramid-level-2">Randomized Controlled Trials (RCTs)<div class="pyramid-label">Gold standard for experimental research</div></div>
+  <div class="pyramid-level pyramid-level-3">Cohort &amp; Case-Control Studies<div class="pyramid-label">Observational — follows groups over time</div></div>
+  <div class="pyramid-level pyramid-level-4">Cross-sectional &amp; Survey Studies<div class="pyramid-label">Single point-in-time data collection</div></div>
+  <div class="pyramid-level pyramid-level-5">Case Reports &amp; Case Series<div class="pyramid-label">Clinical observations, no control group</div></div>
+  <div class="pyramid-level pyramid-level-6">Expert Opinion &amp; Editorials<div class="pyramid-label">Lowest level — personal expertise only</div></div>
+  <div class="pyramid-arrows">
+    <div class="pyramid-arrow-label">⬆ Stronger evidence</div>
+    <div class="pyramid-arrow-label">⬆ Higher quality</div>
+  </div>
+</div>
+
 <div class="in-short"><strong>In Short:</strong> <strong>Evidence-Based Practice (EBP)</strong> = making nursing care decisions using <strong>best available research</strong> + <strong>clinical expertise</strong> + <strong>patient's own values and preferences</strong>. It replaces "we always did it this way" with "the best research proves this is the safest, most effective way."</div>
 
 <div class="answer-section animate-slide-up">
@@ -1815,6 +1926,16 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   unit: 101,
   years: "Winter 2025",
   answer: `
+
+<div class="process-steps">
+  <div class="ps-title">🏥 EBP Process — Five Steps (5 A's)</div>
+  <div class="ps-step"><div class="ps-num">1</div><div class="ps-content"><strong>ASK — Formulate a Clinical Question</strong><span>Use PICO format: <strong>P</strong>atient, <strong>I</strong>ntervention, <strong>C</strong>omparison, <strong>O</strong>utcome. e.g., "Does foot massage reduce post-op pain in adult patients vs no massage?"</span></div><div class="ps-icon">❓</div></div>
+  <div class="ps-step"><div class="ps-num">2</div><div class="ps-content"><strong>ACQUIRE — Search for Best Evidence</strong><span>Search PubMed, CINAHL, Cochrane Library, MEDLINE using keywords from your PICO question.</span></div><div class="ps-icon">🔍</div></div>
+  <div class="ps-step"><div class="ps-num">3</div><div class="ps-content"><strong>APPRAISE — Critically Evaluate the Evidence</strong><span>Check validity, reliability, and relevance of studies. Use tools like CASP checklist.</span></div><div class="ps-icon">⚖️</div></div>
+  <div class="ps-step"><div class="ps-num">4</div><div class="ps-content"><strong>APPLY — Integrate Evidence into Practice</strong><span>Combine best evidence + clinical expertise + patient preferences. Implement change.</span></div><div class="ps-icon">⚕️</div></div>
+  <div class="ps-step"><div class="ps-num">5</div><div class="ps-content"><strong>ASSESS — Evaluate Outcomes</strong><span>Measure if the practice change improved patient outcomes. Re-audit if needed.</span></div><div class="ps-icon">📈</div></div>
+</div>
+
 <div class="in-short"><strong>In Short:</strong> The purposes of EBP are: improve patient outcomes, reduce errors/harm, reduce costs, improve nursing confidence/autonomy, standardize care quality, bridge the research-practice gap, and support clinical decision-making. Remember: <strong>I REST BD.</strong></div>
 
 <div class="answer-section animate-slide-up">
@@ -1941,6 +2062,16 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   unit: 101,
   years: "Winter 2025",
   answer: `
+
+<div class="process-steps">
+  <div class="ps-title">🏥 EBP Process — Five Steps (5 A's)</div>
+  <div class="ps-step"><div class="ps-num">1</div><div class="ps-content"><strong>ASK — Formulate a Clinical Question</strong><span>Use PICO format: <strong>P</strong>atient, <strong>I</strong>ntervention, <strong>C</strong>omparison, <strong>O</strong>utcome. e.g., "Does foot massage reduce post-op pain in adult patients vs no massage?"</span></div><div class="ps-icon">❓</div></div>
+  <div class="ps-step"><div class="ps-num">2</div><div class="ps-content"><strong>ACQUIRE — Search for Best Evidence</strong><span>Search PubMed, CINAHL, Cochrane Library, MEDLINE using keywords from your PICO question.</span></div><div class="ps-icon">🔍</div></div>
+  <div class="ps-step"><div class="ps-num">3</div><div class="ps-content"><strong>APPRAISE — Critically Evaluate the Evidence</strong><span>Check validity, reliability, and relevance of studies. Use tools like CASP checklist.</span></div><div class="ps-icon">⚖️</div></div>
+  <div class="ps-step"><div class="ps-num">4</div><div class="ps-content"><strong>APPLY — Integrate Evidence into Practice</strong><span>Combine best evidence + clinical expertise + patient preferences. Implement change.</span></div><div class="ps-icon">⚕️</div></div>
+  <div class="ps-step"><div class="ps-num">5</div><div class="ps-content"><strong>ASSESS — Evaluate Outcomes</strong><span>Measure if the practice change improved patient outcomes. Re-audit if needed.</span></div><div class="ps-icon">📈</div></div>
+</div>
+
 <div class="in-short"><strong>In Short:</strong> The EBP process has 5 steps: <strong>Ask</strong> a clinical question (PICO) &rarr; <strong>Acquire</strong> best evidence &rarr; <strong>Appraise</strong> the evidence &rarr; <strong>Apply</strong> to patient care &rarr; <strong>Audit/Evaluate</strong> outcomes. Remember: <strong>5 A's.</strong></div>
 
 <div class="answer-section animate-slide-up">
@@ -2295,6 +2426,27 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   unit: 101,
   years: "Winter 2025 Phase III",
   answer: `
+
+<div class="comparison-split">
+  <div class="vs-badge">⚠️ Limitation <span>VS</span> Delimitation — Don't Confuse!</div>
+  <div class="comp-col left">
+    <div class="comp-col-title">⛔ Limitation</div>
+    <div class="comp-item"><strong>Meaning:</strong> Weaknesses the researcher CANNOT control — discovered after or during study.</div>
+    <div class="comp-item"><strong>Who decides:</strong> Happens naturally, not by researcher's choice.</div>
+    <div class="comp-item"><strong>Effect:</strong> Reduces generalizability / validity of findings.</div>
+    <div class="comp-item"><strong>Examples:</strong> Hawthorne effect, small sample size, biased self-reporting by patients.</div>
+    <div class="comp-item"><strong>Mnemonic:</strong> L for "Left behind" — things the researcher couldn't fix.</div>
+  </div>
+  <div class="comp-col right">
+    <div class="comp-col-title">✅ Delimitation</div>
+    <div class="comp-item"><strong>Meaning:</strong> Boundaries the researcher INTENTIONALLY sets — decided before the study.</div>
+    <div class="comp-item"><strong>Who decides:</strong> The researcher chooses these to keep the study focused.</div>
+    <div class="comp-item"><strong>Effect:</strong> Narrows the scope of the study (intentionally).</div>
+    <div class="comp-item"><strong>Examples:</strong> Only studying female patients, only age 20–40, only one hospital.</div>
+    <div class="comp-item"><strong>Mnemonic:</strong> D for "Decided" — researcher draws a boundary deliberately.</div>
+  </div>
+</div>
+
 
 <div class="in-short"><strong>In Short:</strong> <strong>Delimitation</strong> = boundary the researcher CHOOSES to set (e.g., only adults, only one hospital). <strong>Limitation</strong> = weakness BEYOND the researcher's control (e.g., small sample, self-report bias). Both must be stated clearly in Chapter 1 of the research thesis.</div>
 

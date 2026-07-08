@@ -14,6 +14,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> High-risk pregnancy (HRP) is one where the mother, fetus, or newborn has a significantly greater-than-average chance of morbidity or mortality. Screening uses a systematic <strong>ABCDE framework</strong> &mdash; Age/Anthropometry, Bad obstetric history, Current pregnancy complications, Disease (medical), and Environmental/social factors &mdash; to identify at-risk women at the first ANC contact so they receive targeted, intensified care.</div>
+<div class="figure-block"><img src="assets/images/high_risk_pregnancy.png" alt="High-Risk Pregnancy" loading="lazy"><div class="figure-caption">High-Risk Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -419,6 +421,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Normal pregnancies require a <strong>minimum of 8 ANC contacts</strong> (WHO 2016 model) spaced from &lt;12 weeks through 40 weeks to detect complications early. High-risk pregnancies need <strong>fortnightly visits from 28 weeks</strong> and <strong>weekly from 34 weeks</strong>, with additional investigations &mdash; NST, serial USG, Doppler, BPP &mdash; at each contact to prevent deterioration and ensure timely intervention.</div>
+<div class="figure-block"><img src="assets/images/high_risk_pregnancy.png" alt="High-Risk Pregnancy" loading="lazy"><div class="figure-caption">High-Risk Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -581,6 +585,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Abortion is expulsion of the products of conception (POC) before 28 weeks or &lt;1000 g. Types range from threatened (bleeding, closed os, may continue) through inevitable, incomplete, complete, missed, septic, and habitual. Threatened abortion is managed with bed rest and progesterone support. Medical Termination of Pregnancy (MTP) is the legal, voluntary termination of pregnancy and is governed by the MTP Act 2021.</div>
+<div class="figure-block"><img src="assets/images/disorder_abortion_types.png" alt="Abortion / Miscarriage" loading="lazy"><div class="figure-caption">Abortion / Miscarriage</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -771,6 +777,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Abortion = expulsion of products of conception (POC) before 28 weeks / &lt;1000 g. <strong>Incomplete abortion</strong> is partial expulsion of POC with some retained inside the uterus, causing continued bleeding and an open os. Nursing management centres on uterine evacuation (MVA or D&amp;C), haemodynamic stabilisation, infection prevention, and compassionate emotional support.</div>
+<div class="figure-block"><img src="assets/images/disorder_abortion_types.png" alt="Abortion / Miscarriage" loading="lazy"><div class="figure-caption">Abortion / Miscarriage</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -986,6 +994,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Abortion = expulsion of products of conception before 28 weeks / &lt;1000 g. <strong>Septic abortion</strong> is any type of abortion complicated by uterine/pelvic infection. It is a medical emergency: fever &ge;38&deg;C, foul-smelling discharge, and uterine tenderness are the hallmarks. Management priority is <em>antibiotics first, then uterine evacuation</em>. Nurses must recognise septic shock early and act swiftly.</div>
+<div class="figure-block"><img src="assets/images/disorder_abortion_types.png" alt="Abortion / Miscarriage" loading="lazy"><div class="figure-caption">Abortion / Miscarriage</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -1231,6 +1241,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Abortion = expulsion of POC before 28 weeks / &lt;1000 g, classified as threatened, inevitable, incomplete, complete, missed, septic, and habitual. <strong>Septic abortion</strong> is any abortion complicated by uterine infection and is a medical emergency. The management rule is: <strong>IV antibiotics first (ampicillin + gentamicin + metronidazole), stabilise, then evacuate the uterus</strong>. Complications include DIC, septic shock, acute renal failure, and death if treatment is delayed.</div>
+<div class="figure-block"><img src="assets/images/disorder_abortion_types.png" alt="Abortion / Miscarriage" loading="lazy"><div class="figure-caption">Abortion / Miscarriage</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -1440,6 +1452,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Abortion = expulsion of POC before 28 weeks / &lt;1000 g. <strong>Threatened abortion</strong> is bleeding from the uterus before 28 weeks with a closed os and intact, viable fetus. Management aims to continue the pregnancy: bed rest, progesterone (dydrogesterone or vaginal micronised), haematinics, and Anti-D for Rh-negative women. About 50% of cases continue to normal delivery.</div>
+<div class="figure-block"><img src="assets/images/disorder_abortion_types.png" alt="Abortion / Miscarriage" loading="lazy"><div class="figure-caption">Abortion / Miscarriage</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -1661,6 +1675,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Mrs N, 12 weeks gestation, presents with spotting PV &mdash; the most likely diagnosis is <strong>threatened abortion</strong> (bleeding before 28 weeks with closed os and viable fetus). Abortion is expulsion of POC before 28 weeks/&lt;1000 g. Its types range from threatened through to septic and habitual. Nursing management of Mrs N&rsquo;s case focuses on bed rest, progesterone support, fetal monitoring, emotional reassurance, and patient education.</div>
+<div class="figure-block"><img src="assets/images/disorder_abortion_types.png" alt="Abortion / Miscarriage" loading="lazy"><div class="figure-caption">Abortion / Miscarriage</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction &mdash; Applying the Case</h3>
@@ -1864,6 +1880,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Abortion is expulsion of the products of conception before 28 weeks of gestation and/or before the fetus weighs 1000 g. It is classified into many types based on clinical features &mdash; threatened, inevitable, incomplete, complete, missed, septic, and habitual. Knowing each type helps nurses provide the right management and support.</div>
+<div class="figure-block"><img src="assets/images/disorder_abortion_types.png" alt="Abortion / Miscarriage" loading="lazy"><div class="figure-caption">Abortion / Miscarriage</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -2047,6 +2065,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Threatened abortion is bleeding from the uterus before 28 weeks with a closed cervical os and intact pregnancy. The aim of management is to continue the pregnancy by bed rest, progesterone support, and careful monitoring with ultrasound. Nurses play a vital role in providing supportive care, emotional reassurance, and health education.</div>
+<div class="figure-block"><img src="assets/images/disorder_abortion_types.png" alt="Abortion / Miscarriage" loading="lazy"><div class="figure-caption">Abortion / Miscarriage</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -2237,6 +2257,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Medical termination of pregnancy (MTP) in the second trimester (13&ndash;20 weeks) requires methods that can ripen the cervix and induce uterine contractions to expel a larger fetus. The main methods are mifepristone + misoprostol, extra-amniotic saline instillation, intra-amniotic injection, and surgical dilatation &amp; evacuation (D&amp;E). Misoprostol is now the drug of choice in India.</div>
+<div class="figure-block"><img src="assets/images/disorder_abortion_types.png" alt="Abortion / Miscarriage" loading="lazy"><div class="figure-caption">Abortion / Miscarriage</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -2404,6 +2426,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> First-trimester MTP (up to 12 weeks) can be done by medical methods (mifepristone + misoprostol) or surgical methods (suction evacuation / MVA). Medical MTP is the preferred method up to 9 weeks. After 9 weeks up to 12 weeks, suction evacuation is the method of choice. All methods are safe, effective, and legal under India&apos;s MTP Act 2021.</div>
+<div class="figure-block"><img src="assets/images/disorder_abortion_types.png" alt="Abortion / Miscarriage" loading="lazy"><div class="figure-caption">Abortion / Miscarriage</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -2606,6 +2630,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> A <strong>hydatidiform mole</strong> (vesicular mole) is an abnormal pregnancy where chorionic villi swell into grape-like fluid-filled cysts instead of forming a placenta. It must be evacuated immediately and followed up with serial beta-hCG to detect malignant change.</div>
+<div class="figure-block"><img src="assets/images/high_risk_pregnancy.png" alt="High-Risk Pregnancy" loading="lazy"><div class="figure-caption">High-Risk Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -2756,6 +2782,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Incompetent os</strong> (cervical incompetence) is painless, silent dilatation of the internal os of the cervix leading to recurrent mid-trimester pregnancy loss. Management is cervical cerclage (Shirodkar or McDonald stitch) placed at 14&ndash;16 weeks of gestation.</div>
+<div class="figure-block"><img src="assets/images/high_risk_pregnancy.png" alt="High-Risk Pregnancy" loading="lazy"><div class="figure-caption">High-Risk Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -2919,6 +2947,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Placenta praevia is implantation of the placenta partially or completely over the lower uterine segment (LUS), covering the internal os. It presents as <strong>sudden, painless, bright-red APH</strong> after 28 weeks, often with malpresentation. Management is conservative if &lt;36 weeks and stable (bed rest + betamethasone); C-section at &ge;37 weeks or urgently if bleeding is heavy. <strong>Never perform PV examination</strong> in suspected placenta praevia.</div>
+<div class="figure-block"><img src="assets/images/disorder_placenta_previa.png" alt="Placenta Previa" loading="lazy"><div class="figure-caption">Placenta Previa</div></div>
+
 
 <div class="figure-block">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 130" class="answer-figure">
@@ -3129,6 +3159,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Placenta praevia (PP)</strong> = placenta implanted in the lower uterine segment, causing painless APH. <strong>Abruptio placenta (AP)</strong> = premature separation of a normally-sited placenta, causing painful APH with a hard uterus. PP has four grades (I&ndash;IV). Management of PP: conservative &lt;36 weeks (bed rest + betamethasone); C-section at &ge;37 weeks or urgently if bleeding severe. Never do PV exam in PP.</div>
+<div class="figure-block"><img src="assets/images/disorder_placenta_previa.png" alt="Placenta Previa" loading="lazy"><div class="figure-caption">Placenta Previa</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -3292,6 +3324,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> The <strong>placenta</strong> is the organ of feto-maternal exchange. <strong>Placenta praevia (PP)</strong> occurs when the placenta implants in the lower uterine segment (LUS), covering the os. Obstetric management: conservative (bed rest, betamethasone) if &lt;36 weeks; C-section if &ge;37 weeks or severe bleeding. Nursing management focuses on haemodynamic monitoring, CTG, administering medications, and strict prohibition of PV examination.</div>
+<div class="figure-block"><img src="assets/images/disorder_placenta_previa.png" alt="Placenta Previa" loading="lazy"><div class="figure-caption">Placenta Previa</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -3466,6 +3500,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Abruptio placenta (accidental haemorrhage) is premature separation of a normally-sited placenta from its uterine attachment before delivery. It presents with <strong>severe sudden abdominal pain, woody-hard uterus, and shock disproportionate to visible bleeding</strong> (due to concealed haemorrhage). Medical management: IV access, blood transfusion, correct DIC, and deliver the baby urgently (by C-section or augmented vaginal delivery).</div>
+<div class="figure-block"><img src="assets/images/disorder_abruptio_placentae.png" alt="Abruptio Placentae" loading="lazy"><div class="figure-caption">Abruptio Placentae</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -3633,6 +3669,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Antepartum haemorrhage (APH) = bleeding from the genital tract after 28 weeks and before delivery. The two main causes are <strong>Placenta Praevia</strong> (painless, placenta over os) and <strong>Abruptio Placenta</strong> (painful, premature placental separation). Both are obstetric emergencies requiring immediate resuscitation and delivery. The key differentiating table is the cornerstone of exam answers on this topic.</div>
+<div class="figure-block"><img src="assets/images/disorder_placenta_previa.png" alt="Placenta Previa" loading="lazy"><div class="figure-caption">Placenta Previa</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -3802,6 +3840,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Antepartum haemorrhage (APH) = bleeding from the genital tract after 28 weeks and before delivery. Causes include placental causes (placenta praevia, abruptio placenta, vasa praevia) and local/incidental causes (show, cervical erosion, polyp, trauma). The two placental causes are the most serious and must be differentiated promptly.</div>
+<div class="figure-block"><img src="assets/images/disorder_art_ivf.png" alt="ART / IVF Process" loading="lazy"><div class="figure-caption">ART / IVF Process</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -3925,6 +3965,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Abruptio placenta (accidental haemorrhage) is premature separation of a normally-sited placenta after 28 weeks. Types: revealed (PV bleeding visible), concealed (haemorrhage trapped behind placenta, no external bleed), or mixed. Management: resuscitate (IV fluids, blood), correct DIC, and deliver urgently by C-section (fetal distress) or augmented vaginal route (IUD).</div>
+<div class="figure-block"><img src="assets/images/disorder_abruptio_placentae.png" alt="Abruptio Placentae" loading="lazy"><div class="figure-caption">Abruptio Placentae</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -4063,6 +4105,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> The most-repeated exam question on APH! Placenta praevia (PP) and abruptio placenta (AP) are both causes of APH after 28 weeks, but they differ fundamentally in presentation. PP is painless with a soft uterus and malpresentation; AP is painful with a woody-hard uterus and shock out of proportion to visible blood. A clear comparison table is the examiner’s favourite.</div>
+<div class="figure-block"><img src="assets/images/disorder_placenta_previa.png" alt="Placenta Previa" loading="lazy"><div class="figure-caption">Placenta Previa</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -4188,6 +4232,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Anaemia in pregnancy = Hb &lt;11 g/dL (WHO). It is the most common medical complication of pregnancy in India, affecting 50&ndash;60% of pregnant women. <strong>Iron deficiency anaemia (IDA)</strong> accounts for ~80% of cases. Effects: maternal (cardiac failure, PPH, infections); fetal (IUGR, prematurity, low birth weight). Management: oral iron, parenteral iron, blood transfusion if severe.</div>
+<div class="figure-block"><img src="assets/images/disorder_anemia_pregnancy.png" alt="Anemia in Pregnancy" loading="lazy"><div class="figure-caption">Anemia in Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -4396,6 +4442,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Iron deficiency anaemia (IDA) in pregnancy occurs due to increased fetal demand, inadequate dietary intake, and impaired absorption. It causes IUGR, prematurity, and low birth weight in the fetus, and cardiac failure, PPH, and poor immunity in the mother. Nursing management includes IFA supplementation, dietary counselling (iron-rich foods), monitoring Hb response (reticulocytosis in 7&ndash;10 days), and IV iron if oral therapy fails.</div>
+<div class="figure-block"><img src="assets/images/disorder_anemia_pregnancy.png" alt="Anemia in Pregnancy" loading="lazy"><div class="figure-caption">Anemia in Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -4576,6 +4624,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Anaemia in pregnancy = Hb &lt;11 g/dL (WHO). Types include nutritional (IDA &mdash; most common; megaloblastic), haemolytic, haemorrhagic, and aplastic. <strong>Severe anaemia</strong> (Hb &lt;7 g/dL) is a medical emergency requiring hospitalisation, blood transfusion (packed red cells with furosemide cover), IV iron, and correction of the underlying cause. The nursing care plan for severe anaemia must address cardiac risk, infection risk, activity intolerance, and patient education.</div>
+<div class="figure-block"><img src="assets/images/disorder_anemia_pregnancy.png" alt="Anemia in Pregnancy" loading="lazy"><div class="figure-caption">Anemia in Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -4757,6 +4807,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Anaemia in pregnancy (Hb &lt; 11 g/dL) has many causes &mdash; the most common in India is <strong>iron deficiency</strong> due to poor diet and repeated pregnancies. Other causes include folate deficiency, infections, haemolysis, and blood loss.</div>
+<div class="figure-block"><img src="assets/images/disorder_anemia_pregnancy.png" alt="Anemia in Pregnancy" loading="lazy"><div class="figure-caption">Anemia in Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -4912,6 +4964,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Management of anaemia in pregnancy targets the underlying cause, replenishes iron/folate stores with oral or IV supplements, and uses blood transfusion only for severe cases (Hb &lt; 7 g/dL near term). Prevention through routine iron-folate tablets is equally important.</div>
+<div class="figure-block"><img src="assets/images/high_risk_pregnancy.png" alt="High-Risk Pregnancy" loading="lazy"><div class="figure-caption">High-Risk Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -5098,6 +5152,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> PIH (Pregnancy-Induced Hypertension) = BP &ge;140/90 mmHg after 20 weeks in a previously normotensive woman. It is classified into gestational hypertension, pre-eclampsia, eclampsia, HELLP syndrome, and superimposed PE. Causes involve abnormal placentation and endothelial dysfunction. Management: antihypertensives (methyldopa, nifedipine), MgSO4 for seizure prophylaxis, and timely delivery.</div>
+<div class="figure-block"><img src="assets/images/disorder_eclampsia.png" alt="Eclampsia" loading="lazy"><div class="figure-caption">Eclampsia</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -5274,6 +5330,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Pre-eclampsia (PE) = BP &ge;140/90 after 20 weeks + proteinuria &ge;300 mg/24h in a previously normotensive woman. Diagnostic criteria include these two together; severe features (BP &ge;160/110, headache, visual changes, epigastric pain, oliguria, thrombocytopenia) indicate severe PE. Nursing management focuses on quiet environment, seizure precautions, antihypertensives, MgSO4, strict fluid balance, and fetal monitoring.</div>
+<div class="figure-block"><img src="assets/images/disorder_eclampsia.png" alt="Eclampsia" loading="lazy"><div class="figure-caption">Eclampsia</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -5460,6 +5518,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> PIH = BP &ge;140/90 after 20 weeks. It progresses through gestational HTN &rarr; pre-eclampsia &rarr; eclampsia. Pathophysiology: abnormal placentation &rarr; placental ischaemia &rarr; endothelial dysfunction &rarr; vasospasm &rarr; multi-organ damage. Medical management: methyldopa (antihypertensive), MgSO4 (seizure prophylaxis), and timely delivery. Nursing management: dark quiet room, seizure precautions, fluid balance, and CTG monitoring.</div>
+<div class="figure-block"><img src="assets/images/disorder_preeclampsia.png" alt="Pre-eclampsia / PIH" loading="lazy"><div class="figure-caption">Pre-eclampsia / PIH</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -5620,6 +5680,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> PIH (BP &ge;140/90 after 20 weeks) progresses through gestational HTN &rarr; pre-eclampsia &rarr; eclampsia. Complications include eclampsia, HELLP, placental abruption, CVA, renal failure, and IUD. MgSO4 is the drug of choice for seizure prophylaxis (4 g IV loading + 1&ndash;2 g/h maintenance). Antenatal care: antihypertensives + fetal monitoring. Intranatal care: MgSO4, antihypertensives, CTG, prepare for C-section.</div>
+<div class="figure-block"><img src="assets/images/disorder_preeclampsia.png" alt="Pre-eclampsia / PIH" loading="lazy"><div class="figure-caption">Pre-eclampsia / PIH</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -5797,6 +5859,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> PIH = BP &ge;140/90 after 20 weeks. <strong>Eclampsia</strong> = pre-eclampsia + tonic-clonic convulsions not attributed to another cause. Clinical features of eclampsia include prodromal warning signs followed by 4 stages of convulsion (premonitory, tonic, clonic, post-ictal). Immediate management: ABCDE approach + MgSO4 4 g IV + antihypertensives + deliver after stabilisation.</div>
+<div class="figure-block"><img src="assets/images/disorder_eclampsia.png" alt="Eclampsia" loading="lazy"><div class="figure-caption">Eclampsia</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -6008,6 +6072,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Pre-eclampsia is hypertension (&ge;140/90 mmHg) with proteinuria after 20 weeks. <strong>Eclampsia</strong> = pre-eclampsia + convulsions. 4 stages: premonitory, tonic, clonic, coma. MgSO4 (Pritchard regimen) is drug of choice. <strong>Delivery = definitive cure</strong>.</div>
+<div class="figure-block"><img src="assets/images/disorder_eclampsia.png" alt="Eclampsia" loading="lazy"><div class="figure-caption">Eclampsia</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -6084,6 +6150,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> The <strong>roll-over test</strong> is a simple antenatal screening test for pre-eclampsia. The woman's blood pressure is recorded in the left lateral position, then again after she rolls onto her back (supine). A rise in diastolic BP of <strong>&ge;20 mmHg</strong> on turning supine is a positive test, signalling heightened risk of gestational hypertension and pre-eclampsia.</div>
+<div class="figure-block"><img src="assets/images/high_risk_pregnancy.png" alt="High-Risk Pregnancy" loading="lazy"><div class="figure-caption">High-Risk Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -6186,6 +6254,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> HELLP syndrome is a life-threatening complication of severe pre-eclampsia characterised by <strong>H</strong>aemolysis, <strong>EL</strong>evated Liver enzymes, and <strong>L</strong>ow <strong>P</strong>latelet count. It is a medical emergency requiring prompt diagnosis, delivery of the baby, and intensive maternal care. The nurse must recognise the triad of right upper quadrant pain, nausea/vomiting, and headache, and escalate immediately.</div>
+<div class="figure-block"><img src="assets/images/disorder_hellp_syndrome.png" alt="HELLP Syndrome" loading="lazy"><div class="figure-caption">HELLP Syndrome</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -6323,6 +6393,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Gestational diabetes mellitus (GDM)</strong> is glucose intolerance that first appears or is first recognised during pregnancy. It affects about 7&ndash;10% of pregnancies. GDM increases risks for the mother (PIH, polyhydramnios, operative delivery, future type 2 DM) and the foetus (macrosomia, birth injury, neonatal hypoglycaemia). Management involves <strong>medical nutrition therapy (MNT)</strong>, glucose monitoring, insulin if needed, and antenatal nursing surveillance of both mother and baby.</div>
+<div class="figure-block"><img src="assets/images/disorder_gestational_diabetes.png" alt="Gestational Diabetes" loading="lazy"><div class="figure-caption">Gestational Diabetes</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -6509,6 +6581,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Diabetes mellitus in pregnancy</strong> refers to pre-existing (pre-gestational) type 1 or type 2 diabetes in a woman who becomes pregnant. It carries higher risks than GDM &mdash; congenital anomalies, pre-eclampsia, macrosomia, stillbirth. Management during labour focuses on <strong>tight glucose control</strong> (maintain maternal blood glucose 70&ndash;126 mg/dL) using an insulin-glucose infusion, continuous foetal monitoring, and careful timing of delivery to prevent neonatal hypoglycaemia.</div>
+<div class="figure-block"><img src="assets/images/disorder_gestational_diabetes.png" alt="Gestational Diabetes" loading="lazy"><div class="figure-caption">Gestational Diabetes</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -6662,6 +6736,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Heart disease complicates about 1&ndash;3% of pregnancies and is a leading indirect cause of maternal mortality. The most common lesions are <strong>rheumatic heart disease</strong> (mitral stenosis) and <strong>congenital heart disease</strong> (ASD, VSD, PDA). Pregnancy increases cardiac output, blood volume, and heart rate &mdash; peaking at 28&ndash;32 weeks and again during labour. Diagnosis relies on history, clinical examination (murmurs, cyanosis, oedema), ECG, and echocardiography. Management is a team effort: cardiologist, obstetrician, and nurse-midwife working together to reduce cardiac workload.</div>
+<div class="figure-block"><img src="assets/images/disorder_heart_disease_pregnancy.png" alt="Heart Disease in Pregnancy" loading="lazy"><div class="figure-caption">Heart Disease in Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -6838,6 +6914,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Management of heart disease in pregnancy aims to <strong>reduce cardiac workload</strong>, prevent heart failure, and ensure safe delivery. The key principles are: adequate rest, low-salt diet, treat anaemia and infections promptly, and avoid strenuous activity. During labour, use left lateral position, epidural analgesia, oxygen, and shorten the second stage. Ergometrine is contraindicated; oxytocin is used cautiously.</div>
+<div class="figure-block"><img src="assets/images/disorder_heart_disease_pregnancy.png" alt="Heart Disease in Pregnancy" loading="lazy"><div class="figure-caption">Heart Disease in Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -6950,6 +7028,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> An ovarian tumour discovered during pregnancy increases risks for both mother and baby. Effects include <strong>torsion, rupture, obstruction of labour</strong>, and mistaken diagnosis. Management depends on gestation: in the first trimester, observe (most corpus luteum cysts resolve); in the second trimester, surgical removal (cystectomy) if persistent &gt;6 cm; in the third trimester, plan C-section with tumour removal if it obstructs the pelvis.</div>
+<div class="figure-block"><img src="assets/images/high_risk_pregnancy.png" alt="High-Risk Pregnancy" loading="lazy"><div class="figure-caption">High-Risk Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -7062,6 +7142,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Hyperemesis gravidarum (HG)</strong> is severe, persistent nausea and vomiting in early pregnancy that leads to dehydration, electrolyte imbalance, ketonuria, and weight loss (&gt;5% of pre-pregnancy weight). It is more serious than simple morning sickness. Treatment includes IV fluids, antiemetics (ondansetron, metoclopramide), thiamine and B-complex vitamins, and nutritional support. Severe cases require hospitalisation.</div>
+<div class="figure-block"><img src="assets/images/disorder_hyperemesis_gravidarum.png" alt="Hyperemesis Gravidarum" loading="lazy"><div class="figure-caption">Hyperemesis Gravidarum</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -7186,6 +7268,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Hyperemesis gravidarum (HG)</strong> is severe, persistent nausea and vomiting of early pregnancy that causes dehydration, electrolyte imbalance, ketonuria, and &ge;5% weight loss. It is the top cause of hospital admission in the first trimester. Nursing management is central &mdash; IV rehydration, antiemetic therapy, thiamine supplementation, dietary counselling, daily weight monitoring, and emotional support. Most women improve by 20&ndash;24 weeks with appropriate care.</div>
+<div class="figure-block"><img src="assets/images/disorder_hyperemesis_gravidarum.png" alt="Hyperemesis Gravidarum" loading="lazy"><div class="figure-caption">Hyperemesis Gravidarum</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -7373,6 +7457,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>TORCH infections</strong> are a group of vertically transmitted (mother-to-foetus) infections that cause congenital anomalies, IUGR, and neonatal disease. The acronym stands for <strong>T</strong>oxoplasma, <strong>O</strong>ther (syphilis, varicella, parvovirus), <strong>R</strong>ubella, <strong>C</strong>ytomegalovirus, <strong>H</strong>erpes simplex. Prevention through vaccination (rubella), screening, and treating maternal infections is key. The nurse counsels women on hygiene (avoid cat litter for toxoplasma) and ensures rubella immunity before pregnancy.</div>
+<div class="figure-block"><img src="assets/images/high_risk_pregnancy.png" alt="High-Risk Pregnancy" loading="lazy"><div class="figure-caption">High-Risk Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -7476,6 +7562,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Monilial vaginitis (Candidal vaginitis)</strong> is a fungal infection of the vagina caused by <em>Candida albicans</em>, common in pregnancy due to increased oestrogen and glycogen in vaginal secretions. It presents with intense <strong>pruritus, thick curdy-white discharge (resembling cottage cheese), dyspareunia, and burning micturition</strong>. Treatment is with topical clotrimazole or miconazole (safe in pregnancy). Oral fluconazole is avoided in the first trimester.</div>
+<div class="figure-block"><img src="assets/images/high_risk_pregnancy.png" alt="High-Risk Pregnancy" loading="lazy"><div class="figure-caption">High-Risk Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -7590,6 +7678,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Isoimmunisation (Rh incompatibility)</strong> occurs when an Rh-negative mother carries an Rh-positive baby and develops antibodies against the Rh (D) antigen. These anti-D antibodies cross the placenta in subsequent pregnancies and destroy foetal RBCs, causing <strong>haemolytic disease of the foetus and newborn (HDFN)</strong> &mdash; ranging from mild jaundice to hydrops fetalis and stillbirth. Prevention with <strong>Anti-D immunoglobulin</strong> at 28 weeks and within 72 hours of delivery is highly effective. Management of an already-sensitised mother involves serial antibody titres, MCA Doppler USG, and intrauterine transfusion if needed.</div>
+<div class="figure-block"><img src="assets/images/high_risk_pregnancy.png" alt="High-Risk Pregnancy" loading="lazy"><div class="figure-caption">High-Risk Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -7789,6 +7879,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Rh incompatibility</strong> occurs when an Rh-negative mother carries an Rh-positive baby; the mother's immune system may produce anti-D antibodies that cross the placenta and destroy foetal RBCs (HDFN). <strong>Maternal complications:</strong> mainly psychological (anxiety, guilt) and obstetric (polyhydramnios, C-section). <strong>Foetal/neonatal complications:</strong> haemolytic anaemia, hydrops fetalis, jaundice, kernicterus, stillbirth. Antenatal counselling focuses on <strong>prevention (Anti-D), surveillance (MCA Doppler), and planning delivery</strong> at a centre with neonatal ICU.</div>
+<div class="figure-block"><img src="assets/images/disorder_rh_incompatibility.png" alt="Rh Incompatibility" loading="lazy"><div class="figure-caption">Rh Incompatibility</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -7931,6 +8023,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Rh incompatibility</strong> happens when an Rh-negative mother carries an Rh-positive baby and develops antibodies (anti-D) that attack the baby's blood cells. The <strong>haemolytic disease</strong> that results ranges from mild jaundice to fatal hydrops fetalis. The nurse's role in prevention is vital: ensure Rh typing and antibody screening at booking, administer <strong>Anti-D at 28 weeks and within 72 hours post-delivery</strong>, educate the mother, and coordinate care with the obstetric team.</div>
+<div class="figure-block"><img src="assets/images/disorder_rh_incompatibility.png" alt="Rh Incompatibility" loading="lazy"><div class="figure-caption">Rh Incompatibility</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -8074,6 +8168,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Management of Rh incompatibility depends on whether the mother is already sensitised. <strong>Unsensitised:</strong> give Anti-D 300 mcg IM at 28 weeks and within 72 hours of delivery of an Rh-positive baby; also after sensitising events. <strong>Sensitised:</strong> no role for Anti-D; monitor antibody titre every 2&ndash;4 weeks; if critical titre (1:8&ndash;1:16) is reached, perform MCA Doppler USG weekly; if MCA-PSV &gt;1.5 MoM, refer for intrauterine transfusion. Plan delivery at a tertiary centre with NICU at 37&ndash;38 weeks.</div>
+<div class="figure-block"><img src="assets/images/high_risk_pregnancy.png" alt="High-Risk Pregnancy" loading="lazy"><div class="figure-caption">High-Risk Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -8186,6 +8282,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Rh-isoimmunisation</strong> is the process by which an Rh-negative individual produces anti-D antibodies after exposure to Rh-positive blood. In pregnancy, this occurs when foetal Rh-positive RBCs enter the maternal circulation (at delivery, miscarriage, trauma, or invasive procedures). The anti-D antibodies cross the placenta in subsequent pregnancies and destroy foetal RBCs, causing haemolytic disease of the foetus and newborn (HDFN).</div>
+<div class="figure-block"><img src="assets/images/high_risk_pregnancy.png" alt="High-Risk Pregnancy" loading="lazy"><div class="figure-caption">High-Risk Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -8282,6 +8380,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Anti-D immunoglobulin</strong> is a preparation of anti-Rh(D) IgG antibodies used to prevent Rh isoimmunisation. It works by binding to and clearing Rh-positive foetal RBCs from the maternal circulation before the mother's immune system can produce its own anti-D antibodies. Given as <strong>300 mcg (1500 IU) IM</strong>: at <strong>28 weeks</strong> gestation (routine antenatal prophylaxis), within <strong>72 hours of delivery</strong> of an Rh-positive baby, and after any sensitising event (miscarriage, abortion, APH, amniocentesis). It is not given if the mother is already sensitised.</div>
+<div class="figure-block"><img src="assets/images/high_risk_pregnancy.png" alt="High-Risk Pregnancy" loading="lazy"><div class="figure-caption">High-Risk Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -8398,6 +8498,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Polyhydramnios</strong> is an excessive amount of amniotic fluid (AFI &gt;24 cm or single deepest pocket &gt;8 cm). It affects about 1&ndash;2% of pregnancies and is associated with maternal complications (preterm labour, PPH, abruption) and foetal complications (congenital anomalies, malpresentation, cord prolapse). Management depends on severity: mild cases are observed; moderate-severe cases may need therapeutic amnioreduction, and delivery is often indicated if foetal distress or maternal respiratory compromise occurs.</div>
+<div class="figure-block"><img src="assets/images/disorder_polyhydramnios.png" alt="Polyhydramnios" loading="lazy"><div class="figure-caption">Polyhydramnios</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -8566,6 +8668,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Polyhydramnios</strong> is excess amniotic fluid (AFI &gt;24 cm). Common causes include idiopathic, maternal diabetes, and foetal anomalies (GI/neurological). Complications include preterm labour, abruption, PPH, and cord prolapse. <strong>Placental abnormalities:</strong> succenturiate lobe, placenta previa, placenta accreta, circumvallate placenta. <strong>Cord abnormalities:</strong> true knots, nuchal cord, velamentous insertion, single umbilical artery, vasa previa. Knowledge of these helps the nurse anticipate complications and prepare for emergencies.</div>
+<div class="figure-block"><img src="assets/images/high_risk_pregnancy.png" alt="High-Risk Pregnancy" loading="lazy"><div class="figure-caption">High-Risk Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -8714,6 +8818,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Polyhydramnios</strong> is excessive amniotic fluid (AFI &gt;24 cm). Causes include idiopathic, maternal diabetes, foetal GI/neurological anomalies, and multiple pregnancy. Complications: preterm labour, abruption, PPH, cord prolapse, malpresentation. Management: identify and treat underlying cause, monitor AFI, therapeutic amnioreduction for severe cases, and plan for controlled amniotomy at delivery with PPH precautions.</div>
+<div class="figure-block"><img src="assets/images/disorder_polyhydramnios.png" alt="Polyhydramnios" loading="lazy"><div class="figure-caption">Polyhydramnios</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -8823,6 +8929,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Oligohydramnios</strong> is deficient amniotic fluid (AFI &lt;5 cm or SDP &lt;2 cm). Causes include foetal renal anomalies (PUJ obstruction, bilateral renal agenesis), PROM, IUGR, post-term pregnancy, and maternal drugs (ACE inhibitors, NSAIDs). Complications: foetal compression (Potter sequence), pulmonary hypoplasia, cord compression, and limb deformities. Management: identify cause, serial AFI monitoring, maternal hydration, amnioinfusion in labour, and planned early delivery if severe.</div>
+<div class="figure-block"><img src="assets/images/disorder_oligohydramnios.png" alt="Oligohydramnios" loading="lazy"><div class="figure-caption">Oligohydramnios</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -8990,6 +9098,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Oligohydramnios</strong> (AFI &lt;5 cm) significantly affects the foetus &mdash; pulmonary hypoplasia, Potter sequence (facial compression, limb deformities), cord compression (variable decelerations), and IUGR. Nursing management: monitor AFI, CTG for variable decelerations, administer IV fluids for maternal hydration, assist with amnioinfusion in labour if ordered, prepare for emergency C-section, and educate the mother about the condition.</div>
+<div class="figure-block"><img src="assets/images/disorder_oligohydramnios.png" alt="Oligohydramnios" loading="lazy"><div class="figure-caption">Oligohydramnios</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -9105,6 +9215,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Oligohydramnios</strong> (AFI &lt;5 cm) causes foetal cord compression, variable decelerations, and meconium passage. <strong>First stage management</strong> focuses on continuous CTG monitoring, maternal hydration, sterile vaginal examination to assess for cord prolapse, amnioinfusion to cushion the cord, and early detection of foetal distress. If severe variable decelerations persist despite amnioinfusion, emergency C-section is indicated.</div>
+<div class="figure-block"><img src="assets/images/disorder_oligohydramnios.png" alt="Oligohydramnios" loading="lazy"><div class="figure-caption">Oligohydramnios</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -9235,6 +9347,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Oligohydramnios</strong> (AFI &lt;5 cm) has causes grouped as: <strong>foetal</strong> (renal anomalies, IUGR, post-term), <strong>placental</strong> (insufficiency, abruption, TTTS), <strong>maternal</strong> (PROM, dehydration, drugs like ACE inhibitors/NSAIDs). Foetal effects: pulmonary hypoplasia, cord compression, Potter features, meconium aspiration. Management: treat cause, maternal hydration, serial AFI, CTG monitoring, amnioinfusion in labour, and delivery if foetal compromise.</div>
+<div class="figure-block"><img src="assets/images/disorder_oligohydramnios.png" alt="Oligohydramnios" loading="lazy"><div class="figure-caption">Oligohydramnios</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -9363,6 +9477,8 @@ window.QUESTIONS_DATA_OBG2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> <strong>Oligohydramnios</strong> is deficient amniotic fluid (AFI &lt;5 cm or SDP &lt;2 cm). Common causes: PROM, IUGR, post-term pregnancy, foetal renal anomalies, placental insufficiency, maternal dehydration/NSAIDs. Foetal risks include cord compression (variable decelerations), pulmonary hypoplasia, Potter features, and meconium aspiration. Management focuses on monitoring, maternal hydration, amnioinfusion in labour, and timely delivery.</div>
+<div class="figure-block"><img src="assets/images/disorder_oligohydramnios.png" alt="Oligohydramnios" loading="lazy"><div class="figure-caption">Oligohydramnios</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -9460,6 +9576,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Multiple pregnancy = two or more fetuses. Twins: dizygotic (70%, 2 eggs) or monozygotic (30%, 1 egg splits). Complications: preterm, PIH, anaemia, PPH, TTTS. Management: intensive ANC, serial USG, planned delivery at 36&ndash;37 weeks.</div>
+<div class="figure-block"><img src="assets/images/disorder_multiple_pregnancy.png" alt="Multiple Pregnancy (Twins)" loading="lazy"><div class="figure-caption">Multiple Pregnancy (Twins)</div></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Multiple pregnancy, especially twin gestation, significantly increases maternal and foetal risks. In India, the increasing use of assisted reproduction technology (ART) has raised the incidence. Mrs. Lata's case highlights the need for intensive neonatal care for low-birth-weight infants (each &lt;2.5 kg) alongside skilled postpartum nursing to prevent complications such as PPH, hypothermia, and infection.</p>
@@ -9590,6 +9708,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2018",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Twins classified by zygosity (mono/dizygotic) and chorionicity (DCDA/MCDA/MCMA). Chorionicity determines management and risk. DCDA safest; MCMA most dangerous. USG before 14 weeks is essential.</div>
+<div class="figure-block"><img src="assets/images/disorder_multiple_pregnancy.png" alt="Multiple Pregnancy (Twins)" loading="lazy"><div class="figure-caption">Multiple Pregnancy (Twins)</div></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Multiple pregnancy is increasingly common in India due to ART and advanced maternal age. The type of twin pregnancy determined by chorionicity is the single most important factor governing antenatal management and perinatal risk. Early ultrasound before 14 weeks is essential to determine chorionicity and plan care accordingly.</p>
@@ -9688,6 +9808,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2014",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Maternal: anaemia, PIH, polyhydramnios, preterm, PPH, higher C-section. Fetal: prematurity, IUGR, TTTS, malpresentation, cord entanglement.</div>
+<div class="figure-block"><img src="assets/images/disorder_multiple_pregnancy.png" alt="Multiple Pregnancy (Twins)" loading="lazy"><div class="figure-caption">Multiple Pregnancy (Twins)</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -9763,6 +9885,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Normal cord: 50 cm, 2 arteries, 1 vein, Wharton&rsquo;s jelly. Abnormalities: short/long cord, single umbilical artery, true knots, nuchal cord, cord prolapse, velamentous insertion, vasa praevia.</div>
+<div class="figure-block"><img src="assets/images/high_risk_pregnancy.png" alt="High-Risk Pregnancy" loading="lazy"><div class="figure-caption">High-Risk Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -9855,6 +9979,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2019",
     answer: `
 <div class="in-short"><strong>In Short:</strong> IUGR = estimated fetal weight &lt;10th percentile. Two types: symmetric (20%, early, all organs small) and asymmetric (80%, late, brain-sparing, head &gt; abdomen). Doppler worsening: high RI &rarr; AEDF &rarr; REDF &rarr; DV abnormal. Management: treat cause, serial monitoring, corticosteroids, timely delivery.</div>
+<div class="figure-block"><img src="assets/images/disorder_iugr.png" alt="Intrauterine Growth Restriction" loading="lazy"><div class="figure-caption">Intrauterine Growth Restriction</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -9986,6 +10112,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2016, Winter 2017, Summer 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Symmetric (20%): early onset, all organs small equally, caused by genetic/TORCH. Asymmetric (80%): late onset, brain-sparing effect (head &gt; abdomen), caused by placental insufficiency. HC &gt; AC = asymmetric.</div>
+<div class="figure-block"><img src="assets/images/disorder_iugr.png" alt="Intrauterine Growth Restriction" loading="lazy"><div class="figure-caption">Intrauterine Growth Restriction</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -10064,6 +10192,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> IUFD = fetal death after 28 weeks before delivery. Common causes: PIH, abruption, IUGR, cord accidents. Diagnosis: absent FM + no FHR + USG confirmation. Management: misoprostol induction; watch for DIC. Emotional support is the key nursing role.</div>
+<div class="figure-block"><img src="assets/images/high_risk_pregnancy.png" alt="High-Risk Pregnancy" loading="lazy"><div class="figure-caption">High-Risk Pregnancy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -10158,6 +10288,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2021, Summer 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Obstructed labour = presenting part cannot descend despite adequate contractions due to mechanical barrier. Signs: Bandl&rsquo;s ring, moulding +3, maternal exhaustion. Management: stop oxytocin, IV fluids, catheterise, emergency C-section.</div>
+<div class="figure-block"><img src="assets/images/disorder_obstructed_labour.png" alt="Obstructed Labour" loading="lazy"><div class="figure-caption">Obstructed Labour</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -10293,6 +10425,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2014, Summer 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Prolonged labour = active phase &gt;12h (primi) or &gt;8h (multi). Cervix dilates &lt;1 cm/hr. Causes: 3 P&rsquo;s (Power, Passage, Passenger). Diagnosis: partograph. Management: hydration, oxytocin for power; C-section for passage.</div>
+<div class="figure-block"><img src="assets/images/disorder_prolonged_labour.png" alt="Prolonged Labour" loading="lazy"><div class="figure-caption">Prolonged Labour</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -10390,6 +10524,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2015",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Causes of prolonged labour: 3 P&rsquo;s &mdash; Power (inadequate contractions), Passage (contracted pelvis, tumour), Passenger (malpresentation, macrosomia). Also: anxiety, dehydration, full bladder, cervical rigidity.</div>
+<div class="figure-block"><img src="assets/images/disorder_prolonged_labour.png" alt="Prolonged Labour" loading="lazy"><div class="figure-caption">Prolonged Labour</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -10464,6 +10600,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2016",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Prolonged labour = active phase &gt;12h (primi) or &gt;8h (multi), cervical dilation &lt;1 cm/hr. Caused by 3 P&rsquo;s. Diagnosed by partograph. Management: correct the cause.</div>
+<div class="figure-block"><img src="assets/images/disorder_prolonged_labour.png" alt="Prolonged Labour" loading="lazy"><div class="figure-caption">Prolonged Labour</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -10542,6 +10680,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2014",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Malpresentation = any presentation other than vertex. Breech (most common, 3&ndash;4%): frank (65%), complete (25%), footling (10%). Management: ECV at 37 wks; C-section for footling. Complications: head entrapment, cord prolapse.</div>
+<div class="figure-block"><img src="assets/images/disorder_breech_types.png" alt="Breech Presentation Types" loading="lazy"><div class="figure-caption">Breech Presentation Types</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -10673,6 +10813,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2019",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Breech = buttocks/feet presenting (3&ndash;4% at term). Etiology: prematurity, multiparity, uterine anomalies, placenta praevia. Diagnosis: hard head in fundus, FHR above umbilicus, USG. Management: ECV at 37 wks; C-section if failed.</div>
+<div class="figure-block"><img src="assets/images/disorder_breech_types.png" alt="Breech Presentation Types" loading="lazy"><div class="figure-caption">Breech Presentation Types</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -10775,6 +10917,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2016",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Malpresentation = any presentation other than vertex. Types: breech (most common), face, brow, shoulder/transverse, compound. Brow = worst (mentovertical diameter 13.5 cm = always C-section).</div>
+<div class="figure-block"><img src="assets/images/disorder_breech_types.png" alt="Breech Presentation Types" loading="lazy"><div class="figure-caption">Breech Presentation Types</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -10870,6 +11014,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2021",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Occipitoposterior (OP) = fetal occiput facing mother&rsquo;s sacrum (back-to-back). Causes severe backache labour. 65% rotate to OA spontaneously. If persistent: manual rotation, Kielland&rsquo;s forceps, or C-section.</div>
+<div class="figure-block"><img src="assets/images/abnormal_labour.png" alt="Abnormal Labour" loading="lazy"><div class="figure-caption">Abnormal Labour</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -10972,6 +11118,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2017, Winter 2018",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Contracted pelvis = pelvic diameters smaller than normal. Normal AP inlet = 11 cm; &lt;10 = contracted; &lt;8 = always C-section. Types: flat, generally contracted, funnel. Management: trial of labour if mild; C-section if severe.</div>
+<div class="figure-block"><img src="assets/images/disorder_pelvis_types.png" alt="Types of Maternal Pelvis" loading="lazy"><div class="figure-caption">Types of Maternal Pelvis</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -11058,6 +11206,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2021",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Obstetric emergencies: eclampsia, cord prolapse, PPH, shoulder dystocia, uterine rupture, AFE, uterine inversion. Footling breech is the most dangerous breech type (foot slips through undilated cervix &rarr; head trapped).</div>
+<div class="figure-block"><img src="assets/images/disorder_breech_types.png" alt="Breech Presentation Types" loading="lazy"><div class="figure-caption">Breech Presentation Types</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -11155,6 +11305,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2015, Summer 2019, Winter 2024, Winter 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Obstetric emergencies = sudden life-threatening conditions. Key ones: eclampsia (MgSO4), cord prolapse (push head UP), PPH (rub uterus), shoulder dystocia (McRoberts), uterine rupture (laparotomy), AFE (CPR+ICU).</div>
+<div class="figure-block"><img src="assets/images/abnormal_labour.png" alt="Abnormal Labour" loading="lazy"><div class="figure-caption">Abnormal Labour</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -11243,6 +11395,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2017",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Obstetric emergencies demand instant action. Cord prolapse: push presenting part UP, knee-chest, fill bladder 500mL saline, emergency C-section. PPH: rub uterus. Eclampsia: MgSO4.</div>
+<div class="figure-block"><img src="assets/images/disorder_cord_prolapse.png" alt="Umbilical Cord Prolapse" loading="lazy"><div class="figure-caption">Umbilical Cord Prolapse</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -11341,6 +11495,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2016",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Cord prolapse = cord descends below presenting part after ROM. Obstetric emergency &mdash; fetal death in minutes. Management: push head UP, knee-chest, fill bladder 500mL, keep cord warm, emergency C-section.</div>
+<div class="figure-block"><img src="assets/images/disorder_cord_prolapse.png" alt="Umbilical Cord Prolapse" loading="lazy"><div class="figure-caption">Umbilical Cord Prolapse</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -11448,6 +11604,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2014, Summer 2021",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Cord prolapse management: (1) Push presenting part UP, (2) Knee-chest position, (3) Fill bladder 500mL saline, (4) Keep cord warm/moist, (5) Emergency C-section. Never push cord back.</div>
+<div class="figure-block"><img src="assets/images/disorder_cord_prolapse.png" alt="Umbilical Cord Prolapse" loading="lazy"><div class="figure-caption">Umbilical Cord Prolapse</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -11523,6 +11681,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2014, Winter 2022, Winter 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> AFE = amniotic fluid enters maternal circulation &rarr; anaphylactoid reaction &rarr; cardiorespiratory collapse + DIC. Mortality 60&ndash;80%. Triad: respiratory distress + cardiovascular collapse + DIC. Treatment: CPR + intubation + blood products + ICU.</div>
+<div class="figure-block"><img src="assets/images/disorder_amniotic_fluid_embolism.png" alt="Amniotic Fluid Embolism (AFE)" loading="lazy"><div class="figure-caption">Amniotic Fluid Embolism (AFE)</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -11606,6 +11766,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2014, Winter 2019, Summer 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Uterine inversion = uterus turns inside out after delivery. Cause: pulling cord before placental separation. Treatment: Johnson&rsquo;s manoeuvre (push fundus back up), stop oxytocin, IV fluids. Do NOT remove placenta first.</div>
+<div class="figure-block"><img src="assets/images/disorder_uterine_inversion.png" alt="Uterine Inversion" loading="lazy"><div class="figure-caption">Uterine Inversion</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -11683,6 +11845,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Fetal distress = fetal hypoxia. Signs: abnormal FHR (&lt;110 or &gt;160), meconium-stained liquor, abnormal CTG. Management: left lateral + O2 + stop oxytocin + IV fluids. If not improving: emergency delivery.</div>
+<div class="figure-block"><img src="assets/images/abnormal_labour.png" alt="Abnormal Labour" loading="lazy"><div class="figure-caption">Abnormal Labour</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -11769,6 +11933,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2016, Summer 2018",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Birth canal injuries: cervical tears, vaginal tears, perineal tears (1st&ndash;4th degree), vulval lacerations. Caused by: precipitate labour, instrumental delivery, macrosomia. Systematic inspection after every delivery.</div>
+<div class="figure-block"><img src="assets/images/abnormal_labour.png" alt="Abnormal Labour" loading="lazy"><div class="figure-caption">Abnormal Labour</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -11854,6 +12020,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2014, Winter 2022, Winter 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Perineal tear degrees: 1st = skin; 2nd = skin + muscle; 3rd = anal sphincter; 4th = rectal mucosa. Prevention: controlled delivery, perineal support, selective episiotomy. 3rd/4th require OT repair.</div>
+<div class="figure-block"><img src="assets/images/disorder_perineal_tear.png" alt="Perineal Tears" loading="lazy"><div class="figure-caption">Perineal Tears</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -11938,6 +12106,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2015, Summer 2019, Summer 2020, Winter 2020, Winter 2022, Summer 2023, Winter 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Episiotomy = planned surgical incision of perineum during delivery. Types: mediolateral (most common, safer) and median. NOT routine &mdash; only when indicated. Repair with absorbable sutures.</div>
+<div class="figure-block"><img src="assets/images/abnormal_labour.png" alt="Abnormal Labour" loading="lazy"><div class="figure-caption">Abnormal Labour</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -12027,6 +12197,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2018, Summer 2021, Summer 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Induction = artificially starting labour. Indications: post-dates, PPROM, PIH, GDM, IUGR. Methods: prostaglandins (cervical ripening), ARM, oxytocin. Bishop Score &ge;6 = favourable cervix.</div>
+<div class="figure-block"><img src="assets/images/abnormal_labour.png" alt="Abnormal Labour" loading="lazy"><div class="figure-caption">Abnormal Labour</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -12113,6 +12285,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2021, Winter 2024, Summer 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Ventouse = vacuum cup on fetal scalp to assist delivery. Prerequisites: full dilation, vertex, engaged, ruptured membranes. Advantages over forceps: less maternal trauma. Risk: cephalhaematoma, subgaleal haemorrhage.</div>
+<div class="figure-block"><img src="assets/images/disorder_instrumental_delivery.png" alt="Instrumental Delivery" loading="lazy"><div class="figure-caption">Instrumental Delivery</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -12189,6 +12363,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Forceps = metal instruments on fetal head to assist delivery. Types: outlet (Wrigley&rsquo;s), low (Simpson&rsquo;s), mid-cavity (Kielland&rsquo;s for rotation). Risk: facial nerve palsy, perineal tears.</div>
+<div class="figure-block"><img src="assets/images/disorder_instrumental_delivery.png" alt="Instrumental Delivery" loading="lazy"><div class="figure-caption">Instrumental Delivery</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -12272,6 +12448,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Caesarean section = delivery through abdominal + uterine incision. LSCS (95%, transverse lower segment, safer) vs Classical (5%, vertical upper segment). Pre-op: consent, NPO, IV, crossmatch, Foley, antibiotics. Post-op: vitals q15min, early ambulation, breastfeed within 1 hour.</div>
+<div class="figure-block"><img src="assets/images/disorder_caesarean_section.png" alt="Caesarean Section" loading="lazy"><div class="figure-caption">Caesarean Section</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -12406,6 +12584,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> C-section types: LSCS (95%, safer, VBAC possible) vs Classical (5%, higher rupture risk). Pre-op: CAN I CUT mnemonic. Post-op: vitals q15min, early ambulation 12&ndash;24h, breastfeed within 1 hour.</div>
+<div class="figure-block"><img src="assets/images/disorder_caesarean_section.png" alt="Caesarean Section" loading="lazy"><div class="figure-caption">Caesarean Section</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -12501,6 +12681,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> C-section rate rising (WHO ideal: 10&ndash;15%). Factors: defensive medicine, repeat C-sections, CTG overuse, maternal request, ART pregnancies, reduced training in vaginal breech/forceps. Mother preparation: physical (NPO, IV, prep) + psychological (counselling, consent).</div>
+<div class="figure-block"><img src="assets/images/disorder_caesarean_section.png" alt="Caesarean Section" loading="lazy"><div class="figure-caption">Caesarean Section</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -12594,6 +12776,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2017",
     answer: `
 <div class="in-short"><strong>In Short:</strong> C-section indications: Absolute (always C-section): major placenta praevia, cord prolapse, transverse lie, severe CPD. Relative: fetal distress, malpresentation, failed induction, prolonged labour.</div>
+<div class="figure-block"><img src="assets/images/disorder_caesarean_section.png" alt="Caesarean Section" loading="lazy"><div class="figure-caption">Caesarean Section</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -12668,6 +12852,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> PV exam assesses cervical dilation, effacement, station, position, presentation, membranes, moulding, pelvis. Done every 4 hours in active labour. Aseptic technique; informed consent. Contraindicated in placenta praevia.</div>
+<div class="figure-block"><img src="assets/images/abnormal_labour.png" alt="Abnormal Labour" loading="lazy"><div class="figure-caption">Abnormal Labour</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -12758,6 +12944,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2015, Summer 2020, Summer 2022, Summer 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Bishop Score assesses cervical readiness for induction: 5 parameters (Dilation, Effacement, Station, Consistency, Position). &ge;6 = favourable (proceed with induction). &lt;6 = needs cervical ripening first.</div>
+<div class="figure-block"><img src="assets/images/disorder_bishop_score.png" alt="Bishop Score Criteria" loading="lazy"><div class="figure-caption">Bishop Score Criteria</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -12848,6 +13036,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2016, Summer 2021",
     answer: `
 <div class="in-short"><strong>In Short:</strong> MgSO4 = drug of choice for eclamptic convulsions. Pritchard regimen: 4g IV + 5g IM each buttock (loading); 5g IM q4h (maintenance). Monitor RUK before each dose. Antidote: calcium gluconate 10%.</div>
+<div class="figure-block"><img src="assets/images/disorder_magnesium_sulfate.png" alt="Magnesium Sulfate Toxicity Monitoring" loading="lazy"><div class="figure-caption">Magnesium Sulfate Toxicity Monitoring</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -12936,6 +13126,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2019, Winter 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Methylergometrine (Methergin) = ergot alkaloid causing sustained uterine contraction. Dose: 0.2 mg IM/IV. Used in PPH. Contraindicated in hypertension, PIH, heart disease. Check BP before giving. Store in refrigerator.</div>
+<div class="figure-block"><img src="assets/images/abnormal_labour.png" alt="Abnormal Labour" loading="lazy"><div class="figure-caption">Abnormal Labour</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -13026,6 +13218,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2014",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Tocolytics suppress premature contractions to delay preterm delivery by 48 hours (for corticosteroids). Nifedipine (1st line), isoxsuprine, MgSO4, indomethacin. Monitor vitals, FHR, pulmonary oedema risk.</div>
+<div class="figure-block"><img src="assets/images/disorder_tocolytics.png" alt="Tocolytic Medications" loading="lazy"><div class="figure-caption">Tocolytic Medications</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -13113,6 +13307,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2015",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Puerperal sepsis = infection of the genital tract after delivery. Caused by: poor asepsis, prolonged labour, PROM, retained products. Signs: fever &ge;38&deg;C, foul lochia, uterine tenderness. Management: IV antibiotics, remove source.</div>
+<div class="figure-block"><img src="assets/images/disorder_puerperal_sepsis.png" alt="Puerperal Sepsis" loading="lazy"><div class="figure-caption">Puerperal Sepsis</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -13233,6 +13429,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2021",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Puerperium complications: PPH, puerperal sepsis, DVT/PE, breast complications, UTI, subinvolution, psychiatric disorders (baby blues, PPD, puerperal psychosis). Management depends on specific complication.</div>
+<div class="figure-block"><img src="assets/images/disorder_puerperal_sepsis.png" alt="Puerperal Sepsis" loading="lazy"><div class="figure-caption">Puerperal Sepsis</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -13331,6 +13529,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2015",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Puerperal pyrexia = fever &ge;38&deg;C on any 2 of first 10 days postpartum (excluding first 24h). Causes: uterine infection, UTI, wound infection, mastitis, DVT. Management: identify source + appropriate antibiotics.</div>
+<div class="figure-block"><img src="assets/images/abnormal_labour.png" alt="Abnormal Labour" loading="lazy"><div class="figure-caption">Abnormal Labour</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -13406,6 +13606,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2014",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Prevention of puerperal sepsis: hand hygiene, aseptic delivery technique, limit vaginal examinations, timely delivery, prophylactic antibiotics for C-section, proper perineal care, adequate nutrition.</div>
+<div class="figure-block"><img src="assets/images/disorder_puerperal_sepsis.png" alt="Puerperal Sepsis" loading="lazy"><div class="figure-caption">Puerperal Sepsis</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -13479,6 +13681,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Normal puerperium = first 6 weeks after delivery. Minor complications: afterpains, constipation, urinary retention, breast engorgement, haemorrhoids, fatigue. Management is mostly supportive with education and reassurance.</div>
+<div class="figure-block"><img src="assets/images/abnormal_labour.png" alt="Abnormal Labour" loading="lazy"><div class="figure-caption">Abnormal Labour</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -13571,6 +13775,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2014",
     answer: `
 <div class="in-short"><strong>In Short:</strong> PPH = blood loss &ge;500mL after vaginal delivery or &ge;1000mL after C-section. Causes: 4 T&rsquo;s (Tone 70%, Trauma 20%, Tissue 10%, Thrombin &lt;1%). Primary PPH within 24h; Secondary PPH 24h&ndash;6 weeks. Management: rub uterus + oxytocin + IV fluids.</div>
+<div class="figure-block"><img src="assets/images/disorder_pph.png" alt="Postpartum Hemorrhage" loading="lazy"><div class="figure-caption">Postpartum Hemorrhage</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -13698,6 +13904,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2016, Winter 2024, Winter 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> PPH causes: 4 T&rsquo;s. Types: Primary (&lt;24h) mostly atonic; Secondary (24h&ndash;6wks) mostly retained products/infection. Management: rub uterus, oxytocin, bimanual compression. Prevention: AMTSL.</div>
+<div class="figure-block"><img src="assets/images/disorder_pph.png" alt="Postpartum Hemorrhage" loading="lazy"><div class="figure-caption">Postpartum Hemorrhage</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -13796,6 +14004,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2019",
     answer: `
 <div class="in-short"><strong>In Short:</strong> PPH = bleeding &ge;500mL after delivery. Causes: 4 T&rsquo;s. Prevention: AMTSL (oxytocin + CCT + uterine massage). Management: rub uterus, oxytocin, IV fluids, crossmatch blood, bimanual compression.</div>
+<div class="figure-block"><img src="assets/images/disorder_pph.png" alt="Postpartum Hemorrhage" loading="lazy"><div class="figure-caption">Postpartum Hemorrhage</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -13892,6 +14102,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2018",
     answer: `
 <div class="in-short"><strong>In Short:</strong> PPH signs: excessive vaginal bleeding, rising pulse, falling BP, pallor, cold clammy skin, air hunger. Management: rub uterus + oxytocin + IV fluids + crossmatch. Nursing: monitor vitals q15min, maintain 2 IV lines.</div>
+<div class="figure-block"><img src="assets/images/disorder_pph.png" alt="Postpartum Hemorrhage" loading="lazy"><div class="figure-caption">Postpartum Hemorrhage</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -14001,6 +14213,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2018",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Case-based: Mrs. S, 2500g baby at 10:30 PM, complains of bleeding. Likely primary PPH. Assess: fundal height, uterine tone, vital signs, perineal tears. Management: rub uterus, oxytocin, IV fluids, identify cause (4 T&rsquo;s).</div>
+<div class="figure-block"><img src="assets/images/disorder_pph.png" alt="Postpartum Hemorrhage" loading="lazy"><div class="figure-caption">Postpartum Hemorrhage</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -14109,6 +14323,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2015",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Puerperium = delivery to 6 weeks postpartum. PPH complications include hypovolaemic shock, anaemia, Sheehan&rsquo;s syndrome (pituitary necrosis), renal failure, DIC. Nursing: monitor vitals, fundal height, lochia, breastfeeding.</div>
+<div class="figure-block"><img src="assets/images/disorder_pph.png" alt="Postpartum Hemorrhage" loading="lazy"><div class="figure-caption">Postpartum Hemorrhage</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -14207,6 +14423,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2016, Summer 2019, Winter 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Breast problems in puerperium: engorgement (day 3&ndash;4, frequent feeding), cracked/sore nipples (correct latching), mastitis (antibiotics + continue BF), breast abscess (I&D + antibiotics). Prevention: proper latching, demand feeding.</div>
+<div class="figure-block"><img src="assets/images/abnormal_labour.png" alt="Abnormal Labour" loading="lazy"><div class="figure-caption">Abnormal Labour</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -14292,6 +14510,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2017",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Breast engorgement occurs day 3&ndash;4 postpartum due to milk stasis. Signs: hard, painful, warm, tense breasts. Management: frequent breastfeeding (best treatment), warm compress before feed, cold compress after, analgesics, hand expression.</div>
+<div class="figure-block"><img src="assets/images/abnormal_labour.png" alt="Abnormal Labour" loading="lazy"><div class="figure-caption">Abnormal Labour</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -14370,6 +14590,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2014, Winter 2021",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Levels of neonatal care: Level I (well-baby nursery), Level II (special care, SNCU), Level III (NICU, ventilators). Every facility should provide Essential Newborn Care (ENC): warmth, clean cord care, breastfeeding, resuscitation.</div>
+<div class="figure-block"><img src="assets/images/high_risk_newborn.png" alt="High-Risk Newborn" loading="lazy"><div class="figure-caption">High-Risk Newborn</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -14455,6 +14677,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2017, Summer 2022",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Premature baby = born before 37 weeks or weight &lt;2500g. Causes: PIH, infections, multiple pregnancy, APH, cervical incompetence. Problems: RDS, hypothermia, hypoglycaemia, jaundice, NEC, IVH. Care: KMC, incubator, gavage feeds.</div>
+<div class="figure-block"><img src="assets/images/disorder_preterm_baby.png" alt="Preterm Baby" loading="lazy"><div class="figure-caption">Preterm Baby</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -14579,6 +14803,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2014, Summer 2015, Summer 2019, Winter 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Preterm baby care: thermoregulation (KMC, incubator), feeding (breast milk, gavage if needed), infection prevention (hand hygiene, minimal handling), respiratory support, monitoring (temp, weight, glucose, bilirubin).</div>
+<div class="figure-block"><img src="assets/images/disorder_preterm_baby.png" alt="Preterm Baby" loading="lazy"><div class="figure-caption">Preterm Baby</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -14652,6 +14878,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2021, Winter 2024",
     answer: `
 <div class="in-short"><strong>In Short:</strong> KMC (Kangaroo Mother Care) = skin-to-skin contact between mother and baby. Baby placed between breasts in frog position, covered with wrapper. Benefits: thermoregulation, breastfeeding, bonding, reduces infection and mortality. Criteria: stable baby, mother willing.</div>
+<div class="figure-block"><img src="assets/images/disorder_kangaroo_care.png" alt="Kangaroo Mother Care (KMC)" loading="lazy"><div class="figure-caption">Kangaroo Mother Care (KMC)</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -14746,6 +14974,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Postmaturity = pregnancy beyond 42 weeks (294 days). Signs: dry peeling skin, absent vernix, meconium staining, long nails, alert look. Risks: meconium aspiration, cord compression, macrosomia, stillbirth. Manage: induce at 41 weeks.</div>
+<div class="figure-block"><img src="assets/images/high_risk_newborn.png" alt="High-Risk Newborn" loading="lazy"><div class="figure-caption">High-Risk Newborn</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -14831,6 +15061,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2021",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Postmaturity effects: fetal &mdash; meconium aspiration, cord compression, macrosomia, hypoglycaemia, polycythaemia, stillbirth. Maternal &mdash; prolonged pregnancy anxiety, higher C-section rate, birth trauma from macrosomia.</div>
+<div class="figure-block"><img src="assets/images/high_risk_newborn.png" alt="High-Risk Newborn" loading="lazy"><div class="figure-caption">High-Risk Newborn</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -14917,6 +15149,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Asphyxia neonatorum = failure to initiate and sustain breathing at birth. Causes: maternal (APH, PIH), fetal (prematurity, cord prolapse), labour (prolonged, obstructed). Management: NRP (Neonatal Resuscitation Protocol) &mdash; stimulate, suction, bag-mask, intubate.</div>
+<div class="figure-block"><img src="assets/images/disorder_asphyxia_neonatorum.png" alt="Asphyxia Neonatorum" loading="lazy"><div class="figure-caption">Asphyxia Neonatorum</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -14992,6 +15226,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Phototherapy = treatment for neonatal jaundice using blue light (wavelength 420&ndash;470nm) to convert unconjugated bilirubin into water-soluble form for excretion. Nursing: expose maximum skin, eye shields, monitor temperature, adequate feeding.</div>
+<div class="figure-block"><img src="assets/images/disorder_phototherapy.png" alt="Neonatal Phototherapy" loading="lazy"><div class="figure-caption">Neonatal Phototherapy</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -15069,6 +15305,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Haemolytic jaundice in newborn is caused by Rh incompatibility (most common severe) or ABO incompatibility. Results in excessive RBC destruction &rarr; high unconjugated bilirubin &rarr; risk of kernicterus. Management: phototherapy, exchange transfusion.</div>
+<div class="figure-block"><img src="assets/images/disorder_neonatal_jaundice.png" alt="Neonatal Jaundice" loading="lazy"><div class="figure-caption">Neonatal Jaundice</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -15156,6 +15394,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2015",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Prevention of HIV in newborn: PPTCT (Prevention of Parent-to-Child Transmission). ART to mother during pregnancy + during labour + to newborn (nevirapine syrup). Avoid breastfeeding if replacement feeding feasible; else exclusive BF for 6 months.</div>
+<div class="figure-block"><img src="assets/images/high_risk_newborn.png" alt="High-Risk Newborn" loading="lazy"><div class="figure-caption">High-Risk Newborn</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -15231,6 +15471,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Breastfeeding in HIV: If safe replacement feeding available and affordable &rarr; formula feed. If not &rarr; exclusive breastfeeding for 6 months (mixed feeding increases transmission). Mother should be on ART throughout breastfeeding.</div>
+<div class="figure-block"><img src="assets/images/high_risk_newborn.png" alt="High-Risk Newborn" loading="lazy"><div class="figure-caption">High-Risk Newborn</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -15306,6 +15548,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2023",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Counselling HIV-positive mother: discuss PPTCT, ART compliance, delivery plan, infant feeding options (AFASS criteria), follow-up testing, contraception, partner testing, emotional support, confidentiality.</div>
+<div class="figure-block"><img src="assets/images/high_risk_newborn.png" alt="High-Risk Newborn" loading="lazy"><div class="figure-caption">High-Risk Newborn</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -15382,6 +15626,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Prenatal counselling for HIV: HIV testing at first ANC visit (opt-out); explain PPTCT (ART during pregnancy, delivery, to baby); discuss feeding options; partner testing; address fears and stigma; confidentiality.</div>
+<div class="figure-block"><img src="assets/images/disorder_hiv_pregnancy.png" alt="HIV in Pregnancy (PMTCT)" loading="lazy"><div class="figure-caption">HIV in Pregnancy (PMTCT)</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -15457,6 +15703,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Fertilisation = fusion of sperm and ovum in ampulla of fallopian tube. Implantation = embedding of blastocyst in endometrium on day 6&ndash;7. Spermatogenesis produces sperm in testes (74 days). Oogenesis produces ova in ovaries (from fetal life).</div>
+<div class="figure-block"><img src="assets/images/disorder_infertility.png" alt="Understanding Infertility" loading="lazy"><div class="figure-caption">Understanding Infertility</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -15561,6 +15809,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2018",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Case: Mrs. S, 27 years, married 6 years, regular unprotected intercourse, no conception = primary infertility. Investigation: both partners. Female: history, HSG, hormonal assays. Male: semen analysis. Treatment depends on cause.</div>
+<div class="figure-block"><img src="assets/images/disorder_infertility.png" alt="Understanding Infertility" loading="lazy"><div class="figure-caption">Understanding Infertility</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -15658,6 +15908,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Infertility = failure to conceive after 1 year of regular unprotected intercourse. Primary (no previous pregnancy) vs Secondary (previous pregnancy but unable to conceive again). Investigation of both partners essential. Treatment: medical, surgical, ART.</div>
+<div class="figure-block"><img src="assets/images/disorder_infertility.png" alt="Understanding Infertility" loading="lazy"><div class="figure-caption">Understanding Infertility</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -15748,6 +16000,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> ART (Assisted Reproductive Techniques): IUI (intrauterine insemination), IVF (in vitro fertilisation), ICSI (intracytoplasmic sperm injection), GIFT, ZIFT, surrogacy, donor gametes. IVF is the most common ART procedure.</div>
+<div class="figure-block"><img src="assets/images/gynaecological_disorders.png" alt="Gynaecological Disorders" loading="lazy"><div class="figure-caption">Gynaecological Disorders</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -15821,6 +16075,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2025",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Surrogacy Bill (India, 2021): Only altruistic surrogacy allowed (no commercial). Surrogate must be close relative, married, have own child. Intended parents must be Indian married couple (25&ndash;50 wife, 26&ndash;55 husband). Bans single parents, live-in couples, foreigners.</div>
+<div class="figure-block"><img src="assets/images/gynaecological_disorders.png" alt="Gynaecological Disorders" loading="lazy"><div class="figure-caption">Gynaecological Disorders</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -15892,6 +16148,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Summer 2020",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Uterine prolapse = descent of uterus into or beyond the vaginal canal. Degrees: 1st (descent within vagina), 2nd (cervix at introitus), 3rd (complete prolapse outside). Causes: multiparity, weak pelvic floor. Treatment: pessary or surgery (hysterectomy, repair).</div>
+<div class="figure-block"><img src="assets/images/disorder_uterine_prolapse.png" alt="Uterine Prolapse" loading="lazy"><div class="figure-caption">Uterine Prolapse</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -15993,6 +16251,8 @@ window.QUESTIONS_DATA_OBG2 = [
     years: "Winter 2015",
     answer: `
 <div class="in-short"><strong>In Short:</strong> Dysmenorrhoea = painful menstruation. Primary (no organic cause, prostaglandins) vs Secondary (due to pathology like endometriosis, fibroids, PID). Treatment: NSAIDs, hormonal contraceptives, treat underlying cause.</div>
+<div class="figure-block"><img src="assets/images/gynaecological_disorders.png" alt="Gynaecological Disorders" loading="lazy"><div class="figure-caption">Gynaecological Disorders</div></div>
+
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>

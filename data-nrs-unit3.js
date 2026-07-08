@@ -9,6 +9,58 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
   years: "Winter 2022",
   answer: `
 
+<div class="source-grid">
+  <div class="source-card primary">
+    <div class="sc-icon">📰</div>
+    <div class="sc-type">Primary</div>
+    <div class="sc-name">Research Journals</div>
+    <div class="sc-eg">IJMR, JAN, Nursing Research</div>
+  </div>
+  <div class="source-card primary">
+    <div class="sc-icon">📄</div>
+    <div class="sc-type">Primary</div>
+    <div class="sc-name">Dissertations &amp; Theses</div>
+    <div class="sc-eg">MSc / PhD nursing theses</div>
+  </div>
+  <div class="source-card primary">
+    <div class="sc-icon">📊</div>
+    <div class="sc-type">Primary</div>
+    <div class="sc-name">Govt. &amp; WHO Reports</div>
+    <div class="sc-eg">NFHS, WHO Health Stats</div>
+  </div>
+  <div class="source-card secondary">
+    <div class="sc-icon">📚</div>
+    <div class="sc-type">Secondary</div>
+    <div class="sc-name">Textbooks</div>
+    <div class="sc-eg">Polit &amp; Beck, Burns &amp; Grove</div>
+  </div>
+  <div class="source-card secondary">
+    <div class="sc-icon">📋</div>
+    <div class="sc-type">Secondary</div>
+    <div class="sc-name">Review Articles</div>
+    <div class="sc-eg">Systematic reviews in journals</div>
+  </div>
+  <div class="source-card tertiary">
+    <div class="sc-icon">🖥️</div>
+    <div class="sc-type">Tertiary</div>
+    <div class="sc-name">Online Databases</div>
+    <div class="sc-eg">PubMed, CINAHL, Cochrane</div>
+  </div>
+  <div class="source-card tertiary">
+    <div class="sc-icon">📰</div>
+    <div class="sc-type">Tertiary</div>
+    <div class="sc-name">Encyclopedias &amp; Index</div>
+    <div class="sc-eg">Cumulative Index of Nursing</div>
+  </div>
+  <div class="source-card tertiary">
+    <div class="sc-icon">🗄️</div>
+    <div class="sc-type">Tertiary</div>
+    <div class="sc-name">Library Catalogue</div>
+    <div class="sc-eg">DELNET, INFLIBNET, IndMED</div>
+  </div>
+</div>
+
+
 <div class="in-short"><strong>In Short:</strong> The five major sources of literature are: <strong>Primary sources</strong> (original research), <strong>Secondary sources</strong> (textbooks, reviews), <strong>Tertiary sources</strong> (indexes, databases), <strong>Electronic databases</strong> (CINAHL, Cochrane, PubMed), and <strong>Grey literature</strong> (government reports, WHO, ICMR). Together they give a complete, balanced view of existing knowledge.</div>
 
 <div class="answer-section animate-slide-up">
@@ -115,6 +167,58 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
   unit: 103,
   years: "Summer 2023 Phase III",
   answer: `
+
+<div class="source-grid">
+  <div class="source-card primary">
+    <div class="sc-icon">📰</div>
+    <div class="sc-type">Primary</div>
+    <div class="sc-name">Research Journals</div>
+    <div class="sc-eg">IJMR, JAN, Nursing Research</div>
+  </div>
+  <div class="source-card primary">
+    <div class="sc-icon">📄</div>
+    <div class="sc-type">Primary</div>
+    <div class="sc-name">Dissertations &amp; Theses</div>
+    <div class="sc-eg">MSc / PhD nursing theses</div>
+  </div>
+  <div class="source-card primary">
+    <div class="sc-icon">📊</div>
+    <div class="sc-type">Primary</div>
+    <div class="sc-name">Govt. &amp; WHO Reports</div>
+    <div class="sc-eg">NFHS, WHO Health Stats</div>
+  </div>
+  <div class="source-card secondary">
+    <div class="sc-icon">📚</div>
+    <div class="sc-type">Secondary</div>
+    <div class="sc-name">Textbooks</div>
+    <div class="sc-eg">Polit &amp; Beck, Burns &amp; Grove</div>
+  </div>
+  <div class="source-card secondary">
+    <div class="sc-icon">📋</div>
+    <div class="sc-type">Secondary</div>
+    <div class="sc-name">Review Articles</div>
+    <div class="sc-eg">Systematic reviews in journals</div>
+  </div>
+  <div class="source-card tertiary">
+    <div class="sc-icon">🖥️</div>
+    <div class="sc-type">Tertiary</div>
+    <div class="sc-name">Online Databases</div>
+    <div class="sc-eg">PubMed, CINAHL, Cochrane</div>
+  </div>
+  <div class="source-card tertiary">
+    <div class="sc-icon">📰</div>
+    <div class="sc-type">Tertiary</div>
+    <div class="sc-name">Encyclopedias &amp; Index</div>
+    <div class="sc-eg">Cumulative Index of Nursing</div>
+  </div>
+  <div class="source-card tertiary">
+    <div class="sc-icon">🗄️</div>
+    <div class="sc-type">Tertiary</div>
+    <div class="sc-name">Library Catalogue</div>
+    <div class="sc-eg">DELNET, INFLIBNET, IndMED</div>
+  </div>
+</div>
+
 
 <div class="in-short"><strong>In Short:</strong> Sources of literature review are classified as <strong>Primary</strong> (original research), <strong>Secondary</strong> (textbooks, systematic reviews), and <strong>Tertiary</strong> (indexes and databases). Electronic databases (CINAHL, Cochrane, PubMed) and Grey literature (government/organizational reports) are two additional modern, critical source categories.</div>
 
@@ -345,6 +449,26 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
   years: "Summer 2024 Phase II, Winter 2025",
   answer: `
 
+<div class="cascade-flowchart">
+  <div class="cfc-title">📚 Steps in Review of Literature</div>
+  <div class="cfc-step"><div class="cfc-num">1</div><div class="cfc-text"><strong>Identify the topic</strong> — define the research problem clearly before searching</div></div>
+  <div class="cfc-arrow-down"></div>
+  <div class="cfc-step"><div class="cfc-num">2</div><div class="cfc-text"><strong>Select databases &amp; sources</strong> — PubMed, CINAHL, Cochrane, Google Scholar, DELNET</div></div>
+  <div class="cfc-arrow-down"></div>
+  <div class="cfc-step"><div class="cfc-num">3</div><div class="cfc-text"><strong>Search using keywords &amp; MeSH terms</strong> — use Boolean operators (AND, OR, NOT)</div></div>
+  <div class="cfc-arrow-down"></div>
+  <div class="cfc-step"><div class="cfc-num">4</div><div class="cfc-text"><strong>Screen titles &amp; abstracts</strong> — apply inclusion / exclusion criteria</div></div>
+  <div class="cfc-arrow-down"></div>
+  <div class="cfc-step"><div class="cfc-num">5</div><div class="cfc-text"><strong>Retrieve full-text articles</strong> — read complete papers that pass screening</div></div>
+  <div class="cfc-arrow-down"></div>
+  <div class="cfc-step"><div class="cfc-num">6</div><div class="cfc-text"><strong>Critically appraise</strong> — evaluate validity, reliability, and relevance</div></div>
+  <div class="cfc-arrow-down"></div>
+  <div class="cfc-step"><div class="cfc-num">7</div><div class="cfc-text"><strong>Synthesize &amp; summarize</strong> — group by themes, identify gaps</div></div>
+  <div class="cfc-arrow-down"></div>
+  <div class="cfc-step"><div class="cfc-num">8</div><div class="cfc-text"><strong>Write the ROL section</strong> — organize logically, cite all sources properly (APA format)</div></div>
+</div>
+
+
 <div class="in-short"><strong>In Short:</strong> The steps in ROL follow a systematic process: <strong>Identify the topic → Select search terms → Choose databases → Search literature → Screen and select → Read critically → Organize → Synthesize → Write the ROL</strong>. Following all steps ensures a thorough, unbiased, and well-organized literature review.</div>
 
 <div class="answer-section animate-slide-up">
@@ -494,6 +618,58 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
   years: "Summer 2024 Phase II",
   answer: `
 
+<div class="source-grid">
+  <div class="source-card primary">
+    <div class="sc-icon">📰</div>
+    <div class="sc-type">Primary</div>
+    <div class="sc-name">Research Journals</div>
+    <div class="sc-eg">IJMR, JAN, Nursing Research</div>
+  </div>
+  <div class="source-card primary">
+    <div class="sc-icon">📄</div>
+    <div class="sc-type">Primary</div>
+    <div class="sc-name">Dissertations &amp; Theses</div>
+    <div class="sc-eg">MSc / PhD nursing theses</div>
+  </div>
+  <div class="source-card primary">
+    <div class="sc-icon">📊</div>
+    <div class="sc-type">Primary</div>
+    <div class="sc-name">Govt. &amp; WHO Reports</div>
+    <div class="sc-eg">NFHS, WHO Health Stats</div>
+  </div>
+  <div class="source-card secondary">
+    <div class="sc-icon">📚</div>
+    <div class="sc-type">Secondary</div>
+    <div class="sc-name">Textbooks</div>
+    <div class="sc-eg">Polit &amp; Beck, Burns &amp; Grove</div>
+  </div>
+  <div class="source-card secondary">
+    <div class="sc-icon">📋</div>
+    <div class="sc-type">Secondary</div>
+    <div class="sc-name">Review Articles</div>
+    <div class="sc-eg">Systematic reviews in journals</div>
+  </div>
+  <div class="source-card tertiary">
+    <div class="sc-icon">🖥️</div>
+    <div class="sc-type">Tertiary</div>
+    <div class="sc-name">Online Databases</div>
+    <div class="sc-eg">PubMed, CINAHL, Cochrane</div>
+  </div>
+  <div class="source-card tertiary">
+    <div class="sc-icon">📰</div>
+    <div class="sc-type">Tertiary</div>
+    <div class="sc-name">Encyclopedias &amp; Index</div>
+    <div class="sc-eg">Cumulative Index of Nursing</div>
+  </div>
+  <div class="source-card tertiary">
+    <div class="sc-icon">🗄️</div>
+    <div class="sc-type">Tertiary</div>
+    <div class="sc-name">Library Catalogue</div>
+    <div class="sc-eg">DELNET, INFLIBNET, IndMED</div>
+  </div>
+</div>
+
+
 <div class="in-short"><strong>In Short:</strong> <strong>Sources</strong> of ROL: Primary (original research), Secondary (textbooks/reviews), Tertiary (indexes), Electronic databases (CINAHL, Cochrane, PubMed), Grey literature (WHO, ICMR). <strong>Uses/Purposes</strong>: identify existing knowledge, find knowledge gap, develop theoretical framework, guide methodology, identify instruments, interpret findings, prevent duplication.</div>
 
 <div class="answer-section animate-slide-up">
@@ -591,6 +767,58 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
   unit: 103,
   years: "Summer 2025 Phase II",
   answer: `
+
+<div class="source-grid">
+  <div class="source-card primary">
+    <div class="sc-icon">📰</div>
+    <div class="sc-type">Primary</div>
+    <div class="sc-name">Research Journals</div>
+    <div class="sc-eg">IJMR, JAN, Nursing Research</div>
+  </div>
+  <div class="source-card primary">
+    <div class="sc-icon">📄</div>
+    <div class="sc-type">Primary</div>
+    <div class="sc-name">Dissertations &amp; Theses</div>
+    <div class="sc-eg">MSc / PhD nursing theses</div>
+  </div>
+  <div class="source-card primary">
+    <div class="sc-icon">📊</div>
+    <div class="sc-type">Primary</div>
+    <div class="sc-name">Govt. &amp; WHO Reports</div>
+    <div class="sc-eg">NFHS, WHO Health Stats</div>
+  </div>
+  <div class="source-card secondary">
+    <div class="sc-icon">📚</div>
+    <div class="sc-type">Secondary</div>
+    <div class="sc-name">Textbooks</div>
+    <div class="sc-eg">Polit &amp; Beck, Burns &amp; Grove</div>
+  </div>
+  <div class="source-card secondary">
+    <div class="sc-icon">📋</div>
+    <div class="sc-type">Secondary</div>
+    <div class="sc-name">Review Articles</div>
+    <div class="sc-eg">Systematic reviews in journals</div>
+  </div>
+  <div class="source-card tertiary">
+    <div class="sc-icon">🖥️</div>
+    <div class="sc-type">Tertiary</div>
+    <div class="sc-name">Online Databases</div>
+    <div class="sc-eg">PubMed, CINAHL, Cochrane</div>
+  </div>
+  <div class="source-card tertiary">
+    <div class="sc-icon">📰</div>
+    <div class="sc-type">Tertiary</div>
+    <div class="sc-name">Encyclopedias &amp; Index</div>
+    <div class="sc-eg">Cumulative Index of Nursing</div>
+  </div>
+  <div class="source-card tertiary">
+    <div class="sc-icon">🗄️</div>
+    <div class="sc-type">Tertiary</div>
+    <div class="sc-name">Library Catalogue</div>
+    <div class="sc-eg">DELNET, INFLIBNET, IndMED</div>
+  </div>
+</div>
+
 
 <div class="in-short"><strong>In Short:</strong> Sources of ROL include <strong>Primary</strong> (original research), <strong>Secondary</strong> (textbooks, reviews), <strong>Tertiary</strong> (indexes), <strong>Electronic databases</strong> (CINAHL, Cochrane, PubMed, MEDLINE), and <strong>Grey literature</strong> (WHO, ICMR, NHM). For nursing research, <strong>CINAHL</strong> is the most important specialized database.</div>
 
@@ -704,6 +932,26 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
   unit: 103,
   years: "Winter 2024 Phase II",
   answer: `
+
+<div class="cascade-flowchart">
+  <div class="cfc-title">📚 Steps in Review of Literature</div>
+  <div class="cfc-step"><div class="cfc-num">1</div><div class="cfc-text"><strong>Identify the topic</strong> — define the research problem clearly before searching</div></div>
+  <div class="cfc-arrow-down"></div>
+  <div class="cfc-step"><div class="cfc-num">2</div><div class="cfc-text"><strong>Select databases &amp; sources</strong> — PubMed, CINAHL, Cochrane, Google Scholar, DELNET</div></div>
+  <div class="cfc-arrow-down"></div>
+  <div class="cfc-step"><div class="cfc-num">3</div><div class="cfc-text"><strong>Search using keywords &amp; MeSH terms</strong> — use Boolean operators (AND, OR, NOT)</div></div>
+  <div class="cfc-arrow-down"></div>
+  <div class="cfc-step"><div class="cfc-num">4</div><div class="cfc-text"><strong>Screen titles &amp; abstracts</strong> — apply inclusion / exclusion criteria</div></div>
+  <div class="cfc-arrow-down"></div>
+  <div class="cfc-step"><div class="cfc-num">5</div><div class="cfc-text"><strong>Retrieve full-text articles</strong> — read complete papers that pass screening</div></div>
+  <div class="cfc-arrow-down"></div>
+  <div class="cfc-step"><div class="cfc-num">6</div><div class="cfc-text"><strong>Critically appraise</strong> — evaluate validity, reliability, and relevance</div></div>
+  <div class="cfc-arrow-down"></div>
+  <div class="cfc-step"><div class="cfc-num">7</div><div class="cfc-text"><strong>Synthesize &amp; summarize</strong> — group by themes, identify gaps</div></div>
+  <div class="cfc-arrow-down"></div>
+  <div class="cfc-step"><div class="cfc-num">8</div><div class="cfc-text"><strong>Write the ROL section</strong> — organize logically, cite all sources properly (APA format)</div></div>
+</div>
+
 
 <div class="in-short"><strong>In Short:</strong> Steps of literature review (same as ROL process): <strong>Identify topic → Keywords → Select databases → Search → Screen → Read critically → Organize → Synthesize → Write</strong>. This 9-step systematic process ensures the ROL is complete, unbiased, and scientifically sound.</div>
 
