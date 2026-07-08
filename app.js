@@ -707,7 +707,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (obg2Status === 'loading') return;
         obg2Status = 'loading';
         const s = document.createElement('script');
-        s.src = 'data-obg2.js?v=2';
+        s.src = 'data-obg2.js?v=3';
         s.async = true;
         s.onload = () => {
             obg2Status = 'ready';
