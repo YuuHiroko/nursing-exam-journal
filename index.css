@@ -3610,3 +3610,209 @@ md-text-button, md-linear-progress, md-circular-progress {
     .tree-branches { flex-direction: column; align-items: center; }
 }
 
+/* ═══════════════════════════════════════════════════════════════
+   🏥 REAL-LIFE EXAMPLE BOX
+   ═══════════════════════════════════════════════════════════════ */
+.real-life-example {
+    background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 100%);
+    border-left: 4px solid #43a047;
+    border-radius: 12px;
+    padding: 1rem 1.2rem;
+    margin: 1rem 0;
+    position: relative;
+}
+.dark .real-life-example {
+    background: linear-gradient(135deg, rgba(67,160,71,0.12) 0%, rgba(139,195,74,0.08) 100%);
+    border-left-color: #66bb6a;
+}
+.real-life-title {
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #2e7d32;
+    margin-bottom: 0.5rem;
+}
+.dark .real-life-title { color: #81c784; }
+.real-life-example p, .real-life-example div {
+    font-size: 0.88rem;
+    line-height: 1.65;
+    color: #33691e;
+}
+.dark .real-life-example p, .dark .real-life-example div { color: #c5e1a5; }
+
+/* ═══════════════════════════════════════════════════════════════
+   ⚠️ COMMON MISTAKES BOX
+   ═══════════════════════════════════════════════════════════════ */
+.common-mistakes {
+    background: linear-gradient(135deg, #fff3e0 0%, #fce4ec 100%);
+    border-radius: 12px;
+    padding: 1rem 1.2rem;
+    margin: 1rem 0;
+    border: 1px solid rgba(255,152,0,0.25);
+}
+.dark .common-mistakes {
+    background: linear-gradient(135deg, rgba(255,152,0,0.08) 0%, rgba(233,30,99,0.06) 100%);
+    border-color: rgba(255,152,0,0.2);
+}
+.common-mistakes-title {
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #e65100;
+    margin-bottom: 0.6rem;
+}
+.dark .common-mistakes-title { color: #ffb74d; }
+.mistake-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0.35rem 0;
+    font-size: 0.88rem;
+    line-height: 1.55;
+}
+.mistake-wrong {
+    color: #c62828;
+    background: rgba(198,40,40,0.06);
+    border-radius: 8px;
+    padding: 0.3rem 0.6rem;
+    margin-bottom: 0.25rem;
+}
+.dark .mistake-wrong { color: #ef9a9a; background: rgba(198,40,40,0.12); }
+.mistake-right {
+    color: #2e7d32;
+    background: rgba(46,125,50,0.06);
+    border-radius: 8px;
+    padding: 0.3rem 0.6rem;
+    margin-bottom: 0.25rem;
+}
+.dark .mistake-right { color: #a5d6a7; background: rgba(46,125,50,0.12); }
+
+/* ═══════════════════════════════════════════════════════════════
+   🧪 MCQ QUIZ
+   ═══════════════════════════════════════════════════════════════ */
+.mcq-quiz {
+    background: linear-gradient(135deg, #e3f2fd 0%, #e8eaf6 100%);
+    border-radius: 14px;
+    padding: 1.2rem;
+    margin: 1.2rem 0 0.5rem;
+    border: 1px solid rgba(63,81,181,0.15);
+}
+.dark .mcq-quiz {
+    background: linear-gradient(135deg, rgba(63,81,181,0.1) 0%, rgba(33,150,243,0.08) 100%);
+    border-color: rgba(63,81,181,0.2);
+}
+.mcq-quiz-title {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #283593;
+    margin-bottom: 0.8rem;
+    text-align: center;
+}
+.dark .mcq-quiz-title { color: #9fa8da; }
+.mcq-item {
+    margin-bottom: 1rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid rgba(63,81,181,0.1);
+}
+.mcq-item:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+.mcq-q {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #1a237e;
+    margin-bottom: 0.5rem;
+}
+.dark .mcq-q { color: #c5cae9; }
+.mcq-option {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0.45rem 0.8rem;
+    margin: 0.2rem 0;
+    border-radius: 8px;
+    border: 1px solid rgba(63,81,181,0.15);
+    background: rgba(255,255,255,0.7);
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: #37474f;
+    font-family: inherit;
+    line-height: 1.5;
+}
+.dark .mcq-option {
+    background: rgba(255,255,255,0.05);
+    border-color: rgba(255,255,255,0.1);
+    color: #b0bec5;
+}
+.mcq-option:hover {
+    background: rgba(63,81,181,0.08);
+    border-color: rgba(63,81,181,0.3);
+    transform: translateX(4px);
+}
+.dark .mcq-option:hover {
+    background: rgba(63,81,181,0.15);
+}
+.mcq-option.correct {
+    background: rgba(46,125,50,0.12) !important;
+    border-color: #43a047 !important;
+    color: #2e7d32 !important;
+    font-weight: 600;
+}
+.dark .mcq-option.correct {
+    background: rgba(46,125,50,0.2) !important;
+    color: #81c784 !important;
+}
+.mcq-option.wrong {
+    background: rgba(198,40,40,0.08) !important;
+    border-color: #ef5350 !important;
+    color: #c62828 !important;
+    text-decoration: line-through;
+}
+.dark .mcq-option.wrong {
+    background: rgba(198,40,40,0.15) !important;
+    color: #ef9a9a !important;
+}
+.mcq-answer {
+    display: none;
+    padding: 0.5rem 0.8rem;
+    margin-top: 0.3rem;
+    font-size: 0.82rem;
+    color: #1b5e20;
+    background: rgba(46,125,50,0.06);
+    border-radius: 8px;
+    line-height: 1.5;
+    animation: fadeIn 0.3s ease;
+}
+.dark .mcq-answer { color: #a5d6a7; background: rgba(46,125,50,0.1); }
+.mcq-answer.show { display: block; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: translateY(0); } }
+
+/* ═══════════════════════════════════════════════════════════════
+   📋 REVISION TABLE (compact summary)
+   ═══════════════════════════════════════════════════════════════ */
+.revision-table {
+    margin: 0.8rem 0;
+    overflow-x: auto;
+}
+.revision-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.84rem;
+}
+.revision-table th {
+    background: linear-gradient(135deg, #5c6bc0, #3f51b5);
+    color: #fff;
+    padding: 0.5rem 0.6rem;
+    font-weight: 600;
+    text-align: left;
+    white-space: nowrap;
+}
+.dark .revision-table th {
+    background: linear-gradient(135deg, rgba(92,107,192,0.4), rgba(63,81,181,0.35));
+}
+.revision-table td {
+    padding: 0.45rem 0.6rem;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    line-height: 1.45;
+}
+.dark .revision-table td { border-bottom-color: rgba(255,255,255,0.06); }
+.revision-table tr:nth-child(even) td { background: rgba(63,81,181,0.03); }
+.dark .revision-table tr:nth-child(even) td { background: rgba(63,81,181,0.06); }
+

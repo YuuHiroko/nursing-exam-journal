@@ -83,6 +83,61 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 <details><summary>Give one example of a correctly written SMART objective.</summary><p>"To compare the level of pain (using NRS 0&ndash;10) among post-operative patients receiving music therapy vs. standard care in the surgical ward of KEM Hospital Mumbai, during March&ndash;June 2024." (Specific: pain, music therapy vs standard; Measurable: NRS; Achievable: one ward; Relevant: post-op pain; Time-bound: March&ndash;June 2024)</p></details>
 <details><summary>Name 4 reasons why writing objectives is important in research.</summary><p>(1) Provides direction for the study. (2) Guides choice of research design and methodology. (3) Forms the basis for hypotheses. (4) Enables evaluation of whether the study achieved its goals.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>You want to study: <strong>"Effect of warm compress on labour pain"</strong><br><br>
+  🎯 <strong>Aim:</strong> To find out if warm compress reduces pain during labour<br><br>
+  📋 <strong>Objectives:</strong><br>
+  1. To assess labour pain BEFORE warm compress (pre-test)<br>
+  2. To give warm compress to mothers in the experimental group<br>
+  3. To assess labour pain AFTER warm compress (post-test)<br>
+  4. To compare pain scores between experimental and control group<br><br>
+  See? The aim is the BIG goal. Objectives are the SMALL steps to reach that goal!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Aim and objectives are the same thing"</div>
+  <div class="mistake-right">✅ Right: Aim = ONE big goal. Objectives = MANY small specific steps</div>
+  <div class="mistake-wrong">❌ Wrong: Writing objectives that don't start with action verbs</div>
+  <div class="mistake-right">✅ Right: Always start with: "To assess...", "To determine...", "To compare...", "To evaluate..."</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. An aim is:</div>
+    <button class="mcq-option" data-correct="true">a) The overall big goal of the study</button>
+    <button class="mcq-option" data-correct="false">b) A specific measurable step</button>
+    <button class="mcq-option" data-correct="false">c) A data collection tool</button>
+    <button class="mcq-option" data-correct="false">d) A statistical test</button>
+    <div class="mcq-answer">✅ a) Aim = the big picture goal of the entire study.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. Objectives should always start with:</div>
+    <button class="mcq-option" data-correct="false">a) "I think..."</button>
+    <button class="mcq-option" data-correct="true">b) Action verbs like "To assess", "To compare"</button>
+    <button class="mcq-option" data-correct="false">c) "Maybe..."</button>
+    <button class="mcq-option" data-correct="false">d) Numbers</button>
+    <div class="mcq-answer">✅ b) Objectives MUST begin with action verbs: To assess, To determine, To compare, etc.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. How many objectives should a study have?</div>
+    <button class="mcq-option" data-correct="false">a) Only 1</button>
+    <button class="mcq-option" data-correct="true">b) Usually 3-6 specific objectives</button>
+    <button class="mcq-option" data-correct="false">c) At least 20</button>
+    <button class="mcq-option" data-correct="false">d) None needed</button>
+    <div class="mcq-answer">✅ b) A typical study has 3-6 well-written, specific objectives.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. Objectives help in:</div>
+    <button class="mcq-option" data-correct="false">a) Making the study longer</button>
+    <button class="mcq-option" data-correct="true">b) Guiding data collection and keeping the study focused</button>
+    <button class="mcq-option" data-correct="false">c) Confusing the researcher</button>
+    <button class="mcq-option" data-correct="false">d) Replacing the hypothesis</button>
+    <div class="mcq-answer">✅ b) Objectives tell the researcher exactly what data to collect and what to measure.</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. Aim is like _____ and Objectives are like _____:</div>
+    <button class="mcq-option" data-correct="true">a) Destination / Steps on the map</button>
+    <button class="mcq-option" data-correct="false">b) Steps / Destination</button>
+    <button class="mcq-option" data-correct="false">c) Question / Answer</button>
+    <button class="mcq-option" data-correct="false">d) Problem / Solution</button>
+    <div class="mcq-answer">✅ a) Aim tells WHERE you're going. Objectives tell HOW you'll get there — step by step!</div></div>
+</div>
+
 `
 }
 ,{
@@ -131,13 +186,13 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
       <ul class="sub-points">
         <li><strong>Independent Variable (IV):</strong> The cause or intervention the researcher controls (music therapy)</li>
         <li><strong>Dependent Variable (DV):</strong> The outcome measured; changes because of the IV (anxiety score)</li>
-        <li><strong>Extraneous Variables:</strong> Other factors (age, prior anxiety history) that might affect the DV &mdash; must be controlled</li>
+        <li><strong>Extra / outside Variables:</strong> Other factors (age, prior anxiety history) that might affect the DV &mdash; must be controlled</li>
       </ul>
     </li>
     <li><strong>Setting:</strong>
       <ul class="sub-points">
         <li>Specific institution, ward, and city must be named</li>
-        <li>Setting affects generalizability: one hospital = limited; multicentric = broader generalizability</li>
+        <li>Setting affects ability to apply results to a larger group: one hospital = limited; multicentric = broader ability to apply results to a larger group</li>
       </ul>
     </li>
     <li><strong>Knowledge Gap:</strong>
@@ -161,7 +216,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 </div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
-  <span class="kw">Population</span><span class="kw">Variable</span><span class="kw">Setting</span><span class="kw">Time frame</span><span class="kw">Knowledge gap</span><span class="kw">IV</span><span class="kw">DV</span><span class="kw">Extraneous variable</span>
+  <span class="kw">Population</span><span class="kw">Variable</span><span class="kw">Setting</span><span class="kw">Time frame</span><span class="kw">Knowledge gap</span><span class="kw">IV</span><span class="kw">DV</span><span class="kw">Extra/outside variable</span>
 </div>
 
 <div class="remember-box">
@@ -179,13 +234,67 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
   <li><span class="term">IV</span> Independent Variable &mdash; the cause or intervention manipulated by the researcher</li>
   <li><span class="term">DV</span> Dependent Variable &mdash; the outcome measured; depends on the independent variable</li>
   <li><span class="term">ROL</span> Review of Literature &mdash; systematic reading of existing research to identify knowledge gaps</li>
-  <li><span class="term">Extraneous variable</span> &mdash; any variable other than the IV that could affect the DV (confounding factor)</li>
+  <li><span class="term">Extra/outside variable</span> &mdash; any variable other than the IV that could affect the DV (interfering / misleading factor)</li>
 </ul></div>
 
 <div class="self-test"><div class="self-test-title">Test Yourself</div>
 <details><summary>Name the 5 elements of a research problem.</summary><p>Population (who), Variable(s) (what is studied: IV and DV), Setting (where), Time frame (when), and Knowledge Gap/Problem statement (why &mdash; what is unknown).</p></details>
 <details><summary>What is the difference between IV and DV with a nursing example?</summary><p>IV = Independent Variable = the cause the researcher controls. DV = Dependent Variable = the outcome measured. Example: "Effect of music therapy (IV) on pre-operative anxiety (DV)." Music therapy is what the nurse applies; anxiety score is what changes as a result.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Let's break down a real research problem:<br><br>
+  <strong>"Effectiveness of kangaroo care on weight gain among premature neonates in NICU of Civil Hospital, Nashik — Jan to March 2024"</strong><br><br>
+  👶 <strong>Population:</strong> Premature neonates<br>
+  📏 <strong>Variable:</strong> Weight gain (DV), Kangaroo care (IV)<br>
+  🏥 <strong>Setting:</strong> NICU, Civil Hospital, Nashik<br>
+  📅 <strong>Time:</strong> January to March 2024<br>
+  ❓ <strong>Problem:</strong> Premature babies gain weight slowly — can kangaroo care help?</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: Writing a problem statement without mentioning the population</div>
+  <div class="mistake-right">✅ Right: Always specify WHO will be studied (age, condition, type of patient)</div>
+  <div class="mistake-wrong">❌ Wrong: Confusing "variable" with "setting"</div>
+  <div class="mistake-right">✅ Right: Variable = WHAT you measure (pain, knowledge). Setting = WHERE you study (hospital, community)</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. The "Population" element answers which question?</div>
+    <button class="mcq-option" data-correct="true">a) WHO is being studied?</button>
+    <button class="mcq-option" data-correct="false">b) WHAT is being measured?</button>
+    <button class="mcq-option" data-correct="false">c) WHERE is the study done?</button>
+    <button class="mcq-option" data-correct="false">d) WHEN is the study done?</button>
+    <div class="mcq-answer">✅ a) Population tells us WHO the participants are.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. "Pain intensity" in a research problem is the:</div>
+    <button class="mcq-option" data-correct="false">a) Population</button>
+    <button class="mcq-option" data-correct="true">b) Variable / Concept</button>
+    <button class="mcq-option" data-correct="false">c) Setting</button>
+    <button class="mcq-option" data-correct="false">d) Time frame</button>
+    <div class="mcq-answer">✅ b) Pain intensity is the variable — the thing being measured.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. How many key elements does a research problem have?</div>
+    <button class="mcq-option" data-correct="true">a) 5 (Population, Concept, Setting, Time, Problem Statement)</button>
+    <button class="mcq-option" data-correct="false">b) 2</button>
+    <button class="mcq-option" data-correct="false">c) 10</button>
+    <button class="mcq-option" data-correct="false">d) 1</button>
+    <div class="mcq-answer">✅ a) Five key elements: Population, Concept/Variable, Setting, Time, and Problem Statement.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. "Civil Hospital, Nashik" in a problem statement is the:</div>
+    <button class="mcq-option" data-correct="false">a) Variable</button>
+    <button class="mcq-option" data-correct="false">b) Population</button>
+    <button class="mcq-option" data-correct="true">c) Setting</button>
+    <button class="mcq-option" data-correct="false">d) Time frame</button>
+    <div class="mcq-answer">✅ c) The hospital name and location = the setting (WHERE the study is done).</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. The Problem Statement explains:</div>
+    <button class="mcq-option" data-correct="false">a) Only WHO is studied</button>
+    <button class="mcq-option" data-correct="true">b) WHY the study is needed — what gap exists</button>
+    <button class="mcq-option" data-correct="false">c) Only WHEN the study happens</button>
+    <button class="mcq-option" data-correct="false">d) Only the research design</button>
+    <div class="mcq-answer">✅ b) The problem statement explains the gap in knowledge and why the study is needed.</div></div>
+</div>
+
 `
 }
 ,{
@@ -204,7 +313,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
   <div class="definition-box animate-scale-in">
     An <strong>assumption</strong> in research is a <strong>basic principle or condition that is taken for granted</strong> &mdash; accepted as true without proof &mdash; because it is either obvious, beyond the researcher's control, or impossible to test within the scope of the study.<br><br>
     <strong>Simple words:</strong> "Things the researcher believes to be true and acts upon, but does not formally test."<br><br>
-    <strong>Kerlinger (1973):</strong> "An assumption is a proposition whose truth is taken for granted."
+    <strong>Kerlinger (1973):</strong> "An assumption is a statement accepted as true without proof."
   </div>
 </div>
 
@@ -213,7 +322,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Type</th><th>What it assumes</th><th>Example</th></tr></thead>
     <tbody>
-      <tr><td><strong>Substantive Assumptions</strong></td><td>About the study phenomenon or participants &mdash; what is believed to be true about the topic being studied</td><td>"Anxiety affects post-operative patient outcomes." "Adequate sleep improves patient recovery."</td></tr>
+      <tr><td><strong>Substantive Assumptions</strong></td><td>About the study event or situation or participants &mdash; what is believed to be true about the topic being studied</td><td>"Anxiety affects post-operative patient outcomes." "Adequate sleep improves patient recovery."</td></tr>
       <tr><td><strong>Methodological Assumptions</strong></td><td>About the research tools and methods &mdash; that the instruments measure what they claim</td><td>"The HAM-A scale is a valid and reliable measure of anxiety." "Participants will answer the questionnaire honestly."</td></tr>
     </tbody>
   </table></div>
@@ -257,7 +366,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
   <div class="remember-title">Quick Revision</div>
   <ul>
     <li>Assumption = condition accepted as true WITHOUT proof or testing</li>
-    <li>Types: Substantive (about phenomenon) and Methodological (about tools and design)</li>
+    <li>Types: Substantive (about event or situation) and Methodological (about tools and design)</li>
     <li>Assumption vs Hypothesis: Assumption NOT tested; Hypothesis IS tested</li>
     <li>Common assumption: "Participants will answer honestly" | "Tool is valid and reliable"</li>
     <li>Stated in Chapter 1 of the research thesis/report</li>
@@ -267,7 +376,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Meanings</div>
 <ul>
   <li><span class="term">Assumption</span> &mdash; a condition accepted as true without testing; the foundation on which the study rests</li>
-  <li><span class="term">Substantive assumption</span> &mdash; assumption about the study phenomenon or participants' behaviour</li>
+  <li><span class="term">Substantive assumption</span> &mdash; assumption about the study event or situation or participants' behaviour</li>
   <li><span class="term">Methodological assumption</span> &mdash; assumption about the accuracy and validity of the research tools used</li>
   <li><span class="term">Kerlinger</span> &mdash; Fred Kerlinger, research methodologist who defined assumptions in behavioural research</li>
 </ul></div>
@@ -277,6 +386,58 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 <details><summary>Give 2 examples of assumptions in a nursing study on music therapy and anxiety.</summary><p>(1) "Participants will respond honestly to the HAM-A questionnaire." (2) "The HAM-A scale validly and reliably measures anxiety levels in Indian surgical patients."</p></details>
 <details><summary>What is the key difference between an assumption and a hypothesis?</summary><p>Assumption = accepted as true WITHOUT testing (foundational belief). Hypothesis = a testable prediction that IS formally tested with collected data using statistical analysis.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>You give a questionnaire to 50 patients about their pain level. Your assumptions are:<br><br>
+  🤞 "Patients will answer honestly" — you ASSUME this. You can't verify it!<br>
+  🤞 "The NRS pain scale (0-10) actually measures pain accurately" — you ASSUME the tool works<br>
+  🤞 "Patients understand the questions" — you ASSUME they can read and comprehend<br><br>
+  If any assumption is wrong, your whole study results might be wrong! That's why you list them honestly.</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Assumption and hypothesis are the same"</div>
+  <div class="mistake-right">✅ Right: Assumption = believed WITHOUT testing. Hypothesis = a prediction that IS tested</div>
+  <div class="mistake-wrong">❌ Wrong: "Assumptions need to be proved in the study"</div>
+  <div class="mistake-right">✅ Right: Assumptions are NEVER tested — that's the whole point. They are just accepted</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. An assumption in research is:</div>
+    <button class="mcq-option" data-correct="true">a) Something accepted as true WITHOUT testing</button>
+    <button class="mcq-option" data-correct="false">b) A prediction that is tested</button>
+    <button class="mcq-option" data-correct="false">c) A research finding</button>
+    <button class="mcq-option" data-correct="false">d) A statistical value</button>
+    <div class="mcq-answer">✅ a) Assumptions are believed to be true — they are NOT tested in the study.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. "Patients will respond honestly" is an example of:</div>
+    <button class="mcq-option" data-correct="true">a) Assumption</button>
+    <button class="mcq-option" data-correct="false">b) Hypothesis</button>
+    <button class="mcq-option" data-correct="false">c) Objective</button>
+    <button class="mcq-option" data-correct="false">d) Variable</button>
+    <div class="mcq-answer">✅ a) You believe this is true but you can't actually verify it — classic assumption.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. Assumptions are:</div>
+    <button class="mcq-option" data-correct="false">a) Always tested and proven</button>
+    <button class="mcq-option" data-correct="true">b) Never tested — just accepted as true</button>
+    <button class="mcq-option" data-correct="false">c) Written after data analysis</button>
+    <button class="mcq-option" data-correct="false">d) The same as conclusions</button>
+    <div class="mcq-answer">✅ b) Assumptions are taken for granted — they form the foundation but are never tested.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. Which is NOT a type of assumption?</div>
+    <button class="mcq-option" data-correct="false">a) Substantive</button>
+    <button class="mcq-option" data-correct="false">b) Methodological</button>
+    <button class="mcq-option" data-correct="true">c) Statistical</button>
+    <button class="mcq-option" data-correct="false">d) Conceptual</button>
+    <div class="mcq-answer">✅ c) The 3 types are Substantive, Methodological, and Conceptual — not Statistical.</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. Assumption vs Hypothesis — key difference:</div>
+    <button class="mcq-option" data-correct="false">a) Both are tested</button>
+    <button class="mcq-option" data-correct="true">b) Assumption = NOT tested. Hypothesis = IS tested</button>
+    <button class="mcq-option" data-correct="false">c) Both are not tested</button>
+    <button class="mcq-option" data-correct="false">d) They are the same thing</button>
+    <div class="mcq-answer">✅ b) This is THE key difference. Assumption = accepted. Hypothesis = tested.</div></div>
+</div>
+
 `
 }
 ,{
@@ -356,6 +517,61 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 <details><summary>Name the FINER criteria for selecting a good research problem.</summary><p>F = Feasible (can be done with available resources), I = Interesting (researcher is genuinely motivated), N = Novel (adds new knowledge), E = Ethical (no harm; IEC approval obtainable), R = Relevant (important to nursing practice).</p></details>
 <details><summary>Why is feasibility the most practical criterion?</summary><p>Feasibility determines whether the study can actually be completed. Even the most interesting and novel problem is useless if you cannot access participants, afford the tools, or complete it in the given time. An infeasible study wastes everyone's resources.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Your classmate wants to study: <strong>"Effect of meditation on COVID-19 cure rate"</strong><br><br>
+  Let's check FINER criteria:<br>
+  ✅ <strong>Feasible?</strong> Maybe — needs ICU access and large sample<br>
+  ✅ <strong>Interesting?</strong> Yes — very hot topic<br>
+  ✅ <strong>Novel?</strong> Yes — not many nursing studies on this<br>
+  ❌ <strong>Ethical?</strong> PROBLEM! Can you deny standard treatment to give only meditation? NO!<br>
+  ✅ <strong>Relevant?</strong> Yes — very relevant to healthcare<br><br>
+  Verdict: This problem FAILS the ethical test — it would need major redesign to be acceptable!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Any interesting topic is a good research problem"</div>
+  <div class="mistake-right">✅ Right: It must also be feasible, ethical, novel, and relevant — not just interesting!</div>
+  <div class="mistake-wrong">❌ Wrong: "I can study anything I want without ethical approval"</div>
+  <div class="mistake-right">✅ Right: ALL research involving humans needs Institutional Ethics Committee (IEC) approval</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. FINER criteria stands for:</div>
+    <button class="mcq-option" data-correct="true">a) Feasible, Interesting, Novel, Ethical, Relevant</button>
+    <button class="mcq-option" data-correct="false">b) Fast, Important, New, Easy, Reliable</button>
+    <button class="mcq-option" data-correct="false">c) Focused, Intelligent, Nice, Elaborate, Rich</button>
+    <button class="mcq-option" data-correct="false">d) None of the above</button>
+    <div class="mcq-answer">✅ a) FINER = Feasible + Interesting + Novel + Ethical + Relevant.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. "Feasible" means the research:</div>
+    <button class="mcq-option" data-correct="true">a) Can actually be done with available time, money, and resources</button>
+    <button class="mcq-option" data-correct="false">b) Is very expensive</button>
+    <button class="mcq-option" data-correct="false">c) Takes 10 years</button>
+    <button class="mcq-option" data-correct="false">d) Needs no planning</button>
+    <div class="mcq-answer">✅ a) Feasible = practically possible to carry out with what you have.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. A study that causes harm to patients fails which criterion?</div>
+    <button class="mcq-option" data-correct="false">a) Feasibility</button>
+    <button class="mcq-option" data-correct="false">b) Novelty</button>
+    <button class="mcq-option" data-correct="true">c) Ethical acceptability</button>
+    <button class="mcq-option" data-correct="false">d) Relevance</button>
+    <div class="mcq-answer">✅ c) Any study that causes harm is ethically unacceptable — it cannot be done.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. "Novel" means the research should be:</div>
+    <button class="mcq-option" data-correct="false">a) A copy of another study</button>
+    <button class="mcq-option" data-correct="true">b) New — adding something new to existing knowledge</button>
+    <button class="mcq-option" data-correct="false">c) Very old</button>
+    <button class="mcq-option" data-correct="false">d) Fiction</button>
+    <div class="mcq-answer">✅ b) Novel means the study contributes something NEW that wasn't known before.</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. "Researchable" means:</div>
+    <button class="mcq-option" data-correct="false">a) Can be discussed in class</button>
+    <button class="mcq-option" data-correct="true">b) Can be studied using scientific methods</button>
+    <button class="mcq-option" data-correct="false">c) Can be read in a book</button>
+    <button class="mcq-option" data-correct="false">d) Can be debated</button>
+    <div class="mcq-answer">✅ b) A researchable problem can be investigated through observation, measurement, and analysis.</div></div>
+</div>
+
 `
 }
 ,{
@@ -416,7 +632,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box animate-scale-in">
     A <strong>hypothesis</strong> is a <strong>tentative, testable prediction</strong> about the expected relationship between two or more variables in a population. It is stated before data collection and is tested using statistics.<br><br>
-    <strong>Kerlinger:</strong> "A hypothesis is a conjectural statement of the relationship between two or more variables."
+    <strong>Kerlinger:</strong> "A hypothesis is a predicted statement (a guess) of the relationship between two or more variables."
   </div>
 </div>
 
@@ -501,6 +717,58 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 <details><summary>Name the 4 ways a hypothesis can be classified.</summary><p>(1) By Nature: H1 (Research) vs H0 (Null). (2) By Direction: Directional vs Non-directional. (3) By Complexity: Simple vs Complex. (4) By Research Approach: Associative vs Causal.</p></details>
 <details><summary>What is the difference between directional and non-directional hypothesis?</summary><p>Directional: predicts the specific direction of the difference (e.g., "will decrease"). Used with one-tailed test. Non-directional: predicts a difference exists but not which direction. Used with two-tailed test.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div><strong>Study: "Effect of music therapy on anxiety before surgery"</strong><br><br>
+  🔵 <strong>Directional H₁:</strong> "Music therapy will SIGNIFICANTLY REDUCE anxiety in pre-op patients" (says direction = reduce)<br>
+  🟢 <strong>Non-directional H₁:</strong> "There will be a SIGNIFICANT DIFFERENCE in anxiety between music and no-music groups" (no direction specified)<br>
+  🔴 <strong>Null H₀:</strong> "There will be NO significant difference in anxiety between groups" (predicts nothing happens)<br><br>
+  After collecting data → statistics show p=0.002 → H₀ rejected → H₁ accepted! 🎉</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Null hypothesis means the hypothesis is null/void/useless"</div>
+  <div class="mistake-right">✅ Right: Null hypothesis predicts NO effect — it's essential for statistical testing!</div>
+  <div class="mistake-wrong">❌ Wrong: "Simple and complex are types separate from research/null"</div>
+  <div class="mistake-right">✅ Right: Simple/Complex describe the NUMBER of variables. Research/Null describe the PREDICTION. Both can overlap!</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. H₁ (Research Hypothesis) predicts:</div>
+    <button class="mcq-option" data-correct="true">a) There IS a difference or relationship</button>
+    <button class="mcq-option" data-correct="false">b) There is NO difference</button>
+    <button class="mcq-option" data-correct="false">c) The study will fail</button>
+    <button class="mcq-option" data-correct="false">d) Data cannot be collected</button>
+    <div class="mcq-answer">✅ a) H₁ says "YES, something will happen" — it predicts a difference or relationship.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. "Music will REDUCE anxiety" — this is:</div>
+    <button class="mcq-option" data-correct="true">a) Directional hypothesis</button>
+    <button class="mcq-option" data-correct="false">b) Non-directional hypothesis</button>
+    <button class="mcq-option" data-correct="false">c) Null hypothesis</button>
+    <button class="mcq-option" data-correct="false">d) Complex hypothesis</button>
+    <div class="mcq-answer">✅ a) It predicts the specific DIRECTION — "reduce" — so it's directional.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. H₀ (Null Hypothesis) states:</div>
+    <button class="mcq-option" data-correct="false">a) There IS a big effect</button>
+    <button class="mcq-option" data-correct="true">b) There is NO significant difference</button>
+    <button class="mcq-option" data-correct="false">c) The study is wrong</button>
+    <button class="mcq-option" data-correct="false">d) Data is invalid</button>
+    <div class="mcq-answer">✅ b) H₀ says "NOTHING will happen — no significant difference between groups."</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. A simple hypothesis has:</div>
+    <button class="mcq-option" data-correct="true">a) 1 independent variable + 1 dependent variable</button>
+    <button class="mcq-option" data-correct="false">b) 5 variables</button>
+    <button class="mcq-option" data-correct="false">c) No variables</button>
+    <button class="mcq-option" data-correct="false">d) Only demographics</button>
+    <div class="mcq-answer">✅ a) Simple = ONE cause (IV) → ONE effect (DV).</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. When p &lt; 0.05, we:</div>
+    <button class="mcq-option" data-correct="true">a) Reject H₀ and accept H₁</button>
+    <button class="mcq-option" data-correct="false">b) Accept H₀</button>
+    <button class="mcq-option" data-correct="false">c) Reject both</button>
+    <button class="mcq-option" data-correct="false">d) Ignore the result</button>
+    <div class="mcq-answer">✅ a) p &lt; 0.05 means the result is statistically significant → reject null → accept research hypothesis!</div></div>
+</div>
+
 `
 }
 ,{
@@ -573,6 +841,56 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 <details><summary>Name 5 characteristics of a good research problem statement.</summary><p>Clear (no ambiguity), Specific (identifies population, variable, setting precisely), Researchable (data can be collected to answer it), Feasible (can be done with available resources), Ethical (no harm; IEC approval obtainable). Also: Significant and Novel.</p></details>
 <details><summary>Why must a problem statement be "researchable"?</summary><p>A researchable problem is one where real data can be collected to answer it. Philosophical questions ("Is nursing noble?") or moral questions ("Should euthanasia be allowed?") cannot be answered by data collection and are therefore NOT researchable.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div><strong>Bad problem statement:</strong> "A study on pain" ❌ (too vague!)<br><br>
+  <strong>Good problem statement:</strong> "Effectiveness of cold application on intensity of labour pain among primigravida mothers admitted in labour ward of Government Hospital, Pune — February to April 2024" ✅<br><br>
+  Why is it good? It has ALL elements: ✅ IV (cold application) ✅ DV (labour pain) ✅ Population (primigravida mothers) ✅ Setting (Govt Hospital, Pune) ✅ Time (Feb-April 2024)</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: Writing a problem statement that is too vague — "A study on diabetes"</div>
+  <div class="mistake-right">✅ Right: Always include: WHAT (variable), WHO (population), WHERE (setting), WHEN (time)</div>
+  <div class="mistake-wrong">❌ Wrong: Confusing problem statement with hypothesis</div>
+  <div class="mistake-right">✅ Right: Problem statement = title/question of study. Hypothesis = prediction of what will happen</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. A good problem statement should be:</div>
+    <button class="mcq-option" data-correct="true">a) Clear, specific, feasible, and ethical</button>
+    <button class="mcq-option" data-correct="false">b) Vague and broad</button>
+    <button class="mcq-option" data-correct="false">c) Only one word long</button>
+    <button class="mcq-option" data-correct="false">d) Written after data analysis</button>
+    <div class="mcq-answer">✅ a) A good problem statement has many characteristics — clarity and specificity are most important.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. Which element is MISSING: "Effect of yoga on stress among nurses"?</div>
+    <button class="mcq-option" data-correct="false">a) Variable</button>
+    <button class="mcq-option" data-correct="false">b) Population</button>
+    <button class="mcq-option" data-correct="true">c) Setting and time frame</button>
+    <button class="mcq-option" data-correct="false">d) Nothing is missing</button>
+    <div class="mcq-answer">✅ c) WHERE (which hospital?) and WHEN (which months?) are not mentioned.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. "Researchable" means the problem:</div>
+    <button class="mcq-option" data-correct="true">a) Can be studied scientifically through observation and measurement</button>
+    <button class="mcq-option" data-correct="false">b) Is very expensive to study</button>
+    <button class="mcq-option" data-correct="false">c) Has already been studied 100 times</button>
+    <button class="mcq-option" data-correct="false">d) Is a philosophical question</button>
+    <div class="mcq-answer">✅ a) The problem must be answerable through scientific methods — observation, measurement, analysis.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. A problem statement should identify:</div>
+    <button class="mcq-option" data-correct="false">a) Only the dependent variable</button>
+    <button class="mcq-option" data-correct="true">b) Both independent and dependent variables</button>
+    <button class="mcq-option" data-correct="false">c) No variables</button>
+    <button class="mcq-option" data-correct="false">d) Only demographic variables</button>
+    <div class="mcq-answer">✅ b) A good problem statement mentions both IV (cause) and DV (effect).</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. "Novel" in a problem statement means:</div>
+    <button class="mcq-option" data-correct="true">a) The study adds something new to knowledge</button>
+    <button class="mcq-option" data-correct="false">b) It's a fiction story</button>
+    <button class="mcq-option" data-correct="false">c) It's been done many times before</button>
+    <button class="mcq-option" data-correct="false">d) It's a novel (book)</button>
+    <div class="mcq-answer">✅ a) Novel = new and original — it should contribute something that wasn't known before.</div></div>
+</div>
+
 `
 }
 ,{
@@ -718,6 +1036,56 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 <details><summary>What is the difference between H1 and H0?</summary><p>H1 (Research Hypothesis) = predicts a significant relationship or difference EXISTS between variables. H0 (Null Hypothesis) = predicts NO significant relationship or difference. H0 is the one actually tested statistically. If p &lt; 0.05, H0 is rejected and H1 is supported.</p></details>
 <details><summary>Give one example each of directional and non-directional hypothesis for the same nursing study.</summary><p>Study: Effect of music therapy on pre-op anxiety.<br>Directional: "Music therapy will significantly DECREASE pre-operative anxiety scores compared to the control group." (specifies direction: decrease)<br>Non-directional: "There will be a significant difference in pre-operative anxiety scores between music therapy and control groups." (no direction specified)</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Think of hypothesis types like TV predictions:<br><br>
+  📺 <strong>Directional:</strong> "India WILL win tomorrow's cricket match" (predicts the direction = win)<br>
+  📺 <strong>Non-directional:</strong> "There will be a DIFFERENCE in scores between India and Australia" (predicts difference but not who wins)<br>
+  📺 <strong>Null:</strong> "There will be NO difference — it will be a TIE" (predicts nothing happens)<br><br>
+  Same logic in nursing research! Just replace cricket with patient outcomes 😄</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: Mixing up directional and non-directional in exam answers</div>
+  <div class="mistake-right">✅ Right: Directional uses words like "increase/decrease/better/worse." Non-directional just says "difference"</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. "Massage will REDUCE pain" — which type?</div>
+    <button class="mcq-option" data-correct="true">a) Directional</button>
+    <button class="mcq-option" data-correct="false">b) Non-directional</button>
+    <button class="mcq-option" data-correct="false">c) Null</button>
+    <button class="mcq-option" data-correct="false">d) Complex</button>
+    <div class="mcq-answer">✅ a) "REDUCE" tells the direction — so it's directional.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. "There will be a DIFFERENCE in pain" — which type?</div>
+    <button class="mcq-option" data-correct="false">a) Directional</button>
+    <button class="mcq-option" data-correct="true">b) Non-directional</button>
+    <button class="mcq-option" data-correct="false">c) Null</button>
+    <button class="mcq-option" data-correct="false">d) Simple</button>
+    <div class="mcq-answer">✅ b) Just says "difference" without saying more or less — non-directional.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. "There will be NO significant difference" — which type?</div>
+    <button class="mcq-option" data-correct="false">a) Research</button>
+    <button class="mcq-option" data-correct="true">b) Null (H₀)</button>
+    <button class="mcq-option" data-correct="false">c) Directional</button>
+    <button class="mcq-option" data-correct="false">d) Complex</button>
+    <div class="mcq-answer">✅ b) "NO significant difference" = null hypothesis = H₀.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. Complex hypothesis involves:</div>
+    <button class="mcq-option" data-correct="false">a) 1 variable only</button>
+    <button class="mcq-option" data-correct="true">b) 2 or more IVs and/or DVs</button>
+    <button class="mcq-option" data-correct="false">c) No variables</button>
+    <button class="mcq-option" data-correct="false">d) Only demographics</button>
+    <div class="mcq-answer">✅ b) Complex = multiple independent and/or dependent variables.</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. H₁ = 1 = something. H₀ = 0 = :</div>
+    <button class="mcq-option" data-correct="false">a) Something big</button>
+    <button class="mcq-option" data-correct="true">b) Nothing (no effect)</button>
+    <button class="mcq-option" data-correct="false">c) Everything</button>
+    <button class="mcq-option" data-correct="false">d) Double effect</button>
+    <div class="mcq-answer">✅ b) H₁ = 1 = "there IS something." H₀ = 0 = "there is NOTHING." Easy memory trick!</div></div>
+</div>
+
 `
 }
 ,{
@@ -778,7 +1146,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
   <h3 class="answer-section-title">Definition of Hypothesis</h3>
   <div class="definition-box animate-scale-in">
     A <strong>hypothesis</strong> is a <strong>tentative, declarative, testable statement</strong> about the predicted relationship between two or more variables in a defined population. It is formulated before data collection and tested with statistical analysis.<br><br>
-    <strong>Kerlinger:</strong> "A hypothesis is a conjectural statement of the relationship between two or more variables, written in declarative form and testable."
+    <strong>Kerlinger:</strong> "A hypothesis is a predicted statement (a guess) of the relationship between two or more variables, written in declarative form and testable."
   </div>
 </div>
 
@@ -842,6 +1210,53 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 <details><summary>Define hypothesis in one sentence.</summary><p>A hypothesis is a tentative, declarative, testable statement predicting the expected relationship between two or more variables in a defined population, formulated before data collection and tested with statistical analysis.</p></details>
 <details><summary>What is the difference between directional and non-directional hypothesis?</summary><p>Directional: predicts both that a difference exists AND its direction (e.g., "will decrease"). Tested with one-tailed test. Non-directional: predicts a difference exists but NOT which direction. Tested with two-tailed test.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Before going to a movie, you make a hypothesis: "This movie will be good because the trailer was exciting." After watching, you either accept or reject your hypothesis based on the actual movie!<br><br>
+  Same in nursing: <strong>"Foot massage will reduce post-op pain"</strong> — you test it, then accept or reject based on the data. That's what hypothesis is all about!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Hypothesis is a proven fact"</div>
+  <div class="mistake-right">✅ Right: Hypothesis is a PREDICTION — it becomes a fact only AFTER testing proves it</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. A hypothesis is best described as:</div>
+    <button class="mcq-option" data-correct="true">a) A testable prediction about the relationship between variables</button>
+    <button class="mcq-option" data-correct="false">b) A proven scientific law</button>
+    <button class="mcq-option" data-correct="false">c) A data collection tool</button>
+    <button class="mcq-option" data-correct="false">d) A research conclusion</button>
+    <div class="mcq-answer">✅ a) A hypothesis predicts what you expect to find — and it MUST be testable.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. Who defined hypothesis as "a conjectural statement"?</div>
+    <button class="mcq-option" data-correct="true">a) Kerlinger</button>
+    <button class="mcq-option" data-correct="false">b) WHO</button>
+    <button class="mcq-option" data-correct="false">c) Florence Nightingale</button>
+    <button class="mcq-option" data-correct="false">d) INC</button>
+    <div class="mcq-answer">✅ a) Kerlinger (1973) defined hypothesis as "a conjectural statement of the relation between two or more variables."</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. A good hypothesis must be:</div>
+    <button class="mcq-option" data-correct="false">a) Vague and broad</button>
+    <button class="mcq-option" data-correct="true">b) Specific, testable, and clear</button>
+    <button class="mcq-option" data-correct="false">c) Impossible to test</button>
+    <button class="mcq-option" data-correct="false">d) Written after data collection</button>
+    <div class="mcq-answer">✅ b) A good hypothesis is always specific, testable, and written in clear language.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. Hypothesis is written:</div>
+    <button class="mcq-option" data-correct="true">a) Before data collection</button>
+    <button class="mcq-option" data-correct="false">b) After data analysis</button>
+    <button class="mcq-option" data-correct="false">c) During conclusion</button>
+    <button class="mcq-option" data-correct="false">d) After publishing the study</button>
+    <div class="mcq-answer">✅ a) Hypothesis is always written BEFORE the study — it's your prediction of what will happen.</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. Hypothesis and assumption — key difference:</div>
+    <button class="mcq-option" data-correct="true">a) Hypothesis is tested, assumption is not tested</button>
+    <button class="mcq-option" data-correct="false">b) Both are tested</button>
+    <button class="mcq-option" data-correct="false">c) Both are not tested</button>
+    <button class="mcq-option" data-correct="false">d) They are the same</button>
+    <div class="mcq-answer">✅ a) Hypothesis = must be tested. Assumption = accepted without testing.</div></div>
+</div>
+
 `
 }
 ,{
@@ -928,6 +1343,56 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 <details><summary>What does SMART stand for in the context of research objectives?</summary><p>S = Specific (exact variable, population, setting), M = Measurable (quantifiable outcome), A = Achievable (realistic with available resources), R = Relevant (directly linked to research problem), T = Time-bound (specifies the study period).</p></details>
 <details><summary>Write one correctly-worded research objective following all criteria.</summary><p>"To compare the level of pre-operative anxiety (HAM-A score) among adult patients (18&ndash;60 years) receiving structured music therapy vs. standard care in the surgical ward of Government Medical College, Nagpur, during January&ndash;June 2024." (Specific: anxiety, adults, one ward; Measurable: HAM-A; Achievable: one hospital; Relevant: to the problem; Time-bound: Jan&ndash;Jun 2024; Action verb: "To compare".)</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div><strong>Bad objective:</strong> "To study patients" ❌ (vague, not measurable, no action verb)<br><br>
+  <strong>Good objective:</strong> "To assess the level of anxiety among pre-operative patients using the State Trait Anxiety Inventory (STAI) scale" ✅<br><br>
+  Why good? ✅ Action verb (To assess) ✅ Specific (anxiety level) ✅ Measurable (using STAI scale) ✅ Clear population (pre-op patients)</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: Starting objectives with "To understand..." or "To know..."</div>
+  <div class="mistake-right">✅ Right: Use measurable verbs: "To assess", "To compare", "To determine", "To evaluate", "To find out"</div>
+  <div class="mistake-wrong">❌ Wrong: Writing objectives that can't be measured</div>
+  <div class="mistake-right">✅ Right: Every objective must be MEASURABLE — you should be able to say "yes, I achieved this"</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. SMART objectives are:</div>
+    <button class="mcq-option" data-correct="true">a) Specific, Measurable, Achievable, Realistic, Time-bound</button>
+    <button class="mcq-option" data-correct="false">b) Simple, Modern, Attractive, Random, Tough</button>
+    <button class="mcq-option" data-correct="false">c) Standard, Medical, Academic, Research, Technical</button>
+    <button class="mcq-option" data-correct="false">d) Slow, Manual, Average, Regular, Traditional</button>
+    <div class="mcq-answer">✅ a) SMART = Specific + Measurable + Achievable + Realistic + Time-bound.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. Which action verb is BEST for writing objectives?</div>
+    <button class="mcq-option" data-correct="false">a) To understand</button>
+    <button class="mcq-option" data-correct="false">b) To know</button>
+    <button class="mcq-option" data-correct="true">c) To assess</button>
+    <button class="mcq-option" data-correct="false">d) To believe</button>
+    <div class="mcq-answer">✅ c) "To assess" is measurable. "To understand" and "To know" are vague and unmeasurable.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. Objectives should be arranged in:</div>
+    <button class="mcq-option" data-correct="true">a) Logical order — from simple to complex</button>
+    <button class="mcq-option" data-correct="false">b) Random order</button>
+    <button class="mcq-option" data-correct="false">c) Reverse order</button>
+    <button class="mcq-option" data-correct="false">d) Alphabetical order</button>
+    <div class="mcq-answer">✅ a) Always list objectives in the order the research will proceed — simple to complex.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. Each objective should focus on:</div>
+    <button class="mcq-option" data-correct="true">a) ONE specific thing</button>
+    <button class="mcq-option" data-correct="false">b) 5 things at once</button>
+    <button class="mcq-option" data-correct="false">c) Everything in the study</button>
+    <button class="mcq-option" data-correct="false">d) Only demographics</button>
+    <div class="mcq-answer">✅ a) Each objective should focus on ONE specific thing — don't mix multiple ideas.</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. "To find the association between pain and demographic variables" — this is a:</div>
+    <button class="mcq-option" data-correct="false">a) Bad objective</button>
+    <button class="mcq-option" data-correct="true">b) Good objective (specific, measurable, clear action verb)</button>
+    <button class="mcq-option" data-correct="false">c) Hypothesis</button>
+    <button class="mcq-option" data-correct="false">d) Assumption</button>
+    <div class="mcq-answer">✅ b) It has an action verb, specific variables, and can be measured statistically.</div></div>
+</div>
+
 `
 }
 ,{
@@ -982,6 +1447,56 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 <details><summary>Name any 5 characteristics of a research objective.</summary><p>(1) Specific &mdash; names exact variable and population. (2) Measurable &mdash; quantifiable with a validated tool. (3) Achievable &mdash; realistic within available resources. (4) Relevant &mdash; directly linked to research problem. (5) Time-bound &mdash; specifies the study period.</p></details>
 <details><summary>What action verbs can be used to write research objectives?</summary><p>To assess (measuring a level/status), To compare (between two groups), To evaluate (judging effectiveness), To determine (finding association), To identify (finding characteristics), To explore (qualitative studies).</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Think of objectives like a shopping list before going to the market:<br>
+  ✅ <strong>Specific:</strong> "Buy 500g Amul butter" (not just "buy dairy")<br>
+  ✅ <strong>Measurable:</strong> "Buy 2 kg rice" (you can check: did I buy it or not?)<br>
+  ✅ <strong>Achievable:</strong> "Buy from the shop 1 km away" (you can actually go there)<br>
+  Same with research objectives — be specific, measurable, and realistic!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: Listing characteristics without examples for a 3-mark question</div>
+  <div class="mistake-right">✅ Right: For 3 marks, write 4-5 characteristics with a brief line of explanation each</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. The MOST important characteristic of a research objective is:</div>
+    <button class="mcq-option" data-correct="false">a) Being very long</button>
+    <button class="mcq-option" data-correct="true">b) Being specific and measurable</button>
+    <button class="mcq-option" data-correct="false">c) Being vague</button>
+    <button class="mcq-option" data-correct="false">d) Being impressive</button>
+    <div class="mcq-answer">✅ b) Objectives must be specific (focused) and measurable (can be checked).</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. "To assess" is better than "To understand" because:</div>
+    <button class="mcq-option" data-correct="true">a) "Assess" can be measured, "understand" cannot</button>
+    <button class="mcq-option" data-correct="false">b) "Assess" sounds fancier</button>
+    <button class="mcq-option" data-correct="false">c) They are the same</button>
+    <button class="mcq-option" data-correct="false">d) "Understand" is more scientific</button>
+    <div class="mcq-answer">✅ a) You can measure whether you "assessed" something. You can't measure "understanding."</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. Objectives should be "time-bound" — this means:</div>
+    <button class="mcq-option" data-correct="true">a) Achievable within the study period</button>
+    <button class="mcq-option" data-correct="false">b) Done in one hour</button>
+    <button class="mcq-option" data-correct="false">c) Takes forever</button>
+    <button class="mcq-option" data-correct="false">d) Has no deadline</button>
+    <div class="mcq-answer">✅ a) Time-bound = can be completed within the time frame of the study.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. "Action-oriented" means objectives should:</div>
+    <button class="mcq-option" data-correct="true">a) Start with action verbs like "To assess", "To compare"</button>
+    <button class="mcq-option" data-correct="false">b) Involve physical exercise</button>
+    <button class="mcq-option" data-correct="false">c) Be written in passive voice</button>
+    <button class="mcq-option" data-correct="false">d) Avoid verbs completely</button>
+    <div class="mcq-answer">✅ a) Objectives always begin with action verbs that describe what you will DO.</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. All objectives together should:</div>
+    <button class="mcq-option" data-correct="false">a) Contradict each other</button>
+    <button class="mcq-option" data-correct="true">b) Work together to achieve the overall AIM of the study</button>
+    <button class="mcq-option" data-correct="false">c) Be unrelated to the study</button>
+    <button class="mcq-option" data-correct="false">d) Be written after the study ends</button>
+    <div class="mcq-answer">✅ b) Each objective is a step — together they should achieve the aim.</div></div>
+</div>
+
 `
 }
 ,{
@@ -1042,7 +1557,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
   <h3 class="answer-section-title">Definition of Hypothesis</h3>
   <div class="definition-box animate-scale-in">
     A <strong>hypothesis</strong> is a <strong>tentative, declarative, testable statement</strong> about the predicted relationship between two or more variables in a defined population. It is formulated BEFORE data collection and is formally tested using statistical analysis.<br><br>
-    <strong>Kerlinger (1973):</strong> "A hypothesis is a conjectural statement of the relationship between two or more variables."<br>
+    <strong>Kerlinger (1973):</strong> "A hypothesis is a predicted statement (a guess) of the relationship between two or more variables."<br>
     <strong>Simple words:</strong> "A hypothesis is an educated, testable guess about what the study will find."
   </div>
 </div>
@@ -1133,6 +1648,60 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 <details><summary>Define hypothesis in one sentence.</summary><p>A hypothesis is a tentative, declarative, testable statement predicting the expected relationship between two or more variables in a defined population, stated before data collection and tested statistically.</p></details>
 <details><summary>Give one example each of H1, H0, directional, and non-directional hypothesis for the same nursing study.</summary><p>Study: Effect of KMC on neonatal temperature in LBW babies.<br>H1: "KMC significantly improves neonatal temperature in LBW neonates."<br>H0: "There is no significant difference in neonatal temperature between KMC and incubator groups."<br>Directional: "KMC will significantly INCREASE neonatal temperature in LBW babies compared to incubator care."<br>Non-directional: "There will be a significant difference in neonatal temperature between KMC and incubator groups."</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>You're studying: "Effect of warm foot bath on blood pressure in elderly"<br><br>
+  Write ALL types:<br>
+  ✍️ <strong>Directional H₁:</strong> "Warm foot bath will significantly DECREASE BP in elderly patients"<br>
+  ✍️ <strong>Non-directional H₁:</strong> "There will be a significant DIFFERENCE in BP between foot bath and no foot bath groups"<br>
+  ✍️ <strong>Null H₀:</strong> "There will be NO significant difference in BP between groups"<br>
+  ✍️ <strong>Simple:</strong> "Foot bath (1 IV) → BP (1 DV)" — 1 cause, 1 effect<br>
+  ✍️ <strong>Complex:</strong> "Foot bath + music (2 IVs) → BP + heart rate (2 DVs)"</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: Not giving examples for each type in a 5-mark question</div>
+  <div class="mistake-right">✅ Right: ALWAYS give a nursing example with each type — examiners love examples!</div>
+  <div class="mistake-wrong">❌ Wrong: "Null hypothesis means the study is pointless"</div>
+  <div class="mistake-right">✅ Right: Null hypothesis is ESSENTIAL — statistics test the null to see if it should be rejected</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. Define hypothesis in ONE line:</div>
+    <button class="mcq-option" data-correct="true">a) A testable prediction about the relationship between variables</button>
+    <button class="mcq-option" data-correct="false">b) A proven scientific fact</button>
+    <button class="mcq-option" data-correct="false">c) A data collection method</button>
+    <button class="mcq-option" data-correct="false">d) A research conclusion</button>
+    <div class="mcq-answer">✅ a) Hypothesis = prediction + testable + about variables.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. "Yoga will INCREASE flexibility" is:</div>
+    <button class="mcq-option" data-correct="true">a) Directional hypothesis</button>
+    <button class="mcq-option" data-correct="false">b) Null hypothesis</button>
+    <button class="mcq-option" data-correct="false">c) Non-directional hypothesis</button>
+    <button class="mcq-option" data-correct="false">d) Complex hypothesis</button>
+    <div class="mcq-answer">✅ a) "INCREASE" tells the specific direction — directional.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. For a 5-mark question, how should you write types?</div>
+    <button class="mcq-option" data-correct="false">a) Just names, no examples</button>
+    <button class="mcq-option" data-correct="true">b) Each type with definition + nursing example</button>
+    <button class="mcq-option" data-correct="false">c) Only 1 type in detail</button>
+    <button class="mcq-option" data-correct="false">d) Copy from textbook word-by-word</button>
+    <div class="mcq-answer">✅ b) Name + short definition + example for each type = perfect 5-mark answer!</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. "Massage + music → pain + anxiety" involves how many variables?</div>
+    <button class="mcq-option" data-correct="false">a) 1</button>
+    <button class="mcq-option" data-correct="false">b) 2</button>
+    <button class="mcq-option" data-correct="true">c) 4 (2 IVs + 2 DVs) — complex hypothesis</button>
+    <button class="mcq-option" data-correct="false">d) 0</button>
+    <div class="mcq-answer">✅ c) 2 independent variables (massage, music) + 2 dependent variables (pain, anxiety) = complex.</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. Statistical testing in research primarily tests which hypothesis?</div>
+    <button class="mcq-option" data-correct="false">a) Research hypothesis directly</button>
+    <button class="mcq-option" data-correct="true">b) Null hypothesis (H₀) — to see if it should be rejected</button>
+    <button class="mcq-option" data-correct="false">c) Both equally</button>
+    <button class="mcq-option" data-correct="false">d) Neither</button>
+    <div class="mcq-answer">✅ b) Statistics test H₀. If p &lt; 0.05, H₀ is rejected → H₁ is accepted.</div></div>
+</div>
+
 `
 }
 ,{
@@ -1159,21 +1728,21 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
       <div class="var-box-example">e.g., Pain score, Knowledge level</div>
     </div>
   </div>
-  <div class="var-confounders-label">↕ Confounding / Extraneous Variables (may interfere):</div>
+  <div class="var-confounders-label">↕ Interfering / misleading / Extra / outside Variables (may interfere):</div>
   <div class="var-confounders">
     <div class="var-box cv" style="min-width:100px; padding:0.5rem;">
-      <div class="var-box-label">Confounding</div>
+      <div class="var-box-label">Interfering / misleading</div>
       <div class="var-box-name" style="font-size:0.76rem">Age, Gender</div>
     </div>
     <div class="var-box ev" style="min-width:100px; padding:0.5rem;">
-      <div class="var-box-label">Extraneous</div>
+      <div class="var-box-label">Extra / outside</div>
       <div class="var-box-name" style="font-size:0.76rem">Environment, Stress</div>
     </div>
   </div>
 </div>
 
 
-<div class="in-short"><strong>In Short:</strong> A <strong>variable</strong> is any characteristic that varies (takes different values) among subjects. Main types: <strong>Independent (IV)</strong> = cause/intervention, <strong>Dependent (DV)</strong> = effect/outcome, <strong>Extraneous</strong> = confounders, <strong>Demographic</strong> = background characteristics, <strong>Continuous</strong> = measured on a scale, <strong>Discrete</strong> = counted in whole numbers.</div>
+<div class="in-short"><strong>In Short:</strong> A <strong>variable</strong> is any characteristic that varies (takes different values) among subjects. Main types: <strong>Independent (IV)</strong> = cause/intervention, <strong>Dependent (DV)</strong> = effect/outcome, <strong>Extra / outside</strong> = confounders, <strong>Demographic</strong> = background characteristics, <strong>Continuous</strong> = measured on a scale, <strong>Discrete</strong> = counted in whole numbers.</div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition of Variable</h3>
@@ -1190,7 +1759,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
     <tbody>
       <tr><td>1</td><td><strong>Independent Variable (IV)</strong></td><td>The CAUSE or INTERVENTION the researcher manipulates or controls to see its effect on the DV</td><td>Music therapy, 2-hourly repositioning, KMC, health education programme</td></tr>
       <tr><td>2</td><td><strong>Dependent Variable (DV)</strong></td><td>The EFFECT or OUTCOME that is measured; it "depends on" (changes because of) the IV</td><td>Anxiety score, pressure ulcer incidence, neonatal weight gain, pain score</td></tr>
-      <tr><td>3</td><td><strong>Extraneous / Confounding Variable</strong></td><td>Any variable OTHER than the IV that could affect the DV &mdash; must be controlled to prevent false results</td><td>Age, gender, prior anxiety history, co-morbidities, ward environment, nurse experience level</td></tr>
+      <tr><td>3</td><td><strong>Extra / outside / Interfering / misleading Variable</strong></td><td>Any variable OTHER than the IV that could affect the DV &mdash; must be controlled to prevent false results</td><td>Age, gender, prior anxiety history, co-morbidities, ward environment, nurse experience level</td></tr>
       <tr><td>4</td><td><strong>Demographic / Attribute Variable</strong></td><td>Background characteristics of participants that describe WHO they are; not manipulated but often reported</td><td>Age, gender, religion, education, marital status, parity, years of nursing experience</td></tr>
       <tr><td>5</td><td><strong>Continuous Variable</strong></td><td>Can take ANY value within a range; measured on a scale; fractions/decimals possible</td><td>Weight (54.3 kg), temperature (37.2&deg;C), BP (118/76 mmHg), pain score (7.5/10)</td></tr>
       <tr><td>6</td><td><strong>Discrete Variable</strong></td><td>Can only take WHOLE NUMBER values; counted, not measured; no fractions possible</td><td>Number of pressure ulcers (0, 1, 2...), number of deliveries, parity (0, 1, 2...), medication errors</td></tr>
@@ -1206,14 +1775,14 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
   <ul class="answer-points">
     <li><strong>IV (Music therapy):</strong> Applied by researcher; researcher controls who gets it and who doesn't</li>
     <li><strong>DV (Anxiety score):</strong> Measured using HAM-A; changes because of the music therapy intervention</li>
-    <li><strong>Extraneous variables to control:</strong> Prior anxiety disorder, hearing impairment, type of surgery, anaesthesia type, pre-op medication</li>
+    <li><strong>Extra/outside variables to control:</strong> Prior anxiety disorder, hearing impairment, type of surgery, anaesthesia type, pre-op medication</li>
     <li><strong>Demographic variables:</strong> Age, gender, education, marital status, previous surgeries</li>
   </ul>
 </div>
 
 <div class="dont-confuse"><strong>Don't Confuse:</strong><br>
 <strong>Continuous vs Discrete:</strong> Continuous = any value on a scale (weight = 54.3 kg). Discrete = whole numbers only (number of ulcers = 2).<br>
-<strong>IV vs Extraneous:</strong> IV = the variable the researcher intentionally studies. Extraneous = an unwanted variable that can distort results if not controlled.
+<strong>IV vs Extra / outside:</strong> IV = the variable the researcher intentionally studies. Extra / outside = an unwanted variable that can distort results if not controlled.
 </div>
 
 <div class="mnemonic-box">
@@ -1221,19 +1790,19 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
   <div class="mnemonic-explain">
     <strong>IV</strong> = I Vary (researcher manipulates it = the cause)<br>
     <strong>DV</strong> = Depends on the IV (outcome measured = the effect)<br>
-    <strong>Extraneous</strong> = Extra, Unwanted, must be Controlled
+    <strong>Extra / outside</strong> = Extra, Unwanted, must be Controlled
   </div>
 </div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
-  <span class="kw">Variable</span><span class="kw">IV</span><span class="kw">DV</span><span class="kw">Extraneous</span><span class="kw">Demographic</span><span class="kw">Continuous</span><span class="kw">Discrete</span><span class="kw">Qualitative</span><span class="kw">Quantitative</span>
+  <span class="kw">Variable</span><span class="kw">IV</span><span class="kw">DV</span><span class="kw">Extra / outside</span><span class="kw">Demographic</span><span class="kw">Continuous</span><span class="kw">Discrete</span><span class="kw">Qualitative</span><span class="kw">Quantitative</span>
 </div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision</div>
   <ul>
     <li>IV = cause (manipulated by researcher) | DV = effect (measured as outcome)</li>
-    <li>Extraneous = unwanted confounders; must be controlled or results will be distorted</li>
+    <li>Extra / outside = unwanted confounders; must be controlled or results will be distorted</li>
     <li>Continuous = any value on scale (weight, BP) | Discrete = whole numbers only (number of ulcers)</li>
     <li>Qualitative = categories (blood group, gender) | Quantitative = numbers (weight, score)</li>
     <li>Demographic variables describe WHO the participants are (age, gender, education)</li>
@@ -1244,15 +1813,69 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 <ul>
   <li><span class="term">IV</span> Independent Variable &mdash; the cause or intervention manipulated by the researcher</li>
   <li><span class="term">DV</span> Dependent Variable &mdash; the outcome measured; changes because of the IV</li>
-  <li><span class="term">Extraneous variable</span> &mdash; unwanted variable that could affect the DV; must be controlled</li>
-  <li><span class="term">Confounder</span> &mdash; an extraneous variable that distorts the relationship between IV and DV</li>
+  <li><span class="term">Extra/outside variable</span> &mdash; unwanted variable that could affect the DV; must be controlled</li>
+  <li><span class="term">Confounder</span> &mdash; an extra/outside variable that distorts the relationship between IV and DV</li>
   <li><span class="term">HAM-A</span> Hamilton Anxiety Rating Scale &mdash; validated 14-item anxiety measurement tool</li>
 </ul></div>
 
 <div class="self-test"><div class="self-test-title">Test Yourself</div>
-<details><summary>Name 5 types of variables with one example each.</summary><p>(1) IV: music therapy (researcher controls). (2) DV: anxiety score (outcome measured). (3) Extraneous: prior anxiety disorder (can distort results). (4) Continuous: weight 54.3 kg (any value). (5) Discrete: number of pressure ulcers — 0, 1, 2 (whole numbers only).</p></details>
+<details><summary>Name 5 types of variables with one example each.</summary><p>(1) IV: music therapy (researcher controls). (2) DV: anxiety score (outcome measured). (3) Extra / outside: prior anxiety disorder (can distort results). (4) Continuous: weight 54.3 kg (any value). (5) Discrete: number of pressure ulcers — 0, 1, 2 (whole numbers only).</p></details>
 <details><summary>What is the difference between continuous and discrete variables?</summary><p>Continuous: can take any value within a range, including decimals/fractions (e.g., weight = 54.3 kg, temperature = 37.2°C). Discrete: can only take whole number values, counted not measured (e.g., number of medication errors = 2, parity = 3).</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div><strong>Study: "Effect of foot massage on post-operative pain"</strong><br><br>
+  🟢 <strong>Independent Variable (IV):</strong> Foot massage — the thing YOU give to the patient<br>
+  🔵 <strong>Dependent Variable (DV):</strong> Pain score — the thing that CHANGES because of foot massage<br>
+  🟡 <strong>Extra/Outside Variables:</strong> Patient's age, weight, type of surgery — you didn't plan to study these but they might affect pain!<br>
+  🔴 <strong>Interfering Variable:</strong> Some patients secretly took extra pain medicine — this confuses your results!<br>
+  📋 <strong>Demographic:</strong> Age, gender, education — background info about your patients<br><br>
+  Memory trick: <strong>IV = what I DO. DV = what I MEASURE.</strong></div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: Confusing IV and DV — writing "pain is the independent variable"</div>
+  <div class="mistake-right">✅ Right: IV = what you GIVE/DO (intervention). DV = what CHANGES as a result (outcome you measure)</div>
+  <div class="mistake-wrong">❌ Wrong: "Extra and interfering variables are the same"</div>
+  <div class="mistake-right">✅ Right: Extra variables might affect DV. Interfering/misleading variables confuse the IV-DV relationship specifically</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. In "Effect of yoga on stress" — yoga is the:</div>
+    <button class="mcq-option" data-correct="true">a) Independent variable (what researcher gives)</button>
+    <button class="mcq-option" data-correct="false">b) Dependent variable (what is measured)</button>
+    <button class="mcq-option" data-correct="false">c) Extra variable</button>
+    <button class="mcq-option" data-correct="false">d) Demographic variable</button>
+    <div class="mcq-answer">✅ a) Yoga is the intervention the researcher introduces — it's the IV (Independent Variable).</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. In the same study, "stress" is the:</div>
+    <button class="mcq-option" data-correct="false">a) IV</button>
+    <button class="mcq-option" data-correct="true">b) DV (what changes because of yoga)</button>
+    <button class="mcq-option" data-correct="false">c) Extra variable</button>
+    <button class="mcq-option" data-correct="false">d) Interfering/misleading variable</button>
+    <div class="mcq-answer">✅ b) Stress is measured to see if yoga had any effect — it DEPENDS on the IV.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. "Age, gender, education" are examples of:</div>
+    <button class="mcq-option" data-correct="false">a) Independent variables</button>
+    <button class="mcq-option" data-correct="false">b) Dependent variables</button>
+    <button class="mcq-option" data-correct="true">c) Demographic variables</button>
+    <button class="mcq-option" data-correct="false">d) Interfering/misleading variables</button>
+    <div class="mcq-answer">✅ c) Background characteristics of participants = demographic variables.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. A variable that is NOT the focus but may affect results is:</div>
+    <button class="mcq-option" data-correct="true">a) Extra/outside variable</button>
+    <button class="mcq-option" data-correct="false">b) Independent variable</button>
+    <button class="mcq-option" data-correct="false">c) Dependent variable</button>
+    <button class="mcq-option" data-correct="false">d) Research variable</button>
+    <div class="mcq-answer">✅ a) Extra/outside variables are not part of the study but may influence the dependent variable.</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. Easy way to remember IV vs DV:</div>
+    <button class="mcq-option" data-correct="true">a) IV = what I DO. DV = what I MEASURE</button>
+    <button class="mcq-option" data-correct="false">b) IV = what I measure. DV = what I do</button>
+    <button class="mcq-option" data-correct="false">c) Both are the same</button>
+    <button class="mcq-option" data-correct="false">d) IV = demographics. DV = intervention</button>
+    <div class="mcq-answer">✅ a) I Do (IV = Intervention/Input) → D Measure (DV = Dependent outcome).</div></div>
+</div>
+
 `
 }
 ,{
@@ -1321,6 +1944,60 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 <details><summary>Name 5 sources for identifying a research problem.</summary><p>(1) Clinical nursing practice (bedside observations). (2) Review of Literature (reading journals for gaps). (3) Previous research recommendations ("further studies needed"). (4) Nursing theories (Orem, Pender). (5) Government health priorities (NHM, RMNCH+A goals).</p></details>
 <details><summary>Which is the most systematic source for identifying a research problem and why?</summary><p>Review of Literature (ROL) — because it systematically identifies what is already known, what is contradictory, and what knowledge gaps exist. It provides the scientific justification for the new study.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>You're on duty and notice: <strong>"Many patients are falling in the bathroom at night"</strong><br><br>
+  This observation from your DAILY PRACTICE just became a potential research problem! 💡<br><br>
+  You could study: "Effect of bathroom night lights on patient fall rates in medical wards"<br><br>
+  Other sources of research problems you encounter daily:<br>
+  📰 Reading a journal article that says "no studies done on Indian patients"<br>
+  👵 A patient's family complaining about lack of discharge education<br>
+  👩‍⚕️ Your senior nurse saying "we should check if our hand-washing protocol actually works"</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Research problems can only come from textbooks"</div>
+  <div class="mistake-right">✅ Right: The BEST source is your own clinical practice — problems you see with your own eyes every day!</div>
+  <div class="mistake-wrong">❌ Wrong: Listing sources without examples</div>
+  <div class="mistake-right">✅ Right: For 5 marks, give source name + brief explanation + one example each</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. The MOST common source of research problems is:</div>
+    <button class="mcq-option" data-correct="true">a) Clinical practice / daily nursing experience</button>
+    <button class="mcq-option" data-correct="false">b) TV news</button>
+    <button class="mcq-option" data-correct="false">c) Social media</button>
+    <button class="mcq-option" data-correct="false">d) Dreams</button>
+    <div class="mcq-answer">✅ a) Problems seen during daily patient care are the most common and relevant source.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. "Gaps identified while reading research journals" — this source is:</div>
+    <button class="mcq-option" data-correct="true">a) Review of literature</button>
+    <button class="mcq-option" data-correct="false">b) Clinical practice</button>
+    <button class="mcq-option" data-correct="false">c) Patient feedback</button>
+    <button class="mcq-option" data-correct="false">d) Government reports</button>
+    <div class="mcq-answer">✅ a) Finding gaps in existing studies = problems identified through literature review.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. NFHS and WHO reports are examples of which source?</div>
+    <button class="mcq-option" data-correct="false">a) Clinical practice</button>
+    <button class="mcq-option" data-correct="true">b) Government and international reports</button>
+    <button class="mcq-option" data-correct="false">c) Patient feedback</button>
+    <button class="mcq-option" data-correct="false">d) Nursing theories</button>
+    <div class="mcq-answer">✅ b) NFHS and WHO publish health data that reveals areas needing research.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. A patient saying "nobody taught me how to take insulin" can become a:</div>
+    <button class="mcq-option" data-correct="true">a) Research problem from patient/family feedback</button>
+    <button class="mcq-option" data-correct="false">b) Research conclusion</button>
+    <button class="mcq-option" data-correct="false">c) Hypothesis</button>
+    <button class="mcq-option" data-correct="false">d) Variable</button>
+    <div class="mcq-answer">✅ a) Patient complaints often reveal gaps in care — perfect starting point for a research problem!</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. How many sources should you write for a 5-mark question?</div>
+    <button class="mcq-option" data-correct="false">a) 2</button>
+    <button class="mcq-option" data-correct="true">b) 5-6 sources with examples</button>
+    <button class="mcq-option" data-correct="false">c) 15</button>
+    <button class="mcq-option" data-correct="false">d) Just 1 in detail</button>
+    <div class="mcq-answer">✅ b) 5-6 sources with a brief example each = perfect 5-mark answer.</div></div>
+</div>
+
 `
 }
 ,{
@@ -1338,7 +2015,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
   <h3 class="answer-section-title">Definition of Hypothesis</h3>
   <div class="definition-box animate-scale-in">
     A <strong>hypothesis</strong> is a <strong>tentative, declarative, and testable statement</strong> about the expected relationship between two or more variables in a defined population. It is formulated before data collection begins and is formally tested using statistical analysis to be accepted or rejected.<br><br>
-    <strong>Kerlinger (1973):</strong> "A hypothesis is a conjectural statement of the relationship between two or more variables."<br><br>
+    <strong>Kerlinger (1973):</strong> "A hypothesis is a predicted statement (a guess) of the relationship between two or more variables."<br><br>
     <strong>Polit &amp; Beck:</strong> "A hypothesis is a statement of expected relationships between variables."<br><br>
     <strong>Simple words:</strong> "A hypothesis is an educated, testable guess about what a research study will find."
   </div>
@@ -1369,13 +2046,60 @@ H0: "There is no significant difference in anxiety scores between music therapy 
 <ul>
   <li><span class="term">H1</span> Research Hypothesis &mdash; predicts that a significant effect or relationship EXISTS</li>
   <li><span class="term">H0</span> Null Hypothesis &mdash; predicts NO significant effect; statistically tested</li>
-  <li><span class="term">Conjectural</span> &mdash; based on conjecture/prediction; not yet proven</li>
+  <li><span class="term">Predicted / uncertain</span> &mdash; based on conjecture/prediction; not yet proven</li>
 </ul></div>
 
 <div class="self-test"><div class="self-test-title">Test Yourself</div>
-<details><summary>Define hypothesis in one sentence using Kerlinger's definition.</summary><p>A hypothesis is a conjectural statement of the relationship between two or more variables (Kerlinger, 1973) &mdash; it is tentative, declarative, and testable, formulated before data collection and verified or rejected by statistical analysis.</p></details>
+<details><summary>Define hypothesis in one sentence using Kerlinger's definition.</summary><p>A hypothesis is a predicted statement (a guess) of the relationship between two or more variables (Kerlinger, 1973) &mdash; it is tentative, declarative, and testable, formulated before data collection and verified or rejected by statistical analysis.</p></details>
 <details><summary>Name 3 key features of a hypothesis.</summary><p>(1) Tentative &mdash; a prediction, not a proven fact. (2) Declarative &mdash; written as a statement, not a question. (3) Testable &mdash; can be confirmed or refuted by actual data collection and analysis.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Before cooking, you predict: "Adding ginger will make the tea taste better" — that's a hypothesis!<br><br>
+  In nursing: "Giving warm milk at bedtime will improve sleep quality in elderly patients" — this is a nursing research hypothesis! You test it, then see if you were right.</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: Writing a full essay for a 3-mark definition question</div>
+  <div class="mistake-right">✅ Right: 1 definition (2 lines) + 2 author definitions (Polit & Beck, Kerlinger) + 1 example = 3 marks done!</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. Hypothesis literally means:</div>
+    <button class="mcq-option" data-correct="true">a) An idea "under" investigation (hypo = under, thesis = idea)</button>
+    <button class="mcq-option" data-correct="false">b) A proven theory</button>
+    <button class="mcq-option" data-correct="false">c) A research tool</button>
+    <button class="mcq-option" data-correct="false">d) A statistical formula</button>
+    <div class="mcq-answer">✅ a) Hypo (under) + thesis (idea) = an idea that needs testing — not yet proven!</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. For a 3-mark "define" question, write:</div>
+    <button class="mcq-option" data-correct="true">a) Definition + 1-2 author citations + example</button>
+    <button class="mcq-option" data-correct="false">b) A full 2-page essay</button>
+    <button class="mcq-option" data-correct="false">c) Only 1 word</button>
+    <button class="mcq-option" data-correct="false">d) All types of hypothesis</button>
+    <div class="mcq-answer">✅ a) 3 marks = definition (1M) + author references (1M) + example (1M).</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. Hypothesis is written at which stage?</div>
+    <button class="mcq-option" data-correct="true">a) After literature review, before data collection</button>
+    <button class="mcq-option" data-correct="false">b) After data analysis</button>
+    <button class="mcq-option" data-correct="false">c) At the very end</button>
+    <button class="mcq-option" data-correct="false">d) During conclusion</button>
+    <div class="mcq-answer">✅ a) Hypothesis is formulated after reading literature and before starting data collection.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. A hypothesis must be:</div>
+    <button class="mcq-option" data-correct="true">a) Testable</button>
+    <button class="mcq-option" data-correct="false">b) Already proven</button>
+    <button class="mcq-option" data-correct="false">c) Impossible to test</button>
+    <button class="mcq-option" data-correct="false">d) Vague</button>
+    <div class="mcq-answer">✅ a) The MOST important quality — a hypothesis must be testable!</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. Which is a correct hypothesis?</div>
+    <button class="mcq-option" data-correct="true">a) "Foot massage will reduce post-op pain in adult patients"</button>
+    <button class="mcq-option" data-correct="false">b) "Pain is bad"</button>
+    <button class="mcq-option" data-correct="false">c) "We should study pain"</button>
+    <button class="mcq-option" data-correct="false">d) "God will heal the patient"</button>
+    <div class="mcq-answer">✅ a) It has IV (foot massage), DV (pain), population (adults), and is testable!</div></div>
+</div>
+
 `
 }
 ,{
@@ -1399,7 +2123,7 @@ H0: "There is no significant difference in anxiety scores between music therapy 
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>#</th><th>Characteristic</th><th>What it Means</th><th>Example / Violation</th></tr></thead>
     <tbody>
-      <tr><td>1</td><td><strong>Testable (Empirically Verifiable)</strong></td><td>Can be confirmed or refuted by collecting and analyzing real data; most critical characteristic</td><td>Testable: "Music therapy reduces anxiety." NOT testable: "Nursing is the most compassionate profession."</td></tr>
+      <tr><td>1</td><td><strong>Testable (Based on real observationly Verifiable)</strong></td><td>Can be confirmed or refuted by collecting and analyzing real data; most critical characteristic</td><td>Testable: "Music therapy reduces anxiety." NOT testable: "Nursing is the most compassionate profession."</td></tr>
       <tr><td>2</td><td><strong>Declarative Form</strong></td><td>Written as a clear, definite statement &mdash; NOT as a question or conditional</td><td>Correct: "Music therapy significantly reduces anxiety." WRONG: "Does music therapy reduce anxiety?" (that's a research question, not a hypothesis)</td></tr>
       <tr><td>3</td><td><strong>Clear and Concise</strong></td><td>Written in simple, unambiguous language; no unnecessary words or jargon; anyone can understand it</td><td>Clear: "2-hourly repositioning reduces pressure ulcer incidence." Unclear: "Frequent positional changes in the horizontal domain affect skin integrity."</td></tr>
       <tr><td>4</td><td><strong>States Relationship Between Variables</strong></td><td>Clearly identifies at least one IV and one DV and specifies the predicted relationship between them</td><td>"Music therapy (IV) significantly reduces pre-op anxiety scores (DV)" &mdash; relationship clearly stated</td></tr>
@@ -1436,16 +2160,70 @@ H0: "There is no significant difference in anxiety scores between music therapy 
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Meanings</div>
 <ul>
-  <li><span class="term">Falsifiable</span> &mdash; a hypothesis that can potentially be proven wrong by empirical data (Popper's criterion for science)</li>
+  <li><span class="term">Falsifiable</span> &mdash; a hypothesis that can potentially be proven wrong by based on real observation data (Popper's criterion for science)</li>
   <li><span class="term">Declarative form</span> &mdash; written as a definite statement, not a question</li>
-  <li><span class="term">Empirically verifiable</span> &mdash; can be confirmed or refuted using real, observable, measurable evidence</li>
+  <li><span class="term">Based on real observationly verifiable</span> &mdash; can be confirmed or refuted using real, observable, measurable evidence</li>
   <li><span class="term">Researcher bias</span> &mdash; when researcher's expectations distort data collection or interpretation</li>
 </ul></div>
 
 <div class="self-test"><div class="self-test-title">Test Yourself</div>
 <details><summary>Name 5 characteristics of a good hypothesis using TD-CRFSC.</summary><p>Testable (can be confirmed/refuted by data), Declarative (written as statement not question), Clear and concise (simple unambiguous language), Relationship stated (IV and DV relationship specified), Falsifiable (can potentially be proven wrong).</p></details>
-<details><summary>Why must a hypothesis be "falsifiable"?</summary><p>Falsifiability means the hypothesis can be tested and potentially proven WRONG by empirical data. This is what separates scientific hypotheses from beliefs or opinions. Non-falsifiable statements (e.g., "nursing is important") cannot be tested and therefore are not scientific hypotheses.</p></details>
+<details><summary>Why must a hypothesis be "falsifiable"?</summary><p>Falsifiability means the hypothesis can be tested and potentially proven WRONG by based on real observation data. This is what separates scientific hypotheses from beliefs or opinions. Non-falsifiable statements (e.g., "nursing is important") cannot be tested and therefore are not scientific hypotheses.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div><strong>Good hypothesis:</strong> "Warm compress applied for 20 minutes will significantly reduce dysmenorrhea pain (NRS score) among adolescent girls in the hostel" ✅<br><br>
+  Why is it good? Let's check characteristics:<br>
+  ✅ <strong>Testable:</strong> Yes — can measure pain before and after<br>
+  ✅ <strong>Specific:</strong> Says exactly what (warm compress), who (adolescent girls), where (hostel)<br>
+  ✅ <strong>Variables stated:</strong> IV (warm compress), DV (pain score)<br>
+  ✅ <strong>Clear language:</strong> Simple, anyone can understand<br>
+  ✅ <strong>Based on literature:</strong> Studies show heat reduces pain</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: Writing characteristics without examples</div>
+  <div class="mistake-right">✅ Right: For each characteristic, give a brief example or explain in simple words</div>
+  <div class="mistake-wrong">❌ Wrong: "Characteristics of hypothesis = types of hypothesis"</div>
+  <div class="mistake-right">✅ Right: Characteristics = QUALITIES of a good hypothesis. Types = CATEGORIES (directional, null, etc.)</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. The MOST important characteristic of hypothesis is:</div>
+    <button class="mcq-option" data-correct="true">a) It must be testable</button>
+    <button class="mcq-option" data-correct="false">b) It must be long</button>
+    <button class="mcq-option" data-correct="false">c) It must be complicated</button>
+    <button class="mcq-option" data-correct="false">d) It must be in English</button>
+    <div class="mcq-answer">✅ a) Testability is THE most important quality — if it can't be tested, it's not a hypothesis!</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. "States the relationship between variables" means:</div>
+    <button class="mcq-option" data-correct="true">a) Clearly mentions both IV and DV and how they relate</button>
+    <button class="mcq-option" data-correct="false">b) Lists all demographics</button>
+    <button class="mcq-option" data-correct="false">c) Describes the research design</button>
+    <button class="mcq-option" data-correct="false">d) Names the hospital</button>
+    <div class="mcq-answer">✅ a) A good hypothesis always shows the expected relationship between cause (IV) and effect (DV).</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. "Based on logic and literature" means:</div>
+    <button class="mcq-option" data-correct="false">a) Made up from imagination</button>
+    <button class="mcq-option" data-correct="true">b) Supported by existing research and makes logical sense</button>
+    <button class="mcq-option" data-correct="false">c) Copied from another student</button>
+    <button class="mcq-option" data-correct="false">d) Based on personal opinion only</button>
+    <div class="mcq-answer">✅ b) Hypothesis should be supported by what previous studies found.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. A good hypothesis should be:</div>
+    <button class="mcq-option" data-correct="false">a) 10 pages long</button>
+    <button class="mcq-option" data-correct="true">b) Brief and concise (1-2 sentences)</button>
+    <button class="mcq-option" data-correct="false">c) Written in code language</button>
+    <button class="mcq-option" data-correct="false">d) Vague and broad</button>
+    <div class="mcq-answer">✅ b) A hypothesis is usually just one or two clear, specific sentences.</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. Characteristics vs Types of hypothesis:</div>
+    <button class="mcq-option" data-correct="true">a) Characteristics = qualities. Types = categories</button>
+    <button class="mcq-option" data-correct="false">b) They are the same</button>
+    <button class="mcq-option" data-correct="false">c) Characteristics = categories. Types = qualities</button>
+    <button class="mcq-option" data-correct="false">d) Neither exists</button>
+    <div class="mcq-answer">✅ a) Characteristics = what makes a GOOD hypothesis. Types = different kinds of hypothesis.</div></div>
+</div>
+
 `
 }
 ,{
@@ -1458,17 +2236,17 @@ H0: "There is no significant difference in anxiety scores between music therapy 
   answer: `
 
 <div class="comparison-split">
-  <div class="vs-badge">⚠️ Limitation <span>VS</span> Delimitation — Don't Confuse!</div>
+  <div class="vs-badge">⚠️ Limitation <span>VS</span> Boundary set by researcher on purpose — Don't Confuse!</div>
   <div class="comp-col left">
     <div class="comp-col-title">⛔ Limitation</div>
     <div class="comp-item"><strong>Meaning:</strong> Weaknesses the researcher CANNOT control — discovered after or during study.</div>
     <div class="comp-item"><strong>Who decides:</strong> Happens naturally, not by researcher's choice.</div>
-    <div class="comp-item"><strong>Effect:</strong> Reduces generalizability / validity of findings.</div>
+    <div class="comp-item"><strong>Effect:</strong> Reduces ability to apply results to a larger group / validity of findings.</div>
     <div class="comp-item"><strong>Examples:</strong> Hawthorne effect, small sample size, biased self-reporting by patients.</div>
     <div class="comp-item"><strong>Mnemonic:</strong> L for "Left behind" — things the researcher couldn't fix.</div>
   </div>
   <div class="comp-col right">
-    <div class="comp-col-title">✅ Delimitation</div>
+    <div class="comp-col-title">✅ Boundary set by researcher on purpose</div>
     <div class="comp-item"><strong>Meaning:</strong> Boundaries the researcher INTENTIONALLY sets — decided before the study.</div>
     <div class="comp-item"><strong>Who decides:</strong> The researcher chooses these to keep the study focused.</div>
     <div class="comp-item"><strong>Effect:</strong> Narrows the scope of the study (intentionally).</div>
@@ -1484,7 +2262,7 @@ H0: "There is no significant difference in anxiety scores between music therapy 
   <h3 class="answer-section-title">Definitions</h3>
   <div class="definition-box animate-scale-in">
     <strong>Assumption:</strong> A basic condition or principle that is <strong>accepted as true without formal proof or testing</strong>. It forms the foundational belief upon which the study rests. Every study has assumptions &mdash; they are stated transparently but are never tested.<br><br>
-    <strong>Kerlinger:</strong> "An assumption is a proposition whose truth is taken for granted."<br><br>
+    <strong>Kerlinger:</strong> "An assumption is a statement accepted as true without proof."<br><br>
     <strong>Hypothesis:</strong> A <strong>tentative, declarative, testable prediction</strong> about the expected relationship between two or more variables in a defined population. It is formally stated before data collection and tested statistically to be supported or rejected.
   </div>
 </div>
@@ -1573,6 +2351,61 @@ H0: "There is no significant difference in anxiety scores between music therapy 
 <details><summary>Give 2 examples of assumptions and 2 of hypotheses from the same nursing study.</summary><p>Study: Music therapy for pre-op anxiety.<br>Assumptions: (1) "Participants will answer the HAM-A questionnaire honestly." (2) "HAM-A validly measures anxiety in Indian patients."<br>Hypotheses: (1) H1: "Music therapy significantly reduces pre-op HAM-A anxiety scores." (2) H0: "There is no significant difference in anxiety scores between music therapy and control groups."</p></details>
 <details><summary>Name 3 similarities between assumptions and hypotheses.</summary><p>(1) Both stated in Chapter 1 of the research thesis. (2) Both stated before data collection begins. (3) Both are based on logical reasoning and influence the study design.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>You're doing a study on "Effect of music therapy on labour pain"<br><br>
+  <strong>Your ASSUMPTIONS (believed without testing):</strong><br>
+  🤞 "All mothers can hear the music clearly" — you just assume this<br>
+  🤞 "Mothers will cooperate during labour" — you believe this<br>
+  🤞 "The pain scale is accurate" — you accept this<br><br>
+  <strong>Your HYPOTHESIS (will be tested):</strong><br>
+  🧪 "Music therapy will significantly reduce labour pain scores" — you WILL test this!<br><br>
+  See? Assumptions = accepted. Hypothesis = tested. That's the KEY difference!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Both assumption and hypothesis are tested"</div>
+  <div class="mistake-right">✅ Right: Only hypothesis is tested. Assumption is NEVER tested — it's just believed</div>
+  <div class="mistake-wrong">❌ Wrong: Writing a paragraph instead of a comparison table for a 7-mark question</div>
+  <div class="mistake-right">✅ Right: Use a COMPARISON TABLE with 6-7 points of difference — examiners love tables!</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. An assumption is:</div>
+    <button class="mcq-option" data-correct="true">a) Accepted as true WITHOUT testing</button>
+    <button class="mcq-option" data-correct="false">b) Tested in the study</button>
+    <button class="mcq-option" data-correct="false">c) Always proven wrong</button>
+    <button class="mcq-option" data-correct="false">d) A statistical test</button>
+    <div class="mcq-answer">✅ a) Assumption = believed without proof. It's the foundation, not the test.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. A hypothesis is:</div>
+    <button class="mcq-option" data-correct="false">a) Never tested</button>
+    <button class="mcq-option" data-correct="true">b) A prediction that IS tested through research</button>
+    <button class="mcq-option" data-correct="false">c) The same as assumption</button>
+    <button class="mcq-option" data-correct="false">d) Written after data analysis</button>
+    <div class="mcq-answer">✅ b) Hypothesis is the prediction you TEST — accept or reject based on data.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. "Patients will respond honestly" — this is:</div>
+    <button class="mcq-option" data-correct="true">a) Assumption (believed, not tested)</button>
+    <button class="mcq-option" data-correct="false">b) Hypothesis (to be tested)</button>
+    <button class="mcq-option" data-correct="false">c) Objective</button>
+    <button class="mcq-option" data-correct="false">d) Variable</button>
+    <div class="mcq-answer">✅ a) You believe this is true but you can't actually verify it — classic assumption!</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. "Foot massage reduces post-op pain" — this is:</div>
+    <button class="mcq-option" data-correct="false">a) Assumption</button>
+    <button class="mcq-option" data-correct="true">b) Hypothesis (will be tested with data)</button>
+    <button class="mcq-option" data-correct="false">c) Definition</button>
+    <button class="mcq-option" data-correct="false">d) Limitation</button>
+    <div class="mcq-answer">✅ b) This is a prediction about the relationship between IV and DV — it will be tested!</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. For a 7-mark comparison question, the BEST format is:</div>
+    <button class="mcq-option" data-correct="false">a) A long paragraph</button>
+    <button class="mcq-option" data-correct="true">b) A comparison table with 6-7 points of difference</button>
+    <button class="mcq-option" data-correct="false">c) Just one point</button>
+    <button class="mcq-option" data-correct="false">d) Only definitions</button>
+    <div class="mcq-answer">✅ b) Table format: Assumption column vs Hypothesis column with 6-7 rows = best for 7 marks.</div></div>
+</div>
+
 `
 }
 ,{
@@ -1599,21 +2432,21 @@ H0: "There is no significant difference in anxiety scores between music therapy 
       <div class="var-box-example">e.g., Pain score, Knowledge level</div>
     </div>
   </div>
-  <div class="var-confounders-label">↕ Confounding / Extraneous Variables (may interfere):</div>
+  <div class="var-confounders-label">↕ Interfering / misleading / Extra / outside Variables (may interfere):</div>
   <div class="var-confounders">
     <div class="var-box cv" style="min-width:100px; padding:0.5rem;">
-      <div class="var-box-label">Confounding</div>
+      <div class="var-box-label">Interfering / misleading</div>
       <div class="var-box-name" style="font-size:0.76rem">Age, Gender</div>
     </div>
     <div class="var-box ev" style="min-width:100px; padding:0.5rem;">
-      <div class="var-box-label">Extraneous</div>
+      <div class="var-box-label">Extra / outside</div>
       <div class="var-box-name" style="font-size:0.76rem">Environment, Stress</div>
     </div>
   </div>
 </div>
 
 
-<div class="in-short"><strong>In Short:</strong> A <strong>variable</strong> is any characteristic that takes different values among subjects. Types: <strong>Independent (IV)</strong> = cause, <strong>Dependent (DV)</strong> = effect, <strong>Extraneous</strong> = confounders, <strong>Demographic</strong> = background info, <strong>Continuous</strong> = any value on scale, <strong>Discrete</strong> = whole numbers counted, <strong>Qualitative</strong> = categories, <strong>Quantitative</strong> = numbers.</div>
+<div class="in-short"><strong>In Short:</strong> A <strong>variable</strong> is any characteristic that takes different values among subjects. Types: <strong>Independent (IV)</strong> = cause, <strong>Dependent (DV)</strong> = effect, <strong>Extra / outside</strong> = confounders, <strong>Demographic</strong> = background info, <strong>Continuous</strong> = any value on scale, <strong>Discrete</strong> = whole numbers counted, <strong>Qualitative</strong> = categories, <strong>Quantitative</strong> = numbers.</div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition of Variable</h3>
@@ -1634,7 +2467,7 @@ H0: "There is no significant difference in anxiety scores between music therapy 
     <tbody>
       <tr><td><strong>Independent Variable (IV)</strong></td><td>The CAUSE or INTERVENTION manipulated by the researcher to study its effect on the DV</td><td>Music therapy, 2-hourly repositioning, KMC protocol, health education session</td></tr>
       <tr><td><strong>Dependent Variable (DV)</strong></td><td>The EFFECT or OUTCOME measured; changes because of the IV; "depends on" the IV</td><td>Anxiety score (HAM-A), pressure ulcer incidence, neonatal weight gain, pain score (NRS)</td></tr>
-      <tr><td><strong>Extraneous / Confounding Variable</strong></td><td>Unwanted variables other than the IV that could affect the DV; must be identified and controlled</td><td>Age, prior anxiety disorder, type of surgery, co-morbidities, ward noise level</td></tr>
+      <tr><td><strong>Extra / outside / Interfering / misleading Variable</strong></td><td>Unwanted variables other than the IV that could affect the DV; must be identified and controlled</td><td>Age, prior anxiety disorder, type of surgery, co-morbidities, ward noise level</td></tr>
       <tr><td><strong>Demographic / Attribute Variable</strong></td><td>Background characteristics describing WHO the participants are; not manipulated but documented</td><td>Age, gender, religion, education level, marital status, parity, years of experience</td></tr>
     </tbody>
   </table></div>
@@ -1657,7 +2490,7 @@ H0: "There is no significant difference in anxiety scores between music therapy 
   <ul class="answer-points">
     <li><strong>IV:</strong> Music therapy (researcher controls who receives it)</li>
     <li><strong>DV:</strong> Pre-operative anxiety score (HAM-A — measured as outcome)</li>
-    <li><strong>Extraneous variables:</strong> Prior anxiety disorder, hearing impairment, type of anaesthesia, noise level in ward (must be controlled)</li>
+    <li><strong>Extra/outside variables:</strong> Prior anxiety disorder, hearing impairment, type of anaesthesia, noise level in ward (must be controlled)</li>
     <li><strong>Demographic variables:</strong> Age, gender, education, marital status, previous surgical history</li>
     <li><strong>Quantitative variable:</strong> HAM-A anxiety score (0&ndash;56)</li>
     <li><strong>Qualitative variable:</strong> Gender (male/female), type of surgery (elective/emergency)</li>
@@ -1665,7 +2498,7 @@ H0: "There is no significant difference in anxiety scores between music therapy 
 </div>
 
 <div class="dont-confuse"><strong>Don't Confuse:</strong><br>
-<strong>IV vs Extraneous:</strong> IV = the variable you CHOOSE to study (music therapy). Extraneous = variables you didn't choose but could distort results (prior anxiety, ward noise).<br>
+<strong>IV vs Extra / outside:</strong> IV = the variable you CHOOSE to study (music therapy). Extra / outside = variables you didn't choose but could distort results (prior anxiety, ward noise).<br>
 <strong>Continuous vs Discrete:</strong> Continuous = any decimal value (weight 54.3 kg). Discrete = whole numbers only (3 pressure ulcers).
 </div>
 
@@ -1674,19 +2507,19 @@ H0: "There is no significant difference in anxiety scores between music therapy 
   <div class="mnemonic-explain">
     <strong>IV</strong> = I Vary it (researcher controls it = CAUSE)<br>
     <strong>DV</strong> = Depends on IV (researcher measures it = EFFECT)<br>
-    <strong>Extraneous</strong> = Extra mess = must be Controlled
+    <strong>Extra / outside</strong> = Extra mess = must be Controlled
   </div>
 </div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
-  <span class="kw">Variable</span><span class="kw">IV</span><span class="kw">DV</span><span class="kw">Extraneous</span><span class="kw">Demographic</span><span class="kw">Continuous</span><span class="kw">Discrete</span><span class="kw">Qualitative</span><span class="kw">Quantitative</span><span class="kw">Kerlinger</span>
+  <span class="kw">Variable</span><span class="kw">IV</span><span class="kw">DV</span><span class="kw">Extra / outside</span><span class="kw">Demographic</span><span class="kw">Continuous</span><span class="kw">Discrete</span><span class="kw">Qualitative</span><span class="kw">Quantitative</span><span class="kw">Kerlinger</span>
 </div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision</div>
   <ul>
     <li>Variable = characteristic that varies among subjects or situations</li>
-    <li>IV = cause (manipulated) | DV = effect (measured) | Extraneous = confounders (controlled)</li>
+    <li>IV = cause (manipulated) | DV = effect (measured) | Extra / outside = confounders (controlled)</li>
     <li>Continuous = any value (54.3 kg) | Discrete = whole numbers (3 ulcers)</li>
     <li>Qualitative = categories (gender, blood group) | Quantitative = numbers (HAM-A score, weight)</li>
     <li>Demographic variables describe WHO participants are; not manipulated but documented</li>
@@ -1697,15 +2530,68 @@ H0: "There is no significant difference in anxiety scores between music therapy 
 <ul>
   <li><span class="term">IV</span> Independent Variable &mdash; cause; the variable the researcher manipulates</li>
   <li><span class="term">DV</span> Dependent Variable &mdash; effect; the outcome measured that depends on the IV</li>
-  <li><span class="term">Extraneous variable</span> &mdash; unwanted confounding factor that can distort the IV-DV relationship</li>
+  <li><span class="term">Extra/outside variable</span> &mdash; unwanted interfering / misleading factor that can distort the IV-DV relationship</li>
   <li><span class="term">HAM-A</span> Hamilton Anxiety Rating Scale &mdash; validated tool measuring anxiety (0&ndash;56; higher = more anxious)</li>
   <li><span class="term">NRS</span> Numerical Rating Scale &mdash; 0&ndash;10 pain scale for patient self-reporting</li>
 </ul></div>
 
 <div class="self-test"><div class="self-test-title">Test Yourself</div>
 <details><summary>Define variable and give 2 examples from nursing research.</summary><p>A variable is any characteristic, quality, or condition that can take different values among subjects or situations (Kerlinger). Examples: (1) Blood pressure (varies from patient to patient). (2) Pain score (varies from 0&ndash;10 on NRS). (3) Gender (male/female — varies among participants).</p></details>
-<details><summary>Identify the IV, DV, and one extraneous variable in a study on "effect of KMC on neonatal temperature in LBW babies."</summary><p>IV: Kangaroo Mother Care (KMC) — the intervention the researcher controls. DV: Neonatal temperature — the outcome measured. Extraneous variable: Birth weight, gestational age, maternal body temperature, ward room temperature — any of these could affect neonatal temperature and must be controlled.</p></details>
+<details><summary>Identify the IV, DV, and one extra/outside variable in a study on "effect of KMC on neonatal temperature in LBW babies."</summary><p>IV: Kangaroo Mother Care (KMC) — the intervention the researcher controls. DV: Neonatal temperature — the outcome measured. Extra/outside variable: Birth weight, gestational age, maternal body temperature, ward room temperature — any of these could affect neonatal temperature and must be controlled.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div><strong>Study: "Effect of structured teaching on knowledge of hand hygiene among nursing students"</strong><br><br>
+  📗 <strong>IV (what you DO):</strong> Structured teaching programme<br>
+  📘 <strong>DV (what you MEASURE):</strong> Knowledge score (pre-test and post-test)<br>
+  📙 <strong>Demographics:</strong> Year of study, gender, age, previous training<br>
+  📕 <strong>Extra variables:</strong> Student's prior reading, personal hygiene habits<br><br>
+  Quick formula: <strong>IV causes → DV changes</strong></div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: Saying "pain is the independent variable" in a pain study</div>
+  <div class="mistake-right">✅ Right: Pain is usually the DEPENDENT variable. The INTERVENTION (massage, medicine) is the IV</div>
+  <div class="mistake-wrong">❌ Wrong: Forgetting to mention demographic variables</div>
+  <div class="mistake-right">✅ Right: Always include demographics — examiners check if you know all types!</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. A variable is defined as:</div>
+    <button class="mcq-option" data-correct="true">a) Any characteristic that can change or vary</button>
+    <button class="mcq-option" data-correct="false">b) Something that never changes</button>
+    <button class="mcq-option" data-correct="false">c) A research design</button>
+    <button class="mcq-option" data-correct="false">d) A data collection tool</button>
+    <div class="mcq-answer">✅ a) Variable = anything that can take on different values (age, BP, pain, knowledge).</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. The researcher CONTROLS which variable?</div>
+    <button class="mcq-option" data-correct="true">a) Independent variable</button>
+    <button class="mcq-option" data-correct="false">b) Dependent variable</button>
+    <button class="mcq-option" data-correct="false">c) Demographic variable</button>
+    <button class="mcq-option" data-correct="false">d) Extra variable</button>
+    <div class="mcq-answer">✅ a) IV is what the researcher manipulates, gives, or controls.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. In a descriptive study (no intervention), the main variable is called:</div>
+    <button class="mcq-option" data-correct="false">a) Independent variable</button>
+    <button class="mcq-option" data-correct="true">b) Research variable</button>
+    <button class="mcq-option" data-correct="false">c) Interfering/misleading variable</button>
+    <button class="mcq-option" data-correct="false">d) Extra variable</button>
+    <div class="mcq-answer">✅ b) In descriptive studies (no intervention), the key variable is called the research variable.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. "Patient secretly took extra medicine" — this is a:</div>
+    <button class="mcq-option" data-correct="false">a) Demographic variable</button>
+    <button class="mcq-option" data-correct="true">b) Interfering/misleading variable (confounds results)</button>
+    <button class="mcq-option" data-correct="false">c) Independent variable</button>
+    <button class="mcq-option" data-correct="false">d) Research variable</button>
+    <div class="mcq-answer">✅ b) This confuses the IV-DV relationship — it's an interfering/misleading (confounding) variable.</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. Remember: IV = what I ____, DV = what I ____:</div>
+    <button class="mcq-option" data-correct="true">a) DO, MEASURE</button>
+    <button class="mcq-option" data-correct="false">b) MEASURE, DO</button>
+    <button class="mcq-option" data-correct="false">c) READ, WRITE</button>
+    <button class="mcq-option" data-correct="false">d) THINK, FEEL</button>
+    <div class="mcq-answer">✅ a) IV = what I DO (intervention). DV = what I MEASURE (outcome). Simple!</div></div>
+</div>
+
 `
 }
 ];

@@ -499,6 +499,26 @@ document.addEventListener('DOMContentLoaded', () => {
             if (window.activateDiagrams) window.activateDiagrams();
             // Append Google "Learn About" interactive study modules to every answer
             if (window.injectLearnAbout) window.injectLearnAbout(modalBody, q);
+            // MCQ Quiz interactivity: click option → green/red + show answer
+            modalBody.querySelectorAll('.mcq-item').forEach(function(item) {
+                var opts = item.querySelectorAll('.mcq-option');
+                var ans = item.querySelector('.mcq-answer');
+                var answered = false;
+                opts.forEach(function(opt) {
+                    opt.addEventListener('click', function() {
+                        if (answered) return;
+                        answered = true;
+                        var isCorrect = opt.getAttribute('data-correct') === 'true';
+                        opt.classList.add(isCorrect ? 'correct' : 'wrong');
+                        // Also highlight the correct one
+                        opts.forEach(function(o) {
+                            if (o.getAttribute('data-correct') === 'true') o.classList.add('correct');
+                            o.style.pointerEvents = 'none';
+                        });
+                        if (ans) ans.classList.add('show');
+                    });
+                });
+            });
             // Question Cuff: reveal the toggle only when the stem exceeds 2 lines;
             // short questions render in full with no chrome.
             if (questionToggle) {

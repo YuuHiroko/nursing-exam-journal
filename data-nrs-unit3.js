@@ -157,6 +157,60 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
 <details><summary>What is CINAHL and why is it important for nursing research?</summary><p>CINAHL = Cumulative Index to Nursing and Allied Health Literature. It is the most important electronic database specifically for nursing and allied health research, indexing thousands of nursing journals worldwide. It allows nurses to search for evidence relevant to clinical practice using keywords and MeSH terms.</p></details>
 <details><summary>What is grey literature? Give 2 Indian examples.</summary><p>Grey literature = literature not commercially published, produced by governments, institutions, or organizations. Indian examples: (1) ICMR guidelines on infection control in hospitals. (2) NHM annual report on maternal and child health indicators. (3) NFHS-5 national health survey data.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>You're writing a thesis on "Effect of warm compress on labour pain." Where will you find literature?<br><br>
+  📚 <strong>Textbooks:</strong> "Obstetric Nursing" by Annamma Jacob — gives basic theory about labour pain<br>
+  📰 <strong>Journals:</strong> Search "Nightingale Nursing Times" and "Indian Journal of Nursing" for studies on warm compress<br>
+  💻 <strong>Online databases:</strong> Search PubMed, Google Scholar for "warm compress + labour pain"<br>
+  📊 <strong>Government reports:</strong> NFHS data on institutional delivery rates in India<br>
+  📝 <strong>Theses/Dissertations:</strong> Check your university library for previous MSc dissertations on the same topic<br><br>
+  You need ALL these sources for a good literature review!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Google search is enough for literature review"</div>
+  <div class="mistake-right">✅ Right: You need ACADEMIC sources — journals, textbooks, databases, NOT random Google results</div>
+  <div class="mistake-wrong">❌ Wrong: Confusing primary and secondary sources</div>
+  <div class="mistake-right">✅ Right: Primary = original research article. Secondary = textbook or review that summarizes other studies</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. Which is a PRIMARY source of literature?</div>
+    <button class="mcq-option" data-correct="true">a) Original research article published in a journal</button>
+    <button class="mcq-option" data-correct="false">b) A textbook</button>
+    <button class="mcq-option" data-correct="false">c) Encyclopedia</button>
+    <button class="mcq-option" data-correct="false">d) A review article</button>
+    <div class="mcq-answer">✅ a) Primary source = the original research paper written by the researcher who did the study.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. A textbook is a:</div>
+    <button class="mcq-option" data-correct="false">a) Primary source</button>
+    <button class="mcq-option" data-correct="true">b) Secondary source (summarizes other research)</button>
+    <button class="mcq-option" data-correct="false">c) Data collection tool</button>
+    <button class="mcq-option" data-correct="false">d) Research design</button>
+    <div class="mcq-answer">✅ b) Textbooks summarize and compile research done by others — they're secondary sources.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. PubMed is a:</div>
+    <button class="mcq-option" data-correct="true">a) Electronic database for searching research articles</button>
+    <button class="mcq-option" data-correct="false">b) Social media platform</button>
+    <button class="mcq-option" data-correct="false">c) Hospital management software</button>
+    <button class="mcq-option" data-correct="false">d) Nursing theory</button>
+    <div class="mcq-answer">✅ a) PubMed is the largest online database of medical and nursing research articles.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. NFHS (National Family Health Survey) is a source from:</div>
+    <button class="mcq-option" data-correct="false">a) Private company</button>
+    <button class="mcq-option" data-correct="true">b) Government reports and statistics</button>
+    <button class="mcq-option" data-correct="false">c) Nursing journal</button>
+    <button class="mcq-option" data-correct="false">d) Textbook publisher</button>
+    <div class="mcq-answer">✅ b) NFHS is an Indian government health survey — a valuable source of health statistics.</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. Previous MSc nursing dissertations are found in:</div>
+    <button class="mcq-option" data-correct="true">a) University library / Shodhganga</button>
+    <button class="mcq-option" data-correct="false">b) Instagram</button>
+    <button class="mcq-option" data-correct="false">c) WhatsApp</button>
+    <button class="mcq-option" data-correct="false">d) YouTube</button>
+    <div class="mcq-answer">✅ a) University libraries and Shodhganga (online thesis repository) have nursing dissertations.</div></div>
+</div>
+
 `
 }
 ,{
@@ -319,6 +373,60 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
 <details><summary>What is the difference between primary and secondary sources of literature?</summary><p>Primary sources = original research written by the investigator who conducted the study (e.g., original research articles, theses). Most reliable and preferred. Secondary sources = works that summarize, review, or interpret primary sources written by someone other than the original researcher (e.g., textbooks, review articles, systematic reviews). Less detailed but easier to find.</p></details>
 <details><summary>Name 3 electronic databases important for nursing research.</summary><p>(1) CINAHL (Cumulative Index to Nursing and Allied Health Literature) &mdash; best for nursing-specific literature. (2) Cochrane Library &mdash; gold standard for systematic reviews and meta-analyses. (3) PubMed/MEDLINE &mdash; free biomedical database with MeSH term searching.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Think of sources as different "shops" where you find information:<br><br>
+  🏪 <strong>Textbook Shop:</strong> Park's PSM, Brunner & Suddarth — gives you basic concepts<br>
+  🏪 <strong>Journal Shop:</strong> IJONE, NNT — gives you latest research findings<br>
+  🏪 <strong>Internet Shop:</strong> PubMed, CINAHL, Google Scholar — search for specific studies<br>
+  🏪 <strong>Library Shop:</strong> Previous dissertations, conference proceedings — see what others did<br>
+  🏪 <strong>Government Shop:</strong> WHO reports, NFHS data — gives population-level data<br><br>
+  For a good ROL, shop from ALL stores — not just one!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: Using only textbooks for literature review</div>
+  <div class="mistake-right">✅ Right: ROL needs mostly RESEARCH ARTICLES (primary sources), not textbooks</div>
+  <div class="mistake-wrong">❌ Wrong: "Sources and purposes are the same answer"</div>
+  <div class="mistake-right">✅ Right: Sources = WHERE you find literature. Purposes = WHY you review literature</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. The MOST important source for ROL in nursing research is:</div>
+    <button class="mcq-option" data-correct="true">a) Published research articles in nursing journals</button>
+    <button class="mcq-option" data-correct="false">b) Newspaper articles</button>
+    <button class="mcq-option" data-correct="false">c) Social media posts</button>
+    <button class="mcq-option" data-correct="false">d) WhatsApp forwards</button>
+    <div class="mcq-answer">✅ a) Published research articles are the most credible and important source.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. CINAHL database is specifically for:</div>
+    <button class="mcq-option" data-correct="true">a) Nursing and allied health research</button>
+    <button class="mcq-option" data-correct="false">b) Engineering research</button>
+    <button class="mcq-option" data-correct="false">c) Law research</button>
+    <button class="mcq-option" data-correct="false">d) Art and design</button>
+    <div class="mcq-answer">✅ a) CINAHL = Cumulative Index to Nursing and Allied Health Literature — specifically for nursing!</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. A conference proceedings paper is:</div>
+    <button class="mcq-option" data-correct="true">a) A paper presented at a scientific conference</button>
+    <button class="mcq-option" data-correct="false">b) A newspaper article</button>
+    <button class="mcq-option" data-correct="false">c) A WhatsApp message</button>
+    <button class="mcq-option" data-correct="false">d) A patient's file</button>
+    <div class="mcq-answer">✅ a) Papers presented at nursing or medical conferences are valid literature sources.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. Shodhganga is a:</div>
+    <button class="mcq-option" data-correct="false">a) Social media app</button>
+    <button class="mcq-option" data-correct="true">b) Indian online repository for PhD and MSc theses</button>
+    <button class="mcq-option" data-correct="false">c) Nursing journal</button>
+    <button class="mcq-option" data-correct="false">d) Hospital name</button>
+    <div class="mcq-answer">✅ b) Shodhganga (UGC) stores Indian university theses and dissertations online.</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. Primary vs Secondary — which is preferred for ROL?</div>
+    <button class="mcq-option" data-correct="true">a) Primary sources (original research articles)</button>
+    <button class="mcq-option" data-correct="false">b) Secondary sources (textbooks)</button>
+    <button class="mcq-option" data-correct="false">c) Both are equally unimportant</button>
+    <button class="mcq-option" data-correct="false">d) Neither is needed</button>
+    <div class="mcq-answer">✅ a) Primary sources are preferred because they give ORIGINAL first-hand data.</div></div>
+</div>
+
 `
 }
 ,{
@@ -389,6 +497,59 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
 <details><summary>Name 5 purposes of Review of Literature.</summary><p>(1) Identify existing knowledge on the topic. (2) Identify the knowledge gap (justifies the new study). (3) Develop the theoretical/conceptual framework. (4) Formulate and refine the research problem and hypothesis. (5) Guide methodology selection (design, instruments). Also: interpret findings, prevent duplication.</p></details>
 <details><summary>Why is identifying the "knowledge gap" the most important purpose of ROL?</summary><p>The knowledge gap is the specific area where existing research is absent, insufficient, or contradictory. It is the scientific justification for conducting the new study. Without a clear knowledge gap, the research has no purpose and adds no value to existing knowledge. The gap answers: "Why does this study need to be done?"</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Before building a house, you visit 10 other houses to see what works and what doesn't. That's exactly what ROL does for research!<br><br>
+  Before your study on "warm compress for labour pain," ROL helps you:<br>
+  🔍 <strong>Find gaps:</strong> "Only 2 studies done in India — I can add one more!"<br>
+  📐 <strong>Choose method:</strong> "Most studies used NRS scale — I'll use it too"<br>
+  💡 <strong>Build hypothesis:</strong> "Studies show heat reduces pain → my hypothesis is correct!"<br>
+  📊 <strong>Compare findings:</strong> After your study, compare: "My results match 80% of previous studies"</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Purpose and sources of ROL are the same"</div>
+  <div class="mistake-right">✅ Right: Purpose = WHY you do ROL. Sources = WHERE you find the literature. Totally different!</div>
+  <div class="mistake-wrong">❌ Wrong: "ROL is done only before the study"</div>
+  <div class="mistake-right">✅ Right: ROL is done before (to plan) AND after (to compare and discuss results)</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. The MAIN purpose of ROL is to:</div>
+    <button class="mcq-option" data-correct="true">a) Know what has already been studied and find gaps</button>
+    <button class="mcq-option" data-correct="false">b) Copy other researchers' work</button>
+    <button class="mcq-option" data-correct="false">c) Fill pages in the thesis</button>
+    <button class="mcq-option" data-correct="false">d) Impress the examiner</button>
+    <div class="mcq-answer">✅ a) ROL tells you what is already known and what gaps remain — so you can fill those gaps!</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. ROL helps in selecting:</div>
+    <button class="mcq-option" data-correct="true">a) Research design, tools, and methodology</button>
+    <button class="mcq-option" data-correct="false">b) Only the title</button>
+    <button class="mcq-option" data-correct="false">c) Only the conclusion</button>
+    <button class="mcq-option" data-correct="false">d) Nothing useful</button>
+    <div class="mcq-answer">✅ a) By reading others' methods, you learn which designs and tools work best.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. "ROL helps avoid duplication" means:</div>
+    <button class="mcq-option" data-correct="true">a) You won't waste time repeating a study already done</button>
+    <button class="mcq-option" data-correct="false">b) You must copy others</button>
+    <button class="mcq-option" data-correct="false">c) You can't do similar research</button>
+    <button class="mcq-option" data-correct="false">d) ROL is useless</button>
+    <div class="mcq-answer">✅ a) If a study has been done 50 times, you don't need to do the 51st unless you have a new angle!</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. ROL is done at which stage(s)?</div>
+    <button class="mcq-option" data-correct="false">a) Only after data collection</button>
+    <button class="mcq-option" data-correct="true">b) Before the study (planning) AND after (discussion of results)</button>
+    <button class="mcq-option" data-correct="false">c) Never</button>
+    <button class="mcq-option" data-correct="false">d) Only during data analysis</button>
+    <div class="mcq-answer">✅ b) ROL is done twice: before (planning) and after (comparing your results with others).</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. ROL helps formulate hypothesis by:</div>
+    <button class="mcq-option" data-correct="true">a) Showing what previous studies found — so you can predict your outcome</button>
+    <button class="mcq-option" data-correct="false">b) Giving you the answer directly</button>
+    <button class="mcq-option" data-correct="false">c) Replacing the hypothesis</button>
+    <button class="mcq-option" data-correct="false">d) Making hypothesis unnecessary</button>
+    <div class="mcq-answer">✅ a) If 8 out of 10 studies found "massage reduces pain," your hypothesis can predict the same!</div></div>
+</div>
+
 `
 }
 ,{
@@ -407,7 +568,7 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
   <div class="definition-box animate-scale-in">
     <strong>Review of Literature (ROL)</strong> is a <strong>systematic, critical, and organized examination of published and unpublished information</strong> (from books, journals, electronic databases, government reports, and other sources) related to a specific research topic, conducted to identify what is known, identify gaps in knowledge, and develop a sound theoretical and conceptual framework for the study.<br><br>
     <strong>Polit &amp; Beck (2012):</strong> "A literature review is a written summary of the state of evidence on a research problem."<br><br>
-    <strong>Burns &amp; Grove:</strong> "A review of literature involves the identification, selection, critical analysis, and reporting of existing information on the topic of interest."<br><br>
+    <strong>Burns &amp; Grove:</strong> "A review of literature involves the identification, selection, careful analysis, and reporting of existing information on the topic of interest."<br><br>
     <strong>Simple words:</strong> "Reading and critically analyzing everything that has been written about your topic to understand what is known, what is not known, and what your study needs to add."
   </div>
 </div>
@@ -438,6 +599,55 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
 <details><summary>Define Review of Literature in one sentence using Polit &amp; Beck's definition.</summary><p>"A literature review is a written summary of the state of evidence on a research problem" (Polit &amp; Beck, 2012). It is a systematic, critical, and organized examination of published information on a topic to identify what is known and what knowledge gaps remain.</p></details>
 <details><summary>Name 3 key features of a Review of Literature.</summary><p>(1) Systematic &mdash; follows a structured step-by-step process. (2) Critical &mdash; evaluates quality, strengths, and limitations of each study. (3) Synthesized &mdash; integrates findings across multiple studies rather than listing each separately.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>In simple words, ROL is like checking Google Maps before starting a journey:<br><br>
+  🗺️ Before driving to Goa, you check the map — which route is best? Where are traffic jams? Where to stop for fuel?<br><br>
+  Similarly, before starting research, you check ROL — what studies exist? What methods worked? What problems did others face?<br><br>
+  <strong>ROL = Your GPS before the research journey!</strong></div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: Writing a long essay for a 2-mark definition</div>
+  <div class="mistake-right">✅ Right: For 2 marks: 1 definition (2 lines) + 1 author reference = done!</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. ROL stands for:</div>
+    <button class="mcq-option" data-correct="true">a) Review of Literature</button>
+    <button class="mcq-option" data-correct="false">b) Research on Learning</button>
+    <button class="mcq-option" data-correct="false">c) Record of Lab</button>
+    <button class="mcq-option" data-correct="false">d) Report of Literature</button>
+    <div class="mcq-answer">✅ a) ROL = Review of Literature.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. ROL is defined as:</div>
+    <button class="mcq-option" data-correct="true">a) An organized, careful summary of published studies related to the research topic</button>
+    <button class="mcq-option" data-correct="false">b) A data collection tool</button>
+    <button class="mcq-option" data-correct="false">c) A research design</button>
+    <button class="mcq-option" data-correct="false">d) A nursing theory</button>
+    <div class="mcq-answer">✅ a) ROL is an organized summary and analysis of existing research on your topic.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. ROL is done:</div>
+    <button class="mcq-option" data-correct="true">a) Before and after the study</button>
+    <button class="mcq-option" data-correct="false">b) Only at the end</button>
+    <button class="mcq-option" data-correct="false">c) Never</button>
+    <button class="mcq-option" data-correct="false">d) Only during data collection</button>
+    <div class="mcq-answer">✅ a) Before = to plan. After = to compare your results with previous findings.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. ROL is like:</div>
+    <button class="mcq-option" data-correct="true">a) Checking the map before a journey</button>
+    <button class="mcq-option" data-correct="false">b) Driving without directions</button>
+    <button class="mcq-option" data-correct="false">c) Cooking without a recipe</button>
+    <button class="mcq-option" data-correct="false">d) Sleeping</button>
+    <div class="mcq-answer">✅ a) Just like checking the map shows you the best route, ROL shows you what's been done before.</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. Who should do ROL?</div>
+    <button class="mcq-option" data-correct="true">a) Every researcher before starting a study</button>
+    <button class="mcq-option" data-correct="false">b) Only PhD students</button>
+    <button class="mcq-option" data-correct="false">c) Only the guide</button>
+    <button class="mcq-option" data-correct="false">d) Nobody</button>
+    <div class="mcq-answer">✅ a) Every researcher — BSc, MSc, or PhD — must do a thorough literature review!</div></div>
+</div>
+
 `
 }
 ,{
@@ -607,6 +817,62 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
 <details><summary>Name the 9 steps in Review of Literature in order.</summary><p>(1) Identify topic/problem. (2) Identify keywords and MeSH terms. (3) Select databases (CINAHL, Cochrane, PubMed). (4) Conduct the search (Boolean operators). (5) Screen and select (inclusion/exclusion criteria). (6) Read and critically analyze. (7) Organize and classify. (8) Synthesize and integrate. (9) Write the ROL (APA referencing, state knowledge gap).</p></details>
 <details><summary>What are Boolean operators? Give examples.</summary><p>Boolean operators are logical words used to combine search keywords in databases: AND = narrows results (both terms must appear: "music therapy AND anxiety"). OR = broadens results (either term: "music OR sound"). NOT = excludes terms ("anxiety NOT children" = only adults). They help get precise, relevant search results.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Here's how you actually DO a literature review — step by step:<br><br>
+  <strong>Topic: "Effect of kangaroo care on weight gain in preterm neonates"</strong><br><br>
+  1️⃣ <strong>Identify keywords:</strong> "kangaroo care," "weight gain," "preterm," "neonates"<br>
+  2️⃣ <strong>Search databases:</strong> PubMed, CINAHL, Google Scholar — type your keywords<br>
+  3️⃣ <strong>Select articles:</strong> From 200 results, pick 30-40 most relevant ones<br>
+  4️⃣ <strong>Read and take notes:</strong> For each article, note: author, year, method, findings<br>
+  5️⃣ <strong>Organize:</strong> Group by themes — Indian studies, international studies, methods used<br>
+  6️⃣ <strong>Write summary:</strong> Write a flowing paragraph combining all findings<br>
+  7️⃣ <strong>Cite properly:</strong> Use APA format for references</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: Just listing study titles without summarizing findings</div>
+  <div class="mistake-right">✅ Right: For each study mention: author, year, sample, design, and KEY FINDINGS</div>
+  <div class="mistake-wrong">❌ Wrong: Using articles older than 10 years for ROL</div>
+  <div class="mistake-right">✅ Right: Use mostly recent articles (last 5-10 years). Older ones only for classic/landmark studies</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. The FIRST step in ROL is:</div>
+    <button class="mcq-option" data-correct="true">a) Identifying keywords related to the topic</button>
+    <button class="mcq-option" data-correct="false">b) Writing the summary</button>
+    <button class="mcq-option" data-correct="false">c) Data collection</button>
+    <button class="mcq-option" data-correct="false">d) Data analysis</button>
+    <div class="mcq-answer">✅ a) Start by listing the key words/terms you'll search for.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. After searching databases, you should:</div>
+    <button class="mcq-option" data-correct="true">a) Select the most relevant articles and read them carefully</button>
+    <button class="mcq-option" data-correct="false">b) Read only the first Google result</button>
+    <button class="mcq-option" data-correct="false">c) Ignore all results</button>
+    <button class="mcq-option" data-correct="false">d) Copy-paste without reading</button>
+    <div class="mcq-answer">✅ a) Screen, select relevant articles, then read them carefully and take notes.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. ROL should be organized by:</div>
+    <button class="mcq-option" data-correct="true">a) Themes or subtopics (not just listed randomly)</button>
+    <button class="mcq-option" data-correct="false">b) Alphabetical order of author names</button>
+    <button class="mcq-option" data-correct="false">c) Length of articles</button>
+    <button class="mcq-option" data-correct="false">d) Random order</button>
+    <div class="mcq-answer">✅ a) Organize by themes — group related findings together for a coherent review.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. References should be cited using:</div>
+    <button class="mcq-option" data-correct="true">a) APA or Vancouver format</button>
+    <button class="mcq-option" data-correct="false">b) WhatsApp forward style</button>
+    <button class="mcq-option" data-correct="false">c) No format needed</button>
+    <button class="mcq-option" data-correct="false">d) Just the article title</button>
+    <div class="mcq-answer">✅ a) Standard citation formats (APA, Vancouver) must be used for academic writing.</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. How many steps are there in ROL process?</div>
+    <button class="mcq-option" data-correct="false">a) 2</button>
+    <button class="mcq-option" data-correct="true">b) 6-7 steps</button>
+    <button class="mcq-option" data-correct="false">c) 15</button>
+    <button class="mcq-option" data-correct="false">d) 1</button>
+    <div class="mcq-answer">✅ b) Typically 6-7 steps: Keywords → Search → Select → Read → Organize → Write → Cite.</div></div>
+</div>
+
 `
 }
 ,{
@@ -757,6 +1023,57 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
 <details><summary>Name the 5 sources of ROL using the mnemonic PSTEG.</summary><p>P = Primary sources (original research articles, theses). S = Secondary sources (textbooks, systematic reviews). T = Tertiary sources (bibliographies, indexes, library catalogs). E = Electronic databases (CINAHL, Cochrane, PubMed). G = Grey literature (WHO guidelines, ICMR reports, NHM documents).</p></details>
 <details><summary>Name 4 uses of ROL.</summary><p>(1) Identify existing knowledge (what is already known). (2) Identify knowledge gap (what is NOT known — justifies the new study). (3) Develop theoretical/conceptual framework. (4) Formulate the research problem and hypothesis. Also: guide methodology, identify instruments, interpret findings.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Think of it this way — this question combines TWO things:<br><br>
+  🔍 <strong>SOURCES (WHERE):</strong> Journals, textbooks, databases, theses, reports, conferences<br>
+  🎯 <strong>USES (WHY):</strong> Find gaps, choose method, build hypothesis, avoid repeating, compare results<br><br>
+  For your study on "hand hygiene knowledge among nursing students," you use:<br>
+  📚 Source: CINAHL database → Found 15 related studies<br>
+  🎯 Use: Discovered no Indian study used video-based teaching → YOUR study will!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: Writing only sources OR only uses</div>
+  <div class="mistake-right">✅ Right: This question asks BOTH — write sources (3-4 points) AND uses (3-4 points)</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. "Where to find literature" = :</div>
+    <button class="mcq-option" data-correct="true">a) Sources of literature</button>
+    <button class="mcq-option" data-correct="false">b) Uses of literature</button>
+    <button class="mcq-option" data-correct="false">c) Steps of literature</button>
+    <button class="mcq-option" data-correct="false">d) Definition of literature</button>
+    <div class="mcq-answer">✅ a) Sources = WHERE you find it. Uses = WHY you review it.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. "Why we do literature review" = :</div>
+    <button class="mcq-option" data-correct="false">a) Sources</button>
+    <button class="mcq-option" data-correct="true">b) Uses/purposes</button>
+    <button class="mcq-option" data-correct="false">c) Steps</button>
+    <button class="mcq-option" data-correct="false">d) Limitations</button>
+    <div class="mcq-answer">✅ b) Uses = purposes = benefits = WHY we review literature.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. For a 5-mark question on "sources AND uses," write:</div>
+    <button class="mcq-option" data-correct="true">a) 3-4 sources + 3-4 uses with brief explanations</button>
+    <button class="mcq-option" data-correct="false">b) Only sources (10 points)</button>
+    <button class="mcq-option" data-correct="false">c) Only uses (10 points)</button>
+    <button class="mcq-option" data-correct="false">d) 1 source and 1 use</button>
+    <div class="mcq-answer">✅ a) Divide marks equally: half for sources, half for uses.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. "Helps identify gaps in existing knowledge" is a:</div>
+    <button class="mcq-option" data-correct="false">a) Source</button>
+    <button class="mcq-option" data-correct="true">b) Use/purpose of ROL</button>
+    <button class="mcq-option" data-correct="false">c) Step in ROL</button>
+    <button class="mcq-option" data-correct="false">d) Type of literature</button>
+    <div class="mcq-answer">✅ b) "Finding gaps" is a PURPOSE of doing the literature review.</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. "Google Scholar" is a:</div>
+    <button class="mcq-option" data-correct="true">a) Source (electronic database)</button>
+    <button class="mcq-option" data-correct="false">b) Use of ROL</button>
+    <button class="mcq-option" data-correct="false">c) Step in ROL</button>
+    <button class="mcq-option" data-correct="false">d) Nursing theory</button>
+    <div class="mcq-answer">✅ a) Google Scholar is an electronic source/database where you search for research articles.</div></div>
+</div>
+
 `
 }
 ,{
@@ -922,6 +1239,57 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
 <details><summary>What is CINAHL and why is it the most important database for nursing research?</summary><p>CINAHL = Cumulative Index to Nursing and Allied Health Literature. It is the most important database for nursing research because it specifically indexes nursing and allied health journals from around the world. Unlike PubMed (which is broader biomedical), CINAHL focuses on nursing practice, nursing education, and nursing research topics.</p></details>
 <details><summary>Name 2 primary sources and 2 grey literature sources for an Indian nursing study.</summary><p>Primary sources: (1) Original research article in Indian Journal of Nursing and Midwifery. (2) PhD thesis submitted to MUHS (Nashik). Grey literature: (1) WHO guidelines on safe childbirth practices. (2) ICMR report on antimicrobial resistance in Indian hospitals.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Your friend asks: "Where do I find articles for my thesis?" Here's your cheat sheet:<br><br>
+  🆓 <strong>Free sources:</strong> Google Scholar, PubMed, Shodhganga, WHO website<br>
+  💰 <strong>Paid sources:</strong> CINAHL, Cochrane Library (your college may have subscription!)<br>
+  📚 <strong>Offline sources:</strong> College library textbooks, previous students' dissertations<br>
+  🗣️ <strong>Expert sources:</strong> Ask your guide, attend conferences, nursing seminars<br><br>
+  Pro tip: Start with Google Scholar → then PubMed → then CINAHL for nursing-specific articles!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "All sources are equally reliable"</div>
+  <div class="mistake-right">✅ Right: Peer-reviewed journals &gt; textbooks &gt; government reports &gt; websites &gt; Wikipedia (NEVER use Wikipedia!)</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. The MOST reliable source of literature is:</div>
+    <button class="mcq-option" data-correct="true">a) Peer-reviewed research journal</button>
+    <button class="mcq-option" data-correct="false">b) Wikipedia</button>
+    <button class="mcq-option" data-correct="false">c) Blog post</button>
+    <button class="mcq-option" data-correct="false">d) YouTube video</button>
+    <div class="mcq-answer">✅ a) Peer-reviewed = checked by experts before publishing = most reliable.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. Which should NEVER be used as a source in ROL?</div>
+    <button class="mcq-option" data-correct="false">a) PubMed</button>
+    <button class="mcq-option" data-correct="false">b) Google Scholar</button>
+    <button class="mcq-option" data-correct="true">c) Wikipedia</button>
+    <button class="mcq-option" data-correct="false">d) CINAHL</button>
+    <div class="mcq-answer">✅ c) Wikipedia is not peer-reviewed — anyone can edit it — NEVER use for academic ROL!</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. CINAHL full form:</div>
+    <button class="mcq-option" data-correct="true">a) Cumulative Index to Nursing and Allied Health Literature</button>
+    <button class="mcq-option" data-correct="false">b) Central Indian Nursing and Health Library</button>
+    <button class="mcq-option" data-correct="false">c) Clinical Index of National Health</button>
+    <button class="mcq-option" data-correct="false">d) Council of Indian Nursing and Health</button>
+    <div class="mcq-answer">✅ a) CINAHL = Cumulative Index to Nursing and Allied Health Literature.</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. Cochrane Library is famous for:</div>
+    <button class="mcq-option" data-correct="true">a) Systematic reviews (highest level of evidence)</button>
+    <button class="mcq-option" data-correct="false">b) Cooking recipes</button>
+    <button class="mcq-option" data-correct="false">c) Fashion articles</button>
+    <button class="mcq-option" data-correct="false">d) Movie reviews</button>
+    <div class="mcq-answer">✅ a) Cochrane Library has the best systematic reviews — gold standard of evidence!</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. What to mention for each source in a 5-mark answer:</div>
+    <button class="mcq-option" data-correct="true">a) Name of source + what it contains + example</button>
+    <button class="mcq-option" data-correct="false">b) Only the name</button>
+    <button class="mcq-option" data-correct="false">c) A paragraph for each</button>
+    <button class="mcq-option" data-correct="false">d) Nothing specific</button>
+    <div class="mcq-answer">✅ a) Source name + brief description + example = 1 mark per source.</div></div>
+</div>
+
 `
 }
 ,{
@@ -1067,6 +1435,60 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
 <details><summary>Name the 9 steps of literature review in order.</summary><p>(1) Identify research topic. (2) Identify keywords/MeSH terms. (3) Select databases. (4) Conduct search (Boolean). (5) Screen and select (inclusion/exclusion). (6) Read and critically analyze. (7) Organize and classify. (8) Synthesize and integrate. (9) Write the ROL (APA, knowledge gap).</p></details>
 <details><summary>What is the difference between summarizing and synthesizing in ROL?</summary><p>Summarizing = describing each study separately, one after another (e.g., "Study A found X. Study B found Y."). This is the WRONG approach. Synthesizing = integrating and connecting findings across studies (e.g., "Multiple studies (A, B, C) consistently found X, while D and E reported Y, suggesting that..."). Synthesis is the CORRECT approach for a well-written ROL.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Here's a practical timeline for your ROL:<br><br>
+  📅 <strong>Week 1:</strong> Identify keywords, search PubMed and Google Scholar<br>
+  📅 <strong>Week 2:</strong> Download and read 30-40 articles, take notes<br>
+  📅 <strong>Week 3:</strong> Organize notes by themes — Indian studies, international studies<br>
+  📅 <strong>Week 4:</strong> Write the ROL chapter — flowing paragraphs, not just listing<br>
+  📅 <strong>Week 5:</strong> Format references in APA style, get guide's feedback<br><br>
+  If you follow this plan, your ROL chapter will be EXCELLENT!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: Just listing studies: "Study 1... Study 2... Study 3..."</div>
+  <div class="mistake-right">✅ Right: Write in flowing paragraphs grouping similar findings together</div>
+  <div class="mistake-wrong">❌ Wrong: Not recording reference details while reading</div>
+  <div class="mistake-right">✅ Right: ALWAYS note author, year, title, journal, volume, pages WHILE reading — saves hours later!</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. The correct order of ROL steps is:</div>
+    <button class="mcq-option" data-correct="true">a) Keywords → Search → Select → Read → Organize → Write → Cite</button>
+    <button class="mcq-option" data-correct="false">b) Write → Search → Read → Keywords</button>
+    <button class="mcq-option" data-correct="false">c) Cite → Write → Read → Search</button>
+    <button class="mcq-option" data-correct="false">d) Read → Keywords → Write → Search</button>
+    <div class="mcq-answer">✅ a) The logical sequence: identify keywords first, then search, then read, and finally write.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. While reading articles, you should:</div>
+    <button class="mcq-option" data-correct="true">a) Take notes: author, year, sample, design, key findings</button>
+    <button class="mcq-option" data-correct="false">b) Just read without notes</button>
+    <button class="mcq-option" data-correct="false">c) Only look at pictures</button>
+    <button class="mcq-option" data-correct="false">d) Read only the title</button>
+    <div class="mcq-answer">✅ a) Always take structured notes — it saves huge time when writing the ROL chapter.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. "Boolean operators" (AND, OR, NOT) are used in which step?</div>
+    <button class="mcq-option" data-correct="true">a) Searching databases</button>
+    <button class="mcq-option" data-correct="false">b) Writing the summary</button>
+    <button class="mcq-option" data-correct="false">c) Citing references</button>
+    <button class="mcq-option" data-correct="false">d) Reading articles</button>
+    <div class="mcq-answer">✅ a) AND, OR, NOT help refine your database search — e.g., "kangaroo care AND weight gain."</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. ROL chapter should be written in:</div>
+    <button class="mcq-option" data-correct="false">a) Point form like a list</button>
+    <button class="mcq-option" data-correct="true">b) Flowing paragraphs organized by themes</button>
+    <button class="mcq-option" data-correct="false">c) SMS language</button>
+    <button class="mcq-option" data-correct="false">d) Hindi</button>
+    <div class="mcq-answer">✅ b) Academic writing requires flowing paragraphs — not just a list of study names.</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. The LAST step in ROL process is:</div>
+    <button class="mcq-option" data-correct="false">a) Identifying keywords</button>
+    <button class="mcq-option" data-correct="true">b) Properly citing all references in standard format</button>
+    <button class="mcq-option" data-correct="false">c) Searching databases</button>
+    <button class="mcq-option" data-correct="false">d) Selecting articles</button>
+    <div class="mcq-answer">✅ b) The final step is making sure all references are properly cited in APA/Vancouver format.</div></div>
+</div>
+
 `
 }
 ,{
@@ -1086,7 +1508,7 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
     <strong>ROL = Review of Literature</strong><br><br>
     ROL is a <strong>systematic, critical, and comprehensive examination of published and unpublished information</strong> on a specific research topic conducted to identify what is already known, identify the knowledge gap, and build the theoretical and conceptual framework for the study.<br><br>
     <strong>Polit &amp; Beck:</strong> "A literature review is a written summary of the state of evidence on a research problem."<br><br>
-    <strong>Burns &amp; Grove:</strong> "A review of literature involves the identification, selection, critical analysis, and reporting of existing information on the topic."<br><br>
+    <strong>Burns &amp; Grove:</strong> "A review of literature involves the identification, selection, careful analysis, and reporting of existing information on the topic."<br><br>
     In a thesis, ROL forms Chapter 2. It demonstrates that the researcher has a thorough command of existing knowledge before launching a new study.
   </div>
 </div>
@@ -1142,12 +1564,12 @@ Total &mdash; <strong>10 marks</strong> (~22 min)
 <div class="mnemonic-box">
   <div class="mnemonic-label">Mnemonic &mdash; <strong>"RPISLOCAP"</strong> (points to consider while writing ROL)</div>
   <div class="mnemonic-explain">
-    <strong>R</strong> = Recent literature &bull; <strong>P</strong> = Primary preferred &bull; <strong>I</strong> = Indian + international &bull; <strong>S</strong> = Synthesize not summarize &bull; <strong>L</strong> = Logical organization &bull; <strong>O</strong> = Opposing evidence included &bull; <strong>C</strong> = Critical analysis &bull; <strong>A</strong> = Avoid plagiarism &bull; <strong>P</strong> = Proper referencing (APA)
+    <strong>R</strong> = Recent literature &bull; <strong>P</strong> = Primary preferred &bull; <strong>I</strong> = Indian + international &bull; <strong>S</strong> = Synthesize not summarize &bull; <strong>L</strong> = Logical organization &bull; <strong>O</strong> = Opposing evidence included &bull; <strong>C</strong> = Careful analysis &bull; <strong>A</strong> = Avoid plagiarism &bull; <strong>P</strong> = Proper referencing (APA)
   </div>
 </div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
-  <span class="kw">ROL</span><span class="kw">Recent literature</span><span class="kw">Primary sources</span><span class="kw">Synthesis</span><span class="kw">APA referencing</span><span class="kw">Knowledge gap</span><span class="kw">Critical analysis</span><span class="kw">Plagiarism</span><span class="kw">Funnel approach</span>
+  <span class="kw">ROL</span><span class="kw">Recent literature</span><span class="kw">Primary sources</span><span class="kw">Synthesis</span><span class="kw">APA referencing</span><span class="kw">Knowledge gap</span><span class="kw">Careful analysis</span><span class="kw">Plagiarism</span><span class="kw">Funnel approach</span>
 </div>
 
 <div class="remember-box">
@@ -1178,6 +1600,64 @@ Total &mdash; <strong>10 marks</strong> (~22 min)
 <details><summary>Name 5 important points to consider while writing a Review of Literature.</summary><p>(1) Use recent literature (last 5&ndash;10 years). (2) Prefer primary sources over secondary. (3) Include both Indian and international sources. (4) Synthesize findings (do NOT just summarize study by study). (5) Use consistent APA or Vancouver referencing. Also: organize logically (broad to narrow), include contradictory evidence, avoid plagiarism, end with clear knowledge gap.</p></details>
 <details><summary>What is the "funnel approach" in organizing an ROL?</summary><p>The funnel approach means organizing the literature review from broad (general topic) to narrow (specific research problem). Example: Start with "pre-operative care in surgical patients" → narrow to "anxiety management in pre-operative care" → narrow further to "non-pharmacological anxiety interventions" → finally focus on "music therapy for pre-operative anxiety in Indian surgical wards." This gives the reader logical context before reaching the specific study topic.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Your guide says: "Write a good ROL chapter." Here's your checklist:<br><br>
+  ✅ Use RECENT articles (last 5-10 years)<br>
+  ✅ Use BOTH Indian and international studies<br>
+  ✅ Include at least 20-30 studies<br>
+  ✅ Write in YOUR OWN words (no copy-paste!)<br>
+  ✅ Group studies by themes, not randomly<br>
+  ✅ End with a summary of what is known and what gap YOUR study will fill<br>
+  ✅ Cite every source properly (APA format)<br><br>
+  Follow this checklist and your guide will be impressed! 💪</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: Copy-pasting from other theses</div>
+  <div class="mistake-right">✅ Right: ALWAYS write in your own words — plagiarism can get your thesis rejected!</div>
+  <div class="mistake-wrong">❌ Wrong: Including only 5-6 studies</div>
+  <div class="mistake-right">✅ Right: A good ROL has 20-30+ studies for MSc level, 10-15 for BSc level</div>
+  <div class="mistake-wrong">❌ Wrong: Not mentioning the gap your study will fill</div>
+  <div class="mistake-right">✅ Right: Always end ROL with: "No study has been done on ___ in ___ setting. Hence the present study."</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item"><div class="mcq-q">1. While writing ROL, we should use:</div>
+    <button class="mcq-option" data-correct="true">a) Recent articles (last 5-10 years) and standard citation format</button>
+    <button class="mcq-option" data-correct="false">b) Very old articles from 1950s</button>
+    <button class="mcq-option" data-correct="false">c) Only Wikipedia</button>
+    <button class="mcq-option" data-correct="false">d) No references needed</button>
+    <div class="mcq-answer">✅ a) Use recent, relevant articles and always cite them properly.</div></div>
+  <div class="mcq-item"><div class="mcq-q">2. ROL should end with:</div>
+    <button class="mcq-option" data-correct="true">a) A summary identifying the gap that your study will fill</button>
+    <button class="mcq-option" data-correct="false">b) "Thank you for reading"</button>
+    <button class="mcq-option" data-correct="false">c) Nothing</button>
+    <button class="mcq-option" data-correct="false">d) Your personal opinion</button>
+    <div class="mcq-answer">✅ a) End by stating what gap exists and how your study addresses it.</div></div>
+  <div class="mcq-item"><div class="mcq-q">3. "Plagiarism" in ROL means:</div>
+    <button class="mcq-option" data-correct="true">a) Copying someone else's work without giving credit</button>
+    <button class="mcq-option" data-correct="false">b) Writing in your own words</button>
+    <button class="mcq-option" data-correct="false">c) Using proper citations</button>
+    <button class="mcq-option" data-correct="false">d) Reading many articles</button>
+    <div class="mcq-answer">✅ a) Copying without credit = plagiarism = academic dishonesty. ALWAYS paraphrase and cite!</div></div>
+  <div class="mcq-item"><div class="mcq-q">4. For BSc nursing ROL, include approximately:</div>
+    <button class="mcq-option" data-correct="false">a) 2-3 studies</button>
+    <button class="mcq-option" data-correct="true">b) 10-15 studies</button>
+    <button class="mcq-option" data-correct="false">c) 100+ studies</button>
+    <button class="mcq-option" data-correct="false">d) No studies needed</button>
+    <div class="mcq-answer">✅ b) BSc level typically requires 10-15 relevant studies in the ROL chapter.</div></div>
+  <div class="mcq-item"><div class="mcq-q">5. Points to consider while writing ROL include all EXCEPT:</div>
+    <button class="mcq-option" data-correct="false">a) Use recent articles</button>
+    <button class="mcq-option" data-correct="false">b) Cite properly</button>
+    <button class="mcq-option" data-correct="true">c) Copy-paste from other theses</button>
+    <button class="mcq-option" data-correct="false">d) Organize by themes</button>
+    <div class="mcq-answer">✅ c) NEVER copy-paste! This is plagiarism and can get your thesis rejected.</div></div>
+</div>
+
 `
 }
 ];

@@ -43,12 +43,12 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box animate-scale-in">
-    <strong>Conceptual Framework</strong> is a <strong>logical structure of interrelated concepts</strong> developed by the researcher that gives direction to the study. It shows what concepts will be studied, how they relate to each other, and what the researcher expects to find.<br><br>
+    <strong>Conceptual Framework</strong> is a <strong>logical structure of connected ideas</strong> developed by the researcher that gives direction to the study. It shows what concepts will be studied, how they relate to each other, and what the researcher expects to find.<br><br>
     <strong>Simple words:</strong> It is the researcher's own picture (made from existing theories + personal logic) that answers "what do I think is happening and why?" before the study begins.
   </div>
   <ol class="answer-points">
     <li><strong>Polit &amp; Beck:</strong> "A conceptual framework identifies and defines the key concepts relevant to the study and describes the relationships between those concepts."</li>
-    <li><strong>Burns &amp; Grove:</strong> "A set of highly abstract, related constructs that broadly explain phenomena of interest and reflect assumptions."</li>
+    <li><strong>Burns &amp; Grove:</strong> "A set of highly abstract, related constructs that broadly explain events or situations of interest and reflect assumptions."</li>
   </ol>
 </div>
 
@@ -136,7 +136,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 </div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
-  <span class="kw">Conceptual framework</span><span class="kw">Interrelated concepts</span><span class="kw">Operational definition</span><span class="kw">Propositions</span><span class="kw">Assumptions</span><span class="kw">Theoretical framework</span><span class="kw">Blueprint</span><span class="kw">Orem</span><span class="kw">Roy</span>
+  <span class="kw">Conceptual framework</span><span class="kw">Connected ideas</span><span class="kw">Operational definition</span><span class="kw">Propositions</span><span class="kw">Assumptions</span><span class="kw">Theoretical framework</span><span class="kw">Blueprint</span><span class="kw">Orem</span><span class="kw">Roy</span>
 </div>
 
 <div class="remember-box">
@@ -164,6 +164,69 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <details><summary>Difference between conceptual and theoretical framework?</summary><p>Conceptual: built by the researcher using multiple concepts from different sources. Theoretical: borrowed directly from one established theory (e.g., Orem's Self-Care Model) and applied as-is.</p></details>
 <details><summary>Name the 5 components using the mnemonic.</summary><p>C-D-P-A-B: Concepts, Definitions (operational), Propositions (relationships), Assumptions, Boundary (scope).</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Imagine you are a nurse in a surgical ward. You want to study: <strong>"Does listening to music reduce pain after surgery?"</strong><br><br>
+  Your conceptual framework (map) would look like this:<br>
+  🎵 <strong>Music therapy</strong> (what you give) → reduces <strong>Anxiety</strong> (middle step) → reduces <strong>Pain score</strong> (what you measure)<br><br>
+  This map tells you exactly what to measure, what tools to use, and what you expect to find. Without this map, you would be confused about what data to collect!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Conceptual framework and theoretical framework are the same thing"</div>
+  <div class="mistake-right">✅ Right: Conceptual = researcher BUILDS their own map. Theoretical = BORROWS from one existing theory</div>
+  <div class="mistake-wrong">❌ Wrong: "A framework is made after data collection"</div>
+  <div class="mistake-right">✅ Right: Framework is always made BEFORE the study begins — it guides the study</div>
+  <div class="mistake-wrong">❌ Wrong: "Only experimental studies need a framework"</div>
+  <div class="mistake-right">✅ Right: ALL research studies (descriptive, experimental, qualitative) need a framework</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. A conceptual framework is best described as:</div>
+    <button class="mcq-option" data-correct="false">a) A proven scientific law</button>
+    <button class="mcq-option" data-correct="true">b) A researcher's own map of connected ideas</button>
+    <button class="mcq-option" data-correct="false">c) A data collection tool</button>
+    <button class="mcq-option" data-correct="false">d) A statistical test</button>
+    <div class="mcq-answer">✅ b) The researcher builds their own map showing how key concepts connect to each other.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. Which is a component of conceptual framework? (C-D-P-A-B)</div>
+    <button class="mcq-option" data-correct="false">a) Sample size</button>
+    <button class="mcq-option" data-correct="false">b) Research design</button>
+    <button class="mcq-option" data-correct="true">c) Propositions (statements about relationships)</button>
+    <button class="mcq-option" data-correct="false">d) Data analysis method</button>
+    <div class="mcq-answer">✅ c) Propositions are statements about how concepts relate to each other — part of C-D-P-A-B.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. What is the difference between conceptual and theoretical framework?</div>
+    <button class="mcq-option" data-correct="false">a) Both are the same</button>
+    <button class="mcq-option" data-correct="false">b) Theoretical is built by researcher, conceptual is borrowed</button>
+    <button class="mcq-option" data-correct="true">c) Conceptual is built by researcher, theoretical is borrowed from one theory</button>
+    <button class="mcq-option" data-correct="false">d) Conceptual is used only in qualitative research</button>
+    <div class="mcq-answer">✅ c) Conceptual = researcher creates. Theoretical = borrowed from ONE existing theory like Orem's.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. A conceptual framework helps in all EXCEPT:</div>
+    <button class="mcq-option" data-correct="false">a) Giving direction to the study</button>
+    <button class="mcq-option" data-correct="false">b) Formulating hypothesis</button>
+    <button class="mcq-option" data-correct="true">c) Calculating sample size</button>
+    <button class="mcq-option" data-correct="false">d) Guiding data collection</button>
+    <div class="mcq-answer">✅ c) Sample size is calculated using statistical formulas, not the conceptual framework.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. An analogy for conceptual framework is:</div>
+    <button class="mcq-option" data-correct="false">a) A thermometer</button>
+    <button class="mcq-option" data-correct="true">b) A blueprint of a building</button>
+    <button class="mcq-option" data-correct="false">c) A stethoscope</button>
+    <button class="mcq-option" data-correct="false">d) A prescription</button>
+    <div class="mcq-answer">✅ b) Just like an architect draws a blueprint before building, a researcher draws a conceptual framework before starting the study.</div>
+  </div>
+</div>
+
 `
 }
 ,{
@@ -298,6 +361,70 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <details><summary>Give one example of nursing administration research in India.</summary><p>Studying the relationship between nurse-patient ratio and patient fall rate in a tertiary hospital, OR causes of nurse turnover from government hospitals, OR effect of leadership style on job satisfaction.</p></details>
 <details><summary>Name two emerging areas in the scope of nursing research.</summary><p>Telenursing (remote patient monitoring via mobile/wearable technology) and Palliative care research (pain management and quality of life in terminal illness).</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Think about a government hospital in your city. Nursing research can help solve SO many problems there:<br><br>
+  🩺 <strong>Clinical Practice:</strong> "Which wound dressing heals faster — honey or betadine?" — a nurse can study this!<br>
+  📚 <strong>Nursing Education:</strong> "Do students learn better with simulation labs or traditional lectures?" — a nursing teacher can research this!<br>
+  🏢 <strong>Administration:</strong> "Does 8-hour shifts vs 12-hour shifts affect nurse burnout?" — a nursing manager can study this!<br><br>
+  See? Research touches EVERY area of nursing!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Nursing research is only about clinical/bedside care"</div>
+  <div class="mistake-right">✅ Right: It covers education, administration, community health, mental health, AND clinical care</div>
+  <div class="mistake-wrong">❌ Wrong: "Only doctors do research, nurses just follow orders"</div>
+  <div class="mistake-right">✅ Right: Nurses are independent researchers — INC and RGUHS encourage nursing research</div>
+  <div class="mistake-wrong">❌ Wrong: "Research means only doing experiments on patients"</div>
+  <div class="mistake-right">✅ Right: Research includes surveys, questionnaires, interviews, case studies — not just experiments</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. Scope of nursing research includes all EXCEPT:</div>
+    <button class="mcq-option" data-correct="false">a) Clinical nursing practice</button>
+    <button class="mcq-option" data-correct="false">b) Nursing education</button>
+    <button class="mcq-option" data-correct="true">c) Diagnosing diseases</button>
+    <button class="mcq-option" data-correct="false">d) Nursing administration</button>
+    <div class="mcq-answer">✅ c) Diagnosing diseases is a doctor's role, not within the scope of nursing research.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. A study on "effectiveness of simulation lab in nursing education" falls under:</div>
+    <button class="mcq-option" data-correct="false">a) Clinical nursing research</button>
+    <button class="mcq-option" data-correct="true">b) Nursing education research</button>
+    <button class="mcq-option" data-correct="false">c) Community health research</button>
+    <button class="mcq-option" data-correct="false">d) Administrative research</button>
+    <div class="mcq-answer">✅ b) This studies teaching methods — so it falls under nursing education research.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. Research on "effect of 12-hour shifts on nurse burnout" comes under:</div>
+    <button class="mcq-option" data-correct="false">a) Clinical practice</button>
+    <button class="mcq-option" data-correct="false">b) Nursing education</button>
+    <button class="mcq-option" data-correct="true">c) Nursing administration</button>
+    <button class="mcq-option" data-correct="false">d) Community health</button>
+    <div class="mcq-answer">✅ c) Staff scheduling and burnout are administrative/management research areas.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. Which of these is a clinical nursing research topic?</div>
+    <button class="mcq-option" data-correct="true">a) Effect of back massage on post-operative pain</button>
+    <button class="mcq-option" data-correct="false">b) Attitude of nursing students towards research</button>
+    <button class="mcq-option" data-correct="false">c) Job satisfaction among nurses</button>
+    <button class="mcq-option" data-correct="false">d) Nurse-patient ratio in ICU</button>
+    <div class="mcq-answer">✅ a) This involves direct patient care intervention — clinical nursing research.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. Nursing research helps in all of these EXCEPT:</div>
+    <button class="mcq-option" data-correct="false">a) Improving patient care quality</button>
+    <button class="mcq-option" data-correct="false">b) Developing evidence-based practice</button>
+    <button class="mcq-option" data-correct="true">c) Performing surgical procedures</button>
+    <button class="mcq-option" data-correct="false">d) Building nursing knowledge base</button>
+    <div class="mcq-answer">✅ c) Surgery is performed by surgeons, not within the scope of nursing research.</div>
+  </div>
+</div>
+
 `
 }
 ,{
@@ -420,6 +547,69 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <details><summary>Why do participants in rural India resist research?</summary><p>Fear of being "guinea pigs," fear of receiving less care, cultural taboos (sexual health, mental illness), privacy concerns, and community leaders may need to give permission first.</p></details>
 <details><summary>Why does IEC cause delays in Indian nursing research?</summary><p>IEC meets only monthly or quarterly in many hospitals; documentation is complex; studies on vulnerable groups need multiple levels of approval. Delays of 3&ndash;6 months are common, discouraging new researchers.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Imagine you are a BSc nursing student in a small-town hospital. You want to do research on "Effect of warm compress on labour pain." But look at the problems you face:<br><br>
+  💰 <strong>No money:</strong> College gives you ₹0 for research. You buy your own questionnaire papers!<br>
+  ⏰ <strong>No time:</strong> You have clinical postings from 7 AM to 1 PM, then theory classes till 4 PM. When will you do research?<br>
+  📚 <strong>No journals:</strong> Your college library has no access to international research journals. You can only use Google!<br>
+  👩‍⚕️ <strong>No guidance:</strong> Your guide is a teacher who has never published a research paper herself.<br><br>
+  These are REAL problems Indian nursing students face every day!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Research is not important for BSc nurses — only MSc/PhD nurses need it"</div>
+  <div class="mistake-right">✅ Right: INC mandates research for BSc too. Every nurse should know how to read and use research</div>
+  <div class="mistake-wrong">❌ Wrong: "The main problem is lack of intelligence"</div>
+  <div class="mistake-right">✅ Right: Problems are lack of funding, time, guidance, and facilities — NOT intelligence</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. The MOST common problem faced by nursing researchers in India is:</div>
+    <button class="mcq-option" data-correct="true">a) Lack of funding</button>
+    <button class="mcq-option" data-correct="false">b) Too many journals available</button>
+    <button class="mcq-option" data-correct="false">c) Too much free time</button>
+    <button class="mcq-option" data-correct="false">d) Excess research guidance</button>
+    <div class="mcq-answer">✅ a) Most nursing colleges in India provide little to no research funding.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. Which is NOT a problem in nursing research in India?</div>
+    <button class="mcq-option" data-correct="false">a) Inadequate library facilities</button>
+    <button class="mcq-option" data-correct="false">b) Lack of trained guides</button>
+    <button class="mcq-option" data-correct="true">c) Too many published Indian nursing studies</button>
+    <button class="mcq-option" data-correct="false">d) Dual role of nurse as clinician and researcher</button>
+    <div class="mcq-answer">✅ c) Actually, there are very FEW published Indian nursing studies — that's one of the problems!</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. "Nurse has to work 8-hour shifts AND do research" is an example of:</div>
+    <button class="mcq-option" data-correct="false">a) Lack of funding</button>
+    <button class="mcq-option" data-correct="true">b) Dual role / time constraint</button>
+    <button class="mcq-option" data-correct="false">c) Lack of cooperation</button>
+    <button class="mcq-option" data-correct="false">d) Ethical issue</button>
+    <div class="mcq-answer">✅ b) Nurses play a dual role — both clinical care provider and researcher — leading to time constraints.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. Which organization promotes nursing research in India?</div>
+    <button class="mcq-option" data-correct="false">a) FIFA</button>
+    <button class="mcq-option" data-correct="true">b) INC (Indian Nursing Council)</button>
+    <button class="mcq-option" data-correct="false">c) UNESCO</button>
+    <button class="mcq-option" data-correct="false">d) ISRO</button>
+    <div class="mcq-answer">✅ b) INC (Indian Nursing Council) and TNAI promote nursing research in India.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. Which of these can solve research problems in nursing?</div>
+    <button class="mcq-option" data-correct="false">a) Stopping research altogether</button>
+    <button class="mcq-option" data-correct="false">b) Only doctors doing research</button>
+    <button class="mcq-option" data-correct="true">c) Government funding and better library access</button>
+    <button class="mcq-option" data-correct="false">d) Reducing nursing education</button>
+    <div class="mcq-answer">✅ c) More funding, better libraries, and trained research guides would solve many problems.</div>
+  </div>
+</div>
+
 `
 }
 ,{
@@ -430,7 +620,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   unit: 101,
   years: "Winter 2023 Phase II",
   answer: `
-<div class="in-short"><strong>In Short:</strong> Nursing research is important because it builds nursing's body of knowledge, develops Evidence-Based Practice (EBP), advances nursing as an autonomous profession, improves education, guides health policy, ensures cost-effectiveness, and maintains quality &amp; accountability. Remember: <strong>I CAGE QP.</strong></div>
+<div class="in-short"><strong>In Short:</strong> Nursing research is important because it builds nursing's collection of knowledge, develops Evidence-Based Practice (EBP), advances nursing as an independent profession, improves education, guides health policy, ensures cost-effectiveness, and maintains quality &amp; accountability. Remember: <strong>I CAGE QP.</strong></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -444,7 +634,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
     <tbody>
       <tr><td>1</td><td><strong>Improves Patient Care</strong></td><td>Identifies the best nursing actions; replaces ineffective or harmful practices</td><td>Research proved 2-hourly repositioning reduces pressure ulcers &rarr; now standard ICU protocol in India</td></tr>
       <tr><td>2</td><td><strong>Cost-Effectiveness</strong></td><td>Finds cheaper alternatives equally as effective; saves hospital resources</td><td>Research showed normal saline flush works as well as expensive heparin for IV catheter patency</td></tr>
-      <tr><td>3</td><td><strong>Advances the Profession</strong></td><td>Builds nursing's own body of knowledge; supports autonomous practice</td><td>INC using nursing research to justify expanding nurse practitioner roles in India</td></tr>
+      <tr><td>3</td><td><strong>Advances the Profession</strong></td><td>Builds nursing's own collection of knowledge; supports autonomous practice</td><td>INC using nursing research to justify expanding nurse practitioner roles in India</td></tr>
       <tr><td>4</td><td><strong>Guides Health Policy</strong></td><td>Research data used by government and WHO to create better health programmes</td><td>Research on maternal mortality led to JSY scheme and JSSK programme in India</td></tr>
       <tr><td>5</td><td><strong>EBP Development</strong></td><td>Replaces ritual-based nursing with science-based nursing</td><td>KMC (Kangaroo Mother Care) proven to reduce LBW mortality &rarr; now standard in all Indian hospitals</td></tr>
       <tr><td>6</td><td><strong>Quality &amp; Accountability</strong></td><td>Measures care quality; holds nurses accountable for patient outcomes</td><td>Audit studies measuring CAUTI rates, fall rates, pressure ulcer incidence in hospitals</td></tr>
@@ -474,8 +664,8 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
     </li>
     <li><strong>Advances Nursing as a Profession:</strong>
       <ul class="sub-points">
-        <li>A profession must have its own body of knowledge &mdash; research creates this</li>
-        <li>Research supports the autonomy of nurses to make independent clinical decisions</li>
+        <li>A profession must have its own collection of knowledge &mdash; research creates this</li>
+        <li>Research supports the independence of nurses to make independent clinical decisions</li>
         <li>Countries with strong nursing research (USA, UK, Australia) have nurse practitioners who manage chronic diseases independently</li>
         <li>In India, INC is working toward nurse practitioner roles backed by nursing research</li>
       </ul>
@@ -508,7 +698,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 </div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
-  <span class="kw">I CAGE QP</span><span class="kw">EBP</span><span class="kw">Body of knowledge</span><span class="kw">Patient outcomes</span><span class="kw">Health policy</span><span class="kw">Autonomous profession</span><span class="kw">INC</span><span class="kw">Florence Nightingale</span><span class="kw">KMC</span><span class="kw">Cost-effective</span>
+  <span class="kw">I CAGE QP</span><span class="kw">EBP</span><span class="kw">Collection of knowledge</span><span class="kw">Patient outcomes</span><span class="kw">Health policy</span><span class="kw">Independent profession</span><span class="kw">INC</span><span class="kw">Florence Nightingale</span><span class="kw">KMC</span><span class="kw">Cost-effective</span>
 </div>
 
 <div class="remember-box">
@@ -539,6 +729,70 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <details><summary>Who was the first nurse researcher and what did she prove?</summary><p>Florence Nightingale. During the Crimean War (1854&ndash;1856) she used statistical charts to prove that improving sanitation (clean water, proper sewage, fresh air) reduced soldier mortality from 42% to 2%.</p></details>
 <details><summary>How does nursing research save money in Indian hospitals?</summary><p>(1) KMC (free) instead of expensive incubators for LBW babies. (2) Normal saline instead of heparin flush. (3) Preventing one HAI through EBP saves Rs. 15,000&ndash;50,000 per patient in treatment costs.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Think about this real situation:<br><br>
+  A nurse in a pediatric ward noticed that children cry less when given a <strong>distraction toy</strong> during injections. But she couldn't prove it without research!<br><br>
+  So she did a simple study — she gave toys to 30 children (Group A) and no toys to 30 children (Group B). She measured their crying time and pain score.<br><br>
+  📊 <strong>Result:</strong> Group A cried 60% less! Now the ENTIRE hospital adopted the "distraction toy" method for all pediatric injections.<br><br>
+  👆 THIS is why nursing research matters — one nurse's study changed practice for thousands of children!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Nursing research is only useful for getting a degree"</div>
+  <div class="mistake-right">✅ Right: It directly improves patient care and saves lives</div>
+  <div class="mistake-wrong">❌ Wrong: "Importance and purpose are exactly the same"</div>
+  <div class="mistake-right">✅ Right: Importance = WHY it matters. Purpose = WHAT it aims to do. They are different!</div>
+  <div class="mistake-wrong">❌ Wrong: "Research is important only for hospitals"</div>
+  <div class="mistake-right">✅ Right: Research is important in community, education, administration — not just hospitals</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. Nursing research is important MAINLY because it:</div>
+    <button class="mcq-option" data-correct="false">a) Helps nurses get promotion</button>
+    <button class="mcq-option" data-correct="true">b) Improves patient care quality through evidence</button>
+    <button class="mcq-option" data-correct="false">c) Is required by law</button>
+    <button class="mcq-option" data-correct="false">d) Makes nursing expensive</button>
+    <div class="mcq-answer">✅ b) The primary importance of nursing research is improving patient care with scientific evidence.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. Nursing research helps establish nursing as a/an:</div>
+    <button class="mcq-option" data-correct="false">a) Hobby</button>
+    <button class="mcq-option" data-correct="true">b) Independent profession</button>
+    <button class="mcq-option" data-correct="false">c) Part-time job</button>
+    <button class="mcq-option" data-correct="false">d) Voluntary service</button>
+    <div class="mcq-answer">✅ b) Research gives nursing its own knowledge base, making it an independent profession, not just assisting doctors.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. Evidence-based practice (EBP) is based on:</div>
+    <button class="mcq-option" data-correct="false">a) Tradition and old habits</button>
+    <button class="mcq-option" data-correct="false">b) Doctor's personal opinion</button>
+    <button class="mcq-option" data-correct="true">c) Research findings and scientific evidence</button>
+    <button class="mcq-option" data-correct="false">d) Patient's demand</button>
+    <div class="mcq-answer">✅ c) EBP means making nursing decisions based on research results, not just "we always do it this way."</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. Which is NOT an importance of nursing research?</div>
+    <button class="mcq-option" data-correct="false">a) Builds nursing knowledge</button>
+    <button class="mcq-option" data-correct="false">b) Promotes EBP</button>
+    <button class="mcq-option" data-correct="true">c) Replaces nursing education</button>
+    <button class="mcq-option" data-correct="false">d) Improves patient outcomes</button>
+    <div class="mcq-answer">✅ c) Research supports and strengthens nursing education — it doesn't replace it!</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. Nursing research contributes to society by:</div>
+    <button class="mcq-option" data-correct="false">a) Making nursing more expensive</button>
+    <button class="mcq-option" data-correct="false">b) Reducing the number of nurses</button>
+    <button class="mcq-option" data-correct="true">c) Finding better ways to promote health and prevent disease</button>
+    <button class="mcq-option" data-correct="false">d) Increasing hospital profits</button>
+    <div class="mcq-answer">✅ c) Research finds new, effective ways to keep people healthy and prevent illness.</div>
+  </div>
+</div>
+
 `
 }
 ,{
@@ -616,6 +870,69 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <details><summary>Name the 6 purposes of research using DEEPCT.</summary><p>Description (what exists), Explanation (why it happens), EBP development (apply findings to practice), Prediction (what will happen), Control (prevent bad outcomes), Theory development (build and test nursing theories).</p></details>
 <details><summary>What is the difference between description and explanation?</summary><p>Description answers "WHAT" &mdash; documents a situation as it exists. Explanation answers "WHY" &mdash; identifies causes and relationships. Description comes first; explanation builds on it to understand why what was described is happening.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Here are real examples of each purpose of research:<br><br>
+  🔍 <strong>Description:</strong> "What is the level of anxiety among ICU patients?" — just measuring and describing the situation<br>
+  🔗 <strong>Exploration:</strong> "What do new mothers feel about breastfeeding challenges?" — exploring an unknown topic<br>
+  📊 <strong>Explanation:</strong> "Why do some surgical patients heal faster than others?" — finding reasons<br>
+  🧪 <strong>Prediction:</strong> "Can we predict which patients will develop bed sores?" — predicting future outcomes<br>
+  💊 <strong>Control:</strong> "Does repositioning every 2 hours prevent bed sores?" — testing an intervention to control a problem</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Purpose and importance of research are the same"</div>
+  <div class="mistake-right">✅ Right: Purpose = WHAT research does (describe, explore, explain). Importance = WHY it matters</div>
+  <div class="mistake-wrong">❌ Wrong: "All research is experimental"</div>
+  <div class="mistake-right">✅ Right: Descriptive and exploratory research don't need experiments — just observation and surveys</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. "What is the level of stress among nursing students?" — this is an example of:</div>
+    <button class="mcq-option" data-correct="true">a) Descriptive research</button>
+    <button class="mcq-option" data-correct="false">b) Experimental research</button>
+    <button class="mcq-option" data-correct="false">c) Correlational research</button>
+    <button class="mcq-option" data-correct="false">d) Historical research</button>
+    <div class="mcq-answer">✅ a) It describes the current level of stress — not testing any treatment.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. The purpose of research that involves "finding new areas" is:</div>
+    <button class="mcq-option" data-correct="false">a) Description</button>
+    <button class="mcq-option" data-correct="true">b) Exploration</button>
+    <button class="mcq-option" data-correct="false">c) Prediction</button>
+    <button class="mcq-option" data-correct="false">d) Control</button>
+    <div class="mcq-answer">✅ b) Exploration means investigating new or unknown topics.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. "Does hot compress reduce menstrual pain?" — the purpose here is:</div>
+    <button class="mcq-option" data-correct="false">a) Description</button>
+    <button class="mcq-option" data-correct="false">b) Exploration</button>
+    <button class="mcq-option" data-correct="false">c) Prediction</button>
+    <button class="mcq-option" data-correct="true">d) Control (testing an intervention)</button>
+    <div class="mcq-answer">✅ d) Testing whether an intervention (hot compress) can control a problem (pain).</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. How many main purposes of research are there?</div>
+    <button class="mcq-option" data-correct="false">a) 3</button>
+    <button class="mcq-option" data-correct="true">b) 5 (Description, Exploration, Explanation, Prediction, Control)</button>
+    <button class="mcq-option" data-correct="false">c) 7</button>
+    <button class="mcq-option" data-correct="false">d) 10</button>
+    <div class="mcq-answer">✅ b) The 5 main purposes are: Describe, Explore, Explain, Predict, and Control.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. Research that asks "WHY does this happen?" serves which purpose?</div>
+    <button class="mcq-option" data-correct="false">a) Description</button>
+    <button class="mcq-option" data-correct="false">b) Exploration</button>
+    <button class="mcq-option" data-correct="true">c) Explanation</button>
+    <button class="mcq-option" data-correct="false">d) Control</button>
+    <div class="mcq-answer">✅ c) Explanation research looks for the reasons WHY something happens.</div>
+  </div>
+</div>
+
 `
 }
 ,{
@@ -631,12 +948,12 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition of Nursing Research</h3>
   <div class="definition-box animate-scale-in">
-    <strong>Nursing Research</strong> is a <strong>systematic, rigorous, and objective process of inquiry</strong> that generates new knowledge or validates existing knowledge about nursing practice, education, administration, and health outcomes &mdash; with the ultimate goal of improving the quality of care given to patients, families, and communities.<br><br>
+    <strong>Nursing Research</strong> is a <strong>systematic, careful, and fair step-by-step process</strong> that creates new knowledge or checks if what we already know is correct about nursing practice, education, administration, and health outcomes &mdash; with the ultimate goal of improving the quality of care given to patients, families, and communities.<br><br>
     <strong>Simple words:</strong> "Nursing research is the organized, scientific method of asking and answering important nursing questions so care can continuously improve."
   </div>
   <ol class="answer-points">
-    <li><strong>Polit &amp; Beck (2021):</strong> "Nursing research is systematic inquiry designed to develop trustworthy evidence about issues of importance to the nursing profession."</li>
-    <li><strong>Burns &amp; Grove (2019):</strong> "A scientific process that validates and refines existing knowledge and generates new knowledge that directly and indirectly influences evidence-based nursing practice."</li>
+    <li><strong>Polit &amp; Beck (2021):</strong> "Nursing research is step-by-step study done to find reliable proof about issues of importance to the nursing profession."</li>
+    <li><strong>Burns &amp; Grove (2019):</strong> "A scientific process that validates and improves what we already know and creates new knowledge that directly and indirectly influences evidence-based nursing practice."</li>
   </ol>
 </div>
 
@@ -713,13 +1030,13 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 </div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
-  <span class="kw">DEEPCT</span><span class="kw">Systematic inquiry</span><span class="kw">Description</span><span class="kw">Explanation</span><span class="kw">Prediction</span><span class="kw">Control</span><span class="kw">Theory</span><span class="kw">EBP</span><span class="kw">Polit &amp; Beck</span><span class="kw">Burns &amp; Grove</span>
+  <span class="kw">DEEPCT</span><span class="kw">Step-by-step study</span><span class="kw">Description</span><span class="kw">Explanation</span><span class="kw">Prediction</span><span class="kw">Control</span><span class="kw">Theory</span><span class="kw">EBP</span><span class="kw">Polit &amp; Beck</span><span class="kw">Burns &amp; Grove</span>
 </div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision</div>
   <ul>
-    <li>Nursing research = systematic, rigorous, objective process of inquiry to generate nursing knowledge</li>
+    <li>Nursing research = systematic, careful and thorough, objective step-by-step study to generate nursing knowledge</li>
     <li>6 purposes: DEEPCT &mdash; Description, Explanation, EBP, Prediction, Control, Theory</li>
     <li>Description = "what is?" | Explanation = "why?" | Prediction = "what will happen?" | Control = "how to prevent?"</li>
     <li>EBP = Research evidence + Clinical expertise + Patient preferences (ALL three needed)</li>
@@ -741,6 +1058,69 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <details><summary>Name the 6 purposes using DEEPCT.</summary><p>Description, Explanation, EBP, Prediction, Control, Theory development.</p></details>
 <details><summary>Difference between Prediction and Control as research purposes?</summary><p>Prediction = forecasting what WILL happen ("If hand hygiene reaches 90%, CLABSI rates will fall 40%"). Control = identifying the NURSING ACTION that actually prevents the bad outcome ("Implementing hand hygiene bundle controls CLABSI").</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>You are a nurse in a maternity ward. You define <strong>Nursing Research</strong> simply as:<br><br>
+  "A careful, step-by-step study done by nurses to find answers to nursing problems — so we can give better care to our patients."<br><br>
+  Example purposes you see every day:<br>
+  📝 Describing how many mothers have breastfeeding problems (description)<br>
+  🔍 Finding out why some mothers refuse to breastfeed (exploration)<br>
+  🧪 Testing whether a teaching session improves breastfeeding rates (prediction &amp; control)</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Nursing Research = Medical Research"</div>
+  <div class="mistake-right">✅ Right: Nursing Research focuses on nursing problems (care, comfort, education). Medical Research focuses on diseases and treatments</div>
+  <div class="mistake-wrong">❌ Wrong: "Research can only be done by doctors or scientists"</div>
+  <div class="mistake-right">✅ Right: Any trained nurse can conduct nursing research!</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. Nursing research is defined as:</div>
+    <button class="mcq-option" data-correct="false">a) Study of diseases</button>
+    <button class="mcq-option" data-correct="true">b) Step-by-step study to find answers to nursing questions and improve care</button>
+    <button class="mcq-option" data-correct="false">c) Writing essays on nursing topics</button>
+    <button class="mcq-option" data-correct="false">d) Reading textbooks</button>
+    <div class="mcq-answer">✅ b) Nursing research is a careful, organized study to solve nursing problems and improve patient care.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. Which is a purpose of nursing research?</div>
+    <button class="mcq-option" data-correct="false">a) To replace doctors</button>
+    <button class="mcq-option" data-correct="true">b) To improve the quality of patient care</button>
+    <button class="mcq-option" data-correct="false">c) To increase hospital fees</button>
+    <button class="mcq-option" data-correct="false">d) To make nursing harder</button>
+    <div class="mcq-answer">✅ b) The main purpose is always to improve how nurses care for patients.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. "Creates new knowledge" is which purpose?</div>
+    <button class="mcq-option" data-correct="false">a) Description</button>
+    <button class="mcq-option" data-correct="true">b) Knowledge generation</button>
+    <button class="mcq-option" data-correct="false">c) Control</button>
+    <button class="mcq-option" data-correct="false">d) Prediction</button>
+    <div class="mcq-answer">✅ b) Generating new knowledge that didn't exist before is a key purpose of research.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. Nursing research differs from medical research because it focuses on:</div>
+    <button class="mcq-option" data-correct="false">a) Drugs and surgery</button>
+    <button class="mcq-option" data-correct="true">b) Patient care, comfort, and nursing interventions</button>
+    <button class="mcq-option" data-correct="false">c) Laboratory experiments</button>
+    <button class="mcq-option" data-correct="false">d) Animal testing</button>
+    <div class="mcq-answer">✅ b) Nursing research is about nursing care, patient comfort, health education — not drugs or surgery.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. How many purposes are asked to list in this question?</div>
+    <button class="mcq-option" data-correct="false">a) 4</button>
+    <button class="mcq-option" data-correct="true">b) 6</button>
+    <button class="mcq-option" data-correct="false">c) 8</button>
+    <button class="mcq-option" data-correct="false">d) 10</button>
+    <div class="mcq-answer">✅ b) The question asks to "List any 6 Purposes of Nursing Research."</div>
+  </div>
+</div>
+
 `
 }
 ,{
@@ -751,11 +1131,11 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   unit: 101,
   years: "Summer 2022 Phase II",
   answer: `
-<div class="in-short"><strong>In Short:</strong> Nursing research is needed to: build nursing's body of knowledge, improve practice with EBP, make nursing an autonomous profession, improve education, guide health policy, and ensure accountability. Remember: <strong>BIPEQA.</strong></div>
+<div class="in-short"><strong>In Short:</strong> Nursing research is needed to: build nursing's collection of knowledge, improve practice with EBP, make nursing an independent profession, improve education, guide health policy, and ensure accountability. Remember: <strong>BIPEQA.</strong></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
-  <p class="answer-text">The <strong>need for nursing research</strong> arises from the desire to transform nursing from a task-based activity to a knowledge-based <strong>profession</strong>. A profession must have its own body of knowledge &mdash; and that knowledge is only built through systematic research. Florence Nightingale expressed this: <em>"Nursing is an art, but it must also be a science."</em></p>
+  <p class="answer-text">The <strong>need for nursing research</strong> arises from the desire to transform nursing from a task-based activity to a knowledge-based <strong>profession</strong>. A profession must have its own collection of knowledge &mdash; and that knowledge is only built through systematic research. Florence Nightingale expressed this: <em>"Nursing is an art, but it must also be a science."</em></p>
 </div>
 
 <div class="answer-section animate-slide-up">
@@ -765,7 +1145,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
     <tbody>
       <tr><td>1</td><td><strong>Build Body of Knowledge</strong></td><td>Nursing needs its own scientific knowledge base separate from medicine</td><td>Research on therapeutic communication, self-care, nursing diagnoses builds this unique knowledge</td></tr>
       <tr><td>2</td><td><strong>Improve Practice (EBP)</strong></td><td>Replace old rituals with proven, effective nursing actions</td><td>Research replaced routine catheter changes with evidence-based protocols that reduce CAUTI</td></tr>
-      <tr><td>3</td><td><strong>Professional Autonomy</strong></td><td>Nurses need scientific proof for their actions to be independent practitioners</td><td>INC working toward nurse practitioner roles based on nursing research evidence</td></tr>
+      <tr><td>3</td><td><strong>Professional Independence</strong></td><td>Nurses need scientific proof for their actions to be independent practitioners</td><td>INC working toward nurse practitioner roles based on nursing research evidence</td></tr>
       <tr><td>4</td><td><strong>Education Improvement</strong></td><td>Research shows which teaching methods best prepare nurses for clinical reality</td><td>Simulation-based training proven more effective than traditional observation alone</td></tr>
       <tr><td>5</td><td><strong>Quality &amp; Accountability</strong></td><td>Research measures care quality; holds nurses accountable for patient outcomes</td><td>Audit studies measuring CAUTI rates, fall rates, pressure ulcer incidence per ward</td></tr>
       <tr><td>6</td><td><strong>Advance Health Policy</strong></td><td>Research data used by government and WHO to make better health programmes</td><td>Nursing research on staffing ratios influenced WHO Global Strategic Directions for Nursing 2021&ndash;2025</td></tr>
@@ -794,7 +1174,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
     </li>
     <li><strong>To Establish Nursing as Autonomous Profession:</strong>
       <ul class="sub-points">
-        <li>An autonomous profession makes independent decisions based on its own knowledge, not only doctors' orders</li>
+        <li>An independent profession makes independent decisions based on its own knowledge, not only doctors' orders</li>
         <li>In India, INC is working toward nurse practitioner roles &mdash; nursing research is essential to justify this</li>
         <li>Countries with strong nursing research (USA, UK, Australia) have nurse practitioners independently managing chronic diseases</li>
       </ul>
@@ -811,7 +1191,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 
 <div class="dont-confuse"><strong>Don't Confuse:</strong><br>
 <strong>Need vs. Purpose of Nursing Research:</strong><br>
-<strong>Need</strong> = WHY research is necessary overall for the profession (what gap it fills). E.g., "Research is needed to build nursing's body of knowledge."<br>
+<strong>Need</strong> = WHY research is necessary overall for the profession (what gap it fills). E.g., "Research is needed to build nursing's collection of knowledge."<br>
 <strong>Purpose</strong> = WHAT a specific research study aims to achieve. E.g., "The purpose of this study is to describe pain levels in post-operative patients" (description).
 </div>
 
@@ -820,18 +1200,18 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <div class="mnemonic-box">
   <div class="mnemonic-label">Mnemonic &mdash; <strong>"BIPEQA"</strong></div>
   <div class="mnemonic-word"><span>B</span>-<span>I</span>-<span>P</span>-<span>E</span>-<span>Q</span>-<span>A</span></div>
-  <div class="mnemonic-explain"><strong>B</strong> = Body of knowledge &bull; <strong>I</strong> = Improve practice (EBP) &bull; <strong>P</strong> = Professional autonomy &bull; <strong>E</strong> = Education &bull; <strong>Q</strong> = Quality &amp; accountability &bull; <strong>A</strong> = Advance health policy</div>
+  <div class="mnemonic-explain"><strong>B</strong> = Collection of knowledge &bull; <strong>I</strong> = Improve practice (EBP) &bull; <strong>P</strong> = Professional independence &bull; <strong>E</strong> = Education &bull; <strong>Q</strong> = Quality &amp; accountability &bull; <strong>A</strong> = Advance health policy</div>
 </div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
-  <span class="kw">BIPEQA</span><span class="kw">Body of knowledge</span><span class="kw">EBP</span><span class="kw">Autonomous profession</span><span class="kw">Health policy</span><span class="kw">Quality</span><span class="kw">Accountability</span><span class="kw">INC</span><span class="kw">CQI</span><span class="kw">NABH</span>
+  <span class="kw">BIPEQA</span><span class="kw">Collection of knowledge</span><span class="kw">EBP</span><span class="kw">Independent profession</span><span class="kw">Health policy</span><span class="kw">Quality</span><span class="kw">Accountability</span><span class="kw">INC</span><span class="kw">CQI</span><span class="kw">NABH</span>
 </div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision</div>
   <ul>
     <li>6 needs: BIPEQA</li>
-    <li>Nursing cannot be autonomous without its own research-based body of knowledge</li>
+    <li>Nursing cannot be autonomous without its own research-based collection of knowledge</li>
     <li>Routine perineal shaving abolished by research &mdash; classic example of need for EBP</li>
     <li>India: INC promoting nurse practitioner roles &rarr; needs strong nursing research base</li>
     <li>NABH accreditation requires nursing research-based quality indicators in Indian hospitals</li>
@@ -848,10 +1228,70 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 </ul></div>
 
 <div class="self-test"><div class="self-test-title">Test Yourself</div>
-<details><summary>Why does nursing need its own body of knowledge?</summary><p>Because nursing is a distinct profession with its own philosophy (holistic care, therapeutic relationship, patient comfort) that goes beyond medical treatment. Without its own knowledge base, nursing cannot function autonomously.</p></details>
+<details><summary>Why does nursing need its own collection of knowledge?</summary><p>Because nursing is a distinct profession with its own philosophy (holistic care, therapeutic relationship, patient comfort) that goes beyond medical treatment. Without its own knowledge base, nursing cannot function autonomously.</p></details>
 <details><summary>Give one example of a traditional nursing practice overturned by research.</summary><p>Routine perineal shaving before delivery was a tradition believed to reduce infection, but research proved it INCREASES infection risk and discomfort. It was discontinued based on evidence.</p></details>
 <details><summary>Difference between "need" and "purpose" of nursing research?</summary><p>Need = why research is necessary overall (what gap it fills for the profession). Purpose = what a specific research study aims to achieve as an outcome (description, explanation, prediction, control, theory, EBP).</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>In your hospital, nurses have been giving bed baths at 6 AM for 20 years. But has anyone ever checked if this is the BEST time?<br><br>
+  Maybe patients sleep better if bath is at 8 AM? Maybe skin dries less with evening baths? Nobody knows — because nobody researched it!<br><br>
+  👉 <strong>This is why we NEED nursing research</strong> — to stop doing things "because we always did it this way" and start doing things based on proof!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Need and importance are the same thing"</div>
+  <div class="mistake-right">✅ Right: Need = WHY we require it (gap in knowledge). Importance = WHAT benefits it gives (better care)</div>
+  <div class="mistake-wrong">❌ Wrong: "Traditional nursing practices are always correct"</div>
+  <div class="mistake-right">✅ Right: Many traditional practices have been proven wrong by research (e.g., rectal temp is more accurate than axillary)</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. The PRIMARY need for nursing research is to:</div>
+    <button class="mcq-option" data-correct="false">a) Get more salary</button>
+    <button class="mcq-option" data-correct="true">b) Provide evidence-based patient care</button>
+    <button class="mcq-option" data-correct="false">c) Complete degree requirements only</button>
+    <button class="mcq-option" data-correct="false">d) Replace medical research</button>
+    <div class="mcq-answer">✅ b) The most important need is to move from tradition-based to evidence-based nursing care.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. "Doing things because we always did it this way" is called:</div>
+    <button class="mcq-option" data-correct="true">a) Tradition-based practice</button>
+    <button class="mcq-option" data-correct="false">b) Evidence-based practice</button>
+    <button class="mcq-option" data-correct="false">c) Research-based practice</button>
+    <button class="mcq-option" data-correct="false">d) Best practice</button>
+    <div class="mcq-answer">✅ a) Following old habits without checking if they work is tradition-based — research aims to change this.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. Nursing research is needed for professional status because:</div>
+    <button class="mcq-option" data-correct="false">a) It makes nurses richer</button>
+    <button class="mcq-option" data-correct="true">b) It gives nursing its own independent knowledge base</button>
+    <button class="mcq-option" data-correct="false">c) It reduces the need for education</button>
+    <button class="mcq-option" data-correct="false">d) It replaces clinical practice</button>
+    <div class="mcq-answer">✅ b) A profession needs its own knowledge base — research creates this for nursing.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. Research helps in making nursing decisions that are:</div>
+    <button class="mcq-option" data-correct="false">a) Based on guesswork</button>
+    <button class="mcq-option" data-correct="false">b) Based on senior nurse's mood</button>
+    <button class="mcq-option" data-correct="true">c) Based on scientific proof</button>
+    <button class="mcq-option" data-correct="false">d) Based on hospital politics</button>
+    <div class="mcq-answer">✅ c) Research provides scientific evidence to make better nursing decisions.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. How many needs are typically asked in the exam (this question)?</div>
+    <button class="mcq-option" data-correct="true">a) 4</button>
+    <button class="mcq-option" data-correct="false">b) 8</button>
+    <button class="mcq-option" data-correct="false">c) 10</button>
+    <button class="mcq-option" data-correct="false">d) 2</button>
+    <div class="mcq-answer">✅ a) The question says "State any four needs" — write 4 points with brief explanation each.</div>
+  </div>
+</div>
+
 `
 }
 ,{
@@ -882,7 +1322,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box animate-scale-in">
-    The <strong>Scientific Method</strong> is a <strong>systematic, logical, and objective approach</strong> to investigating research problems using empirical (observable, measurable) evidence. It provides a structured framework for asking questions and finding reliable, unbiased answers that can be tested and verified by others.<br><br>
+    The <strong>Scientific Method</strong> is a <strong>systematic, logical, and objective approach</strong> to investigating research problems using based on real observation (observable, measurable) evidence. It provides a structured framework for asking questions and finding reliable, unbiased answers that can be tested and verified by others.<br><br>
     <strong>Simple words:</strong> "The organized way of being curious and finding true, testable answers" &mdash; used by scientists, doctors, and nurses to test ideas before applying them to patients.
   </div>
 </div>
@@ -940,7 +1380,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
     <li><strong>Data Analysis:</strong>
       <ul class="sub-points">
         <li><strong>Descriptive statistics:</strong> Mean, Median, Mode, SD &mdash; describe WHAT the data shows</li>
-        <li><strong>Inferential statistics:</strong> t-test (compare 2 group means), chi-square (compare frequencies), ANOVA (compare 3+ means)</li>
+        <li><strong>Statistics used to draw conclusions:</strong> t-test (compare 2 group means), chi-square (compare frequencies), ANOVA (compare 3+ means)</li>
         <li>p &lt; 0.05 = statistically significant result (not due to chance); reject H0 and accept H1</li>
       </ul>
     </li>
@@ -967,7 +1407,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
     <div class="flow-arrow">&darr;</div>
     <div class="flow-box">5. Data Collection (valid, ethical, standardized)</div>
     <div class="flow-arrow">&darr;</div>
-    <div class="flow-box">6. Data Analysis (descriptive + inferential statistics)</div>
+    <div class="flow-box">6. Data Analysis (descriptive + statistics used to draw conclusions)</div>
     <div class="flow-arrow">&darr;</div>
     <div class="flow-box">7. Interpretation of Results (support or reject H1?)</div>
     <div class="flow-arrow">&darr;</div>
@@ -992,7 +1432,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 </div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
-  <span class="kw">OR-FD-CDIC</span><span class="kw">H1 &amp; H0</span><span class="kw">Hypothesis</span><span class="kw">Empirical</span><span class="kw">Systematic</span><span class="kw">t-test</span><span class="kw">chi-square</span><span class="kw">p-value</span><span class="kw">Dissemination</span><span class="kw">EBP</span>
+  <span class="kw">OR-FD-CDIC</span><span class="kw">H1 &amp; H0</span><span class="kw">Hypothesis</span><span class="kw">Based on real observation</span><span class="kw">Systematic</span><span class="kw">t-test</span><span class="kw">chi-square</span><span class="kw">p-value</span><span class="kw">Dissemination</span><span class="kw">EBP</span>
 </div>
 
 <div class="remember-box">
@@ -1001,7 +1441,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
     <li>8 steps: OR-FD-CDIC (Observation, Review, Formulate, Design, Collect, Data analysis, Interpret, Conclude)</li>
     <li>Hypothesis = testable prediction made BEFORE data collection</li>
     <li>H1 = Research hypothesis (relationship exists) | H0 = Null hypothesis (no relationship)</li>
-    <li>Statistics: Descriptive (mean, SD) = describe data | Inferential (t-test, chi-square, ANOVA) = test hypothesis</li>
+    <li>Statistics: Descriptive (mean, SD) = describe data | Used to draw conclusions (t-test, chi-square, ANOVA) = test hypothesis</li>
     <li>p &lt; 0.05 = statistically significant (not due to chance)</li>
     <li>Scientific method is CYCLIC: conclusions lead to new observations and new research questions</li>
   </ul>
@@ -1021,8 +1461,76 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <div class="self-test"><div class="self-test-title">Test Yourself</div>
 <details><summary>What is the first &amp; most important step of the scientific method?</summary><p>Observation / Problem Identification. Most important because a poorly stated problem makes the entire study irrelevant. The problem must be Specific, Researchable, Significant, Feasible, and Ethical (SRSFE).</p></details>
 <details><summary>What is a hypothesis? Name its two types.</summary><p>A testable prediction about the expected outcome, formed BEFORE the study begins. Two types: (1) Research Hypothesis (H1) &mdash; predicts a relationship or effect EXISTS. (2) Null Hypothesis (H0) &mdash; predicts NO significant relationship.</p></details>
-<details><summary>What happens in the Data Analysis step?</summary><p>Data is organized and analyzed using statistics. Descriptive statistics (mean, median, SD) describe what the data shows. Inferential statistics (t-test, chi-square, ANOVA) test whether the hypothesis is supported (p &lt; 0.05 = significant; reject H0).</p></details>
+<details><summary>What happens in the Data Analysis step?</summary><p>Data is organized and analyzed using statistics. Descriptive statistics (mean, median, SD) describe what the data shows. Statistics used to draw conclusions (t-test, chi-square, ANOVA) test whether the hypothesis is supported (p &lt; 0.05 = significant; reject H0).</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Let's walk through the scientific method with a real nursing problem:<br><br>
+  <strong>Problem:</strong> "Patients in your ward are not sleeping well at night."<br>
+  1️⃣ <strong>Identify:</strong> "Patients complain of insomnia (not sleeping)"<br>
+  2️⃣ <strong>Review Literature:</strong> Read studies — warm milk, dim lights, and lavender oil help<br>
+  3️⃣ <strong>Hypothesis:</strong> "Lavender oil aromatherapy will improve sleep quality"<br>
+  4️⃣ <strong>Design:</strong> Give lavender oil to 30 patients (Group A), nothing to 30 patients (Group B)<br>
+  5️⃣ <strong>Collect Data:</strong> Use Pittsburgh Sleep Quality Index to measure sleep<br>
+  6️⃣ <strong>Analyze:</strong> Group A slept 2 hours more on average!<br>
+  7️⃣ <strong>Conclusion:</strong> "Lavender oil improves sleep" — recommend to hospital nursing committee!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Steps of scientific method can be done in any order"</div>
+  <div class="mistake-right">✅ Right: Steps MUST be followed in a specific logical order</div>
+  <div class="mistake-wrong">❌ Wrong: "Scientific method and research process are completely different things"</div>
+  <div class="mistake-right">✅ Right: They are almost the same! Scientific method is the general approach; research process is its application in research</div>
+  <div class="mistake-wrong">❌ Wrong: "Data analysis comes before data collection"</div>
+  <div class="mistake-right">✅ Right: First collect the data, THEN analyze it!</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. The FIRST step in scientific method is:</div>
+    <button class="mcq-option" data-correct="true">a) Identifying the problem</button>
+    <button class="mcq-option" data-correct="false">b) Collecting data</button>
+    <button class="mcq-option" data-correct="false">c) Writing hypothesis</button>
+    <button class="mcq-option" data-correct="false">d) Analyzing data</button>
+    <div class="mcq-answer">✅ a) You must first identify and clearly state the problem before anything else.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. Review of literature is done:</div>
+    <button class="mcq-option" data-correct="false">a) After data collection</button>
+    <button class="mcq-option" data-correct="true">b) Before formulating the hypothesis</button>
+    <button class="mcq-option" data-correct="false">c) After data analysis</button>
+    <button class="mcq-option" data-correct="false">d) At the very end</button>
+    <div class="mcq-answer">✅ b) You read existing studies first, then based on that knowledge, you write your hypothesis.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. A hypothesis is:</div>
+    <button class="mcq-option" data-correct="false">a) A proven fact</button>
+    <button class="mcq-option" data-correct="true">b) A testable prediction about what will happen</button>
+    <button class="mcq-option" data-correct="false">c) The final conclusion</button>
+    <button class="mcq-option" data-correct="false">d) A data collection tool</button>
+    <div class="mcq-answer">✅ b) A hypothesis is your best scientific guess — it must be tested through the study.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. The correct order of steps is:</div>
+    <button class="mcq-option" data-correct="false">a) Hypothesis → Problem → Literature → Data</button>
+    <button class="mcq-option" data-correct="true">b) Problem → Literature → Hypothesis → Design → Data → Analysis → Conclusion</button>
+    <button class="mcq-option" data-correct="false">c) Data → Analysis → Problem → Conclusion</button>
+    <button class="mcq-option" data-correct="false">d) Conclusion → Problem → Data → Hypothesis</button>
+    <div class="mcq-answer">✅ b) The scientific method always follows this logical sequence.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. The LAST step in scientific method is:</div>
+    <button class="mcq-option" data-correct="false">a) Data collection</button>
+    <button class="mcq-option" data-correct="false">b) Review of literature</button>
+    <button class="mcq-option" data-correct="false">c) Hypothesis testing</button>
+    <button class="mcq-option" data-correct="true">d) Drawing conclusions and recommendations</button>
+    <div class="mcq-answer">✅ d) After analyzing data, you draw conclusions and give recommendations for practice.</div>
+  </div>
+</div>
+
 `
 }
 ,{
@@ -1034,17 +1542,17 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   years: "Summer 2022 Phase II",
   answer: `
 
-<div class="in-short"><strong>In Short:</strong> <strong>Nursing Research</strong> is a systematic, scientific, and objective method of investigating nursing questions to generate trustworthy knowledge that improves patient care and advances nursing as an autonomous profession.</div>
+<div class="in-short"><strong>In Short:</strong> <strong>Nursing Research</strong> is a systematic, scientific, and objective method of investigating nursing questions to generate trustworthy knowledge that improves patient care and advances nursing as an independent profession.</div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition of Nursing Research</h3>
   <div class="definition-box animate-scale-in">
-    <strong>Nursing Research</strong> is a <strong>systematic, rigorous, and objective process of inquiry</strong> that generates new knowledge or validates existing knowledge about nursing practice, education, administration, and health outcomes &mdash; with the ultimate goal of improving the quality of care given to patients, families, and communities.<br><br>
+    <strong>Nursing Research</strong> is a <strong>systematic, careful, and fair step-by-step process</strong> that creates new knowledge or checks if what we already know is correct about nursing practice, education, administration, and health outcomes &mdash; with the ultimate goal of improving the quality of care given to patients, families, and communities.<br><br>
     <strong>Simple words:</strong> "The organized, scientific method of asking and answering important nursing questions so that nursing care continuously improves."
   </div>
   <ol class="answer-points">
-    <li><strong>Polit &amp; Beck (2021):</strong> "Nursing research is systematic inquiry designed to develop trustworthy evidence about issues of importance to the nursing profession &mdash; practice, education, and administration."</li>
-    <li><strong>Burns &amp; Grove (2019):</strong> "A scientific process that validates and refines existing knowledge and generates new knowledge that directly and indirectly influences evidence-based nursing practice."</li>
+    <li><strong>Polit &amp; Beck (2021):</strong> "Nursing research is step-by-step study done to find reliable proof about issues of importance to the nursing profession &mdash; practice, education, and administration."</li>
+    <li><strong>Burns &amp; Grove (2019):</strong> "A scientific process that validates and improves what we already know and creates new knowledge that directly and indirectly influences evidence-based nursing practice."</li>
     <li><strong>ANA:</strong> "Nursing research addresses clinical and other questions to refine practice and expand the scientific base of nursing care."</li>
   </ol>
 </div>
@@ -1054,9 +1562,9 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   <ol class="answer-points">
     <li><strong>Systematic:</strong> Follows a planned, step-by-step scientific approach (not random)</li>
     <li><strong>Objective:</strong> Free from personal bias; conclusions based entirely on data collected</li>
-    <li><strong>Empirical:</strong> Based on observable, measurable evidence &mdash; not tradition, opinion, or guesswork</li>
+    <li><strong>Based on real observation:</strong> Based on observable, measurable evidence &mdash; not tradition, opinion, or guesswork</li>
     <li><strong>Nursing-specific:</strong> Focuses on problems in practice, education, administration, and community health</li>
-    <li><strong>Goal-directed:</strong> Aims to improve patient outcomes, advance EBP, and strengthen nursing autonomy</li>
+    <li><strong>Goal-directed:</strong> Aims to improve patient outcomes, advance EBP, and strengthen nursing independence</li>
     <li><strong>Ethical:</strong> Requires Institutional Ethics Committee (IEC) clearance before any human research begins in India</li>
   </ol>
 </div>
@@ -1064,16 +1572,16 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <div class="analogy-box"><strong>Think of it like&hellip;</strong> a <strong>nurse detective.</strong> A regular nurse sees a problem and applies routine care. A nurse researcher systematically investigates the problem, collects evidence, analyzes it, and finds the BEST solution &mdash; then publishes it so all nurses worldwide benefit.</div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
-  <span class="kw">Systematic</span><span class="kw">Objective</span><span class="kw">Empirical</span><span class="kw">Rigorous</span><span class="kw">EBP</span><span class="kw">Body of knowledge</span><span class="kw">Polit &amp; Beck</span><span class="kw">Burns &amp; Grove</span>
+  <span class="kw">Systematic</span><span class="kw">Objective</span><span class="kw">Based on real observation</span><span class="kw">Careful and thorough</span><span class="kw">EBP</span><span class="kw">Collection of knowledge</span><span class="kw">Polit &amp; Beck</span><span class="kw">Burns &amp; Grove</span>
 </div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision</div>
   <ul>
-    <li>Nursing research = systematic + objective + empirical inquiry to generate nursing knowledge</li>
-    <li>Polit &amp; Beck: "systematic inquiry to develop trustworthy evidence"</li>
-    <li>Burns &amp; Grove: "validates and refines existing knowledge for EBP"</li>
-    <li>Goal: improve patient care + advance nursing as an autonomous profession</li>
+    <li>Nursing research = systematic + objective + based on real observation inquiry to generate nursing knowledge</li>
+    <li>Polit &amp; Beck: "step-by-step study to develop reliable proof"</li>
+    <li>Burns &amp; Grove: "validates and improves what we already know for EBP"</li>
+    <li>Goal: improve patient care + advance nursing as an independent profession</li>
     <li>IEC clearance mandatory in India for ALL human research</li>
   </ul>
 </div>
@@ -1082,14 +1590,75 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <ul>
   <li><span class="term">ANA</span> American Nurses Association &mdash; professional organization that sets nursing research standards</li>
   <li><span class="term">IEC</span> Institutional Ethics Committee &mdash; must approve all human research before it begins</li>
-  <li><span class="term">Empirical</span> &mdash; based on observable, measurable real-world evidence (not theory or opinion)</li>
-  <li><span class="term">Rigorous</span> &mdash; thorough and strict in following scientific methods</li>
+  <li><span class="term">Based on real observation</span> &mdash; based on observable, measurable real-world evidence (not theory or opinion)</li>
+  <li><span class="term">Careful and thorough</span> &mdash; thorough and strict in following scientific methods</li>
 </ul></div>
 
 <div class="self-test"><div class="self-test-title">Test Yourself</div>
-<details><summary>Define nursing research in two sentences.</summary><p>Nursing research is a systematic, rigorous, and objective process of inquiry to generate or validate knowledge about nursing practice, education, and administration. Its goal is to improve patient care and advance nursing as an autonomous, science-based profession.</p></details>
-<details><summary>Why must nursing research be empirical?</summary><p>Empirical means based on observable, measurable facts from real participants &mdash; not opinion or tradition. Empirical research can be verified, replicated, and trusted to guide clinical decisions safely.</p></details>
+<details><summary>Define nursing research in two sentences.</summary><p>Nursing research is a systematic, careful, and fair step-by-step process to generate or validate knowledge about nursing practice, education, and administration. Its goal is to improve patient care and advance nursing as an autonomous, science-based profession.</p></details>
+<details><summary>Why must nursing research be based on real observation?</summary><p>Based on real observation means based on observable, measurable facts from real participants &mdash; not opinion or tradition. Based on real observation research can be verified, replicated, and trusted to guide clinical decisions safely.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>A simple way to remember the definition:<br><br>
+  You are a nurse in OPD. A patient asks: "Sister, what is nursing research?"<br>
+  You say: <strong>"It is when nurses carefully study a problem — like whether warm water reduces injection pain — and use the results to give you better care."</strong><br><br>
+  That's it! That's nursing research in one sentence.</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Nursing research is the same as medical research"</div>
+  <div class="mistake-right">✅ Right: Nursing research focuses on nursing problems (care, comfort, education). Medical research focuses on diseases and drugs</div>
+  <div class="mistake-wrong">❌ Wrong: Writing a very long paragraph for a 5-mark definition</div>
+  <div class="mistake-right">✅ Right: Give 2-3 definitions (Polit & Beck + Burns & Grove), then list 4-5 characteristics. That's enough for 5 marks!</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. Nursing research is BEST defined as:</div>
+    <button class="mcq-option" data-correct="false">a) Reading nursing textbooks</button>
+    <button class="mcq-option" data-correct="true">b) A careful, organized study to solve nursing problems</button>
+    <button class="mcq-option" data-correct="false">c) Practicing clinical skills in the lab</button>
+    <button class="mcq-option" data-correct="false">d) Writing patient care plans</button>
+    <div class="mcq-answer">✅ b) Research is a planned, step-by-step study — not just reading or practicing.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. According to Polit & Beck, nursing research is a:</div>
+    <button class="mcq-option" data-correct="true">a) Step-by-step study to find reliable proof about nursing issues</button>
+    <button class="mcq-option" data-correct="false">b) Personal opinion about patient care</button>
+    <button class="mcq-option" data-correct="false">c) Type of nursing diagnosis</button>
+    <button class="mcq-option" data-correct="false">d) Administrative procedure</button>
+    <div class="mcq-answer">✅ a) Polit & Beck define it as systematic inquiry to develop trustworthy evidence about nursing.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. Nursing research is different from nursing practice because:</div>
+    <button class="mcq-option" data-correct="false">a) Practice is based on evidence, research is based on habit</button>
+    <button class="mcq-option" data-correct="true">b) Research creates evidence, practice uses evidence</button>
+    <button class="mcq-option" data-correct="false">c) They are the same thing</button>
+    <button class="mcq-option" data-correct="false">d) Only doctors do research</button>
+    <div class="mcq-answer">✅ b) Research CREATES new knowledge; practice USES that knowledge to help patients.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. The word "systematic" in the definition of research means:</div>
+    <button class="mcq-option" data-correct="false">a) Random</button>
+    <button class="mcq-option" data-correct="false">b) Unplanned</button>
+    <button class="mcq-option" data-correct="true">c) Organized and step-by-step</button>
+    <button class="mcq-option" data-correct="false">d) Complicated</button>
+    <div class="mcq-answer">✅ c) Systematic means following an organized, logical, step-by-step plan.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. Which is NOT a feature of nursing research?</div>
+    <button class="mcq-option" data-correct="false">a) Organized</button>
+    <button class="mcq-option" data-correct="false">b) Objective</button>
+    <button class="mcq-option" data-correct="true">c) Based on personal feelings</button>
+    <button class="mcq-option" data-correct="false">d) Logical</button>
+    <div class="mcq-answer">✅ c) Research must be objective — based on facts, not personal feelings or opinions.</div>
+  </div>
+</div>
+
 `
 }
 ,{
@@ -1115,12 +1684,12 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   <div class="ps-step"><div class="ps-num">10</div><div class="ps-content"><strong>Communicate &amp; Utilize Findings</strong><span>Publish in journals, present at conferences, apply in nursing practice (EBP).</span></div><div class="ps-icon">📢</div></div>
 </div>
 
-<div class="in-short"><strong>In Short:</strong> Quantitative research uses <strong>numbers and statistics</strong>. Its process has 5 phases: <strong>Conceptual</strong> (planning) &rarr; <strong>Design &amp; Planning</strong> &rarr; <strong>Empirical</strong> (data collection) &rarr; <strong>Analytic</strong> (statistics) &rarr; <strong>Dissemination</strong> (sharing). Remember: <strong>C-D-E-A-D.</strong></div>
+<div class="in-short"><strong>In Short:</strong> Quantitative research uses <strong>numbers and statistics</strong>. Its process has 5 phases: <strong>Conceptual</strong> (planning) &rarr; <strong>Design &amp; Planning</strong> &rarr; <strong>Based on real observation</strong> (data collection) &rarr; <strong>Analytic</strong> (statistics) &rarr; <strong>Dissemination</strong> (sharing). Remember: <strong>C-D-E-A-D.</strong></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition of Quantitative Research</h3>
   <div class="definition-box animate-scale-in">
-    <strong>Quantitative Research</strong> is a <strong>formal, objective, systematic process</strong> of collecting <strong>numerical data</strong> and analyzing it using statistical methods to describe, explain, predict, or control nursing phenomena.<br><br>
+    <strong>Quantitative Research</strong> is a <strong>formal, objective, systematic process</strong> of collecting <strong>numerical data</strong> and analyzing it using statistical methods to describe, explain, predict, or control nursing events or situations.<br><br>
     <strong>Key idea:</strong> Everything is expressed in numbers. "How many? How much? How often? Is there a statistically significant difference?"<br><br>
     <strong>Examples:</strong> "What is the mean pain score post-operatively?" (descriptive) OR "Does music therapy significantly reduce anxiety scores?" (experimental)
   </div>
@@ -1133,8 +1702,8 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
     <tbody>
       <tr><td><strong>Phase 1: Conceptual</strong></td><td>Identify problem, review literature, develop framework, formulate objectives &amp; hypothesis (H1/H0)</td><td>PUBMED, CINAHL, Google Scholar; PICO framework; Polit &amp; Beck</td></tr>
       <tr><td><strong>Phase 2: Design &amp; Planning</strong></td><td>Select research design, identify population &amp; sample, choose/develop tools, establish validity &amp; reliability, get ethics clearance, conduct pilot study</td><td>RCT / quasi-experimental / descriptive design; Likert scales; IEC approval; sample size formula</td></tr>
-      <tr><td><strong>Phase 3: Empirical</strong></td><td>Collect data from selected sample using instruments; maintain data quality; control bias</td><td>Structured questionnaires, rating scales, physiological measurements (BP, SpO2, weight, lab values)</td></tr>
-      <tr><td><strong>Phase 4: Analytic</strong></td><td>Organize data, apply statistics, interpret results, test hypothesis</td><td>SPSS/Excel; Mean, SD (descriptive); t-test, chi-square, ANOVA, Pearson's r (inferential)</td></tr>
+      <tr><td><strong>Phase 3: Based on real observation</strong></td><td>Collect data from selected sample using instruments; maintain data quality; control bias</td><td>Structured questionnaires, rating scales, physiological measurements (BP, SpO2, weight, lab values)</td></tr>
+      <tr><td><strong>Phase 4: Analytic</strong></td><td>Organize data, apply statistics, interpret results, test hypothesis</td><td>SPSS/Excel; Mean, SD (descriptive); t-test, chi-square, ANOVA, Pearson's r (used to draw conclusions)</td></tr>
       <tr><td><strong>Phase 5: Dissemination</strong></td><td>Write research report (IMRaD), publish in peer-reviewed journal, present at conference, apply to clinical practice</td><td>Indian Journal of Nursing; JCDR; nursing conferences; hospital policy documents</td></tr>
     </tbody>
   </table></div>
@@ -1161,7 +1730,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
         <li><strong>Plan Data Analysis:</strong> Decide which statistical tests to use BEFORE data collection starts</li>
       </ul>
     </li>
-    <li><strong>Phase 3: Empirical Phase (Data Collection)</strong>
+    <li><strong>Phase 3: Based on real observation Phase (Data Collection)</strong>
       <ul class="sub-points">
         <li>Collect data strictly according to the predefined protocol</li>
         <li>Maintain data quality: double-check entries, train data collectors, use standardized procedures</li>
@@ -1173,7 +1742,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
       <ul class="sub-points">
         <li>Organize data: enter into SPSS/Excel; code all variables numerically</li>
         <li><strong>Descriptive:</strong> Mean, Median, Mode, SD, frequency, percentage &mdash; describe WHAT the data shows</li>
-        <li><strong>Inferential:</strong> t-test (2 groups), chi-square (frequencies), ANOVA (3+ groups), Pearson's r (correlation)</li>
+        <li><strong>Used to draw conclusions:</strong> t-test (2 groups), chi-square (frequencies), ANOVA (3+ groups), Pearson's r (correlation)</li>
         <li>Interpret: Does data support H1? Is p &lt; 0.05? If yes, result is statistically significant; reject H0</li>
       </ul>
     </li>
@@ -1197,7 +1766,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
     <div class="flow-arrow">&darr;</div>
     <div class="flow-box">Phase 3: EMPIRICAL &mdash; Data Collection (ethical, bias-controlled, standardized)</div>
     <div class="flow-arrow">&darr;</div>
-    <div class="flow-box">Phase 4: ANALYTIC &mdash; Descriptive + Inferential Statistics &rarr; Test Hypothesis</div>
+    <div class="flow-box">Phase 4: ANALYTIC &mdash; Descriptive + Used to draw conclusions Statistics &rarr; Test Hypothesis</div>
     <div class="flow-arrow">&darr;</div>
     <div class="flow-box highlight">Phase 5: DISSEMINATION &mdash; Report &rarr; Publish &rarr; Present &rarr; Apply as EBP</div>
   </div>
@@ -1209,14 +1778,14 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <strong>Qualitative:</strong> Uses words, narratives, lived experiences. Subjective. Answers "what does it feel like? What does it mean?" E.g., "Participants described pain as 'burning and unbearable,' making them feel helpless."
 </div>
 
-<div class="analogy-box"><strong>Think of it like&hellip;</strong> <strong>building a hospital:</strong> Phase 1 (Conceptual) = deciding what to build. Phase 2 (Design) = making blueprints &amp; getting approvals. Phase 3 (Empirical) = actual construction. Phase 4 (Analytic) = quality inspection. Phase 5 (Dissemination) = handing over to the public. Skip any phase and the hospital will have serious problems!</div>
+<div class="analogy-box"><strong>Think of it like&hellip;</strong> <strong>building a hospital:</strong> Phase 1 (Conceptual) = deciding what to build. Phase 2 (Design) = making blueprints &amp; getting approvals. Phase 3 (Based on real observation) = actual construction. Phase 4 (Analytic) = quality inspection. Phase 5 (Dissemination) = handing over to the public. Skip any phase and the hospital will have serious problems!</div>
 
 <div class="data-diagram="researchProcess"></div>
 
 <div class="mnemonic-box">
   <div class="mnemonic-label">Mnemonic &mdash; <strong>"C-D-E-A-D"</strong></div>
   <div class="mnemonic-word"><span>C</span>-<span>D</span>-<span>E</span>-<span>A</span>-<span>D</span></div>
-  <div class="mnemonic-explain"><strong>C</strong> = Conceptual &bull; <strong>D</strong> = Design/Planning &bull; <strong>E</strong> = Empirical (data collection) &bull; <strong>A</strong> = Analytic &bull; <strong>D</strong> = Dissemination</div>
+  <div class="mnemonic-explain"><strong>C</strong> = Conceptual &bull; <strong>D</strong> = Design/Planning &bull; <strong>E</strong> = Based on real observation (data collection) &bull; <strong>A</strong> = Analytic &bull; <strong>D</strong> = Dissemination</div>
 </div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
@@ -1252,6 +1821,76 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <details><summary>List activities in the Design &amp; Planning phase.</summary><p>Select research design, identify population and sample, develop/select data collection tools, establish validity and reliability, obtain IEC ethics clearance, conduct pilot study, plan data analysis methods before data collection begins.</p></details>
 <details><summary>What is a pilot study and why is it critical?</summary><p>A pilot study is a trial run using about 10% of the planned sample size. It identifies problems in tools, procedures, or time estimates before the full study begins &mdash; saving time, money, and preventing invalid data collection.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Let's do a complete quantitative study together:<br><br>
+  <strong>Topic:</strong> "Effect of back massage on pain after C-section"<br>
+  1️⃣ <strong>Problem:</strong> Mothers complain of severe back pain after C-section<br>
+  2️⃣ <strong>Literature:</strong> Read 20 studies — massage helps post-surgical pain<br>
+  3️⃣ <strong>Hypothesis:</strong> "Back massage will reduce pain in post-C-section mothers"<br>
+  4️⃣ <strong>Design:</strong> Quasi-experimental, pre-test post-test<br>
+  5️⃣ <strong>Sample:</strong> 60 mothers (30 experimental, 30 control) from PNC ward<br>
+  6️⃣ <strong>Tool:</strong> NRS (Numerical Rating Scale 0-10)<br>
+  7️⃣ <strong>Data:</strong> Pre-test pain score → give massage → post-test pain score<br>
+  8️⃣ <strong>Analysis:</strong> Paired t-test shows p=0.001 (significant!)<br>
+  9️⃣ <strong>Conclusion:</strong> "Back massage significantly reduces post-C-section pain"</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Steps can be done in any order"</div>
+  <div class="mistake-right">✅ Right: Steps MUST follow a fixed order — you can't analyze data before collecting it!</div>
+  <div class="mistake-wrong">❌ Wrong: "Quantitative research = experimental research only"</div>
+  <div class="mistake-right">✅ Right: Quantitative includes descriptive, correlational, AND experimental designs</div>
+  <div class="mistake-wrong">❌ Wrong: "Hypothesis is the first step"</div>
+  <div class="mistake-right">✅ Right: Problem identification comes first, then literature review, THEN hypothesis</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. The FIRST step in quantitative research is:</div>
+    <button class="mcq-option" data-correct="true">a) Identifying the research problem</button>
+    <button class="mcq-option" data-correct="false">b) Collecting data</button>
+    <button class="mcq-option" data-correct="false">c) Analyzing results</button>
+    <button class="mcq-option" data-correct="false">d) Writing hypothesis</button>
+    <div class="mcq-answer">✅ a) Everything starts with identifying and clearly stating the problem.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. Which step comes immediately AFTER review of literature?</div>
+    <button class="mcq-option" data-correct="false">a) Data collection</button>
+    <button class="mcq-option" data-correct="true">b) Formulating hypothesis/objectives</button>
+    <button class="mcq-option" data-correct="false">c) Data analysis</button>
+    <button class="mcq-option" data-correct="false">d) Writing conclusion</button>
+    <div class="mcq-answer">✅ b) After reading what others found, you predict what you expect to find (hypothesis).</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. "Quasi-experimental, pre-test post-test design" refers to which step?</div>
+    <button class="mcq-option" data-correct="false">a) Problem identification</button>
+    <button class="mcq-option" data-correct="true">b) Research design selection</button>
+    <button class="mcq-option" data-correct="false">c) Data analysis</button>
+    <button class="mcq-option" data-correct="false">d) Conclusion</button>
+    <div class="mcq-answer">✅ b) Choosing the research design is how you plan the structure of your study.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. In quantitative research, data is:</div>
+    <button class="mcq-option" data-correct="false">a) Always in words (qualitative)</button>
+    <button class="mcq-option" data-correct="true">b) Always in numbers that can be analyzed statistically</button>
+    <button class="mcq-option" data-correct="false">c) Never analyzed</button>
+    <button class="mcq-option" data-correct="false">d) Based on researcher's opinion</button>
+    <div class="mcq-answer">✅ b) Quantitative = quantity = numbers. Data is always numerical and analyzed with statistics.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. The LAST step in quantitative research is:</div>
+    <button class="mcq-option" data-correct="false">a) Data collection</button>
+    <button class="mcq-option" data-correct="false">b) Hypothesis formulation</button>
+    <button class="mcq-option" data-correct="true">c) Reporting findings and recommendations</button>
+    <button class="mcq-option" data-correct="false">d) Literature review</button>
+    <div class="mcq-answer">✅ c) The final step is writing up and sharing your findings so others can use them.</div>
+  </div>
+</div>
+
 `
 }
 ,{
@@ -1278,12 +1917,12 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 </div>
 
 
-<div class="in-short"><strong>In Short:</strong> The <strong>scientific method</strong> is a logical, objective, systematic way of investigating problems using measurable evidence. Its 4 core principles: Empirical, Systematic, Objective, Replicable. Its 8 steps: OR-FD-CDIC. It replaced tradition and guesswork with science-based, verifiable knowledge.</div>
+<div class="in-short"><strong>In Short:</strong> The <strong>scientific method</strong> is a logical, objective, systematic way of investigating problems using measurable evidence. Its 4 core principles: Based on real observation, Systematic, Objective, Replicable. Its 8 steps: OR-FD-CDIC. It replaced tradition and guesswork with science-based, verifiable knowledge.</div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">What is the Scientific Method?</h3>
   <div class="definition-box animate-scale-in">
-    The <strong>Scientific Method</strong> is a <strong>systematic, empirical, and objective approach to investigating problems</strong> by forming testable hypotheses and gathering measurable evidence to confirm or reject them.<br><br>
+    The <strong>Scientific Method</strong> is a <strong>systematic, based on real observation, and objective approach to investigating problems</strong> by forming testable hypotheses and gathering measurable evidence to confirm or reject them.<br><br>
     <strong>Simple words:</strong> "The organized way scientists &mdash; including nurse researchers &mdash; ask questions and find answers that are reliable, unbiased, and verifiable by others." It replaced old ways of knowing (tradition, authority, trial &amp; error) with evidence-based, reproducible knowledge.
   </div>
 </div>
@@ -1293,7 +1932,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Principle</th><th>Meaning</th><th>Why it Matters in Nursing</th></tr></thead>
     <tbody>
-      <tr><td><strong>Empirical</strong></td><td>Based on observable, measurable evidence &mdash; not belief or tradition</td><td>Findings can be verified by others; not just one person's experience</td></tr>
+      <tr><td><strong>Based on real observation</strong></td><td>Based on observable, measurable evidence &mdash; not belief or tradition</td><td>Findings can be verified by others; not just one person's experience</td></tr>
       <tr><td><strong>Systematic</strong></td><td>Follows a planned, structured sequence of steps</td><td>Prevents disorganized investigation; ensures consistent, reliable results</td></tr>
       <tr><td><strong>Objective</strong></td><td>Free from personal bias &mdash; conclusions reflect data, not researcher's wishes</td><td>Ensures findings represent reality; prevents misleading clinical guidance</td></tr>
       <tr><td><strong>Replicable</strong></td><td>Another researcher can repeat the study and get similar results</td><td>Verified findings build the EBP evidence base; single studies are not enough</td></tr>
@@ -1309,15 +1948,15 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
     <li><strong>Formulate Hypothesis:</strong> Make a testable prediction BEFORE data collection. H1 = effect exists; H0 = no effect. <em>Why needed:</em> Gives direction; makes findings "falsifiable" &mdash; key feature of science.</li>
     <li><strong>Design / Plan:</strong> Choose design, sample, tools, ethics clearance, pilot study. <em>Why needed:</em> Without a plan, data is unreliable and biased.</li>
     <li><strong>Data Collection:</strong> Gather measurable data using valid, reliable instruments. <em>Why needed:</em> Standardized collection ensures consistent, unbiased data.</li>
-    <li><strong>Data Analysis:</strong> Apply descriptive + inferential statistics; test hypothesis. p &lt; 0.05 = significant. <em>Why needed:</em> Raw data alone means nothing without analysis.</li>
+    <li><strong>Data Analysis:</strong> Apply descriptive + statistics used to draw conclusions; test hypothesis. p &lt; 0.05 = significant. <em>Why needed:</em> Raw data alone means nothing without analysis.</li>
     <li><strong>Interpret Results:</strong> Decide if H1 is supported or rejected; explain findings in clinical context.</li>
     <li><strong>Conclude &amp; Disseminate:</strong> Share through journals, conferences, clinical protocols. <em>Why needed:</em> Unpublished research cannot improve patient care.</li>
   </ol>
 </div>
 
 <div class="dont-confuse"><strong>Don't Confuse:</strong><br>
-<strong>Scientific Method:</strong> Formal, rigorous, hypothesis + statistics, replicable, generalizable. Used by RESEARCHERS.<br>
-<strong>Problem Solving Method:</strong> Informal, practical, no hypothesis, no statistics. Used by NURSES in everyday clinical decisions. Not generalizable.
+<strong>Scientific Method:</strong> Formal, careful and thorough, hypothesis + statistics, replicable, applicable to a larger group. Used by RESEARCHERS.<br>
+<strong>Problem Solving Method:</strong> Informal, practical, no hypothesis, no statistics. Used by NURSES in everyday clinical decisions. Not applicable to a larger group.
 </div>
 
 <div class="mnemonic-box">
@@ -1327,17 +1966,17 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 </div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
-  <span class="kw">Scientific method</span><span class="kw">Empirical</span><span class="kw">Systematic</span><span class="kw">Objective</span><span class="kw">Replicable</span><span class="kw">Hypothesis</span><span class="kw">Falsifiable</span><span class="kw">OR-FD-CDIC</span>
+  <span class="kw">Scientific method</span><span class="kw">Based on real observation</span><span class="kw">Systematic</span><span class="kw">Objective</span><span class="kw">Replicable</span><span class="kw">Hypothesis</span><span class="kw">Falsifiable</span><span class="kw">OR-FD-CDIC</span>
 </div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision</div>
   <ul>
-    <li>4 core principles: Empirical, Systematic, Objective, Replicable</li>
+    <li>4 core principles: Based on real observation, Systematic, Objective, Replicable</li>
     <li>8 steps: OR-FD-CDIC</li>
     <li>Hypothesis = testable prediction made BEFORE data collection; must be "falsifiable"</li>
     <li>p &lt; 0.05 = statistically significant; reject H0, accept H1</li>
-    <li>Scientific method = formal + generalizable; Problem solving = practical + everyday</li>
+    <li>Scientific method = formal + applicable to a larger group; Problem solving = practical + everyday</li>
   </ul>
 </div>
 
@@ -1350,10 +1989,75 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 </ul></div>
 
 <div class="self-test"><div class="self-test-title">Test Yourself</div>
-<details><summary>What 4 principles make the scientific method unique?</summary><p>Empirical (based on measurable evidence), Systematic (structured steps), Objective (free from bias), Replicable (others can repeat and verify results).</p></details>
+<details><summary>What 4 principles make the scientific method unique?</summary><p>Based on real observation (based on measurable evidence), Systematic (structured steps), Objective (free from bias), Replicable (others can repeat and verify results).</p></details>
 <details><summary>Why must a hypothesis be "falsifiable"?</summary><p>Falsifiability means the hypothesis can be tested and potentially proven WRONG. This separates science from belief. A hypothesis that can never be disproven is not scientific. Example: "2-hourly turning reduces ulcers" is testable &mdash; if data shows no difference, the hypothesis is rejected.</p></details>
-<details><summary>Difference between scientific method and problem solving method?</summary><p>Scientific method: formal, uses hypothesis + statistics, results are generalizable, used by researchers. Problem solving: informal, practical, no hypothesis or statistics, used in everyday nursing decisions, results not generalizable.</p></details>
+<details><summary>Difference between scientific method and problem solving method?</summary><p>Scientific method: formal, uses hypothesis + statistics, results are applicable to a larger group, used by researchers. Problem solving: informal, practical, no hypothesis or statistics, used in everyday nursing decisions, results not applicable to a larger group.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>You use scientific method in daily life without knowing it!<br><br>
+  🤔 <strong>Problem:</strong> Your phone battery dies every day by 3 PM<br>
+  📚 <strong>Observation:</strong> You notice it happens when you use Instagram a lot<br>
+  💡 <strong>Hypothesis:</strong> "If I reduce Instagram use, battery will last till 8 PM"<br>
+  🧪 <strong>Experiment:</strong> You limit Instagram to 30 mins for one week<br>
+  📊 <strong>Result:</strong> Battery lasts till 7 PM!<br>
+  ✅ <strong>Conclusion:</strong> Instagram was draining your battery. Hypothesis supported!<br><br>
+  👆 Same logic applies to nursing: Problem → Hypothesis → Test → Conclusion!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Scientific method is different from research process"</div>
+  <div class="mistake-right">✅ Right: They are very similar! Scientific method is the basic approach, research process is its detailed application</div>
+  <div class="mistake-wrong">❌ Wrong: "Observation and experimentation are the same"</div>
+  <div class="mistake-right">✅ Right: Observation = watching without interfering. Experimentation = actively testing something</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. Scientific method is characterized by being:</div>
+    <button class="mcq-option" data-correct="false">a) Based on personal beliefs</button>
+    <button class="mcq-option" data-correct="true">b) Organized, logical, and objective</button>
+    <button class="mcq-option" data-correct="false">c) Random and unplanned</button>
+    <button class="mcq-option" data-correct="false">d) Based on tradition</button>
+    <div class="mcq-answer">✅ b) Scientific method is always systematic (organized), logical, and objective (unbiased).</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. Hypothesis in scientific method means:</div>
+    <button class="mcq-option" data-correct="false">a) A proven fact</button>
+    <button class="mcq-option" data-correct="true">b) A testable prediction</button>
+    <button class="mcq-option" data-correct="false">c) Final conclusion</button>
+    <button class="mcq-option" data-correct="false">d) Data collection tool</button>
+    <div class="mcq-answer">✅ b) A hypothesis is your best guess/prediction that needs to be tested.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. "Testing the hypothesis with data" is called:</div>
+    <button class="mcq-option" data-correct="false">a) Literature review</button>
+    <button class="mcq-option" data-correct="true">b) Experimentation / data collection</button>
+    <button class="mcq-option" data-correct="false">c) Problem identification</button>
+    <button class="mcq-option" data-correct="false">d) Conclusion</button>
+    <div class="mcq-answer">✅ b) You test the hypothesis by actually collecting data through experiments or observations.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. Scientific method was developed by:</div>
+    <button class="mcq-option" data-correct="false">a) Florence Nightingale</button>
+    <button class="mcq-option" data-correct="true">b) Francis Bacon and other scientists</button>
+    <button class="mcq-option" data-correct="false">c) Polit & Beck</button>
+    <button class="mcq-option" data-correct="false">d) WHO</button>
+    <div class="mcq-answer">✅ b) Francis Bacon is credited with establishing the scientific method.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. Which is the correct order?</div>
+    <button class="mcq-option" data-correct="true">a) Problem → Hypothesis → Experiment → Analysis → Conclusion</button>
+    <button class="mcq-option" data-correct="false">b) Conclusion → Hypothesis → Problem → Data</button>
+    <button class="mcq-option" data-correct="false">c) Data → Problem → Hypothesis → Conclusion</button>
+    <button class="mcq-option" data-correct="false">d) Hypothesis → Conclusion → Problem → Data</button>
+    <div class="mcq-answer">✅ a) Always start with the problem and end with the conclusion!</div>
+  </div>
+</div>
+
 `
 }
 ,{
@@ -1488,11 +2192,75 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <details><summary>Give one example of nursing administration research in India.</summary><p>Studying the relationship between nurse-patient ratio and patient fall rate in a tertiary hospital, OR causes of nurse turnover from government hospitals, OR effect of leadership style on job satisfaction.</p></details>
 <details><summary>Name two emerging areas in the scope of nursing research.</summary><p>Telenursing (remote patient monitoring via mobile/wearable technology) and Palliative care research (pain management and quality of life in terminal illness).</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Look around any hospital — nursing research topics are EVERYWHERE:<br><br>
+  🛏️ <strong>ICU:</strong> "Does elevating bed head to 30° reduce ventilator-associated pneumonia?"<br>
+  👶 <strong>Pediatrics:</strong> "Does kangaroo care improve weight gain in premature babies?"<br>
+  🤰 <strong>Maternity:</strong> "Does birth ball exercise reduce labour pain?"<br>
+  🏠 <strong>Community:</strong> "Does home visit by nurse improve immunization coverage?"<br>
+  🧠 <strong>Mental Health:</strong> "Does yoga reduce depression in elderly?"<br><br>
+  Every ward, every patient — there's a research question waiting to be answered!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Scope and importance are the same"</div>
+  <div class="mistake-right">✅ Right: Scope = AREAS covered (clinical, education, admin). Importance = WHY it matters</div>
+  <div class="mistake-wrong">❌ Wrong: "Scope is limited to hospital settings only"</div>
+  <div class="mistake-right">✅ Right: Scope includes community, home care, schools, PHC — not just hospitals!</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. Which area is NOT part of scope of nursing research?</div>
+    <button class="mcq-option" data-correct="false">a) Clinical nursing</button>
+    <button class="mcq-option" data-correct="false">b) Nursing education</button>
+    <button class="mcq-option" data-correct="true">c) Surgical operations</button>
+    <button class="mcq-option" data-correct="false">d) Community health nursing</button>
+    <div class="mcq-answer">✅ c) Surgical operations are done by surgeons — not within nursing research scope.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. "Effect of kangaroo care on neonatal weight gain" falls under:</div>
+    <button class="mcq-option" data-correct="true">a) Clinical nursing research</button>
+    <button class="mcq-option" data-correct="false">b) Administrative research</button>
+    <button class="mcq-option" data-correct="false">c) Education research</button>
+    <button class="mcq-option" data-correct="false">d) Historical research</button>
+    <div class="mcq-answer">✅ a) This involves direct patient care intervention — clinical nursing research.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. "Attitude of students towards online classes" is:</div>
+    <button class="mcq-option" data-correct="false">a) Clinical research</button>
+    <button class="mcq-option" data-correct="true">b) Nursing education research</button>
+    <button class="mcq-option" data-correct="false">c) Community research</button>
+    <button class="mcq-option" data-correct="false">d) Administrative research</button>
+    <div class="mcq-answer">✅ b) This studies teaching and learning methods — nursing education research.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. Scope of nursing research has expanded because of:</div>
+    <button class="mcq-option" data-correct="false">a) Fewer nurses</button>
+    <button class="mcq-option" data-correct="true">b) Growth of nursing education (MSc, PhD) and demand for EBP</button>
+    <button class="mcq-option" data-correct="false">c) Less technology</button>
+    <button class="mcq-option" data-correct="false">d) Fewer patients</button>
+    <div class="mcq-answer">✅ b) More educated nurses + demand for evidence-based practice = bigger scope of research.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. Community health nursing research includes:</div>
+    <button class="mcq-option" data-correct="false">a) ICU ventilator settings</button>
+    <button class="mcq-option" data-correct="true">b) Effect of health education on hand washing in village school children</button>
+    <button class="mcq-option" data-correct="false">c) Surgical wound healing</button>
+    <button class="mcq-option" data-correct="false">d) OT sterilization techniques</button>
+    <div class="mcq-answer">✅ b) This is done in the community setting on a community health topic.</div>
+  </div>
+</div>
+
 `
 }
 ,{
   id: 13,
-  question: "Discuss limitations and delimitation of research",
+  question: "Discuss limitations and boundary set by the researcher on purpose of research",
   marks: 4,
   repeated: 1,
   unit: 101,
@@ -1500,17 +2268,17 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   answer: `
 
 <div class="comparison-split">
-  <div class="vs-badge">⚠️ Limitation <span>VS</span> Delimitation — Don't Confuse!</div>
+  <div class="vs-badge">⚠️ Limitation <span>VS</span> Boundary set by the researcher on purpose — Don't Confuse!</div>
   <div class="comp-col left">
     <div class="comp-col-title">⛔ Limitation</div>
     <div class="comp-item"><strong>Meaning:</strong> Weaknesses the researcher CANNOT control — discovered after or during study.</div>
     <div class="comp-item"><strong>Who decides:</strong> Happens naturally, not by researcher's choice.</div>
-    <div class="comp-item"><strong>Effect:</strong> Reduces generalizability / validity of findings.</div>
+    <div class="comp-item"><strong>Effect:</strong> Reduces ability to apply results to a larger group / validity of findings.</div>
     <div class="comp-item"><strong>Examples:</strong> Hawthorne effect, small sample size, biased self-reporting by patients.</div>
     <div class="comp-item"><strong>Mnemonic:</strong> L for "Left behind" — things the researcher couldn't fix.</div>
   </div>
   <div class="comp-col right">
-    <div class="comp-col-title">✅ Delimitation</div>
+    <div class="comp-col-title">✅ Boundary set by the researcher on purpose</div>
     <div class="comp-item"><strong>Meaning:</strong> Boundaries the researcher INTENTIONALLY sets — decided before the study.</div>
     <div class="comp-item"><strong>Who decides:</strong> The researcher chooses these to keep the study focused.</div>
     <div class="comp-item"><strong>Effect:</strong> Narrows the scope of the study (intentionally).</div>
@@ -1520,23 +2288,23 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 </div>
 
 
-<div class="in-short"><strong>In Short:</strong> <strong>Limitation</strong> = weakness BEYOND the researcher's control (e.g., small sample, single setting). <strong>Delimitation</strong> = boundary SET BY the researcher intentionally (e.g., only adult patients, only one hospital). Limitations WEAKEN generalizability; Delimitations DEFINE scope.</div>
+<div class="in-short"><strong>In Short:</strong> <strong>Limitation</strong> = weakness BEYOND the researcher's control (e.g., small sample, single setting). <strong>Boundary set by the researcher on purpose</strong> = boundary SET BY the researcher intentionally (e.g., only adult patients, only one hospital). Limitations WEAKEN ability to apply results to a larger group; Boundary set by the researcher on purposes DEFINE scope.</div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definitions</h3>
   <div class="definition-box animate-scale-in">
-    <strong>Limitation:</strong> A weakness or constraint in a research study <strong>beyond the researcher's control</strong> that may reduce validity, reliability, or generalizability of findings. Limitations are acknowledged honestly &mdash; they cannot be eliminated.<br><br>
-    <strong>Delimitation:</strong> A boundary or restriction <strong>deliberately set by the researcher</strong> to define the scope and focus of the study. Made by choice, not necessity. Delimitations make the study focused and manageable.
+    <strong>Limitation:</strong> A weakness or constraint in a research study <strong>beyond the researcher's control</strong> that may reduce validity, reliability, or ability to apply results to a larger group of findings. Limitations are acknowledged honestly &mdash; they cannot be eliminated.<br><br>
+    <strong>Boundary set by the researcher on purpose:</strong> A boundary or restriction <strong>deliberately set by the researcher</strong> to define the scope and focus of the study. Made by choice, not necessity. Boundary set by the researcher on purposes make the study focused and manageable.
   </div>
 </div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Comparison with Examples</h3>
   <div class="answer-table-wrap"><table class="answer-table">
-    <thead><tr><th>Feature</th><th>Limitation</th><th>Delimitation</th></tr></thead>
+    <thead><tr><th>Feature</th><th>Limitation</th><th>Boundary set by the researcher on purpose</th></tr></thead>
     <tbody>
       <tr><td>Nature</td><td>Weakness beyond researcher's control</td><td>Boundary set deliberately by researcher</td></tr>
-      <tr><td>Effect</td><td>Reduces generalizability and strength</td><td>Narrows scope; focuses the study</td></tr>
+      <tr><td>Effect</td><td>Reduces ability to apply results to a larger group and strength</td><td>Narrows scope; focuses the study</td></tr>
       <tr><td>Example 1</td><td>Small sample (60 patients) due to budget constraints</td><td>Chose to study only adult patients aged 18+ years</td></tr>
       <tr><td>Example 2</td><td>Single hospital &mdash; results may not generalize to others</td><td>Chose to study only Government Medical College, Nagpur</td></tr>
       <tr><td>Example 3</td><td>Self-report bias &mdash; patients may not report pain honestly</td><td>Only surgical ward patients enrolled (by choice)</td></tr>
@@ -1547,7 +2315,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 
 <div class="dont-confuse"><strong>Don't Confuse:</strong><br>
 <strong>Limitation</strong> = "I WISH I could have done more but I COULDN'T because&hellip;" (beyond control)<br>
-<strong>Delimitation</strong> = "I CHOSE not to include this because&hellip;" (deliberate, within control)
+<strong>Boundary set by the researcher on purpose</strong> = "I CHOSE not to include this because&hellip;" (deliberate, within control)
 </div>
 
 <div class="mnemonic-box">
@@ -1557,30 +2325,97 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 </div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
-  <span class="kw">Limitation</span><span class="kw">Delimitation</span><span class="kw">Scope</span><span class="kw">Generalizability</span><span class="kw">Self-report bias</span><span class="kw">Hawthorne effect</span>
+  <span class="kw">Limitation</span><span class="kw">Boundary set by the researcher on purpose</span><span class="kw">Scope</span><span class="kw">Ability to apply results to a larger group</span><span class="kw">Self-report bias</span><span class="kw">Hawthorne effect</span>
 </div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision</div>
   <ul>
     <li>Limitation = weakness BEYOND control (small sample, language barrier, single setting, short time)</li>
-    <li>Delimitation = boundary SET BY CHOICE (age, gender, setting, time period, diagnosis)</li>
+    <li>Boundary set by the researcher on purpose = boundary SET BY CHOICE (age, gender, setting, time period, diagnosis)</li>
     <li>Both stated in Chapter 1; limitations also discussed in Conclusion</li>
-    <li>Limitation reduces generalizability; Delimitation defines scope (not a weakness)</li>
+    <li>Limitation reduces ability to apply results to a larger group; Boundary set by the researcher on purpose defines scope (not a weakness)</li>
   </ul>
 </div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Meanings</div>
 <ul>
-  <li><span class="term">Generalizability</span> &mdash; ability to apply findings to populations beyond the study sample</li>
+  <li><span class="term">Ability to apply results to a larger group</span> &mdash; ability to apply findings to populations beyond the study sample</li>
   <li><span class="term">Self-report bias</span> &mdash; inaccurate responses due to social desirability or poor recall</li>
   <li><span class="term">Hawthorne Effect</span> &mdash; participants change behaviour because they know they are being observed in a study</li>
 </ul></div>
 
 <div class="self-test"><div class="self-test-title">Test Yourself</div>
-<details><summary>Define limitation and delimitation in one sentence each.</summary><p>Limitation: A weakness BEYOND the researcher's control that may reduce generalizability. Delimitation: A boundary DELIBERATELY SET by the researcher to define the study's scope.</p></details>
-<details><summary>Give 2 examples each of limitation and delimitation from Indian nursing research.</summary><p>Limitations: (1) Small sample of 60 due to budget. (2) Single hospital &mdash; results may not generalize. Delimitations: (1) Only adult patients aged 18+ enrolled. (2) Only Government Medical College, Nagpur selected.</p></details>
+<details><summary>Define limitation and boundary set by the researcher on purpose in one sentence each.</summary><p>Limitation: A weakness BEYOND the researcher's control that may reduce ability to apply results to a larger group. Boundary set by the researcher on purpose: A boundary DELIBERATELY SET by the researcher to define the study's scope.</p></details>
+<details><summary>Give 2 examples each of limitation and boundary set by the researcher on purpose from Indian nursing research.</summary><p>Limitations: (1) Small sample of 60 due to budget. (2) Single hospital &mdash; results may not generalize. Boundary set by the researcher on purposes: (1) Only adult patients aged 18+ enrolled. (2) Only Government Medical College, Nagpur selected.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>You are studying "Effect of music therapy on anxiety in pre-operative patients."<br><br>
+  <strong>Your Boundaries set by researcher on purpose (= deliberate choices you made):</strong><br>
+  ✂️ Only patients aged 18-60 (your choice)<br>
+  ✂️ Only patients in ONE hospital (your choice)<br>
+  ✂️ Only elective surgeries (your choice)<br><br>
+  <strong>Your Limitations (= problems you can't control):</strong><br>
+  ⚠️ Small sample size (only 50 patients were available)<br>
+  ⚠️ Some patients didn't like the music genre you chose<br>
+  ⚠️ Noise from the ward disturbed the music therapy session<br><br>
+  See the difference? Boundaries set by researcher on purpose = YOU decided. Limitations = they happened to you!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Limitation and boundaries set by researcher are the same thing"</div>
+  <div class="mistake-right">✅ Right: Boundaries set by researcher on purpose = researcher's CHOICE. Limitation = researcher's PROBLEM (can't control it)</div>
+  <div class="mistake-wrong">❌ Wrong: "Limitations make the study useless"</div>
+  <div class="mistake-right">✅ Right: Every study has limitations — acknowledging them honestly actually STRENGTHENS the study</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. A deliberate boundary set by the researcher on purpose is also called:</div>
+    <button class="mcq-option" data-correct="true">a) Delimitation</button>
+    <button class="mcq-option" data-correct="false">b) Limitation</button>
+    <button class="mcq-option" data-correct="false">c) Hypothesis</button>
+    <button class="mcq-option" data-correct="false">d) Assumption</button>
+    <div class="mcq-answer">✅ a) Delimitations are boundaries the researcher CHOOSES to set on purpose.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. "The study was limited to one hospital" — this is a:</div>
+    <button class="mcq-option" data-correct="true">a) Delimitation (researcher chose this)</button>
+    <button class="mcq-option" data-correct="false">b) Limitation (couldn't control)</button>
+    <button class="mcq-option" data-correct="false">c) Hypothesis</button>
+    <button class="mcq-option" data-correct="false">d) Assumption</button>
+    <div class="mcq-answer">✅ a) The researcher CHOSE to study only one hospital — this is a deliberate boundary.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. "Small sample size due to limited availability of patients" is a:</div>
+    <button class="mcq-option" data-correct="false">a) Delimitation</button>
+    <button class="mcq-option" data-correct="true">b) Limitation (researcher couldn't control it)</button>
+    <button class="mcq-option" data-correct="false">c) Strength</button>
+    <button class="mcq-option" data-correct="false">d) Objective</button>
+    <div class="mcq-answer">✅ b) The researcher couldn't control how many patients were available — this is a limitation.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. Limitations are written in research to:</div>
+    <button class="mcq-option" data-correct="false">a) Show the study failed</button>
+    <button class="mcq-option" data-correct="true">b) Honestly acknowledge weaknesses so readers can judge properly</button>
+    <button class="mcq-option" data-correct="false">c) Get more marks</button>
+    <button class="mcq-option" data-correct="false">d) Confuse the reader</button>
+    <div class="mcq-answer">✅ b) Being honest about limitations shows scientific integrity and helps future researchers.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. Which is a limitation, NOT a delimitation?</div>
+    <button class="mcq-option" data-correct="false">a) "Study included only female patients"</button>
+    <button class="mcq-option" data-correct="false">b) "Study was done in government hospital only"</button>
+    <button class="mcq-option" data-correct="true">c) "Some patients dropped out midway through the study"</button>
+    <button class="mcq-option" data-correct="false">d) "Only patients aged 20-40 were included"</button>
+    <div class="mcq-answer">✅ c) Patient dropout is something the researcher couldn't control — it's a limitation.</div>
+  </div>
+</div>
+
 `
 }
 ,{
@@ -1592,13 +2427,13 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   years: "Summer 2025 Phase II",
   answer: `
 
-<div class="in-short"><strong>In Short:</strong> <strong>Nursing Research</strong> is a systematic, objective, scientific inquiry to improve nursing care. Good research must have 10 qualities: <strong>SOEVREC GRS</strong> &mdash; Systematic, Objective, Empirical, Valid, Reliable, Ethical, Controlled, Generalizable, Replicable, Significant.</div>
+<div class="in-short"><strong>In Short:</strong> <strong>Nursing Research</strong> is a systematic, objective, scientific inquiry to improve nursing care. Good research must have 10 qualities: <strong>SOEVREC GRS</strong> &mdash; Systematic, Objective, Based on real observation, Valid, Reliable, Ethical, Controlled, Applicable to a larger group, Replicable, Significant.</div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition of Nursing Research</h3>
   <div class="definition-box animate-scale-in">
-    <strong>Nursing Research</strong> is a <strong>systematic, rigorous, and objective process of inquiry</strong> to generate or validate knowledge about nursing practice, education, administration, and health outcomes &mdash; with the goal of improving patient care.<br><br>
-    <strong>Polit &amp; Beck (2021):</strong> "Systematic inquiry designed to develop trustworthy evidence about issues of importance to the nursing profession."
+    <strong>Nursing Research</strong> is a <strong>systematic, careful, and fair step-by-step process</strong> to generate or validate knowledge about nursing practice, education, administration, and health outcomes &mdash; with the goal of improving patient care.<br><br>
+    <strong>Polit &amp; Beck (2021):</strong> "Step-by-step study done to find reliable proof about issues of importance to the nursing profession."
   </div>
 </div>
 
@@ -1609,12 +2444,12 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
     <tbody>
       <tr><td>1</td><td><strong>Systematic</strong></td><td>Planned, step-by-step approach from start to finish</td><td>Protocol written before study; every step documented and followed</td></tr>
       <tr><td>2</td><td><strong>Objective</strong></td><td>Free from personal bias; based only on data collected</td><td>Reports findings honestly even when they do not support the hypothesis</td></tr>
-      <tr><td>3</td><td><strong>Empirical</strong></td><td>Based on observable, measurable real evidence</td><td>Pain measured using NRS (0&ndash;10), not estimated subjectively</td></tr>
+      <tr><td>3</td><td><strong>Based on real observation</strong></td><td>Based on observable, measurable real evidence</td><td>Pain measured using NRS (0&ndash;10), not estimated subjectively</td></tr>
       <tr><td>4</td><td><strong>Valid</strong></td><td>Tool truly measures what it claims to measure</td><td>HAM-A scale used for anxiety &mdash; not a pain scale to measure anxiety</td></tr>
       <tr><td>5</td><td><strong>Reliable</strong></td><td>Consistent, stable results under same conditions</td><td>Braden Scale gives same risk score when used by two nurses on same patient</td></tr>
       <tr><td>6</td><td><strong>Ethical</strong></td><td>Respects rights; obtains informed consent; causes no harm</td><td>IEC clearance obtained; written consent from every participant</td></tr>
-      <tr><td>7</td><td><strong>Controlled</strong></td><td>Extraneous variables minimized to prevent distorted results</td><td>Pain study: both groups matched for age, gender, diagnosis</td></tr>
-      <tr><td>8</td><td><strong>Generalizable</strong></td><td>Findings apply to wider population beyond study sample</td><td>300 randomly selected patients from 3 hospitals &rarr; more generalizable</td></tr>
+      <tr><td>7</td><td><strong>Controlled</strong></td><td>Extra/outside variables minimized to prevent distorted results</td><td>Pain study: both groups matched for age, gender, diagnosis</td></tr>
+      <tr><td>8</td><td><strong>Applicable to a larger group</strong></td><td>Findings apply to wider population beyond study sample</td><td>300 randomly selected patients from 3 hospitals &rarr; more applicable to a larger group</td></tr>
       <tr><td>9</td><td><strong>Replicable</strong></td><td>Another researcher can repeat study and get similar results</td><td>Full methodology published in IMRaD so any researcher can replicate exactly</td></tr>
       <tr><td>10</td><td><strong>Significant</strong></td><td>Answers a meaningful nursing question with practical clinical value</td><td>Pressure ulcer prevention study impacts every ICU patient in India</td></tr>
     </tbody>
@@ -1624,17 +2459,17 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <div class="mnemonic-box">
   <div class="mnemonic-label">Mnemonic &mdash; <strong>"SOEVREC GRS"</strong></div>
   <div class="mnemonic-word"><span>S</span>-<span>O</span>-<span>E</span>-<span>V</span>-<span>R</span>-<span>E</span>-<span>C</span>-<span>G</span>-<span>R</span>-<span>S</span></div>
-  <div class="mnemonic-explain"><strong>S</strong> = Systematic &bull; <strong>O</strong> = Objective &bull; <strong>E</strong> = Empirical &bull; <strong>V</strong> = Valid &bull; <strong>R</strong> = Reliable &bull; <strong>E</strong> = Ethical &bull; <strong>C</strong> = Controlled &bull; <strong>G</strong> = Generalizable &bull; <strong>R</strong> = Replicable &bull; <strong>S</strong> = Significant</div>
+  <div class="mnemonic-explain"><strong>S</strong> = Systematic &bull; <strong>O</strong> = Objective &bull; <strong>E</strong> = Based on real observation &bull; <strong>V</strong> = Valid &bull; <strong>R</strong> = Reliable &bull; <strong>E</strong> = Ethical &bull; <strong>C</strong> = Controlled &bull; <strong>G</strong> = Applicable to a larger group &bull; <strong>R</strong> = Replicable &bull; <strong>S</strong> = Significant</div>
 </div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
-  <span class="kw">SOEVREC GRS</span><span class="kw">Systematic</span><span class="kw">Valid</span><span class="kw">Reliable</span><span class="kw">Ethical</span><span class="kw">IEC</span><span class="kw">Generalizable</span><span class="kw">Cronbach&apos;s alpha</span>
+  <span class="kw">SOEVREC GRS</span><span class="kw">Systematic</span><span class="kw">Valid</span><span class="kw">Reliable</span><span class="kw">Ethical</span><span class="kw">IEC</span><span class="kw">Applicable to a larger group</span><span class="kw">Cronbach&apos;s alpha</span>
 </div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision</div>
   <ul>
-    <li>Definition: systematic, rigorous, objective inquiry to generate nursing knowledge for EBP</li>
+    <li>Definition: systematic, careful and thorough, objective inquiry to generate nursing knowledge for EBP</li>
     <li>10 characteristics: SOEVREC GRS</li>
     <li>Valid = right tool for right variable | Reliable = consistent results (Cronbach&apos;s &ge;0.70)</li>
     <li>KEY: A scale always showing 5 kg extra = RELIABLE (consistent) but NOT VALID (wrong value)</li>
@@ -1651,10 +2486,71 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 </ul></div>
 
 <div class="self-test"><div class="self-test-title">Test Yourself</div>
-<details><summary>Define nursing research in one sentence.</summary><p>Nursing research is a systematic, rigorous, objective process of inquiry to generate or validate knowledge about nursing practice, education, and administration, with the goal of improving patient care and advancing nursing as an autonomous profession.</p></details>
-<details><summary>Name all 10 characteristics using SOEVREC GRS.</summary><p>Systematic, Objective, Empirical, Valid, Reliable, Ethical, Controlled, Generalizable, Replicable, Significant.</p></details>
+<details><summary>Define nursing research in one sentence.</summary><p>Nursing research is a systematic, careful and thorough, objective step-by-step study to generate or validate knowledge about nursing practice, education, and administration, with the goal of improving patient care and advancing nursing as an independent profession.</p></details>
+<details><summary>Name all 10 characteristics using SOEVREC GRS.</summary><p>Systematic, Objective, Based on real observation, Valid, Reliable, Ethical, Controlled, Applicable to a larger group, Replicable, Significant.</p></details>
 <details><summary>Can a tool be reliable but not valid? Give an example.</summary><p>YES. A weighing scale always showing 5 kg extra is RELIABLE (consistent results every time) but NOT VALID (wrong absolute value). Good research needs BOTH reliability AND validity.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Think of nursing research like cooking a recipe:<br><br>
+  📝 <strong>Organized:</strong> You follow steps in order (like a recipe)<br>
+  🔢 <strong>Objective:</strong> You measure ingredients exactly (not "some salt" — but "5 grams of salt")<br>
+  🔁 <strong>Repeatable:</strong> Anyone can follow the same recipe and get similar results<br>
+  🎯 <strong>Goal-oriented:</strong> You want to make a specific dish (solve a specific problem)<br><br>
+  Same with nursing research — it's organized, exact, repeatable, and focused on a goal!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Definition and characteristics are the same answer"</div>
+  <div class="mistake-right">✅ Right: Definition = WHAT it is (one statement). Characteristics = FEATURES of research (list of qualities)</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. Which is a characteristic of nursing research?</div>
+    <button class="mcq-option" data-correct="true">a) Systematic and organized</button>
+    <button class="mcq-option" data-correct="false">b) Random and unplanned</button>
+    <button class="mcq-option" data-correct="false">c) Based on personal opinion</button>
+    <button class="mcq-option" data-correct="false">d) Secretive</button>
+    <div class="mcq-answer">✅ a) Research is always systematic — done in an organized, step-by-step manner.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. "Objective" in research means:</div>
+    <button class="mcq-option" data-correct="false">a) Based on feelings</button>
+    <button class="mcq-option" data-correct="true">b) Free from personal bias</button>
+    <button class="mcq-option" data-correct="false">c) Done quickly</button>
+    <button class="mcq-option" data-correct="false">d) Done by one person</button>
+    <div class="mcq-answer">✅ b) Objective means fair, unbiased — based on facts, not personal feelings.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. Research should be "repeatable" — this means:</div>
+    <button class="mcq-option" data-correct="false">a) It should be done only once</button>
+    <button class="mcq-option" data-correct="true">b) Others should be able to do the same study and get similar results</button>
+    <button class="mcq-option" data-correct="false">c) It should be copied from others</button>
+    <button class="mcq-option" data-correct="false">d) It should be repeated every week</button>
+    <div class="mcq-answer">✅ b) If your study is well-designed, others can repeat it and get similar findings.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. "Ethical" as a characteristic means:</div>
+    <button class="mcq-option" data-correct="true">a) The study should not harm participants</button>
+    <button class="mcq-option" data-correct="false">b) The study should be expensive</button>
+    <button class="mcq-option" data-correct="false">c) The study should be long</button>
+    <button class="mcq-option" data-correct="false">d) The study should be secret</button>
+    <div class="mcq-answer">✅ a) Ethical means the study must protect participants from any harm.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. How many characteristics should you write for a 5-mark question?</div>
+    <button class="mcq-option" data-correct="false">a) 2-3</button>
+    <button class="mcq-option" data-correct="true">b) 5-6 with brief explanation</button>
+    <button class="mcq-option" data-correct="false">c) 10-15</button>
+    <button class="mcq-option" data-correct="false">d) Just 1</button>
+    <div class="mcq-answer">✅ b) For 5 marks: define (1 mark) + 5-6 characteristics with explanation (4 marks).</div>
+  </div>
+</div>
+
 `
 }
 ,{
@@ -1665,17 +2561,17 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   unit: 101,
   years: "Summer 2025 Phase II",
   answer: `
-<div class="in-short"><strong>In Short:</strong> <strong>Nursing Research</strong> is systematic, rigorous inquiry to generate knowledge for improving care. Good research must be Systematic, Objective, Empirical, Valid, Reliable, Ethical, Controlled, Generalizable, Replicable, and Significant (<strong>SOEVREC GRS</strong>). All 10 characteristics ensure findings are trustworthy and safe for clinical use.</div>
+<div class="in-short"><strong>In Short:</strong> <strong>Nursing Research</strong> is systematic, careful and thorough inquiry to generate knowledge for improving care. Good research must be Systematic, Objective, Based on real observation, Valid, Reliable, Ethical, Controlled, Applicable to a larger group, Replicable, and Significant (<strong>SOEVREC GRS</strong>). All 10 characteristics ensure findings are trustworthy and safe for clinical use.</div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Part A: Definition of Nursing Research</h3>
   <div class="definition-box animate-scale-in">
-    <strong>Nursing Research</strong> is a <strong>systematic, rigorous, and objective process of inquiry</strong> that aims to generate new knowledge or validate existing knowledge about nursing practice, education, administration, and health outcomes &mdash; with the ultimate goal of improving care quality for patients, families, and communities.<br><br>
-    <strong>Simple words:</strong> "Organized, scientific method of asking and answering important nursing questions so care continuously improves and nursing becomes a true autonomous profession."
+    <strong>Nursing Research</strong> is a <strong>systematic, careful, and fair step-by-step process</strong> that aims to generate new knowledge or validate existing knowledge about nursing practice, education, administration, and health outcomes &mdash; with the ultimate goal of improving care quality for patients, families, and communities.<br><br>
+    <strong>Simple words:</strong> "Organized, scientific method of asking and answering important nursing questions so care continuously improves and nursing becomes a true independent profession."
   </div>
   <ol class="answer-points">
-    <li><strong>Polit &amp; Beck (2021):</strong> "Systematic inquiry designed to develop trustworthy evidence about issues of importance to the nursing profession &mdash; practice, education, and administration."</li>
-    <li><strong>Burns &amp; Grove (2019):</strong> "A scientific process that validates and refines existing knowledge and generates new knowledge that influences evidence-based nursing practice."</li>
+    <li><strong>Polit &amp; Beck (2021):</strong> "Step-by-step study done to find reliable proof about issues of importance to the nursing profession &mdash; practice, education, and administration."</li>
+    <li><strong>Burns &amp; Grove (2019):</strong> "A scientific process that validates and improves what we already know and creates new knowledge that influences evidence-based nursing practice."</li>
     <li><strong>ANA:</strong> "Nursing research addresses clinical and other questions to refine practice and expand the scientific base of nursing care."</li>
   </ol>
 </div>
@@ -1685,9 +2581,9 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Benefit</th><th>Outcome</th></tr></thead>
     <tbody>
-      <tr><td>Builds body of knowledge</td><td>Nursing becomes scientifically independent from medicine</td></tr>
+      <tr><td>Builds collection of knowledge</td><td>Nursing becomes scientifically independent from medicine</td></tr>
       <tr><td>Develops EBP</td><td>Replaces tradition with evidence; improves patient safety</td></tr>
-      <tr><td>Advances profession</td><td>Nursing gains autonomy and independent practice rights</td></tr>
+      <tr><td>Advances profession</td><td>Nursing gains independence and independent practice rights</td></tr>
       <tr><td>Guides health policy</td><td>Better national health programmes (NHM, RMNCH+A)</td></tr>
       <tr><td>Improves education</td><td>Better teaching methods &rarr; more competent nurses</td></tr>
     </tbody>
@@ -1702,12 +2598,12 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
     <tbody>
       <tr><td>1</td><td><strong>Systematic</strong></td><td>Planned, documented, step-by-step approach</td><td>Study follows protocol: problem &rarr; ROL &rarr; hypothesis &rarr; design &rarr; collect &rarr; analyze &rarr; conclude</td></tr>
       <tr><td>2</td><td><strong>Objective</strong></td><td>Free from personal bias; based only on facts</td><td>Nurse researcher does not alter pain scores; reports negative findings honestly</td></tr>
-      <tr><td>3</td><td><strong>Empirical</strong></td><td>Observable, measurable evidence from real participants</td><td>Pain measured using NRS (0&ndash;10), not estimated by nurse's subjective guess</td></tr>
+      <tr><td>3</td><td><strong>Based on real observation</strong></td><td>Observable, measurable evidence from real participants</td><td>Pain measured using NRS (0&ndash;10), not estimated by nurse's subjective guess</td></tr>
       <tr><td>4</td><td><strong>Valid</strong></td><td>Tool measures exactly what it claims</td><td>HAM-A scale used to measure anxiety &mdash; NOT a pain scale to measure anxiety</td></tr>
       <tr><td>5</td><td><strong>Reliable</strong></td><td>Consistent results under same conditions</td><td>Braden Scale gives same risk score when used by two nurses on the same patient</td></tr>
       <tr><td>6</td><td><strong>Ethical</strong></td><td>Respects rights; causes no harm; maintains confidentiality</td><td>Written informed consent; IEC clearance obtained before study begins</td></tr>
-      <tr><td>7</td><td><strong>Controlled</strong></td><td>External variables that could affect results are minimized</td><td>Pain study: both groups matched for age, gender, diagnosis to prevent confounding</td></tr>
-      <tr><td>8</td><td><strong>Generalizable</strong></td><td>Findings applicable to wider population</td><td>300 randomly selected ICU patients from 3 hospitals &rarr; results generalizable to all ICU patients</td></tr>
+      <tr><td>7</td><td><strong>Controlled</strong></td><td>External variables that could affect results are minimized</td><td>Pain study: both groups matched for age, gender, diagnosis to prevent interfering / misleading</td></tr>
+      <tr><td>8</td><td><strong>Applicable to a larger group</strong></td><td>Findings applicable to wider population</td><td>300 randomly selected ICU patients from 3 hospitals &rarr; results applicable to a larger group to all ICU patients</td></tr>
       <tr><td>9</td><td><strong>Replicable</strong></td><td>Another researcher can repeat the study and get similar results</td><td>Methodology published in full IMRaD format so any researcher can replicate exactly</td></tr>
       <tr><td>10</td><td><strong>Significant</strong></td><td>Answers clinically meaningful, practically important question</td><td>Pressure ulcer prevention study has direct impact on every ICU patient in India</td></tr>
     </tbody>
@@ -1740,7 +2636,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
     </li>
     <li><strong>Ethical:</strong>
       <ul class="sub-points">
-        <li>Belmont Report: Respect (informed consent + autonomy), Beneficence (maximize benefit, minimize harm), Justice (fair selection)</li>
+        <li>Belmont Report: Respect (informed consent + independence), Beneficence (maximize benefit, minimize harm), Justice (fair selection)</li>
         <li>In India: mandatory IEC clearance before ANY human research; written consent from every participant</li>
         <li>Special protection for vulnerable: pregnant women, children, mentally ill, elderly, prisoners</li>
         <li>Right to withdraw at any time without penalty or loss of regular medical care</li>
@@ -1748,16 +2644,16 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
     </li>
     <li><strong>Controlled:</strong>
       <ul class="sub-points">
-        <li>Extraneous variables (confounders) could affect outcome but are NOT the variable studied</li>
+        <li>Extra/outside variables (confounders) could affect outcome but are NOT the variable studied</li>
         <li>Control methods: Randomization (eliminates selection bias), Matching, Statistical control (ANCOVA)</li>
         <li>Music therapy anxiety study: control for pre-existing anxiety disorder, hearing impairment, current anxiolytic medication</li>
       </ul>
     </li>
-    <li><strong>Generalizable:</strong>
+    <li><strong>Applicable to a larger group:</strong>
       <ul class="sub-points">
-        <li>Larger and more representative (random) sample = more generalizable findings</li>
-        <li>Multicentric studies (multiple hospitals/cities) have highest generalizability</li>
-        <li>Convenience samples severely limit generalizability</li>
+        <li>Larger and more representative (random) sample = more applicable to a larger group findings</li>
+        <li>Multicentric studies (multiple hospitals/cities) have highest ability to apply results to a larger group</li>
+        <li>Convenience samples severely limit ability to apply results to a larger group</li>
       </ul>
     </li>
     <li><strong>Replicable:</strong>
@@ -1769,7 +2665,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   </ol>
 </div>
 
-<div class="editorial-example"><strong>Indian Example (All 10 in One):</strong> A nurse at PGIMER Chandigarh conducts an RCT on "cold compress reducing IV phlebitis in oncology patients": (1) <strong>Systematic</strong> (protocol followed), (2) <strong>Objective</strong> (phlebitis graded by nurse unaware of group), (3) <strong>Empirical</strong> (VIP Scale), (4) <strong>Valid</strong> (VIP Scale is validated for phlebitis), (5) <strong>Reliable</strong> (Cronbach's alpha = 0.82), (6) <strong>Ethical</strong> (IEC clearance + consent), (7) <strong>Controlled</strong> (matched for catheter size, drug type, age), (8) <strong>Generalizable</strong> (300 patients from 3 wards), (9) <strong>Replicable</strong> (published IMRaD), (10) <strong>Significant</strong> (phlebitis affects all IV therapy patients). <strong>This is excellent research.</strong></div>
+<div class="editorial-example"><strong>Indian Example (All 10 in One):</strong> A nurse at PGIMER Chandigarh conducts an RCT on "cold compress reducing IV phlebitis in oncology patients": (1) <strong>Systematic</strong> (protocol followed), (2) <strong>Objective</strong> (phlebitis graded by nurse unaware of group), (3) <strong>Based on real observation</strong> (VIP Scale), (4) <strong>Valid</strong> (VIP Scale is validated for phlebitis), (5) <strong>Reliable</strong> (Cronbach's alpha = 0.82), (6) <strong>Ethical</strong> (IEC clearance + consent), (7) <strong>Controlled</strong> (matched for catheter size, drug type, age), (8) <strong>Applicable to a larger group</strong> (300 patients from 3 wards), (9) <strong>Replicable</strong> (published IMRaD), (10) <strong>Significant</strong> (phlebitis affects all IV therapy patients). <strong>This is excellent research.</strong></div>
 
 <div class="exam-strategy"><strong>How to Write This in Exam (10 Marks):</strong><br>
 &bull; Part A: Definition (3 marks) &mdash; 1 formal definition + 1 textbook definition + 3&ndash;4 key features<br>
@@ -1781,17 +2677,17 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <div class="mnemonic-box">
   <div class="mnemonic-label">Mnemonic &mdash; <strong>"SOEVREC GRS"</strong></div>
   <div class="mnemonic-word"><span>S</span>-<span>O</span>-<span>E</span>-<span>V</span>-<span>R</span>-<span>E</span>-<span>C</span>-<span>G</span>-<span>R</span>-<span>S</span></div>
-  <div class="mnemonic-explain"><strong>S</strong> = Systematic &bull; <strong>O</strong> = Objective &bull; <strong>E</strong> = Empirical &bull; <strong>V</strong> = Valid &bull; <strong>R</strong> = Reliable &bull; <strong>E</strong> = Ethical &bull; <strong>C</strong> = Controlled &bull; <strong>G</strong> = Generalizable &bull; <strong>R</strong> = Replicable &bull; <strong>S</strong> = Significant</div>
+  <div class="mnemonic-explain"><strong>S</strong> = Systematic &bull; <strong>O</strong> = Objective &bull; <strong>E</strong> = Based on real observation &bull; <strong>V</strong> = Valid &bull; <strong>R</strong> = Reliable &bull; <strong>E</strong> = Ethical &bull; <strong>C</strong> = Controlled &bull; <strong>G</strong> = Applicable to a larger group &bull; <strong>R</strong> = Replicable &bull; <strong>S</strong> = Significant</div>
 </div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
-  <span class="kw">SOEVREC GRS</span><span class="kw">Nursing research</span><span class="kw">Systematic inquiry</span><span class="kw">Valid</span><span class="kw">Reliable</span><span class="kw">Ethical</span><span class="kw">Belmont Report</span><span class="kw">Cronbach's alpha</span><span class="kw">IEC</span><span class="kw">Polit &amp; Beck</span><span class="kw">ANA</span>
+  <span class="kw">SOEVREC GRS</span><span class="kw">Nursing research</span><span class="kw">Step-by-step study</span><span class="kw">Valid</span><span class="kw">Reliable</span><span class="kw">Ethical</span><span class="kw">Belmont Report</span><span class="kw">Cronbach's alpha</span><span class="kw">IEC</span><span class="kw">Polit &amp; Beck</span><span class="kw">ANA</span>
 </div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision (10-mark version)</div>
   <ul>
-    <li>Definition: systematic, rigorous, objective inquiry to generate nursing knowledge for EBP</li>
+    <li>Definition: systematic, careful and thorough, objective inquiry to generate nursing knowledge for EBP</li>
     <li>10 characteristics: SOEVREC GRS</li>
     <li>Valid = right tool for right variable | Reliable = consistent (Cronbach's &ge;0.70)</li>
     <li>Belmont: Respect + Beneficence + Justice</li>
@@ -1810,10 +2706,71 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 </ul></div>
 
 <div class="self-test"><div class="self-test-title">Test Yourself</div>
-<details><summary>Define nursing research in 2 sentences.</summary><p>Nursing research is a systematic, rigorous, and objective process of inquiry to generate or validate knowledge about nursing practice, education, and administration. Its ultimate goal is to improve patient care and advance nursing as an autonomous, science-based profession.</p></details>
+<details><summary>Define nursing research in 2 sentences.</summary><p>Nursing research is a systematic, careful, and fair step-by-step process to generate or validate knowledge about nursing practice, education, and administration. Its ultimate goal is to improve patient care and advance nursing as an autonomous, science-based profession.</p></details>
 <details><summary>Explain validity and reliability with a common example.</summary><p>Validity = measures what it should. Reliability = consistent results. Example: A scale always showing 5 kg extra is RELIABLE (consistent) but NOT VALID (inaccurate). Good research needs BOTH validity AND reliability.</p></details>
 <details><summary>What are the 3 Belmont Report principles?</summary><p>(1) Respect for Persons &mdash; informed consent. (2) Beneficence &mdash; maximize benefit, minimize harm. (3) Justice &mdash; fair selection of participants. Essential because unethical research causes real harm (e.g., Tuskegee syphilis study 1932&ndash;1972).</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>For a 10-mark question, here's how to structure your answer:<br><br>
+  📝 <strong>Definition (2 marks):</strong> Give 2 definitions (Polit & Beck + Burns & Grove)<br>
+  📋 <strong>Characteristics (8 marks):</strong> List 8 features with explanation + example each:<br><br>
+  Example: <strong>"Systematic"</strong> — means follows organized steps. Like how a nurse follows a nursing process (Assessment → Diagnosis → Planning → Implementation → Evaluation) — research also follows steps in order!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: Writing only 3-4 points for a 10-mark question</div>
+  <div class="mistake-right">✅ Right: 10 marks = definition (2 marks) + 8 characteristics with examples (1 mark each)</div>
+  <div class="mistake-wrong">❌ Wrong: Just listing characteristics without explanation</div>
+  <div class="mistake-right">✅ Right: Each characteristic needs: name + meaning + example = 1 mark</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. For a 10-mark question on definition + characteristics, you should write:</div>
+    <button class="mcq-option" data-correct="false">a) Only the definition</button>
+    <button class="mcq-option" data-correct="true">b) Definition (2-3 marks) + 7-8 characteristics with examples</button>
+    <button class="mcq-option" data-correct="false">c) Only 2 characteristics</button>
+    <button class="mcq-option" data-correct="false">d) A one-line answer</button>
+    <div class="mcq-answer">✅ b) 10 marks need comprehensive coverage: definition + many characteristics with examples.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. "Research is purposive" means:</div>
+    <button class="mcq-option" data-correct="false">a) It has no purpose</button>
+    <button class="mcq-option" data-correct="true">b) It always has a clear goal/objective</button>
+    <button class="mcq-option" data-correct="false">c) It is done randomly</button>
+    <button class="mcq-option" data-correct="false">d) It is optional</button>
+    <div class="mcq-answer">✅ b) Every research study has a clear purpose — it's never done randomly.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. "Empirical" characteristic means research is based on:</div>
+    <button class="mcq-option" data-correct="false">a) Personal feelings</button>
+    <button class="mcq-option" data-correct="false">b) Textbook theory only</button>
+    <button class="mcq-option" data-correct="true">c) Real-world observation and evidence</button>
+    <button class="mcq-option" data-correct="false">d) Dreams</button>
+    <div class="mcq-answer">✅ c) Empirical means based on real observation — not imagination or theory alone.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. "Logical" characteristic means:</div>
+    <button class="mcq-option" data-correct="true">a) Each step follows from the previous one in a sensible order</button>
+    <button class="mcq-option" data-correct="false">b) It uses complex mathematics</button>
+    <button class="mcq-option" data-correct="false">c) It skips some steps</button>
+    <button class="mcq-option" data-correct="false">d) It is done backward</button>
+    <div class="mcq-answer">✅ a) Logical means making sense — each step connects to the next in a clear way.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. Which definition author is MOST commonly cited for nursing research?</div>
+    <button class="mcq-option" data-correct="true">a) Polit & Beck</button>
+    <button class="mcq-option" data-correct="false">b) Shakespeare</button>
+    <button class="mcq-option" data-correct="false">c) WHO</button>
+    <button class="mcq-option" data-correct="false">d) ICMR</button>
+    <div class="mcq-answer">✅ a) Polit & Beck is the most commonly used textbook and citation for nursing research definitions.</div>
+  </div>
+</div>
+
 `
 }
 ,{
@@ -1844,9 +2801,9 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition of Evidence-Based Practice (EBP)</h3>
   <div class="definition-box animate-scale-in">
-    <strong>Evidence-Based Practice (EBP)</strong> is the <strong>conscientious, explicit, and judicious use of current best evidence</strong> in making decisions about individual patient care, integrating clinical expertise with the best available external clinical evidence from systematic research, and the patient's own values and preferences.<br><br>
+    <strong>Evidence-Based Practice (EBP)</strong> is the <strong>careful and responsible, explicit, and wise and careful use of current best evidence</strong> in making decisions about individual patient care, integrating clinical expertise with the best available external clinical evidence from systematic research, and the patient's own values and preferences.<br><br>
     <strong>Simple words:</strong> "Do what the best research says + use your nursing expertise + consider what the patient wants."<br><br>
-    <strong>David Sackett (1996) &mdash; Classic definition:</strong> "Evidence-based medicine is the conscientious, explicit, and judicious use of current best evidence in making decisions about the care of individual patients." (Applied to nursing = EBP)
+    <strong>David Sackett (1996) &mdash; Classic definition:</strong> "Evidence-based medicine is the careful and responsible, explicit, and wise and careful use of current best evidence in making decisions about the care of individual patients." (Applied to nursing = EBP)
   </div>
 </div>
 
@@ -1887,7 +2844,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <div class="analogy-box"><strong>Think of it like&hellip;</strong> a judge passing a verdict. A good judge: (1) reads all available evidence (best research), (2) applies legal expertise and experience (clinical expertise), (3) considers individual case circumstances (patient values). EBP = evidence + expertise + individual context = the best decision for this specific patient.</div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
-  <span class="kw">EBP</span><span class="kw">Conscientious</span><span class="kw">Judicious</span><span class="kw">Best evidence</span><span class="kw">Clinical expertise</span><span class="kw">Patient values</span><span class="kw">David Sackett</span><span class="kw">Meta-analysis</span><span class="kw">Systematic review</span><span class="kw">Level I evidence</span>
+  <span class="kw">EBP</span><span class="kw">Careful and responsible</span><span class="kw">Wise and careful</span><span class="kw">Best evidence</span><span class="kw">Clinical expertise</span><span class="kw">Patient values</span><span class="kw">David Sackett</span><span class="kw">Meta-analysis</span><span class="kw">Systematic review</span><span class="kw">Level I evidence</span>
 </div>
 
 <div class="remember-box">
@@ -1908,14 +2865,75 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   <li><span class="term">Meta-analysis</span> &mdash; statistically combining data from multiple similar studies for one stronger pooled conclusion</li>
   <li><span class="term">Systematic Review</span> &mdash; comprehensive methodical search and critical appraisal of all published studies on a topic</li>
   <li><span class="term">Cochrane Library</span> &mdash; international database of highest-quality systematic reviews; gold standard for EBP evidence</li>
-  <li><span class="term">Judicious</span> &mdash; using sound judgment; applying evidence wisely, not mechanically</li>
+  <li><span class="term">Wise and careful</span> &mdash; using sound judgment; applying evidence wisely, not mechanically</li>
 </ul></div>
 
 <div class="self-test"><div class="self-test-title">Test Yourself</div>
-<details><summary>Define EBP in one sentence.</summary><p>EBP is the conscientious, explicit, and judicious use of current best research evidence, combined with clinical expertise and patient values, to make the best possible nursing care decisions.</p></details>
+<details><summary>Define EBP in one sentence.</summary><p>EBP is the careful and responsible, explicit, and wise and careful use of current best research evidence, combined with clinical expertise and patient values, to make the best possible nursing care decisions.</p></details>
 <details><summary>What are the 3 components of the EBP triad?</summary><p>(1) Best Research Evidence (systematic reviews, RCTs, guidelines), (2) Clinical Expertise (nurse's skills, judgment, and experience), (3) Patient Values and Preferences (what the individual patient wants and accepts).</p></details>
 <details><summary>What is the strongest level of evidence and why?</summary><p>Level I: Systematic Review / Meta-analysis of multiple RCTs. Strongest because it combines data from many well-designed studies &mdash; far more reliable than any single study alone.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Imagine this scenario:<br><br>
+  <strong>Old way (tradition-based):</strong> "We always use cold compress for fever because our senior nurse says so."<br><br>
+  <strong>EBP way (evidence-based):</strong> "Research shows that tepid sponging (lukewarm water) is more effective than cold compress for reducing fever — AND it's more comfortable for the patient."<br><br>
+  👉 EBP means you check the research first, THEN make your nursing decision. Not just following old habits!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "EBP means only following research findings"</div>
+  <div class="mistake-right">✅ Right: EBP = Research evidence + Clinical experience + Patient preferences. All THREE together!</div>
+  <div class="mistake-wrong">❌ Wrong: "EBP and research are the same"</div>
+  <div class="mistake-right">✅ Right: Research CREATES evidence. EBP USES that evidence in daily practice</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. Evidence-Based Practice (EBP) combines:</div>
+    <button class="mcq-option" data-correct="false">a) Only research findings</button>
+    <button class="mcq-option" data-correct="true">b) Research evidence + Clinical expertise + Patient values</button>
+    <button class="mcq-option" data-correct="false">c) Only doctor's orders</button>
+    <button class="mcq-option" data-correct="false">d) Only textbook information</button>
+    <div class="mcq-answer">✅ b) EBP is the combination of best research evidence + nurse's clinical expertise + patient's wishes.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. The term EBP was first used by:</div>
+    <button class="mcq-option" data-correct="false">a) Florence Nightingale</button>
+    <button class="mcq-option" data-correct="true">b) Dr. David Sackett</button>
+    <button class="mcq-option" data-correct="false">c) Polit & Beck</button>
+    <button class="mcq-option" data-correct="false">d) WHO</button>
+    <div class="mcq-answer">✅ b) Dr. David Sackett is considered the father of Evidence-Based Medicine/Practice.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. EBP is the OPPOSITE of:</div>
+    <button class="mcq-option" data-correct="true">a) Tradition-based practice (doing things because "we always did it this way")</button>
+    <button class="mcq-option" data-correct="false">b) Scientific practice</button>
+    <button class="mcq-option" data-correct="false">c) Patient-centered care</button>
+    <button class="mcq-option" data-correct="false">d) Quality nursing care</button>
+    <div class="mcq-answer">✅ a) EBP replaces tradition-based practice with decisions based on research proof.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. In EBP, "patient values" means:</div>
+    <button class="mcq-option" data-correct="false">a) How much the patient pays</button>
+    <button class="mcq-option" data-correct="true">b) The patient's preferences, beliefs, and wishes about their care</button>
+    <button class="mcq-option" data-correct="false">c) The patient's blood values</button>
+    <button class="mcq-option" data-correct="false">d) The patient's family income</button>
+    <div class="mcq-answer">✅ b) We must consider what the patient wants and believes — not just what research says.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. Which is an example of EBP?</div>
+    <button class="mcq-option" data-correct="false">a) Giving cold compress because senior nurse said so</button>
+    <button class="mcq-option" data-correct="true">b) Using tepid sponging because research proves it reduces fever better</button>
+    <button class="mcq-option" data-correct="false">c) Skipping hand washing because ward is busy</button>
+    <button class="mcq-option" data-correct="false">d) Using home remedies without checking evidence</button>
+    <div class="mcq-answer">✅ b) Checking what research says and applying it = EBP!</div>
+  </div>
+</div>
+
 `
 }
 ,{
@@ -1936,7 +2954,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   <div class="ps-step"><div class="ps-num">5</div><div class="ps-content"><strong>ASSESS — Evaluate Outcomes</strong><span>Measure if the practice change improved patient outcomes. Re-audit if needed.</span></div><div class="ps-icon">📈</div></div>
 </div>
 
-<div class="in-short"><strong>In Short:</strong> The purposes of EBP are: improve patient outcomes, reduce errors/harm, reduce costs, improve nursing confidence/autonomy, standardize care quality, bridge the research-practice gap, and support clinical decision-making. Remember: <strong>I REST BD.</strong></div>
+<div class="in-short"><strong>In Short:</strong> The purposes of EBP are: improve patient outcomes, reduce errors/harm, reduce costs, improve nursing confidence/independence, standardize care quality, bridge the research-practice gap, and support clinical decision-making. Remember: <strong>I REST BD.</strong></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
@@ -1952,7 +2970,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
       <tr><td>2</td><td><strong>Reduce Errors and Harm</strong></td><td>Replace dangerous traditional practices with safe, proven ones</td><td>EBP abolished routine enemas before surgery &mdash; evidence showed they cause infection, not prevent it</td></tr>
       <tr><td>3</td><td><strong>Economy (Reduce Costs)</strong></td><td>Effective care prevents complications, shortens stays, reduces wasted resources</td><td>EBP on early mobilization reduces DVT &rarr; saves cost of anticoagulants and extended hospital stay</td></tr>
       <tr><td>4</td><td><strong>Standardize Care Quality</strong></td><td>All nurses give the same high-quality evidence-based care regardless of ward or shift</td><td>Standard EBP-based wound care protocol used in all wards ensures consistent healing outcomes</td></tr>
-      <tr><td>5</td><td><strong>Trust / Nursing Autonomy</strong></td><td>Evidence-backed nurses are more confident, respected, and independent</td><td>"Research shows 2-hourly turning reduces ulcers by 50%" is more authoritative than "we just always did it"</td></tr>
+      <tr><td>5</td><td><strong>Trust / Nursing Independence</strong></td><td>Evidence-backed nurses are more confident, respected, and independent</td><td>"Research shows 2-hourly turning reduces ulcers by 50%" is more authoritative than "we just always did it"</td></tr>
       <tr><td>6</td><td><strong>Bridge Research-Practice Gap</strong></td><td>Research is published but often never applied; EBP ensures findings translate to clinical action</td><td>Evidence on exclusive breastfeeding available for decades but reached routine Indian hospitals only through EBP training</td></tr>
       <tr><td>7</td><td><strong>Decision-Making Support</strong></td><td>Nurses use PICO evidence frameworks to answer clinical questions and make better decisions</td><td>PICO to find evidence: "Does music therapy reduce preoperative anxiety in adult surgical patients?"</td></tr>
     </tbody>
@@ -2001,7 +3019,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
         <li>Systematic reviews, clinical practice guidelines, and nursing protocols translate research into action</li>
       </ul>
     </li>
-    <li><strong>Improve Nursing Autonomy:</strong>
+    <li><strong>Improve Nursing Independence:</strong>
       <ul class="sub-points">
         <li>Nurses who justify every action with evidence are more confident in their professional role</li>
         <li>Evidence-based nurses are respected by physicians and other healthcare team members</li>
@@ -2018,11 +3036,11 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <div class="mnemonic-box">
   <div class="mnemonic-label">Mnemonic &mdash; <strong>"I REST BD"</strong></div>
   <div class="mnemonic-word"><span>I</span>-<span>R</span>-<span>E</span>-<span>S</span>-<span>T</span>-<span>B</span>-<span>D</span></div>
-  <div class="mnemonic-explain"><strong>I</strong> = Improve outcomes &bull; <strong>R</strong> = Reduce errors/harm &bull; <strong>E</strong> = Economy (costs) &bull; <strong>S</strong> = Standardize quality &bull; <strong>T</strong> = Trust/autonomy &bull; <strong>B</strong> = Bridge research-practice gap &bull; <strong>D</strong> = Decision-making support</div>
+  <div class="mnemonic-explain"><strong>I</strong> = Improve outcomes &bull; <strong>R</strong> = Reduce errors/harm &bull; <strong>E</strong> = Economy (costs) &bull; <strong>S</strong> = Standardize quality &bull; <strong>T</strong> = Trust/independence &bull; <strong>B</strong> = Bridge research-practice gap &bull; <strong>D</strong> = Decision-making support</div>
 </div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
-  <span class="kw">I REST BD</span><span class="kw">Patient outcomes</span><span class="kw">Reduce harm</span><span class="kw">Healthcare costs</span><span class="kw">Standardize care</span><span class="kw">17-year gap</span><span class="kw">NABH</span><span class="kw">Nursing autonomy</span><span class="kw">PICO</span><span class="kw">Iatrogenic</span>
+  <span class="kw">I REST BD</span><span class="kw">Patient outcomes</span><span class="kw">Reduce harm</span><span class="kw">Healthcare costs</span><span class="kw">Standardize care</span><span class="kw">17-year gap</span><span class="kw">NABH</span><span class="kw">Nursing independence</span><span class="kw">PICO</span><span class="kw">Iatrogenic</span>
 </div>
 
 <div class="remember-box">
@@ -2052,6 +3070,67 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <details><summary>Give a specific Indian example of EBP reducing harm.</summary><p>Routine episiotomy on ALL labouring women was standard in India. EBP evidence showed it INCREASES pain, infection, and healing time. Selective episiotomy replaced it &mdash; reducing harm to thousands of Indian mothers.</p></details>
 <details><summary>What is the "17-year gap" and why does it matter?</summary><p>It takes an average of 17 years for published research to reach routine clinical practice. Patients are denied benefits of new discoveries for nearly two decades. EBP actively finds, appraises, and applies evidence to close this gap and bring benefits to patients much sooner.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Here's how EBP purposes show up in real hospital life:<br><br>
+  💊 <strong>Better patient outcomes:</strong> Using oral rehydration therapy (ORT) based on research instead of IV fluids for mild dehydration = fewer needle pricks for children!<br>
+  💰 <strong>Cost-effective care:</strong> Research shows saline dressing works as well as expensive silver dressings for some wounds = hospital saves money!<br>
+  🏆 <strong>Professional development:</strong> A nurse who uses EBP is seen as more competent and gets better career opportunities</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Purpose of EBP = Purpose of research"</div>
+  <div class="mistake-right">✅ Right: Research = creates evidence. EBP = USES evidence to make care decisions. Different purposes!</div>
+  <div class="mistake-wrong">❌ Wrong: "EBP only benefits patients"</div>
+  <div class="mistake-right">✅ Right: EBP benefits patients, nurses, hospitals, AND the healthcare system</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. The MAIN purpose of EBP is to:</div>
+    <button class="mcq-option" data-correct="true">a) Provide the best possible care based on research evidence</button>
+    <button class="mcq-option" data-correct="false">b) Make nursing more complicated</button>
+    <button class="mcq-option" data-correct="false">c) Replace nurses with machines</button>
+    <button class="mcq-option" data-correct="false">d) Increase hospital costs</button>
+    <div class="mcq-answer">✅ a) The main goal of EBP is to give patients the best care proven by research.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. EBP helps reduce healthcare costs by:</div>
+    <button class="mcq-option" data-correct="false">a) Cutting nurse salaries</button>
+    <button class="mcq-option" data-correct="true">b) Using treatments that are proven to work (avoiding wasteful, ineffective treatments)</button>
+    <button class="mcq-option" data-correct="false">c) Sending patients home early</button>
+    <button class="mcq-option" data-correct="false">d) Using cheaper medicines without evidence</button>
+    <div class="mcq-answer">✅ b) Research helps identify which treatments work best — avoiding waste on ineffective ones.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. EBP improves professional status of nurses because:</div>
+    <button class="mcq-option" data-correct="true">a) Nurses make decisions based on science, not just habit</button>
+    <button class="mcq-option" data-correct="false">b) Nurses get more holidays</button>
+    <button class="mcq-option" data-correct="false">c) Nurses don't need to study anymore</button>
+    <button class="mcq-option" data-correct="false">d) Nurses can prescribe medicines</button>
+    <div class="mcq-answer">✅ a) Using EBP shows that nursing decisions are based on science — making nursing a respected profession.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. Which is NOT a purpose of EBP?</div>
+    <button class="mcq-option" data-correct="false">a) Improving patient outcomes</button>
+    <button class="mcq-option" data-correct="false">b) Reducing medical errors</button>
+    <button class="mcq-option" data-correct="true">c) Replacing clinical experience with books</button>
+    <button class="mcq-option" data-correct="false">d) Standardizing nursing care</button>
+    <div class="mcq-answer">✅ c) EBP combines research WITH clinical experience — it doesn't replace experience!</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. EBP standardizes care — this means:</div>
+    <button class="mcq-option" data-correct="false">a) Every patient gets the exact same treatment</button>
+    <button class="mcq-option" data-correct="true">b) All nurses follow the same proven best practices for similar problems</button>
+    <button class="mcq-option" data-correct="false">c) Patients cannot choose their treatment</button>
+    <button class="mcq-option" data-correct="false">d) Only one nurse treats each patient</button>
+    <div class="mcq-answer">✅ b) Standardization means all nurses use the same evidence-based guidelines for the same conditions.</div>
+  </div>
+</div>
+
 `
 }
 ,{
@@ -2204,6 +3283,70 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <details><summary>What is PICO and how is it used in EBP?</summary><p>PICO = Patient/Population, Intervention, Comparison, Outcome. It is used in Step 1 (Ask) to convert a bedside clinical problem into a precise, searchable research question. E.g., "In ICU patients (P), does 2-hourly repositioning (I) compared to 4-hourly repositioning (C) reduce pressure ulcer incidence (O)?"</p></details>
 <details><summary>Why is the Audit step essential?</summary><p>It closes the feedback loop &mdash; measures actual patient outcomes after EBP implementation to verify the change was effective. If outcomes improve, the practice is continued and spread. If not, the evidence is re-evaluated. This makes EBP a cyclic, continuously improving process.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Let's walk through the EBP process with a real example:<br><br>
+  <strong>Clinical Problem:</strong> Your ICU patients keep getting urinary tract infections (UTIs) from catheters.<br><br>
+  1️⃣ <strong>Ask (PICO):</strong> "In catheterized ICU patients (P), does daily catheter care with chlorhexidine (I) compared to normal saline (C) reduce UTI rates (O)?"<br>
+  2️⃣ <strong>Search:</strong> Search PubMed for "catheter care UTI prevention"<br>
+  3️⃣ <strong>Appraise:</strong> Read 5 studies — 4 say chlorhexidine is better!<br>
+  4️⃣ <strong>Apply:</strong> Start using chlorhexidine for catheter care in your ICU<br>
+  5️⃣ <strong>Evaluate:</strong> After 3 months, UTI rate dropped from 15% to 4%! 🎉</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "EBP process has only 3 steps"</div>
+  <div class="mistake-right">✅ Right: EBP process has 5 steps — Ask, Search, Appraise, Apply, Evaluate (A-S-A-A-E)</div>
+  <div class="mistake-wrong">❌ Wrong: "PICO is a type of research design"</div>
+  <div class="mistake-right">✅ Right: PICO is a way to frame your clinical question — P(Patient), I(Intervention), C(Comparison), O(Outcome)</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. The FIRST step in EBP process is:</div>
+    <button class="mcq-option" data-correct="true">a) Ask a clinical question (using PICO)</button>
+    <button class="mcq-option" data-correct="false">b) Search for evidence</button>
+    <button class="mcq-option" data-correct="false">c) Apply the evidence</button>
+    <button class="mcq-option" data-correct="false">d) Evaluate the outcome</button>
+    <div class="mcq-answer">✅ a) Always start by clearly asking the question using PICO format.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. PICO stands for:</div>
+    <button class="mcq-option" data-correct="false">a) Problem, Investigation, Control, Observation</button>
+    <button class="mcq-option" data-correct="true">b) Patient/Population, Intervention, Comparison, Outcome</button>
+    <button class="mcq-option" data-correct="false">c) Plan, Implement, Check, Output</button>
+    <button class="mcq-option" data-correct="false">d) Practice, Interest, Cost, Operation</button>
+    <div class="mcq-answer">✅ b) P = Patient/Population, I = Intervention, C = Comparison, O = Outcome.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. "Critically reading research articles to judge their quality" is which step?</div>
+    <button class="mcq-option" data-correct="false">a) Ask</button>
+    <button class="mcq-option" data-correct="false">b) Search</button>
+    <button class="mcq-option" data-correct="true">c) Appraise (critical appraisal)</button>
+    <button class="mcq-option" data-correct="false">d) Evaluate</button>
+    <div class="mcq-answer">✅ c) Appraising means carefully judging whether the research is good quality and trustworthy.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. The LAST step of EBP process is:</div>
+    <button class="mcq-option" data-correct="false">a) Search</button>
+    <button class="mcq-option" data-correct="false">b) Apply</button>
+    <button class="mcq-option" data-correct="true">c) Evaluate the outcome</button>
+    <button class="mcq-option" data-correct="false">d) Ask the question</button>
+    <div class="mcq-answer">✅ c) After applying evidence to practice, you must evaluate whether it actually worked!</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. How many steps are there in the EBP process?</div>
+    <button class="mcq-option" data-correct="false">a) 3</button>
+    <button class="mcq-option" data-correct="true">b) 5 (Ask, Search, Appraise, Apply, Evaluate)</button>
+    <button class="mcq-option" data-correct="false">c) 7</button>
+    <button class="mcq-option" data-correct="false">d) 10</button>
+    <div class="mcq-answer">✅ b) The 5 steps: Ask → Search → Appraise → Apply → Evaluate.</div>
+  </div>
+</div>
+
 `
 }
 ,{
@@ -2231,7 +3374,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 
 <div class="dont-confuse"><strong>Don't Confuse:</strong><br>
 <strong>Problem Solving Method:</strong> Informal, practical, no hypothesis, no statistics, not replicable. Used by nurses in everyday decisions.<br>
-<strong>Scientific Method:</strong> Formal, rigorous, uses hypothesis + statistics, results generalizable. Used in nursing research.
+<strong>Scientific Method:</strong> Formal, careful and thorough, uses hypothesis + statistics, results applicable to a larger group. Used in nursing research.
 </div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
@@ -2246,6 +3389,69 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <div class="self-test"><div class="self-test-title">Test Yourself</div>
 <details><summary>List the 6 steps of the problem solving method.</summary><p>(1) Identify the problem, (2) Define the problem clearly, (3) Analyze causes, (4) Generate possible solutions, (5) Select and implement the best solution, (6) Evaluate the outcome.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>You are on night duty. A patient complains of severe chest pain.<br><br>
+  <strong>Problem solving method in action:</strong><br>
+  1️⃣ <strong>Identify problem:</strong> Chest pain, sweating, restlessness<br>
+  2️⃣ <strong>Gather info:</strong> Check vitals, ECG, ask about history of heart disease<br>
+  3️⃣ <strong>Possible solutions:</strong> Give O2, call doctor, give Tab. Sorbitrate SL, keep crash cart ready<br>
+  4️⃣ <strong>Choose best:</strong> Give O2 + call doctor immediately + cardiac monitoring<br>
+  5️⃣ <strong>Evaluate:</strong> Pain reduced? Vitals stable? Doctor arrived?<br><br>
+  You just used the problem-solving method without even knowing it!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Problem solving method and scientific method are completely different"</div>
+  <div class="mistake-right">✅ Right: They are very similar! Problem solving is the practical application of scientific thinking</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. The FIRST step in problem solving is:</div>
+    <button class="mcq-option" data-correct="true">a) Identifying the problem</button>
+    <button class="mcq-option" data-correct="false">b) Evaluating results</button>
+    <button class="mcq-option" data-correct="false">c) Implementing solution</button>
+    <button class="mcq-option" data-correct="false">d) Writing hypothesis</button>
+    <div class="mcq-answer">✅ a) You must first clearly identify what the problem is.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. Problem solving method is similar to:</div>
+    <button class="mcq-option" data-correct="true">a) Scientific method</button>
+    <button class="mcq-option" data-correct="false">b) Random guessing</button>
+    <button class="mcq-option" data-correct="false">c) Intuition</button>
+    <button class="mcq-option" data-correct="false">d) Authority method</button>
+    <div class="mcq-answer">✅ a) Problem solving follows a logical, step-by-step approach — just like the scientific method.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. After identifying possible solutions, you should:</div>
+    <button class="mcq-option" data-correct="false">a) Try all at once</button>
+    <button class="mcq-option" data-correct="true">b) Choose the BEST one based on evidence</button>
+    <button class="mcq-option" data-correct="false">c) Ignore the problem</button>
+    <button class="mcq-option" data-correct="false">d) Ask the patient to decide everything</button>
+    <div class="mcq-answer">✅ b) Evaluate all options and select the best solution based on available evidence.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. The LAST step in problem solving is:</div>
+    <button class="mcq-option" data-correct="false">a) Identifying the problem</button>
+    <button class="mcq-option" data-correct="false">b) Gathering information</button>
+    <button class="mcq-option" data-correct="true">c) Evaluating the outcome</button>
+    <button class="mcq-option" data-correct="false">d) Listing solutions</button>
+    <div class="mcq-answer">✅ c) After implementing the solution, evaluate: Did it work? Is the problem solved?</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. Nursing process (ADPIE) is based on:</div>
+    <button class="mcq-option" data-correct="false">a) Random methods</button>
+    <button class="mcq-option" data-correct="true">b) Problem solving method</button>
+    <button class="mcq-option" data-correct="false">c) Intuition only</button>
+    <button class="mcq-option" data-correct="false">d) Doctor's orders only</button>
+    <div class="mcq-answer">✅ b) The nursing process (Assess, Diagnose, Plan, Implement, Evaluate) is based on problem-solving thinking.</div>
+  </div>
+</div>
+
 `
 }
 ,{
@@ -2267,7 +3473,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
     <li><strong>Formulate Hypothesis:</strong> State a testable prediction BEFORE data collection begins. H1 (research hypothesis) = effect exists; H0 (null hypothesis) = no significant effect. Hypothesis directs the entire study design.</li>
     <li><strong>Research Design &amp; Planning:</strong> Select study design (RCT, descriptive, quasi-experimental), sampling method, data collection tools; obtain IEC ethical clearance; conduct pilot study (10% of sample).</li>
     <li><strong>Data Collection:</strong> Gather data from participants using standardized, valid, reliable instruments under controlled, ethical conditions.</li>
-    <li><strong>Data Analysis:</strong> Apply descriptive statistics (mean, SD &mdash; describe data) and inferential statistics (t-test, chi-square, ANOVA &mdash; test hypothesis). p &lt; 0.05 = statistically significant.</li>
+    <li><strong>Data Analysis:</strong> Apply descriptive statistics (mean, SD &mdash; describe data) and statistics used to draw conclusions (t-test, chi-square, ANOVA &mdash; test hypothesis). p &lt; 0.05 = statistically significant.</li>
     <li><strong>Interpretation of Results:</strong> Decide if H1 is supported or rejected; explain what findings mean in nursing practice context; acknowledge limitations.</li>
     <li><strong>Conclusion &amp; Dissemination:</strong> Write research report in IMRaD format; publish in peer-reviewed journals; present at conferences; implement findings as EBP protocol.</li>
   </ol>
@@ -2305,6 +3511,64 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <div class="self-test"><div class="self-test-title">Test Yourself</div>
 <details><summary>List all 8 steps of scientific research in order.</summary><p>(1) Observation/Problem identification, (2) Review of Literature, (3) Formulate Hypothesis, (4) Research Design and Planning, (5) Data Collection, (6) Data Analysis, (7) Interpretation of Results, (8) Conclusion and Dissemination.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Quick summary of research steps using a real topic:<br><br>
+  <strong>"Does honey dressing heal diabetic wounds faster than betadine?"</strong><br>
+  📌 Identify problem → 📚 Read studies → 💡 Write hypothesis → 📐 Plan design → 👥 Select sample → 📊 Collect data → 🧮 Analyze → 📝 Report results</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: Writing all steps in one long paragraph</div>
+  <div class="mistake-right">✅ Right: Use numbered list — each step on a new line with brief explanation</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. How many main steps are there in scientific research?</div>
+    <button class="mcq-option" data-correct="false">a) 3</button>
+    <button class="mcq-option" data-correct="false">b) 5</button>
+    <button class="mcq-option" data-correct="true">c) 7-8</button>
+    <button class="mcq-option" data-correct="false">d) 15</button>
+    <div class="mcq-answer">✅ c) There are typically 7-8 main steps in the scientific research process.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. Correct order of first 3 steps:</div>
+    <button class="mcq-option" data-correct="true">a) Problem → Literature → Hypothesis</button>
+    <button class="mcq-option" data-correct="false">b) Hypothesis → Problem → Literature</button>
+    <button class="mcq-option" data-correct="false">c) Literature → Hypothesis → Problem</button>
+    <button class="mcq-option" data-correct="false">d) Data → Analysis → Problem</button>
+    <div class="mcq-answer">✅ a) First identify the problem, then review literature, then write hypothesis.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. Data analysis comes:</div>
+    <button class="mcq-option" data-correct="false">a) Before data collection</button>
+    <button class="mcq-option" data-correct="true">b) After data collection</button>
+    <button class="mcq-option" data-correct="false">c) Before problem identification</button>
+    <button class="mcq-option" data-correct="false">d) At the beginning</button>
+    <div class="mcq-answer">✅ b) You must collect data first, then analyze it!</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. The step "selecting sample" means:</div>
+    <button class="mcq-option" data-correct="false">a) Choosing the research topic</button>
+    <button class="mcq-option" data-correct="true">b) Deciding who/how many people to study</button>
+    <button class="mcq-option" data-correct="false">c) Writing the conclusion</button>
+    <button class="mcq-option" data-correct="false">d) Analyzing data</button>
+    <div class="mcq-answer">✅ b) Sample selection means choosing the participants for your study.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. For a 5-mark question on steps, you should write:</div>
+    <button class="mcq-option" data-correct="true">a) Each step with a one-line explanation</button>
+    <button class="mcq-option" data-correct="false">b) Only step names without explanation</button>
+    <button class="mcq-option" data-correct="false">c) A long essay</button>
+    <button class="mcq-option" data-correct="false">d) Only the first 2 steps</button>
+    <div class="mcq-answer">✅ a) List all steps with a brief one-line explanation each — that's enough for 5 marks.</div>
+  </div>
+</div>
+
 `
 }
 ,{
@@ -2315,11 +3579,11 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   unit: 101,
   years: "Winter 2025 Phase III",
   answer: `
-<div class="in-short"><strong>In Short:</strong> Nursing research is needed to: build nursing's body of knowledge, improve practice with EBP, make nursing an autonomous profession, improve education, guide health policy, and ensure accountability. Remember: <strong>BIPEQA.</strong></div>
+<div class="in-short"><strong>In Short:</strong> Nursing research is needed to: build nursing's collection of knowledge, improve practice with EBP, make nursing an independent profession, improve education, guide health policy, and ensure accountability. Remember: <strong>BIPEQA.</strong></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
-  <p class="answer-text">The <strong>need for nursing research</strong> arises from the desire to transform nursing from a task-based activity to a knowledge-based <strong>profession</strong>. A profession must have its own body of knowledge &mdash; and that knowledge is only built through systematic research. Florence Nightingale expressed this: <em>"Nursing is an art, but it must also be a science."</em></p>
+  <p class="answer-text">The <strong>need for nursing research</strong> arises from the desire to transform nursing from a task-based activity to a knowledge-based <strong>profession</strong>. A profession must have its own collection of knowledge &mdash; and that knowledge is only built through systematic research. Florence Nightingale expressed this: <em>"Nursing is an art, but it must also be a science."</em></p>
 </div>
 
 <div class="answer-section animate-slide-up">
@@ -2329,7 +3593,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
     <tbody>
       <tr><td>1</td><td><strong>Build Body of Knowledge</strong></td><td>Nursing needs its own scientific knowledge base separate from medicine</td><td>Research on therapeutic communication, self-care, nursing diagnoses builds this unique knowledge</td></tr>
       <tr><td>2</td><td><strong>Improve Practice (EBP)</strong></td><td>Replace old rituals with proven, effective nursing actions</td><td>Research replaced routine catheter changes with evidence-based protocols that reduce CAUTI</td></tr>
-      <tr><td>3</td><td><strong>Professional Autonomy</strong></td><td>Nurses need scientific proof for their actions to be independent practitioners</td><td>INC working toward nurse practitioner roles based on nursing research evidence</td></tr>
+      <tr><td>3</td><td><strong>Professional Independence</strong></td><td>Nurses need scientific proof for their actions to be independent practitioners</td><td>INC working toward nurse practitioner roles based on nursing research evidence</td></tr>
       <tr><td>4</td><td><strong>Education Improvement</strong></td><td>Research shows which teaching methods best prepare nurses for clinical reality</td><td>Simulation-based training proven more effective than traditional observation alone</td></tr>
       <tr><td>5</td><td><strong>Quality &amp; Accountability</strong></td><td>Research measures care quality; holds nurses accountable for patient outcomes</td><td>Audit studies measuring CAUTI rates, fall rates, pressure ulcer incidence per ward</td></tr>
       <tr><td>6</td><td><strong>Advance Health Policy</strong></td><td>Research data used by government and WHO to make better health programmes</td><td>Nursing research on staffing ratios influenced WHO Global Strategic Directions for Nursing 2021&ndash;2025</td></tr>
@@ -2358,7 +3622,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
     </li>
     <li><strong>To Establish Nursing as Autonomous Profession:</strong>
       <ul class="sub-points">
-        <li>An autonomous profession makes independent decisions based on its own knowledge, not only doctors' orders</li>
+        <li>An independent profession makes independent decisions based on its own knowledge, not only doctors' orders</li>
         <li>In India, INC is working toward nurse practitioner roles &mdash; nursing research is essential to justify this</li>
         <li>Countries with strong nursing research (USA, UK, Australia) have nurse practitioners independently managing chronic diseases</li>
       </ul>
@@ -2375,7 +3639,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 
 <div class="dont-confuse"><strong>Don't Confuse:</strong><br>
 <strong>Need vs. Purpose of Nursing Research:</strong><br>
-<strong>Need</strong> = WHY research is necessary overall for the profession (what gap it fills). E.g., "Research is needed to build nursing's body of knowledge."<br>
+<strong>Need</strong> = WHY research is necessary overall for the profession (what gap it fills). E.g., "Research is needed to build nursing's collection of knowledge."<br>
 <strong>Purpose</strong> = WHAT a specific research study aims to achieve. E.g., "The purpose of this study is to describe pain levels in post-operative patients" (description).
 </div>
 
@@ -2384,18 +3648,18 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <div class="mnemonic-box">
   <div class="mnemonic-label">Mnemonic &mdash; <strong>"BIPEQA"</strong></div>
   <div class="mnemonic-word"><span>B</span>-<span>I</span>-<span>P</span>-<span>E</span>-<span>Q</span>-<span>A</span></div>
-  <div class="mnemonic-explain"><strong>B</strong> = Body of knowledge &bull; <strong>I</strong> = Improve practice (EBP) &bull; <strong>P</strong> = Professional autonomy &bull; <strong>E</strong> = Education &bull; <strong>Q</strong> = Quality &amp; accountability &bull; <strong>A</strong> = Advance health policy</div>
+  <div class="mnemonic-explain"><strong>B</strong> = Collection of knowledge &bull; <strong>I</strong> = Improve practice (EBP) &bull; <strong>P</strong> = Professional independence &bull; <strong>E</strong> = Education &bull; <strong>Q</strong> = Quality &amp; accountability &bull; <strong>A</strong> = Advance health policy</div>
 </div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
-  <span class="kw">BIPEQA</span><span class="kw">Body of knowledge</span><span class="kw">EBP</span><span class="kw">Autonomous profession</span><span class="kw">Health policy</span><span class="kw">Quality</span><span class="kw">Accountability</span><span class="kw">INC</span><span class="kw">CQI</span><span class="kw">NABH</span>
+  <span class="kw">BIPEQA</span><span class="kw">Collection of knowledge</span><span class="kw">EBP</span><span class="kw">Independent profession</span><span class="kw">Health policy</span><span class="kw">Quality</span><span class="kw">Accountability</span><span class="kw">INC</span><span class="kw">CQI</span><span class="kw">NABH</span>
 </div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision</div>
   <ul>
     <li>6 needs: BIPEQA</li>
-    <li>Nursing cannot be autonomous without its own research-based body of knowledge</li>
+    <li>Nursing cannot be autonomous without its own research-based collection of knowledge</li>
     <li>Routine perineal shaving abolished by research &mdash; classic example of need for EBP</li>
     <li>India: INC promoting nurse practitioner roles &rarr; needs strong nursing research base</li>
     <li>NABH accreditation requires nursing research-based quality indicators in Indian hospitals</li>
@@ -2412,15 +3676,77 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 </ul></div>
 
 <div class="self-test"><div class="self-test-title">Test Yourself</div>
-<details><summary>Why does nursing need its own body of knowledge?</summary><p>Because nursing is a distinct profession with its own philosophy (holistic care, therapeutic relationship, patient comfort) that goes beyond medical treatment. Without its own knowledge base, nursing cannot function autonomously.</p></details>
+<details><summary>Why does nursing need its own collection of knowledge?</summary><p>Because nursing is a distinct profession with its own philosophy (holistic care, therapeutic relationship, patient comfort) that goes beyond medical treatment. Without its own knowledge base, nursing cannot function autonomously.</p></details>
 <details><summary>Give one example of a traditional nursing practice overturned by research.</summary><p>Routine perineal shaving before delivery was a tradition believed to reduce infection, but research proved it INCREASES infection risk and discomfort. It was discontinued based on evidence.</p></details>
 <details><summary>Difference between "need" and "purpose" of nursing research?</summary><p>Need = why research is necessary overall (what gap it fills for the profession). Purpose = what a specific research study aims to achieve as an outcome (description, explanation, prediction, control, theory, EBP).</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>Here's a TRUE story about why nursing research is needed:<br><br>
+  For years, nurses in India routinely applied <strong>cow dung paste</strong> on the umbilical cord stump of newborns in villages — because "that's what was always done."<br><br>
+  Research proved this causes <strong>neonatal tetanus</strong> and sepsis! 😱<br><br>
+  Now, thanks to research, the WHO recommends <strong>clean dry cord care</strong> — just keeping the cord clean and dry. This change has saved <strong>millions of newborn lives</strong> worldwide!<br><br>
+  👆 This is why we NEED nursing research — to replace harmful traditions with safe, proven practices!</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: "Need and importance are the same — just write the same points"</div>
+  <div class="mistake-right">✅ Right: Need = WHY research is required (gap, problem). Importance = WHAT it achieves (benefits). Overlap is okay but focus differently!</div>
+  <div class="mistake-wrong">❌ Wrong: "Research is needed only for PhD thesis"</div>
+  <div class="mistake-right">✅ Right: Research is needed at EVERY level — BSc, MSc, and even in daily clinical practice</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. The MAIN need for nursing research is to:</div>
+    <button class="mcq-option" data-correct="true">a) Replace tradition-based care with evidence-based care</button>
+    <button class="mcq-option" data-correct="false">b) Write more textbooks</button>
+    <button class="mcq-option" data-correct="false">c) Reduce the number of nurses</button>
+    <button class="mcq-option" data-correct="false">d) Make nursing more difficult</button>
+    <div class="mcq-answer">✅ a) The most important need is to stop doing things "because we always did it" and start using proof!</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. "Nursing needs its own knowledge base" — this need refers to:</div>
+    <button class="mcq-option" data-correct="true">a) Professional status and identity</button>
+    <button class="mcq-option" data-correct="false">b) Getting more salary</button>
+    <button class="mcq-option" data-correct="false">c) Reducing workload</button>
+    <button class="mcq-option" data-correct="false">d) Competing with doctors</button>
+    <div class="mcq-answer">✅ a) For nursing to be recognized as an independent profession, it needs its own research-based knowledge.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. Research is needed in nursing education to:</div>
+    <button class="mcq-option" data-correct="false">a) Make exams easier</button>
+    <button class="mcq-option" data-correct="true">b) Find the best teaching methods for nursing students</button>
+    <button class="mcq-option" data-correct="false">c) Cancel practical exams</button>
+    <button class="mcq-option" data-correct="false">d) Reduce study hours</button>
+    <div class="mcq-answer">✅ b) Research helps discover which teaching methods work best for nursing education.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. Accountability in nursing means:</div>
+    <button class="mcq-option" data-correct="false">a) Counting money</button>
+    <button class="mcq-option" data-correct="true">b) Being able to explain WHY you did something based on evidence</button>
+    <button class="mcq-option" data-correct="false">c) Following doctor's orders blindly</button>
+    <button class="mcq-option" data-correct="false">d) Working overtime</button>
+    <div class="mcq-answer">✅ b) Research helps nurses justify their actions with evidence — "I did this because research shows it works."</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. Need vs Importance — correct matching:</div>
+    <button class="mcq-option" data-correct="false">a) Need = benefits of research, Importance = gaps in knowledge</button>
+    <button class="mcq-option" data-correct="true">b) Need = WHY research is required, Importance = WHAT benefits it gives</button>
+    <button class="mcq-option" data-correct="false">c) They are exactly the same</button>
+    <button class="mcq-option" data-correct="false">d) Need = future plans, Importance = past achievements</button>
+    <div class="mcq-answer">✅ b) Need focuses on the gap/problem. Importance focuses on the benefits and achievements.</div>
+  </div>
+</div>
+
 `
 }
 ,{
   id: 22,
-  question: "Discuss the delimitation and limitation in research study with example.",
+  question: "Discuss the boundary set by the researcher on purpose and limitation in research study with example.",
   marks: 5,
   repeated: 1,
   unit: 101,
@@ -2428,17 +3754,17 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   answer: `
 
 <div class="comparison-split">
-  <div class="vs-badge">⚠️ Limitation <span>VS</span> Delimitation — Don't Confuse!</div>
+  <div class="vs-badge">⚠️ Limitation <span>VS</span> Boundary set by the researcher on purpose — Don't Confuse!</div>
   <div class="comp-col left">
     <div class="comp-col-title">⛔ Limitation</div>
     <div class="comp-item"><strong>Meaning:</strong> Weaknesses the researcher CANNOT control — discovered after or during study.</div>
     <div class="comp-item"><strong>Who decides:</strong> Happens naturally, not by researcher's choice.</div>
-    <div class="comp-item"><strong>Effect:</strong> Reduces generalizability / validity of findings.</div>
+    <div class="comp-item"><strong>Effect:</strong> Reduces ability to apply results to a larger group / validity of findings.</div>
     <div class="comp-item"><strong>Examples:</strong> Hawthorne effect, small sample size, biased self-reporting by patients.</div>
     <div class="comp-item"><strong>Mnemonic:</strong> L for "Left behind" — things the researcher couldn't fix.</div>
   </div>
   <div class="comp-col right">
-    <div class="comp-col-title">✅ Delimitation</div>
+    <div class="comp-col-title">✅ Boundary set by the researcher on purpose</div>
     <div class="comp-item"><strong>Meaning:</strong> Boundaries the researcher INTENTIONALLY sets — decided before the study.</div>
     <div class="comp-item"><strong>Who decides:</strong> The researcher chooses these to keep the study focused.</div>
     <div class="comp-item"><strong>Effect:</strong> Narrows the scope of the study (intentionally).</div>
@@ -2448,24 +3774,24 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 </div>
 
 
-<div class="in-short"><strong>In Short:</strong> <strong>Delimitation</strong> = boundary the researcher CHOOSES to set (e.g., only adults, only one hospital). <strong>Limitation</strong> = weakness BEYOND the researcher's control (e.g., small sample, self-report bias). Both must be stated clearly in Chapter 1 of the research thesis.</div>
+<div class="in-short"><strong>In Short:</strong> <strong>Boundary set by the researcher on purpose</strong> = boundary the researcher CHOOSES to set (e.g., only adults, only one hospital). <strong>Limitation</strong> = weakness BEYOND the researcher's control (e.g., small sample, self-report bias). Both must be stated clearly in Chapter 1 of the research thesis.</div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definitions</h3>
   <div class="definition-box animate-scale-in">
-    <strong>Delimitation</strong> refers to <strong>boundaries deliberately established by the researcher</strong> to define the scope and focus of the study. These are intentional choices about what the study WILL and WILL NOT include. They make the study focused and manageable.<br><br>
-    <strong>Limitation</strong> refers to <strong>weaknesses or constraints outside the researcher's control</strong> that may affect validity, reliability, or generalizability of findings. Limitations are acknowledged honestly &mdash; they cannot be fully eliminated.
+    <strong>Boundary set by the researcher on purpose</strong> refers to <strong>boundaries deliberately established by the researcher</strong> to define the scope and focus of the study. These are intentional choices about what the study WILL and WILL NOT include. They make the study focused and manageable.<br><br>
+    <strong>Limitation</strong> refers to <strong>weaknesses or constraints outside the researcher's control</strong> that may affect validity, reliability, or ability to apply results to a larger group of findings. Limitations are acknowledged honestly &mdash; they cannot be fully eliminated.
   </div>
 </div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Comparison Table</h3>
   <div class="answer-table-wrap"><table class="answer-table">
-    <thead><tr><th>Feature</th><th>Delimitation</th><th>Limitation</th></tr></thead>
+    <thead><tr><th>Feature</th><th>Boundary set by the researcher on purpose</th><th>Limitation</th></tr></thead>
     <tbody>
       <tr><td>Nature</td><td>Deliberate, by researcher's choice</td><td>Unavoidable weakness</td></tr>
       <tr><td>Control</td><td>Researcher sets it intentionally</td><td>Beyond researcher's control</td></tr>
-      <tr><td>Effect</td><td>Narrows scope; focuses study (not a weakness)</td><td>May reduce generalizability or validity</td></tr>
+      <tr><td>Effect</td><td>Narrows scope; focuses study (not a weakness)</td><td>May reduce ability to apply results to a larger group or validity</td></tr>
       <tr><td>Where stated</td><td>Chapter 1 &mdash; Scope section</td><td>Chapter 1 + Discussion/Conclusion</td></tr>
     </tbody>
   </table></div>
@@ -2474,7 +3800,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Examples in Indian Nursing Research</h3>
   <ol class="answer-points">
-    <li><strong>Delimitations (researcher's choices &mdash; with justification):</strong>
+    <li><strong>Boundary set by the researcher on purposes (researcher's choices &mdash; with justification):</strong>
       <ul class="sub-points">
         <li>Only adult patients aged 18&ndash;60 years included; paediatric and elderly patients excluded</li>
         <li>Study conducted only at Government Medical College, Nagpur (one hospital)</li>
@@ -2497,12 +3823,12 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 </div>
 
 <div class="editorial-example"><strong>Indian Nursing Example:</strong> A nurse at Government Medical College, Aurangabad studies &quot;Effect of foot massage on post-operative pain in adult female patients.&quot;<br><br>
-<strong>Delimitations (her choices):</strong> Only female patients; only surgical ward; ages 18&ndash;65; January&ndash;March 2024; only Government Hospital Aurangabad.<br><br>
-<strong>Limitations (beyond her control):</strong> Small sample of 60 (budget); single hospital (generalizability limited); pain by self-report NRS (Hawthorne effect possible); 4-week study cannot show long-term effects.<br><br>
+<strong>Boundary set by the researcher on purposes (her choices):</strong> Only female patients; only surgical ward; ages 18&ndash;65; January&ndash;March 2024; only Government Hospital Aurangabad.<br><br>
+<strong>Limitations (beyond her control):</strong> Small sample of 60 (budget); single hospital (ability to apply results to a larger group limited); pain by self-report NRS (Hawthorne effect possible); 4-week study cannot show long-term effects.<br><br>
 Both sections are stated clearly in Chapter 1 &mdash; this demonstrates honest and transparent research.</div>
 
 <div class="dont-confuse"><strong>Don't Confuse:</strong><br>
-<strong>&quot;I chose only 60 patients&quot;</strong> &rarr; Delimitation (researcher's deliberate choice)<br>
+<strong>&quot;I chose only 60 patients&quot;</strong> &rarr; Boundary set by the researcher on purpose (researcher's deliberate choice)<br>
 <strong>&quot;I wanted 120 but budget allowed only 60&quot;</strong> &rarr; Limitation (constraint beyond control)
 </div>
 
@@ -2513,16 +3839,16 @@ Both sections are stated clearly in Chapter 1 &mdash; this demonstrates honest a
 </div>
 
 <div class="keyword-box"><strong>Keywords:</strong>
-  <span class="kw">Delimitation</span><span class="kw">Limitation</span><span class="kw">Scope</span><span class="kw">Generalizability</span><span class="kw">Self-report bias</span><span class="kw">Hawthorne effect</span><span class="kw">Statistical power</span>
+  <span class="kw">Boundary set by the researcher on purpose</span><span class="kw">Limitation</span><span class="kw">Scope</span><span class="kw">Ability to apply results to a larger group</span><span class="kw">Self-report bias</span><span class="kw">Hawthorne effect</span><span class="kw">Statistical power</span>
 </div>
 
 <div class="remember-box">
   <div class="remember-title">Quick Revision</div>
   <ul>
-    <li>Delimitation = deliberate boundary set BY researcher (scope, by choice)</li>
+    <li>Boundary set by the researcher on purpose = deliberate boundary set BY researcher (scope, by choice)</li>
     <li>Limitation = weakness BEYOND researcher's control</li>
     <li>Common limitations: small sample, single setting, short duration, language barrier, self-report bias, Hawthorne effect</li>
-    <li>Common delimitations: age range, gender, diagnosis, setting, time period</li>
+    <li>Common boundary set by the researcher on purposes: age range, gender, diagnosis, setting, time period</li>
     <li>Both in Chapter 1; limitations also in Conclusion/Discussion</li>
   </ul>
 </div>
@@ -2530,17 +3856,83 @@ Both sections are stated clearly in Chapter 1 &mdash; this demonstrates honest a
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Meanings</div>
 <ul>
   <li><span class="term">Hawthorne Effect</span> &mdash; participants modify behaviour because they know they are being observed in a study</li>
-  <li><span class="term">Generalizability</span> &mdash; ability to apply findings to populations beyond the study sample</li>
+  <li><span class="term">Ability to apply results to a larger group</span> &mdash; ability to apply findings to populations beyond the study sample</li>
   <li><span class="term">Self-report bias</span> &mdash; inaccurate responses due to social desirability, poor recall, or fear of judgment</li>
   <li><span class="term">Statistical power</span> &mdash; ability of a study to detect a true effect; larger sample = higher power</li>
   <li><span class="term">NRS</span> Numerical Rating Scale &mdash; 0&ndash;10 scale used for self-reporting pain intensity</li>
 </ul></div>
 
 <div class="self-test"><div class="self-test-title">Test Yourself</div>
-<details><summary>Define delimitation and limitation in simple words.</summary><p>Delimitation: boundary the researcher CHOOSES (e.g., only female patients, only one hospital). Limitation: weakness BEYOND the researcher's control (e.g., small sample due to budget, single hospital limits generalizability).</p></details>
-<details><summary>Give 3 examples each of limitation and delimitation from Indian nursing research.</summary><p>Limitations: (1) Small sample of 60 due to budget. (2) Single hospital &mdash; results may not generalize. (3) Self-report pain data may be inaccurate. Delimitations: (1) Only adults aged 18&ndash;65. (2) Only surgical ward. (3) Only Government Hospital, Aurangabad.</p></details>
-<details><summary>Where are limitations and delimitations written in a thesis?</summary><p>Both are stated in Chapter 1. Limitations are ALSO discussed in the final chapter (Discussion/Conclusion) to help readers interpret findings correctly.</p></details>
+<details><summary>Define boundary set by the researcher on purpose and limitation in simple words.</summary><p>Boundary set by the researcher on purpose: boundary the researcher CHOOSES (e.g., only female patients, only one hospital). Limitation: weakness BEYOND the researcher's control (e.g., small sample due to budget, single hospital limits ability to apply results to a larger group).</p></details>
+<details><summary>Give 3 examples each of limitation and boundary set by the researcher on purpose from Indian nursing research.</summary><p>Limitations: (1) Small sample of 60 due to budget. (2) Single hospital &mdash; results may not generalize. (3) Self-report pain data may be inaccurate. Boundary set by the researcher on purposes: (1) Only adults aged 18&ndash;65. (2) Only surgical ward. (3) Only Government Hospital, Aurangabad.</p></details>
+<details><summary>Where are limitations and boundary set by the researcher on purposes written in a thesis?</summary><p>Both are stated in Chapter 1. Limitations are ALSO discussed in the final chapter (Discussion/Conclusion) to help readers interpret findings correctly.</p></details>
 </div>
+
+<div class="real-life-example">
+  <div class="real-life-title">🏥 Real-Life Hospital Example</div>
+  <div>You're studying: "Knowledge of hand hygiene among nursing students"<br><br>
+  <strong>Boundaries you set on purpose (your choices):</strong><br>
+  ✂️ Only BSc nursing students (not GNM)<br>
+  ✂️ Only from your college<br>
+  ✂️ Only 1st and 2nd year students<br><br>
+  <strong>Problems you can't control (limitations):</strong><br>
+  ⚠️ Only 80 students agreed to participate (you wanted 100)<br>
+  ⚠️ Some students may have Googled answers on their phones during the test<br>
+  ⚠️ Results may not apply to GNM or medical students</div>
+</div>
+
+<div class="common-mistakes">
+  <div class="common-mistakes-title">⚠️ Common Mistakes Students Make</div>
+  <div class="mistake-wrong">❌ Wrong: Mixing up the two in exams — writing limitations as deliberate boundaries and vice versa</div>
+  <div class="mistake-right">✅ Right: Ask yourself: "Did I CHOOSE this?" = deliberate boundary. "Did this HAPPEN to me?" = limitation</div>
+  <div class="mistake-wrong">❌ Wrong: "Having limitations means the study is bad"</div>
+  <div class="mistake-right">✅ Right: EVERY study has limitations. Being honest about them makes your study MORE credible, not less!</div>
+</div>
+
+<div class="mcq-quiz">
+  <div class="mcq-quiz-title">🧪 Test Yourself — 5 MCQs</div>
+  <div class="mcq-item">
+    <div class="mcq-q">1. A boundary the researcher sets deliberately on purpose is called:</div>
+    <button class="mcq-option" data-correct="true">a) Delimitation</button>
+    <button class="mcq-option" data-correct="false">b) Limitation</button>
+    <button class="mcq-option" data-correct="false">c) Assumption</button>
+    <button class="mcq-option" data-correct="false">d) Variable</button>
+    <div class="mcq-answer">✅ a) Delimitation = a boundary that the researcher chooses deliberately.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">2. "10 patients dropped out during the study" is a:</div>
+    <button class="mcq-option" data-correct="false">a) Delimitation</button>
+    <button class="mcq-option" data-correct="true">b) Limitation</button>
+    <button class="mcq-option" data-correct="false">c) Hypothesis</button>
+    <button class="mcq-option" data-correct="false">d) Objective</button>
+    <div class="mcq-answer">✅ b) This was not planned — it happened unexpectedly. It's a limitation.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">3. "The study was limited to female patients only" is:</div>
+    <button class="mcq-option" data-correct="true">a) Delimitation (researcher's choice)</button>
+    <button class="mcq-option" data-correct="false">b) Limitation (couldn't control)</button>
+    <button class="mcq-option" data-correct="false">c) Assumption</button>
+    <button class="mcq-option" data-correct="false">d) Finding</button>
+    <div class="mcq-answer">✅ a) The researcher CHOSE to include only females — this is a deliberate boundary.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">4. Limitations are written because:</div>
+    <button class="mcq-option" data-correct="false">a) To show the study failed</button>
+    <button class="mcq-option" data-correct="true">b) To honestly acknowledge weaknesses and help future researchers avoid them</button>
+    <button class="mcq-option" data-correct="false">c) The examiner requires it</button>
+    <button class="mcq-option" data-correct="false">d) To fill pages</button>
+    <div class="mcq-answer">✅ b) Listing limitations honestly helps readers judge the study and helps future researchers improve.</div>
+  </div>
+  <div class="mcq-item">
+    <div class="mcq-q">5. Easy way to tell them apart:</div>
+    <button class="mcq-option" data-correct="true">a) Delimitation = MY CHOICE. Limitation = MY PROBLEM</button>
+    <button class="mcq-option" data-correct="false">b) Both are the same thing</button>
+    <button class="mcq-option" data-correct="false">c) Delimitation = problem, Limitation = choice</button>
+    <button class="mcq-option" data-correct="false">d) Neither matters in research</button>
+    <div class="mcq-answer">✅ a) "Did I choose this?" = Delimitation. "Did this happen to me?" = Limitation.</div>
+  </div>
+</div>
+
 `
 }
 ];
