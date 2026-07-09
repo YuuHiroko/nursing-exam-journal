@@ -144,7 +144,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const nrs1  = window.QUESTIONS_DATA_NRS_UNIT1 || [];
         const nrs2  = window.QUESTIONS_DATA_NRS_UNIT2 || [];
         const nrs3  = window.QUESTIONS_DATA_NRS_UNIT3 || [];
-        return [...unit1, ...unit2, ...unit3, ...unit4, ...unit5, ...unit6, ...unit7, ...obg2, ...nrs1, ...nrs2, ...nrs3];
+        const nrs4  = window.QUESTIONS_DATA_NRS_UNIT4 || [];
+        return [...unit1, ...unit2, ...unit3, ...unit4, ...unit5, ...unit6, ...unit7, ...obg2, ...nrs1, ...nrs2, ...nrs3, ...nrs4];
     }
 
     function getUnitLabel(unit) {

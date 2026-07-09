@@ -3,7 +3,7 @@
 // after the first online visit. Cross-origin (fonts) is left to the network.
 // Bump CACHE to invalidate every cached asset in one shot.
 
-var CACHE = 'nej-cache-v5';
+var CACHE = 'nej-cache-v6';
 
 self.addEventListener('install', function (e) {
     // Activate this worker as soon as it finishes installing.
