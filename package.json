@@ -4,7 +4,9 @@
   "private": true,
   "description": "Nursing Exam Journal PWA — Material Design 3. Static site served from gh-pages; the only build step bundles the locally-hosted Material Web components.",
   "scripts": {
-    "build:mwc": "node scripts/build-mwc.mjs"
+    "build:mwc": "node scripts/build-mwc.mjs",
+    "build:si": "node scripts/build-speed-insights.mjs",
+    "build": "npm run build:mwc && npm run build:si"
   },
   "devDependencies": {
     "@material/web": "2.4.1",
@@ -12,6 +14,7 @@
     "lit": "^3.2.1"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^2.0.0",
     "chrome-launcher": "^1.2.1",
     "chrome-remote-interface": "^0.34.0",
     "lighthouse": "^13.4.0"
