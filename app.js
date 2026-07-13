@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
             101: 'NRS · UNIT I', 102: 'NRS · UNIT II', 103: 'NRS · UNIT III', 104: 'NRS · UNIT IV',
             105: 'NRS · UNIT V', 106: 'NRS · UNIT VI', 107: 'NRS · UNIT VII', 108: 'NRS · UNIT VIII',
             // CHN-II — Community Health Nursing - II
-            201: 'CHN-II · UNIT I', 202: 'CHN-II · UNIT II'
+            201: 'CHN-II · UNIT I — Common Conditions & First Aid', 202: 'CHN-II · UNIT II — Reproductive, Maternal & Child Health'
         };
         return labels[unit] || 'UNIT ' + unit;
     }
