@@ -148,7 +148,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const nrs5  = window.QUESTIONS_DATA_NRS_UNIT5 || [];
         // CHN-II — Community Health Nursing - II, units 201+
         const chn2u1 = window.QUESTIONS_DATA_CHN2_UNIT1 || [];
-        return [...unit1, ...unit2, ...unit3, ...unit4, ...unit5, ...unit6, ...unit7, ...obg2, ...nrs1, ...nrs2, ...nrs3, ...nrs4, ...nrs5, ...chn2u1];
+        const chn2u2 = window.QUESTIONS_DATA_CHN2_UNIT2 || [];
+        return [...unit1, ...unit2, ...unit3, ...unit4, ...unit5, ...unit6, ...unit7, ...obg2, ...nrs1, ...nrs2, ...nrs3, ...nrs4, ...nrs5, ...chn2u1, ...chn2u2];
     }
 
     function getUnitLabel(unit) {
@@ -160,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
             101: 'NRS · UNIT I', 102: 'NRS · UNIT II', 103: 'NRS · UNIT III', 104: 'NRS · UNIT IV',
             105: 'NRS · UNIT V', 106: 'NRS · UNIT VI', 107: 'NRS · UNIT VII', 108: 'NRS · UNIT VIII',
             // CHN-II — Community Health Nursing - II
-            201: 'CHN-II · UNIT I'
+            201: 'CHN-II · UNIT I', 202: 'CHN-II · UNIT II'
         };
         return labels[unit] || 'UNIT ' + unit;
     }

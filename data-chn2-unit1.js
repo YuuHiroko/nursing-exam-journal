@@ -51,122 +51,322 @@ window.QUESTIONS_DATA_CHN2_UNIT1 = [
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box animate-scale-in">
-    <strong>Warning signs</strong> are <strong>early symptoms or clinical features</strong> that indicate a disease is progressing towards a serious or life-threatening stage. They serve as an alert to seek immediate medical attention before the condition becomes an emergency.<br><br>
-    <strong>Simple words:</strong> Warning signs = the body saying "I am in trouble — please help me now!"
-  </div>
-</div>
-
-<div class="answer-section animate-slide-up">
-  <h3 class="answer-section-title teal-title">Warning Signs — System by System</h3>
+    <strong>Warning signs</strong> are <strong>early symptoms or clinical features<<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Warning Signs — Organised by Body System</h3>
+  <p style="margin:0 0 10px 0; color:var(--text-secondary); font-size:0.93em;">The CHN-II syllabus groups conditions by system — GI &rarr; Respiratory &rarr; Heart &amp; Blood &rarr; Eye &amp; ENT &rarr; Urinary &rarr; Communicable &rarr; Cancer &rarr; Diabetes &rarr; Obstetric.</p>
   <div class="answer-table-wrap"><table class="answer-table">
-    <thead><tr><th>#</th><th>Disease / Condition</th><th>Key Warning Signs (easy language)</th><th>What the Nurse Must Do</th></tr></thead>
+    <thead><tr><th>#</th><th>System</th><th>Disease / Condition</th><th>Key Warning Signs (simple language)</th><th>Nurse's Action</th></tr></thead>
     <tbody>
       <tr>
-        <td>1</td>
+        <td colspan="5" style="background:rgba(34,197,94,0.12);font-weight:700;color:#16a34a;padding:6px 10px;">🫁 1. GASTROINTESTINAL (GI) SYSTEM</td>
+      </tr>
+      <tr>
+        <td>1a</td>
+        <td>GI</td>
+        <td><strong>Diarrhoea / Dysentery</strong></td>
+        <td>
+          &bull; Loose watery stools (&gt;3/day)<br>
+          &bull; Blood &amp; mucus in stool (dysentery)<br>
+          &bull; Sunken eyes, dry mouth, no tears — signs of <strong>dehydration</strong><br>
+          &bull; Skin pinch test: skin goes back slowly<br>
+          &bull; Decreased urine output
+        </td>
+        <td>ORS immediately; refer if child &lt;2 yrs or signs of severe dehydration; IV fluids as per standing order</td>
+      </tr>
+      <tr>
+        <td>1b</td>
+        <td>GI</td>
+        <td><strong>Typhoid Fever</strong></td>
+        <td>
+          &bull; Prolonged fever — rises step-ladder pattern<br>
+          &bull; Abdominal pain (centre of belly)<br>
+          &bull; Coated tongue, headache<br>
+          &bull; Rose spots on abdomen (in fair-skinned patients)<br>
+          &bull; Constipation in early stage, diarrhoea later
+        </td>
+        <td>Collect stool/blood sample; refer to PHC; safe drinking water education</td>
+      </tr>
+      <tr>
+        <td>1c</td>
+        <td>GI</td>
+        <td><strong>Hepatitis (Jaundice)</strong></td>
+        <td>
+          &bull; Yellow eyes and yellow skin (jaundice)<br>
+          &bull; Dark yellow urine (like tea colour)<br>
+          &bull; Pale / clay-coloured stool<br>
+          &bull; Loss of appetite, nausea, vomiting<br>
+          &bull; Pain in upper right abdomen (liver area)
+        </td>
+        <td>Rest; avoid fatty food; refer to PHC; test for Hepatitis A/B/E</td>
+      </tr>
+      <tr>
+        <td colspan="5" style="background:rgba(99,102,241,0.12);font-weight:700;color:#4f46e5;padding:6px 10px;">🫁 2. RESPIRATORY SYSTEM</td>
+      </tr>
+      <tr>
+        <td>2a</td>
+        <td>Respiratory</td>
         <td><strong>Tuberculosis (TB)</strong></td>
         <td>
-          &bull; Cough for more than 2 weeks (the biggest sign!)<br>
+          &bull; <strong>Cough &gt;2 weeks</strong> — the most important warning sign!<br>
           &bull; Coughing up blood (haemoptysis)<br>
           &bull; Evening fever (low-grade, every evening)<br>
-          &bull; Night sweats (patient wakes up soaking wet at night)<br>
+          &bull; Night sweats (wakes up soaking wet)<br>
           &bull; Weight loss without reason<br>
-          &bull; Tiredness, loss of appetite
+          &bull; Loss of appetite, tiredness
         </td>
-        <td>Refer to DOTS centre; collect sputum for AFB test; contact tracing</td>
+        <td>Refer to DOTS centre; sputum for AFB test; contact tracing; NTEP registration</td>
       </tr>
       <tr>
-        <td>2</td>
-        <td><strong>Cancer (General)</strong></td>
+        <td>2b</td>
+        <td>Respiratory</td>
+        <td><strong>ARI / Pneumonia</strong></td>
         <td>
-          The <strong>7 WARNING SIGNS of Cancer</strong> (mnemonic: <strong>CAUTION</strong>):<br>
-          &bull; <strong>C</strong> — Change in bowel/bladder habits<br>
-          &bull; <strong>A</strong> — A sore that does not heal<br>
-          &bull; <strong>U</strong> — Unusual bleeding or discharge<br>
-          &bull; <strong>T</strong> — Thickening / lump in breast or elsewhere<br>
-          &bull; <strong>I</strong> — Indigestion or difficulty swallowing<br>
-          &bull; <strong>O</strong> — Obvious change in wart or mole<br>
-          &bull; <strong>N</strong> — Nagging cough or hoarseness of voice
+          &bull; Fast breathing (tachypnoea) — count breaths per minute!<br>
+          &bull; Chest in-drawing (chest wall sucks in with each breath)<br>
+          &bull; High fever, cough<br>
+          &bull; Nostrils flaring with breathing<br>
+          &bull; <strong>Danger signs (severe):</strong> not able to drink, unconscious, convulsions, stridor
         </td>
-        <td>Refer to higher centre; health education; cancer screening programs (VIA, Pap smear)</td>
+        <td>Count respiratory rate; refer if fast breathing + chest in-drawing; antibiotic as per standing order (Co-trimoxazole)</td>
       </tr>
       <tr>
-        <td>3</td>
-        <td><strong>Heart Disease (Cardiac)</strong></td>
+        <td>2c</td>
+        <td>Respiratory</td>
+        <td><strong>Asthma</strong></td>
         <td>
-          &bull; Chest pain or pressure (feels like someone sitting on chest)<br>
-          &bull; Pain spreading to left arm, jaw, or shoulder<br>
+          &bull; Sudden breathlessness (attack comes and goes)<br>
+          &bull; Wheezing (musical sound when breathing out)<br>
+          &bull; Chest tightness (feels like someone squeezing the chest)<br>
+          &bull; Cough that gets worse at night<br>
+          &bull; Danger: unable to speak, bluish lips (cyanosis) — EMERGENCY!
+        </td>
+        <td>Sit patient upright; salbutamol inhaler as per standing order; O2 if available; urgent referral if severe</td>
+      </tr>
+      <tr>
+        <td colspan="5" style="background:rgba(239,68,68,0.12);font-weight:700;color:#dc2626;padding:6px 10px;">❤️ 3. HEART &amp; BLOOD</td>
+      </tr>
+      <tr>
+        <td>3a</td>
+        <td>Heart &amp; Blood</td>
+        <td><strong>Heart Attack (MI) / Cardiac Disease</strong></td>
+        <td>
+          &bull; Severe chest pain — feels like heavy weight or squeezing<br>
+          &bull; Pain spreading to left arm, jaw or shoulder<br>
           &bull; Sudden breathlessness<br>
-          &bull; Sweating with no reason<br>
-          &bull; Palpitation (heart beating fast or irregularly)<br>
-          &bull; Swelling of feet (ankle oedema)<br>
+          &bull; Cold sweating with no reason<br>
+          &bull; Palpitation (fast or irregular heartbeat)<br>
           &bull; Fainting / dizziness
         </td>
-        <td>Give aspirin (as per standing order); refer immediately; do not let patient walk</td>
+        <td>Aspirin 325 mg (as per standing order); do NOT let patient walk; emergency referral; ECG at PHC</td>
       </tr>
       <tr>
-        <td>4</td>
-        <td><strong>Diabetes Mellitus</strong></td>
-        <td>
-          <strong>Classic 3 P's:</strong><br>
-          &bull; <strong>Polyuria</strong> — passing urine very frequently<br>
-          &bull; <strong>Polydipsia</strong> — feeling very thirsty all the time<br>
-          &bull; <strong>Polyphagia</strong> — feeling very hungry even after eating<br>
-          &bull; Weight loss despite eating well<br>
-          &bull; Slow healing wounds (especially on feet)<br>
-          &bull; Numbness / tingling in hands and feet<br>
-          &bull; Blurred vision
-        </td>
-        <td>Blood glucose screening; refer to PHC; diet counselling; foot care education</td>
-      </tr>
-      <tr>
-        <td>5</td>
+        <td>3b</td>
+        <td>Heart &amp; Blood</td>
         <td><strong>Hypertension (High BP)</strong></td>
         <td>
-          &bull; Severe headache (especially back of head in morning)<br>
+          &bull; Severe headache (back of head, morning)<br>
           &bull; Blurred vision or seeing black dots<br>
           &bull; Nosebleed (epistaxis) without injury<br>
-          &bull; Dizziness / giddiness<br>
-          &bull; Chest pain<br>
-          &bull; Breathlessness<br>
-          (Note: BP is often called the "silent killer" — many patients have NO symptoms!)
+          &bull; Dizziness, giddiness<br>
+          &bull; <em>Note: BP is the "silent killer" — most patients have NO symptoms!</em>
         </td>
-        <td>Check BP at every visit; refer if BP &ge;180/110; anti-hypertensive as per standing order</td>
+        <td>BP at every contact; refer if &ge;180/110 mmHg; anti-hypertensive as per standing order; lifestyle counselling</td>
       </tr>
       <tr>
-        <td>6</td>
+        <td>3c</td>
+        <td>Heart &amp; Blood</td>
         <td><strong>Stroke (Brain Attack)</strong></td>
         <td>
           <strong>FAST mnemonic:</strong><br>
-          &bull; <strong>F</strong> — Face drooping (one side of face suddenly droops)<br>
-          &bull; <strong>A</strong> — Arm weakness (one arm suddenly weak)<br>
-          &bull; <strong>S</strong> — Speech difficulty (sudden slurring or no speech)<br>
-          &bull; <strong>T</strong> — Time to call emergency NOW!<br>
-          &bull; Also: sudden severe headache, loss of balance, vision changes
+          &bull; <strong>F</strong> — Face drooping on one side<br>
+          &bull; <strong>A</strong> — Arm weakness suddenly<br>
+          &bull; <strong>S</strong> — Speech slurred or absent<br>
+          &bull; <strong>T</strong> — Time to call emergency NOW<br>
+          &bull; Also: sudden severe headache, loss of balance
         </td>
-        <td>Emergency referral immediately; time is brain — every minute matters!</td>
+        <td>Emergency referral IMMEDIATELY — time is brain! Do not give food/water (aspiration risk)</td>
+      </tr>
+      <tr>
+        <td>3d</td>
+        <td>Heart &amp; Blood</td>
+        <td><strong>Anaemia</strong></td>
+        <td>
+          &bull; Pale inner eyelids, pale tongue, pale palm<br>
+          &bull; Extreme tiredness, weakness<br>
+          &bull; Breathlessness on mild exertion<br>
+          &bull; Fast heartbeat (palpitations)<br>
+          &bull; Swelling of feet<br>
+          &bull; In severe anaemia: Hb &lt;7 g/dL — danger!
+        </td>
+        <td>Hb testing; IFA tablets; dietary counselling; refer if Hb &lt;7 g/dL or symptomatic</td>
+      </tr>
+      <tr>
+        <td colspan="5" style="background:rgba(14,165,233,0.12);font-weight:700;color:#0369a1;padding:6px 10px;">👁️ 4. EYE &amp; ENT (Ear, Nose, Throat)</td>
+      </tr>
+      <tr>
+        <td>4a</td>
+        <td>Eye</td>
+        <td><strong>Conjunctivitis / Trachoma</strong></td>
+        <td>
+          &bull; Red, watery eyes<br>
+          &bull; Sticky discharge (yellow-green) from eyes<br>
+          &bull; Swollen eyelids<br>
+          &bull; Trachoma warning: rough inner eyelid, eyelashes turning in (trichiasis)
+        </td>
+        <td>Tetracycline eye ointment; hygiene education; referral for trachoma surgery (trichiasis)</td>
+      </tr>
+      <tr>
+        <td>4b</td>
+        <td>Eye</td>
+        <td><strong>Cataract / Refractive Errors</strong></td>
+        <td>
+          &bull; Gradual blurring of vision (gets worse slowly)<br>
+          &bull; White/cloudy appearance in pupil (cataract)<br>
+          &bull; Difficulty reading or seeing distant objects<br>
+          &bull; Frequent headache while reading
+        </td>
+        <td>Refer to ophthalmologist; National Programme for Control of Blindness (NPCB) scheme</td>
+      </tr>
+      <tr>
+        <td>4c</td>
+        <td>ENT</td>
+        <td><strong>Otitis Media (Ear Infection)</strong></td>
+        <td>
+          &bull; Ear pain (especially in children)<br>
+          &bull; Pus/discharge from ear<br>
+          &bull; Hearing loss<br>
+          &bull; Child pulls at ear; high fever<br>
+          &bull; In babies: irritability, not feeding well
+        </td>
+        <td>Antibiotic as per standing order; dry ear wicking; refer if no improvement in 3 days</td>
+      </tr>
+      <tr>
+        <td>4d</td>
+        <td>ENT</td>
+        <td><strong>Epistaxis (Nosebleed)</strong></td>
+        <td>
+          &bull; Sudden bleeding from one or both nostrils<br>
+          &bull; Blood trickling down the throat<br>
+          &bull; Associated headache (may indicate high BP)
+        </td>
+        <td>Pinch nose for 10 minutes; sit upright; cold compress; check BP; refer if uncontrolled</td>
+      </tr>
+      <tr>
+        <td colspan="5" style="background:rgba(245,158,11,0.12);font-weight:700;color:#b45309;padding:6px 10px;">🫘 5. URINARY SYSTEM</td>
+      </tr>
+      <tr>
+        <td>5a</td>
+        <td>Urinary</td>
+        <td><strong>UTI (Urinary Tract Infection)</strong></td>
+        <td>
+          &bull; Burning or pain while passing urine (dysuria)<br>
+          &bull; Frequent urge to urinate, passing very little each time<br>
+          &bull; Cloudy or foul-smelling urine<br>
+          &bull; Blood in urine (haematuria)<br>
+          &bull; Lower abdominal pain / back pain (pyelonephritis)
+        </td>
+        <td>Urine examination (dipstick); encourage fluids; antibiotic as per standing order (Co-trimoxazole / Nitrofurantoin); refer if fever</td>
+      </tr>
+      <tr>
+        <td>5b</td>
+        <td>Urinary</td>
+        <td><strong>Renal Calculi (Kidney Stones)</strong></td>
+        <td>
+          &bull; Sudden severe pain in the loin (back) — comes in waves (colic)<br>
+          &bull; Pain radiating to groin (lower abdomen to private parts)<br>
+          &bull; Blood in urine<br>
+          &bull; Nausea, vomiting with the pain<br>
+          &bull; Difficulty passing urine / passing very little
+        </td>
+        <td>Analgesic as per standing order; plenty of fluids; urgent referral for urology opinion; USG abdomen</td>
+      </tr>
+      <tr>
+        <td>5c</td>
+        <td>Urinary</td>
+        <td><strong>Urinary Retention</strong></td>
+        <td>
+          &bull; Completely unable to pass urine (painful)<br>
+          &bull; Lower abdomen bulging and tender<br>
+          &bull; Patient restless, in great discomfort<br>
+          &bull; Common causes: BPH (enlarged prostate in men), post-surgery
+        </td>
+        <td>Emergency catheterisation at PHC; refer immediately to avoid kidney damage</td>
+      </tr>
+      <tr>
+        <td colspan="5" style="background:rgba(236,72,153,0.12);font-weight:700;color:#be185d;padding:6px 10px;">🦟 6. COMMUNICABLE DISEASES (Cross-system)</td>
+      </tr>
+      <tr>
+        <td>6a</td>
+        <td>Communicable</td>
+        <td><strong>Malaria</strong></td>
+        <td>
+          &bull; Sudden high fever with chills (classic shivering attack)<br>
+          &bull; Sweating after chills stop<br>
+          &bull; Headache, body aches, vomiting<br>
+          <strong>Severe malaria danger signs:</strong><br>
+          &bull; Unconsciousness (cerebral malaria)<br>
+          &bull; Fits / convulsions<br>
+          &bull; Very high fever (&gt;40&deg;C)<br>
+          &bull; No urine (kidney failure)
+        </td>
+        <td>Rapid Diagnostic Test (RDT); Chloroquine / Artemisinin as per standing order; refer severe cases; source reduction (larviciding)</td>
+      </tr>
+      <tr>
+        <td>6b</td>
+        <td>Communicable</td>
+        <td><strong>Dengue</strong></td>
+        <td>
+          <strong>Dengue warning signs (WHO):</strong><br>
+          &bull; Abdominal pain getting worse<br>
+          &bull; Persistent vomiting<br>
+          &bull; Bleeding from nose, gums, or in stool<br>
+          &bull; Red spots on skin (petechiae / rash)<br>
+          &bull; Sudden drop in platelet count<br>
+          &bull; Restlessness, rapid breathing
+        </td>
+        <td>IV fluids (no aspirin!); urgent referral; vector control (Aedes mosquito); platelet monitoring</td>
+      </tr>
+      <tr>
+        <td colspan="5" style="background:rgba(139,92,246,0.12);font-weight:700;color:#7c3aed;padding:6px 10px;">🎗️ 7. CANCER (General)</td>
       </tr>
       <tr>
         <td>7</td>
-        <td><strong>Malaria</strong></td>
+        <td>Cancer</td>
+        <td><strong>All Cancers — CAUTION</strong></td>
         <td>
-          &bull; Sudden high fever with chills (shivering attack)<br>
-          &bull; Sweating after the chills stop<br>
-          &bull; Headache, body aches<br>
-          <strong>Danger signs (severe malaria):</strong><br>
-          &bull; Unconsciousness<br>
-          &bull; Fits (convulsions)<br>
-          &bull; Very high fever (&gt;40°C)<br>
-          &bull; Passing very little or no urine
+          <strong>7 warning signs (CAUTION mnemonic):</strong><br>
+          &bull; <strong>C</strong> — Change in bowel / bladder habits<br>
+          &bull; <strong>A</strong> — A sore that does not heal<br>
+          &bull; <strong>U</strong> — Unusual bleeding or discharge<br>
+          &bull; <strong>T</strong> — Thickening / lump in breast or anywhere<br>
+          &bull; <strong>I</strong> — Indigestion or difficulty swallowing<br>
+          &bull; <strong>O</strong> — Obvious change in wart or mole<br>
+          &bull; <strong>N</strong> — Nagging cough or hoarseness
         </td>
-        <td>Rapid Diagnostic Test (RDT); refer for severe malaria; source reduction</td>
+        <td>Health education; VIA/Pap smear for cervical cancer; CBAC (Community Based Assessment Checklist); refer for biopsy</td>
+      </tr>
+      <tr>
+        <td colspan="5" style="background:rgba(249,115,22,0.12);font-weight:700;color:#c2410c;padding:6px 10px;">🩸 8. DIABETES MELLITUS</td>
       </tr>
       <tr>
         <td>8</td>
-        <td><strong>Dengue / Viral Fever</strong></td>
+        <td>Metabolic</td>
+        <td><strong>Diabetes Mellitus (Sugar disease)</strong></td>
         <td>
-          <strong>Dengue warning signs:</strong><br>
-          &bull; Abdominal pain (belly pain keeps getting worse)<br>
-          &bull; Persistent vomiting<br>
+          <strong>Classic 3 P's:</strong><br>
+          &bull; <strong>Polyuria</strong> — passing urine very frequently<br>
+          &bull; <strong>Polydipsia</strong> — very thirsty all the time<br>
+          &bull; <strong>Polyphagia</strong> — very hungry even after eating<br>
+          &bull; Weight loss despite eating well<br>
+          &bull; Slow healing wounds (especially feet)<br>
+          &bull; Tingling / numbness in hands &amp; feet<br>
+          &bull; Blurred vision (glucose damages eye vessels)
+        </td>
+        <td>Random blood sugar (RBS) screening; NPCDCS programme; diet + exercise counselling; refer if RBS &gt;200 mg/dL</td>
+      </tr>
+    </tbody>
+  </table></div>
+</div>br>
           &bull; Bleeding from nose, gums, or in stool<br>
           &bull; Red spots on skin (petechiae)<br>
           &bull; Sudden weakness / restlessness<br>
