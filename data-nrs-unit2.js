@@ -769,6 +769,8 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
     <div class="mcq-answer">✅ a) p &lt; 0.05 means the result is statistically significant → reject null → accept research hypothesis!</div></div>
 </div>
 
+<div data-diagram="hypothesisTree"></div>
+
 `
 }
 ,{
@@ -2591,6 +2593,8 @@ H0: "There is no significant difference in anxiety scores between music therapy 
     <button class="mcq-option" data-correct="false">d) THINK, FEEL</button>
     <div class="mcq-answer">✅ a) IV = what I DO (intervention). DV = what I MEASURE (outcome). Simple!</div></div>
 </div>
+
+<div data-diagram="variableFlow"></div>
 
 `
 }

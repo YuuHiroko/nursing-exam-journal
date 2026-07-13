@@ -1073,6 +1073,504 @@ window.DIAGRAMS = {
       +'</svg>'
       +'<div class="diagram-key"><strong>Scientific Method is cyclic:</strong> Observation → Hypothesis → Experiment → Analysis → Conclusion → Theory/EBP → loops back to new Observations. This iterative process is the foundation of evidence-based nursing research.</div>'
     +'</div>';
+  },
+
+  // ─── NRS-4. RESEARCH DESIGN TREE — animated classification ─────
+  researchDesignTree: function () {
+    function rdtNode(x, y, w, h, label, sub, color, delay) {
+      return '<g>'
+        +'<rect x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" rx="7" fill="'+color+'" fill-opacity="0.12" stroke="'+color+'" stroke-width="2">'
+          +'<animate attributeName="fill-opacity" values="0.06;0.22;0.06" dur="3.2s" begin="'+delay+'s" repeatCount="indefinite"/>'
+        +'</rect>'
+        +'<text x="'+(x+w/2)+'" y="'+(y+h/2-3)+'" text-anchor="middle" fill="'+color+'" font-size="10.5" font-weight="700">'+label+'</text>'
+        + (sub ? '<text x="'+(x+w/2)+'" y="'+(y+h/2+11)+'" text-anchor="middle" fill="'+color+'" font-size="8" font-weight="500">'+sub+'</text>' : '')
+        +'</g>';
+    }
+    function rdtEdge(x1, y1, x2, y2, color, delay) {
+      return '<line x1="'+x1+'" y1="'+y1+'" x2="'+x2+'" y2="'+y2+'" stroke="'+color+'" stroke-width="1.6">'
+        +'<animate attributeName="stroke-opacity" values="0.25;0.9;0.25" dur="3.2s" begin="'+delay+'s" repeatCount="indefinite"/></line>';
+    }
+    var W = 520, rootY = 14;
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🌳 Animated: Classification of Research Designs</div>'
+      +'<svg viewBox="0 0 '+W+' 380" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'
+        + rdtEdge(W/2, rootY+34, 90, 92, '#6366f1', 0.2)
+        + rdtEdge(W/2, rootY+34, W/2, 92, '#8b5cf6', 0.6)
+        + rdtEdge(W/2, rootY+34, W-90, 92, '#22c55e', 1.0)
+        + rdtNode(W/2-70, rootY, 140, 34, 'Research Design', '', '#334155', 0)
+        + rdtNode(20, 92, 140, 34, 'Quantitative', 'numbers', '#6366f1', 0.2)
+        + rdtNode(W/2-70, 92, 140, 34, 'Qualitative', 'words', '#8b5cf6', 0.6)
+        + rdtNode(W-160, 92, 140, 34, 'Mixed', 'both', '#22c55e', 1.0)
+        + rdtEdge(90, 126, 60, 190, '#6366f1', 0.4)
+        + rdtEdge(90, 126, 160, 190, '#6366f1', 0.8)
+        + rdtNode(10, 190, 100, 30, 'Experimental', 'True / Quasi', '#6366f1', 0.4)
+        + rdtNode(110, 190, 100, 30, 'Non-Exp.', 'Descriptive', '#6366f1', 0.8)
+        + rdtEdge(W/2, 126, W/2, 190, '#8b5cf6', 1.0)
+        + rdtNode(W/2-60, 190, 120, 30, 'Phenomenology', 'Grounded / Ethnography', '#8b5cf6', 1.0)
+        + rdtEdge(W-90, 126, W-90, 190, '#22c55e', 1.2)
+        + rdtNode(W-150, 190, 120, 30, 'QUAN + QUAL', 'convergent', '#22c55e', 1.2)
+      +'</svg>'
+      +'<div class="diagram-key"><strong>Every research design fits one of three families.</strong> Quantitative (numbers, measurable) splits into Experimental &amp; Non-Experimental; Qualitative (words, meaning) uses approaches like Phenomenology; Mixed Methods blends both. Nodes pulse in reading order.</div>'
+    +'</div>';
+  },
+
+  // ─── NRS-5. VARIABLE FLOW — animated causal arrow ────────────
+  variableFlow: function () {
+    var path = 'M120,60 C200,60 200,60 300,60';
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🔗 Animated: Independent → Dependent Variable</div>'
+      +'<svg viewBox="0 0 420 200" width="100%" style="max-width:420px;display:block;margin:0 auto;">'
+        +'<defs><marker id="vf-arrow" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#6366f1"/></marker></defs>'
+        +'<rect x="20" y="35" width="100" height="50" rx="8" fill="#6366f1" fill-opacity="0.12" stroke="#6366f1" stroke-width="2"><animate attributeName="fill-opacity" values="0.08;0.2;0.08" dur="3s" repeatCount="indefinite"/></rect>'
+        +'<text x="70" y="58" text-anchor="middle" fill="#4f46e5" font-size="11" font-weight="700">Independent</text>'
+        +'<text x="70" y="72" text-anchor="middle" fill="#4f46e5" font-size="9">Variable (Cause)</text>'
+        +'<path d="'+path+'" fill="none" stroke="#6366f1" stroke-width="2.5" marker-end="url(#vf-arrow)"/>'
+        +'<text x="210" y="50" text-anchor="middle" fill="#64748b" font-size="9.5" font-weight="700">CAUSES →</text>'
+        +'<circle r="5" fill="#f43f5e"><animateMotion dur="2.4s" repeatCount="indefinite" path="'+path+'"/></circle>'
+        +'<rect x="300" y="35" width="100" height="50" rx="8" fill="#ec4899" fill-opacity="0.12" stroke="#ec4899" stroke-width="2"><animate attributeName="fill-opacity" values="0.08;0.2;0.08" dur="3s" begin="1.2s" repeatCount="indefinite"/></rect>'
+        +'<text x="350" y="58" text-anchor="middle" fill="#be185d" font-size="11" font-weight="700">Dependent</text>'
+        +'<text x="350" y="72" text-anchor="middle" fill="#be185d" font-size="9">Variable (Effect)</text>'
+        +'<text x="210" y="120" text-anchor="middle" fill="#94a3b8" font-size="9">↕ Confounding / Extraneous variables may interfere</text>'
+        +'<rect x="40" y="135" width="150" height="40" rx="7" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-width="1.6" stroke-dasharray="5 4"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.6s" repeatCount="indefinite"/></rect>'
+        +'<text x="115" y="152" text-anchor="middle" fill="#b45309" font-size="9.5" font-weight="700">Confounding</text>'
+        +'<text x="115" y="166" text-anchor="middle" fill="#b45309" font-size="8">Age, Gender, Stress</text>'
+        +'<rect x="230" y="135" width="150" height="40" rx="7" fill="#14b8a6" fill-opacity="0.12" stroke="#14b8a6" stroke-width="1.6" stroke-dasharray="5 4"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.6s" begin="1.3s" repeatCount="indefinite"/></rect>'
+        +'<text x="305" y="152" text-anchor="middle" fill="#0f766e" font-size="9.5" font-weight="700">Extraneous</text>'
+        +'<text x="305" y="166" text-anchor="middle" fill="#0f766e" font-size="8">Environment, Bias</text>'
+      +'</svg>'
+      +'<div class="diagram-key"><strong>Change in the Independent Variable causes change in the Dependent Variable.</strong> The red particle travels the causal arrow. Confounding &amp; extraneous variables (dashed) can distort the true relationship and must be controlled.</div>'
+    +'</div>';
+  },
+
+  // ─── NRS-6. HYPOTHESIS TREE — animated classification ───────
+  hypothesisTree: function () {
+    function htNode(x, y, w, h, label, sub, color, delay) {
+      return '<g>'
+        +'<rect x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" rx="7" fill="'+color+'" fill-opacity="0.12" stroke="'+color+'" stroke-width="2">'
+          +'<animate attributeName="fill-opacity" values="0.06;0.22;0.06" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></rect>'
+        +'<text x="'+(x+w/2)+'" y="'+(y+h/2-2)+'" text-anchor="middle" fill="'+color+'" font-size="10" font-weight="700">'+label+'</text>'
+        + (sub ? '<text x="'+(x+w/2)+'" y="'+(y+h/2+12)+'" text-anchor="middle" fill="'+color+'" font-size="7.5">'+sub+'</text>' : '')
+        +'</g>';
+    }
+    function htEdge(x1, y1, x2, y2, color, delay) {
+      return '<line x1="'+x1+'" y1="'+y1+'" x2="'+x2+'" y2="'+y2+'" stroke="'+color+'" stroke-width="1.6">'
+        +'<animate attributeName="stroke-opacity" values="0.25;0.9;0.25" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></line>';
+    }
+    var W = 460;
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🌳 Animated: Classification of Hypothesis</div>'
+      +'<svg viewBox="0 0 '+W+' 300" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'
+        + htEdge(W/2, 48, 110, 100, '#6366f1', 0.3)
+        + htEdge(W/2, 48, W-110, 100, '#ec4899', 0.7)
+        + htNode(W/2-65, 14, 130, 34, 'Hypothesis', '', '#334155', 0)
+        + htNode(40, 100, 140, 32, 'Research H₁', 'directional?', '#6366f1', 0.3)
+        + htNode(W-180, 100, 140, 32, 'Null H₀', 'no effect', '#ec4899', 0.7)
+        + htEdge(110, 132, 70, 186, '#6366f1', 0.5)
+        + htEdge(110, 132, 170, 186, '#6366f1', 0.9)
+        + htNode(10, 186, 100, 30, 'Directional', 'predicts way', '#6366f1', 0.5)
+        + htNode(120, 186, 100, 30, 'Non-Dir.', 'predicts diff', '#6366f1', 0.9)
+        + htEdge(W-110, 132, W-150, 186, '#ec4899', 1.1)
+        + htEdge(W-110, 132, W-50, 186, '#ec4899', 1.4)
+        + htNode(W-200, 186, 100, 30, 'Statistical', 'no relation', '#ec4899', 1.1)
+        + htNode(W-100, 186, 100, 30, 'Substantive', 'nil', '#ec4899', 1.4)
+      +'</svg>'
+      +'<div class="diagram-key"><strong>A hypothesis is either Research (H₁) or Null (H₀).</strong> H₁ predicts a relationship/difference and may be Directional or Non-Directional. H₀ states no effect and appears as Statistical or Substantive (Nil). Branches glow in sequence.</div>'
+    +'</div>';
+  },
+
+  // ─── NRS-7. SAMPLING TECHNIQUES TREE — probability vs non-prob ─
+  samplingTree: function () {
+    function stNode(x, y, w, h, label, sub, color, delay) {
+      return '<g>'
+        +'<rect x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" rx="7" fill="'+color+'" fill-opacity="0.12" stroke="'+color+'" stroke-width="2">'
+          +'<animate attributeName="fill-opacity" values="0.06;0.22;0.06" dur="3.2s" begin="'+delay+'s" repeatCount="indefinite"/></rect>'
+        +'<text x="'+(x+w/2)+'" y="'+(y+h/2-2)+'" text-anchor="middle" fill="'+color+'" font-size="9.5" font-weight="700">'+label+'</text>'
+        + (sub ? '<text x="'+(x+w/2)+'" y="'+(y+h/2+11)+'" text-anchor="middle" fill="'+color+'" font-size="7.5" font-weight="500">'+sub+'</text>' : '')
+        +'</g>';
+    }
+    function stEdge(x1, y1, x2, y2, color, delay) {
+      return '<line x1="'+x1+'" y1="'+y1+'" x2="'+x2+'" y2="'+y2+'" stroke="'+color+'" stroke-width="1.6">'
+        +'<animate attributeName="stroke-opacity" values="0.25;0.9;0.25" dur="3.2s" begin="'+delay+'s" repeatCount="indefinite"/></line>';
+    }
+    var W = 560;
+    var pc = '#6366f1', nc = '#ec4899';
+    var prob = [['Simple Random','lottery / RNG'],['Systematic','every kth'],['Stratified','by subgroup'],['Cluster','by area']];
+    var nprob = [['Convenience','who is handy'],['Purposive','expert pick'],['Quota','fixed slots'],['Snowball','referral chain']];
+    var svg = '';
+    // root + two families
+    svg += stEdge(W/2, 48, W/4, 100, pc, 0.2) + stEdge(W/2, 48, 3*W/4, 100, nc, 0.6);
+    svg += stNode(W/2-70, 14, 140, 34, 'Sampling', '', '#334155', 0);
+    svg += stNode(W/4-80, 100, 160, 34, 'Probability', 'random · known chance', pc, 0.2);
+    svg += stNode(3*W/4-80, 100, 160, 34, 'Non-Probability', 'non-random · unknown chance', nc, 0.6);
+    // leaves for each family, 2 rows of 2
+    var lw = 118, lh = 34;
+    for (var i = 0; i < 4; i++) {
+      var col = i % 2, row = Math.floor(i / 2);
+      var pxP = W/4 - 124 + col * (lw + 6), pyP = 172 + row * (lh + 12);
+      svg += stEdge(W/4, 134, pxP + lw/2, pyP, pc, 0.4 + i*0.12);
+      svg += stNode(pxP, pyP, lw, lh, prob[i][0], prob[i][1], pc, 0.4 + i*0.12);
+      var pxN = 3*W/4 - 124 + col * (lw + 6), pyN = 172 + row * (lh + 12);
+      svg += stEdge(3*W/4, 134, pxN + lw/2, pyN, nc, 0.5 + i*0.12);
+      svg += stNode(pxN, pyN, lw, lh, nprob[i][0], nprob[i][1], nc, 0.5 + i*0.12);
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🌳 Animated: Types of Sampling Techniques</div>'
+      +'<svg viewBox="0 0 '+W+' 268" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'+svg+'</svg>'
+      +'<div class="diagram-key"><strong>Two big families of sampling.</strong> <span style="color:#6366f1">Probability</span> = everyone has a known, equal-ish chance (random) → best for generalising. <span style="color:#ec4899">Non-Probability</span> = researcher picks (non-random) → quick &amp; cheap but risk of bias. Branches glow in reading order.</div>'
+    +'</div>';
+  },
+
+  // ─── NRS-8. SAMPLING PROCESS — animated linear steps ──────────
+  samplingProcess: function () {
+    var steps = [
+      ['Define Population','who to study','#6366f1'],
+      ['Identify Sampling Frame','the name list','#8b5cf6'],
+      ['Choose Technique','random / non-random','#a855f7'],
+      ['Decide Sample Size','how many','#ec4899'],
+      ['Select the Sample','draw units','#f43f5e'],
+      ['Collect & Check','field the study','#22c55e']
+    ];
+    var bW=160,bH=44,gapY=16,startX=(560-bW)/2,startY=16;
+    var svg='';
+    for(var i=0;i<steps.length;i++){
+      var y=startY+i*(bH+gapY),s=steps[i],c=s[2],delay=(i*0.35).toFixed(2);
+      if(i<steps.length-1){
+        var ny=y+bH;
+        svg+='<line x1="'+(startX+bW/2)+'" y1="'+ny+'" x2="'+(startX+bW/2)+'" y2="'+(ny+gapY)+'" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#spa)">'
+          +'<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></line>';
+      }
+      svg+='<rect x="'+startX+'" y="'+y+'" width="'+bW+'" height="'+bH+'" rx="10" fill="'+c+'" fill-opacity="0.12" stroke="'+c+'" stroke-width="2">'
+        +'<animate attributeName="fill-opacity" values="0.08;0.22;0.08" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></rect>'
+        +'<circle cx="'+(startX+18)+'" cy="'+(y+bH/2)+'" r="11" fill="'+c+'"/>'
+        +'<text x="'+(startX+18)+'" y="'+(y+bH/2+4)+'" text-anchor="middle" fill="#fff" font-size="11" font-weight="700">'+(i+1)+'</text>'
+        +'<text x="'+(startX+bW/2+10)+'" y="'+(y+bH/2-3)+'" text-anchor="middle" fill="'+c+'" font-size="10.5" font-weight="700">'+s[0]+'</text>'
+        +'<text x="'+(startX+bW/2+10)+'" y="'+(y+bH/2+11)+'" text-anchor="middle" fill="'+c+'" font-size="8" font-weight="500">'+s[1]+'</text>';
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🪜 Animated: The Sampling Process (Step by Step)</div>'
+      +'<svg viewBox="0 0 560 372" width="100%" style="max-width:560px;display:block;margin:0 auto;">'
+        +'<defs><marker id="spa" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker></defs>'
+        +svg
+      +'</svg>'
+      +'<div class="diagram-key"><strong>Sampling = shrinking a big population into a manageable, representative group.</strong> Start by defining who you want (population), list them (frame), pick a method, decide how many, draw the units, then collect. Steps glow top-to-bottom.</div>'
+    +'</div>';
+  },
+
+  // ─── NRS-9. POPULATION vs SAMPLE — nested funnel ──────────────
+  populationSample: function () {
+    // big circle of dots = population, highlighted subset = sample
+    var dots='', cx=150, cy=150, R=110;
+    var pts=[];
+    var golden=2.399963; // radians, deterministic spiral (no Math.random)
+    for(var i=0;i<80;i++){
+      var r=R*Math.sqrt((i+0.5)/80);
+      var ang=i*golden;
+      var x=cx+r*Math.cos(ang), y=cy+r*Math.sin(ang);
+      pts.push([x,y]);
+      var sampled=(i%7===0); // ~11 highlighted
+      if(sampled){
+        dots+='<circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="5" fill="#f43f5e"><animate attributeName="r" values="4;6.5;4" dur="2s" begin="'+((i%7)*0.2).toFixed(1)+'s" repeatCount="indefinite"/></circle>';
+      } else {
+        dots+='<circle cx="'+x.toFixed(1)+'" cy="'+y.toFixed(1)+'" r="3.4" fill="#6366f1" opacity="0.35"/>';
+      }
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🎯 Animated: Population → Sample</div>'
+      +'<svg viewBox="0 0 460 320" width="100%" style="max-width:460px;display:block;margin:0 auto;">'
+        +'<circle cx="'+cx+'" cy="'+cy+'" r="'+(R+14)+'" fill="#6366f1" fill-opacity="0.05" stroke="#6366f1" stroke-width="2" stroke-dasharray="6 5">'
+          +'<animate attributeName="stroke-opacity" values="0.4;0.9;0.4" dur="4s" repeatCount="indefinite"/></circle>'
+        +dots
+        +'<text x="'+cx+'" y="'+(cy+R+40)+'" text-anchor="middle" fill="#4f46e5" font-size="12" font-weight="700">POPULATION (all units)</text>'
+        // arrow + sample callout
+        +'<line x1="272" y1="150" x2="322" y2="150" stroke="#94a3b8" stroke-width="2" marker-end="url(#psa)"/>'
+        +'<defs><marker id="psa" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker></defs>'
+        +'<circle cx="390" cy="150" r="52" fill="#f43f5e" fill-opacity="0.08" stroke="#f43f5e" stroke-width="2">'
+          +'<animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/></circle>'
+        +'<circle cx="374" cy="136" r="6" fill="#f43f5e"/><circle cx="404" cy="140" r="6" fill="#f43f5e"/>'
+        +'<circle cx="382" cy="164" r="6" fill="#f43f5e"/><circle cx="406" cy="166" r="6" fill="#f43f5e"/>'
+        +'<text x="390" y="222" text-anchor="middle" fill="#e11d48" font-size="12" font-weight="700">SAMPLE</text>'
+        +'<text x="390" y="238" text-anchor="middle" fill="#fb7185" font-size="8.5" font-family="monospace">(the red subset)</text>'
+      +'</svg>'
+      +'<div class="diagram-key"><strong>The Sample is a small slice drawn from the whole Population.</strong> Red dots = the units actually chosen to study; faded blue = everyone else. A good sample mirrors the population so findings can be generalised back to it.</div>'
+    +'</div>';
+  },
+
+  // ─── NRS-10. DATA COLLECTION METHODS — animated hub & spokes ──
+  dataCollectionMethods: function () {
+    var cx=230, cy=175, r=118, rN=44;
+    var methods=[
+      {l:'Interview',s:'ask · talk',c:'#6366f1',a:-90},
+      {l:'Questionnaire',s:'written Qs',c:'#8b5cf6',a:-30},
+      {l:'Observation',s:'watch',c:'#ec4899',a:30},
+      {l:'Records',s:'existing data',c:'#f43f5e',a:90},
+      {l:'Scales/Tests',s:'measure',c:'#f97316',a:150},
+      {l:'Biophysical',s:'BP · labs',c:'#22c55e',a:210}
+    ];
+    var nodes='',spokes='';
+    for(var n=0;n<methods.length;n++){
+      var m=methods[n],rad=m.a*Math.PI/180;
+      var nx=cx+r*Math.cos(rad), ny=cy+r*Math.sin(rad),d=(n*0.4).toFixed(1);
+      spokes+='<line x1="'+cx+'" y1="'+cy+'" x2="'+nx.toFixed(1)+'" y2="'+ny.toFixed(1)+'" stroke="'+m.c+'" stroke-width="1.6">'
+        +'<animate attributeName="stroke-opacity" values="0.25;0.9;0.25" dur="3s" begin="'+d+'s" repeatCount="indefinite"/></line>';
+      nodes+='<circle cx="'+nx.toFixed(1)+'" cy="'+ny.toFixed(1)+'" r="'+rN+'" fill="'+m.c+'" opacity="0.12">'
+        +'<animate attributeName="opacity" values="0.08;0.22;0.08" dur="3s" begin="'+d+'s" repeatCount="indefinite"/></circle>'
+        +'<circle cx="'+nx.toFixed(1)+'" cy="'+ny.toFixed(1)+'" r="'+rN+'" fill="none" stroke="'+m.c+'" stroke-width="2">'
+        +'<animate attributeName="stroke-width" values="1.5;3;1.5" dur="3s" begin="'+d+'s" repeatCount="indefinite"/></circle>'
+        +'<text x="'+nx.toFixed(1)+'" y="'+(ny-2)+'" text-anchor="middle" fill="'+m.c+'" font-size="9.5" font-weight="700">'+m.l+'</text>'
+        +'<text x="'+nx.toFixed(1)+'" y="'+(ny+11)+'" text-anchor="middle" fill="'+m.c+'" font-size="7.5">'+m.s+'</text>';
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🧰 Animated: Methods of Data Collection</div>'
+      +'<svg viewBox="0 0 460 350" width="100%" style="max-width:460px;display:block;margin:0 auto;">'
+        +spokes+nodes
+        +'<circle cx="'+cx+'" cy="'+cy+'" r="40" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>'
+        +'<text x="'+cx+'" y="'+(cy-4)+'" text-anchor="middle" fill="#334155" font-size="10" font-weight="700">Data</text>'
+        +'<text x="'+cx+'" y="'+(cy+10)+'" text-anchor="middle" fill="#334155" font-size="10" font-weight="700">Collection</text>'
+        +'<text x="230" y="340" text-anchor="middle" fill="#64748b" font-size="9.5" font-family="monospace">6 main ways to gather your data</text>'
+      +'</svg>'
+      +'<div class="diagram-key"><strong>Pick the tool that fits your question.</strong> Interview &amp; Questionnaire = ask people; Observation = watch behaviour; Records = use what already exists; Scales/Tests = measure traits; Biophysical = clinical measures (BP, labs). Spokes glow around the hub.</div>'
+    +'</div>';
+  },
+
+  // ─── NRS-11. RELIABILITY vs VALIDITY — dartboard analogy ──────
+  reliabilityValidity: function () {
+    function board(cx, cy, title, sub, shots, titleColor) {
+      var g='<g>'
+        +'<circle cx="'+cx+'" cy="'+cy+'" r="60" fill="#eef2ff" stroke="#c7d2fe" stroke-width="1.5"/>'
+        +'<circle cx="'+cx+'" cy="'+cy+'" r="40" fill="#fff" stroke="#c7d2fe" stroke-width="1.2"/>'
+        +'<circle cx="'+cx+'" cy="'+cy+'" r="20" fill="#fde68a" stroke="#f59e0b" stroke-width="1.5"/>'
+        +'<circle cx="'+cx+'" cy="'+cy+'" r="6" fill="#ef4444"/>';
+      for(var i=0;i<shots.length;i++){
+        var sx=cx+shots[i][0], sy=cy+shots[i][1];
+        g+='<circle cx="'+sx+'" cy="'+sy+'" r="4.5" fill="#1e293b" opacity="0.85">'
+          +'<animate attributeName="r" values="3;5.5;3" dur="2.5s" begin="'+(i*0.2).toFixed(1)+'s" repeatCount="indefinite"/></circle>';
+      }
+      g+='<text x="'+cx+'" y="'+(cy+82)+'" text-anchor="middle" fill="'+titleColor+'" font-size="11.5" font-weight="700">'+title+'</text>'
+        +'<text x="'+cx+'" y="'+(cy+97)+'" text-anchor="middle" fill="#64748b" font-size="8.5" font-family="monospace">'+sub+'</text>'
+        +'</g>';
+      return g;
+    }
+    // tight+off-centre = reliable not valid; tight+centre = both; scattered = neither
+    var reliableNotValid=[[22,-14],[26,-8],[20,-18],[28,-12]];
+    var both=[[3,-4],[-5,3],[2,5],[-3,-2]];
+    var neither=[[-30,20],[25,-25],[-10,-30],[35,15]];
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🎯 Animated: Reliability vs Validity (Dartboard)</div>'
+      +'<svg viewBox="0 0 560 220" width="100%" style="max-width:560px;display:block;margin:0 auto;">'
+        + board(95, 90, 'Reliable, NOT Valid', 'consistent · off-target', '#6366f1', reliableNotValid)
+        + board(280, 90, 'Reliable AND Valid', 'consistent · on-target', '#22c55e', both)
+        + board(465, 90, 'Neither', 'scattered · off-target', '#ef4444', neither)
+      +'</svg>'
+      +'<div class="diagram-key"><strong>Reliability = consistency; Validity = accuracy (hitting the bullseye).</strong> Left: shots cluster tightly but miss centre (reliable, not valid). Middle: tight AND on the bullseye (the goal). Right: scattered everywhere (neither). A tool must be reliable <em>and</em> valid to trust the data.</div>'
+    +'</div>';
+  },
+
+  // ─── NRS-12. PILOT STUDY — mini trial before main study ───────
+  pilotStudy: function () {
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🚀 Animated: Pilot Study before the Main Study</div>'
+      +'<svg viewBox="0 0 520 240" width="100%" style="max-width:520px;display:block;margin:0 auto;">'
+        +'<defs><marker id="pla" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker></defs>'
+        // small pilot flask
+        +'<rect x="30" y="70" width="150" height="80" rx="12" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-width="2">'
+          +'<animate attributeName="fill-opacity" values="0.08;0.24;0.08" dur="3s" repeatCount="indefinite"/></rect>'
+        +'<text x="105" y="102" text-anchor="middle" fill="#b45309" font-size="13" font-weight="700">PILOT STUDY</text>'
+        +'<text x="105" y="120" text-anchor="middle" fill="#b45309" font-size="9">small-scale trial</text>'
+        +'<text x="105" y="134" text-anchor="middle" fill="#b45309" font-size="8" font-family="monospace">5–10% of sample</text>'
+        // feedback loop arrow (test → fix → back)
+        +'<path d="M105,155 C105,195 105,205 105,205 L200,205" fill="none" stroke="#ef4444" stroke-width="1.8" stroke-dasharray="5 4" marker-end="url(#pla)">'
+          +'<animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/></path>'
+        +'<text x="150" y="225" text-anchor="middle" fill="#ef4444" font-size="8.5" font-family="monospace">find &amp; fix problems</text>'
+        // arrow to main
+        +'<line x1="185" y1="110" x2="330" y2="110" stroke="#94a3b8" stroke-width="2.2" marker-end="url(#pla)">'
+          +'<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="0.5s" repeatCount="indefinite"/></line>'
+        +'<text x="257" y="100" text-anchor="middle" fill="#64748b" font-size="9" font-weight="700">refine →</text>'
+        +'<circle r="5" fill="#f59e0b"><animateMotion dur="2.6s" repeatCount="indefinite" path="M185,110 L330,110"/></circle>'
+        // big main flask
+        +'<rect x="335" y="45" width="160" height="130" rx="14" fill="#22c55e" fill-opacity="0.12" stroke="#22c55e" stroke-width="2.5">'
+          +'<animate attributeName="fill-opacity" values="0.08;0.24;0.08" dur="3s" begin="1s" repeatCount="indefinite"/></rect>'
+        +'<text x="415" y="100" text-anchor="middle" fill="#15803d" font-size="15" font-weight="700">MAIN STUDY</text>'
+        +'<text x="415" y="120" text-anchor="middle" fill="#15803d" font-size="10">full-scale research</text>'
+        +'<text x="415" y="136" text-anchor="middle" fill="#15803d" font-size="8.5" font-family="monospace">whole sample</text>'
+      +'</svg>'
+      +'<div class="diagram-key"><strong>A Pilot Study is a mini dress-rehearsal of the main study.</strong> Run on a tiny group first to test the tool, timing &amp; feasibility → spot and fix problems → then launch the full-scale study with confidence. Saves money, time &amp; avoids big mistakes.</div>'
+    +'</div>';
+  },
+
+  // ─── CHN-1. LEVELS OF PREVENTION — animated 3-tier ladder ─────
+  levelsOfPrevention: function () {
+    var tiers=[
+      {l:'PRIMARY',s:'before disease · stop it starting',ex:'immunisation · health education · nutrition',c:'#22c55e'},
+      {l:'SECONDARY',s:'early disease · catch it early',ex:'screening · early diagnosis · prompt Rx',c:'#f59e0b'},
+      {l:'TERTIARY',s:'after disease · limit damage',ex:'rehabilitation · prevent disability',c:'#ef4444'}
+    ];
+    var svg='',W=520,bW=440,bH=66,startX=(W-bW)/2,startY=16,gapY=14;
+    for(var i=0;i<tiers.length;i++){
+      var y=startY+i*(bH+gapY),t=tiers[i],delay=(i*0.4).toFixed(1);
+      if(i<tiers.length-1){
+        var ny=y+bH;
+        svg+='<line x1="'+(W/2)+'" y1="'+ny+'" x2="'+(W/2)+'" y2="'+(ny+gapY)+'" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#lpa)">'
+          +'<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></line>';
+      }
+      svg+='<rect x="'+startX+'" y="'+y+'" width="'+bW+'" height="'+bH+'" rx="12" fill="'+t.c+'" fill-opacity="0.12" stroke="'+t.c+'" stroke-width="2.5">'
+        +'<animate attributeName="fill-opacity" values="0.08;0.22;0.08" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></rect>'
+        +'<circle cx="'+(startX+30)+'" cy="'+(y+bH/2)+'" r="16" fill="'+t.c+'"/>'
+        +'<text x="'+(startX+30)+'" y="'+(y+bH/2+5)+'" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">'+(i+1)+'</text>'
+        +'<text x="'+(startX+60)+'" y="'+(y+24)+'" fill="'+t.c+'" font-size="14" font-weight="700">'+t.l+'</text>'
+        +'<text x="'+(startX+60)+'" y="'+(y+40)+'" fill="'+t.c+'" font-size="9.5" font-weight="500">'+t.s+'</text>'
+        +'<text x="'+(startX+60)+'" y="'+(y+55)+'" fill="#64748b" font-size="8.5" font-family="monospace">'+t.ex+'</text>';
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🛡️ Animated: Three Levels of Prevention</div>'
+      +'<svg viewBox="0 0 '+W+' 258" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'
+        +'<defs><marker id="lpa" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker></defs>'
+        +svg
+      +'</svg>'
+      +'<div class="diagram-key"><strong>Prevention works at 3 stages of disease.</strong> <span style="color:#22c55e">Primary</span> stops disease before it starts (immunise, educate). <span style="color:#f59e0b">Secondary</span> catches it early (screening, prompt treatment). <span style="color:#ef4444">Tertiary</span> limits damage after (rehab, prevent disability). Tiers glow top-to-bottom.</div>'
+    +'</div>';
+  },
+
+  // ─── NRS-13. MEASUREMENT SCALES (NOIR) — climbing ladder ───────
+  measurementScales: function () {
+    var levels=[
+      {l:'RATIO',s:'true zero · all maths',ex:'weight, height, age, BP',c:'#22c55e'},
+      {l:'INTERVAL',s:'equal gaps · no true zero',ex:'temp °C, IQ, Likert',c:'#f97316'},
+      {l:'ORDINAL',s:'ranked · unequal gaps',ex:'mild/mod/severe pain',c:'#8b5cf6'},
+      {l:'NOMINAL',s:'labels only · no order',ex:'gender, blood group',c:'#6366f1'}
+    ];
+    var W=520,bW=300,bH=52,gapY=10,startY=14,leftPad=40;
+    var svg='';
+    for(var i=0;i<levels.length;i++){
+      // each higher level shifts right + sits higher = climbing staircase
+      var lv=levels[i],y=startY+i*(bH+gapY),x=leftPad+(levels.length-1-i)*30,delay=(i*0.35).toFixed(1);
+      svg+='<rect x="'+x+'" y="'+y+'" width="'+bW+'" height="'+bH+'" rx="10" fill="'+lv.c+'" fill-opacity="0.12" stroke="'+lv.c+'" stroke-width="2.5">'
+        +'<animate attributeName="fill-opacity" values="0.08;0.24;0.08" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></rect>'
+        +'<text x="'+(x+16)+'" y="'+(y+24)+'" fill="'+lv.c+'" font-size="14" font-weight="700">'+lv.l+'</text>'
+        +'<text x="'+(x+16)+'" y="'+(y+40)+'" fill="'+lv.c+'" font-size="9" font-weight="500">'+lv.s+'</text>'
+        +'<text x="'+(x+bW-12)+'" y="'+(y+bH/2+3)+'" text-anchor="end" fill="#64748b" font-size="8.5" font-family="monospace">'+lv.ex+'</text>';
+    }
+    // upward arrow showing increasing precision
+    svg+='<line x1="22" y1="'+(startY+levels.length*(bH+gapY)-gapY)+'" x2="22" y2="'+startY+'" stroke="#94a3b8" stroke-width="2" marker-end="url(#msa)">'
+      +'<animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/></line>'
+      +'<text x="16" y="'+(startY+90)+'" fill="#64748b" font-size="9" font-weight="700" transform="rotate(-90,16,'+(startY+90)+')">more precision →</text>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🪜 Animated: 4 Levels of Data (NOIR)</div>'
+      +'<svg viewBox="0 0 '+W+' 268" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'
+        +'<defs><marker id="msa" markerWidth="8" markerHeight="8" refX="4" refY="6" orient="auto"><path d="M0,6 L4,0 L8,6z" fill="#94a3b8"/></marker></defs>'
+        +svg
+      +'</svg>'
+      +'<div class="diagram-key"><strong>Climb NOIR — each step up adds mathematical power.</strong> <span style="color:#6366f1">Nominal</span> = labels only (count). <span style="color:#8b5cf6">Ordinal</span> = ranked but gaps unequal. <span style="color:#f97316">Interval</span> = equal gaps, no true zero (temp °C). <span style="color:#22c55e">Ratio</span> = true zero, all maths (weight). Higher = more precise stats.</div>'
+    +'</div>';
+  },
+
+  // ─── NRS-14. RELIABILITY TYPES — animated classification tree ──
+  reliabilityTree: function () {
+    function rtNode(x, y, w, h, label, sub, color, delay) {
+      return '<g>'
+        +'<rect x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" rx="7" fill="'+color+'" fill-opacity="0.12" stroke="'+color+'" stroke-width="2">'
+          +'<animate attributeName="fill-opacity" values="0.06;0.22;0.06" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></rect>'
+        +'<text x="'+(x+w/2)+'" y="'+(y+h/2-2)+'" text-anchor="middle" fill="'+color+'" font-size="9.5" font-weight="700">'+label+'</text>'
+        + (sub ? '<text x="'+(x+w/2)+'" y="'+(y+h/2+11)+'" text-anchor="middle" fill="'+color+'" font-size="7.5">'+sub+'</text>' : '')
+        +'</g>';
+    }
+    function rtEdge(x1, y1, x2, y2, color, delay) {
+      return '<line x1="'+x1+'" y1="'+y1+'" x2="'+x2+'" y2="'+y2+'" stroke="'+color+'" stroke-width="1.6">'
+        +'<animate attributeName="stroke-opacity" values="0.25;0.9;0.25" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></line>';
+    }
+    var W=560,c='#0d9488';
+    var leaves=[
+      ['Test-Retest','stability · over time'],
+      ['Inter-Rater','2 raters agree'],
+      ['Intra-Rater','same rater, 2 times'],
+      ['Parallel Forms','2 equal versions'],
+      ['Internal Consist.','Cronbach α']
+    ];
+    var svg='';
+    svg+=rtNode(W/2-70, 12, 140, 34, 'Reliability', 'consistency', '#334155', 0);
+    var lw=100,lh=44,total=leaves.length,gap=8;
+    var rowW=total*lw+(total-1)*gap, x0=(W-rowW)/2, ly=110;
+    for(var i=0;i<total;i++){
+      var lx=x0+i*(lw+gap),cx=lx+lw/2,delay=(0.3+i*0.2).toFixed(1);
+      svg+=rtEdge(W/2, 46, cx, ly, c, delay);
+      svg+=rtNode(lx, ly, lw, lh, leaves[i][0], leaves[i][1], c, delay);
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🔁 Animated: Types of Reliability</div>'
+      +'<svg viewBox="0 0 '+W+' 180" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'+svg+'</svg>'
+      +'<div class="diagram-key"><strong>All reliability = does the tool give consistent results?</strong> Test-Retest (stable over time), Inter-Rater (different raters agree), Intra-Rater (same rater agrees with self), Parallel Forms (two equal versions match), Internal Consistency (items hang together — Cronbach α ≥ 0.70). Branches glow in order.</div>'
+    +'</div>';
+  },
+
+  // ─── NRS-15. ETHICAL PRINCIPLES — pulsing hub & spokes ────────
+  ethicalPrinciples: function () {
+    var cx=230, cy=180, r=125, rN=42;
+    var pr=[
+      {l:'Autonomy',s:'right to choose',c:'#6366f1',a:-90},
+      {l:'Beneficence',s:'do good',c:'#8b5cf6',a:-38},
+      {l:'Non-malef.',s:'do no harm',c:'#ec4899',a:14},
+      {l:'Justice',s:'fairness',c:'#f43f5e',a:66},
+      {l:'Veracity',s:'truthful',c:'#f97316',a:118},
+      {l:'Confidential',s:'keep private',c:'#22c55e',a:170},
+      {l:'Fidelity',s:'keep promises',c:'#0d9488',a:222}
+    ];
+    var nodes='',spokes='';
+    for(var n=0;n<pr.length;n++){
+      var p=pr[n],rad=p.a*Math.PI/180;
+      var nx=cx+r*Math.cos(rad), ny=cy+r*Math.sin(rad),d=(n*0.35).toFixed(1);
+      spokes+='<line x1="'+cx+'" y1="'+cy+'" x2="'+nx.toFixed(1)+'" y2="'+ny.toFixed(1)+'" stroke="'+p.c+'" stroke-width="1.6">'
+        +'<animate attributeName="stroke-opacity" values="0.25;0.9;0.25" dur="3s" begin="'+d+'s" repeatCount="indefinite"/></line>';
+      nodes+='<circle cx="'+nx.toFixed(1)+'" cy="'+ny.toFixed(1)+'" r="'+rN+'" fill="'+p.c+'" opacity="0.12">'
+        +'<animate attributeName="opacity" values="0.08;0.22;0.08" dur="3s" begin="'+d+'s" repeatCount="indefinite"/></circle>'
+        +'<circle cx="'+nx.toFixed(1)+'" cy="'+ny.toFixed(1)+'" r="'+rN+'" fill="none" stroke="'+p.c+'" stroke-width="2">'
+        +'<animate attributeName="stroke-width" values="1.5;3;1.5" dur="3s" begin="'+d+'s" repeatCount="indefinite"/></circle>'
+        +'<text x="'+nx.toFixed(1)+'" y="'+(ny-2)+'" text-anchor="middle" fill="'+p.c+'" font-size="8.5" font-weight="700">'+p.l+'</text>'
+        +'<text x="'+nx.toFixed(1)+'" y="'+(ny+10)+'" text-anchor="middle" fill="'+p.c+'" font-size="7">'+p.s+'</text>';
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">⚖️ Animated: Ethical Principles in Research</div>'
+      +'<svg viewBox="0 0 460 360" width="100%" style="max-width:460px;display:block;margin:0 auto;">'
+        +spokes+nodes
+        +'<circle cx="'+cx+'" cy="'+cy+'" r="40" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>'
+        +'<text x="'+cx+'" y="'+(cy-3)+'" text-anchor="middle" fill="#334155" font-size="10" font-weight="700">Research</text>'
+        +'<text x="'+cx+'" y="'+(cy+11)+'" text-anchor="middle" fill="#334155" font-size="10" font-weight="700">Ethics</text>'
+        +'<text x="230" y="350" text-anchor="middle" fill="#64748b" font-size="9" font-family="monospace">7 principles protect every participant</text>'
+      +'</svg>'
+      +'<div class="diagram-key"><strong>Ethics protects the participant.</strong> Autonomy (right to choose) · Beneficence (do good) · Non-maleficence (do no harm) · Justice (fair treatment) · Veracity (truthful reporting) · Confidentiality (keep data private) · Fidelity (keep promises). All spokes glow around the ethics hub.</div>'
+    +'</div>';
+  },
+
+  // ─── NRS-16. INFORMED CONSENT — 3 pillars → valid consent ─────
+  informedConsent: function () {
+    var pillars=[
+      {l:'INFORMATION',s:'full disclosure of','d':'purpose · risks · benefits','c':'#6366f1'},
+      {l:'COMPREHENSION',s:'participant truly','d':'understands it all','c':'#8b5cf6'},
+      {l:'VOLUNTARINESS',s:'free choice —','d':'no coercion','c':'#22c55e'}
+    ];
+    var svg='',W=520,pW=150,pH=110,gap=15,startX=(W-(3*pW+2*gap))/2,topY=30;
+    for(var i=0;i<pillars.length;i++){
+      var p=pillars[i],x=startX+i*(pW+gap),delay=(i*0.4).toFixed(1);
+      svg+='<rect x="'+x+'" y="'+topY+'" width="'+pW+'" height="'+pH+'" rx="12" fill="'+p.c+'" fill-opacity="0.12" stroke="'+p.c+'" stroke-width="2.5">'
+        +'<animate attributeName="fill-opacity" values="0.08;0.24;0.08" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></rect>'
+        +'<text x="'+(x+pW/2)+'" y="'+(topY+34)+'" text-anchor="middle" fill="'+p.c+'" font-size="26" font-weight="700">'+(i+1)+'</text>'
+        +'<text x="'+(x+pW/2)+'" y="'+(topY+60)+'" text-anchor="middle" fill="'+p.c+'" font-size="11" font-weight="700">'+p.l+'</text>'
+        +'<text x="'+(x+pW/2)+'" y="'+(topY+78)+'" text-anchor="middle" fill="'+p.c+'" font-size="8">'+p.s+'</text>'
+        +'<text x="'+(x+pW/2)+'" y="'+(topY+92)+'" text-anchor="middle" fill="#64748b" font-size="8" font-family="monospace">'+p.d+'</text>';
+      // arrow down to the result bar
+      svg+='<line x1="'+(x+pW/2)+'" y1="'+(topY+pH)+'" x2="'+(x+pW/2)+'" y2="'+(topY+pH+22)+'" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#ica)">'
+        +'<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></line>';
+    }
+    var barY=topY+pH+22;
+    svg+='<rect x="'+startX+'" y="'+barY+'" width="'+(3*pW+2*gap)+'" height="42" rx="12" fill="#0d9488" fill-opacity="0.15" stroke="#0d9488" stroke-width="2.5">'
+      +'<animate attributeName="fill-opacity" values="0.1;0.28;0.1" dur="2.5s" repeatCount="indefinite"/></rect>'
+      +'<text x="'+(W/2)+'" y="'+(barY+27)+'" text-anchor="middle" fill="#0f766e" font-size="13" font-weight="700">✔ VALID INFORMED CONSENT</text>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">📝 Animated: 3 Pillars of Informed Consent</div>'
+      +'<svg viewBox="0 0 '+W+' 210" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'
+        +'<defs><marker id="ica" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker></defs>'
+        +svg
+      +'</svg>'
+      +'<div class="diagram-key"><strong>All 3 pillars must stand — miss one and consent is invalid.</strong> <span style="color:#6366f1">Information</span> (tell them everything) + <span style="color:#8b5cf6">Comprehension</span> (they understand it) + <span style="color:#22c55e">Voluntariness</span> (they choose freely, no pressure) = valid informed consent. Based on Nuremberg Code &amp; Declaration of Helsinki.</div>'
+    +'</div>';
   }
 
 };

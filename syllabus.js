@@ -992,6 +992,488 @@ window.SYLLABUS_DATA = {
         "Write a mini research report",
         "Critical appraisal of a published research article"
       ]
+    },
+
+    /* ════════════════════════════════════════════════════════════════
+       COMMUNITY HEALTH NURSING - II  (CHN-II)  —  VII SEMESTER
+       Theory: 5 Credits (100 Hours) · Clinical: 2 Credits (160 Hours)
+       ════════════════════════════════════════════════════════════════ */
+    {
+      id: "chn2",
+      course: "CHN-II",
+      fullTitle: "Community Health Nursing - II",
+      placement: "VII Semester",
+      theory: "5 Credits (100 hours)",
+      practicum: "Clinical Practicum: 2 Credits (160 hrs) — Urban 2 wks + Rural 2 wks",
+      description:
+        "The course is designed to develop competencies in management of common conditions and emergencies at the community level. It covers reproductive-maternal-newborn-child-adolescent health, demography, family welfare, occupational health, geriatric care, mental health, HMIS, delivery of community health services, leadership and supervision, disaster management, biomedical waste management, and health agencies.",
+      units: [
+        {
+          roman: "I",
+          title: "Management of Common Conditions and Emergencies Including First Aid",
+          hours: { t: 10 },
+          outcomes: [
+            "Apply standing orders appropriately in various community health settings.",
+            "Screen, identify and manage common GI, respiratory, cardiac, eye, ENT and urinary conditions at the primary level.",
+            "Identify warning signs of various diseases and respond appropriately.",
+            "Provide first aid in common emergencies.",
+            "Plan and implement primary prevention strategies for chronic diseases including diabetes."
+          ],
+          topics: [
+            {
+              heading: "Standing Orders",
+              items: [
+                "Definition, features and importance of standing orders in community",
+                "Uses of standing orders",
+                "Common standing orders — Oxytocin for PPH, Magnesium Sulphate for eclampsia, Adrenaline for anaphylaxis, ORS for dehydration",
+                "Nurse's legal and professional responsibilities when using standing orders",
+                "Documentation and reporting after using standing orders"
+              ]
+            },
+            {
+              heading: "Screening, Primary Care and Referral",
+              items: [
+                "Gastrointestinal (GI) conditions — diarrhoea, dysentery, typhoid, hepatitis",
+                "Respiratory conditions — ARI, pneumonia, asthma, TB",
+                "Heart and Blood conditions — hypertension, heart failure, anaemia, coronary artery disease",
+                "Eye and ENT conditions — trachoma, conjunctivitis, refractive errors, cataract, otitis media, sinusitis, tonsillitis, epistaxis",
+                "Urinary conditions — UTI, renal calculi, urinary retention"
+              ]
+            },
+            {
+              heading: "First Aid in Common Emergencies",
+              items: [
+                "Principles of first aid — DRABC (Danger, Response, Airway, Breathing, Circulation)",
+                "First aid for fractures, burns, wounds, animal bites, poisoning",
+                "First aid for drowning, electric shock, heat stroke, cold injuries",
+                "Basic Life Support (BLS) — CPR technique",
+                "Management of choking — Heimlich manoeuvre",
+                "First aid kit — contents and maintenance"
+              ]
+            }
+          ]
+        },
+        {
+          roman: "II",
+          title: "Reproductive, Maternal, Newborn, Child and Adolescent Health",
+          hours: { t: 20 },
+          outcomes: [
+            "Provide comprehensive antenatal, intranatal, postpartum and newborn care at the community level.",
+            "Manage under-five clinics and counsel on child health.",
+            "Provide youth-friendly adolescent health services.",
+            "Describe national programmes related to RMNCH+A."
+          ],
+          topics: [
+            {
+              heading: "Maternal and Newborn Health",
+              items: [
+                "Antenatal care — assessment, risk identification, health education, iron-folic acid, TT immunisation",
+                "Intranatal care — normal delivery conduction, active management of third stage of labour",
+                "Postpartum care — postnatal assessment, exclusive breastfeeding, family planning counselling",
+                "Newborn care — essential newborn care, KMC (Kangaroo Mother Care), immunisation",
+                "Referral of high-risk mothers and neonates"
+              ]
+            },
+            {
+              heading: "Child Health",
+              items: [
+                "Under-five clinics — growth monitoring, IMNCI, nutrition counselling",
+                "Childhood immunisation schedule (National Immunisation Schedule — NIS)",
+                "Management of common childhood illnesses — diarrhoea, ARI, malnutrition",
+                "Infant and young child feeding (IYCF) practices"
+              ]
+            },
+            {
+              heading: "Adolescent Health",
+              items: [
+                "Youth-friendly health services",
+                "Sexual and reproductive health (SRH) of adolescents",
+                "Adolescent counselling — menstrual hygiene, substance abuse, mental health",
+                "Rashtriya Kishor Swasthya Karyakram (RKSK)"
+              ]
+            },
+            {
+              heading: "National Programmes",
+              items: [
+                "RMNCH+A (Reproductive, Maternal, Newborn, Child Health + Adolescent) strategy",
+                "Universal Immunisation Programme (UIP)",
+                "Rashtriya Bal Swasthya Karyakram (RBSK) — child health screening",
+                "Rashtriya Kishor Swasthya Karyakram (RKSK) — adolescent health programme"
+              ]
+            }
+          ]
+        },
+        {
+          roman: "III",
+          title: "Demography, Surveillance and Interpretation of Data",
+          hours: { t: 4 },
+          outcomes: [
+            "Define demography and describe vital statistics.",
+            "Explain sources of vital statistics and morbidity/mortality indicators.",
+            "Describe IDSP and MCTS.",
+            "Collect, compile and interpret community health data."
+          ],
+          topics: [
+            {
+              heading: "Demography and Vital Statistics",
+              items: [
+                "Definition and scope of demography",
+                "Sources of vital statistics — Census, SRS, CRS, NFHS, DLHS",
+                "Morbidity indicators — incidence rate, prevalence rate, attack rate",
+                "Mortality indicators — crude death rate, infant mortality rate, maternal mortality ratio, neonatal mortality rate, under-5 mortality rate"
+              ]
+            },
+            {
+              heading: "Disease Surveillance",
+              items: [
+                "Integrated Disease Surveillance Project (IDSP) — purpose, reporting mechanism, S/P/L forms",
+                "Mother and Child Tracking System (MCTS) / RCH portal",
+                "Collection, compilation, and interpretation of community health data"
+              ]
+            }
+          ]
+        },
+        {
+          roman: "IV",
+          title: "Population and Its Control",
+          hours: { t: 6 },
+          outcomes: [
+            "Explain the concept of population explosion and its consequences.",
+            "Describe population control strategies including women empowerment.",
+            "Discuss temporary and terminal methods of family planning.",
+            "Explain the MTP Act, Family Planning 2020, and National Family Welfare Program."
+          ],
+          topics: [
+            {
+              heading: "Population Dynamics",
+              items: [
+                "Population explosion — causes and consequences",
+                "Population control strategies — women empowerment, education, social and economic development",
+                "Demographic transition theory"
+              ]
+            },
+            {
+              heading: "Family Planning Methods",
+              items: [
+                "Temporary methods — barrier (condom, diaphragm), hormonal (OCP, injectable), IUCD (Cu-T 380A, Cu-T 375)",
+                "Terminal / permanent methods — tubectomy (female sterilisation), vasectomy (male sterilisation)",
+                "Spacing methods — LAM, natural methods (rhythm, BBT)"
+              ]
+            },
+            {
+              heading: "Acts and Programmes",
+              items: [
+                "MTP Act 1971 (amended 2021) — indications, gestational limits, who can perform",
+                "Family Planning 2020 vision",
+                "National Family Welfare Programme — objectives, strategies, achievements"
+              ]
+            }
+          ]
+        },
+        {
+          roman: "V",
+          title: "Occupational Health",
+          hours: { t: 5 },
+          outcomes: [
+            "Identify common occupational health hazards and diseases.",
+            "Describe the ESI Act and national/state occupational health programmes.",
+            "Explain the role of the nurse in occupational health screening, management and referral."
+          ],
+          topics: [
+            {
+              heading: "Occupational Health",
+              items: [
+                "Occupational health hazards — physical (noise, heat, radiation), chemical (dust, fumes, lead), biological (infection), ergonomic (posture), psychosocial (stress)",
+                "Occupational diseases — silicosis, asbestosis, lead poisoning, noise-induced hearing loss, byssinosis",
+                "ESI Act (Employees' State Insurance Act) 1948 — coverage, benefits",
+                "National/State Occupational Health Programmes",
+                "Role of community nurse — screening, health education, workplace assessment, referral"
+              ]
+            }
+          ]
+        },
+        {
+          roman: "VI",
+          title: "Geriatric Health Care",
+          hours: { t: 6 },
+          outcomes: [
+            "Identify common health problems of older adults.",
+            "Manage common geriatric ailments at the community level.",
+            "Describe the organisation of geriatric health services.",
+            "Explain the National Programme for Health Care of Elderly (NPHCE)."
+          ],
+          topics: [
+            {
+              heading: "Geriatric Health",
+              items: [
+                "Health problems of older adults — hypertension, diabetes, arthritis, dementia, depression, falls, incontinence, sensory impairment",
+                "Management of common geriatric ailments at community level",
+                "Organisation of geriatric health services — day care centres, old age homes, mobile health units",
+                "National Programme for Health Care of Elderly (NPHCE) — objectives, components, implementation"
+              ]
+            }
+          ]
+        },
+        {
+          roman: "VII",
+          title: "Mental Health Disorders",
+          hours: { t: 6 },
+          outcomes: [
+            "Screen and identify common mental health disorders in the community.",
+            "Provide basic management and referral for mental health conditions.",
+            "Describe the National Mental Health Programme, Policy and Act."
+          ],
+          topics: [
+            {
+              heading: "Common Mental Health Disorders",
+              items: [
+                "Depression — screening (PHQ-9), signs, management, referral",
+                "Anxiety disorders — generalised anxiety, panic attacks",
+                "Schizophrenia — identification, community-based rehabilitation",
+                "Dementia — early signs, caregiver support",
+                "Suicide — risk factors, prevention strategies, gatekeeper training",
+                "Substance abuse — alcohol, tobacco, drugs; screening (CAGE, AUDIT); de-addiction referral"
+              ]
+            },
+            {
+              heading: "National Programmes and Legislation",
+              items: [
+                "National Mental Health Programme (NMHP) — objectives, DMHP (District Mental Health Programme)",
+                "National Mental Health Policy 2014",
+                "Mental Healthcare Act 2017 — rights of mentally ill, advance directive, review boards"
+              ]
+            }
+          ]
+        },
+        {
+          roman: "VIII",
+          title: "Health Management Information System (HMIS)",
+          hours: { t: 4 },
+          outcomes: [
+            "Describe the Health Management Information System — data elements, recording and reporting formats.",
+            "Explain data quality concepts.",
+            "Review basic demography, common sampling techniques and data analysis for community needs assessment."
+          ],
+          topics: [
+            {
+              heading: "HMIS",
+              items: [
+                "Introduction to Health Management Information System — purpose, components",
+                "Data elements, indicators, and recording formats",
+                "Reporting formats — monthly, quarterly, annual returns",
+                "Data quality — accuracy, completeness, timeliness",
+                "Review of basic demography and vital statistics for community diagnosis",
+                "Common sampling techniques for community needs assessment",
+                "Data analysis and interpretation for planning community health services"
+              ]
+            }
+          ]
+        },
+        {
+          roman: "IX",
+          title: "Management of Delivery of Community Health Services",
+          hours: { t: 12 },
+          outcomes: [
+            "Describe planning, budgeting and material management for community health facilities.",
+            "Explain the organisation of rural, urban, defence and institutional health services.",
+            "Discuss other systems of medicine including AYUSH."
+          ],
+          topics: [
+            {
+              heading: "Health Service Management",
+              items: [
+                "Planning — community needs assessment, priority setting, action plan",
+                "Budgeting — budget preparation, resource allocation, expenditure tracking",
+                "Material management — procurement, storage, distribution of drugs and supplies",
+                "Management of CHC, PHC, Sub-Centre / Health and Wellness Centres (HWC)"
+              ]
+            },
+            {
+              heading: "Organisation of Health Services",
+              items: [
+                "Rural health services — three-tier system (SC/HWC → PHC → CHC)",
+                "Urban health services — Urban PHC, UFWC, Urban Health and Nutrition Day (UHND)",
+                "Defence health services — Armed Forces Medical Services (AFMS)",
+                "Institutional health services — ESI hospitals, railway hospitals, industrial health services"
+              ]
+            },
+            {
+              heading: "Other Systems of Medicine",
+              items: [
+                "AYUSH — Ayurveda, Yoga and Naturopathy, Unani, Siddha, Homeopathy",
+                "Integration of AYUSH in public health system",
+                "National AYUSH Mission"
+              ]
+            }
+          ]
+        },
+        {
+          roman: "X",
+          title: "Leadership, Supervision and Monitoring",
+          hours: { t: 15 },
+          outcomes: [
+            "Describe job descriptions and roles of various health workers.",
+            "Explain the functioning of Village Health Sanitation and Nutrition Committees (VHSNC).",
+            "Demonstrate leadership, training and financial management skills.",
+            "Maintain records and reports including Electronic Health Records (EHR)."
+          ],
+          topics: [
+            {
+              heading: "Health Workers — Roles and Responsibilities",
+              items: [
+                "District Public Health Nurse (DPHN) — supervisory and administrative role",
+                "Health Visitor (HV) / Public Health Nurse (PHN) — field supervision, training",
+                "Multipurpose Health Worker (MPHW) — male and female roles at sub-centre level",
+                "ASHA (Accredited Social Health Activist) — community-level link worker",
+                "Mid-Level Health Providers (MLHPs) — Health and Wellness Centres"
+              ]
+            },
+            {
+              heading: "Community Participation",
+              items: [
+                "Village Health Sanitation and Nutrition Committee (VHSNC) — composition, roles, village health plan",
+                "Rogi Kalyan Samiti (Patient Welfare Committee)",
+                "Community monitoring and social audit"
+              ]
+            },
+            {
+              heading: "Leadership and Management",
+              items: [
+                "Leadership styles and qualities in community health nursing",
+                "Training of health workers — in-service training, supportive supervision",
+                "Financial management — accounting, audit, fund utilisation (RKS, untied funds)",
+                "Maintenance of Records and Reports — family register, eligible couple register, birth/death register, diary",
+                "Electronic Health Records (EHR) — digitisation of health records"
+              ]
+            }
+          ]
+        },
+        {
+          roman: "XI",
+          title: "Disaster Management",
+          hours: { t: 6 },
+          outcomes: [
+            "Classify types of disasters and describe their magnitude.",
+            "Explain disaster preparedness and emergency preparedness plans.",
+            "Describe disaster response — relief measures and life-saving techniques.",
+            "Participate in mock drills."
+          ],
+          topics: [
+            {
+              heading: "Disaster Management",
+              items: [
+                "Types of disasters — natural (earthquake, flood, cyclone, tsunami, drought) and man-made (industrial, nuclear, biological, chemical)",
+                "Magnitude and impact assessment of disasters",
+                "Disaster preparedness — vulnerability analysis, disaster preparedness plan, early warning systems",
+                "Emergency preparedness — hospital preparedness, community preparedness",
+                "Disaster response — relief measures, triage, search and rescue, life-saving techniques",
+                "Disaster recovery and rehabilitation",
+                "Mock drills — purpose, planning and conduction",
+                "National Disaster Management Authority (NDMA), State Disaster Management Authority (SDMA)"
+              ]
+            }
+          ]
+        },
+        {
+          roman: "XII",
+          title: "Bio-Medical Waste Management",
+          hours: { t: 3 },
+          outcomes: [
+            "Describe the principles of biomedical waste management.",
+            "Explain waste collection, segregation, transportation and disposal.",
+            "Apply BMW Management Rules 2016 (amended 2018) in community settings."
+          ],
+          topics: [
+            {
+              heading: "Bio-Medical Waste Management",
+              items: [
+                "Definition and categories of biomedical waste",
+                "Colour coding for waste segregation — Yellow, Red, White (translucent), Blue (puncture-proof)",
+                "Waste collection, segregation at the point of generation",
+                "Transportation — within and outside the facility",
+                "Treatment and disposal — incineration, autoclaving, chemical treatment, deep burial, shredding",
+                "Bio-Medical Waste Management Rules 2016 (amended 2018) — key provisions",
+                "Waste management in community settings and health centres",
+                "Role of the nurse in BMW management"
+              ]
+            }
+          ]
+        },
+        {
+          roman: "XIII",
+          title: "Health Agencies",
+          hours: { t: 3 },
+          outcomes: [
+            "Describe the role and functions of international health agencies.",
+            "Describe the role and functions of national voluntary health agencies."
+          ],
+          topics: [
+            {
+              heading: "International Health Agencies",
+              items: [
+                "WHO (World Health Organization) — structure, functions, programmes",
+                "UNFPA (United Nations Population Fund)",
+                "World Bank — health sector lending",
+                "UNICEF (United Nations Children's Fund) — child health programmes",
+                "Red Cross / Red Crescent — humanitarian aid",
+                "USAID — bilateral health assistance",
+                "Other agencies — UNDP, FAO, ILO"
+              ]
+            },
+            {
+              heading: "National Health Agencies",
+              items: [
+                "Indian Red Cross Society",
+                "Indian Council for Child Welfare (ICCW)",
+                "Family Planning Association of India (FPAI)",
+                "Voluntary Health Association of India (VHAI)",
+                "Other voluntary organisations working in community health"
+              ]
+            }
+          ]
+        }
+      ],
+      clinical: [
+        {
+          area: "Urban Posting",
+          weeks: "2 weeks",
+          skills: [
+            "Screening, diagnosing, managing and referring clients with common conditions/emergencies based on standing orders",
+            "Assessment of antenatal, intrapartum, postnatal and newborn cases",
+            "Conduction of normal delivery at the health centre",
+            "Adolescent counselling and youth-friendly health services",
+            "Family planning counselling and distribution of temporary contraceptives",
+            "Mental health screening in the community",
+            "Participating in community diagnosis",
+            "Organising and conducting clinics and health camps"
+          ]
+        },
+        {
+          area: "Rural Posting",
+          weeks: "2 weeks",
+          skills: [
+            "Screening, diagnosing, managing and referring clients with common conditions/emergencies based on standing orders",
+            "Assessment of antenatal, intrapartum, postnatal and newborn cases",
+            "Conduction of normal delivery at the health centre",
+            "Occupational health screening in the community",
+            "Health assessment of the elderly — geriatric screening",
+            "Family planning counselling and distribution of temporary contraceptives",
+            "Writing activity reports and community health records",
+            "Participating in disaster mock drills",
+            "Organising and conducting health camps in rural settings"
+          ]
+        }
+      ],
+      skillLab: [
+        "Demonstrate correct use of standing orders in simulated emergency scenarios",
+        "Assess and manage a case of diarrhoea / dehydration using ORS",
+        "Identify warning signs in case presentations (TB, diabetes, stroke, heart disease)",
+        "Administer Oxytocin and Magnesium Sulphate in simulation (PPH and eclampsia)",
+        "Perform CPR and Basic Life Support on a manikin",
+        "Provide first aid for fractures, burns, and animal bites",
+        "Conduct community health education session on warning signs of diseases",
+        "Screen for hypertension and diabetes at a simulated health camp"
+      ]
     }
   ]
 };

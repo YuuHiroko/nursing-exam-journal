@@ -64,6 +64,8 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
   </table></div>
 </div>
 
+<div data-diagram="ethicalPrinciples"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">💡 Memory Trick — "RB-NJ-VCF"</h3>
   <div class="definition-box animate-scale-in">
@@ -244,6 +246,8 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
   </table></div>
 </div>
 
+<div data-diagram="pilotStudy"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">💡 Memory Trick — "FRET-RVTS"</h3>
   <div class="definition-box animate-scale-in">
@@ -321,6 +325,8 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
     </tbody>
   </table></div>
 </div>
+
+<div data-diagram="dataCollectionMethods"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">💡 Memory Trick — "OI-QF-PD-DP"</h3>
@@ -1132,6 +1138,8 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
   </table></div>
 </div>
 
+<div data-diagram="samplingProcess"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">💡 Memory Trick — "DP-SF-SS-TD-DC"</h3>
   <div class="definition-box animate-scale-in">
@@ -1308,6 +1316,8 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
     </tbody>
   </table></div>
 </div>
+
+<div data-diagram="populationSample"></div>
 
 <div class="mcq-quiz">
   <div class="mcq-quiz-title">🧪 Test Yourself</div>
@@ -1912,6 +1922,8 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
   </table></div>
 </div>
 
+<div data-diagram="samplingTree"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">💡 Memory Trick</h3>
   <div class="definition-box animate-scale-in">
@@ -2226,6 +2238,8 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
   </table></div>
 </div>
 
+<div data-diagram="informedConsent"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Elements of Informed Consent Form</h3>
   <div class="key-point">
@@ -2304,6 +2318,8 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
     </tbody>
   </table></div>
 </div>
+
+<div data-diagram="reliabilityValidity"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">💡 Memory Trick — "FC-CC-Co"</h3>
@@ -2688,6 +2704,8 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
     </tbody>
   </table></div>
 </div>
+
+<div data-diagram="measurementScales"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">💡 Memory Trick</h3>
@@ -3511,6 +3529,8 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
     </tbody>
   </table></div>
 </div>
+
+<div data-diagram="reliabilityTree"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">💡 Memory Trick — "TIPI-C"</h3>

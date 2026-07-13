@@ -1423,7 +1423,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 
 <div class="analogy-box"><strong>Think of it like&hellip;</strong> a <strong>detective solving a crime.</strong> A detective: (1) observes the crime scene, (2) reviews past case files, (3) forms a theory about who did it, (4) plans the investigation, (5) collects evidence, (6) analyzes it, (7) interprets what it means, (8) presents findings in court. The nurse researcher does exactly the same &mdash; but for clinical problems instead of crimes. The detective's conclusion convicts a criminal; the researcher's conclusion improves patient care.</div>
 
-<div class="data-diagram="scientificMethod"></div>
+<div data-diagram="scientificMethod"></div>
 
 <div class="mnemonic-box">
   <div class="mnemonic-label">Mnemonic for 8 Steps &mdash; <strong>"OR-FD-CDIC"</strong></div>
@@ -1780,7 +1780,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 
 <div class="analogy-box"><strong>Think of it like&hellip;</strong> <strong>building a hospital:</strong> Phase 1 (Conceptual) = deciding what to build. Phase 2 (Design) = making blueprints &amp; getting approvals. Phase 3 (Based on real observation) = actual construction. Phase 4 (Analytic) = quality inspection. Phase 5 (Dissemination) = handing over to the public. Skip any phase and the hospital will have serious problems!</div>
 
-<div class="data-diagram="researchProcess"></div>
+<div data-diagram="researchProcess"></div>
 
 <div class="mnemonic-box">
   <div class="mnemonic-label">Mnemonic &mdash; <strong>"C-D-E-A-D"</strong></div>
@@ -2839,7 +2839,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 <strong>EBP</strong>: Integrating BEST evidence from MULTIPLE critically appraised studies + clinical expertise + patient values. The highest and safest standard.
 </div>
 
-<div class="data-diagram="ebpTriad"></div>
+<div data-diagram="ebpTriad"></div>
 
 <div class="analogy-box"><strong>Think of it like&hellip;</strong> a judge passing a verdict. A good judge: (1) reads all available evidence (best research), (2) applies legal expertise and experience (clinical expertise), (3) considers individual case circumstances (patient values). EBP = evidence + expertise + individual context = the best decision for this specific patient.</div>
 

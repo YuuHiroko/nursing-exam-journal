@@ -133,6 +133,8 @@ window.QUESTIONS_DATA_NRS_UNIT4 = [
     <button class="mcq-option" data-correct="false">d) Types of research design only</button>
     <div class="mcq-answer">✅ b) 10 marks = 10 criteria or 8 detailed ones with sub-points. Always include examples!</div></div>
 </div>
+
+<div data-diagram="researchDesignTree"></div>
 `
 },
 
