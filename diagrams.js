@@ -1571,6 +1571,52 @@ window.DIAGRAMS = {
       +'</svg>'
       +'<div class="diagram-key"><strong>All 3 pillars must stand — miss one and consent is invalid.</strong> <span style="color:#6366f1">Information</span> (tell them everything) + <span style="color:#8b5cf6">Comprehension</span> (they understand it) + <span style="color:#22c55e">Voluntariness</span> (they choose freely, no pressure) = valid informed consent. Based on Nuremberg Code &amp; Declaration of Helsinki.</div>'
     +'</div>';
+  },
+
+  // ─── CHN2. WHO GROWTH CHART — weight-for-age curves + a child's rising then faltering line ───
+  growthChart: function () {
+    var W=540,H=320,x0=54,x1=508,y0=24,yB=258;   // plot box
+    var maxAge=60,maxW=20;                          // 0–60 months, 0–20 kg
+    function px(age){ return x0+(age/maxAge)*(x1-x0); }
+    function py(w){ return yB-(w/maxW)*(yB-y0); }
+    function poly(pts){ var s=''; for(var i=0;i<pts.length;i++){ s+=(i?' ':'')+px(pts[i][0]).toFixed(1)+','+py(pts[i][1]).toFixed(1); } return s; }
+    // WHO weight-for-age reference bands (approx): [ageMonths, weightKg]
+    var median=[[0,3.3],[12,9.6],[24,12.2],[36,14.3],[48,16.3],[60,18.3]];
+    var sd2=[[0,2.5],[12,7.7],[24,10.0],[36,11.8],[48,13.4],[60,15.0]];   // -2SD (MAM line)
+    var sd3=[[0,2.1],[12,6.9],[24,8.9],[36,10.5],[48,11.9],[60,13.3]];    // -3SD (SAM line)
+    // A real child: grows well, then the line goes FLAT (growth faltering) after 24m
+    var child=[[0,3.2],[6,7.2],[12,9.2],[18,10.4],[24,11.0],[30,11.1],[36,11.0]];
+    var grid='';
+    for(var a=0;a<=60;a+=12){ grid+='<line x1="'+px(a)+'" y1="'+y0+'" x2="'+px(a)+'" y2="'+yB+'" stroke="#e2e8f0" stroke-width="1"/>'
+      +'<text x="'+px(a)+'" y="'+(yB+16)+'" text-anchor="middle" fill="#64748b" font-size="9">'+a+'</text>'; }
+    for(var w=0;w<=20;w+=5){ grid+='<line x1="'+x0+'" y1="'+py(w)+'" x2="'+x1+'" y2="'+py(w)+'" stroke="#e2e8f0" stroke-width="1"/>'
+      +'<text x="'+(x0-8)+'" y="'+(py(w)+3)+'" text-anchor="end" fill="#64748b" font-size="9">'+w+'</text>'; }
+    // the moving dot follows the child's line
+    var dots=''; for(var i=0;i<child.length;i++){ dots+='<circle cx="'+px(child[i][0])+'" cy="'+py(child[i][1])+'" r="3.5" fill="#2563eb"/>'; }
+    var mover='<circle r="6" fill="#2563eb" opacity="0.9"><animateMotion dur="5s" repeatCount="indefinite" path="M'+px(0)+','+py(child[0][1])
+      +' L'+child.map(function(p){return px(p[0]).toFixed(0)+','+py(p[1]).toFixed(0);}).join(' L')+'"/></circle>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">📈 Animated: WHO Growth Chart — Watch the Child\'s Line</div>'
+      +'<svg viewBox="0 0 '+W+' '+H+'" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'
+        +grid
+        +'<line x1="'+x0+'" y1="'+y0+'" x2="'+x0+'" y2="'+yB+'" stroke="#94a3b8" stroke-width="1.5"/>'
+        +'<line x1="'+x0+'" y1="'+yB+'" x2="'+x1+'" y2="'+yB+'" stroke="#94a3b8" stroke-width="1.5"/>'
+        +'<text x="'+((x0+x1)/2)+'" y="'+(H-6)+'" text-anchor="middle" fill="#475569" font-size="10" font-weight="600">Age (months)</text>'
+        +'<text x="16" y="'+((y0+yB)/2)+'" text-anchor="middle" fill="#475569" font-size="10" font-weight="600" transform="rotate(-90 16 '+((y0+yB)/2)+')">Weight (kg)</text>'
+        // reference bands
+        +'<polyline points="'+poly(median)+'" fill="none" stroke="#22c55e" stroke-width="2.5"/>'
+        +'<polyline points="'+poly(sd2)+'" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="6 4"/>'
+        +'<polyline points="'+poly(sd3)+'" fill="none" stroke="#ef4444" stroke-width="2" stroke-dasharray="6 4"/>'
+        +'<text x="'+(x1-2)+'" y="'+(py(18.3)-4)+'" text-anchor="end" fill="#16a34a" font-size="9" font-weight="700">Median (normal)</text>'
+        +'<text x="'+(x1-2)+'" y="'+(py(15.0)-4)+'" text-anchor="end" fill="#d97706" font-size="9" font-weight="700">-2SD (MAM)</text>'
+        +'<text x="'+(x1-2)+'" y="'+(py(13.3)+12)+'" text-anchor="end" fill="#dc2626" font-size="9" font-weight="700">-3SD (SAM)</text>'
+        // child line: healthy climb then flat = faltering
+        +'<polyline points="'+poly(child)+'" fill="none" stroke="#2563eb" stroke-width="3"/>'
+        +dots+mover
+        +'<text x="'+px(30)+'" y="'+(py(11.1)-10)+'" text-anchor="middle" fill="#1d4ed8" font-size="9" font-weight="700">⚠ line goes FLAT = growth faltering</text>'
+      +'</svg>'
+      +'<div class="diagram-key"><strong>Plot weight against age every month.</strong> A line rising along the <span style="color:#16a34a">green median</span> = healthy. Crossing below the <span style="color:#d97706">-2SD amber line</span> = Moderate malnutrition (MAM); below the <span style="color:#dc2626">-3SD red line</span> = Severe (SAM → refer to NRC). A <span style="color:#1d4ed8">FLAT line</span> (no weight gain) is the earliest danger sign — catch it before the child falls into the red zone.</div>'
+    +'</div>';
   }
 
 };

@@ -146,7 +146,8 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Janani Shishu Suraksha Karyakram (JSSK) &mdash; JSS Yojana</h3>
   <div class="definition-box">
-    <strong>JSSK (Janani Shishu Suraksha Karyakram)</strong> was launched in <strong>June 2011</strong>. It guarantees that all pregnant women delivering in government health facilities receive <strong>completely free</strong> and <strong>cashless services</strong> &mdash; the family pays absolutely nothing.
+    <strong>JSSK (Janani Shishu Suraksha Karyakram)</strong> was launched in <strong>June 2011</strong>. It guarantees that all pregnant women delivering in government health facilities receive <strong>completely free</strong> and <strong>cashless services</strong> &mdash; the family pays absolutely nothing.<br><br>
+    <strong>Simple words:</strong> Many poor mothers used to deliver at home because hospital costs scared them. JSSK removed that fear &mdash; delivery, medicines, tests, blood, food, and even the ambulance both ways are 100% free. "Cashless" means the family does not take out a single rupee.
   </div>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Who Benefitted?</th><th>What Free Services?</th></tr></thead>
@@ -206,6 +207,24 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
     <li><strong>High-risk identification and referral:</strong> Women with danger signs referred to MO / FRU on the same day.</li>
     <li><strong>Records and Reports:</strong> Update ANC register, referral register; submit monthly report to PHC.</li>
   </ol>
+  <div class="flowchart">
+    <div class="flowchart-title">Flowchart: ANC Clinic Day &mdash; Station-by-Station Flow</div>
+    <div class="flowchart-container">
+      <div class="flow-box highlight">ASHA brings pregnant women to the clinic (informed in advance)</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Registration &mdash; new ANC card / update old card, MCTS entry</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Examination &mdash; Weight &rarr; BP &rarr; Hb &rarr; Oedema &rarr; Abdomen (fundal height, foetal heart)</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Investigations &mdash; urine albumin/sugar, blood group, VDRL, HIV</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Treatment &mdash; TT injection, IFA &amp; calcium tablets</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Counselling &mdash; nutrition, danger signs, birth preparedness</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box highlight">High-risk? &rarr; refer to MO / FRU same day. Else &rarr; next visit date given</div>
+    </div>
+  </div>
 </div>
 
 <div class="conclusion-box"><strong>Conclusion:</strong> The RCH approach, supported by JSSK and ASHA, has transformed maternal and child health in India. Organising a well-planned ANC clinic is a critical nursing responsibility that saves lives by detecting problems early and ensuring timely referral.</div>
@@ -248,9 +267,12 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
-    <strong>Reproductive and Child Health (RCH)</strong> is the state of complete physical, mental, and social well-being in all matters relating to the reproductive system, its functions and processes, and the healthy development of the child. It is a <strong>rights-based, life-cycle, demand-driven</strong> approach adopted in India since 1997 under the National Health Mission.
+    <strong>Reproductive and Child Health (RCH)</strong> is the state of complete physical, mental, and social well-being in all matters relating to the reproductive system, its functions and processes, and the healthy development of the child. It is a <strong>rights-based, life-cycle, demand-driven</strong> approach adopted in India since 1997 under the National Health Mission.<br><br>
+    <strong>Simple words:</strong> RCH means keeping BOTH the mother and the child healthy &mdash; at every stage of life. "Rights-based" = the couple decides; "life-cycle" = care from girlhood to motherhood to childhood again; "demand-driven" = services given as people need them, not by fixed targets.
   </div>
 </div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> Think of RCH as an umbrella that never closes. It shelters the adolescent girl (IFA tablets), then the pregnant woman (ANC, safe delivery), then the newborn (ENC, vaccines), then the growing child (immunisation, nutrition) &mdash; and when that child becomes an adolescent, the umbrella is still over her. Every component below is just one panel of this same umbrella.
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Components of the RCH Programme</h3>
@@ -341,6 +363,27 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
   </ol>
 </div>
 
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">How EmOC Works &mdash; The Escalation Ladder</h3>
+  <p style="margin:0 0 10px 0; color:var(--text-secondary); font-size:0.93em;">When a mother develops a complication, care is stepped up level by level &mdash; simple problems handled below, serious ones pushed up quickly.</p>
+  <div class="flowchart">
+    <div class="flowchart-title">Flowchart: EmOC Referral Escalation</div>
+    <div class="flowchart-container">
+      <div class="flow-box highlight">Complication appears (bleeding / fits / obstructed labour / sepsis)</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Sub-centre (ANM) &mdash; first aid, give first dose of drug (oxytocin / Mg sulphate), arrange transport</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box"><strong>PHC = BEmOC</strong> &mdash; injectable drugs, manual removal of placenta, vacuum delivery (NO surgery)</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box highlight"><strong>FRU / CHC = CEmOC</strong> &mdash; C-section + blood transfusion + anaesthesia + newborn care</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">District Hospital &mdash; ICU / higher management if still not controlled</div>
+    </div>
+  </div>
+</div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> Think of EmOC like a fire response. A small spark (mild bleeding) is put out at home with a bucket (ANM first aid). A bigger fire needs the local fire point with hoses (PHC/BEmOC). A raging fire needs the full fire station with ladders and a water tanker (FRU/CEmOC &mdash; surgery + blood). The trick is to escalate FAST, before the fire spreads.</div>
+
 <div class="conclusion-box"><strong>Conclusion:</strong> RCH programme is comprehensive &mdash; covering the entire life cycle. Emergency Obstetric Care is the backbone that saves mothers' lives when they face life-threatening complications. Every CHN should know when to escalate and refer to FRU without delay.</div>
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">RCH</span><span class="kw">Life-cycle approach</span><span class="kw">EmOC</span><span class="kw">BEmOC</span><span class="kw">CEmOC</span><span class="kw">FRU</span><span class="kw">PPH</span><span class="kw">Eclampsia</span><span class="kw">Magnesium sulphate</span><span class="kw">IMNCI</span><span class="kw">UIP</span></div>
@@ -404,6 +447,20 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
   </table></div>
   <p style="margin-top:10px;"><strong>High-Risk Scoring System:</strong> Each factor is given a score (e.g., Coopland score, Hobel score). Total score determines risk level &mdash; Low / Medium / High. High-risk women are referred to FRU / district hospital for delivery.</p>
   <p><strong>Nurse's role:</strong> Screen at every ANC visit &rarr; mark ANC card with red flag &rarr; inform MO &rarr; refer to FRU &rarr; counselling on danger signs &rarr; arrange transport in advance.</p>
+  <div class="flowchart">
+    <div class="flowchart-title">Flowchart: High-Risk Screening &amp; Referral Pathway</div>
+    <div class="flowchart-container">
+      <div class="flow-box highlight">Every ANC visit &mdash; nurse screens for risk factors (history + medical + current pregnancy + social)</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Apply risk score (Coopland / Hobel) &rarr; Low / Medium / High</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">If HIGH-RISK &mdash; put a RED sticker/flag on ANC card, inform Medical Officer</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Counsel mother + family on danger signs; arrange transport &amp; blood donor in advance</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box highlight">Plan delivery at FRU / District Hospital (NOT at home or sub-centre)</div>
+    </div>
+  </div>
 </div>
 
 <div class="answer-section animate-slide-up">
@@ -515,7 +572,23 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Antenatal Care (ANC) &mdash; In Detail</h3>
   <div class="definition-box">
-    <strong>Antenatal Care (ANC)</strong> = supervision of a pregnant woman by skilled health personnel from conception until the onset of labour, with the goal of ensuring a healthy pregnancy outcome for mother and baby.
+    <strong>Antenatal Care (ANC)</strong> = supervision of a pregnant woman by skilled health personnel from conception until the onset of labour, with the goal of ensuring a healthy pregnancy outcome for mother and baby.<br><br>
+    <strong>Simple words:</strong> "Ante" = before, "natal" = birth &mdash; so ANC is all the care given BEFORE the baby is born. It is a series of regular check-ups that quietly catch problems (like anaemia or high BP) early, while they are still easy to fix.
+  </div>
+
+  <div class="editorial-example"><strong>Relatable Example:</strong> ANC is like servicing a car before a long journey. You check the brakes, oil, and tyres in advance so the trip is safe &mdash; you do not wait for a breakdown on the highway. In the same way, ANC checks Hb, BP, and the baby's position early, so delivery day goes smoothly.</div>
+
+  <div class="flowchart">
+    <div class="flowchart-title">Flowchart: The ANC Journey (4-Visit Model)</div>
+    <div class="flowchart-container">
+      <div class="flow-box highlight">Visit 1 (&lt;12 weeks) &mdash; Register, ANC card, baseline tests, 1st TT, start IFA</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Visit 2 (14&ndash;26 weeks) &mdash; BP, Hb, 2nd TT, fundal growth check</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Visit 3 (28&ndash;34 weeks) &mdash; High-risk screening, baby's position, birth plan</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box highlight">Visit 4 (36+ weeks) &mdash; Final check, transport plan, danger-sign counselling</div>
+    </div>
   </div>
 
   <p style="margin-top:12px;"><strong>Schedule of ANC visits:</strong></p>
@@ -769,9 +842,12 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">First Referral Unit (FRU)</h3>
   <div class="definition-box">
-    A <strong>First Referral Unit (FRU)</strong> is a health facility (usually CHC or Sub-district hospital) that is <strong>upgraded and equipped</strong> to provide <strong>24x7 Comprehensive Emergency Obstetric Care (CEmOC)</strong>. It is the first point of referral for patients coming from Sub-centre or PHC level when they need emergency obstetric or surgical care.
+    A <strong>First Referral Unit (FRU)</strong> is a health facility (usually CHC or Sub-district hospital) that is <strong>upgraded and equipped</strong> to provide <strong>24x7 Comprehensive Emergency Obstetric Care (CEmOC)</strong>. It is the first point of referral for patients coming from Sub-centre or PHC level when they need emergency obstetric or surgical care.<br><br>
+    <strong>Simple words:</strong> An FRU is the "next bigger hospital" a village mother is sent to when her small Sub-centre or PHC cannot handle the emergency &mdash; because the FRU has an operation theatre, blood, and a specialist ready 24 hours a day.
   </div>
 </div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> A mother in a village starts bleeding heavily after delivery at the PHC. The PHC has no blood and no operation theatre. The ASHA and ANM quickly shift her to the nearby CHC that is an <strong>FRU</strong> &mdash; there a doctor gives blood and does surgery, and her life is saved. That is exactly why FRUs exist.</div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Criteria for a Facility to be Designated as FRU</h3>
@@ -800,6 +876,24 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
 </div>
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">FRU</span><span class="kw">CEmOC</span><span class="kw">CHC</span><span class="kw">C-section</span><span class="kw">Blood transfusion</span><span class="kw">SNCU</span><span class="kw">24x7</span><span class="kw">Referral</span></div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Where Does the FRU Sit in the Referral Chain?</h3>
+  <div class="flowchart">
+    <div class="flowchart-title">Flowchart: Journey of an Emergency Case to the FRU</div>
+    <div class="flowchart-container">
+      <div class="flow-box highlight">Home / Village &mdash; ASHA spots a danger sign (heavy bleeding, fits, obstructed labour)</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Sub-centre (ANM) &mdash; first check; gives first aid, refers up if serious</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">PHC &mdash; gives basic emergency care (BEmOC: drugs only, NO surgery)</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box highlight">FRU / CHC &mdash; full CEmOC: C-section + blood transfusion + sick-newborn care, 24x7</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">District Hospital &mdash; if even higher-level care is needed</div>
+    </div>
+  </div>
+</div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
@@ -831,6 +925,7 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
   <h3 class="answer-section-title">Definition of Maternal Death</h3>
   <div class="definition-box">
     <strong>Maternal death</strong> (WHO definition) is the <strong>death of a woman while pregnant or within 42 days of termination of pregnancy</strong> (whether delivery, abortion, or ectopic), from any cause related to or aggravated by the pregnancy or its management &mdash; but NOT from accidental or incidental causes.<br><br>
+    <strong>Simple words:</strong> If a woman dies because of something to do with her pregnancy or delivery &mdash; either while she is pregnant or within about 6 weeks (42 days) after &mdash; it is called a maternal death. A death from a road accident during pregnancy does NOT count.<br><br>
     <strong>India's MMR (2019-21):</strong> 97 per 1,00,000 live births. <strong>Target:</strong> &lt;70 by 2030 (SDG).
   </div>
 </div>
@@ -876,6 +971,8 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
 </div>
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Maternal death</span><span class="kw">MMR</span><span class="kw">PPH</span><span class="kw">Eclampsia</span><span class="kw">Sepsis</span><span class="kw">Anaemia</span><span class="kw">42 days</span><span class="kw">Direct causes</span><span class="kw">Indirect causes</span></div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> A young mother in a village is already weak with anaemia (low Hb). After delivery she bleeds heavily (PPH). Because she started with low blood, even a little extra bleeding is too much for her body to bear. This shows how two causes &mdash; <strong>anaemia + haemorrhage</strong> &mdash; often join hands. The good news: both are preventable with IFA tablets, ANC check-ups, and hospital delivery. That is why nurses say <strong>"most maternal deaths are preventable."</strong></div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
@@ -969,6 +1066,8 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">UIP</span><span class="kw">BCG</span><span class="kw">OPV</span><span class="kw">Pentavalent</span><span class="kw">MR vaccine</span><span class="kw">DPT</span><span class="kw">TT</span><span class="kw">Cold chain</span><span class="kw">12 diseases</span></div>
 
+<div class="editorial-example"><strong>Relatable Example:</strong> Think of the schedule like a child's "protection timetable," just like a school timetable. At birth the baby gets the first three shields (BCG, OPV-0, Hep B). At 6, 10, 14 weeks come the repeat doses (like revision classes) that make the protection strong. At 9 months the measles shield, and boosters later to "top up" the protection before it fades. Follow the timetable and the child stays protected against all 12 diseases &mdash; miss a class and there is a gap.</div>
+
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
   <li><span class="term">UIP</span> Universal Immunisation Programme &mdash; India's free vaccine programme</li>
@@ -1002,9 +1101,12 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Expanded Programme on Immunization (EPI)</h3>
   <div class="definition-box">
-    <strong>EPI (Expanded Programme on Immunization)</strong> was launched by <strong>WHO in 1974</strong> with the goal of providing vaccines against 6 childhood diseases to all children in the world. The word "Expanded" means the programme EXPANDED coverage from just smallpox to many more diseases.
+    <strong>EPI (Expanded Programme on Immunization)</strong> was launched by <strong>WHO in 1974</strong> with the goal of providing vaccines against 6 childhood diseases to all children in the world. The word "Expanded" means the programme EXPANDED coverage from just smallpox to many more diseases.<br><br>
+    <strong>Simple words:</strong> First the world had a vaccine only for smallpox. EPI said &mdash; "let us not stop at one, let us EXPAND and protect every child from many killer diseases." That is why it is called the <em>Expanded</em> programme.
   </div>
 </div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> Think of EPI like a shop that first sold only one medicine (smallpox vaccine). Slowly it added more and more medicines on its shelf &mdash; TB, polio, measles &mdash; until every child could get all of them free. India joined this shop in 1978 (6 cities), opened branches in every district in 1985 (UIP), and today stocks vaccines for 12 diseases.</div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">History and Evolution in India</h3>
@@ -1076,6 +1178,23 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
   <h3 class="answer-section-title teal-title">Cold Chain &mdash; In Detail</h3>
   <div class="definition-box">
     <strong>Cold chain</strong> is the <strong>system of storage, transport, and distribution of vaccines</strong> maintaining the required temperature throughout &mdash; from the manufacturer to the child who receives the vaccine. Breaking the cold chain destroys the vaccine.
+  </div>
+
+  <div class="flowchart">
+    <div class="flowchart-title">Flowchart: Cold Chain Flow &mdash; Factory to Child's Arm</div>
+    <div class="flowchart-container">
+      <div class="flow-box highlight">Manufacturer (vaccine made)</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">National / State store &mdash; Walk-in Freezer (WIF) &amp; Walk-in Cooler (WIC)</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">District store &mdash; ILR + Deep Freezer</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">PHC &mdash; ILR + Deep Freezer</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Sub-centre / outreach &mdash; Vaccine carrier with frozen ice packs (6&ndash;8 hrs)</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box highlight">Child gets the vaccine &mdash; still potent because cold was never broken</div>
+    </div>
   </div>
 
   <p style="margin-top:10px;"><strong>Required temperature for vaccines:</strong></p>
@@ -1241,7 +1360,23 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Under-Five Clinic (Well-Baby Clinic)</h3>
   <div class="definition-box">
-    <strong>Under-Five Clinic</strong> is a <strong>special outpatient clinic organised for children below 5 years of age</strong> at a PHC, CHC, or urban health centre. The clinic aims to promote health, prevent disease, and provide early treatment to reduce child mortality (especially IMR and under-5 mortality rate).
+    <strong>Under-Five Clinic</strong> is a <strong>special outpatient clinic organised for children below 5 years of age</strong> at a PHC, CHC, or urban health centre. The clinic aims to promote health, prevent disease, and provide early treatment to reduce child mortality (especially IMR and under-5 mortality rate).<br><br>
+    <strong>Simple words:</strong> It is a "one-stop shop" for small children under 5. Instead of the mother running to many places, everything a young child needs &mdash; weighing, vaccines, medicines, and feeding advice &mdash; is given at one clinic under one roof.
+  </div>
+</div>
+
+<div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">Easy Way to Remember &mdash; The "5 Cs" of Under-Five Care</h3>
+  <div class="mnemonic-box">
+    <div class="mnemonic-label">Under-Five Clinic = the 5 Cs</div>
+    <div class="mnemonic-word"><span>C</span>-<span>C</span>-<span>C</span>-<span>C</span>-<span>C</span></div>
+    <div class="mnemonic-explain">
+      <strong>C</strong> = Care of the child in illness (diarrhoea, ARI treatment)<br>
+      <strong>C</strong> = Care in growth &amp; development (growth chart weighing)<br>
+      <strong>C</strong> = Care in nutrition (Vitamin A, IFA, feeding advice)<br>
+      <strong>C</strong> = Combating communicable disease (immunisation)<br>
+      <strong>C</strong> = Counselling &amp; health education of the mother
+    </div>
   </div>
 </div>
 
@@ -1276,6 +1411,8 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Under-Five Clinic</span><span class="kw">Growth monitoring</span><span class="kw">WHO growth chart</span><span class="kw">MUAC</span><span class="kw">Immunisation</span><span class="kw">Vitamin A</span><span class="kw">SAM</span><span class="kw">IMNCI</span><span class="kw">NRC</span></div>
 
+<div class="editorial-example"><strong>Relatable Example:</strong> A mother brings her 2-year-old to the Under-Five Clinic. The nurse weighs him and plots it on the growth chart &mdash; the line is going flat (growth faltering). In the same visit she gives his due vaccine, hands out Vitamin A, teaches the mother a cheap high-energy home food, and asks her to come back next month. One clinic visit did the work of four separate trips &mdash; that is the beauty of the Under-Five Clinic.</div>
+
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
   <li><span class="term">MUAC</span> Mid Upper Arm Circumference &mdash; arm measurement to assess malnutrition; &lt;11.5 cm = SAM in children</li>
@@ -1308,6 +1445,8 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
     The <strong>WHO Growth Chart</strong> is a graphical tool used to <strong>monitor the growth of a child from birth to 5 years</strong> by plotting weight against age. It shows whether a child is growing normally or is malnourished. The chart was developed by WHO using data from children growing up in optimal conditions worldwide (WHO 2006 Growth Standards).
   </div>
 </div>
+
+<div data-diagram="growthChart"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Understanding the Chart</h3>
@@ -1420,9 +1559,12 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Mid-Day Meal (MDM) Programme</h3>
   <div class="definition-box">
-    The <strong>National Programme of Nutritional Support to Primary Education (Mid-Day Meal Scheme)</strong> was launched nationally in <strong>1995</strong>. It provides a <strong>free, cooked nutritious meal</strong> to all children studying in government and government-aided primary and upper primary schools (Classes I-VIII) every school day.
+    The <strong>National Programme of Nutritional Support to Primary Education (Mid-Day Meal Scheme)</strong> was launched nationally in <strong>1995</strong>. It provides a <strong>free, cooked nutritious meal</strong> to all children studying in government and government-aided primary and upper primary schools (Classes I-VIII) every school day.<br><br>
+    <strong>Simple words:</strong> A hungry child cannot study. So the government gives every school child one hot, free, filling meal in the middle of the school day &mdash; this fills the stomach, brings children to school, and keeps them there. It is now renamed <strong>PM POSHAN</strong>.
   </div>
 </div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> A poor family cannot always give the child a proper lunch. Earlier the child would sit hungry in class, unable to focus, and often skipped school. After the Mid-Day Meal started, the same child comes daily &mdash; because a guaranteed hot meal is waiting. One free plate of food quietly solves three problems at once: hunger, poor attendance, and dropping out.</div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Objectives</h3>
@@ -1512,6 +1654,8 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">ICDS</span><span class="kw">MDM</span><span class="kw">POSHAN Abhiyaan</span><span class="kw">IFA</span><span class="kw">Vitamin A</span><span class="kw">Malnutrition</span><span class="kw">Anganwadi</span></div>
 
+<div class="editorial-example"><strong>Relatable Example:</strong> Follow one girl through her life and every programme touches her. As a small child she gets a hot meal and weighing at the <strong>Anganwadi (ICDS)</strong>. In school she eats a free lunch (<strong>MDM</strong>) and swallows a weekly iron tablet (<strong>IFA</strong>). At home her family gets free grains (<strong>PMGKAY</strong>) and iodised salt (<strong>NIDDCP</strong>). Together these programmes form a safety net so no stage of her life goes hungry.</div>
+
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
   <li><span class="term">POSHAN Abhiyaan</span> PM's Overarching Scheme for Holistic Nutrition &mdash; India's flagship anti-malnutrition mission (2018)</li>
@@ -1560,6 +1704,8 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
 </div>
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">Exclusive breastfeeding</span><span class="kw">Complementary feeding</span><span class="kw">Vitamin A</span><span class="kw">IFA</span><span class="kw">De-worming</span><span class="kw">WASH</span><span class="kw">ICDS</span><span class="kw">POSHAN Abhiyaan</span></div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> Preventing malnutrition is like keeping a plant healthy &mdash; it is not one thing but many small things done together. Good water (clean drinking water), good soil (proper food), sunlight (Vitamin A and micronutrients), and pulling out weeds (de-worming and treating infections). Miss any one and the plant weakens. That is why the nurse works on feeding, hygiene, and supplements all at the same time.</div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>
@@ -1734,6 +1880,22 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
     <li><strong>Referral:</strong> Refers adolescents with SAM, severe anaemia, mental health issues, substance abuse, and reproductive health problems to appropriate services.</li>
     <li><strong>Records:</strong> Maintains RKSK register; tracks all adolescents in the health facility catchment area.</li>
   </ol>
+  <div class="flowchart">
+    <div class="flowchart-title">Flowchart: How an Adolescent Moves Through AFHS Clinic</div>
+    <div class="flowchart-container">
+      <div class="flow-box highlight">Adolescent walks in (or referred by Saathiya peer educator / teacher)</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Private, confidential registration &mdash; no parent needed, non-judgmental setting</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Assessment &mdash; weight, height, BMI, Hb + HEADSS psychosocial screen</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Weekly IFA given + counselling (nutrition, menstrual hygiene, mental health)</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Treat simple problems (anaemia, dysmenorrhoea) as per standing orders</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box highlight">Serious issue (severe anaemia, depression, abuse) &rarr; refer to MO / specialist</div>
+    </div>
+  </div>
 </div>
 
 <div class="conclusion-box"><strong>Conclusion:</strong> Adolescence is a critical window of opportunity. Investing in adolescent health today creates healthy adults tomorrow. The community health nurse, through AFHS and RKSK, is uniquely positioned to make a positive, lasting impact on this vulnerable age group.</div>
@@ -1769,9 +1931,12 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Women and Child Abuse</h3>
   <div class="definition-box">
-    <strong>Abuse</strong> is any act or failure to act that causes harm, threat of harm, or injury to a woman or child. It can be physical, emotional, sexual, or through neglect.
+    <strong>Abuse</strong> is any act or failure to act that causes harm, threat of harm, or injury to a woman or child. It can be physical, emotional, sexual, or through neglect.<br><br>
+    <strong>Simple words:</strong> Abuse is when someone hurts a woman or child &mdash; by hitting, frightening, touching wrongly, or by simply not giving the care they need. "Failure to act" means even ignoring a child's basic needs (food, safety, love) is a form of abuse.
   </div>
 </div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> A child keeps coming to the Anganwadi with fresh bruises and flinches whenever an adult raises a hand. The mother gives a different story each time. A trained nurse does not brush this off &mdash; she gently talks to the child in private, records what she sees, and links the family to a One Stop Centre. Noticing the quiet signs is often what saves the victim.</div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Types of Abuse</h3>
@@ -1892,6 +2057,24 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
 </div>
 
 <div class="answer-section animate-slide-up">
+  <h3 class="answer-section-title teal-title">How RBSK Screening Works in Schools</h3>
+  <div class="flowchart">
+    <div class="flowchart-title">Flowchart: RBSK Screening &rarr; Free Treatment Pathway</div>
+    <div class="flowchart-container">
+      <div class="flow-box highlight">RBSK Mobile Health Team visits the school (twice a year)</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Screen every child for the 4Ds &mdash; Defects at birth, Deficiencies, Diseases, Developmental delays</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Child found normal &rarr; recorded, continue routine care</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Child found with a problem &rarr; referred to DEIC (District Early Intervention Centre)</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box highlight">Free treatment / surgery (e.g. heart defect, cleft lip, glasses, hearing aid) &mdash; family pays nothing</div>
+    </div>
+  </div>
+</div>
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Role of Community Health Nurse in School Health</h3>
   <ol class="answer-points">
     <li><strong>Health Appraisal:</strong> Conducts annual/biannual health screening &mdash; vision, hearing, dental, BMI, BP, Hb; records findings in health record card.</li>
@@ -1993,9 +2176,12 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Family Health Assessment</h3>
   <div class="definition-box">
-    <strong>Family Health Assessment</strong> is a <strong>systematic, comprehensive collection, analysis, and interpretation of data</strong> about the health status of all family members and the family as a unit &mdash; including their physical, mental, social, and environmental health &mdash; to identify health needs and plan appropriate care.
+    <strong>Family Health Assessment</strong> is a <strong>systematic, comprehensive collection, analysis, and interpretation of data</strong> about the health status of all family members and the family as a unit &mdash; including their physical, mental, social, and environmental health &mdash; to identify health needs and plan appropriate care.<br><br>
+    <strong>Simple words:</strong> Before a nurse can help a family, she must first fully "know" that family &mdash; who lives there, who is sick, what they eat, where they get water, how they live. Family Health Assessment is this careful "getting to know the whole family" step &mdash; the family is treated as ONE unit, not just separate patients.
   </div>
 </div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> A doctor checks one patient; a community health nurse checks the whole household. On a home visit she notices the grandmother has untreated BP, a child missed a vaccine, the pregnant daughter-in-law is anaemic, and the drinking water comes from an open pond. One visit reveals four problems &mdash; that is the power of assessing the <strong>family as a unit</strong>.</div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Areas Assessed in Family Health Assessment</h3>
@@ -2177,6 +2363,24 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
     <li><strong>Recording station:</strong> Update all registers and health cards before client leaves.</li>
     <li><strong>Referral station:</strong> Cases needing further care &mdash; fill referral slip; escort if needed.</li>
   </ol>
+  <div class="flowchart">
+    <div class="flowchart-title">Flowchart: How a Client Moves Through the Clinic Stations</div>
+    <div class="flowchart-container">
+      <div class="flow-box highlight">Reception / Waiting &mdash; token given</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Registration &mdash; details recorded, card issued</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Assessment &mdash; weight, BP, Hb, examination</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Treatment / Vaccination &mdash; injection or vaccine given</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Counselling + Drug dispensing &mdash; advice, IFA/ORS</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box">Observation (30 min for AEFI) &rarr; Recording</div>
+      <div class="flow-arrow">&darr;</div>
+      <div class="flow-box highlight">Refer if needed, else client goes home</div>
+    </div>
+  </div>
 </div>
 
 <div class="answer-section animate-slide-up">
