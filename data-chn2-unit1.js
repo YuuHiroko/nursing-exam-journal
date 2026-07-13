@@ -51,7 +51,12 @@ window.QUESTIONS_DATA_CHN2_UNIT1 = [
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box animate-scale-in">
-    <strong>Warning signs</strong> are <strong>early symptoms or clinical features<<div class="answer-section animate-slide-up">
+    <strong>Warning signs</strong> are <strong>early symptoms or clinical features</strong> that indicate a disease is progressing towards a serious or life-threatening stage. They serve as an alert to seek immediate medical attention before the condition becomes an emergency.<br><br>
+    <strong>Simple words:</strong> Warning signs = the body saying "I am in trouble — please help me now!"
+  </div>
+</div>
+
+<div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Warning Signs — Organised by Body System</h3>
   <p style="margin:0 0 10px 0; color:var(--text-secondary); font-size:0.93em;">The CHN-II syllabus groups conditions by system — GI &rarr; Respiratory &rarr; Heart &amp; Blood &rarr; Eye &amp; ENT &rarr; Urinary &rarr; Communicable &rarr; Cancer &rarr; Diabetes &rarr; Obstetric.</p>
   <div class="answer-table-wrap"><table class="answer-table">
