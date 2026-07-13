@@ -209,7 +209,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 '107': 'NRS UNIT VII: INTRODUCTION TO STATISTICS',
                 '108': 'NRS UNIT VIII: COMMUNICATION & UTILIZATION OF RESEARCH',
                 // CHN-II — Community Health Nursing - II
-                '201': 'CHN-II UNIT I: COMMON CONDITIONS, EMERGENCIES & FIRST AID'
+                '201': 'CHN-II UNIT I: COMMON CONDITIONS, EMERGENCIES & FIRST AID',
+                '202': 'CHN-II UNIT II: REPRODUCTIVE, MATERNAL, NEWBORN, CHILD & ADOLESCENT HEALTH'
             };
             sectionTitle.textContent = unitNames[activeUnit] || 'UNIT ' + activeUnit;
             sectionSubtitle.textContent = currentQuestions.length + ' questions';
