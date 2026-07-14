@@ -1682,6 +1682,324 @@ window.DIAGRAMS = {
       +'</svg>'
       +'<div class="diagram-key"><strong>Every vaccine has a safe zone.</strong> <span style="color:#2563eb">Freezer (-15 to -25°C)</span> for OPV, BCG, Measles. <span style="color:#16a34a">Fridge (+2 to +8°C)</span> for DPT/Penta/Hep-B/TT — <strong>freezing destroys these!</strong> <span style="color:#ef4444">Above +8°C</span> = heat damage; the VVM sticker turns dark and the vial must be discarded. The cold chain keeps vaccines in their zone from factory to child.</div>'
     +'</div>';
+  },
+
+  // ─── CHN2-U3. DEMOGRAPHIC TRANSITION — birth & death rate curves crossing over 4 stages ───
+  demographicTransition: function () {
+    var W=560,x0=50,x1=530,y0=30,yB=240,maxR=50;
+    var stages=['Stage 1\\nHigh Stationary','Stage 2\\nEarly Expanding','Stage 3\\nLate Expanding','Stage 4\\nLow Stationary'];
+    var birth=[42,42,30,13], death=[40,26,13,11];
+    function px(i){ return x0+(i/3)*(x1-x0); }
+    function py(r){ return yB-(r/maxR)*(yB-y0); }
+    function line(vals){ var s=''; for(var i=0;i<vals.length;i++){ s+=(i?' ':'')+px(i).toFixed(0)+','+py(vals[i]).toFixed(0); } return s; }
+    var svg='';
+    // stage bands + labels
+    for(var i=0;i<4;i++){ var bx=x0+(i/4)*(x1-x0), bw=(x1-x0)/4;
+      svg+='<rect x="'+bx+'" y="'+y0+'" width="'+bw+'" height="'+(yB-y0)+'" fill="'+(i%2?'#f1f5f9':'#f8fafc')+'"/>';
+      var parts=stages[i].split('\\n');
+      svg+='<text x="'+(bx+bw/2)+'" y="'+(yB+18)+'" text-anchor="middle" fill="#475569" font-size="9" font-weight="700">'+parts[0]+'</text>'
+        +'<text x="'+(bx+bw/2)+'" y="'+(yB+30)+'" text-anchor="middle" fill="#94a3b8" font-size="7.5">'+parts[1]+'</text>'; }
+    svg+='<line x1="'+x0+'" y1="'+y0+'" x2="'+x0+'" y2="'+yB+'" stroke="#94a3b8" stroke-width="1.5"/>'
+      +'<line x1="'+x0+'" y1="'+yB+'" x2="'+x1+'" y2="'+yB+'" stroke="#94a3b8" stroke-width="1.5"/>';
+    // gap between the curves shaded = population growth
+    svg+='<polygon points="'+line(birth)+' '+px(3).toFixed(0)+','+py(death[3]).toFixed(0)+' '+px(2).toFixed(0)+','+py(death[2]).toFixed(0)+' '+px(1).toFixed(0)+','+py(death[1]).toFixed(0)+' '+px(0).toFixed(0)+','+py(death[0]).toFixed(0)+'" fill="#22c55e" fill-opacity="0.12"/>';
+    svg+='<polyline points="'+line(birth)+'" fill="none" stroke="#ef4444" stroke-width="3"><animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/></polyline>'
+      +'<polyline points="'+line(death)+'" fill="none" stroke="#2563eb" stroke-width="3"><animate attributeName="stroke-opacity" values="0.5;1;0.5" dur="3s" begin="0.5s" repeatCount="indefinite"/></polyline>'
+      +'<text x="'+(px(0)+6)+'" y="'+(py(birth[0])-6)+'" fill="#ef4444" font-size="10" font-weight="700">Birth rate</text>'
+      +'<text x="'+(px(0)+6)+'" y="'+(py(death[0])+16)+'" fill="#2563eb" font-size="10" font-weight="700">Death rate</text>'
+      +'<text x="'+px(2)+'" y="'+(py(30)-20)+'" text-anchor="middle" fill="#16a34a" font-size="9" font-weight="700">gap = population growth</text>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">📉 Animated: Demographic Transition — 4 Stages</div>'
+      +'<svg viewBox="0 0 '+W+' 285" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'+svg+'</svg>'
+      +'<div class="diagram-key"><strong>Both rates start high, then fall at different times.</strong> Stage 1: high birth &amp; death (slow growth). Stage 2: death rate <span style="color:#2563eb">drops</span> first (fast growth — India was here). Stage 3: birth rate <span style="color:#ef4444">falls</span> too (growth slows). Stage 4: both low (stable). The <span style="color:#16a34a">green gap</span> between the curves = how fast the population is growing.</div>'
+    +'</div>';
+  },
+
+  // ─── CHN2-U3. EPIDEMIOLOGICAL TRIAD — Host / Agent / Environment triangle ───
+  epidemiologicalTriad: function () {
+    var W=520,cx=260,ax=[260,120,400],ay=[60,250,250];
+    var nodes=[
+      {t:'AGENT',s:'the CAUSE',ex:'bacteria · virus · toxin · deficiency',c:'#ef4444'},
+      {t:'HOST',s:'the PERSON',ex:'age · immunity · habits · genetics',c:'#2563eb'},
+      {t:'ENVIRONMENT',s:'the SURROUNDINGS',ex:'water · sanitation · climate · crowding',c:'#16a34a'}
+    ];
+    var svg='<polygon points="'+ax[0]+','+ay[0]+' '+ax[1]+','+ay[1]+' '+ax[2]+','+ay[2]+'" fill="none" stroke="#cbd5e1" stroke-width="2.5" stroke-dasharray="7 5"><animate attributeName="stroke-dashoffset" values="0;24" dur="2s" repeatCount="indefinite"/></polygon>';
+    // balance dot in the centre
+    svg+='<circle cx="'+cx+'" cy="190" r="7" fill="#f59e0b"><animate attributeName="r" values="5;9;5" dur="2s" repeatCount="indefinite"/></circle>'
+      +'<text x="'+cx+'" y="'+178+'" text-anchor="middle" fill="#d97706" font-size="8" font-weight="700">balance = health</text>';
+    for(var i=0;i<3;i++){ var n=nodes[i],delay=(i*0.4).toFixed(1);
+      svg+='<circle cx="'+ax[i]+'" cy="'+ay[i]+'" r="42" fill="'+n.c+'" fill-opacity="0.14" stroke="'+n.c+'" stroke-width="3">'
+        +'<animate attributeName="fill-opacity" values="0.08;0.26;0.08" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></circle>'
+        +'<text x="'+ax[i]+'" y="'+(ay[i]-4)+'" text-anchor="middle" fill="'+n.c+'" font-size="12" font-weight="700">'+n.t+'</text>'
+        +'<text x="'+ax[i]+'" y="'+(ay[i]+10)+'" text-anchor="middle" fill="'+n.c+'" font-size="8" font-weight="600">'+n.s+'</text>'
+        +'<text x="'+ax[i]+'" y="'+(ay[i]+(i?58:-52))+'" text-anchor="middle" fill="#64748b" font-size="7.5" font-family="monospace">'+n.ex+'</text>'; }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🔺 Animated: Epidemiological Triad</div>'
+      +'<svg viewBox="0 0 '+W+' 330" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'+svg+'</svg>'
+      +'<div class="diagram-key"><strong>Disease needs all 3 corners to meet.</strong> <span style="color:#ef4444">Agent</span> (the germ/cause) + <span style="color:#2563eb">Host</span> (the person&apos;s body &amp; defences) + <span style="color:#16a34a">Environment</span> (water, crowding, climate). When these three are in <span style="color:#d97706">balance</span> the person stays healthy; tip the balance (weak host, dirty environment, strong agent) and disease appears. Break any one corner to stop the disease.</div>'
+    +'</div>';
+  },
+
+  // ─── CHN2-U3. CHAIN OF INFECTION — 6 links in a circle with a travelling germ ───
+  diseaseTransmission: function () {
+    var W=520,cx=260,cy=180,R=130,n=6;
+    var links=[
+      {t:'Infectious Agent',ex:'bacteria · virus',c:'#ef4444'},
+      {t:'Reservoir',ex:'human · animal · soil',c:'#f59e0b'},
+      {t:'Portal of Exit',ex:'cough · stool · blood',c:'#eab308'},
+      {t:'Mode of Transmission',ex:'air · water · contact · vector',c:'#22c55e'},
+      {t:'Portal of Entry',ex:'mouth · nose · skin',c:'#0ea5e9'},
+      {t:'Susceptible Host',ex:'low immunity · young · old',c:'#6366f1'}
+    ];
+    var svg='',pathPts=[];
+    for(var i=0;i<n;i++){ var ang=(-90+i*(360/n))*Math.PI/180, x=cx+R*Math.cos(ang), y=cy+R*Math.sin(ang); pathPts.push([x,y]); }
+    // arrows between consecutive links (curved via straight for simplicity)
+    for(var i=0;i<n;i++){ var a=pathPts[i],b=pathPts[(i+1)%n];
+      svg+='<line x1="'+a[0].toFixed(0)+'" y1="'+a[1].toFixed(0)+'" x2="'+b[0].toFixed(0)+'" y2="'+b[1].toFixed(0)+'" stroke="#cbd5e1" stroke-width="2" marker-end="url(#cia)"/>'; }
+    // travelling germ around the loop
+    var mpath='M'+pathPts.map(function(p){return p[0].toFixed(0)+','+p[1].toFixed(0);}).join(' L')+' Z';
+    svg+='<circle r="7" fill="#dc2626"><animateMotion dur="7s" repeatCount="indefinite" path="'+mpath+'"/></circle>';
+    for(var i=0;i<n;i++){ var p=pathPts[i],l=links[i],delay=(i*0.5).toFixed(1);
+      svg+='<circle cx="'+p[0].toFixed(0)+'" cy="'+p[1].toFixed(0)+'" r="30" fill="'+l.c+'" fill-opacity="0.15" stroke="'+l.c+'" stroke-width="2.5">'
+        +'<animate attributeName="fill-opacity" values="0.1;0.28;0.1" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></circle>'
+        +'<text x="'+p[0].toFixed(0)+'" y="'+(p[1]-2).toFixed(0)+'" text-anchor="middle" fill="'+l.c+'" font-size="8.5" font-weight="700">'+(i+1)+'</text>'
+        +'<text x="'+p[0].toFixed(0)+'" y="'+(p[1]+10).toFixed(0)+'" text-anchor="middle" fill="#64748b" font-size="6.5" font-family="monospace">'+l.ex+'</text>'
+        +'<text x="'+p[0].toFixed(0)+'" y="'+(p[1]+(p[1]<cy?-36:44)).toFixed(0)+'" text-anchor="middle" fill="'+l.c+'" font-size="8.5" font-weight="700">'+l.t+'</text>'; }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🔗 Animated: Chain of Infection</div>'
+      +'<svg viewBox="0 0 '+W+' 360" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'
+        +'<defs><marker id="cia" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker></defs>'
+        +svg
+      +'</svg>'
+      +'<div class="diagram-key"><strong>Infection spreads as an unbroken loop.</strong> Agent → Reservoir → Portal of Exit → Mode of Transmission → Portal of Entry → Susceptible Host → back to a new Agent. The red germ travels the whole chain. <strong>Nursing goal:</strong> break ANY one link — kill the agent, isolate the reservoir, hand-washing (exit/entry), vector control, or immunise the host — and transmission stops.</div>'
+    +'</div>';
+  },
+
+  // ─── CHN2-U3. VITAL STATISTICS INDICATORS — gauges for India's key rates ───
+  vitalStatsIndicators: function () {
+    var W=520,rows=[
+      {k:'CBR',n:'Crude Birth Rate',val:19.5,max:40,unit:'/1000 pop',tgt:21,c:'#22c55e'},
+      {k:'CDR',n:'Crude Death Rate',val:6.0,max:40,unit:'/1000 pop',tgt:9,c:'#0ea5e9'},
+      {k:'IMR',n:'Infant Mortality Rate',val:28,max:100,unit:'/1000 live births',tgt:25,c:'#f59e0b'},
+      {k:'MMR',n:'Maternal Mortality Ratio',val:97,max:300,unit:'/100000 live births',tgt:70,c:'#ef4444'}
+    ];
+    var barX=150,barW=300,svg='';
+    for(var i=0;i<rows.length;i++){ var r=rows[i],y=30+i*62,delay=(i*0.3).toFixed(1);
+      var w=(r.val/r.max)*barW, tx=barX+(r.tgt/r.max)*barW;
+      svg+='<text x="20" y="'+(y+16)+'" fill="'+r.c+'" font-size="15" font-weight="700">'+r.k+'</text>'
+        +'<text x="20" y="'+(y+30)+'" fill="#64748b" font-size="7.5">'+r.n+'</text>'
+        +'<rect x="'+barX+'" y="'+y+'" width="'+barW+'" height="22" rx="11" fill="#e2e8f0"/>'
+        +'<rect x="'+barX+'" y="'+y+'" width="0" height="22" rx="11" fill="'+r.c+'"><animate attributeName="width" values="0;'+w.toFixed(0)+'" dur="1.4s" begin="'+delay+'s" fill="freeze"/></rect>'
+        +'<line x1="'+tx.toFixed(0)+'" y1="'+(y-4)+'" x2="'+tx.toFixed(0)+'" y2="'+(y+26)+'" stroke="#0f172a" stroke-width="2" stroke-dasharray="3 2"/>'
+        +'<text x="'+tx.toFixed(0)+'" y="'+(y-7)+'" text-anchor="middle" fill="#0f172a" font-size="7">target '+r.tgt+'</text>'
+        +'<text x="'+(barX+barW+8)+'" y="'+(y+16)+'" fill="'+r.c+'" font-size="12" font-weight="700">'+r.val+'</text>'; }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">📊 Animated: India&apos;s Vital Statistics (approx. current)</div>'
+      +'<svg viewBox="0 0 '+W+' 280" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'+svg+'</svg>'
+      +'<div class="diagram-key"><strong>Vital rates tell the health of a population.</strong> <span style="color:#22c55e">CBR</span> ≈ 19.5 and <span style="color:#0ea5e9">CDR</span> ≈ 6 per 1000. <span style="color:#f59e0b">IMR</span> ≈ 28 per 1000 live births (SDG target &lt;25). <span style="color:#ef4444">MMR</span> ≈ 97 per 1,00,000 live births (target &lt;70 by 2030). The dashed line marks the goal — bars falling below it = success. (Values shift yearly; quote latest SRS.)</div>'
+    +'</div>';
+  },
+
+  // ─── CHN2-U3. IDSP REPORTING — surveillance flow PHC → District → State → National ───
+  idspReporting: function () {
+    var W=520,levels=[
+      {t:'Sub-centre / PHC',s:'reporting units fill S · P · L forms',c:'#22c55e'},
+      {t:'District Surveillance Unit (DSU)',s:'compiles data, detects outbreaks early',c:'#0ea5e9'},
+      {t:'State Surveillance Unit (SSU)',s:'analyses trends, alerts districts',c:'#6366f1'},
+      {t:'Central Surveillance Unit (CSU / NCDC)',s:'national picture, rapid response',c:'#ef4444'}
+    ];
+    var svg='',bW=380,x=(W-bW)/2,y0=20,bH=52,gap=22;
+    for(var i=0;i<levels.length;i++){ var L=levels[i],y=y0+i*(bH+gap),delay=(i*0.4).toFixed(1);
+      if(i<levels.length-1){ var ny=y+bH; svg+='<line x1="'+(W/2)+'" y1="'+ny+'" x2="'+(W/2)+'" y2="'+(ny+gap)+'" stroke="#94a3b8" stroke-width="2" marker-end="url(#ida)"><animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></line>'; }
+      svg+='<rect x="'+x+'" y="'+y+'" width="'+bW+'" height="'+bH+'" rx="10" fill="'+L.c+'" fill-opacity="0.13" stroke="'+L.c+'" stroke-width="2.5">'
+        +'<animate attributeName="fill-opacity" values="0.08;0.22;0.08" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></rect>'
+        +'<text x="'+(W/2)+'" y="'+(y+23)+'" text-anchor="middle" fill="'+L.c+'" font-size="12" font-weight="700">'+L.t+'</text>'
+        +'<text x="'+(W/2)+'" y="'+(y+40)+'" text-anchor="middle" fill="#64748b" font-size="8.5">'+L.s+'</text>'; }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🖥️ Animated: IDSP Surveillance Reporting Flow</div>'
+      +'<svg viewBox="0 0 '+W+' 300" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'
+        +'<defs><marker id="ida" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker></defs>'
+        +svg
+      +'</svg>'
+      +'<div class="diagram-key"><strong>Data flows up, alerts flow down.</strong> Reporting units (SC/PHC) send <strong>S</strong>-form (Syndromic, by health worker), <strong>P</strong>-form (Presumptive, by doctor) and <strong>L</strong>-form (Laboratory confirmed) → <span style="color:#0ea5e9">District</span> → <span style="color:#6366f1">State</span> → <span style="color:#ef4444">Central (NCDC)</span>. The aim is <strong>early detection of outbreaks</strong> so response starts before a disease spreads.</div>'
+    +'</div>';
+  },
+
+  // ─── CHN2-U3. ENDEMIC → EPIDEMIC → PANDEMIC — spread scale with growing reach ───
+  endemicPandemicScale: function () {
+    var W=520,steps=[
+      {t:'Sporadic',s:'scattered single cases',c:'#94a3b8',r:8},
+      {t:'Endemic',s:'always present in an area',c:'#22c55e',r:20},
+      {t:'Epidemic',s:'sudden rise, many at once',c:'#f59e0b',r:34},
+      {t:'Pandemic',s:'across countries / world',c:'#ef4444',r:48}
+    ];
+    var svg='',n=steps.length;
+    for(var i=0;i<n;i++){ var s=steps[i],cx=70+i*140,cy=95,delay=(i*0.4).toFixed(1);
+      svg+='<circle cx="'+cx+'" cy="'+cy+'" r="'+s.r+'" fill="'+s.c+'" fill-opacity="0.2" stroke="'+s.c+'" stroke-width="2.5">'
+        +'<animate attributeName="r" values="'+(s.r-3)+';'+(s.r+3)+';'+(s.r-3)+'" dur="2.5s" begin="'+delay+'s" repeatCount="indefinite"/></circle>'
+        +'<text x="'+cx+'" y="'+(cy+62)+'" text-anchor="middle" fill="'+s.c+'" font-size="12" font-weight="700">'+s.t+'</text>'
+        +'<text x="'+cx+'" y="'+(cy+76)+'" text-anchor="middle" fill="#64748b" font-size="7.5">'+s.s+'</text>';
+      if(i<n-1){ svg+='<line x1="'+(cx+s.r+6)+'" y1="'+cy+'" x2="'+(70+(i+1)*140-steps[i+1].r-6)+'" y2="'+cy+'" stroke="#cbd5e1" stroke-width="2" marker-end="url(#epa)"/>'; } }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🌍 Animated: Sporadic → Endemic → Epidemic → Pandemic</div>'
+      +'<svg viewBox="0 0 '+W+' 190" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'
+        +'<defs><marker id="epa" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker></defs>'
+        +svg
+      +'</svg>'
+      +'<div class="diagram-key"><strong>The circles grow with geographic spread.</strong> <span style="color:#94a3b8">Sporadic</span> = odd scattered cases (e.g. tetanus). <span style="color:#22c55e">Endemic</span> = constantly present in an area (e.g. malaria in parts of India). <span style="color:#f59e0b">Epidemic</span> = sudden sharp rise above normal (e.g. cholera outbreak). <span style="color:#ef4444">Pandemic</span> = spreads across many countries (e.g. COVID-19).</div>'
+    +'</div>';
+  },
+
+  // ─── CHN2-U4. FAMILY PLANNING METHODS — tree: Temporary vs Permanent ───
+  familyPlanningMethods: function () {
+    var W=560,rootX=280,rootY=34;
+    var branches=[
+      {t:'TEMPORARY (Spacing)',c:'#2563eb',x:150,y:120,kids:[
+        {l:'Barrier',e:'condom · diaphragm'},
+        {l:'Hormonal',e:'OCP · injectable · implant'},
+        {l:'IUCD',e:'Cu-T 380A · LNG-IUS'},
+        {l:'Natural',e:'rhythm · LAM · withdrawal'}
+      ]},
+      {t:'PERMANENT (Terminal)',c:'#ef4444',x:420,y:120,kids:[
+        {l:'Tubectomy',e:'female sterilisation'},
+        {l:'Vasectomy',e:'male · NSV'}
+      ]}
+    ];
+    var svg='<circle cx="'+rootX+'" cy="'+rootY+'" r="26" fill="#0d9488" fill-opacity="0.15" stroke="#0d9488" stroke-width="2.5"><animate attributeName="fill-opacity" values="0.1;0.28;0.1" dur="3s" repeatCount="indefinite"/></circle>'
+      +'<text x="'+rootX+'" y="'+(rootY-2)+'" text-anchor="middle" fill="#0f766e" font-size="10" font-weight="700">FAMILY</text>'
+      +'<text x="'+rootX+'" y="'+(rootY+10)+'" text-anchor="middle" fill="#0f766e" font-size="10" font-weight="700">PLANNING</text>';
+    for(var b=0;b<branches.length;b++){ var br=branches[b],delay=(b*0.3).toFixed(1);
+      svg+='<line x1="'+rootX+'" y1="'+(rootY+26)+'" x2="'+br.x+'" y2="'+(br.y-22)+'" stroke="'+br.c+'" stroke-width="2"/>'
+        +'<rect x="'+(br.x-95)+'" y="'+(br.y-22)+'" width="190" height="34" rx="9" fill="'+br.c+'" fill-opacity="0.14" stroke="'+br.c+'" stroke-width="2.5"><animate attributeName="fill-opacity" values="0.08;0.24;0.08" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></rect>'
+        +'<text x="'+br.x+'" y="'+(br.y-1)+'" text-anchor="middle" fill="'+br.c+'" font-size="10.5" font-weight="700">'+br.t+'</text>';
+      for(var k=0;k<br.kids.length;k++){ var kid=br.kids[k],ky=br.y+34+k*40, kdelay=((b*0.3)+(k*0.2)).toFixed(1);
+        svg+='<line x1="'+br.x+'" y1="'+(br.y+12)+'" x2="'+(br.x-70)+'" y2="'+(ky+13)+'" stroke="'+br.c+'" stroke-width="1.2" stroke-opacity="0.5"/>'
+          +'<rect x="'+(br.x-70)+'" y="'+ky+'" width="150" height="30" rx="7" fill="'+br.c+'" fill-opacity="0.08" stroke="'+br.c+'" stroke-width="1.5">'
+          +'<animate attributeName="fill-opacity" values="0.05;0.18;0.05" dur="3s" begin="'+kdelay+'s" repeatCount="indefinite"/></rect>'
+          +'<text x="'+(br.x-62)+'" y="'+(ky+13)+'" fill="'+br.c+'" font-size="9" font-weight="700">'+kid.l+'</text>'
+          +'<text x="'+(br.x-62)+'" y="'+(ky+24)+'" fill="#64748b" font-size="7" font-family="monospace">'+kid.e+'</text>'; }
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🌳 Animated: Methods of Family Planning</div>'
+      +'<svg viewBox="0 0 '+W+' 300" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'+svg+'</svg>'
+      +'<div class="diagram-key"><strong>Two big families of methods.</strong> <span style="color:#2563eb">Temporary (spacing)</span> — used to delay or space births, and fully reversible: Barrier (condom), Hormonal (OCP, injectable), IUCD (Cu-T), Natural (rhythm/LAM). <span style="color:#ef4444">Permanent (terminal)</span> — one-time, for couples who want no more children: Tubectomy (female) &amp; Vasectomy/NSV (male). The nurse counsels the couple to choose freely — target-free.</div>'
+    +'</div>';
+  },
+
+  // ─── CHN2-U4. IUCD PLACEMENT — Cu-T inside the uterus ───
+  iucdPlacement: function () {
+    var W=420;
+    // simple uterus outline (inverted triangle body + cervix), Cu-T inside
+    var svg='<path d="M120,60 Q210,30 300,60 L300,70 Q300,150 240,210 Q210,240 210,255 Q210,240 180,210 Q120,150 120,70 Z" fill="#fce7f3" stroke="#db2777" stroke-width="3"/>'
+      // fallopian tubes
+      +'<path d="M120,66 Q70,55 55,80" fill="none" stroke="#db2777" stroke-width="3"/>'
+      +'<path d="M300,66 Q350,55 365,80" fill="none" stroke="#db2777" stroke-width="3"/>'
+      +'<circle cx="52" cy="84" r="9" fill="#fbcfe8" stroke="#db2777" stroke-width="2"/>'
+      +'<circle cx="368" cy="84" r="9" fill="#fbcfe8" stroke="#db2777" stroke-width="2"/>'
+      // cervix canal
+      +'<rect x="200" y="252" width="20" height="34" rx="5" fill="#fbcfe8" stroke="#db2777" stroke-width="2"/>'
+      // Cu-T device (drawn, then fades in via animation)
+      +'<g stroke="#0f766e" stroke-width="4" fill="none" stroke-linecap="round">'
+        +'<line x1="130" y1="86" x2="290" y2="86"><animate attributeName="stroke-dasharray" values="0 200;200 0" dur="1.4s" fill="freeze"/></line>'
+        +'<line x1="210" y1="86" x2="210" y2="200"><animate attributeName="stroke-dasharray" values="0 140;140 0" dur="1.4s" begin="0.6s" fill="freeze"/></line>'
+      +'</g>'
+      // copper coil hint + thread
+      +'<line x1="210" y1="200" x2="210" y2="284" stroke="#0f766e" stroke-width="1.6" stroke-dasharray="3 3"/>'
+      +'<text x="210" y="300" text-anchor="middle" fill="#0f766e" font-size="8">thread (check in vagina)</text>'
+      +'<text x="308" y="86" fill="#0f766e" font-size="11" font-weight="700">Cu-T 380A</text>'
+      // moving ovum/sperm blocked
+      +'<text x="210" y="130" text-anchor="middle" fill="#db2777" font-size="8" font-weight="700">Cu ions ✕ sperm</text>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🔬 Animated: IUCD (Cu-T) Placement in the Uterus</div>'
+      +'<svg viewBox="0 0 '+W+' 320" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'+svg+'</svg>'
+      +'<div class="diagram-key"><strong>The Cu-T sits inside the uterus.</strong> A doctor/trained nurse inserts it through the cervix; the two arms open out and the stem points down, with a <strong>thread</strong> hanging into the vagina (so the woman can check it is in place). <strong>How it works:</strong> copper releases ions that are toxic to sperm and stop fertilisation; it also makes the uterine lining unfriendly to implantation. Cu-T 380A lasts up to 10 years, fully reversible.</div>'
+    +'</div>';
+  },
+
+  // ─── CHN2-U4. MTP ACT TIMELINE — 1971 → 2002 → 2021 ───
+  mtpTimeline: function () {
+    var W=560,lineY=80,x0=60,x1=500,stops=[
+      {yr:'1971',t:'MTP Act passed',d:'legal abortion up to 20 wk · 1-2 doctors',c:'#2563eb'},
+      {yr:'2002/03',t:'Amendment',d:'medical abortion (pills) allowed · decentralised approval',c:'#f59e0b'},
+      {yr:'2021',t:'Amendment',d:'limit raised to 24 wk (special groups) · confidentiality · unmarried women included',c:'#16a34a'}
+    ];
+    var n=stops.length,svg='<line x1="'+x0+'" y1="'+lineY+'" x2="'+x1+'" y2="'+lineY+'" stroke="#cbd5e1" stroke-width="3"/>';
+    svg+='<circle r="6" fill="#db2777"><animate attributeName="cx" values="'+x0+';'+x1+'" dur="5s" repeatCount="indefinite"/><animate attributeName="cy" values="'+lineY+';'+lineY+'" dur="5s" repeatCount="indefinite"/></circle>';
+    for(var i=0;i<n;i++){ var s=stops[i],cx=x0+(i/(n-1))*(x1-x0),delay=(i*0.5).toFixed(1);
+      svg+='<circle cx="'+cx+'" cy="'+lineY+'" r="11" fill="'+s.c+'" stroke="#fff" stroke-width="2.5"><animate attributeName="r" values="9;13;9" dur="2.5s" begin="'+delay+'s" repeatCount="indefinite"/></circle>'
+        +'<text x="'+cx+'" y="'+(lineY-20)+'" text-anchor="middle" fill="'+s.c+'" font-size="14" font-weight="700">'+s.yr+'</text>'
+        +'<text x="'+cx+'" y="'+(lineY+28)+'" text-anchor="middle" fill="'+s.c+'" font-size="10" font-weight="700">'+s.t+'</text>';
+      // wrapped detail
+      var words=s.d.split(' · ');
+      for(var k=0;k<words.length;k++){ svg+='<text x="'+cx+'" y="'+(lineY+42+k*11)+'" text-anchor="middle" fill="#64748b" font-size="7.5" font-family="monospace">'+words[k]+'</text>'; }
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">📅 Animated: MTP Act — 1971 → 2002 → 2021</div>'
+      +'<svg viewBox="0 0 '+W+' 170" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'+svg+'</svg>'
+      +'<div class="diagram-key"><strong>The law widened over 50 years.</strong> <span style="color:#2563eb">1971</span>: abortion made legal up to 20 weeks with doctor approval. <span style="color:#f59e0b">2002</span>: medical abortion pills allowed, approval decentralised. <span style="color:#16a34a">2021</span>: upper limit raised to <strong>24 weeks</strong> for special categories (rape/incest/minors/disability), confidentiality protected, and access extended to unmarried women. Purpose: safe, legal abortion to cut maternal deaths from unsafe abortion.</div>'
+    +'</div>';
+  },
+
+  // ─── CHN2-U4. INDIA POPULATION GROWTH — 1947 → 2024 ───
+  populationGrowth: function () {
+    var W=560,x0=54,x1=520,y0=26,yB=230;
+    var pts=[[1947,0.34],[1961,0.44],[1971,0.55],[1981,0.68],[1991,0.85],[2001,1.03],[2011,1.21],[2024,1.44]];
+    var minYr=1947,maxYr=2024,maxP=1.6;
+    function px(y){ return x0+((y-minYr)/(maxYr-minYr))*(x1-x0); }
+    function py(p){ return yB-(p/maxP)*(yB-y0); }
+    var line=''; for(var i=0;i<pts.length;i++){ line+=(i?' ':'')+px(pts[i][0]).toFixed(0)+','+py(pts[i][1]).toFixed(0); }
+    var svg='';
+    for(var p=0;p<=1.5;p+=0.5){ svg+='<line x1="'+x0+'" y1="'+py(p)+'" x2="'+x1+'" y2="'+py(p)+'" stroke="#e2e8f0" stroke-width="1"/>'
+      +'<text x="'+(x0-8)+'" y="'+(py(p)+3)+'" text-anchor="end" fill="#64748b" font-size="8">'+p.toFixed(1)+'B</text>'; }
+    svg+='<line x1="'+x0+'" y1="'+y0+'" x2="'+x0+'" y2="'+yB+'" stroke="#94a3b8" stroke-width="1.5"/>'
+      +'<line x1="'+x0+'" y1="'+yB+'" x2="'+x1+'" y2="'+yB+'" stroke="#94a3b8" stroke-width="1.5"/>';
+    // area under curve
+    svg+='<polygon points="'+px(1947).toFixed(0)+','+yB+' '+line+' '+px(2024).toFixed(0)+','+yB+'" fill="#f59e0b" fill-opacity="0.12"/>';
+    svg+='<polyline points="'+line+'" fill="none" stroke="#f59e0b" stroke-width="3"><animate attributeName="stroke-dasharray" values="0 900;900 0" dur="2.5s" fill="freeze"/></polyline>';
+    var marks=[[1947,0.34,'1947 · 34 cr'],[1991,0.85,'1991 · 85 cr'],[2024,1.44,'2024 · 1.44 B']];
+    for(var m=0;m<marks.length;m++){ var mk=marks[m];
+      svg+='<circle cx="'+px(mk[0]).toFixed(0)+'" cy="'+py(mk[1]).toFixed(0)+'" r="5" fill="#d97706"/>'
+        +'<text x="'+px(mk[0]).toFixed(0)+'" y="'+(py(mk[1])-10).toFixed(0)+'" text-anchor="'+(m===0?'start':(m===2?'end':'middle'))+'" fill="#b45309" font-size="9" font-weight="700">'+mk[2]+'</text>'; }
+    svg+='<text x="'+((x0+x1)/2)+'" y="'+(yB+40)+'" text-anchor="middle" fill="#475569" font-size="10" font-weight="600">Year (1947 → 2024)</text>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">📈 Animated: India&apos;s Population Growth</div>'
+      +'<svg viewBox="0 0 '+W+' 285" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'+svg+'</svg>'
+      +'<div class="diagram-key"><strong>Population more than quadrupled since Independence.</strong> ≈34 crore in 1947 → 85 crore by 1991 → <strong>1.44 billion in 2024</strong> (India now the world&apos;s most populous country). The steep climb = the "population explosion" &mdash; driven by falling death rates while birth rates stayed high. Family planning aims to flatten this curve toward a stable population (replacement TFR ≈ 2.1).</div>'
+    +'</div>';
+  },
+
+  // ─── CHN2-U4. WOMEN EMPOWERMENT CYCLE — virtuous circle ───
+  womenEmpowermentCycle: function () {
+    var W=520,cx=260,cy=185,R=125,n=6;
+    var steps=[
+      {t:'Education',c:'#6366f1'},
+      {t:'Economic independence',c:'#0ea5e9'},
+      {t:'Delayed marriage',c:'#14b8a6'},
+      {t:'Fewer children',c:'#22c55e'},
+      {t:'Better health',c:'#f59e0b'},
+      {t:'More opportunity',c:'#ef4444'}
+    ];
+    var pts=[];
+    for(var i=0;i<n;i++){ var ang=(-90+i*(360/n))*Math.PI/180; pts.push([cx+R*Math.cos(ang),cy+R*Math.sin(ang)]); }
+    var svg='';
+    for(var i=0;i<n;i++){ var a=pts[i],b=pts[(i+1)%n];
+      svg+='<line x1="'+a[0].toFixed(0)+'" y1="'+a[1].toFixed(0)+'" x2="'+b[0].toFixed(0)+'" y2="'+b[1].toFixed(0)+'" stroke="#cbd5e1" stroke-width="2" marker-end="url(#wea)"/>'; }
+    var mpath='M'+pts.map(function(p){return p[0].toFixed(0)+','+p[1].toFixed(0);}).join(' L')+' Z';
+    svg+='<circle r="6" fill="#8b5cf6"><animateMotion dur="7s" repeatCount="indefinite" path="'+mpath+'"/></circle>';
+    svg+='<text x="'+cx+'" y="'+(cy-4)+'" text-anchor="middle" fill="#7c3aed" font-size="11" font-weight="700">WOMEN</text>'
+      +'<text x="'+cx+'" y="'+(cy+10)+'" text-anchor="middle" fill="#7c3aed" font-size="11" font-weight="700">EMPOWERMENT</text>';
+    for(var i=0;i<n;i++){ var p=pts[i],s=steps[i],delay=(i*0.4).toFixed(1);
+      svg+='<circle cx="'+p[0].toFixed(0)+'" cy="'+p[1].toFixed(0)+'" r="30" fill="'+s.c+'" fill-opacity="0.15" stroke="'+s.c+'" stroke-width="2.5">'
+        +'<animate attributeName="fill-opacity" values="0.1;0.28;0.1" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></circle>'
+        +'<text x="'+p[0].toFixed(0)+'" y="'+(p[1]+3).toFixed(0)+'" text-anchor="middle" fill="'+s.c+'" font-size="7.5" font-weight="700">'+s.t.split(' ').map(function(w,k){return '<tspan x="'+p[0].toFixed(0)+'" dy="'+(k?9:0)+'">'+w+'</tspan>';}).join('')+'</text>'; }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">♀️ Animated: The Women Empowerment Cycle</div>'
+      +'<svg viewBox="0 0 '+W+' 370" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'
+        +'<defs><marker id="wea" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker></defs>'
+        +svg
+      +'</svg>'
+      +'<div class="diagram-key"><strong>Empowerment feeds itself — a virtuous circle.</strong> Education → economic independence → later marriage → fewer, healthier children → better health &amp; more opportunity → which supports the next girl&apos;s education. Each step strengthens the next, so investing in one girl&apos;s schooling lifts the whole family and slows population growth.</div>'
+    +'</div>';
   }
 
 };

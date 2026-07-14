@@ -221,6 +221,8 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
   answer: `
 <div class="in-short"><strong>In Short:</strong> Vital statistics are records of births, deaths, marriages, and other life events. Their objectives are to measure health, plan services, and evaluate programmes. Fertility statistics measure reproductive behaviour. The Community Health Nurse plays a key role in collecting and registering vital events at the grassroots level.</div>
 
+<div data-diagram="vitalStatsIndicators"></div>
+
 <div class="exam-strategy"><strong>How to Write This in Exam (15 marks):</strong><br>
 &bull; Part 1 &mdash; <strong>Definition + Objectives</strong> (~3 marks)<br>
 &bull; Part 2 &mdash; <strong>Uses of Vital Statistics</strong> (~3 marks)<br>
@@ -355,6 +357,8 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
   answer: `
 <div class="in-short"><strong>In Short:</strong> Vital events are births, deaths, marriages, divorces, and migrations. Their statistics help in planning, evaluation, and legal purposes. The Village Health Nurse (ANM) is the key person at the sub-centre who registers events, maintains records, and reports data upward to the PHC.</div>
 
+<div data-diagram="vitalStatsIndicators"></div>
+
 <div class="exam-strategy"><strong>How to Write This in Exam (15 marks):</strong><br>
 &bull; Part 1 &mdash; <strong>Vital events</strong> with examples (~3 marks)<br>
 &bull; Part 2 &mdash; <strong>Uses of vital statistics</strong> (~4 marks)<br>
@@ -468,6 +472,8 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
   years: "7th Sem Undated",
   answer: `
 <div class="in-short"><strong>In Short:</strong> Demography is the scientific study of populations — their size, growth, and structure. The demography cycle shows how population changes over time. Demographic transition theory explains how countries move from high birth + high death rates to low birth + low death rates as they develop economically.</div>
+
+<div data-diagram="demographicTransition"></div>
 
 <div class="exam-strategy"><strong>How to Write This in Exam (15 marks):</strong><br>
 &bull; Part 1 &mdash; <strong>Definition of Demography + Scope</strong> (~2 marks)<br>
@@ -712,6 +718,8 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
   answer: `
 <div class="in-short"><strong>In Short:</strong> Epidemiology is the study of how diseases spread in a community — who gets the disease, where, when, and why. It is used to find causes of disease, plan prevention, and control outbreaks. Epidemiological investigation follows 10 systematic steps from confirming the diagnosis to publishing findings.</div>
 
+<div data-diagram="epidemiologicalTriad"></div>
+
 <div class="exam-strategy"><strong>How to Write This in Exam (15 marks):</strong><br>
 &bull; Part 1 &mdash; <strong>Definition</strong> (~2 marks)<br>
 &bull; Part 2 &mdash; <strong>Uses of Epidemiology</strong> (~5 marks)<br>
@@ -815,6 +823,8 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
   years: "Summer 2017",
   answer: `
 <div class="in-short"><strong>In Short:</strong> Epidemiology studies who gets disease, where, and when. Its methods are: Descriptive (describes what happened), Analytical (finds why it happened), and Experimental (tests an intervention). Descriptive epidemiology describes distribution of disease by Person, Place, and Time — the basic first step.</div>
+
+<div data-diagram="epidemiologicalTriad"></div>
 
 <div class="exam-strategy"><strong>How to Write This in Exam (15 marks):</strong><br>
 &bull; Part 1 &mdash; <strong>Definition</strong> (~2 marks)<br>
@@ -1253,6 +1263,8 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
   answer: `
 <div class="in-short"><strong>In Short:</strong> The epidemiological approach is a systematic method to study diseases. It uses the Epidemiological Triad (Agent + Host + Environment), asks Who/Where/When/Why, and studies distribution and determinants to plan and evaluate health actions.</div>
 
+<div data-diagram="epidemiologicalTriad"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
@@ -1318,6 +1330,8 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
   years: "Phase II Summer 2025",
   answer: `
 <div class="in-short"><strong>In Short:</strong> Endemic = disease always present in a region (e.g., malaria in Odisha). Epidemic = sudden rise in cases in one area (e.g., cholera outbreak in a district). Pandemic = epidemic spreading across multiple countries/continents (e.g., COVID-19).</div>
+
+<div data-diagram="endemicPandemicScale"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Definitions and Differences</h3>
@@ -1496,6 +1510,8 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
   answer: `
 <div class="in-short"><strong>In Short:</strong> Dynamics of disease transmission explains how a disease spreads from one person to another. It involves 6 links in a "Chain of Infection": Agent → Reservoir → Portal of Exit → Mode of Transmission → Portal of Entry → Susceptible Host. Break any link to stop the disease.</div>
 
+<div data-diagram="diseaseTransmission"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
@@ -1627,6 +1643,8 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
   years: "7th Sem Undated",
   answer: `
 <div class="in-short"><strong>In Short:</strong> IDSP (Integrated Disease Surveillance Project) is India's national disease surveillance system. It collects weekly data from PHCs, districts, and states using 3 forms (S, P, L) to detect outbreaks early and respond fast. It was started in 2004 with World Bank support.</div>
+
+<div data-diagram="idspReporting"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>

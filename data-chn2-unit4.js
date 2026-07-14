@@ -18,6 +18,8 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
   answer: `
 <div class="in-short"><strong>In Short:</strong> Family welfare is a comprehensive concept that includes family planning (spacing births), maternal &amp; child health, nutrition, and women empowerment — all aimed at improving family health. The scope covers contraceptive services, infertility treatment, STI management, and MCH care. Methods include temporary (barrier, hormonal, IUDs) and permanent methods (tubectomy, vasectomy). The nurse plays a key role in counselling, service delivery, and community education.</div>
 
+<div data-diagram="familyPlanningMethods"></div>
+
 <div class="exam-strategy"><strong>How to Write This in Exam (15 marks):</strong><br>
 &bull; Part 1 &mdash; <strong>Definition of Family Welfare</strong> (~2 marks)<br>
 &bull; Part 2 &mdash; <strong>Scope of family planning services</strong> (~3 marks)<br>
@@ -192,6 +194,8 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
   answer: `
 <div class="in-short"><strong>In Short:</strong> Family planning is the practice of deciding when and how many children to have, using contraception and fertility care. Its health outcomes include reduced maternal deaths, fewer unsafe abortions, lower infant mortality, and better nutrition for children. Methods range from temporary (barrier, hormonal, IUCD) to permanent (tubectomy, vasectomy).</div>
 
+<div data-diagram="familyPlanningMethods"></div>
+
 <div class="exam-strategy"><strong>How to Write This in Exam (15 marks):</strong><br>
 &bull; Part 1 &mdash; <strong>Definition of Family Planning</strong> (~2 marks)<br>
 &bull; Part 2 &mdash; <strong>Principles and health outcomes</strong> (~5 marks)<br>
@@ -336,6 +340,8 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
   answer: `
 <div class="in-short"><strong>In Short:</strong> Family planning means deciding when and how many children to have. Methods are temporary (barrier, hormonal, IUCD, natural) and permanent (tubectomy, vasectomy). The scope of family welfare services includes contraception, infertility, MCH, and STI care. The nurse counsels, provides services, does home visits, and maintains records.</div>
 
+<div data-diagram="familyPlanningMethods"></div>
+
 <div class="exam-strategy"><strong>How to Write This in Exam (15 marks):</strong><br>
 &bull; Part 1 &mdash; <strong>Definition of Family Planning</strong> (~2 marks)<br>
 &bull; Part 2 &mdash; <strong>Methods of family planning</strong> (~6 marks) &mdash; classification table<br>
@@ -429,6 +435,8 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
   years: "Summer 2021",
   answer: `
 <div class="in-short"><strong>In Short:</strong> Family planning is the practice of controlling the number and spacing of children. Methods are temporary (condom, OCP, Cu-T, natural) and permanent (tubectomy, vasectomy). The CHN's role includes education, counselling, service delivery, home visits, record keeping, and promoting male participation.</div>
+
+<div data-diagram="familyPlanningMethods"></div>
 
 <div class="exam-strategy"><strong>How to Write This in Exam (15 marks):</strong><br>
 &bull; Part 1 &mdash; <strong>Definition</strong> (~2 marks)<br>
@@ -541,6 +549,8 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
   years: "Winter 2018",
   answer: `
 <div class="in-short"><strong>In Short:</strong> Family planning is deciding on number and spacing of children using contraception. Types are temporary (reversible) and permanent (irreversible). The National Family Welfare Programme (NFWP, 1952) aims to stabilise India's population. The nurse implements NFWP at grassroots level through education, service provision, counselling, and record keeping.</div>
+
+<div data-diagram="familyPlanningMethods"></div>
 
 <div class="exam-strategy"><strong>How to Write This in Exam (15 marks):</strong><br>
 &bull; Part 1 &mdash; <strong>Definition</strong> (~2 marks)<br>
@@ -661,6 +671,8 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
   years: "Summer 2015, Summer 2018",
   answer: `
 <div class="in-short"><strong>In Short:</strong> Family planning methods are classified as temporary (barrier, hormonal, IUCD, natural) and permanent (tubectomy, vasectomy). The best method is the one the couple chooses freely and uses consistently.</div>
+
+<div data-diagram="familyPlanningMethods"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Classification of Family Planning Methods</h3>
@@ -1018,6 +1030,8 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
   answer: `
 <div class="in-short"><strong>In Short:</strong> The National Population Policy (NPP) 2000 was India's comprehensive policy to stabilise population by 2045. It set goals for reducing TFR to 2.1, IMR to below 30, and MMR to below 100. It works through socio-demographic goals (education, poverty reduction, women empowerment) alongside healthcare services.</div>
 
+<div data-diagram="populationGrowth"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition and Background</h3>
   <div class="definition-box">
@@ -1121,6 +1135,8 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
   answer: `
 <div class="in-short"><strong>In Short:</strong> India's birth rate has fallen but is still higher than developed nations. Causes include early marriage, son preference, low female education, poverty, lack of FP access, religious factors, joint family tradition, and low male participation in family planning.</div>
 
+<div data-diagram="populationGrowth"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Causes of High Birth Rate in India</h3>
   <div class="answer-table-wrap"><table class="answer-table">
@@ -1203,6 +1219,8 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
   answer: `
 <div class="in-short"><strong>In Short:</strong> Population explosion occurs when birth rate greatly exceeds death rate. Main causes are high birth rate (early marriage, son preference), falling death rate (better medicine, sanitation), reduced infant mortality, immigration, and inadequate family planning.</div>
 
+<div data-diagram="populationGrowth"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Causes of Population Explosion</h3>
   <ol class="answer-points">
@@ -1235,6 +1253,8 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
   years: "Winter 2017, Phase III Winter 2021",
   answer: `
 <div class="in-short"><strong>In Short:</strong> The Medical Termination of Pregnancy (MTP) Act 1971 legalized abortion in India under specific conditions. The 2021 amendment expanded the upper limit to 24 weeks for special categories. MTP must be done by a registered medical practitioner at an approved facility. It protects women from unsafe illegal abortions.</div>
+
+<div data-diagram="mtpTimeline"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
@@ -1424,6 +1444,8 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
   answer: `
 <div class="in-short"><strong>In Short:</strong> IUDs (Intra-Uterine Devices) are small devices inserted inside the uterus to prevent pregnancy. They are the most effective reversible contraceptive method (99%). In India, Cu-T 380A (10 years) is the most commonly used IUD, available free at government facilities and insertable by trained ANMs.</div>
 
+<div data-diagram="iucdPlacement"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
@@ -1528,6 +1550,8 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
   years: "Summer 2015, Phase III Winter 2019, Phase II Summer 2019, Phase II Summer 2022, Phase III Winter 2025",
   answer: `
 <div class="in-short"><strong>In Short:</strong> Women empowerment means giving women the knowledge, skills, resources, and opportunities to control their own lives, make decisions, and participate equally in society. It is the most important strategy for population control — educated, economically independent women marry later, have fewer children, and make better health decisions.</div>
+
+<div data-diagram="womenEmpowermentCycle"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition of Women Empowerment</h3>
