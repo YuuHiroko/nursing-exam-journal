@@ -2434,6 +2434,8 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
   answer: `
 <div class="in-short"><strong>In Short:</strong> The growth chart is used to monitor child growth over time, detect malnutrition early, motivate mothers, and track progress after nutritional intervention. It is used at Anganwadis, Under-Five Clinics, VHSND, and PHC.</div>
 
+<div data-diagram="growthChart"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Uses of WHO Growth Chart</h3>
   <ol class="answer-points">
