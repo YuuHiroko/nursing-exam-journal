@@ -22,6 +22,7 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
   <h3 class="answer-section-title">Definition of Vital Statistics</h3>
   <div class="definition-box">
     <strong>Vital statistics</strong> are the <strong>systematic collection, compilation, analysis, and publication of data on vital events</strong> — events that mark important stages in human life such as births, deaths, marriages, divorces, and migration.<br><br>
+    The word "vital" comes from the Latin word "vita", which means life. So vital statistics literally means the "statistics of life events". These events are counted for a defined population and for a fixed period of time (usually one year), so that we can compare one year with another and one area with another. In India, the recording of births and deaths is made compulsory by law under the <strong>Registration of Births and Deaths Act, 1969</strong>. The data is collected right from the village level and sent upward to the block, district, state, and finally the national level, where it is published every year.<br><br>
     <strong>Simple words:</strong> Vital statistics = official records of "life events" that help us understand how a population is living and dying.
   </div>
 </div>
@@ -39,6 +40,8 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
     <li><strong>Research and policy:</strong> Researchers use vital data to identify trends (e.g., rise in non-communicable diseases) and policymakers use it to make evidence-based laws.</li>
   </ol>
 </div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> Think of vital statistics like the "report card" of a whole community. Just as a report card shows whether a student is improving or failing, birth and death records show whether a village is getting healthier or falling sick. Without this report card, the government would be working blindfolded &mdash; not knowing where to build a hospital or send more nurses.</div>
 
 <!-- DIAGRAM SUGGESTION: vitalStatsIndicators — animated gauges showing India's IMR, MMR, CBR, CDR values vs targets -->
 
@@ -92,6 +95,7 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
     <strong>Vital statistics</strong> are the <strong>data collected from registration of vital events</strong> (birth, death, marriage, divorce, adoption, migration) that occur in a population, which are then compiled, analysed, and published for use in public health planning and research.<br><br>
+    The word "vital" means "connected with life", so vital statistics deal with the main events of life — being born, getting married, and dying. These events are first registered as individual records (for example, one birth certificate for one baby). When thousands of such records are added together and studied, they become statistics that describe the whole community. Because these numbers are collected in the same way every year, they allow the government to see whether the health of the people is improving or getting worse over time.<br><br>
     <strong>Simple words:</strong> Vital statistics = numbers about life and death events that tell us the health story of a population.
   </div>
 </div>
@@ -135,6 +139,8 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
     </tbody>
   </table></div>
 </div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> Think of vital statistics like a school report card &mdash; but for a whole population. Just as a report card shows how a student is doing (marks, attendance, progress), vital statistics show how a community is doing (how many babies born, how many people died, how long they live). And just like parents use a report card to know where the child needs help, the government uses vital statistics to know which area needs more hospitals, nurses, and medicines.</div>
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">vital events</span><span class="kw">Census</span><span class="kw">SRS</span><span class="kw">CRS</span><span class="kw">NFHS</span><span class="kw">CBR</span><span class="kw">CDR</span><span class="kw">IMR</span><span class="kw">MMR</span><span class="kw">TFR</span></div>
 
@@ -588,9 +594,12 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
-    <strong>Female foeticide</strong> is the <strong>deliberate termination (killing) of a female foetus</strong> in the womb after determining its sex through ultrasound or other tests. It is a form of gender-based discrimination even before birth.
+    <strong>Female foeticide</strong> is the <strong>deliberate termination (killing) of a female foetus</strong> in the womb after determining its sex through ultrasound or other tests. It is a form of gender-based discrimination even before birth. It is different from female infanticide, which is the killing of a girl child <em>after</em> she is born; female foeticide happens <em>before</em> birth, inside the womb. It became widespread when ultrasound machines became cheap and easily available, because families could now find out the sex of the baby early in pregnancy and then choose to abort a girl.<br><br>
+    <strong>Simple words:</strong> Female foeticide = ending a pregnancy only because the baby is a girl. It is a crime, not a choice.
   </div>
 </div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> A couple already has two daughters. When the third pregnancy is confirmed, the family pressures the mother for a "test" to find out the baby's sex, planning to abort if it is another girl. This is exactly what the PC&amp;PNDT Act was made to stop &mdash; the law makes even asking for the sex of the baby illegal, so that no girl is denied her right to be born.</div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Causes of Female Foeticide</h3>
@@ -730,6 +739,7 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
   <div class="definition-box">
     <strong>Epidemiology</strong> (Greek: <em>epi</em> = upon, <em>demos</em> = people, <em>logos</em> = study) is the <strong>study of the distribution and determinants of health and disease conditions in specified populations</strong>, and the application of this study to control health problems. &mdash; (John M. Last, 2001)<br><br>
     <strong>Simple words:</strong> Epidemiology asks three questions: <strong>Who</strong> gets sick? <strong>Where</strong> are they? <strong>When</strong> does it happen? &mdash; and then asks WHY, to prevent it.<br><br>
+    The word <strong>"distribution"</strong> means studying <strong>how a disease is spread out</strong> in a population &mdash; by person (age, sex, occupation), by place (village, district, state), and by time (season, year). The word <strong>"determinants"</strong> means studying the <strong>factors that cause or influence the disease</strong> &mdash; such as the germ, the person's own body, and the surrounding environment. Epidemiology does not study one sick patient at a time like a doctor does; instead it studies the <strong>whole community as a group</strong> to see the bigger picture.<br><br>
     <strong>Father of Epidemiology:</strong> John Snow (1854) &mdash; traced cholera to a water pump in London.
   </div>
 </div>
@@ -835,6 +845,7 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
     <strong>Epidemiology</strong> is the <strong>study of distribution and determinants of health and disease conditions in defined populations</strong>, and the use of this knowledge to control health problems. (John M. Last)<br><br>
+    Here <strong>distribution</strong> means the pattern of disease &mdash; how many people are affected and in which areas &mdash; while <strong>determinants</strong> means the factors that decide who gets the disease, such as age, habits, water, food, and environment. Unlike a doctor who treats one patient at a time, an epidemiologist looks at the <strong>whole community as the patient</strong>, so that disease can be prevented in many people at once.<br><br>
     <strong>Simple words:</strong> Epidemiology = Who gets sick? Where? When? Why? — and how to STOP it.
   </div>
 </div>
@@ -1269,6 +1280,7 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
     The <strong>epidemiological approach</strong> is a <strong>systematic, population-based method</strong> of studying health problems to understand their distribution, causes, and controlling factors — in order to develop effective prevention and control strategies.<br><br>
+    It always studies the <strong>whole community or group</strong>, not just one patient. It rests on two basic activities: <strong>asking questions</strong> (who, where, when, why, how many) and <strong>making comparisons</strong> (comparing sick people with healthy people to find what is different). It moves from <strong>counting cases</strong> to <strong>finding the cause</strong> and finally to <strong>taking action</strong>, so it is both a way of thinking and a practical tool for the community health nurse.<br><br>
     <strong>Simple words:</strong> It is the step-by-step "detective" method epidemiologists use to find out why people get sick and how to stop it.
   </div>
 </div>
@@ -1335,6 +1347,7 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Definitions and Differences</h3>
+  <p style="margin:0 0 10px 0; color:var(--text-secondary);">All these words describe <strong>how many people have a disease and how far it has spread</strong>. The key idea is to compare the number of cases with the number that is <strong>normally expected</strong> in that area. If the cases stay at the usual level year after year, it is endemic. If the cases suddenly shoot up above the usual level, it becomes an epidemic. And if that epidemic keeps spreading from country to country, it grows into a pandemic. So the same disease can be endemic, epidemic, or pandemic at different times &mdash; it depends on how many people are affected and how wide the spread is.</p>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Term</th><th>Definition</th><th>Scope</th><th>Indian/World Examples</th></tr></thead>
     <tbody>
@@ -1415,7 +1428,9 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition of Endemic Disease</h3>
   <div class="definition-box">
-    An <strong>endemic disease</strong> is one that is <strong>constantly present in a specific geographic area or population group at a relatively stable, predictable level</strong>. The community in that area has learned to live with a certain constant burden of that disease.
+    An <strong>endemic disease</strong> is one that is <strong>constantly present in a specific geographic area or population group at a relatively stable, predictable level</strong>. The community in that area has learned to live with a certain constant burden of that disease.<br><br>
+    The word comes from Greek <em>en</em> (in) + <em>demos</em> (people) &mdash; meaning "within the people" of a place. A disease becomes endemic when the agent, a suitable host, and a favourable environment all stay present together in that region all the time. This is why a particular disease may be common in one state but almost never seen in another &mdash; the local climate, water, vectors (like mosquitoes or sandflies), and living conditions decide where it settles. The number of cases stays fairly steady and can be predicted in advance, so the health system can plan control measures for that area every year.<br><br>
+    <strong>Simple words:</strong> Endemic = a disease that "always lives" in that area &mdash; it never fully goes away, it just stays at a steady level year after year.
   </div>
 </div>
 
@@ -1480,6 +1495,8 @@ window.QUESTIONS_DATA_CHN2_UNIT3 = [
 </ul></div>
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">malaria</span><span class="kw">kala-azar</span><span class="kw">filariasis</span><span class="kw">JE</span><span class="kw">fluorosis</span><span class="kw">goitre</span><span class="kw">endemic</span></div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> Think of endemic diseases like the "local weather" of a region &mdash; some areas always have them. Just as Rajasthan is known for its dry heat and the Himalayas for snow, Bihar is known for kala-azar and the Himalayan belt for goitre. A nurse posted in a new district should first ask, "Which diseases are endemic here?" &mdash; because that tells her what to screen for and what to teach families to prevent.</div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
 <ul>

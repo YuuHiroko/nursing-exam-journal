@@ -768,6 +768,8 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
   </div>
 </div>
 
+<div class="editorial-example"><strong>Relatable Example:</strong> Think of a family planning programme like a good shop. If the shop is far away (not accessible), charges money (not affordable), keeps only one product (no choice), or has rude staff (poor quality), people simply stop coming. But if it is nearby, free, keeps every product, and has friendly trained staff who respect your choice — people come happily and keep coming back. That is exactly what makes a family planning programme succeed.</div>
+
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">voluntary</span><span class="kw">cafeteria approach</span><span class="kw">political commitment</span><span class="kw">accessible</span><span class="kw">IEC</span><span class="kw">male participation</span><span class="kw">quality of care</span></div>
 
 <div class="glossary"><div class="glossary-title">Full Forms &amp; Easy Meanings</div>
@@ -867,7 +869,8 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
     <strong>Family Planning 2020 (FP2020)</strong> was a <strong>global initiative and partnership</strong> launched at the London Summit on Family Planning in July 2012. Its goal was to <strong>enable 120 million more women and girls in the world's 69 poorest countries to use contraception by 2020</strong> through voluntary, rights-based family planning services.<br><br>
-    <strong>India's commitment:</strong> To reach 48 million additional contraceptive users (mainly by expanding IUCD, injectables, and sterilisation services).
+    <strong>India's commitment:</strong> To reach 48 million additional contraceptive users (mainly by expanding IUCD, injectables, and sterilisation services).<br><br>
+    FP2020 was created because millions of women who wanted to avoid pregnancy still had no access to a method &mdash; this gap is called the <strong>"unmet need" for family planning</strong>. The partnership aimed to close this gap by making methods available, affordable, and easy to reach. A key promise of FP2020 was that family planning must always be a woman's <strong>free and informed choice</strong>, with no force, no targets, and no pressure &mdash; the woman decides if, when, and which method to use.
   </div>
 </div>
 
@@ -896,6 +899,8 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
     <li><strong>Mission Parivar Vikas:</strong> Expanded FP outreach in 146 high-TFR districts of 7 states.</li>
   </ol>
 </div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> FP2020 is like many countries making a group promise. In 2012 the world's leaders sat together in London and said, "Let us help 120 million more women get family planning by the year 2020." India raised its hand and promised to reach 48 million of them — by giving the new Antara injection, the Chhaya pill, and the post-delivery Cu-T. When 2020 arrived, the promise did not stop — it simply became a new, bigger promise called FP2030.</div>
 
 <div class="keyword-box"><strong>Keywords examiner wants:</strong> <span class="kw">FP2020</span><span class="kw">London Summit 2012</span><span class="kw">120 million</span><span class="kw">Antara</span><span class="kw">Chhaya</span><span class="kw">PPIUCD</span><span class="kw">Mission Parivar Vikas</span><span class="kw">FP2030</span></div>
 
@@ -1032,11 +1037,15 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
 
 <div data-diagram="populationGrowth"></div>
 
+<div class="editorial-example"><strong>Relatable Example:</strong> Think of the country's population like water filling a tank. Just closing the tap by force (old sterilisation targets) did not work and upset people. NPP 2000 took a smarter route &mdash; educate girls, reduce child deaths, and make family planning easy and free &mdash; so couples themselves CHOOSE to have smaller families. The tank fills slowly and steadily, without any force.</div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition and Background</h3>
   <div class="definition-box">
     The <strong>National Population Policy (NPP) 2000</strong> is India's official policy statement on population stabilisation, released by the Government of India in <strong>February 2000</strong>. It provides a policy framework to meet the unmet needs for contraception, health care infrastructure, and child and maternal health services for the next 20 years (until 2010 immediate, 2020 medium-term, 2045 long-term).<br><br>
-    <strong>Aim:</strong> To achieve a stable population at a level consistent with the requirements of sustainable economic growth, social development, and environmental protection by <strong>2045</strong>.
+    <strong>Aim:</strong> To achieve a stable population at a level consistent with the requirements of sustainable economic growth, social development, and environmental protection by <strong>2045</strong>.<br><br>
+    A "stable" population does not mean stopping growth suddenly. It means slowly bringing the birth rate down until it matches the death rate, so the total population stops rising sharply and settles at a steady number. The policy accepts that this takes decades, which is why it sets step-by-step goals for 2010, 2020, and finally 2045.<br><br>
+    An important feature of NPP 2000 is that it is <strong>completely target-free and voluntary</strong>. No worker is given sterilisation targets and no couple is forced. Instead, the policy focuses on removing the reasons people have large families &mdash; poor education, high child deaths, and lack of easy contraception &mdash; so that smaller families become the natural choice.
   </div>
 </div>
 
@@ -1135,10 +1144,13 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
   answer: `
 <div class="in-short"><strong>In Short:</strong> India's birth rate has fallen but is still higher than developed nations. Causes include early marriage, son preference, low female education, poverty, lack of FP access, religious factors, joint family tradition, and low male participation in family planning.</div>
 
+<div class="editorial-example"><strong>Relatable Example:</strong> Think of a young couple in a village who marry at 17. Because the girl marries so early, she has many more years in which she can have babies. The family also keeps trying "for a boy," and since the grandparents help raise the children, having one more never feels like a burden. Put all these small reasons together across millions of homes, and the birth rate stays high.</div>
+
 <div data-diagram="populationGrowth"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Causes of High Birth Rate in India</h3>
+  <p style="margin:0 0 10px 0; color:var(--text-secondary);">The <strong>birth rate</strong> (Crude Birth Rate) means the number of babies born per 1,000 people in a year. India's birth rate has come down a lot over the years, but in many rural and poor areas it is still high. The reasons are not medical &mdash; they are mostly <strong>social, educational, economic, and cultural</strong>. No single reason causes it; many small factors add up together. The causes below are grouped so they are easy to remember and write in the exam.</p>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Category</th><th>Cause</th><th>Explanation</th></tr></thead>
     <tbody>
@@ -1256,6 +1268,8 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
 
 <div data-diagram="mtpTimeline"></div>
 
+<div class="editorial-example"><strong>Relatable Example:</strong> Before 1971, a woman with an unwanted pregnancy often went to an untrained "quack" for a secret abortion &mdash; and many died from bleeding and infection. The MTP Act changed this: now she can walk into a government hospital, meet a trained doctor, and have a safe, legal, and confidential abortion. The law did not "allow" abortion carelessly &mdash; it made an already-happening thing SAFE.</div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
@@ -1357,9 +1371,13 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
-    <strong>Temporary contraceptive methods</strong> are <strong>reversible family planning methods</strong> that prevent pregnancy for as long as they are used. Once stopped, fertility returns. They are ideal for couples who want to space their children but have not completed their family.
+    <strong>Temporary contraceptive methods</strong> are <strong>reversible family planning methods</strong> that prevent pregnancy for as long as they are used. Once stopped, fertility returns. They are ideal for couples who want to space their children but have not completed their family.<br><br>
+    They are also called <strong>spacing methods</strong>, because their main job is to put a safe gap between two babies. A gap of at least 3 years between births is good for both the mother and the child &mdash; the mother's body gets time to recover, and the older baby gets enough breast milk and care. This is different from permanent methods (tubectomy, vasectomy), which are chosen only after a couple has completed their family and want no more children at all.<br><br>
+    <strong>Simple words:</strong> Temporary methods are like a "pause button" on having babies &mdash; you use them to wait, and the moment you stop, the ability to conceive comes back. Nothing is cut or closed permanently.
   </div>
 </div>
+
+<div class="editorial-example"><strong>Relatable Example:</strong> A young couple has one baby and wants to wait 3 years before the next. They do not want any permanent operation. So the nurse explains the "pause" options &mdash; condoms, the daily pill, the 3-monthly Antara injection, or a Cu-T that can be removed anytime. The couple picks the Cu-T, space their family, and whenever they are ready for the next baby, they simply get it removed. That is the beauty of a temporary method.</div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Types of Temporary Contraceptive Methods</h3>
@@ -1683,8 +1701,10 @@ window.QUESTIONS_DATA_CHN2_UNIT4 = [
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box">
     <strong>Family health services</strong> are <strong>comprehensive health care services provided to the family as a unit</strong>, addressing the physical, mental, social, and reproductive health needs of all family members — from the unborn baby to the elderly grandparent — with the aim of promoting family health and wellbeing.<br><br>
+    The family is treated as the <strong>basic unit of health care</strong> because the health of one member affects the whole family. For example, if the mother is anaemic, her baby is likely to be born weak; if one member has TB, the others are at risk of infection. So the nurse does not treat only one person &mdash; she looks at the whole family together. These services are <strong>preventive, promotive, curative, and rehabilitative</strong> in nature, and they are given close to home through the sub-centre, home visits, and monthly VHSND sessions so that no family is left out.<br><br>
     <strong>Simple words:</strong> Family health services = "one-stop" health care for the whole family — from the baby's vaccine to the grandmother's BP check.
   </div>
+  <div class="editorial-example"><strong>Relatable Example:</strong> When the nurse visits one home, she does many things in one trip — she checks the pregnant daughter-in-law's BP and gives her IFA tablets, weighs the baby and gives the due vaccine, hands condoms to the young couple, and checks the grandfather's sugar. That single home visit covering every member is exactly what "family health services" means.</div>
 </div>
 
 <div class="answer-section animate-slide-up">
