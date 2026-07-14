@@ -1016,6 +1016,8 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
 
 <div class="in-short"><strong>In Short:</strong> The National Immunization Schedule gives free vaccines to pregnant women (TT) and children (from birth to 5 years). These vaccines protect against 12 diseases. All vaccines given at government hospitals are FREE.</div>
 
+<div data-diagram="immunizationTimeline"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">National Immunization Schedule &mdash; Complete Table</h3>
   <div class="answer-table-wrap"><table class="answer-table">
@@ -1180,6 +1182,8 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
     <strong>Cold chain</strong> is the <strong>system of storage, transport, and distribution of vaccines</strong> maintaining the required temperature throughout &mdash; from the manufacturer to the child who receives the vaccine. Breaking the cold chain destroys the vaccine.
   </div>
 
+<div data-diagram="coldChain"></div>
+
   <div class="flowchart">
     <div class="flowchart-title">Flowchart: Cold Chain Flow &mdash; Factory to Child's Arm</div>
     <div class="flowchart-container">
@@ -1282,6 +1286,8 @@ window.QUESTIONS_DATA_CHN2_UNIT2 = [
   years: "Winter 2020",
   answer: `
 <div class="in-short"><strong>In Short:</strong> Cold chain is the system of keeping vaccines at the correct temperature from manufacture to the child. Key equipment: Walk-in freezer &rarr; ILR &rarr; Vaccine carrier. VVM on each vial shows if it has been damaged by heat.</div>
+
+<div data-diagram="coldChain"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Cold Chain</h3>

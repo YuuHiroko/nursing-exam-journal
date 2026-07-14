@@ -1617,6 +1617,71 @@ window.DIAGRAMS = {
       +'</svg>'
       +'<div class="diagram-key"><strong>Plot weight against age every month.</strong> A line rising along the <span style="color:#16a34a">green median</span> = healthy. Crossing below the <span style="color:#d97706">-2SD amber line</span> = Moderate malnutrition (MAM); below the <span style="color:#dc2626">-3SD red line</span> = Severe (SAM → refer to NRC). A <span style="color:#1d4ed8">FLAT line</span> (no weight gain) is the earliest danger sign — catch it before the child falls into the red zone.</div>'
     +'</div>';
+  },
+
+  // ─── CHN2. NATIONAL IMMUNIZATION SCHEDULE — a timeline from birth to 5 years ───
+  immunizationTimeline: function () {
+    var stops=[
+      {age:'Birth',v:'BCG · OPV-0 · Hep-B',c:'#ef4444'},
+      {age:'6 wk',v:'OPV-1 · Penta-1 · RVV-1 · fIPV-1',c:'#f59e0b'},
+      {age:'10 wk',v:'OPV-2 · Penta-2 · RVV-2',c:'#f59e0b'},
+      {age:'14 wk',v:'OPV-3 · Penta-3 · RVV-3 · fIPV-2',c:'#f59e0b'},
+      {age:'9 mo',v:'MR-1 · Vit-A-1 · JE-1',c:'#22c55e'},
+      {age:'16-24 mo',v:'DPT-B1 · OPV-B · MR-2 · Vit-A-2',c:'#0ea5e9'},
+      {age:'5-6 yr',v:'DPT-B2',c:'#6366f1'}
+    ];
+    var W=560,lineY=70,x0=40,x1=520,n=stops.length,svg='';
+    svg+='<line x1="'+x0+'" y1="'+lineY+'" x2="'+x1+'" y2="'+lineY+'" stroke="#cbd5e1" stroke-width="3"/>';
+    // travelling pulse along the timeline
+    svg+='<circle r="6" fill="#2563eb" opacity="0.85"><animate attributeName="cx" values="'+x0+';'+x1+'" dur="6s" repeatCount="indefinite"/><animate attributeName="cy" values="'+lineY+';'+lineY+'" dur="6s" repeatCount="indefinite"/></circle>';
+    for(var i=0;i<n;i++){
+      var s=stops[i],cx=x0+(i/(n-1))*(x1-x0),delay=(i*0.5).toFixed(1);
+      svg+='<circle cx="'+cx+'" cy="'+lineY+'" r="9" fill="'+s.c+'" stroke="#fff" stroke-width="2">'
+        +'<animate attributeName="r" values="7;11;7" dur="2.5s" begin="'+delay+'s" repeatCount="indefinite"/></circle>'
+        +'<text x="'+cx+'" y="'+(lineY-18)+'" text-anchor="middle" fill="'+s.c+'" font-size="11" font-weight="700">'+s.age+'</text>';
+      // vaccine label below, wrapped in a tspan box
+      var ty=lineY+26+((i%2)*0)+0;
+      svg+='<text x="'+cx+'" y="'+(lineY+26)+'" text-anchor="middle" fill="#475569" font-size="7.5" font-family="monospace">'
+        +s.v.split(' · ').map(function(part,k){return '<tspan x="'+cx+'" dy="'+(k?9:0)+'">'+part+'</tspan>';}).join('')
+        +'</text>';
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">💉 Animated: National Immunization Schedule — Birth to 6 Years</div>'
+      +'<svg viewBox="0 0 '+W+' 150" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'
+        +svg
+      +'</svg>'
+      +'<div class="diagram-key"><strong>Follow the child\'s age along the line.</strong> <span style="color:#ef4444">Birth</span> = BCG + OPV-0 + Hep-B. <span style="color:#f59e0b">6/10/14 weeks</span> = the primary Penta + OPV + RVV series. <span style="color:#22c55e">9 months</span> = Measles-Rubella + Vitamin A. <span style="color:#0ea5e9">16-24 months</span> = boosters. <span style="color:#6366f1">5-6 yr</span> = final DPT booster. Free under UIP — protects against 12 diseases.</div>'
+    +'</div>';
+  },
+
+  // ─── CHN2. COLD CHAIN — the temperature zones vaccines must stay in ───
+  coldChain: function () {
+    var W=520,svg='';
+    var zones=[
+      {t:'-15° to -25°C',lbl:'FREEZER',v:'OPV · BCG · Measles/MR',note:'keep FROZEN',c:'#2563eb',y:24},
+      {t:'+2° to +8°C',lbl:'REFRIGERATOR',v:'DPT · Penta · Hep-B · TT · IPV',note:'NEVER freeze these!',c:'#16a34a',y:112},
+      {t:'above +8°C',lbl:'DANGER ZONE',v:'vaccine DAMAGED by heat',note:'VVM turns dark → discard',c:'#ef4444',y:200}
+    ];
+    for(var i=0;i<zones.length;i++){
+      var z=zones[i],delay=(i*0.4).toFixed(1);
+      svg+='<rect x="40" y="'+z.y+'" width="440" height="76" rx="12" fill="'+z.c+'" fill-opacity="0.12" stroke="'+z.c+'" stroke-width="2.5">'
+        +'<animate attributeName="fill-opacity" values="0.08;0.22;0.08" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></rect>'
+        +'<text x="60" y="'+(z.y+30)+'" fill="'+z.c+'" font-size="15" font-weight="700">'+z.t+'</text>'
+        +'<text x="60" y="'+(z.y+50)+'" fill="'+z.c+'" font-size="10" font-weight="600">'+z.lbl+' — '+z.note+'</text>'
+        +'<text x="60" y="'+(z.y+66)+'" fill="#64748b" font-size="9" font-family="monospace">'+z.v+'</text>';
+    }
+    // a thermometer on the right
+    svg+='<rect x="470" y="24" width="14" height="176" rx="7" fill="#e2e8f0"/>'
+      +'<rect x="470" y="24" width="14" height="176" rx="7" fill="url(#ccgrad)" opacity="0.6"/>'
+      +'<circle cx="477" cy="212" r="14" fill="#ef4444"/>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🧊 Animated: Cold Chain — The 3 Temperature Zones</div>'
+      +'<svg viewBox="0 0 '+W+' 240" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'
+        +'<defs><linearGradient id="ccgrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2563eb"/><stop offset="50%" stop-color="#16a34a"/><stop offset="100%" stop-color="#ef4444"/></linearGradient></defs>'
+        +svg
+      +'</svg>'
+      +'<div class="diagram-key"><strong>Every vaccine has a safe zone.</strong> <span style="color:#2563eb">Freezer (-15 to -25°C)</span> for OPV, BCG, Measles. <span style="color:#16a34a">Fridge (+2 to +8°C)</span> for DPT/Penta/Hep-B/TT — <strong>freezing destroys these!</strong> <span style="color:#ef4444">Above +8°C</span> = heat damage; the VVM sticker turns dark and the vial must be discarded. The cold chain keeps vaccines in their zone from factory to child.</div>'
+    +'</div>';
   }
 
 };
