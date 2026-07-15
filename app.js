@@ -151,7 +151,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const chn2u2 = window.QUESTIONS_DATA_CHN2_UNIT2 || [];
         const chn2u3 = window.QUESTIONS_DATA_CHN2_UNIT3 || [];
         const chn2u4 = window.QUESTIONS_DATA_CHN2_UNIT4 || [];
-        return [...unit1, ...unit2, ...unit3, ...unit4, ...unit5, ...unit6, ...unit7, ...obg2, ...nrs1, ...nrs2, ...nrs3, ...nrs4, ...nrs5, ...chn2u1, ...chn2u2, ...chn2u3, ...chn2u4];
+        const chn2u5 = window.QUESTIONS_DATA_CHN2_UNIT5 || [];
+        return [...unit1, ...unit2, ...unit3, ...unit4, ...unit5, ...unit6, ...unit7, ...obg2, ...nrs1, ...nrs2, ...nrs3, ...nrs4, ...nrs5, ...chn2u1, ...chn2u2, ...chn2u3, ...chn2u4, ...chn2u5];
     }
 
     function getUnitLabel(unit) {
@@ -164,7 +165,8 @@ document.addEventListener('DOMContentLoaded', () => {
             105: 'NRS · UNIT V', 106: 'NRS · UNIT VI', 107: 'NRS · UNIT VII', 108: 'NRS · UNIT VIII',
             // CHN-II — Community Health Nursing - II
             201: 'CHN-II · UNIT I — Common Conditions & First Aid', 202: 'CHN-II · UNIT II — Reproductive, Maternal & Child Health',
-            203: 'CHN-II · UNIT III — Demography, Surveillance & Data', 204: 'CHN-II · UNIT IV — Population & Family Planning'
+            203: 'CHN-II · UNIT III — Demography, Surveillance & Data', 204: 'CHN-II · UNIT IV — Population & Family Planning',
+            205: 'CHN-II · UNIT V — Occupational Health'
         };
         return labels[unit] || 'UNIT ' + unit;
     }
@@ -215,7 +217,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 '201': 'CHN-II UNIT I: COMMON CONDITIONS, EMERGENCIES & FIRST AID',
                 '202': 'CHN-II UNIT II: REPRODUCTIVE, MATERNAL, NEWBORN, CHILD & ADOLESCENT HEALTH',
                 '203': 'CHN-II UNIT III: DEMOGRAPHY, SURVEILLANCE & INTERPRETATION OF DATA',
-                '204': 'CHN-II UNIT IV: POPULATION AND ITS CONTROL'
+                '204': 'CHN-II UNIT IV: POPULATION AND ITS CONTROL',
+                '205': 'CHN-II UNIT V: OCCUPATIONAL HEALTH'
             };
             sectionTitle.textContent = unitNames[activeUnit] || 'UNIT ' + activeUnit;
             sectionSubtitle.textContent = currentQuestions.length + ' questions';
