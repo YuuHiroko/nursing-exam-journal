@@ -2145,16 +2145,307 @@ window.DIAGRAMS = {
       +'<svg viewBox="0 0 '+W+' 345" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'+svg+'</svg>'
       +'<div class="diagram-key"><strong>Ergonomics = fitting the job to the worker, not the worker to the job.</strong> <span style="color:#ef4444">Wrong:</span> bent back and craned neck strain the spine (⚡ pain points) → back-ache &amp; repetitive-strain injury. <span style="color:#16a34a">Correct:</span> straight spine, neutral neck, feet flat, screen at eye level, back supported. For lifting: bend the knees, not the back, and keep the load close.</div>'
     +'</div>';
+  },
+
+  // ─── CHN2-U9. REFERRAL SYSTEM — stepped upward + back-referral ──
+  referralSystem: function () {
+    // Levels: SC, PHC, CHC, DH, Medical College
+    var levels = [
+      { name: 'Sub-Centre (SC)', pop: 'Pop: ~5,000', color: '#4caf50', y: 390, x: 60 },
+      { name: 'PHC', pop: 'Pop: 30,000', color: '#2196f3', y: 300, x: 170 },
+      { name: 'CHC', pop: 'Pop: 1,20,000', color: '#9c27b0', y: 210, x: 280 },
+      { name: 'District Hospital', pop: 'District', color: '#ff9800', y: 120, x: 390 },
+      { name: 'Medical College', pop: 'State/Regional', color: '#f44336', y: 40, x: 500 }
+    ];
+    var W = 640, H = 460, svg = '';
+    // gradient defs + arrow marker
+    svg += '<defs>'
+      + '<marker id="rs-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 Z" fill="#37474f"/></marker>'
+      + '<marker id="rs-arr-back" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 Z" fill="#90a4ae"/></marker>'
+      + '</defs>';
+    // Background
+    svg += '<rect x="0" y="0" width="'+W+'" height="'+H+'" rx="12" fill="#f8f9fa"/>';
+    // Title
+    svg += '<text x="'+W/2+'" y="22" text-anchor="middle" font-size="13" font-weight="700" fill="#263238">Referral System in India — Upward &amp; Back-Referral</text>';
+    // Draw forward referral arrows (upward-stepped diagonal)
+    for (var i = 0; i < levels.length - 1; i++) {
+      var l = levels[i], n = levels[i + 1];
+      var bx = l.x + 95, by = l.y + 22, ex = n.x, ey = n.y + 22;
+      svg += '<line x1="'+bx+'" y1="'+by+'" x2="'+ex+'" y2="'+ey+'" stroke="#37474f" stroke-width="2.5" marker-end="url(#rs-arr)">'
+        + '<animate attributeName="stroke-dasharray" values="0,200;200,0" dur="2s" begin="'+(i*0.4)+'s" repeatCount="indefinite"/>'
+        + '</line>';
+    }
+    // Draw back-referral arrows (dotted, going downward)
+    for (var j = 1; j < levels.length; j++) {
+      var lo = levels[j], lp = levels[j - 1];
+      var bx2 = lo.x + 5, by2 = lo.y + 35, ex2 = lp.x + 90, ey2 = lp.y + 35;
+      svg += '<line x1="'+bx2+'" y1="'+by2+'" x2="'+ex2+'" y2="'+ey2+'" stroke="#90a4ae" stroke-width="1.5" stroke-dasharray="5 4" marker-end="url(#rs-arr-back)" opacity="0.7"/>';
+    }
+    // Draw level boxes
+    for (var k = 0; k < levels.length; k++) {
+      var lv = levels[k];
+      svg += '<rect x="'+lv.x+'" y="'+lv.y+'" width="100" height="44" rx="8" fill="'+lv.color+'" opacity="0.9"/>'
+        + '<text x="'+(lv.x+50)+'" y="'+(lv.y+17)+'" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">'+lv.name+'</text>'
+        + '<text x="'+(lv.x+50)+'" y="'+(lv.y+32)+'" text-anchor="middle" font-size="8" fill="rgba(255,255,255,0.85)">'+lv.pop+'</text>';
+    }
+    // Legend
+    svg += '<line x1="30" y1="430" x2="90" y2="430" stroke="#37474f" stroke-width="2.5"/>'
+      + '<polygon points="90,426 90,434 98,430" fill="#37474f"/>'
+      + '<text x="102" y="434" font-size="9" fill="#37474f">Upward Referral</text>'
+      + '<line x1="220" y1="430" x2="280" y2="430" stroke="#90a4ae" stroke-width="1.5" stroke-dasharray="5 4"/>'
+      + '<polygon points="280,426 280,434 288,430" fill="#90a4ae"/>'
+      + '<text x="292" y="434" font-size="9" fill="#90a4ae">Back-Referral</text>';
+    return '<div class="interactive-diagram chn-diagram">'
+      + '<div class="diagram-title">&#8599; Animated: Referral System — SC to Medical College</div>'
+      + '<svg viewBox="0 0 '+W+' '+H+'" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">' + svg + '</svg>'
+      + '<div class="diagram-key">Referral flows <strong>upward</strong> (SC → PHC → CHC → District Hospital → Medical College) when a case exceeds the facility\'s capacity. <strong>Back-referral</strong> (dotted) returns stabilised patients to lower levels for follow-up, reducing burden on higher centres. Every level must maintain a referral register and provide a referral slip.</div>'
+      + '</div>';
+  },
+
+  // ─── CHN2-U9. THREE-TIER SYSTEM — SC / PHC / CHC boxes ─────────
+  threeTierSystem: function () {
+    var W = 580, H = 380, svg = '';
+    var tiers = [
+      {
+        label: 'Tier 1 — Sub-Centre (SC)', pop: 'Population: ~5,000',
+        color: '#4caf50', y: 280, staff: 'ANM (F) + MPHW (M)', beds: 'No indoor beds'
+      },
+      {
+        label: 'Tier 2 — PHC', pop: 'Population: 30,000',
+        color: '#2196f3', y: 160, staff: 'Medical Officer + 14 staff', beds: '6 indoor beds'
+      },
+      {
+        label: 'Tier 3 — CHC', pop: 'Population: 1,20,000',
+        color: '#9c27b0', y: 40, staff: '4 Specialists + 21 staff', beds: '30 indoor beds'
+      }
+    ];
+    svg += '<rect x="0" y="0" width="'+W+'" height="'+H+'" rx="12" fill="#f3f4f6"/>';
+    svg += '<text x="'+W/2+'" y="22" text-anchor="middle" font-size="13" font-weight="700" fill="#1a202c">Three-Tier Rural Health Infrastructure</text>';
+    // Arrow between tiers
+    svg += '<defs><marker id="tt-arr" markerWidth="8" markerHeight="8" refX="4" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 Z" fill="#64748b"/></marker></defs>';
+    // Vertical connector lines
+    svg += '<line x1="290" y1="130" x2="290" y2="155" stroke="#64748b" stroke-width="2" marker-end="url(#tt-arr)"/>';
+    svg += '<line x1="290" y1="250" x2="290" y2="275" stroke="#64748b" stroke-width="2" marker-end="url(#tt-arr)"/>';
+    for (var i = 0; i < tiers.length; i++) {
+      var t = tiers[i];
+      svg += '<rect x="80" y="'+t.y+'" width="420" height="100" rx="10" fill="'+t.color+'" opacity="0.12" stroke="'+t.color+'" stroke-width="2"/>'
+        + '<rect x="80" y="'+t.y+'" width="420" height="28" rx="10" fill="'+t.color+'" opacity="0.85"/>'
+        + '<text x="290" y="'+(t.y+19)+'" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">'+t.label+'</text>'
+        + '<text x="170" y="'+(t.y+52)+'" text-anchor="middle" font-size="9" fill="'+t.color+'" font-weight="600">'+t.pop+'</text>'
+        + '<text x="170" y="'+(t.y+68)+'" text-anchor="middle" font-size="9" fill="#374151">'+t.staff+'</text>'
+        + '<text x="170" y="'+(t.y+84)+'" text-anchor="middle" font-size="9" fill="#374151">'+t.beds+'</text>'
+        + '<text x="420" y="'+(t.y+52)+'" text-anchor="middle" font-size="22" fill="'+t.color+'" opacity="0.25" font-weight="900">'+(3-i)+'</text>';
+    }
+    svg += '<text x="290" y="365" text-anchor="middle" font-size="8" fill="#6b7280">DH (District Hospital) and Medical College form higher referral levels above CHC</text>';
+    return '<div class="interactive-diagram chn-diagram">'
+      + '<div class="diagram-title">&#127981; Three-Tier Rural Health System — SC, PHC &amp; CHC</div>'
+      + '<svg viewBox="0 0 '+W+' '+H+'" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">' + svg + '</svg>'
+      + '<div class="diagram-key"><strong>Tier 1 (SC):</strong> Closest to community; 1 ANM + 1 MPHW per 5,000 population (3,000 in hilly/tribal areas). <strong>Tier 2 (PHC):</strong> First contact with a qualified doctor; 30,000 population; 6 indoor beds; delivers 24×7 delivery services at upgraded PHCs. <strong>Tier 3 (CHC):</strong> 4-specialist hospital (surgeon, physician, obs-gyn, paediatrician); 1,20,000 population; 30 beds; designated as First Referral Unit (FRU).</div>'
+      + '</div>';
+  },
+
+  // ─── CHN2-U9. PHC STRUCTURE — layout, staff, services ──────────
+  phcStructure: function () {
+    var W = 580, H = 420, svg = '';
+    svg += '<rect x="0" y="0" width="'+W+'" height="'+H+'" rx="12" fill="#e3f2fd"/>';
+    svg += '<text x="'+W/2+'" y="22" text-anchor="middle" font-size="13" font-weight="700" fill="#0d47a1">Primary Health Centre (PHC) — Structure &amp; Functions</text>';
+    svg += '<text x="'+W/2+'" y="38" text-anchor="middle" font-size="9" fill="#1565c0">Population: 30,000 (hilly/tribal: 20,000)</text>';
+    // Building outline
+    svg += '<rect x="20" y="50" width="380" height="330" rx="8" fill="#fff" stroke="#1e88e5" stroke-width="2"/>';
+    svg += '<text x="210" y="68" text-anchor="middle" font-size="10" font-weight="700" fill="#1565c0">PHC Building Layout</text>';
+    // Rooms
+    var rooms = [
+      { label: 'OPD (Outdoor)', x: 30, y: 78, w: 110, h: 50, c: '#bbdefb' },
+      { label: 'Labour Room', x: 155, y: 78, w: 110, h: 50, c: '#f8bbd0' },
+      { label: 'Laboratory', x: 280, y: 78, w: 110, h: 50, c: '#dcedc8' },
+      { label: 'Pharmacy', x: 30, y: 145, w: 110, h: 50, c: '#fff9c4' },
+      { label: '6-Bed Ward', x: 155, y: 145, w: 235, h: 50, c: '#e8eaf6' },
+      { label: 'MO Quarters', x: 30, y: 212, w: 110, h: 50, c: '#ffe0b2' },
+      { label: 'Staff Quarters', x: 155, y: 212, w: 110, h: 50, c: '#f3e5f5' },
+      { label: 'Store / Records', x: 280, y: 212, w: 110, h: 50, c: '#e0f2f1' },
+      { label: 'Waiting Area', x: 30, y: 279, w: 360, h: 45, c: '#fce4ec' }
+    ];
+    for (var i = 0; i < rooms.length; i++) {
+      var r = rooms[i];
+      svg += '<rect x="'+r.x+'" y="'+r.y+'" width="'+r.w+'" height="'+r.h+'" rx="5" fill="'+r.c+'" stroke="#90caf9" stroke-width="1"/>'
+        + '<text x="'+(r.x+r.w/2)+'" y="'+(r.y+r.h/2+4)+'" text-anchor="middle" font-size="8.5" fill="#1a237e" font-weight="600">'+r.label+'</text>';
+    }
+    // Staff panel
+    svg += '<rect x="415" y="50" width="155" height="330" rx="8" fill="#fff" stroke="#1e88e5" stroke-width="2"/>';
+    svg += '<text x="492" y="68" text-anchor="middle" font-size="10" font-weight="700" fill="#1565c0">Staff (14 posts)</text>';
+    var staff = ['Medical Officer (1)','Nurse-Midwife (1)','Health Worker F (1)','Health Asst F (1)','Health Asst M (1)','Pharmacist (1)','Lab Technician (1)','Driver (1)','Class IV (4)'];
+    for (var s = 0; s < staff.length; s++) {
+      svg += '<text x="422" y="'+(86 + s * 22)+'" font-size="8" fill="#1a237e">• '+staff[s]+'</text>';
+    }
+    // Pulsing plus on building
+    svg += '<text x="210" y="360" text-anchor="middle" font-size="28" fill="#1e88e5" opacity="0.18" font-weight="900">&#x2695;</text>';
+    return '<div class="interactive-diagram chn-diagram">'
+      + '<div class="diagram-title">&#127977; PHC — Layout, Staff &amp; Services</div>'
+      + '<svg viewBox="0 0 '+W+' '+H+'" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">' + svg + '</svg>'
+      + '<div class="diagram-key"><strong>PHC</strong> is the cornerstone of rural health — first contact with a medically qualified doctor. Key services: OPD, maternal &amp; child health, family planning, immunisation, school health, nutrition, basic lab, emergency care. Upgraded PHCs provide 24×7 delivery. One PHC per 30,000 population (20,000 in hilly/tribal); 1 MO + 14 paramedical staff; 6 indoor beds.</div>'
+      + '</div>';
+  },
+
+  // ─── CHN2-U9. HEALTHCARE ORGANISATION — animated pyramid ───────
+  healthcareOrganisation: function () {
+    var W = 560, H = 430, svg = '';
+    svg += '<rect x="0" y="0" width="'+W+'" height="'+H+'" rx="12" fill="#fafafa"/>';
+    svg += '<text x="'+W/2+'" y="22" text-anchor="middle" font-size="13" font-weight="700" fill="#263238">Healthcare Organisation in India — Administrative Hierarchy</text>';
+    // Pyramid levels (top → bottom)
+    var lvls = [
+      { label: 'MoHFW + DGHS', sub: '(Central)', color: '#b71c1c', tw: 120, y: 38 },
+      { label: 'State Health Dept / DHS', sub: '(State)', color: '#e53935', tw: 200, y: 88 },
+      { label: 'District Health Officer (DMO)', sub: '(District)', color: '#fb8c00', tw: 260, y: 138 },
+      { label: 'Community Health Centre (CHC)', sub: '1,20,000 pop', color: '#fdd835', tw: 330, y: 188 },
+      { label: 'Primary Health Centre (PHC)', sub: '30,000 pop', color: '#43a047', tw: 400, y: 238 },
+      { label: 'Sub-Centre (SC)', sub: '5,000 pop', color: '#1e88e5', tw: 470, y: 288 }
+    ];
+    var cx = W / 2;
+    // Draw trapezoid layers
+    for (var i = 0; i < lvls.length; i++) {
+      var lv = lvls[i], h = 46;
+      var top = lv.tw, bot = (lvls[i + 1] ? lvls[i + 1].tw : lv.tw + 60);
+      var x1 = cx - top / 2, x2 = cx + top / 2;
+      var x3 = cx + bot / 2, x4 = cx - bot / 2;
+      svg += '<polygon points="'+x1+','+(lv.y)+' '+x2+','+(lv.y)+' '+x3+','+(lv.y+h)+' '+x4+','+(lv.y+h)+'" fill="'+lv.color+'" opacity="0.82">'
+        + '<animate attributeName="opacity" values="0.75;0.92;0.75" dur="'+(2.5+i*0.3)+'s" repeatCount="indefinite"/>'
+        + '</polygon>'
+        + '<text x="'+cx+'" y="'+(lv.y+20)+'" text-anchor="middle" font-size="9.5" font-weight="700" fill="#fff">'+lv.label+'</text>'
+        + '<text x="'+cx+'" y="'+(lv.y+34)+'" text-anchor="middle" font-size="8" fill="rgba(255,255,255,0.85)">'+lv.sub+'</text>';
+    }
+    // Base label
+    svg += '<text x="'+cx+'" y="362" text-anchor="middle" font-size="8.5" fill="#546e7a">↑ Central authority &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Community-level ↓</text>';
+    // Ministry label callout
+    svg += '<text x="30" y="68" font-size="8" fill="#b71c1c" font-weight="700">Central</text>'
+      + '<text x="30" y="118" font-size="8" fill="#e53935" font-weight="700">State</text>'
+      + '<text x="30" y="168" font-size="8" fill="#fb8c00" font-weight="700">District</text>'
+      + '<text x="30" y="218" font-size="8" fill="#f9a825" font-weight="700">Block</text>'
+      + '<text x="30" y="268" font-size="8" fill="#43a047" font-weight="700">PHC</text>'
+      + '<text x="30" y="318" font-size="8" fill="#1e88e5" font-weight="700">Village</text>';
+    svg += '<text x="' + (W / 2) + '" y="400" text-anchor="middle" font-size="8" fill="#78909c">NHM integrates vertical programmes across all tiers under unified command.</text>';
+    return '<div class="interactive-diagram chn-diagram">'
+      + '<div class="diagram-title">&#127963; Animated: Healthcare Organisation — Administrative Pyramid</div>'
+      + '<svg viewBox="0 0 ' + W + ' ' + H + '" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">' + svg + '</svg>'
+      + '<div class="diagram-key"><strong>Central:</strong> Ministry of Health &amp; Family Welfare (MoHFW) + Directorate General of Health Services (DGHS) set policy. <strong>State:</strong> State Health Dept / DHS implement &amp; supervise. <strong>District:</strong> District Medical Officer ordinates district health. <strong>CHC:</strong> 1,20,000 population; First Referral Unit (FRU). <strong>PHC:</strong> 30,000 population; first doctor contact. <strong>SC:</strong> Village-level; ANM + MPHW.</div>'
+      + '</div>';
+  },
+
+  // --- CHN2-U9. PANCHAYATI RAJ --- 3-tier pyramid
+  panchayatiRaj: function () {
+    var W = 540, H = 420, svg = '';
+    svg += '<rect x="0" y="0" width="' + W + '" height="' + H + '" rx="12" fill="#f1f8e9"/>';
+    svg += '<text x="' + (W / 2) + '" y="22" text-anchor="middle" font-size="13" font-weight="700" fill="#1b5e20">Panchayati Raj Institutions (PRI) — Three-Tier System</text>';
+    svg += '<text x="' + (W / 2) + '" y="38" text-anchor="middle" font-size="9" fill="#388e3c">73rd Constitutional Amendment Act, 1992</text>';
+    var tiers = [
+      { label: 'Zila Parishad', level: 'District level', color: '#1b5e20', sub: 'Oversees all panchayats in district', y: 60, w: 160, h0: 'District planning', h1: 'Budget sanction', h2: 'Inter-block coordination' },
+      { label: 'Panchayat Samiti', level: 'Block / Taluka level', color: '#388e3c', sub: 'Coordinates block-level development', y: 175, w: 280, h0: 'PHC oversight', h1: 'Health schemes', h2: 'ASHA coordination' },
+      { label: 'Gram Panchayat', level: 'Village level', color: '#66bb6a', sub: 'Gram Sabha — all adult voters', y: 290, w: 400, h0: 'Village health register', h1: 'VHSNC support', h2: 'Nutrition &amp; Jan Aushadhi' }
+    ];
+    var cx = W / 2;
+    svg += '<defs><marker id="pri-arr" markerWidth="7" markerHeight="7" refX="4" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3 Z" fill="#388e3c"/></marker></defs>';
+    svg += '<line x1="' + cx + '" y1="152" x2="' + cx + '" y2="170" stroke="#388e3c" stroke-width="2" marker-end="url(#pri-arr)"/>';
+    svg += '<line x1="' + cx + '" y1="267" x2="' + cx + '" y2="285" stroke="#388e3c" stroke-width="2" marker-end="url(#pri-arr)"/>';
+    for (var i = 0; i < tiers.length; i++) {
+      var t = tiers[i];
+      svg += '<rect x="' + (cx - t.w / 2) + '" y="' + t.y + '" width="' + t.w + '" height="92" rx="10" fill="' + t.color + '" opacity="0.1" stroke="' + t.color + '" stroke-width="2.5"/>'
+        + '<rect x="' + (cx - t.w / 2) + '" y="' + t.y + '" width="' + t.w + '" height="30" rx="10" fill="' + t.color + '" opacity="0.88"/>'
+        + '<text x="' + cx + '" y="' + (t.y + 20) + '" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">' + t.label + '</text>'
+        + '<text x="' + cx + '" y="' + (t.y + 50) + '" text-anchor="middle" font-size="9" fill="' + t.color + '" font-weight="700">' + t.level + '</text>'
+        + '<text x="' + cx + '" y="' + (t.y + 66) + '" text-anchor="middle" font-size="8.5" fill="#374151">' + t.sub + '</text>'
+        + '<text x="' + (cx - t.w / 2 + 10) + '" y="' + (t.y + 84) + '" font-size="7.5" fill="#555">▶ ' + t.h0 + '  ▶ ' + t.h1 + '  ▶ ' + t.h2 + '</text>';
+    }
+    svg += '<rect x="' + (cx - 140) + '" y="398" width="280" height="18" rx="5" fill="#c8e6c9"/>'
+      + '<text x="' + cx + '" y="411" text-anchor="middle" font-size="8.5" fill="#1b5e20" font-weight="600">Gram Sabha = all adult villagers — supreme body at village level</text>';
+    return '<div class="interactive-diagram chn-diagram">'
+      + '<div class="diagram-title">&#127968; Panchayati Raj — 3-Tier Local Self-Government</div>'
+      + '<svg viewBox="0 0 ' + W + ' ' + H + '" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">' + svg + '</svg>'
+      + '<div class="diagram-key"><strong>Gram Panchayat</strong> (village) → <strong>Panchayat Samiti</strong> (block) → <strong>Zila Parishad</strong> (district). Established by the 73rd CAA, 1992. Health role: Gram Panchayat chairs VHSNC and oversees ASHA &amp; Sub-Centre activities; Panchayat Samiti supervises PHC functioning; Zila Parishad coordinates district NHM programmes. <strong>Gram Sabha</strong> (all adult villagers) approves the Village Health, Sanitation &amp; Nutrition Plan (VHSNP).</div>'
+      + '</div>';
+  },
+
+  // ─── CHN2-U10. ASHA ROLES — radial wheel with 9 functions ───────────────
+  ashaRoles: function () {
+    var W = 560, cx = 280, cy = 215, R = 148, n = 9;
+    var roles = [
+      { t: 'Maternal Health', ex: 'ANC · delivery escort · JSY', ic: '🤰', c: '#ec4899' },
+      { t: 'Immunisation', ex: 'track 0–5 yrs · dropouts', ic: '💉', c: '#0ea5e9' },
+      { t: 'Disease Surveillance', ex: 'TB · malaria · diarrhoea', ic: '🔍', c: '#ef4444' },
+      { t: 'Drug Kit', ex: 'ORS · IFA · OCP · condoms', ic: '💊', c: '#f59e0b' },
+      { t: 'Family Planning', ex: 'counsel · distribute · refer', ic: '👨‍👩‍👧', c: '#8b5cf6' },
+      { t: 'Nutrition', ex: 'Vit A · breastfeeding · ICDS', ic: '🥗', c: '#16a34a' },
+      { t: 'Sanitation', ex: 'ODF · safe water · hygiene', ic: '🚰', c: '#06b6d4' },
+      { t: 'VHSNC', ex: 'Secretary · untied fund', ic: '🏘️', c: '#d97706' },
+      { t: 'Record Keeping', ex: 'birth/death · ASHA diary', ic: '📋', c: '#6366f1' }
+    ];
+    var pts = [];
+    for (var i = 0; i < n; i++) {
+      var ang = (-90 + i * (360 / n)) * Math.PI / 180;
+      pts.push([cx + R * Math.cos(ang), cy + R * Math.sin(ang)]);
+    }
+    var svg = '';
+    // spokes + nodes
+    for (var i = 0; i < n; i++) {
+      var p = pts[i], r = roles[i], delay = (i * 0.3).toFixed(1);
+      svg += '<line x1="' + cx + '" y1="' + cy + '" x2="' + p[0].toFixed(0) + '" y2="' + p[1].toFixed(0) + '" stroke="' + r.c + '" stroke-width="2" stroke-opacity="0.35"/>';
+      svg += '<circle cx="' + p[0].toFixed(0) + '" cy="' + p[1].toFixed(0) + '" r="36" fill="' + r.c + '" fill-opacity="0.13" stroke="' + r.c + '" stroke-width="2.5">'
+           + '<animate attributeName="fill-opacity" values="0.08;0.28;0.08" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/>'
+           + '</circle>';
+      svg += '<text x="' + p[0].toFixed(0) + '" y="' + (parseFloat(p[1]) - 5).toFixed(0) + '" text-anchor="middle" font-size="14">' + r.ic + '</text>';
+      svg += '<text x="' + p[0].toFixed(0) + '" y="' + (parseFloat(p[1]) + 10).toFixed(0) + '" text-anchor="middle" fill="' + r.c + '" font-size="8.5" font-weight="700">' + r.t + '</text>';
+      svg += '<text x="' + p[0].toFixed(0) + '" y="' + (parseFloat(p[1]) + 22).toFixed(0) + '" text-anchor="middle" fill="#64748b" font-size="6.5" font-family="monospace">' + r.ex + '</text>';
+    }
+    // centre hub
+    svg += '<circle cx="' + cx + '" cy="' + cy + '" r="46" fill="#16a34a" fill-opacity="0.16" stroke="#16a34a" stroke-width="3">'
+         + '<animate attributeName="r" values="43;49;43" dur="2.8s" repeatCount="indefinite"/>'
+         + '</circle>';
+    svg += '<text x="' + cx + '" y="' + (cy - 8) + '" text-anchor="middle" fill="#16a34a" font-size="13" font-weight="700">ASHA</text>';
+    svg += '<text x="' + cx + '" y="' + (cy + 8) + '" text-anchor="middle" fill="#16a34a" font-size="8" font-weight="600">9 key roles</text>';
+    svg += '<text x="' + cx + '" y="' + (cy + 22) + '" text-anchor="middle" fill="#16a34a" font-size="7">since 2005 · NRHM</text>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">🌟 Animated: ASHA — 9 Roles of the Village Health Champion</div>'
+      + '<svg viewBox="0 0 ' + W + ' 430" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">' + svg + '</svg>'
+      + '<div class="diagram-key"><strong>ASHA (since 2005, NRHM)</strong> is selected from the same village — 1 per 1,000 population. She is the community&apos;s link to the health system. Her 9 core roles span the full RMNCH+A cycle plus sanitation, surveillance, and governance. She earns performance-based incentives (not a salary) — e.g. ₹600 per institutional delivery escorted under JSY.</div>'
+      + '</div>';
+  },
+
+  // ─── CHN2-U10. HEALTH TEAM HIERARCHY — stepped org chart ────────────────
+  healthTeamHierarchy: function () {
+    var W = 560, levels = [
+      { lbl: 'Medical Officer (MO)', sub: 'Head of PHC · diagnosis · team management', c: '#0f766e', y: 24, bw: 320 },
+      { lbl: 'PHN / Health Visitor', sub: 'Field supervision · training · health camps', c: '#0ea5e9', y: 96, bw: 290 },
+      { lbl: 'ANM (Female HW) + MPHW (Male HW)', sub: 'Sub-Centre · MCH/immunization / sanitation · vector control', c: '#8b5cf6', y: 168, bw: 400 },
+      { lbl: 'ASHA', sub: 'Village volunteer · link worker · 1 per 1,000 pop', c: '#16a34a', y: 240, bw: 260 },
+      { lbl: 'Community / Families', sub: 'Population served · 30,000 per PHC area', c: '#f59e0b', y: 312, bw: 480 }
+    ];
+    var bh = 52, svg = '';
+    // connector lines between levels
+    for (var i = 0; i < levels.length - 1; i++) {
+      var cur = levels[i], nxt = levels[i + 1];
+      svg += '<line x1="' + (W / 2) + '" y1="' + (cur.y + bh) + '" x2="' + (W / 2) + '" y2="' + nxt.y + '" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 4">'
+           + '<animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2s" begin="' + (i * 0.4).toFixed(1) + 's" repeatCount="indefinite"/>'
+           + '</animate></line>';
+    }
+    // boxes
+    for (var i = 0; i < levels.length; i++) {
+      var lv = levels[i], x = (W - lv.bw) / 2, delay = (i * 0.35).toFixed(1);
+      svg += '<rect x="' + x.toFixed(0) + '" y="' + lv.y + '" width="' + lv.bw + '" height="' + bh + '" rx="10" fill="' + lv.c + '" fill-opacity="0.14" stroke="' + lv.c + '" stroke-width="2">'
+           + '<animate attributeName="fill-opacity" values="0.08;0.24;0.08" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/>'
+           + '</rect>';
+      svg += '<text x="' + (W / 2) + '" y="' + (lv.y + 20) + '" text-anchor="middle" fill="' + lv.c + '" font-size="11" font-weight="700">' + lv.lbl + '</text>';
+      svg += '<text x="' + (W / 2) + '" y="' + (lv.y + 37) + '" text-anchor="middle" fill="#64748b" font-size="7.5" font-family="monospace">' + lv.sub + '</text>';
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">🏥 Animated: PHC Health Team — Hierarchy &amp; Roles</div>'
+      + '<svg viewBox="0 0 ' + W + ' 380" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">' + svg + '</svg>'
+      + '<div class="diagram-key"><strong>The PHC health team</strong> is a 5-level structure serving 30,000 people. The <strong style="color:#0f766e">MO</strong> leads, the <strong style="color:#0ea5e9">PHN/HV</strong> supervises field workers, the <strong style="color:#8b5cf6">ANM + MPHW</strong> provide front-line services at the Sub-Centre (5,000 pop), <strong style="color:#16a34a">ASHA</strong> is the village volunteer linking community to the system, and the <strong style="color:#f59e0b">Community</strong> is the ultimate beneficiary. Each level has distinct job responsibilities and reports upward.</div>'
+      + '</div>';
   }
 
 };
 
 
-// ─── ACTIVATION ────────────────────────────────────────────────
-// Find every [data-diagram] placeholder, replace with the live HTML,
-// and let the browser run animations immediately. No pausing on inject —
-// every previous attempt to start-paused caused race conditions in the
-// modal context where IntersectionObserver fires before layout settles.
+// --- ACTIVATION ---
+// Find every [data-diagram] placeholder, replace with the live HTML.
 (function () {
   var reduceMotion = !!(window.matchMedia &&
     window.matchMedia('(prefers-reduced-motion: reduce)').matches);
@@ -2178,8 +2469,6 @@ window.DIAGRAMS = {
         s.setAttribute('role', 'img');
         s.setAttribute('aria-label', label.replace(/\s+/g, ' ').trim());
       });
-      // No pausing on inject — CSS @media (prefers-reduced-motion) scoped to
-      // non-diagram elements handles the reduce-motion case for the rest of the page.
     }
   };
 
