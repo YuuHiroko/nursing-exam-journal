@@ -157,7 +157,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const chn2u8 = window.QUESTIONS_DATA_CHN2_UNIT8 || [];
         const chn2u9 = window.QUESTIONS_DATA_CHN2_UNIT9 || [];
         const chn2u10 = window.QUESTIONS_DATA_CHN2_UNIT10 || [];
-        return [...unit1, ...unit2, ...unit3, ...unit4, ...unit5, ...unit6, ...unit7, ...obg2, ...nrs1, ...nrs2, ...nrs3, ...nrs4, ...nrs5, ...chn2u1, ...chn2u2, ...chn2u3, ...chn2u4, ...chn2u5, ...chn2u6, ...chn2u7, ...chn2u8, ...chn2u9, ...chn2u10];
+        const chn2u11 = window.QUESTIONS_DATA_CHN2_UNIT11 || [];
+        const chn2u12 = window.QUESTIONS_DATA_CHN2_UNIT12 || [];
+        const chn2u13 = window.QUESTIONS_DATA_CHN2_UNIT13 || [];
+        return [...unit1, ...unit2, ...unit3, ...unit4, ...unit5, ...unit6, ...unit7, ...obg2, ...nrs1, ...nrs2, ...nrs3, ...nrs4, ...nrs5, ...chn2u1, ...chn2u2, ...chn2u3, ...chn2u4, ...chn2u5, ...chn2u6, ...chn2u7, ...chn2u8, ...chn2u9, ...chn2u10, ...chn2u11, ...chn2u12, ...chn2u13];
     }
 
     function getUnitLabel(unit) {
@@ -176,7 +179,10 @@ document.addEventListener('DOMContentLoaded', () => {
             207: 'CHN-II · UNIT VII — Mental Health Disorders',
             208: 'CHN-II · UNIT VIII — HMIS',
             209: 'CHN-II · UNIT IX — Management of Delivery of CH Services',
-            210: 'CHN-II · UNIT X — Leadership, Supervision & Monitoring'
+            210: 'CHN-II · UNIT X — Leadership, Supervision & Monitoring',
+            211: 'CHN-II · UNIT XI — Disaster Management',
+            212: 'CHN-II · UNIT XII — Bio-Medical Waste Management',
+            213: 'CHN-II · UNIT XIII — Health Agencies'
         };
         return labels[unit] || 'UNIT ' + unit;
     }
@@ -233,7 +239,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 '207': 'CHN-II UNIT VII: MENTAL HEALTH DISORDERS',
                 '208': 'CHN-II UNIT VIII: HEALTH MANAGEMENT INFORMATION SYSTEM (HMIS)',
                 '209': 'CHN-II UNIT IX: MANAGEMENT OF DELIVERY OF COMMUNITY HEALTH SERVICES',
-                '210': 'CHN-II UNIT X: LEADERSHIP, SUPERVISION AND MONITORING'
+                '210': 'CHN-II UNIT X: LEADERSHIP, SUPERVISION AND MONITORING',
+                '211': 'CHN-II UNIT XI: DISASTER MANAGEMENT',
+                '212': 'CHN-II UNIT XII: BIO-MEDICAL WASTE MANAGEMENT',
+                '213': 'CHN-II UNIT XIII: HEALTH AGENCIES'
             };
             sectionTitle.textContent = unitNames[activeUnit] || 'UNIT ' + activeUnit;
             sectionSubtitle.textContent = currentQuestions.length + ' questions';
