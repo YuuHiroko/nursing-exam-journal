@@ -1,0 +1,14 @@
+{
+  "id": "session-1783971322724",
+  "startedAt": "2026-07-13T19:35:22.724Z",
+  "cwd": "/home/aj/Documents/nursing-exam-journal",
+  "context": {},
+  "metrics": {
+    "edits": 85,
+    "commands": 0,
+    "tasks": 0,
+    "errors": 0
+  },
+  "endedAt": "2026-07-15T11:21:30.659Z",
+  "duration": 143167945
+}
