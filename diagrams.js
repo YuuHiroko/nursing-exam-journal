@@ -2000,6 +2000,151 @@ window.DIAGRAMS = {
       +'</svg>'
       +'<div class="diagram-key"><strong>Empowerment feeds itself — a virtuous circle.</strong> Education → economic independence → later marriage → fewer, healthier children → better health &amp; more opportunity → which supports the next girl&apos;s education. Each step strengthens the next, so investing in one girl&apos;s schooling lifts the whole family and slows population growth.</div>'
     +'</div>';
+  },
+
+  // ─── CHN2-U5. OCCUPATIONAL HAZARDS TREE — central node + 5 branches ───
+  occupationalHazardsTree: function () {
+    var W=560,cx=110,cy=190;
+    var br=[
+      {t:'PHYSICAL',ic:'🔊',ex:'noise · heat · radiation · vibration',c:'#ef4444'},
+      {t:'CHEMICAL',ic:'☣️',ex:'dust · fumes · lead · pesticides',c:'#f59e0b'},
+      {t:'BIOLOGICAL',ic:'🦠',ex:'infection · needle-stick · zoonosis',c:'#16a34a'},
+      {t:'ERGONOMIC',ic:'🪑',ex:'posture · lifting · repetitive strain',c:'#0ea5e9'},
+      {t:'PSYCHOSOCIAL',ic:'🧠',ex:'stress · burnout · shift work',c:'#8b5cf6'}
+    ];
+    var bx=360,y0=44,gap=76,svg='';
+    for(var i=0;i<5;i++){ var by=y0+i*gap,delay=(i*0.3).toFixed(1);
+      svg+='<path d="M'+(cx+52)+','+cy+' C'+(bx-90)+','+cy+' '+(bx-90)+','+by+' '+(bx-46)+','+by+'" fill="none" stroke="'+br[i].c+'" stroke-width="2.5" stroke-opacity="0.55" stroke-dasharray="6 5"><animate attributeName="stroke-dashoffset" values="22;0" dur="1.4s" begin="'+delay+'s" repeatCount="indefinite"/></path>'
+        +'<rect x="'+(bx-46)+'" y="'+(by-22)+'" width="176" height="44" rx="9" fill="'+br[i].c+'" fill-opacity="0.12" stroke="'+br[i].c+'" stroke-width="2"><animate attributeName="fill-opacity" values="0.08;0.24;0.08" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></rect>'
+        +'<text x="'+(bx-30)+'" y="'+(by+5)+'" font-size="15">'+br[i].ic+'</text>'
+        +'<text x="'+(bx+2)+'" y="'+(by-4)+'" fill="'+br[i].c+'" font-size="10.5" font-weight="700">'+br[i].t+'</text>'
+        +'<text x="'+(bx+2)+'" y="'+(by+11)+'" fill="#64748b" font-size="7" font-family="monospace">'+br[i].ex+'</text>'; }
+    svg+='<circle cx="'+cx+'" cy="'+cy+'" r="52" fill="#0f766e" fill-opacity="0.14" stroke="#0f766e" stroke-width="3"><animate attributeName="r" values="49;54;49" dur="2.6s" repeatCount="indefinite"/></circle>'
+      +'<text x="'+cx+'" y="'+(cy-8)+'" text-anchor="middle" fill="#0f766e" font-size="11" font-weight="700">OCCUP.</text>'
+      +'<text x="'+cx+'" y="'+(cy+6)+'" text-anchor="middle" fill="#0f766e" font-size="11" font-weight="700">HAZARDS</text>'
+      +'<text x="'+cx+'" y="'+(cy+20)+'" text-anchor="middle" fill="#0f766e" font-size="8" font-weight="600">5 types</text>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">⚠️ Animated: The 5 Types of Occupational Hazards</div>'
+      +'<svg viewBox="0 0 '+W+' 400" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'+svg+'</svg>'
+      +'<div class="diagram-key"><strong>Every job carries hazards — remember "PCBEP".</strong> <span style="color:#ef4444">Physical</span> (noise, heat, radiation), <span style="color:#f59e0b">Chemical</span> (dust, fumes, lead), <span style="color:#16a34a">Biological</span> (infections, needle-stick), <span style="color:#0ea5e9">Ergonomic</span> (bad posture, lifting) and <span style="color:#8b5cf6">Psychosocial</span> (stress, burnout). A miner faces dust, a nurse faces infection, a clerk faces eye-strain — the nurse must recognise all five to protect workers.</div>'
+    +'</div>';
+  },
+
+  // ─── CHN2-U5. NEEDLE-STICK INJURY PROTOCOL — timed flowchart ───
+  nsiProtocol: function () {
+    var W=560,steps=[
+      {t:'INJURY',s:'needle prick / splash',c:'#ef4444',clk:'0 min'},
+      {t:'WASH',s:'wash with soap + running water 15 min; do NOT squeeze',c:'#f59e0b',clk:'immediately'},
+      {t:'REPORT',s:'inform in-charge; record in NSI register',c:'#eab308',clk:'at once'},
+      {t:'TEST SOURCE',s:'test source patient — HIV / HBsAg / HCV',c:'#22c55e',clk:'&lt; 1 hr'},
+      {t:'START PEP',s:'begin Post-Exposure Prophylaxis if risk',c:'#0ea5e9',clk:'within 2 hr'},
+      {t:'FOLLOW-UP',s:'re-test at 6 weeks · 3 months · 6 months',c:'#8b5cf6',clk:'6wk–6mo'}
+    ];
+    var x0=40,bw=210,bh=42,gap=52,svg='';
+    for(var i=0;i<steps.length;i++){ var y=30+i*gap,s=steps[i],delay=(i*0.4).toFixed(1);
+      if(i<steps.length-1){ svg+='<line x1="'+(x0+bw/2)+'" y1="'+(y+bh)+'" x2="'+(x0+bw/2)+'" y2="'+(y+gap)+'" stroke="#94a3b8" stroke-width="2" marker-end="url(#nsia)"/>'; }
+      svg+='<rect x="'+x0+'" y="'+y+'" width="'+bw+'" height="'+bh+'" rx="8" fill="'+s.c+'" fill-opacity="0.13" stroke="'+s.c+'" stroke-width="2"><animate attributeName="fill-opacity" values="0.08;0.26;0.08" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></rect>'
+        +'<text x="'+(x0+10)+'" y="'+(y+17)+'" fill="'+s.c+'" font-size="11" font-weight="700">'+(i+1)+'. '+s.t+'</text>'
+        +'<text x="'+(x0+10)+'" y="'+(y+32)+'" fill="#64748b" font-size="7.5">'+s.s+'</text>'
+        +'<circle cx="'+(x0+bw+70)+'" cy="'+(y+bh/2)+'" r="19" fill="#fff7ed" stroke="'+s.c+'" stroke-width="2"/>'
+        +'<text x="'+(x0+bw+70)+'" y="'+(y+bh/2-2)+'" text-anchor="middle" font-size="10">⏱️</text>'
+        +'<text x="'+(x0+bw+70)+'" y="'+(y+bh/2+11)+'" text-anchor="middle" fill="'+s.c+'" font-size="7" font-weight="700">'+s.clk+'</text>'; }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">💉 Animated: Needle-Stick Injury (NSI) Protocol</div>'
+      +'<svg viewBox="0 0 '+W+' 360" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'
+        +'<defs><marker id="nsia" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker></defs>'
+        +svg
+      +'</svg>'
+      +'<div class="diagram-key"><strong>Time is everything after a needle-stick.</strong> Wash → Report → Test the source → and above all <strong>start PEP within 2 hours</strong> (never later than 72 hours) — the sooner PEP begins, the better it blocks HIV. Do <em>not</em> squeeze or suck the wound. Follow-up testing at 6 weeks, 3 months and 6 months confirms whether infection occurred.</div>'
+    +'</div>';
+  },
+
+  // ─── CHN2-U5. ESI BENEFITS WHEEL — 6 benefits radiating from centre ───
+  esiActBenefits: function () {
+    var W=520,cx=260,cy=195,R=128,n=6;
+    var ben=[
+      {t:'Sickness',ex:'70% wages · up to 91 days/yr',c:'#0ea5e9'},
+      {t:'Maternity',ex:'100% wages · 26 weeks',c:'#ec4899'},
+      {t:'Disablement',ex:'90% wages (temp / permanent)',c:'#f59e0b'},
+      {t:'Dependants',ex:'90% wages to family if death at work',c:'#ef4444'},
+      {t:'Medical',ex:'full care — worker + family',c:'#16a34a'},
+      {t:'Funeral',ex:'₹15,000 for last rites',c:'#8b5cf6'}
+    ];
+    var pts=[];
+    for(var i=0;i<n;i++){ var ang=(-90+i*(360/n))*Math.PI/180; pts.push([cx+R*Math.cos(ang),cy+R*Math.sin(ang)]); }
+    var svg='';
+    for(var i=0;i<n;i++){ var p=pts[i],b=ben[i],delay=(i*0.35).toFixed(1);
+      svg+='<line x1="'+cx+'" y1="'+cy+'" x2="'+p[0].toFixed(0)+'" y2="'+p[1].toFixed(0)+'" stroke="'+b.c+'" stroke-width="2" stroke-opacity="0.4"/>'
+        +'<circle cx="'+p[0].toFixed(0)+'" cy="'+p[1].toFixed(0)+'" r="34" fill="'+b.c+'" fill-opacity="0.14" stroke="'+b.c+'" stroke-width="2.5"><animate attributeName="fill-opacity" values="0.1;0.28;0.1" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></circle>'
+        +'<text x="'+p[0].toFixed(0)+'" y="'+(p[1]-2).toFixed(0)+'" text-anchor="middle" fill="'+b.c+'" font-size="9.5" font-weight="700">'+b.t+'</text>'
+        +'<text x="'+p[0].toFixed(0)+'" y="'+(p[1]+(p[1]<cy?-40:46)).toFixed(0)+'" text-anchor="middle" fill="#64748b" font-size="6.8" font-family="monospace">'+b.ex+'</text>'; }
+    svg+='<circle cx="'+cx+'" cy="'+cy+'" r="40" fill="#0f766e" fill-opacity="0.15" stroke="#0f766e" stroke-width="3"><animate attributeName="r" values="37;42;37" dur="2.6s" repeatCount="indefinite"/></circle>'
+      +'<text x="'+cx+'" y="'+(cy-4)+'" text-anchor="middle" fill="#0f766e" font-size="13" font-weight="700">ESI</text>'
+      +'<text x="'+cx+'" y="'+(cy+11)+'" text-anchor="middle" fill="#0f766e" font-size="8" font-weight="600">6 benefits</text>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🛡️ Animated: The 6 Benefits of the ESI Scheme</div>'
+      +'<svg viewBox="0 0 '+W+' 390" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'+svg+'</svg>'
+      +'<div class="diagram-key"><strong>ESI Act 1948 protects the worker from "womb to tomb".</strong> Six cash + care benefits: <span style="color:#0ea5e9">Sickness</span>, <span style="color:#ec4899">Maternity</span>, <span style="color:#f59e0b">Disablement</span>, <span style="color:#ef4444">Dependants&apos;</span>, <span style="color:#16a34a">Medical</span> and <span style="color:#8b5cf6">Funeral</span>. Funded by employer (3.25%) + employee (0.75%) contributions, it covers a worker earning ≤ ₹21,000/month and their family.</div>'
+    +'</div>';
+  },
+
+  // ─── CHN2-U5. OCCUPATIONAL DISEASES — Industry→Hazard→Disease→Prevention ───
+  occupationalDiseases: function () {
+    var W=560,rows=[
+      {ind:'Mining / Quarry',hz:'Silica dust',dis:'Silicosis',pv:'Wet drilling + N95 mask',c:'#ef4444'},
+      {ind:'Construction',hz:'Asbestos fibres',dis:'Asbestosis',pv:'Ban asbestos + PPE',c:'#f59e0b'},
+      {ind:'Battery / Paint',hz:'Lead fumes',dis:'Lead poisoning',pv:'Ventilation + blood-lead check',c:'#16a34a'},
+      {ind:'Textile mill',hz:'Cotton dust',dis:'Byssinosis',pv:'Dust extraction + masks',c:'#0ea5e9'},
+      {ind:'Factory / Airport',hz:'Loud noise',dis:'Noise-induced hearing loss',pv:'Ear plugs + noise limits',c:'#8b5cf6'}
+    ];
+    var cols=[{x:14,w:118,h:'INDUSTRY'},{x:146,w:104,h:'HAZARD'},{x:264,w:132,h:'DISEASE'},{x:410,w:136,h:'PREVENTION'}];
+    var svg='';
+    for(var c=0;c<cols.length;c++){ svg+='<text x="'+(cols[c].x+cols[c].w/2)+'" y="22" text-anchor="middle" fill="#334155" font-size="9.5" font-weight="700">'+cols[c].h+'</text>'; }
+    for(var i=0;i<rows.length;i++){ var y=36+i*58,r=rows[i],delay=(i*0.3).toFixed(1),cell=[r.ind,r.hz,r.dis,r.pv];
+      for(var c=0;c<4;c++){ var col=cols[c];
+        svg+='<rect x="'+col.x+'" y="'+y+'" width="'+col.w+'" height="44" rx="7" fill="'+r.c+'" fill-opacity="'+(c===2?0.2:0.1)+'" stroke="'+r.c+'" stroke-width="'+(c===2?2.2:1.6)+'"><animate attributeName="fill-opacity" values="'+(c===2?'0.14;0.32;0.14':'0.06;0.2;0.06')+'" dur="3s" begin="'+delay+'s" repeatCount="indefinite"/></rect>';
+        var words=cell[c].split(' '),ty=y+(words.length>2?15:26);
+        svg+='<text x="'+(col.x+col.w/2)+'" y="'+ty+'" text-anchor="middle" fill="'+(c===2?r.c:'#475569')+'" font-size="8" font-weight="'+(c===2?700:600)+'">'+words.map(function(w,k){return '<tspan x="'+(col.x+col.w/2)+'" dy="'+(k?9:0)+'">'+w+'</tspan>';}).join('')+'</text>';
+        if(c<3){ svg+='<text x="'+(col.x+col.w+2)+'" y="'+(y+26)+'" fill="#94a3b8" font-size="12">→</text>'; } }
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🏭 Animated: Occupational Diseases — Industry → Hazard → Disease → Prevention</div>'
+      +'<svg viewBox="0 0 '+W+' 340" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'+svg+'</svg>'
+      +'<div class="diagram-key"><strong>Each industry has a signature disease — and each is preventable.</strong> Silica dust → <span style="color:#ef4444">Silicosis</span>; asbestos → <span style="color:#f59e0b">Asbestosis</span>; lead → <span style="color:#16a34a">lead poisoning</span>; cotton dust → <span style="color:#0ea5e9">Byssinosis</span>; loud noise → <span style="color:#8b5cf6">hearing loss</span>. Control the hazard at source (wet drilling, ventilation, substitution) + PPE + regular screening = disease prevented.</div>'
+    +'</div>';
+  },
+
+  // ─── CHN2-U5. ERGONOMICS POSTURE — wrong (red) vs correct (green) ───
+  ergonomicsPosture: function () {
+    var W=520,svg='';
+    // left panel — WRONG (desk, slouched)
+    svg+='<rect x="14" y="30" width="230" height="300" rx="12" fill="#fef2f2" stroke="#ef4444" stroke-width="2"/>'
+      +'<text x="129" y="52" text-anchor="middle" fill="#ef4444" font-size="12" font-weight="700">✗ WRONG POSTURE</text>'
+      // slouched figure
+      +'<circle cx="90" cy="120" r="15" fill="#fca5a5"/>'
+      +'<path d="M90,135 Q70,175 82,220" fill="none" stroke="#ef4444" stroke-width="9" stroke-linecap="round"/>'
+      +'<line x1="82" y1="220" x2="150" y2="222" stroke="#ef4444" stroke-width="9" stroke-linecap="round"/>'
+      +'<line x1="90" y1="150" x2="140" y2="170" stroke="#ef4444" stroke-width="7" stroke-linecap="round"/>'
+      // stress marks on back
+      +'<text x="60" y="175" fill="#dc2626" font-size="14" font-weight="700">⚡<animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" repeatCount="indefinite"/></text>'
+      +'<text x="150" y="210" fill="#dc2626" font-size="12" font-weight="700">⚡<animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/></text>'
+      +'<rect x="140" y="222" width="70" height="8" fill="#94a3b8"/>'
+      +'<text x="129" y="315" text-anchor="middle" fill="#b91c1c" font-size="8">bent back · craned neck · no support</text>';
+    // right panel — CORRECT (upright)
+    svg+='<rect x="276" y="30" width="230" height="300" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>'
+      +'<text x="391" y="52" text-anchor="middle" fill="#16a34a" font-size="12" font-weight="700">✓ CORRECT POSTURE</text>'
+      +'<circle cx="360" cy="110" r="15" fill="#86efac"/>'
+      +'<line x1="360" y1="125" x2="360" y2="215" stroke="#16a34a" stroke-width="9" stroke-linecap="round"><animate attributeName="stroke" values="#16a34a;#22c55e;#16a34a" dur="2.4s" repeatCount="indefinite"/></line>'
+      +'<line x1="360" y1="215" x2="420" y2="217" stroke="#16a34a" stroke-width="9" stroke-linecap="round"/>'
+      +'<line x1="360" y1="150" x2="410" y2="150" stroke="#16a34a" stroke-width="7" stroke-linecap="round"/>'
+      +'<rect x="352" y="215" width="16" height="55" fill="#16a34a" fill-opacity="0.25"/>' // chair back support
+      +'<rect x="410" y="150" width="60" height="8" fill="#94a3b8"/>' // desk at elbow height
+      +'<text x="391" y="315" text-anchor="middle" fill="#15803d" font-size="8">straight spine · neck neutral · back supported</text>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      +'<div class="diagram-title">🪑 Animated: Ergonomics — Wrong vs Correct Posture</div>'
+      +'<svg viewBox="0 0 '+W+' 345" width="100%" style="max-width:'+W+'px;display:block;margin:0 auto;">'+svg+'</svg>'
+      +'<div class="diagram-key"><strong>Ergonomics = fitting the job to the worker, not the worker to the job.</strong> <span style="color:#ef4444">Wrong:</span> bent back and craned neck strain the spine (⚡ pain points) → back-ache &amp; repetitive-strain injury. <span style="color:#16a34a">Correct:</span> straight spine, neutral neck, feet flat, screen at eye level, back supported. For lifting: bend the knees, not the back, and keep the load close.</div>'
+    +'</div>';
   }
 
 };

@@ -26,10 +26,13 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
   </div>
 </div>
 
+<div data-diagram="occupationalHazardsTree"></div>
+
 <!-- DIAGRAM SUGGESTION: occupationalHazardsTree — mind-map with 5 animated branches (Physical, Chemical, Biological, Ergonomic, Psychosocial) each showing examples with icons -->
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">5 Types of Occupational Health Hazards</h3>
+  <p style="margin:0 0 10px 0;">A hazard is anything at work that can harm the worker's health. To make them easy to remember and tackle, they are grouped into five families (mnemonic "PCBEP"). The table explains each family in plain words, with common examples and the disease it typically causes.</p>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Type</th><th>What It Is (Simple)</th><th>Examples</th><th>Disease Caused</th></tr></thead>
     <tbody>
@@ -154,6 +157,7 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Occupational Health Hazards in Farmers</h3>
+  <p style="margin:0 0 10px 0;">Farming looks like a "natural" and healthy job, but it actually exposes the worker to every category of hazard at once — the weather, the chemicals sprayed on crops, the animals handled, the heavy lifting, and the money worries of a bad harvest. The table below groups a farmer's main risks and shows the simple step that prevents each one.</p>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Type</th><th>Hazard</th><th>Health Effect</th><th>Prevention</th></tr></thead>
     <tbody>
@@ -265,6 +269,7 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Classification of Occupational Hazards</h3>
+  <p style="margin:0 0 10px 0;">Occupational hazards are usually sorted into five families so they are easier to remember and tackle one by one (mnemonic "PCBEP"). Each family points to a different kind of danger and a different disease, which also tells the nurse where to focus prevention.</p>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Type</th><th>Examples</th><th>Disease Caused</th></tr></thead>
     <tbody>
@@ -277,10 +282,13 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
   </table></div>
 </div>
 
+<div data-diagram="occupationalHazardsTree"></div>
+
 <!-- DIAGRAM SUGGESTION: occupationalHazardsTree — 5-branch animated mind map showing each hazard type with examples and icons -->
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Laws Related to Occupational Health and Safety in India</h3>
+  <p style="margin:0 0 10px 0;">Workers cannot always protect themselves, so the government passes laws that force employers to keep the workplace safe and to pay compensation if a worker is harmed. The main Acts are listed below — each one covers a different set of workers or a different kind of protection.</p>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Act</th><th>Year</th><th>Covers</th><th>Key Provisions</th></tr></thead>
     <tbody>
@@ -413,6 +421,7 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Types of Occupational Hazards</h3>
+  <p style="margin:0 0 10px 0;">Before the nurse can prevent harm, she has to know what she is up against. The dangers at any workplace fall into five groups (remember "PCBEP"), and each group is listed below with the everyday examples and the disease it typically causes.</p>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>#</th><th>Type</th><th>Key Examples</th><th>Diseases Caused</th></tr></thead>
     <tbody>
@@ -509,6 +518,7 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Occupational Health Hazards</h3>
+  <p style="margin:0 0 10px 0;">Inside a factory the worker meets several dangers at once. Grouping them into five types makes them easier to spot and control — the table shows each type with a real industrial example and the disease it can lead to.</p>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Type</th><th>Examples in Industry</th><th>Disease</th></tr></thead>
     <tbody>
@@ -714,6 +724,7 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Occupational Health Hazards</h3>
+  <p style="margin:0 0 10px 0;">Every industry carries its own mix of hazards, but they always sort into the same five families. The table below pairs each family with a common industrial example and the disease that can follow if it is not controlled.</p>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Type</th><th>Industrial Examples</th><th>Disease</th></tr></thead>
     <tbody>
@@ -812,10 +823,13 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
   </div>
 </div>
 
+<div data-diagram="ergonomicsPosture"></div>
+
 <!-- DIAGRAM SUGGESTION: ergonomicsPosture — side-by-side comparison: wrong posture (red highlights showing stress points) vs correct posture (green, relaxed) for a desk worker and a manual lifter -->
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Types of Occupational Health Hazards</h3>
+  <p style="margin:0 0 10px 0;">Ergonomic problems are only one of five hazard families a worker faces. The table sets them side by side — what each type means in plain words, everyday examples, and the disease it produces — so you can see where ergonomics fits in the bigger picture.</p>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Type</th><th>What It Is</th><th>Examples</th><th>Diseases</th></tr></thead>
     <tbody>
@@ -908,6 +922,7 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Types of Occupational Health Hazards</h3>
+  <p style="margin:0 0 10px 0;">Occupational diseases don't appear out of nowhere — each one traces back to a specific type of hazard at work. The table lists the five hazard types with their examples and the disease each one causes, which is exactly the chain the nurse works to break.</p>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Type</th><th>Examples</th><th>Occupational Disease</th></tr></thead>
     <tbody>
@@ -919,6 +934,8 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
     </tbody>
   </table></div>
 </div>
+
+<div data-diagram="occupationalDiseases"></div>
 
 <!-- DIAGRAM SUGGESTION: occupationalDiseases — animated table: Industry column → Hazard → Disease → Prevention (e.g., Mining→Silica→Silicosis→Wet drilling+mask) -->
 
@@ -1049,6 +1066,7 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Occupational Health Hazards</h3>
+  <p style="margin:0 0 10px 0;">Industrial workers face a wide range of dangers, but they all fall into five familiar groups (mnemonic "PCBEP"). Each is listed below with the disease it can cause, so the nurse knows exactly what to watch for:</p>
   <ol class="answer-points">
     <li><strong>Physical hazards:</strong> Noise (NIHL), extreme heat/cold (heat stroke, hypothermia), radiation (radiation burns, cataract), vibration (Raynaud's disease), poor lighting (eye strain).</li>
     <li><strong>Chemical hazards:</strong> Silica dust (Silicosis), asbestos fibres (Asbestosis), lead fumes (Lead poisoning), cotton dust (Byssinosis), benzene (leukaemia), carbon monoxide (CO poisoning).</li>
@@ -1151,6 +1169,7 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Important Occupational Diseases</h3>
+  <p style="margin:0 0 10px 0;">An occupational disease is one that a worker develops specifically because of the work they do — the job is the cause. Each industry tends to produce its own "signature" disease, so knowing the disease often tells you the industry (and the other way round). The important ones for the exam are listed below.</p>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Disease</th><th>Causative Hazard</th><th>Industry/Occupation</th><th>Key Feature</th></tr></thead>
     <tbody>
@@ -1261,6 +1280,7 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Occupational Health Hazards</h3>
+  <p style="margin:0 0 10px 0;">Whatever the industry, the hazards a worker meets can be grouped into the same five types (mnemonic "PCBEP"). Naming them all first makes the prevention steps that follow easy to justify:</p>
   <ol class="answer-points">
     <li><strong>Physical:</strong> Noise (&gt;85 dB), extreme heat/cold, radiation (X-ray, UV), vibration, poor lighting.</li>
     <li><strong>Chemical:</strong> Silica dust, asbestos fibres, lead fumes, benzene, cotton dust, pesticides, disinfectants.</li>
@@ -1281,6 +1301,8 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
     <li><strong>Medical check-ups:</strong> Pre-employment and periodic health examinations.</li>
   </ol>
 </div>
+
+<div data-diagram="nsiProtocol"></div>
 
 <!-- DIAGRAM SUGGESTION: nsiProtocol — step-by-step animated flowchart: Needle prick → Wash 15 min → Report → Source patient test → Assess HIV risk → PEP within 2 hours → Follow-up at 6wk/3mo/6mo, with clock showing urgency -->
 
@@ -1414,6 +1436,7 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Occupational Health Hazards</h3>
+  <p style="margin:0 0 10px 0;">Every workplace exposes the worker to hazards, and they always sort into the same five groups (mnemonic "PCBEP"). Listing them this way makes sure none is missed when planning prevention:</p>
   <ol class="answer-points">
     <li><strong>Physical hazards:</strong> Noise, heat, cold, radiation, vibration, poor lighting, electricity.</li>
     <li><strong>Chemical hazards:</strong> Toxic dusts (silica, asbestos, coal), fumes (lead, mercury), gases (CO, H&sup2;S), pesticides, solvents.</li>
@@ -1509,10 +1532,13 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
   </ol>
 </div>
 
+<div data-diagram="esiActBenefits"></div>
+
 <!-- DIAGRAM SUGGESTION: esiActBenefits — animated wheel/sunburst showing the 6 ESI benefits, each lighting up with details when hovered -->
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Benefits of ESI Scheme 1948</h3>
+  <p style="margin:0 0 10px 0;">In return for a tiny monthly contribution, the insured worker and their family get six kinds of support — some paid in cash when income stops, others given as free medical care. Remember them with "SMDDMF"; the table explains who receives each one and how much.</p>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>#</th><th>Benefit</th><th>Who Gets It</th><th>Details</th></tr></thead>
     <tbody>
@@ -1646,6 +1672,7 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Key Provisions of ESI Act 1948</h3>
+  <p style="margin:0 0 10px 0;">These provisions are simply the "rules of the club" — who is allowed to join, who runs it, and how the common fund is filled. Understanding them makes the six benefits (below) easy to explain.</p>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Provision</th><th>Details</th></tr></thead>
     <tbody>
@@ -1662,6 +1689,7 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">6 Benefits Under ESI Act</h3>
+  <p style="margin:0 0 10px 0;">The whole point of the scheme is these six benefits — they cover the worker from a common cold right through to death. Use the mnemonic "SMDDMF" to recall them in order:</p>
   <ol class="answer-points">
     <li><strong>Sickness benefit:</strong> 70% of wages for up to 91 days/year when worker is sick and cannot work.</li>
     <li><strong>Maternity benefit:</strong> 100% of wages for 26 weeks for female workers (confinement) — better than Maternity Benefit Act minimum!</li>
@@ -1710,8 +1738,11 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
   answer: `
 <div class="in-short"><strong>In Short:</strong> ESI scheme gives 6 types of benefits to workers and their families: Sickness (70% wages, 91 days), Maternity (100% wages, 26 weeks), Disablement (90% wages or pension), Dependants' (pension to family), Medical (free healthcare), and Funeral (Rs. 15,000). The worker pays only 0.75% of salary to get all these benefits.</div>
 
+<div data-diagram="esiActBenefits"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Employee Benefits Under ESI Scheme</h3>
+  <p style="margin:0 0 10px 0;">These are the practical, everyday reasons a worker values ESI — the support that arrives exactly when income or health fails. Each of the six benefits is set out below with who qualifies and how much is paid.</p>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>#</th><th>Benefit</th><th>Who Gets It</th><th>Amount / Duration</th></tr></thead>
     <tbody>
@@ -1835,8 +1866,11 @@ window.QUESTIONS_DATA_CHN2_UNIT5 = [
   </table></div>
 </div>
 
+<div data-diagram="esiActBenefits"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Benefits of ESI Scheme</h3>
+  <p style="margin:0 0 10px 0;">This is the heart of the answer — the six benefits that make the scheme worthwhile for the worker. They run from short-term cash during illness all the way to funeral costs, covering the family too. The mnemonic "SMDDMF" keeps them in order:</p>
   <ol class="answer-points">
     <li><strong>Sickness Benefit:</strong> When a worker falls sick and cannot work, ESI pays <strong>70% of daily wages</strong> for up to <strong>91 days per year</strong>. For serious diseases (TB, cancer, heart disease, kidney disease), extended sickness benefit of <strong>40% wages for up to 2 years</strong> is available.</li>
     <li><strong>Maternity Benefit:</strong> Female workers get <strong>100% of wages for 26 weeks</strong> (for childbirth), 6 weeks for miscarriage, and 12 weeks for adoption. Free delivery at ESI hospitals.</li>
