@@ -30,7 +30,7 @@ window.QUESTIONS_DATA_CHN2_UNIT9 = [
   </div>
 </div>
 
-<!-- DIAGRAM SUGGESTION: referralSystem — stepped upward arrow: SC → PHC → CHC → District Hospital → Medical College with population numbers at each level, and dotted back-referral arrows going downward -->
+<div data-diagram="referralSystem"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">India's 5-Level Referral System</h3>
@@ -146,7 +146,7 @@ window.QUESTIONS_DATA_CHN2_UNIT9 = [
   </div>
 </div>
 
-<!-- DIAGRAM SUGGESTION: healthcareOrganisation — animated pyramid: MoHFW/DGHS at top → State Health Dept/DHS → District/DMO → CHC → PHC → SC at base -->
+<div data-diagram="healthcareOrganisation"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Organizational Pattern of Health Care Delivery in India</h3>
@@ -340,7 +340,7 @@ window.QUESTIONS_DATA_CHN2_UNIT9 = [
     It was constitutionalized by the <strong>73rd Constitutional Amendment Act, 1992</strong> and came into force on <strong>24 April 1993</strong> (now celebrated as Panchayati Raj Day).
   </div>
 
-  <!-- DIAGRAM SUGGESTION: panchayatiRaj — 3-tier pyramid with animated connectors showing Gram Panchayat (village) → Panchayat Samiti (block) → Zila Parishad (district) -->
+  <div data-diagram="panchayatiRaj"></div>
 
   <p style="font-weight:700; margin:12px 0 6px 0;">Three-Tier Structure:</p>
   <div class="answer-table-wrap"><table class="answer-table">
@@ -615,7 +615,7 @@ window.QUESTIONS_DATA_CHN2_UNIT9 = [
   </div>
 </div>
 
-<!-- DIAGRAM SUGGESTION: threeTierSystem — three stacked boxes showing Tier 1 (SC, 5,000 pop, ANM+MPHW) → Tier 2 (PHC, 30,000, MO+staff) → Tier 3 (CHC, 1,20,000, 4 specialists) with connecting arrows and population numbers -->
+<div data-diagram="threeTierSystem"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Tier 1: Sub-Centre (SC) / Health &amp; Wellness Centre (HWC)</h3>
@@ -1332,7 +1332,7 @@ window.QUESTIONS_DATA_CHN2_UNIT9 = [
   </div>
 </div>
 
-<!-- DIAGRAM SUGGESTION: panchayatiRaj — 3-tier pyramid: Zila Parishad (district) at top → Panchayat Samiti (block) → Gram Panchayat (village) at base, with health functions listed at each tier -->
+<div data-diagram="panchayatiRaj"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Three-Tier Structure</h3>
@@ -1435,7 +1435,7 @@ window.QUESTIONS_DATA_CHN2_UNIT9 = [
   </div>
 </div>
 
-<!-- DIAGRAM SUGGESTION: phcStructure — PHC layout showing: outdoor OPD, labour room, lab, pharmacy, inpatient ward (6 beds), and staff list on a diagram board -->
+<div data-diagram="phcStructure"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Functions of PHC</h3>
