@@ -152,8 +152,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const chn2u3 = window.QUESTIONS_DATA_CHN2_UNIT3 || [];
         const chn2u4 = window.QUESTIONS_DATA_CHN2_UNIT4 || [];
         const chn2u5 = window.QUESTIONS_DATA_CHN2_UNIT5 || [];
+        const chn2u6 = window.QUESTIONS_DATA_CHN2_UNIT6 || [];
+        const chn2u7 = window.QUESTIONS_DATA_CHN2_UNIT7 || [];
+        const chn2u8 = window.QUESTIONS_DATA_CHN2_UNIT8 || [];
         const chn2u9 = window.QUESTIONS_DATA_CHN2_UNIT9 || [];
-        return [...unit1, ...unit2, ...unit3, ...unit4, ...unit5, ...unit6, ...unit7, ...obg2, ...nrs1, ...nrs2, ...nrs3, ...nrs4, ...nrs5, ...chn2u1, ...chn2u2, ...chn2u3, ...chn2u4, ...chn2u5, ...chn2u9];
+        return [...unit1, ...unit2, ...unit3, ...unit4, ...unit5, ...unit6, ...unit7, ...obg2, ...nrs1, ...nrs2, ...nrs3, ...nrs4, ...nrs5, ...chn2u1, ...chn2u2, ...chn2u3, ...chn2u4, ...chn2u5, ...chn2u6, ...chn2u7, ...chn2u8, ...chn2u9];
     }
 
     function getUnitLabel(unit) {
@@ -168,6 +171,9 @@ document.addEventListener('DOMContentLoaded', () => {
             201: 'CHN-II · UNIT I — Common Conditions & First Aid', 202: 'CHN-II · UNIT II — Reproductive, Maternal & Child Health',
             203: 'CHN-II · UNIT III — Demography, Surveillance & Data', 204: 'CHN-II · UNIT IV — Population & Family Planning',
             205: 'CHN-II · UNIT V — Occupational Health',
+            206: 'CHN-II · UNIT VI — Geriatric Health Care',
+            207: 'CHN-II · UNIT VII — Mental Health Disorders',
+            208: 'CHN-II · UNIT VIII — HMIS',
             209: 'CHN-II · UNIT IX — Management of Delivery of CH Services'
         };
         return labels[unit] || 'UNIT ' + unit;
@@ -221,6 +227,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 '203': 'CHN-II UNIT III: DEMOGRAPHY, SURVEILLANCE & INTERPRETATION OF DATA',
                 '204': 'CHN-II UNIT IV: POPULATION AND ITS CONTROL',
                 '205': 'CHN-II UNIT V: OCCUPATIONAL HEALTH',
+                '206': 'CHN-II UNIT VI: GERIATRIC HEALTH CARE',
+                '207': 'CHN-II UNIT VII: MENTAL HEALTH DISORDERS',
+                '208': 'CHN-II UNIT VIII: HEALTH MANAGEMENT INFORMATION SYSTEM (HMIS)',
                 '209': 'CHN-II UNIT IX: MANAGEMENT OF DELIVERY OF COMMUNITY HEALTH SERVICES'
             };
             sectionTitle.textContent = unitNames[activeUnit] || 'UNIT ' + activeUnit;
