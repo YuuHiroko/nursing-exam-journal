@@ -561,6 +561,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     });
                 });
             });
+            // Annotation overlay: pen / highlighter / eraser with auto-save
+            if (window.initAnnotation) window.initAnnotation(overlay, qKey(q));
             // Question Cuff: reveal the toggle only when the stem exceeds 2 lines;
             // short questions render in full with no chrome.
             if (questionToggle) {
@@ -599,6 +601,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function closeModal() {
         if (overlay.classList.contains('hidden')) return;   // balance the single lock
+        // Tear down annotation canvas + toolbar before hiding
+        if (window.destroyAnnotation) window.destroyAnnotation();
         overlay.classList.add('hidden');
         unlockScroll();
         // Restore focus to the card that opened the reader.
