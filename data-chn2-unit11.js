@@ -307,6 +307,8 @@ window.QUESTIONS_DATA_CHN2_UNIT11 = [
     <strong>Triage</strong> comes from the French word &ldquo;trier&rdquo; meaning &ldquo;to sort.&rdquo; In disaster situations, there are TOO MANY casualties and TOO FEW resources. Triage helps decide: <strong>WHO should be treated FIRST to save the maximum number of lives.</strong>
   </div>
 
+  <div data-diagram="triageFlowchart" class="diagram-placeholder"></div>
+
   <p style="font-weight:700; margin:12px 0 6px 0;">START Triage System (Simple Triage And Rapid Treatment)</p>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Colour Tag</th><th>Category</th><th>Meaning</th><th>Examples</th><th>Action</th></tr></thead>

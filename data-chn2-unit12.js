@@ -28,6 +28,7 @@ window.QUESTIONS_DATA_CHN2_UNIT12 = [
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Colour-Coded Segregation (BMW Rules 2016)</h3>
+  <div data-diagram="bmwColourCoding" class="diagram-placeholder"></div>
   <p style="margin:0 0 10px 0;">All biomedical waste MUST be segregated at the <strong>point of generation</strong> (ward, OT, lab) into colour-coded bins:</p>
   <div class="answer-table-wrap"><table class="answer-table">
     <thead><tr><th>Colour</th><th>Container Type</th><th>What Goes In</th><th>Treatment</th></tr></thead>
