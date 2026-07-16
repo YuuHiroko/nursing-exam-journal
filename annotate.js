@@ -190,7 +190,7 @@
             ctx.lineWidth = hlWidth;
             ctx.lineCap = 'square';
             ctx.lineJoin = 'round';
-            ctx.globalAlpha = 0.35;
+            ctx.globalAlpha = 0.18;
         } else if (activeTool === 'eraser') {
             ctx.globalCompositeOperation = 'destination-out';
             ctx.strokeStyle = 'rgba(0,0,0,1)';
