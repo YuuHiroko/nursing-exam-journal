@@ -4,6 +4,7 @@ window.QUESTIONS_DATA = [
   // ════════════════════════════════════════════════════════════
   {
     id: 1,
+    stars: 1,
     question: "Define maternal mortality. List and explain the various causes leading to maternal mortality. Describe the strategies to reduce maternal mortality and role of a nurse midwife in it.",
     marks: 15,
     repeated: 1,
@@ -295,6 +296,7 @@ window.QUESTIONS_DATA = [
   // ════════════════════════════════════════════════════════════
   {
     id: 2,
+    stars: 1,
     question: "Causes of maternal mortality. / Describe the causes of Maternal mortality and morbidity.",
     marks: 5,
     repeated: 1,
@@ -463,6 +465,7 @@ window.QUESTIONS_DATA = [
   // ════════════════════════════════════════════════════════════
   {
     id: 3,
+    stars: 1,
     question: "Maternal morbidity and mortality",
     marks: 5,
     repeated: 1,
@@ -643,6 +646,7 @@ window.QUESTIONS_DATA = [
   // ════════════════════════════════════════════════════════════
   {
     id: 4,
+    stars: 1,
     question: "Maternal mortality and nurse's role. / Maternal mortality and nurses role.",
     marks: 5,
     repeated: 1,
@@ -798,6 +802,7 @@ window.QUESTIONS_DATA = [
   // ════════════════════════════════════════════════════════════
   {
     id: 5,
+    stars: 1,
     question: "Role of a nurse in Midwifery and Obstetrics. / Role of Nurse in Midwifery.",
     marks: 5,
     repeated: 1,

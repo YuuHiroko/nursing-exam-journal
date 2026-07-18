@@ -4,6 +4,7 @@ window.QUESTIONS_DATA_UNIT4 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 42,
+    stars: 3,
     question: "Define normal labour. Explain physiological changes during first stage of labour. Discuss briefly the management of woman in first and second stage of labour.",
     marks: 15,
     repeated: 1,
@@ -211,6 +212,7 @@ Tip: Draw the cervix-opening flowchart and write management in numbered points f
   // ════════════════════════════════════════════════════════════
   {
     id: 43,
+    stars: 3,
     question: "Define normal labour, Explain physiological changes in first stage of labour, Discuss management of first stage of labour",
     marks: 15,
     repeated: 1,
@@ -391,6 +393,7 @@ Tip: Add the latent/active table and the flowchart &mdash; they fetch easy marks
   // ════════════════════════════════════════════════════════════
   {
     id: 44,
+    stars: 3,
     question: "Define normal labour. Describe the mechanism of labour in LOA position. Write in detail the nursing care for a woman in first stage of labour.",
     marks: 15,
     repeated: 1,
@@ -572,6 +575,7 @@ Tip: Draw the 7-movement flowchart and write each movement with its key point (e
   // ════════════════════════════════════════════════════════════
   {
     id: 45,
+    stars: 3,
     question: "Define Labour. Differentiate between True and False Labour Pains. Enumerate the physiological changes during the first stage of labour. Discuss the management of woman in first stage of labour.",
     marks: 15,
     repeated: 1,
@@ -755,6 +759,7 @@ Tip: The true-vs-false comparison MUST be a table for full marks.</div>
   // ════════════════════════════════════════════════════════════
   {
     id: 46,
+    stars: 3,
     question: "Define normal labour. Enlist the stages of normal labour. Describe management of third stage of labour.",
     marks: 15,
     repeated: 2,
@@ -958,6 +963,7 @@ Tip: Always write the 3 AMTSL steps clearly with the oxytocin dose &mdash; that 
   // ════════════════════════════════════════════════════════════
   {
     id: 47,
+    stars: 3,
     question: "Describe in detail the mechanism of normal labour (cardinal movements of labour) in vertex presentation.",
     marks: 15,
     repeated: 2,
@@ -1136,6 +1142,7 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
   // ════════════════════════════════════════════════════════════
   {
     id: 48,
+    stars: 3,
     question: "Write short note on partograph: its components and importance.",
     marks: 5,
     repeated: 2,
@@ -1295,6 +1302,7 @@ Tip: Write each movement as a numbered heading with one explaining line. Add the
   // ════════════════════════════════════════════════════════════
   {
     id: 49,
+    stars: 3,
     question: "Define episiotomy. Enumerate its indications and types. Describe the procedure of repair and nursing care after episiotomy.",
     marks: 15,
     repeated: 1,
@@ -2082,6 +2090,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   // ════════════════════════════════════════════════════════════
   {
     id: 54,
+    stars: 2,
     question: "Write short note on induction of labour: indications and methods.",
     marks: 5,
     repeated: 1,
@@ -2361,6 +2370,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   // ════════════════════════════════════════════════════════════
   {
     id: 56,
+    stars: 3,
     question: "Write short note on immediate care of the newborn at birth and APGAR score.",
     marks: 5,
     repeated: 2,
@@ -2635,6 +2645,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   // ════════════════════════════════════════════════════════════
   {
     id: 58,
+    stars: 1,
     question: "Define Bishop score.",
     marks: 2,
     repeated: 1,
@@ -2754,6 +2765,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   // ════════════════════════════════════════════════════════════
   {
     id: 59,
+    stars: 3,
     question: "Enumerate the stages of labour with their duration.",
     marks: 2,
     repeated: 3,
@@ -2865,6 +2877,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   // ════════════════════════════════════════════════════════════
   {
     id: 60,
+    stars: 3,
     question: "List the cardinal movements of labour.",
     marks: 2,
     repeated: 2,
@@ -2984,6 +2997,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   },
   {
     id: 98,
+    stars: 3,
     question: "Physiology of first stage of labour.",
     marks: 5,
     repeated: 1,
@@ -3036,6 +3050,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   },
   {
     id: 99,
+    stars: 3,
     question: "Discuss the signs and symptoms of first stage of labour.",
     marks: 5,
     repeated: 1,
@@ -3095,6 +3110,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   },
   {
     id: 100,
+    stars: 3,
     question: "Difference between true and false labour pain.",
     marks: 5,
     repeated: 1,
@@ -3127,6 +3143,7 @@ Tip: The step-by-step delivery of head &rarr; shoulders &rarr; body is the core 
   },
   {
     id: 101,
+    stars: 2,
     question: "Oxytocin. / Injection Oxytocin. / Pitocin.",
     marks: 5,
     repeated: 7,

@@ -1,6 +1,7 @@
 window.QUESTIONS_DATA_UNIT6 = [
   {
     id: 70,
+    stars: 3,
     question: "Define the term normal newborn. Enlist minor ailments of newborn baby. Discuss essential newborn care.",
     marks: 15,
     repeated: 1,
@@ -210,6 +211,7 @@ window.QUESTIONS_DATA_UNIT6 = [
   },
   {
     id: 71,
+    stars: 3,
     question: "Essential care of newborn / Immediate care of newborn.",
     marks: 5,
     repeated: 7,
@@ -549,6 +551,7 @@ window.QUESTIONS_DATA_UNIT6 = [
   },
   {
     id: 73,
+    stars: 3,
     question: "APGAR Score.",
     marks: 5,
     repeated: 3,
@@ -969,6 +972,7 @@ window.QUESTIONS_DATA_UNIT6 = [
   },
   {
     id: 75,
+    stars: 1,
     question: "Importance of Fontanels",
     marks: 2,
     repeated: 1,

@@ -1,6 +1,7 @@
 window.QUESTIONS_DATA_UNIT5 = [
   {
     id: 61,
+    stars: 2,
     question: "Define puerperium. Explain the physiological changes that take place during puerperium. Discuss the postnatal care and management of a postnatal mother.",
     marks: 15,
     repeated: 3,
@@ -189,6 +190,7 @@ window.QUESTIONS_DATA_UNIT5 = [
   },
   {
     id: 62,
+    stars: 1,
     question: "Describe the process of involution of the uterus and how it is assessed.",
     marks: 5,
     repeated: 2,
@@ -340,6 +342,7 @@ window.QUESTIONS_DATA_UNIT5 = [
   },
   {
     id: 63,
+    stars: 1,
     question: "Describe lochia -- its types, colour, duration, and abnormalities.",
     marks: 5,
     repeated: 3,
@@ -473,6 +476,7 @@ window.QUESTIONS_DATA_UNIT5 = [
   },
   {
     id: 64,
+    stars: 1,
     question: "Explain postnatal exercises and their importance.",
     marks: 5,
     repeated: 2,
@@ -632,6 +636,7 @@ window.QUESTIONS_DATA_UNIT5 = [
   },
   {
     id: 65,
+    stars: 3,
     question: "Discuss the advantages of breastfeeding. Explain the technique of correct positioning and attachment, and the role of the nurse in promoting breastfeeding.",
     marks: 15,
     repeated: 2,
@@ -1148,6 +1153,7 @@ window.QUESTIONS_DATA_UNIT5 = [
   },
   {
     id: 68,
+    stars: 1,
     question: "Define postnatal (postpartum) care and enumerate its objectives.",
     marks: 5,
     repeated: 2,
@@ -1369,6 +1375,7 @@ window.QUESTIONS_DATA_UNIT5 = [
   },
   {
     id: 103,
+    stars: 2,
     question: "Physiology of lactation.",
     marks: 5,
     repeated: 3,
@@ -1420,6 +1427,7 @@ window.QUESTIONS_DATA_UNIT5 = [
   },
   {
     id: 104,
+    stars: 2,
     question: "Lactation management.",
     marks: 5,
     repeated: 2,
@@ -1472,6 +1480,7 @@ window.QUESTIONS_DATA_UNIT5 = [
   },
   {
     id: 105,
+    stars: 1,
     question: "Psychological complications during puerperium. / Postpartum blues.",
     marks: 5,
     repeated: 2,

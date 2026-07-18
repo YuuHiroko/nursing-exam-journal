@@ -5,6 +5,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 78,
+    stars: 3,
     question: "Define contraception. Explain the different methods of contraception. Plan health education for a primipara regarding family planning.",
     marks: 15,
     repeated: 1,
@@ -271,6 +272,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 79,
+    stars: 3,
     question: "Write the aims and objectives of family planning. Describe the intrauterine contraceptive devices.",
     marks: 13,
     repeated: 1,
@@ -480,6 +482,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 80,
+    stars: 3,
     question: "Define preconception care. Write the objectives of planned parenthood. Discuss role of nurse midwife in the National Family Welfare programme.",
     marks: 15,
     repeated: 1,
@@ -756,6 +759,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 81,
+    stars: 3,
     question: "Define contraceptive. And explain intrauterine contraceptives.",
     marks: 5,
     repeated: 1,
@@ -899,6 +903,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 82,
+    stars: 3,
     question: "Intrauterine contraceptive devices.",
     marks: 5,
     repeated: 1,
@@ -1015,6 +1020,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 83,
+    stars: 3,
     question: "Copper-T",
     marks: 5,
     repeated: 1,
@@ -1160,6 +1166,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 84,
+    stars: 3,
     question: "Temporary methods of family planning.",
     marks: 5,
     repeated: 2,
@@ -1308,6 +1315,7 @@ window.QUESTIONS_DATA_UNIT7 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 85,
+    stars: 3,
     question: "Emergency Contraceptive measures.",
     marks: 5,
     repeated: 1,

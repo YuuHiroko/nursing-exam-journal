@@ -300,6 +300,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         '<span>' + getUnitLabel(q.unit) + '</span>' +
                         '<span>REPEATED: ' + q.repeated + 'x</span>' +
                         '<span>' + q.years + '</span>' +
+                        (q.stars ? '<span class="priority-stars stars-' + q.stars + '" title="' + (q.stars === 3 ? 'VVV Important — Must Study' : q.stars === 2 ? 'VV Important' : 'Important') + '">' + '★'.repeat(q.stars) + '</span>' : '') +
                     '</div>' +
                 '</div>' +
                 '<div class="q-marks-area">' +

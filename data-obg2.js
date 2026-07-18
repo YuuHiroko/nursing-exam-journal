@@ -4,6 +4,7 @@
 window.QUESTIONS_DATA_OBG2 = [
   {
     id: 108,
+    stars: 3,
     question: "Assessment of mother for highrisk pregnancy. / Identification of an high risk pregnancy. / Screening and assessment for high risk pregnancy. / High risk pregnancy",
     marks: 5,
     repeated: 4,
@@ -174,6 +175,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 109,
+    stars: 3,
     question: "Define the term high risk pregnancy. Enumerate various high risk pregnancies. Discuss high risk approach for managing the high risk cases. / Define High Risk Pregnancy. Enumerate various high risk pregnancies. Discuss high risk approach for managing the high risk cases.",
     marks: 15,
     repeated: 2,
@@ -411,6 +413,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 110,
+    stars: 1,
     question: "Antenatal visits in normal and high-risk pregnancy",
     marks: 5,
     repeated: 1,
@@ -575,6 +578,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 111,
+    stars: 3,
     question: "Define Abortion. Explain the types of abortion. Discuss about - Threatened abortion. Explain-Medical Termination of pregnancy.",
     marks: 15,
     repeated: 1,
@@ -767,6 +771,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 112,
+    stars: 3,
     question: "Define Abortion. Briefly explain the types of Abortion. Discuss the nursing management of case of incomplete abortion. / Define abortion. Explain the types of abortion. Discuss the nursing management of incomplete abortion.",
     marks: 15,
     repeated: 2,
@@ -984,6 +989,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 113,
+    stars: 3,
     question: "Define abortion. Write down the various types of abortion. Discuss in detail about septic abortion and its nursing management.",
     marks: 15,
     repeated: 1,
@@ -1231,6 +1237,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 114,
+    stars: 3,
     question: "Define abortion. Write the classification of abortion. Describe management of septic abortion.",
     marks: 15,
     repeated: 3,
@@ -1442,6 +1449,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 115,
+    stars: 3,
     question: "Define the term abortion. Explain the types of abortion. Describe in detail about threatened abortion and its management.",
     marks: 15,
     repeated: 1,
@@ -1665,6 +1673,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 116,
+    stars: 3,
     question: "Mrs. N 12 weeks of gestation is admitted with c/o spotting per vagina, answer the following: Define Abortion. Briefly explain the types of Abortion. Discuss the nursing management of above case with threatened abortion.",
     marks: 15,
     repeated: 1,
@@ -1870,6 +1879,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 117,
+    stars: 3,
     question: "Explain classification of abortion",
     marks: 5,
     repeated: 1,
@@ -2055,6 +2065,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 118,
+    stars: 3,
     question: "Management of threatened abortion. / Threatened abortion. / Threatened Abortion.",
     marks: 5,
     repeated: 4,
@@ -2247,6 +2258,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 119,
+    stars: 3,
     question: "Methods of medical termination of pregnancy in 2nd trimester.",
     marks: 5,
     repeated: 1,
@@ -2416,6 +2428,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 120,
+    stars: 3,
     question: "Methods of MTP in first trimester.",
     marks: 5,
     repeated: 1,
@@ -2620,6 +2633,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 121,
+    stars: 2,
     question: "Hyadatidiform mole. / Vesicular mole. / Vesicular Mole.",
     marks: 5,
     repeated: 3,
@@ -2772,6 +2786,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 122,
+    stars: 2,
     question: "Incompetent Os and management.",
     marks: 5,
     repeated: 1,
@@ -2937,6 +2952,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 123,
+    stars: 3,
     question: "Define placenta praevia. Explain clinical features of placenta praevia. Describe medical and Nursing management of client with Placenta Praevia.",
     marks: 15,
     repeated: 1,
@@ -3149,6 +3165,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 124,
+    stars: 3,
     question: "Define Placenta Praevia and Abruptio placenta. Discuss the types of Placenta Praevia. Differentiate between Placenta praevia & Abruptio placenta. Explain management of a patient with placenta praevia.",
     marks: 15,
     repeated: 2,
@@ -3314,6 +3331,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 125,
+    stars: 3,
     question: "Define Placenta. Discuss the Obstetric and Nursing Management of Placenta Previa.",
     marks: 15,
     repeated: 1,
@@ -3490,6 +3508,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 126,
+    stars: 3,
     question: "Define abruptio placenta. Explain signs and symptoms of abruptio placenta. Describe the management of woman with abruptio placenta.",
     marks: 15,
     repeated: 1,
@@ -3659,6 +3678,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 127,
+    stars: 3,
     question: "Define antepartam haemorrhage. Enlist causes of antepartam haemorrhage. Differenciate between placenta previa and abruptio placenta.",
     marks: 15,
     repeated: 1,
@@ -3830,6 +3850,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 128,
+    stars: 3,
     question: "Causes of antepartum haemorrhage. / Causes of Antepartum hemorrhage.",
     marks: 5,
     repeated: 2,
@@ -3955,6 +3976,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 129,
+    stars: 3,
     question: "Abruptio placenta and its management / Abruptio Placenta.",
     marks: 5,
     repeated: 2,
@@ -4095,6 +4117,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 130,
+    stars: 3,
     question: "Write distinguishing features between Placenta Praevia and Abruptio Placenta. / Differentiate between placenta previa and abruptiq placenta. / Differentiate between placenta previa and abruption placenta.",
     marks: 5,
     repeated: 3,
@@ -4222,6 +4245,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 131,
+    stars: 2,
     question: "Define anemia in pregnancy. Explain the classification of anemia and its causes.. Describe the management of iron deficiency anemia in pregnancy.",
     marks: 15,
     repeated: 1,
@@ -4432,6 +4456,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 132,
+    stars: 2,
     question: "Enumerate causes of Iron deficiency anemia in pregnancy. Explain effects of anemia on fetus, discuss management of severe anemia in pregnancy.",
     marks: 15,
     repeated: 1,
@@ -4614,6 +4639,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 133,
+    stars: 2,
     question: "Define anemia in pregnancy. Explain the classification of anemia and its causes. Describe the management of anemia in pregnancy.",
     marks: 15,
     repeated: 2,
@@ -4797,6 +4823,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 134,
+    stars: 2,
     question: "Causes of anemia in pregnancy.",
     marks: 5,
     repeated: 1,
@@ -4954,6 +4981,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 135,
+    stars: 2,
     question: "Management of woman with anaemia in pregnancy",
     marks: 5,
     repeated: 1,
@@ -5142,6 +5170,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 136,
+    stars: 3,
     question: "Define pregnancy induced hypertension {PIH . Enlist causes of P.I.H. Discuss management of preeclampsia.",
     marks: 15,
     repeated: 1,
@@ -5320,6 +5349,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 137,
+    stars: 3,
     question: "Define pre eclampsia. List down the diagnostic criteria of pre eclampsia. Descrit the clinical features of pre eclampsia. Discuss the nursing management of pre eclampsia.",
     marks: 15,
     repeated: 1,
@@ -5508,6 +5538,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 138,
+    stars: 3,
     question: "Define Pregnancy Induced Hypertension (PIH). Explain pathophysiology of PIH. Describe medical and nursing management of PIH.",
     marks: 15,
     repeated: 1,
@@ -5670,6 +5701,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 139,
+    stars: 3,
     question: "Define pregnancy induced Hypertension. (PIH) Enumerate the complications of PIH. Write a note on inection Magnesium Sulphate. Discuss the antenatal and Intra-natal care of mother diagnosed with PIH.",
     marks: 15,
     repeated: 1,
@@ -5849,6 +5881,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 140,
+    stars: 2,
     question: "What is PIH? Classify PIH? Enumerate the clinical features of Eclampsia? Describe medical and Nursing management of Eclampsia?",
     marks: 15,
     repeated: 1,
@@ -6065,6 +6098,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 141,
+    stars: 2,
     question: "Define preeclampsia and eclampsia. Explain the stages of convulsion. Discuss the obstetrical and nursing management of the mother.",
     marks: 15,
     repeated: 1,
@@ -6140,6 +6174,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 142,
+    stars: 1,
     question: "Roll-over test",
     marks: 2,
     repeated: 1,
@@ -6383,6 +6418,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 144,
+    stars: 3,
     question: "Explain gestational diabetes. Enumerate the effects of diabetes on mother and foetus. Discuss the medical management of gestational diabetes during pregnancy. Explain the nursing management during antenatal period of mother diagnosed with diabetes.",
     marks: 15,
     repeated: 1,
@@ -6571,6 +6607,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 145,
+    stars: 3,
     question: "Define diabetes mellitus in pregnancy. Explain the effects of diabetes on pregnancy and Describe the management of mother with diabetes mellitus during labor.",
     marks: 15,
     repeated: 1,
@@ -7132,6 +7169,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 149,
+    stars: 2,
     question: "Hyperemesis Gravidarum. / Hyperemesis gravidarum and its management.. / Hyperemesis gravidaram",
     marks: 5,
     repeated: 4,
@@ -7258,6 +7296,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 150,
+    stars: 2,
     question: "Define Hyperemesis gravidarum. Write down the etiology, clinical manifestations of hyperemesis gravidarum. Describe the nursing management of hyperemesis gravidarum.",
     marks: 15,
     repeated: 1,
@@ -7668,6 +7707,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 153,
+    stars: 2,
     question: "Define Isoimmunisation. Explain the clinical manifestations of the haemolytic disease of the fetus. Discuss-Injection Anti- D. Discuss in detail about the antenatal, intranatal & postnatal management of a Rh negative mother with Rh positive fetus. / Define Iso immunization. Explain the clinical manifestations of the haemolytic disease of the foetus. Discuss injection Anti-D. Discuss in detail the antenatal, intra-natal and postnatal management of a Rh Negative mother with Rh Positive foetus.",
     marks: 15,
     repeated: 2,
@@ -7869,6 +7909,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 154,
+    stars: 2,
     question: "What is Rh incompatibility? List the maternal and foetal complications. Discuss the role of antenatal counselling in prevention of complications and preparation for safe confinement in these cases.",
     marks: 15,
     repeated: 1,
@@ -8013,6 +8054,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 155,
+    stars: 2,
     question: "What do you mean by Rh incompatibility? Discuss the clinical manifestations of haemolytic disease. Discuss the role of a nurse in preventing the complications. and preparing for a safe confinement during antenatal counseling sessions.",
     marks: 15,
     repeated: 1,
@@ -8158,6 +8200,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 156,
+    stars: 2,
     question: "Management of Rh incompatability in pregnancy.",
     marks: 5,
     repeated: 1,
@@ -8272,6 +8315,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 157,
+    stars: 2,
     question: "Rh-isoimmunization.",
     marks: 5,
     repeated: 1,
@@ -8370,6 +8414,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 158,
+    stars: 2,
     question: "Injection anti-D. / Injection Anti D.",
     marks: 5,
     repeated: 2,
@@ -8488,6 +8533,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 159,
+    stars: 2,
     question: "Define polyhydramnios. Discuss effects of polyhydramnios on mother and fetus: Describe management of antenatal woman with polyhydramnios. / Define polyhydramnios. Discuss effects of polyhydramnios on mother and foetus. Describe management of antenatal woman with polyhydramnios. / Define Polyhydramnios. Discuss the causes of polyhydramnios. Discuss the effects of polyhydramnios on mother and fetus. Describe the management of antenatal woman with polyhydramnios.",
     marks: 15,
     repeated: 3,
@@ -8658,6 +8704,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 160,
+    stars: 2,
     question: "What is polyhydramnious. List down etiology of polyhydramnious. Discuss management of polyhydramnious. List down the complications of polyhydramnious. Discuss abnormalities of placenta and cord.",
     marks: 15,
     repeated: 1,
@@ -8808,6 +8855,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 161,
+    stars: 2,
     question: "Polyhydramnios. / Polyhydramnous and its management.",
     marks: 5,
     repeated: 2,
@@ -8919,6 +8967,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 162,
+    stars: 2,
     question: "Define oligohydramnios. Enlist causes of oligohydramnios. Discuss management of oligohydramnios..",
     marks: 15,
     repeated: 1,
@@ -9088,6 +9137,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 163,
+    stars: 2,
     question: "Define oligohydramnios. Discuss its effects on the fetus. Brief the nursing management of a client with oligohydramnios.",
     marks: 15,
     repeated: 1,
@@ -9205,6 +9255,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 164,
+    stars: 2,
     question: "Define oligohydramnios. Discuss its effects on the fetus. Describe in detail the management of a mother with oligohydramnios in first stage of labour.",
     marks: 15,
     repeated: 1,
@@ -9337,6 +9388,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 165,
+    stars: 2,
     question: "Define oligohydramnios. Discuss the causes of oligohydraminos and effects on the fetus. Write the management of a client with oligohydraminos.",
     marks: 15,
     repeated: 1,
@@ -9467,6 +9519,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 166,
+    stars: 2,
     question: "Oligohydramnios",
     marks: 5,
     repeated: 1,
@@ -9569,6 +9622,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 167,
+    stars: 2,
     question: "Mrs. Lata, 32 years delivered twins. i) Enumerate the causes of multiple pregnancy. ii) Discuss the management of twins' weighing 2000 gm and 1900 gm respectively. iii) What advice would you give the mother on discharge. iv) Write down priority nursing care plan for Mrs. Lata.",
     marks: 15,
     repeated: 1,
@@ -9701,6 +9755,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 168,
+    stars: 2,
     question: "What is multiple pregnancy? Describe types of twins pregnancy. Explain Management of twins in antenatal and intranatal period.",
     marks: 15,
     repeated: 1,
@@ -9801,6 +9856,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 169,
+    stars: 2,
     question: "Complications of multiple pregnancy",
     marks: 3,
     repeated: 1,
@@ -9878,6 +9934,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 170,
+    stars: 2,
     question: "Umbilical cord and its abnormalities.",
     marks: 5,
     repeated: 1,
@@ -9972,6 +10029,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 171,
+    stars: 1,
     question: "Define IUGR, Describe etiology and diagnosis of IUGR, Explain the complications and management of IUGR",
     marks: 15,
     repeated: 1,
@@ -10105,6 +10163,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 172,
+    stars: 1,
     question: "Intrauterine growth retardation / Intra uterine growth retardation. / Types of Intra uterine growth retardation.",
     marks: 5,
     repeated: 3,
@@ -10418,6 +10477,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 175,
+    stars: 2,
     question: "Define prolonged labour. Explain the causes and diagnosis of the prolonged labour. Describe nursing care of a case with prolonged labor during second stage.",
     marks: 15,
     repeated: 2,
@@ -10517,6 +10577,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 176,
+    stars: 2,
     question: "Causes of prolonged labour.",
     marks: 5,
     repeated: 1,
@@ -10593,6 +10654,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 177,
+    stars: 2,
     question: "Prolonged labour",
     marks: 5,
     repeated: 1,
@@ -10673,6 +10735,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 178,
+    stars: 1,
     question: "What do you understand by malpresentation? What are the different types of breech presentation? How can you diagnose breech presentation? How can you manag breech delivery as a midwife?",
     marks: 15,
     repeated: 1,
@@ -10806,6 +10869,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 179,
+    stars: 1,
     question: "Define breech presentation, Etiology and diagnosis of breech. presentation, Describe the management of vaginal breech delivery",
     marks: 15,
     repeated: 1,
@@ -10910,6 +10974,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 180,
+    stars: 1,
     question: "What do you mean by malpresentation? List the common Malpresentations. Describe briefly about breech Presentation.",
     marks: 15,
     repeated: 1,
@@ -11926,6 +11991,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 191,
+    stars: 2,
     question: "Injuries to birth canal during second stage of labour / Injuries to birth canal.",
     marks: 5,
     repeated: 2,
@@ -12013,6 +12079,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 192,
+    stars: 2,
     question: "Perineal tear / Perineal Tear.",
     marks: 5,
     repeated: 3,
@@ -12099,6 +12166,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 193,
+    stars: 3,
     question: "Episiotomy. / Care of episiotomy",
     marks: 5,
     repeated: 7,
@@ -12190,6 +12258,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 194,
+    stars: 2,
     question: "Induction of labour. / Induction of labor.",
     marks: 5,
     repeated: 3,
@@ -12278,6 +12347,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 195,
+    stars: 2,
     question: "Ventouse Delivery. / Ventose Delivery. / Ventouse delivery.",
     marks: 5,
     repeated: 3,
@@ -12356,6 +12426,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 196,
+    stars: 2,
     question: "What is mean by forceps delivery and indication for using it.",
     marks: 5,
     repeated: 1,
@@ -12441,6 +12512,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 197,
+    stars: 2,
     question: "Define caesarean section. Explain the types and indications of caesarean section. Describe the pre-operative and post-operative care of patient undergoing Caesarean section.",
     marks: 15,
     repeated: 1,
@@ -12577,6 +12649,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 198,
+    stars: 2,
     question: "List the types and indications of caesarean section. Describe pre-operative and post-operative care of patient undergoing caesarean section. Write the common complications of caesarean section and its Management.",
     marks: 15,
     repeated: 1,
@@ -12674,6 +12747,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 199,
+    stars: 2,
     question: "List the factors responsible for rising rate of cesarean section. Discuss the preparation of a mother posted for emergency cesarean section. Explain the day wise nursing care of a mother undergone lower segment cesarean section",
     marks: 15,
     repeated: 1,
@@ -12769,6 +12843,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 200,
+    stars: 2,
     question: "Indications of cesarean section.",
     marks: 5,
     repeated: 1,
@@ -12937,6 +13012,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 202,
+    stars: 1,
     question: "Bishop Score. / Bishop Scoré. / Explain Bishop Score.",
     marks: 5,
     repeated: 4,
@@ -13029,6 +13105,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 203,
+    stars: 2,
     question: "Inj. Magnesium Sulphate. / Injection Magnesium Sulphate",
     marks: 5,
     repeated: 2,
@@ -13119,6 +13196,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 204,
+    stars: 2,
     question: "Injection Methargin.",
     marks: 5,
     repeated: 2,
@@ -13300,6 +13378,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 206,
+    stars: 1,
     question: "Define puerperal sepsis. Explain causes of it. Write the Medical and Nursing management of Puerperal sepsis.",
     marks: 15,
     repeated: 1,
@@ -13422,6 +13501,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 207,
+    stars: 1,
     question: "Enlist complications of purperium. Discuss medical and nursing management of puerperal sepsis.",
     marks: 15,
     repeated: 1,
@@ -13522,6 +13602,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 208,
+    stars: 1,
     question: "Management of puerperial pyrexia.",
     marks: 5,
     repeated: 1,
@@ -13674,6 +13755,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 210,
+    stars: 2,
     question: "Define normal purperium. Enlist minor complications of purperium. Discuss management of woman with abnormal purperium.",
     marks: 15,
     repeated: 1,
@@ -13768,6 +13850,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 211,
+    stars: 3,
     question: "Define Post-partum haemorrhage (PPH). Enlist causes of PPH and explain midwives role in prevention of traumatic Post-partum haemorrhage. Describe the management of atonic Post-partum haemorrhage.",
     marks: 15,
     repeated: 1,
@@ -13897,6 +13980,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 212,
+    stars: 3,
     question: "Define the term postpartum haemorrhage. Explain causes and types of postpartum haemorrhage. Describe management of woman with atonic postpartum haemorrhage. / Explain the causes of postpartum hemorrhage. Explain the types of postpartum hemorrhage. Discuss the management of a woman with atonic postpartum hemorrhage.",
     marks: 15,
     repeated: 3,
@@ -13997,6 +14081,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 213,
+    stars: 3,
     question: "Define postpartum haemorrhage, Explain the causes and prevention. Describe management of true postpartum haemorrhage",
     marks: 15,
     repeated: 1,
@@ -14095,6 +14180,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 214,
+    stars: 3,
     question: "Define Post Partum Haemorrhage (PPH). List down the signs and symptoms of PPH. Explain the management of woman with primary PPH.",
     marks: 15,
     repeated: 1,
@@ -14206,6 +14292,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 215,
+    stars: 3,
     question: "Mrs. S delivered a male baby of 2500 gms at 10:30 p.m. She complains of pain in abdomen, has changed pads three times till 12:30 a.m. Answer the following: Define Post Partum Hemorrhage (PPH). Explain causes of PPH. Describe management of PPH.",
     marks: 15,
     repeated: 1,
@@ -14316,6 +14403,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 216,
+    stars: 3,
     question: "Define puerperium. Enlist complications of postpartum haemorrhage. Describe management of Postpartum haemorrhage.",
     marks: 15,
     repeated: 1,
@@ -14583,6 +14671,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 219,
+    stars: 2,
     question: "Levels of neonatal care. / Explain levels of newborn care.",
     marks: 5,
     repeated: 2,
@@ -14670,6 +14759,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 220,
+    stars: 2,
     question: "Define premature baby. Enlist causes of prenmaturity. Discuss care of premature baby.",
     marks: 15,
     repeated: 2,
@@ -14796,6 +14886,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 221,
+    stars: 2,
     question: "Care of preterm baby / Nursing care of preterm baby. / Care of a preterm neonate. / Care of Preterm Baby.",
     marks: 5,
     repeated: 4,
@@ -14871,6 +14962,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 222,
+    stars: 1,
     question: "Kangaroo mother care.",
     marks: 5,
     repeated: 2,
@@ -14967,6 +15059,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 223,
+    stars: 2,
     question: "Define postmaturity and signs of post maturity.",
     marks: 5,
     repeated: 1,
@@ -15054,6 +15147,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 224,
+    stars: 2,
     question: "Postmaturity and its effects on fetus and mother.",
     marks: 5,
     repeated: 1,
@@ -15142,6 +15236,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 225,
+    stars: 2,
     question: "Asphyxia neonatrum.",
     marks: 5,
     repeated: 1,
@@ -15387,6 +15482,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 228,
+    stars: 1,
     question: "Prevention of H.I.V In newborn",
     marks: 5,
     repeated: 1,
@@ -15464,6 +15560,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 229,
+    stars: 1,
     question: "Breastfeeding in HIV",
     marks: 5,
     repeated: 1,
@@ -15541,6 +15638,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 230,
+    stars: 1,
     question: "Counseling of HIV mother.",
     marks: 5,
     repeated: 1,
@@ -15619,6 +15717,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 231,
+    stars: 1,
     question: "Prenatal couseling for HIV in pregnancy",
     marks: 5,
     repeated: 1,
@@ -15696,6 +15795,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 232,
+    stars: 1,
     question: "Define fertilization and implantation. Explain the spermatogenesis and oogenesis. Male factors and female factors contributing to infertility.",
     marks: 15,
     repeated: 1,
@@ -15802,6 +15902,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 233,
+    stars: 1,
     question: "Mrs. S 27 years old married since 6 years, having regular unprotected sex has not conceived yet and came to the gynecology OPD. Answer the following: Define Infertility. Explain causes of female infertility. Discuss recent advancement in infertility management.",
     marks: 15,
     repeated: 1,
@@ -15901,6 +16002,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 234,
+    stars: 1,
     question: "Define infertility. Distinguish between primary and secondary infertility. Enumerate the investigations done for women for primary infertility. Explain the advanced treatments available for infertility.",
     marks: 15,
     repeated: 1,
@@ -16068,6 +16170,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 236,
+    stars: 1,
     question: "Surrogacy Bill",
     marks: 2,
     repeated: 1,
@@ -16141,6 +16244,7 @@ window.QUESTIONS_DATA_OBG2 = [
   },
   {
     id: 237,
+    stars: 1,
     question: "Explain the degrees of uterine prolapse. Discuss the pre and post operative management of patient with uterine prolapse. Mention the complications of prolapsed uterus & its management.",
     marks: 15,
     repeated: 1,

@@ -193,6 +193,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 23,
+    stars: 1,
     question: "Physiological changes during 1st trimester of pregnancy.",
     marks: 5,
     repeated: 1,
@@ -403,6 +404,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 24,
+    stars: 1,
     question: "Physiological changes in antenatal period",
     marks: 5,
     repeated: 1,
@@ -647,6 +649,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 25,
+    stars: 1,
     question: "Skin changes during pregnancy",
     marks: 2,
     repeated: 1,
@@ -745,6 +748,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 26,
+    stars: 1,
     question: "Cardiovascular changes during pregnancy.",
     marks: 5,
     repeated: 2,
@@ -930,6 +934,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 27,
+    stars: 3,
     question: "History taking before obstetrical examination.",
     marks: 5,
     repeated: 1,
@@ -1144,6 +1149,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 28,
+    stars: 3,
     question: "Define antenatal care. Explain the aims and objectives of antenatal care. Discuss the antenatal assessment of a pregnant woman.",
     marks: 15,
     repeated: 3,
@@ -1677,6 +1683,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 31,
+    stars: 3,
     question: "Define high-risk pregnancy. Enlist the high-risk factors. Discuss the nursing management of a high-risk pregnant woman.",
     marks: 15,
     repeated: 2,
@@ -2008,6 +2015,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 33,
+    stars: 1,
     question: "Diet during pregnancy / nutritional needs in pregnancy.",
     marks: 5,
     repeated: 2,
@@ -2307,6 +2315,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 35,
+    stars: 1,
     question: "Discuss the physiological changes in the reproductive system during pregnancy.",
     marks: 5,
     repeated: 1,
@@ -2622,6 +2631,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 37,
+    stars: 1,
     question: "Describe the fetal skull &mdash; its bones, sutures, fontanelles, regions and diameters. Add a note on its importance in labour.",
     marks: 15,
     repeated: 2,
@@ -2969,6 +2979,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 39,
+    stars: 3,
     question: "Describe the abdominal examination of a pregnant woman &mdash; inspection, palpation (Leopold's manoeuvres) and auscultation.",
     marks: 15,
     repeated: 2,
@@ -3408,6 +3419,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   },
   {
     id: 93,
+    stars: 1,
     question: "Diet in pregnancy. / Antenatal diet.",
     marks: 5,
     repeated: 2,
@@ -3442,6 +3454,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   },
   {
     id: 94,
+    stars: 1,
     question: "Biochemical investigations in pregnancy.",
     marks: 5,
     repeated: 1,
@@ -3474,6 +3487,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   },
   {
     id: 95,
+    stars: 1,
     question: "Non Stress Test (NST).",
     marks: 5,
     repeated: 3,
@@ -3538,6 +3552,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   },
   {
     id: 96,
+    stars: 1,
     question: "Biophysical profile (BPP).",
     marks: 3,
     repeated: 1,
@@ -3609,6 +3624,7 @@ window.QUESTIONS_DATA_UNIT3 = [
   },
   {
     id: 97,
+    stars: 1,
     question: "Amniocentesis.",
     marks: 5,
     repeated: 1,

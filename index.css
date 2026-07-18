@@ -676,6 +676,33 @@ img { max-width: 100%; }
     color: var(--color-foreground);
 }
 
+/* Priority stars badge */
+.priority-stars {
+    font-size: 0.72rem !important;
+    letter-spacing: 0.02em;
+    font-family: var(--font-body) !important;
+    text-transform: none !important;
+    border-radius: 9999px;
+    padding: 0.2rem 0.55rem !important;
+    font-weight: 700;
+    background: transparent !important;
+}
+.priority-stars.stars-3 {
+    color: #ff4d4d;
+    background: color-mix(in oklch, #ff4d4d 15%, transparent) !important;
+    border: 1px solid color-mix(in oklch, #ff4d4d 35%, transparent);
+}
+.priority-stars.stars-2 {
+    color: #ff8c00;
+    background: color-mix(in oklch, #ff8c00 15%, transparent) !important;
+    border: 1px solid color-mix(in oklch, #ff8c00 35%, transparent);
+}
+.priority-stars.stars-1 {
+    color: #c9a800;
+    background: color-mix(in oklch, #c9a800 15%, transparent) !important;
+    border: 1px solid color-mix(in oklch, #c9a800 35%, transparent);
+}
+
 .q-marks-area {
     display: flex;
     align-items: center;

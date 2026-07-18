@@ -248,6 +248,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 14,
+    stars: 1,
     question: "Menstrual cycle / Physiology of Menstrual Cycle.",
     marks: 5,
     repeated: 2,
@@ -398,6 +399,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 15,
+    stars: 2,
     question: "Fertilization. / Discuss the steps of Fertilization.",
     marks: 5,
     repeated: 3,
@@ -553,6 +555,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 16,
+    stars: 2,
     question: "Describe the Fetal Circulation with a diagram. / Foetal circulation. / Fetal circulation.",
     marks: 5,
     repeated: 3,
@@ -724,6 +727,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 17,
+    stars: 2,
     question: "Discuss the functions of placenta.",
     marks: 5,
     repeated: 1,
@@ -890,6 +894,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 18,
+    stars: 2,
     question: "Types of separation of placenta.",
     marks: 5,
     repeated: 1,
@@ -1012,6 +1017,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 19,
+    stars: 2,
     question: "Amniotic fluid. / Characteristics and functions of amniotic fluid",
     marks: 5,
     repeated: 3,
@@ -1185,6 +1191,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 20,
+    stars: 2,
     question: "Explain functions of amniotic fluid for fetus.",
     marks: 5,
     repeated: 1,
@@ -1291,6 +1298,7 @@ window.QUESTIONS_DATA_UNIT2 = [
   // ════════════════════════════════════════════════════════════
   {
     id: 21,
+    stars: 2,
     question: "Clinical significance of assessment of Amniotic fluid.",
     marks: 5,
     repeated: 1,
