@@ -1,6 +1,6 @@
 {
-  "id": "session-1784143213141",
-  "startedAt": "2026-07-15T19:20:13.141Z",
+  "id": "session-1784142641017",
+  "startedAt": "2026-07-15T19:10:41.017Z",
   "cwd": "/home/aj/Documents/nursing-exam-journal",
   "context": {},
   "metrics": {
@@ -8,5 +8,7 @@
     "commands": 0,
     "tasks": 0,
     "errors": 0
-  }
+  },
+  "endedAt": "2026-07-15T19:20:02.653Z",
+  "duration": 561636
 }

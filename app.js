@@ -542,6 +542,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (window.activateDiagrams) window.activateDiagrams();
             // Append Google "Learn About" interactive study modules to every answer
             if (window.injectLearnAbout) window.injectLearnAbout(modalBody, q);
+            // Append "Never-Forget" memory kit for starred OBG questions
+            if (window.injectMemoryCoach) window.injectMemoryCoach(modalBody, q);
             // MCQ Quiz interactivity: click option → green/red + show answer
             modalBody.querySelectorAll('.mcq-item').forEach(function(item) {
                 var opts = item.querySelectorAll('.mcq-option');
