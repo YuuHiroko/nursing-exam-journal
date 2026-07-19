@@ -496,6 +496,8 @@ document.addEventListener('DOMContentLoaded', () => {
         modalUnit.textContent = getUnitLabel(q.unit);
 
         questionCounter.textContent = (index + 1) + ' / ' + currentQuestions.length;
+        const topCounter = document.getElementById('question-counter-top');
+        if (topCounter) topCounter.textContent = (index + 1) + ' / ' + currentQuestions.length;
         prevBtn.disabled = index === 0;
         nextBtn.disabled = index === currentQuestions.length - 1;
 
@@ -542,8 +544,20 @@ document.addEventListener('DOMContentLoaded', () => {
             if (window.activateDiagrams) window.activateDiagrams();
             // Append Google "Learn About" interactive study modules to every answer
             if (window.injectLearnAbout) window.injectLearnAbout(modalBody, q);
-            // Append "Never-Forget" memory kit for starred OBG questions
-            if (window.injectMemoryCoach) window.injectMemoryCoach(modalBody, q);
+            // OBG-only enhancements (units 1-11). NRS/CHN reuse ids 1-238 and
+            // have no stars, so gating on unit prevents cross-subject injection.
+            const isOBG = q.unit >= 1 && q.unit <= 11;
+            if (isOBG) {
+                // Append curated video for the question's topic
+                if (window.injectVideo) window.injectVideo(modalBody, q);
+                // Append flashcard launcher (Anki-style reviewer) for starred questions
+                if (window.injectFlashcards) window.injectFlashcards(modalBody, q);
+                // Append "Never-Forget" memory kit for starred OBG questions
+                if (window.injectMemoryCoach) window.injectMemoryCoach(modalBody, q);
+                // Pin a quick-action bar to the TOP of the answer so the
+                // flashcards / memory kit are impossible to miss.
+                buildStudyBar(modalBody, q);
+            }
             // MCQ Quiz interactivity: click option → green/red + show answer
             modalBody.querySelectorAll('.mcq-item').forEach(function(item) {
                 var opts = item.querySelectorAll('.mcq-option');
@@ -566,14 +580,51 @@ document.addEventListener('DOMContentLoaded', () => {
             });
             // Annotation overlay: pen / highlighter / eraser with auto-save
             if (window.initAnnotation) window.initAnnotation(overlay, qKey(q));
-            // Question Cuff: reveal the toggle only when the stem exceeds 2 lines;
-            // short questions render in full with no chrome.
-            if (questionToggle) {
-                const overflows = modalTitle.scrollHeight > modalTitle.clientHeight + 1;
-                questionToggle.hidden = !overflows;
-                if (!overflows) modalTitle.classList.remove('is-clamped');
-                else if (cuffExpanded) setCuff(true);   // honour per-session preference
-            }
+            // Question always renders in full — no clamp, no "read more" toggle.
+            if (modalTitle) modalTitle.classList.remove('is-clamped');
+        });
+    }
+
+    // Quick-action study bar pinned at the top of an OBG answer.
+    // Big tappable chips: 🃏 Flashcards · 🎥 Video · 🧠 Memory Kit.
+    function buildStudyBar(modalBody, q) {
+        // remove any stale bar (lives in the modal, not the scroll body)
+        const modal = overlay.querySelector('.article-modal');
+        if (modal) { const old = modal.querySelector('.study-bar'); if (old) old.remove(); }
+
+        const hasCards = window.flashcardDeckSize && window.flashcardDeckSize(q) > 0;
+        const hasKit = window.MEMORY_KITS && window.MEMORY_KITS[q.id];
+        const hasVideo = (window.QUESTION_TOPIC || {})[q.id];
+        if (!hasCards && !hasKit && !hasVideo) return;
+
+        const bar = document.createElement('div');
+        bar.className = 'study-bar';
+        bar.innerHTML =
+            '<span class="study-bar-label">STUDY TOOLS</span>' +
+            (hasCards ? '<button type="button" class="study-chip study-chip-cards"><span class="study-chip-ico">🃏</span>Flashcards</button>' : '') +
+            (hasVideo ? '<button type="button" class="study-chip study-chip-vid"><span class="study-chip-ico">🎥</span>Video</button>' : '') +
+            (hasKit ? '<button type="button" class="study-chip study-chip-kit"><span class="study-chip-ico">🧠</span>Memory Kit</button>' : '');
+        // Pin the tools strip between the scrollable body and the footer nav,
+        // so it is always visible (never scrolls away inside the answer).
+        const footer = overlay.querySelector('.article-footer');
+        if (modal && footer) modal.insertBefore(bar, footer);
+        else modalBody.insertBefore(bar, modalBody.firstChild);
+
+        // wire chips
+        const cardsBtn = bar.querySelector('.study-chip-cards');
+        if (cardsBtn) cardsBtn.addEventListener('click', () => {
+            const launcher = modalBody.querySelector('.fc-launcher');
+            if (launcher) launcher.click();
+        });
+        const vidBtn = bar.querySelector('.study-chip-vid');
+        if (vidBtn) vidBtn.addEventListener('click', () => {
+            const v = modalBody.querySelector('.vid-card');
+            if (v) v.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+        const kitBtn = bar.querySelector('.study-chip-kit');
+        if (kitBtn) kitBtn.addEventListener('click', () => {
+            const k = modalBody.querySelector('.mc-kit');
+            if (k) k.scrollIntoView({ behavior: 'smooth', block: 'start' });
         });
     }
 
@@ -606,13 +657,21 @@ document.addEventListener('DOMContentLoaded', () => {
         if (overlay.classList.contains('hidden')) return;   // balance the single lock
         // Tear down annotation canvas + toolbar before hiding
         if (window.destroyAnnotation) window.destroyAnnotation();
-        overlay.classList.add('hidden');
-        unlockScroll();
-        // Restore focus to the card that opened the reader.
-        if (lastFocusedEl && typeof lastFocusedEl.focus === 'function') {
-            lastFocusedEl.focus();
-            lastFocusedEl = null;
-        }
+        // Slide the sheet back down before hiding (bottom-sheet close animation).
+        const modal = overlay.querySelector('.article-modal');
+        if (modal) modal.classList.add('sheet-closing');
+        const finish = () => {
+            overlay.classList.add('hidden');
+            if (modal) modal.classList.remove('sheet-closing');
+            unlockScroll();
+            // Restore focus to the card that opened the reader.
+            if (lastFocusedEl && typeof lastFocusedEl.focus === 'function') {
+                lastFocusedEl.focus();
+                lastFocusedEl = null;
+            }
+        };
+        if (modal) setTimeout(finish, 320);
+        else finish();
     }
 
     // Event Listeners

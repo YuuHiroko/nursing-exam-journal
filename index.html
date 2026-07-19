@@ -197,9 +197,13 @@
             <span class="focus-sentinel" tabindex="0" data-sentinel="start" aria-hidden="true"></span>
             <div class="reader-progress-bar" id="reader-progress" aria-hidden="true"><div class="reader-progress-fill" id="reader-progress-fill"></div></div>
             <div class="article-header" id="article-header">
-                <button class="icon-btn close-btn" id="close-modal" type="button" aria-label="Close reader">
-                    <span class="material-symbols-outlined" aria-hidden="true">close</span>
-                </button>
+                <div class="reader-toprow">
+                    <button class="icon-btn close-btn" id="close-modal" type="button" aria-label="Close reader">
+                        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+                    </button>
+                    <span class="reader-toprow-title mono-label">MODEL ANSWER</span>
+                    <span class="reader-counter-top" id="question-counter-top"></span>
+                </div>
                 <div class="article-meta">
                     <span class="badge" id="modal-marks"></span>
                     <span class="badge" id="modal-unit" style="background:var(--accent);"></span>
@@ -276,6 +280,10 @@
     <script defer src="memory-kits-part5a.js?v=999"></script>
     <script defer src="memory-kits-part5b.js?v=999"></script>
     <script defer src="memory-coach.js?v=999"></script>
+    <!-- Videos + Flashcards (topic map first, then engines) -->
+    <script defer src="topic-map.js?v=999"></script>
+    <script defer src="flashcards.js?v=999"></script>
+    <script defer src="videos.js?v=999"></script>
     <script defer src="learn-about.js?v=999"></script>
     <script defer src="enhancements.js?v=999"></script>
     <script defer src="annotate.js?v=999"></script>
