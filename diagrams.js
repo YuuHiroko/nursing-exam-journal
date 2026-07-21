@@ -2676,7 +2676,7 @@ window.DIAGRAMS = {
       + '<svg viewBox="0 0 ' + W + ' ' + H + '" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">' + svg + '</svg>'
       + '<div class="diagram-key">Yellow → incinerate. Red (contaminated plastics) → autoclave + recycle. White (sharps) → puncture-proof → autoclave + shred + encapsulate. Blue (glass) → disinfect + recycle. Key rule: segregate at point of generation; NEVER recap needles; store max 48hrs; wear PPE always.</div>'
       + '</div>';
-  }
+  },
 
 
   // ══════════════════════════════════════════════════════════════════
@@ -3781,48 +3781,254 @@ window.DIAGRAMS = {
     + '</div>';
   },
 
-};
 
+  /* NRS UNIT 7 — STATISTICS DIAGRAMS (8 new) */
 
+  normalCurveBell: function() {
+    return '<div class="interactive-diagram" style="padding:1rem;">'
+      + '<div class="diagram-title">Bell Curve: Normal Probability Curve - 68-95-99.7 Rule</div>'
+      + '<svg viewBox="0 0 520 240" width="100%" style="max-width:520px;display:block;margin:0 auto;">'
+      + '<defs>'
+      + '<linearGradient id="ncz3" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#ef4444" stop-opacity="0.15"/><stop offset="100%" stop-color="#ef4444" stop-opacity="0.4"/></linearGradient>'
+      + '<linearGradient id="ncz2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#f59e0b" stop-opacity="0.2"/><stop offset="100%" stop-color="#f59e0b" stop-opacity="0.4"/></linearGradient>'
+      + '<linearGradient id="ncz1" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#22c55e" stop-opacity="0.25"/><stop offset="100%" stop-color="#22c55e" stop-opacity="0.45"/></linearGradient>'
+      + '</defs>'
+      + '<path d="M60,200 C80,195 100,170 120,130 C140,90 155,50 180,25 C195,12 205,8 260,8 C315,8 325,12 340,25 C365,50 380,90 400,130 C420,170 440,195 460,200 Z" fill="url(#ncz3)" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.1s" fill="freeze"/></path>'
+      + '<path d="M100,200 C115,185 130,150 155,100 C175,65 195,35 220,20 C235,12 248,8 260,8 C272,8 285,12 300,20 C325,35 345,65 365,100 C390,150 405,185 420,200 Z" fill="url(#ncz2)" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.4s" fill="freeze"/></path>'
+      + '<path d="M145,200 C158,185 175,155 198,110 C215,80 235,50 260,35 C285,50 305,80 322,110 C345,155 362,185 375,200 Z" fill="url(#ncz1)" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.7s" fill="freeze"/></path>'
+      + '<path d="M60,200 C80,195 100,170 120,130 C140,90 155,50 180,25 C195,12 205,8 260,8 C315,8 325,12 340,25 C365,50 380,90 400,130 C420,170 440,195 460,200" stroke="#6366f1" stroke-width="3" fill="none" stroke-linecap="round"><animate attributeName="stroke-dasharray" from="0 1200" to="1200 0" dur="1.2s" fill="freeze"/></path>'
+      + '<line x1="40" y1="200" x2="480" y2="200" stroke="#9ca3af" stroke-width="1.5"/>'
+      + '<line x1="260" y1="10" x2="260" y2="200" stroke="#6366f1" stroke-width="1.5" stroke-dasharray="5,3" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.2s" fill="freeze"/></line>'
+      + '<line x1="200" y1="60" x2="200" y2="200" stroke="#22c55e" stroke-width="1" stroke-dasharray="4,3" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.4s" fill="freeze"/></line>'
+      + '<line x1="320" y1="60" x2="320" y2="200" stroke="#22c55e" stroke-width="1" stroke-dasharray="4,3" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.4s" fill="freeze"/></line>'
+      + '<line x1="148" y1="130" x2="148" y2="200" stroke="#f59e0b" stroke-width="1" stroke-dasharray="4,3" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.6s" fill="freeze"/></line>'
+      + '<line x1="372" y1="130" x2="372" y2="200" stroke="#f59e0b" stroke-width="1" stroke-dasharray="4,3" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.6s" fill="freeze"/></line>'
+      + '<text x="260" y="218" text-anchor="middle" font-size="11" fill="#6366f1" font-weight="bold">Mean (centre)</text>'
+      + '<text x="200" y="218" text-anchor="middle" font-size="10" fill="#22c55e">-1SD</text>'
+      + '<text x="320" y="218" text-anchor="middle" font-size="10" fill="#22c55e">+1SD</text>'
+      + '<text x="148" y="218" text-anchor="middle" font-size="10" fill="#f59e0b">-2SD</text>'
+      + '<text x="372" y="218" text-anchor="middle" font-size="10" fill="#f59e0b">+2SD</text>'
+      + '<text x="90" y="218" text-anchor="middle" font-size="9" fill="#ef4444">-3SD</text>'
+      + '<text x="430" y="218" text-anchor="middle" font-size="9" fill="#ef4444">+3SD</text>'
+      + '<text x="260" y="120" text-anchor="middle" font-size="12" fill="#16a34a" font-weight="bold" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.8s" fill="freeze"/>68%</text>'
+      + '<text x="170" y="160" text-anchor="middle" font-size="10" fill="#d97706" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.1s" fill="freeze"/>13.5%</text>'
+      + '<text x="350" y="160" text-anchor="middle" font-size="10" fill="#d97706" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.1s" fill="freeze"/>13.5%</text>'
+      + '<text x="100" y="185" text-anchor="middle" font-size="9" fill="#ef4444" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.4s" fill="freeze"/>2.15%</text>'
+      + '<text x="420" y="185" text-anchor="middle" font-size="9" fill="#ef4444" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.4s" fill="freeze"/>2.15%</text>'
+      + '</svg>'
+      + '<div class="diagram-key"><strong>The Bell Curve (NPC)</strong> is perfectly symmetrical. <strong>68%</strong> of data falls within &plusmn;1 SD, <strong>95%</strong> within &plusmn;2 SD, and <strong>99.7%</strong> within &plusmn;3 SD. Mean = Median = Mode at the centre. Zones light up in sequence: green (68%), orange (95%), red (99.7%).</div>'
+      + '</div>';
+  },
 
-// --- ACTIVATION ---
-(function () {
-  var reduceMotion = !!(window.matchMedia &&
-    window.matchMedia('(prefers-reduced-motion: reduce)').matches);
+  normalCurveTypes: function() {
+    return '<div class="interactive-diagram" style="padding:1rem;">'
+      + '<div class="diagram-title">Three Types of Normal Curve: Leptokurtic, Mesokurtic, Platykurtic</div>'
+      + '<svg viewBox="0 0 480 200" width="100%" style="max-width:480px;display:block;margin:0 auto;">'
+      + '<line x1="20" y1="175" x2="460" y2="175" stroke="#9ca3af" stroke-width="1.5"/>'
+      + '<path d="M100,175 C110,170 120,140 130,80 C140,30 148,10 155,8 C162,10 170,30 180,80 C190,140 200,170 210,175" stroke="#ef4444" stroke-width="2.5" fill="none" opacity="0" stroke-linecap="round"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.2s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 600" to="600 0" dur="0.8s" begin="0.2s" fill="freeze"/></path>'
+      + '<text x="155" y="195" text-anchor="middle" font-size="11" fill="#ef4444" font-weight="600" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1s" fill="freeze"/>Leptokurtic</text>'
+      + '<text x="155" y="5" text-anchor="middle" font-size="9" fill="#ef4444" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1s" fill="freeze"/>Tall and Narrow</text>'
+      + '<path d="M165,175 C180,170 195,145 210,110 C225,78 237,50 260,35 C283,50 295,78 310,110 C325,145 340,170 355,175" stroke="#6366f1" stroke-width="2.5" fill="none" opacity="0" stroke-linecap="round"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 600" to="600 0" dur="0.8s" begin="0.5s" fill="freeze"/></path>'
+      + '<text x="260" y="195" text-anchor="middle" font-size="11" fill="#6366f1" font-weight="600" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.3s" fill="freeze"/>Mesokurtic</text>'
+      + '<text x="260" y="28" text-anchor="middle" font-size="9" fill="#6366f1" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.3s" fill="freeze"/>Normal (standard)</text>'
+      + '<path d="M270,175 C290,172 310,162 330,140 C355,112 368,90 380,80 C392,70 398,68 405,68 C412,68 418,70 430,80 C442,90 455,112 460,140" stroke="#22c55e" stroke-width="2.5" fill="none" opacity="0" stroke-linecap="round"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 600" to="600 0" dur="0.8s" begin="0.8s" fill="freeze"/></path>'
+      + '<text x="400" y="195" text-anchor="middle" font-size="11" fill="#22c55e" font-weight="600" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.6s" fill="freeze"/>Platykurtic</text>'
+      + '<text x="400" y="62" text-anchor="middle" font-size="9" fill="#22c55e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.6s" fill="freeze"/>Flat and Wide</text>'
+      + '</svg>'
+      + '<div class="diagram-key"><strong>Leptokurtic (red):</strong> Tall and narrow. <strong>Mesokurtic (purple):</strong> Standard normal. <strong>Platykurtic (green):</strong> Flat and wide. Trick: Lepto = Lean (thin), Platy = Plate (flat).</div>'
+      + '</div>';
+  },
 
-  function eachSvg(el, fn) {
-    var svgs = el.querySelectorAll('svg');
-    for (var i = 0; i < svgs.length; i++) { try { fn(svgs[i]); } catch (e) {} }
-  }
+  centralTendencyOnCurve: function() {
+    return '<div class="interactive-diagram" style="padding:1rem;">'
+      + '<div class="diagram-title">Mean, Median, Mode Positions on Normal vs Skewed Curve</div>'
+      + '<svg viewBox="0 0 500 210" width="100%" style="max-width:500px;display:block;margin:0 auto;">'
+      + '<text x="125" y="15" text-anchor="middle" font-size="11" fill="#6366f1" font-weight="700">Normal Distribution</text>'
+      + '<path d="M30,180 C45,175 60,150 80,110 C100,72 112,45 125,30 C138,45 150,72 170,110 C190,150 205,175 220,180" stroke="#6366f1" stroke-width="2" fill="none" stroke-linecap="round"><animate attributeName="stroke-dasharray" from="0 600" to="600 0" dur="1s" fill="freeze"/></path>'
+      + '<line x1="125" y1="32" x2="125" y2="180" stroke="#22c55e" stroke-width="2" stroke-dasharray="4,3"/>'
+      + '<text x="125" y="197" text-anchor="middle" font-size="10" fill="#22c55e" font-weight="600">Mean = Median = Mode</text>'
+      + '<line x1="30" y1="180" x2="220" y2="180" stroke="#9ca3af" stroke-width="1"/>'
+      + '<text x="340" y="15" text-anchor="middle" font-size="11" fill="#f59e0b" font-weight="700">Positive Skew (Right)</text>'
+      + '<path d="M255,180 C260,178 268,160 285,120 C300,85 310,60 322,42 C345,80 360,125 385,160 C405,180 430,185 460,185" stroke="#f59e0b" stroke-width="2" fill="none" stroke-linecap="round"><animate attributeName="stroke-dasharray" from="0 700" to="700 0" dur="1s" begin="0.5s" fill="freeze"/></path>'
+      + '<line x1="322" y1="42" x2="322" y2="185" stroke="#ec4899" stroke-width="1.5" stroke-dasharray="3,3" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.5s" fill="freeze"/></line>'
+      + '<line x1="345" y1="75" x2="345" y2="185" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="3,3" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.7s" fill="freeze"/></line>'
+      + '<line x1="375" y1="130" x2="375" y2="185" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="3,3" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.9s" fill="freeze"/></line>'
+      + '<text x="322" y="200" text-anchor="middle" font-size="9" fill="#ec4899" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.5s" fill="freeze"/>Mode</text>'
+      + '<text x="345" y="200" text-anchor="middle" font-size="9" fill="#f59e0b" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.7s" fill="freeze"/>Median</text>'
+      + '<text x="375" y="200" text-anchor="middle" font-size="9" fill="#ef4444" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.9s" fill="freeze"/>Mean</text>'
+      + '<line x1="255" y1="185" x2="465" y2="185" stroke="#9ca3af" stroke-width="1"/>'
+      + '</svg>'
+      + '<div class="diagram-key"><strong>Normal curve:</strong> Mean = Median = Mode (all at centre). <strong>Positive skew:</strong> Tail goes right, Mode is lowest, Mean is highest. Remember: Mean is always PULLED toward the long tail!</div>'
+      + '</div>';
+  },
 
-  window.activateDiagrams = function () {
-    var slots = document.querySelectorAll('[data-diagram]');
-    for (var i = 0; i < slots.length; i++) {
-      var name = slots[i].getAttribute('data-diagram');
-      if (!window.DIAGRAMS[name]) continue;
-      slots[i].innerHTML = window.DIAGRAMS[name]();
-      slots[i].removeAttribute('data-diagram');
-      var box = slots[i].querySelector('.interactive-diagram') || slots[i];
-      var label = (box.querySelector('.diagram-title') || {}).textContent || name;
-      eachSvg(box, function (s) {
-        s.setAttribute('role', 'img');
-        s.setAttribute('aria-label', label.replace(/s+/g, ' ').trim());
-      });
+  correlationScatterplots: function() {
+    function dotsHtml(pts, color, delay) {
+      return pts.map(function(p, i) {
+        return '<circle cx="' + p[0] + '" cy="' + p[1] + '" r="4" fill="' + color + '" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.2s" begin="' + (delay + i * 0.08) + 's" fill="freeze"/></circle>';
+      }).join('');
     }
-  };
+    var pos = [[25,95],[35,85],[40,80],[50,72],[60,65],[70,58],[75,50],[85,43],[90,38],[100,30]];
+    var neg = [[25,30],[35,38],[40,45],[50,52],[60,60],[70,68],[75,75],[85,82],[90,87],[100,95]];
+    var zero = [[25,55],[35,40],[40,70],[55,45],[60,80],[70,38],[75,65],[85,72],[90,42],[100,60]];
+    var perf = [[25,95],[38,82],[50,70],[62,58],[75,46],[87,34],[100,22]];
+    return '<div class="interactive-diagram" style="padding:1rem;">'
+      + '<div class="diagram-title">Four Types of Correlation (Scatter Diagrams)</div>'
+      + '<svg viewBox="0 0 540 175" width="100%" style="max-width:540px;display:block;margin:0 auto;">'
+      + '<text x="67" y="12" text-anchor="middle" font-size="10" fill="#22c55e" font-weight="700">Positive (+ve)</text>'
+      + '<text x="200" y="12" text-anchor="middle" font-size="10" fill="#ef4444" font-weight="700">Negative (-ve)</text>'
+      + '<text x="333" y="12" text-anchor="middle" font-size="10" fill="#9ca3af" font-weight="700">Zero (no relation)</text>'
+      + '<text x="462" y="12" text-anchor="middle" font-size="10" fill="#6366f1" font-weight="700">Perfect (r=+1)</text>'
+      + '<rect x="15" y="18" width="105" height="110" rx="6" fill="none" stroke="#22c55e" stroke-width="1.5" stroke-dasharray="4,3"/>'
+      + '<rect x="148" y="18" width="105" height="110" rx="6" fill="none" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="4,3"/>'
+      + '<rect x="282" y="18" width="105" height="110" rx="6" fill="none" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="4,3"/>'
+      + '<rect x="415" y="18" width="105" height="110" rx="6" fill="none" stroke="#6366f1" stroke-width="1.5" stroke-dasharray="4,3"/>'
+      + '<line x1="20" y1="125" x2="118" y2="125" stroke="#9ca3af" stroke-width="1"/><line x1="20" y1="20" x2="20" y2="125" stroke="#9ca3af" stroke-width="1"/>'
+      + '<line x1="153" y1="125" x2="251" y2="125" stroke="#9ca3af" stroke-width="1"/><line x1="153" y1="20" x2="153" y2="125" stroke="#9ca3af" stroke-width="1"/>'
+      + '<line x1="287" y1="125" x2="385" y2="125" stroke="#9ca3af" stroke-width="1"/><line x1="287" y1="20" x2="287" y2="125" stroke="#9ca3af" stroke-width="1"/>'
+      + '<line x1="420" y1="125" x2="518" y2="125" stroke="#9ca3af" stroke-width="1"/><line x1="420" y1="20" x2="420" y2="125" stroke="#9ca3af" stroke-width="1"/>'
+      + dotsHtml(pos.map(function(p){return [p[0]+5,p[1]+18];}), '#22c55e', 0.3)
+      + dotsHtml(neg.map(function(p){return [p[0]+138,p[1]+18];}), '#ef4444', 0.8)
+      + dotsHtml(zero.map(function(p){return [p[0]+272,p[1]+18];}), '#9ca3af', 1.3)
+      + dotsHtml(perf.map(function(p){return [p[0]+405,p[1]+18];}), '#6366f1', 1.8)
+      + '<line x1="25" y1="131" x2="118" y2="50" stroke="#22c55e" stroke-width="2" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.2s" fill="freeze"/></line>'
+      + '<line x1="158" y1="50" x2="250" y2="131" stroke="#ef4444" stroke-width="2" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.7s" fill="freeze"/></line>'
+      + '<line x1="292" y1="75" x2="382" y2="75" stroke="#9ca3af" stroke-width="2" stroke-dasharray="5,3" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.2s" fill="freeze"/></line>'
+      + '<line x1="426" y1="136" x2="516" y2="40" stroke="#6366f1" stroke-width="2" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.7s" fill="freeze"/></line>'
+      + '<text x="67" y="150" text-anchor="middle" font-size="11" fill="#22c55e" font-weight="700" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.2s" fill="freeze"/>r = +0.9</text>'
+      + '<text x="200" y="150" text-anchor="middle" font-size="11" fill="#ef4444" font-weight="700" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.7s" fill="freeze"/>r = -0.9</text>'
+      + '<text x="334" y="150" text-anchor="middle" font-size="11" fill="#9ca3af" font-weight="700" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.2s" fill="freeze"/>r = 0</text>'
+      + '<text x="462" y="150" text-anchor="middle" font-size="11" fill="#6366f1" font-weight="700" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="2.7s" fill="freeze"/>r = +1</text>'
+      + '</svg>'
+      + '<div class="diagram-key"><strong>Positive (r=+0.9):</strong> Both variables rise together. <strong>Negative (r=-0.9):</strong> One rises, other falls. <strong>Zero (r=0):</strong> No relationship. <strong>Perfect (r=+1):</strong> All dots on one line. Dots appear first, then trend line draws.</div>'
+      + '</div>';
+  },
 
-  document.addEventListener('visibilitychange', function () {
-    if (reduceMotion) return;
-    var boxes = document.querySelectorAll('.interactive-diagram');
-    for (var i = 0; i < boxes.length; i++) {
-      var box = boxes[i];
-      if (document.hidden) {
-        box.classList.add('diagram-paused');
-        eachSvg(box, function (s) { if (s.pauseAnimations) s.pauseAnimations(); });
-      } else {
-        box.classList.remove('diagram-paused');
-        eachSvg(box, function (s) { if (s.unpauseAnimations) s.unpauseAnimations(); });
+  statisticalTestDecisionTree: function() {
+    function box(x, y, w, h, bgCol, txt, fsize, delay) {
+      return '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="6" fill="' + bgCol + '" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="' + delay + 's" fill="freeze"/></rect>'
+        + '<text x="' + (x + w/2) + '" y="' + (y + h/2 + (fsize||10)/3) + '" text-anchor="middle" font-size="' + (fsize||10) + '" fill="white" font-weight="700" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="' + delay + 's" fill="freeze"/>' + txt + '</text>';
+    }
+    function arr(x1,y1,x2,y2,delay) {
+      return '<line x1="'+x1+'" y1="'+y1+'" x2="'+x2+'" y2="'+y2+'" stroke="#9ca3af" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="'+delay+'s" fill="freeze"/></line>';
+    }
+    return '<div class="interactive-diagram" style="padding:1rem;">'
+      + '<div class="diagram-title">Statistical Test Decision Tree: Parametric vs Non-Parametric</div>'
+      + '<svg viewBox="0 0 530 220" width="100%" style="max-width:530px;display:block;margin:0 auto;">'
+      + box(175, 8, 180, 35, '#6366f1', 'DATA TYPE?', 12, 0.1)
+      + '<text x="150" y="63" text-anchor="middle" font-size="9.5" fill="#22c55e" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.6s" fill="freeze"/>Normal data</text>'
+      + '<text x="385" y="63" text-anchor="middle" font-size="9.5" fill="#f59e0b" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.6s" fill="freeze"/>Non-normal data</text>'
+      + arr(265, 43, 150, 73, 0.5) + arr(265, 43, 385, 73, 0.5)
+      + box(55, 73, 195, 35, '#22c55e', 'PARAMETRIC TESTS', 11, 0.7)
+      + box(285, 73, 195, 35, '#f59e0b', 'NON-PARAMETRIC', 11, 0.7)
+      + arr(152, 108, 70, 135, 1.0) + arr(152, 108, 152, 135, 1.0) + arr(152, 108, 235, 135, 1.0)
+      + box(20, 135, 90, 30, '#059669', 't-test', 10, 1.2)
+      + box(115, 135, 80, 30, '#059669', 'ANOVA', 10, 1.2)
+      + box(200, 135, 95, 30, '#059669', 'Pearson r', 10, 1.2)
+      + arr(382, 108, 310, 135, 1.3) + arr(382, 108, 382, 135, 1.3) + arr(382, 108, 460, 135, 1.3)
+      + box(270, 135, 100, 30, '#d97706', 'Chi-Square', 9, 1.5)
+      + box(375, 135, 85, 30, '#d97706', 'Mann-Whitney', 9, 1.5)
+      + box(465, 135, 60, 30, '#d97706', 'Spearman', 9, 1.5)
+      + '<text x="265" y="188" text-anchor="middle" font-size="9" fill="#22c55e" font-weight="700" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="1.8s" fill="freeze"/>Parametric: Normal data, interval/ratio scale, n&gt;30</text>'
+      + '<text x="265" y="205" text-anchor="middle" font-size="9" fill="#d97706" font-weight="700" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="2.0s" fill="freeze"/>Non-Parametric: Non-normal, ordinal/nominal, small sample</text>'
+      + '</svg>'
+      + '<div class="diagram-key"><strong>Parametric</strong> (green): Normal data, interval/ratio, n&gt;30. Tests: t-test, ANOVA, Pearson r. <strong>Non-parametric</strong> (orange): Non-normal, ordinal/nominal, small n. Tests: Chi-Square, Mann-Whitney, Spearman. Decision tree animates step by step.</div>'
+      + '</div>';
+  },
+
+  typeIIErrors: function() {
+    return '<div class="interactive-diagram" style="padding:1rem;">'
+      + '<div class="diagram-title">Type I Error (alpha) and Type II Error (beta) in Hypothesis Testing</div>'
+      + '<svg viewBox="0 0 460 255" width="100%" style="max-width:460px;display:block;margin:0 auto;">'
+      + '<text x="280" y="18" text-anchor="middle" font-size="12" fill="#6366f1" font-weight="700">REALITY (Truth)</text>'
+      + '<text x="210" y="38" text-anchor="middle" font-size="11" fill="#22c55e" font-weight="600">H0 is TRUE</text>'
+      + '<text x="360" y="38" text-anchor="middle" font-size="11" fill="#ef4444" font-weight="600">H0 is FALSE</text>'
+      + '<text x="35" y="160" text-anchor="middle" font-size="10" fill="#6366f1" font-weight="700" transform="rotate(-90,35,150)">OUR DECISION</text>'
+      + '<text x="72" y="100" text-anchor="middle" font-size="9.5" fill="#6366f1" font-weight="600" transform="rotate(-90,72,100)">Accept H0</text>'
+      + '<text x="72" y="195" text-anchor="middle" font-size="9.5" fill="#6366f1" font-weight="600" transform="rotate(-90,72,195)">Reject H0</text>'
+      + '<rect x="90" y="48" width="200" height="88" rx="8" fill="#22c55e" fill-opacity="0.12" stroke="#22c55e" stroke-width="2" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.2s" fill="freeze"/></rect>'
+      + '<text x="190" y="83" text-anchor="middle" font-size="13" fill="#16a34a" font-weight="800" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.2s" fill="freeze"/>CORRECT</text>'
+      + '<text x="190" y="100" text-anchor="middle" font-size="10" fill="#16a34a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.2s" fill="freeze"/>True Negative</text>'
+      + '<text x="190" y="118" text-anchor="middle" font-size="9" fill="#16a34a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.2s" fill="freeze"/>Confidence = 1-alpha</text>'
+      + '<rect x="300" y="48" width="150" height="88" rx="8" fill="#ef4444" fill-opacity="0.12" stroke="#ef4444" stroke-width="2" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze"/></rect>'
+      + '<text x="375" y="78" text-anchor="middle" font-size="12" fill="#dc2626" font-weight="800" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze"/>TYPE II Error</text>'
+      + '<text x="375" y="95" text-anchor="middle" font-size="10" fill="#dc2626" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze"/>Beta error</text>'
+      + '<text x="375" y="112" text-anchor="middle" font-size="9" fill="#dc2626" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze"/>False Negative</text>'
+      + '<text x="375" y="128" text-anchor="middle" font-size="8" fill="#dc2626" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.5s" fill="freeze"/>Miss real effect</text>'
+      + '<rect x="90" y="148" width="200" height="88" rx="8" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-width="2" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/></rect>'
+      + '<text x="190" y="183" text-anchor="middle" font-size="12" fill="#d97706" font-weight="800" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/>TYPE I Error</text>'
+      + '<text x="190" y="200" text-anchor="middle" font-size="10" fill="#d97706" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/>Alpha error</text>'
+      + '<text x="190" y="217" text-anchor="middle" font-size="9" fill="#d97706" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/>False Positive</text>'
+      + '<text x="190" y="232" text-anchor="middle" font-size="8" fill="#d97706" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.8s" fill="freeze"/>Reject true H0</text>'
+      + '<rect x="300" y="148" width="150" height="88" rx="8" fill="#22c55e" fill-opacity="0.12" stroke="#22c55e" stroke-width="2" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.1s" fill="freeze"/></rect>'
+      + '<text x="375" y="188" text-anchor="middle" font-size="13" fill="#16a34a" font-weight="800" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.1s" fill="freeze"/>CORRECT</text>'
+      + '<text x="375" y="205" text-anchor="middle" font-size="10" fill="#16a34a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.1s" fill="freeze"/>True Positive</text>'
+      + '<text x="375" y="222" text-anchor="middle" font-size="9" fill="#16a34a" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="1.1s" fill="freeze"/>Power = 1-beta</text>'
+      + '</svg>'
+      + '<div class="diagram-key"><strong>Type I Error (alpha):</strong> We reject H0 when it is truly TRUE. False positive — like convicting an innocent person. <strong>Type II Error (beta):</strong> We accept H0 when it is truly FALSE. False negative — like letting a guilty person go free. Minimise BOTH errors!</div>'
+      + '</div>';
+  },
+
+  scalesOfMeasurement: function() {
+    var steps = [
+      {label:'RATIO', ex:'Weight, BP, Age, Height', color:'#6366f1', y:10, props:'Order + Equal gaps + True zero + All arithmetic', delay:0.1},
+      {label:'INTERVAL', ex:'Temperature, IQ score', color:'#22c55e', y:65, props:'Order + Equal gaps + No true zero', delay:0.4},
+      {label:'ORDINAL', ex:'Pain scale, Likert scale', color:'#f59e0b', y:120, props:'Order/rank only, unequal gaps', delay:0.7},
+      {label:'NOMINAL', ex:'Gender, Blood group, Religion', color:'#ef4444', y:175, props:'Names/labels only, no order', delay:1.0}
+    ];
+    var svgParts = steps.map(function(s, i) {
+      var w = 320 - i * 35; var x = i * 18;
+      return '<rect x="' + x + '" y="' + s.y + '" width="' + w + '" height="42" rx="6" fill="' + s.color + '" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="' + s.delay + 's" fill="freeze"/></rect>'
+        + '<text x="' + (x + w/2) + '" y="' + (s.y + 16) + '" text-anchor="middle" font-size="12" fill="white" font-weight="800" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="' + s.delay + 's" fill="freeze"/>' + s.label + '</text>'
+        + '<text x="' + (x + w/2) + '" y="' + (s.y + 32) + '" text-anchor="middle" font-size="8" fill="rgba(255,255,255,0.9)" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="' + s.delay + 's" fill="freeze"/>' + s.ex + '</text>'
+        + '<text x="345" y="' + (s.y + 24) + '" font-size="7.5" fill="' + s.color + '" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="' + (s.delay + 0.3) + 's" fill="freeze"/>' + s.props + '</text>';
+    }).join('');
+    return '<div class="interactive-diagram" style="padding:1rem;">'
+      + '<div class="diagram-title">Scales of Measurement: Staircase from Nominal to Ratio</div>'
+      + '<svg viewBox="0 0 680 232" width="100%" style="max-width:680px;display:block;margin:0 auto;">'
+      + '<text x="170" y="8" text-anchor="middle" font-size="9" fill="#9ca3af">Scale (highest at top)</text>'
+      + '<text x="510" y="8" text-anchor="middle" font-size="9" fill="#9ca3af">Properties added at each level</text>'
+      + '<line x1="335" y1="12" x2="335" y2="230" stroke="#e5e7eb" stroke-width="1" stroke-dasharray="4,3"/>'
+      + svgParts
+      + '</svg>'
+      + '<div class="diagram-key"><strong>Memory trick - NOIR:</strong> Nominal, Ordinal, Interval, Ratio. Each higher level HAS all properties of lower levels PLUS one more. Ratio has ALL properties including true zero (0 weight = no weight). Staircase builds from top to bottom.</div>'
+      + '</div>';
+  },
+
+  hypothesisTestingFlow: function() {
+    var steps = [
+      {n:'1', t:'State Hypotheses', s:'Write H0 (null) and H1', icon:'Step 1', color:'#6366f1'},
+      {n:'2', t:'Set Alpha Level', s:'Usually alpha = 0.05', icon:'Step 2', color:'#8b5cf6'},
+      {n:'3', t:'Select Test', s:'t-test, Chi-sq, ANOVA', icon:'Step 3', color:'#22c55e'},
+      {n:'4', t:'Calculate Statistic', s:'Get t / z / chi-sq value', icon:'Step 4', color:'#f59e0b'},
+      {n:'5', t:'Compare with Critical', s:'Calc value vs Table value', icon:'Step 5', color:'#f97316'},
+      {n:'6', t:'Draw Conclusion', s:'p less than 0.05: reject H0', icon:'Step 6', color:'#ef4444'}
+    ];
+    var bw = 152; var bh = 65; var gap = 10;
+    var svg = '';
+    steps.forEach(function(s, i) {
+      var col = i % 3; var row = Math.floor(i / 3);
+      var x = col * (bw + gap) + 8; var y = row * (bh + 25) + 8;
+      var delay = 0.2 * i;
+      svg += '<rect x="' + x + '" y="' + y + '" width="' + bw + '" height="' + bh + '" rx="8" fill="' + s.color + '" fill-opacity="0.1" stroke="' + s.color + '" stroke-width="2" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="' + delay + 's" fill="freeze"/></rect>';
+      svg += '<text x="' + (x + bw/2) + '" y="' + (y + 18) + '" text-anchor="middle" font-size="9" fill="' + s.color + '" font-weight="800" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="' + delay + 's" fill="freeze"/>' + s.icon + '</text>';
+      svg += '<text x="' + (x + bw/2) + '" y="' + (y + 36) + '" text-anchor="middle" font-size="10" fill="#111827" font-weight="600" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="' + delay + 's" fill="freeze"/>' + s.t + '</text>';
+      svg += '<text x="' + (x + bw/2) + '" y="' + (y + 52) + '" text-anchor="middle" font-size="8.5" fill="#6b7280" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="' + delay + 's" fill="freeze"/>' + s.s + '</text>';
+      if (col < 2) {
+        svg += '<line x1="' + (x+bw) + '" y1="' + (y+bh/2) + '" x2="' + (x+bw+gap) + '" y2="' + (y+bh/2) + '" stroke="' + s.color + '" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="' + (delay+0.3) + 's" fill="freeze"/></line>';
       }
-    }
-  });
-})();
+    });
+    var mid = 8 + 2*(bw+gap) + bw/2;
+    svg += '<line x1="' + mid + '" y1="' + (8+bh) + '" x2="' + mid + '" y2="' + (8+bh+25) + '" stroke="#9ca3af" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.9s" fill="freeze"/></line>';
+    svg += '<line x1="' + mid + '" y1="' + (8+bh+25) + '" x2="8" y2="' + (8+bh+25) + '" stroke="#9ca3af" stroke-width="1.5" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.9s" fill="freeze"/></line>';
+    return '<div class="interactive-diagram" style="padding:1rem;">'
+      + '<div class="diagram-title">6 Steps in Hypothesis Testing (Statistical Significance)</div>'
+      + '<svg viewBox="0 0 500 178" width="100%" style="max-width:500px;display:block;margin:0 auto;">'
+      + svg
+      + '</svg>'
+      + '<div class="diagram-key"><strong>6 steps:</strong> 1) Write H0 and H1 &rarr; 2) Fix alpha (0.05) &rarr; 3) Choose test &rarr; 4) Calculate &rarr; 5) Compare with critical value &rarr; 6) Conclude. If p &lt; 0.05: reject H0 = significant. If p &gt; 0.05: fail to reject H0 = not significant. Steps animate in sequence.</div>'
+      + '</div>';
+  },
+
+
+};

@@ -4569,3 +4569,362 @@ md-text-button, md-linear-progress, md-circular-progress {
     .fc-face { transition: none; }
 }
 
+
+/* ═══════════════════════════════════════════════════════════════
+   NRS UNIT 7 — STATISTICS COMPONENTS
+   Formula Card · Math Solver · Trick Box · Formula Strip · Graphs
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ─── FORMULA CARD ─────────────────────────────────────────────── */
+.formula-card {
+    background: linear-gradient(135deg,
+        color-mix(in oklch, var(--md-sys-color-primary) 8%, var(--md-sys-color-surface)) 0%,
+        color-mix(in oklch, var(--md-sys-color-tertiary) 8%, var(--md-sys-color-surface)) 100%);
+    border: 2px solid color-mix(in oklch, var(--md-sys-color-primary) 35%, transparent);
+    border-radius: 1rem;
+    padding: 1.25rem 1.5rem;
+    margin: 1rem 0;
+    position: relative;
+    overflow: hidden;
+    animation: formulaCardIn 0.5s ease both;
+}
+@keyframes formulaCardIn {
+    from { opacity: 0; transform: translateY(12px) scale(0.97); }
+    to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+.formula-card::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, var(--md-sys-color-primary), var(--md-sys-color-tertiary), var(--md-sys-color-primary));
+    background-size: 200% 100%;
+    animation: formulaShimmer 3s linear infinite;
+}
+@keyframes formulaShimmer {
+    from { background-position: 200% 0; }
+    to   { background-position: -200% 0; }
+}
+.formula-card-label {
+    font-size: 0.68rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.12em; color: var(--md-sys-color-primary);
+    margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.4rem;
+}
+.formula-card-main {
+    font-family: var(--font-mono, 'Courier New', monospace);
+    font-size: 1.4rem; font-weight: 700;
+    color: var(--md-sys-color-on-surface);
+    text-align: center;
+    padding: 0.6rem 0;
+    letter-spacing: 0.04em;
+    line-height: 1.6;
+}
+.formula-card-main .fml-sym {
+    display: inline-block;
+    background: color-mix(in oklch, var(--md-sys-color-primary) 15%, transparent);
+    border-radius: 0.3rem; padding: 0.05rem 0.35rem;
+    color: var(--md-sys-color-primary); font-weight: 900;
+}
+.formula-card-main .fml-val {
+    color: var(--md-sys-color-tertiary); font-weight: 700;
+}
+.formula-card-legend {
+    display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem;
+    margin-top: 0.75rem; padding-top: 0.65rem;
+    border-top: 1px dashed color-mix(in oklch, var(--md-sys-color-outline) 40%, transparent);
+    font-size: 0.75rem; color: var(--md-sys-color-on-surface-variant);
+}
+.formula-card-legend span { white-space: nowrap; }
+.formula-card-legend strong { color: var(--md-sys-color-primary); }
+
+/* ─── FORMULA STRIP ────────────────────────────────────────────── */
+.formula-strip {
+    display: flex; flex-wrap: wrap; gap: 0.5rem;
+    margin: 0.75rem 0;
+}
+.formula-pill {
+    display: inline-flex; align-items: center; gap: 0.35rem;
+    background: color-mix(in oklch, var(--md-sys-color-secondary-container) 60%, transparent);
+    border: 1px solid color-mix(in oklch, var(--md-sys-color-secondary) 30%, transparent);
+    border-radius: 2rem; padding: 0.3rem 0.75rem;
+    font-family: var(--font-mono, monospace); font-size: 0.78rem;
+    color: var(--md-sys-color-on-secondary-container); font-weight: 600;
+    animation: pillPop 0.3s ease both;
+}
+@keyframes pillPop {
+    from { opacity: 0; transform: scale(0.85); }
+    to   { opacity: 1; transform: scale(1); }
+}
+.formula-pill:nth-child(2) { animation-delay: 0.05s; }
+.formula-pill:nth-child(3) { animation-delay: 0.10s; }
+.formula-pill:nth-child(4) { animation-delay: 0.15s; }
+
+/* ─── MATH SOLVER BOARD ─────────────────────────────────────────── */
+.math-solver {
+    background: color-mix(in oklch, var(--md-sys-color-surface-container) 80%, var(--md-sys-color-surface));
+    border: 2px solid color-mix(in oklch, var(--md-sys-color-outline) 30%, transparent);
+    border-radius: 1rem;
+    padding: 1.25rem;
+    margin: 1rem 0;
+    overflow: hidden;
+}
+.math-solver-title {
+    font-size: 0.8rem; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--md-sys-color-primary);
+    margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;
+}
+.math-given {
+    background: color-mix(in oklch, var(--md-sys-color-primary) 6%, var(--md-sys-color-surface));
+    border-left: 4px solid var(--md-sys-color-primary);
+    border-radius: 0 0.5rem 0.5rem 0;
+    padding: 0.7rem 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.82rem; line-height: 1.7;
+    color: var(--md-sys-color-on-surface);
+}
+.math-given strong { color: var(--md-sys-color-primary); }
+.math-given .given-nums {
+    font-family: var(--font-mono, monospace); font-size: 0.88rem;
+    background: color-mix(in oklch, var(--md-sys-color-primary) 12%, transparent);
+    border-radius: 0.35rem; padding: 0.25rem 0.5rem; display: inline-block;
+    margin-top: 0.25rem; color: var(--md-sys-color-primary); font-weight: 700;
+}
+.math-step {
+    display: flex; gap: 0.75rem; align-items: flex-start;
+    padding: 0.75rem;
+    border-radius: 0.6rem;
+    margin-bottom: 0.5rem;
+    background: var(--md-sys-color-surface);
+    border: 1px solid color-mix(in oklch, var(--md-sys-color-outline) 20%, transparent);
+    animation: mathStepIn 0.35s ease both;
+    opacity: 0;
+}
+.math-step:nth-child(1) { animation-delay: 0.1s; }
+.math-step:nth-child(2) { animation-delay: 0.22s; }
+.math-step:nth-child(3) { animation-delay: 0.34s; }
+.math-step:nth-child(4) { animation-delay: 0.46s; }
+.math-step:nth-child(5) { animation-delay: 0.58s; }
+.math-step:nth-child(6) { animation-delay: 0.70s; }
+.math-step:nth-child(7) { animation-delay: 0.82s; }
+@keyframes mathStepIn {
+    from { opacity: 0; transform: translateX(-10px); }
+    to   { opacity: 1; transform: translateX(0); }
+}
+.math-step-num {
+    min-width: 1.7rem; height: 1.7rem;
+    background: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+    border-radius: 50%; display: flex; align-items: center; justify-content: center;
+    font-size: 0.7rem; font-weight: 800; flex-shrink: 0;
+}
+.math-step-body { flex: 1; font-size: 0.82rem; color: var(--md-sys-color-on-surface); line-height: 1.6; }
+.math-step-body strong { color: var(--md-sys-color-primary); }
+.math-step-body .calc {
+    font-family: var(--font-mono, monospace);
+    background: color-mix(in oklch, var(--md-sys-color-surface-container-high) 80%, transparent);
+    border-radius: 0.35rem; padding: 0.3rem 0.6rem;
+    display: block; margin-top: 0.3rem; font-size: 0.85rem;
+    color: var(--md-sys-color-on-surface);
+    border: 1px solid color-mix(in oklch, var(--md-sys-color-outline) 25%, transparent);
+}
+.math-step-body .num-blue { color: #3b82f6; font-weight: 700; }
+.math-step-body .num-green { color: #22c55e; font-weight: 700; }
+.math-step-body .num-gold { color: #f59e0b; font-weight: 700; }
+
+/* Math table inside solver */
+.math-table-wrap { overflow-x: auto; margin: 0.5rem 0; border-radius: 0.5rem; }
+.math-table {
+    width: 100%; border-collapse: collapse;
+    font-size: 0.78rem; font-family: var(--font-mono, monospace);
+}
+.math-table th {
+    background: color-mix(in oklch, var(--md-sys-color-primary) 15%, var(--md-sys-color-surface));
+    color: var(--md-sys-color-primary); font-weight: 700;
+    padding: 0.4rem 0.6rem; border: 1px solid color-mix(in oklch, var(--md-sys-color-outline) 30%, transparent);
+    text-align: center;
+}
+.math-table td {
+    padding: 0.35rem 0.6rem;
+    border: 1px solid color-mix(in oklch, var(--md-sys-color-outline) 20%, transparent);
+    text-align: center; color: var(--md-sys-color-on-surface);
+}
+.math-table tr:nth-child(even) td {
+    background: color-mix(in oklch, var(--md-sys-color-surface-container) 50%, transparent);
+}
+.math-table .total-row td { font-weight: 800; color: var(--md-sys-color-primary);
+    border-top: 2px solid var(--md-sys-color-primary); }
+
+.math-answer {
+    display: flex; align-items: center; gap: 0.75rem;
+    background: linear-gradient(135deg,
+        color-mix(in oklch, #22c55e 12%, var(--md-sys-color-surface)),
+        color-mix(in oklch, #10b981 8%, var(--md-sys-color-surface)));
+    border: 2px solid #22c55e;
+    border-radius: 0.75rem; padding: 0.9rem 1.1rem;
+    margin-top: 0.75rem;
+    animation: answerGlow 0.6s 1s ease both, pulseGlow 2s 1.6s ease-in-out infinite;
+    opacity: 0;
+}
+@keyframes answerGlow {
+    from { opacity: 0; transform: scale(0.95); }
+    to   { opacity: 1; transform: scale(1); }
+}
+@keyframes pulseGlow {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+    50% { box-shadow: 0 0 12px 3px rgba(34, 197, 94, 0.25); }
+}
+.math-answer-icon { font-size: 1.4rem; flex-shrink: 0; }
+.math-answer-text { font-size: 0.88rem; font-weight: 700; color: var(--md-sys-color-on-surface); }
+.math-answer-text span { font-family: var(--font-mono, monospace); font-size: 1rem; color: #16a34a; }
+
+/* ─── TRICK BOX ─────────────────────────────────────────────────── */
+.trick-box {
+    display: flex; gap: 0.75rem; align-items: flex-start;
+    background: linear-gradient(135deg,
+        color-mix(in oklch, #f59e0b 10%, var(--md-sys-color-surface)),
+        color-mix(in oklch, #f97316 7%, var(--md-sys-color-surface)));
+    border: 2px solid color-mix(in oklch, #f59e0b 50%, transparent);
+    border-radius: 0.75rem; padding: 0.85rem 1rem;
+    margin: 0.75rem 0;
+    animation: trickPop 0.4s 0.8s ease both; opacity: 0;
+}
+@keyframes trickPop {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+.trick-box-icon { font-size: 1.3rem; flex-shrink: 0; line-height: 1; }
+.trick-box-body { font-size: 0.8rem; line-height: 1.6; color: var(--md-sys-color-on-surface); }
+.trick-box-body strong { color: #d97706; font-size: 0.82rem; display: block; margin-bottom: 0.2rem; }
+
+/* ─── GRAPH DISPLAY — Bar Chart ──────────────────────────────────── */
+.graph-display {
+    background: var(--md-sys-color-surface-container);
+    border: 1px solid color-mix(in oklch, var(--md-sys-color-outline) 30%, transparent);
+    border-radius: 1rem; padding: 1.25rem;
+    margin: 1rem 0; overflow: hidden;
+}
+.graph-title {
+    font-size: 0.78rem; font-weight: 700; text-align: center;
+    color: var(--md-sys-color-on-surface); margin-bottom: 1rem;
+    text-transform: uppercase; letter-spacing: 0.06em;
+}
+/* Bar chart */
+.bar-graph { display: flex; align-items: flex-end; gap: 0.5rem; height: 180px; padding: 0 0.5rem; }
+.bar-group { display: flex; flex-direction: column; align-items: center; flex: 1; gap: 0.3rem; height: 100%; justify-content: flex-end; }
+.bar-col {
+    width: 100%; border-radius: 0.4rem 0.4rem 0 0;
+    background: var(--md-sys-color-primary);
+    transform-origin: bottom;
+    animation: barRise 0.7s ease both;
+    min-height: 4px;
+}
+.bar-col:nth-child(1) { animation-delay: 0.1s; }
+.bar-col:nth-child(2) { animation-delay: 0.2s; }
+.bar-col:nth-child(3) { animation-delay: 0.3s; }
+.bar-col:nth-child(4) { animation-delay: 0.4s; }
+.bar-col:nth-child(5) { animation-delay: 0.5s; }
+.bar-col:nth-child(6) { animation-delay: 0.6s; }
+.bar-col:nth-child(7) { animation-delay: 0.7s; }
+@keyframes barRise {
+    from { transform: scaleY(0); opacity: 0; }
+    to   { transform: scaleY(1); opacity: 1; }
+}
+.bar-val { font-size: 0.62rem; font-weight: 700; color: var(--md-sys-color-primary); }
+.bar-lbl { font-size: 0.6rem; color: var(--md-sys-color-on-surface-variant); text-align: center; max-width: 3rem; word-break: break-word; line-height: 1.2; }
+.bar-axis-x { display: flex; gap: 0.5rem; padding: 0 0.5rem; }
+
+/* Colour variants for multi-colour bars */
+.bar-col.c1 { background: #3b82f6; }
+.bar-col.c2 { background: #8b5cf6; }
+.bar-col.c3 { background: #22c55e; }
+.bar-col.c4 { background: #f59e0b; }
+.bar-col.c5 { background: #ef4444; }
+.bar-col.c6 { background: #06b6d4; }
+.bar-col.c7 { background: #ec4899; }
+
+/* Histogram = bar chart without gaps */
+.histogram .bar-graph { gap: 0; }
+.histogram .bar-col { border-radius: 0; border-right: 1px solid var(--md-sys-color-surface); }
+
+/* ─── PIE CHART (via conic-gradient) ────────────────────────────── */
+.pie-chart-wrap { display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; margin-top: 0.75rem; }
+.pie-chart {
+    width: 140px; height: 140px; border-radius: 50%;
+    flex-shrink: 0;
+    animation: pieIn 0.8s ease both;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+@keyframes pieIn {
+    from { transform: scale(0) rotate(-90deg); opacity: 0; }
+    to   { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+.pie-legend { display: flex; flex-direction: column; gap: 0.4rem; }
+.pie-legend-item { display: flex; align-items: center; gap: 0.5rem; font-size: 0.75rem; color: var(--md-sys-color-on-surface); }
+.pie-swatch { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; }
+.pie-angle-calc {
+    background: color-mix(in oklch, var(--md-sys-color-surface-container-high) 80%, transparent);
+    border-radius: 0.5rem; padding: 0.6rem 0.8rem;
+    margin-top: 0.75rem;
+    font-size: 0.75rem; color: var(--md-sys-color-on-surface); line-height: 1.8;
+    font-family: var(--font-mono, monospace);
+}
+.pie-angle-calc strong { color: var(--md-sys-color-primary); }
+
+/* ─── FREQUENCY POLYGON (SVG) ───────────────────────────────────── */
+.freq-polygon-wrap { margin: 0.75rem 0; overflow-x: auto; }
+.freq-polygon-wrap svg { display: block; max-width: 100%; }
+.fp-line {
+    fill: none;
+    stroke: var(--md-sys-color-primary);
+    stroke-width: 2.5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: drawLine 1.5s 0.3s ease forwards;
+}
+.fp-area {
+    animation: areaFade 1.5s 0.3s ease forwards;
+    opacity: 0;
+}
+@keyframes drawLine {
+    to { stroke-dashoffset: 0; }
+}
+@keyframes areaFade {
+    to { opacity: 0.15; }
+}
+.fp-dot {
+    fill: var(--md-sys-color-primary);
+    opacity: 0;
+    animation: dotPop 0.3s ease forwards;
+}
+.fp-dot:nth-child(1) { animation-delay: 0.4s; }
+.fp-dot:nth-child(2) { animation-delay: 0.55s; }
+.fp-dot:nth-child(3) { animation-delay: 0.7s; }
+.fp-dot:nth-child(4) { animation-delay: 0.85s; }
+.fp-dot:nth-child(5) { animation-delay: 1.0s; }
+.fp-dot:nth-child(6) { animation-delay: 1.15s; }
+.fp-dot:nth-child(7) { animation-delay: 1.3s; }
+@keyframes dotPop {
+    from { opacity: 0; r: 0; }
+    to   { opacity: 1; r: 4; }
+}
+
+/* ─── DARK MODE OVERRIDES ────────────────────────────────────────── */
+.dark .math-step-body .num-blue  { color: #60a5fa; }
+.dark .math-step-body .num-green { color: #4ade80; }
+.dark .math-step-body .num-gold  { color: #fbbf24; }
+.dark .trick-box-body strong     { color: #fbbf24; }
+.dark .math-answer-text span     { color: #4ade80; }
+
+/* ─── REDUCED MOTION ────────────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+    .formula-card, .formula-pill, .math-step, .math-answer,
+    .trick-box, .bar-col, .pie-chart, .fp-line, .fp-area, .fp-dot {
+        animation: none !important; opacity: 1 !important;
+    }
+    .fp-line { stroke-dashoffset: 0 !important; }
+}
+@media (max-width: 640px) {
+    .formula-card-main { font-size: 1.1rem; }
+    .bar-graph { height: 140px; }
+    .pie-chart { width: 110px; height: 110px; }
+}
