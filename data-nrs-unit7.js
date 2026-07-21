@@ -812,7 +812,57 @@ window.QUESTIONS_DATA_NRS_UNIT7 = [
     <div class="cfc-step"><div class="cfc-num">4</div><div class="cfc-text"><strong>Sum all squared deviations:</strong> &#x2211;(x - x&#x0305;)&sup2;</div></div>
     <div class="cfc-step"><div class="cfc-num">5</div><div class="cfc-text"><strong>Divide by N:</strong> This gives Variance = &#x2211;(x - x&#x0305;)&sup2; &divide; N</div></div>
     <div class="cfc-step"><div class="cfc-num">6</div><div class="cfc-text"><strong>Take square root:</strong> &radic;Variance = <strong>Standard Deviation!</strong></div></div>
+</div>
+
+<div class="math-solver">
+  <div class="math-solver-title">&#x1F9EE; WORKED EXAMPLE: Calculate SD for 5, 8, 6, 7, 4</div>
+  <div class="math-given">
+    <strong>Given data:</strong>
+    <div class="given-nums">5, 8, 6, 7, 4</div>
+    <strong>N = 5</strong>
   </div>
+  <div class="formula-strip">
+    <div class="formula-pill">&#x1F4D0; SD = &radic;[&sum;(x&minus;x&#x0305;)&sup2; &divide; N]</div>
+  </div>
+  <div class="math-step">
+    <div class="math-step-num">1</div>
+    <div class="math-step-body"><strong>Find the Mean</strong><span class="calc">x&#x0305; = (<span class="num-blue">5+8+6+7+4</span>) &divide; <span class="num-blue">5</span> = <span class="num-green">30</span> &divide; 5 = <span class="num-gold">6</span></span></div>
+  </div>
+  <div class="math-step">
+    <div class="math-step-num">2</div>
+    <div class="math-step-body"><strong>Find deviations &amp; square them:</strong>
+      <div class="math-table-wrap"><table class="math-table">
+        <thead><tr><th>x</th><th>(x &minus; 6)</th><th>(x &minus; 6)&sup2;</th></tr></thead>
+        <tbody>
+          <tr><td>5</td><td>&minus;1</td><td>1</td></tr>
+          <tr><td>8</td><td>+2</td><td>4</td></tr>
+          <tr><td>6</td><td>0</td><td>0</td></tr>
+          <tr><td>7</td><td>+1</td><td>1</td></tr>
+          <tr><td>4</td><td>&minus;2</td><td>4</td></tr>
+          <tr class="total-row"><td>Total</td><td></td><td><strong>10</strong></td></tr>
+        </tbody>
+      </table></div>
+    </div>
+  </div>
+  <div class="math-step">
+    <div class="math-step-num">3</div>
+    <div class="math-step-body"><strong>Divide by N</strong><span class="calc">Variance = <span class="num-green">10</span> &divide; <span class="num-blue">5</span> = <span class="num-gold">2</span></span></div>
+  </div>
+  <div class="math-step">
+    <div class="math-step-num">4</div>
+    <div class="math-step-body"><strong>Take square root</strong><span class="calc">SD = &radic;<span class="num-gold">2</span> = <span class="num-gold">1.41</span></span></div>
+  </div>
+  <div class="math-answer">
+    <div class="math-answer-icon">&#x2705;</div>
+    <div class="math-answer-text">Standard Deviation = <span>1.41</span></div>
+  </div>
+</div>
+
+<div class="trick-box">
+  <div class="trick-box-icon">&#x1F4A1;</div>
+  <div class="trick-box-body"><strong>EXAM TRICK &mdash; SD in 4 Easy Steps:</strong><br>
+  <strong>1.</strong> Mean &rarr; <strong>2.</strong> Deviations (make table!) &rarr; <strong>3.</strong> Variance (sum of squares &divide; N) &rarr; <strong>4.</strong> Square root = SD!<br>
+  Always make a TABLE in the exam &mdash; you get marks for showing each step!</div>
 </div>
 
 <div class="answer-section animate-slide-up">
@@ -1416,6 +1466,46 @@ Histogram: NO gaps. Continuous grouped data. Bars CANNOT be rearranged.</div>
   </div>
 </div>
 
+<div class="math-solver">
+  <div class="math-solver-title">&#x1F9EE; WORKED EXAMPLE: Calculate Pie Chart Angles for Blood Groups</div>
+  <div class="math-given">
+    <strong>Given:</strong> 100 persons total
+    <div class="given-nums">Group A = 30, Group B = 25, Group O = 35, Group AB = 10</div>
+  </div>
+  <div class="formula-strip">
+    <div class="formula-pill">&#x1F4D0; Angle = (Value &divide; Total) &times; 360&deg;</div>
+  </div>
+  <div class="math-step">
+    <div class="math-step-num">1</div>
+    <div class="math-step-body"><strong>Group A:</strong><span class="calc">(<span class="num-blue">30</span> &divide; <span class="num-blue">100</span>) &times; 360 = 0.30 &times; 360 = <span class="num-gold">108&deg;</span></span></div>
+  </div>
+  <div class="math-step">
+    <div class="math-step-num">2</div>
+    <div class="math-step-body"><strong>Group B:</strong><span class="calc">(<span class="num-blue">25</span> &divide; <span class="num-blue">100</span>) &times; 360 = 0.25 &times; 360 = <span class="num-gold">90&deg;</span></span></div>
+  </div>
+  <div class="math-step">
+    <div class="math-step-num">3</div>
+    <div class="math-step-body"><strong>Group O:</strong><span class="calc">(<span class="num-blue">35</span> &divide; <span class="num-blue">100</span>) &times; 360 = 0.35 &times; 360 = <span class="num-gold">126&deg;</span></span></div>
+  </div>
+  <div class="math-step">
+    <div class="math-step-num">4</div>
+    <div class="math-step-body"><strong>Group AB:</strong><span class="calc">(<span class="num-blue">10</span> &divide; <span class="num-blue">100</span>) &times; 360 = 0.10 &times; 360 = <span class="num-gold">36&deg;</span></span></div>
+  </div>
+  <div class="math-step">
+    <div class="math-step-num">5</div>
+    <div class="math-step-body"><strong>Verify total:</strong><span class="calc"><span class="num-green">108 + 90 + 126 + 36</span> = <span class="num-gold">360&deg;</span> &#x2705;</span></div>
+  </div>
+  <div class="math-answer">
+    <div class="math-answer-icon">&#x2705;</div>
+    <div class="math-answer-text">All angles = <span>360&deg;</span> &mdash; Verified!</div>
+  </div>
+</div>
+
+<div class="trick-box">
+  <div class="trick-box-icon">&#x1F4A1;</div>
+  <div class="trick-box-body"><strong>EXAM TRICK:</strong> Always show: (1) formula, (2) each group's calculation separately, (3) verify total = 360&deg;. This verification step gets you extra marks!</div>
+</div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title teal-title">Steps for Preparing a Pie Diagram</h3>
   <div class="cascade-flowchart">
@@ -1821,23 +1911,63 @@ Histogram: NO gaps. Continuous grouped data. Bars CANNOT be rearranged.</div>
   </table></div>
 </div>
 
-<div class="answer-section animate-slide-up">
-  <h3 class="answer-section-title accent-title">Nursing Example: Paired t-test</h3>
+<div class="math-solver">
+  <div class="math-solver-title">&#x1F9EE; WORKED EXAMPLE: Paired t-test &mdash; Does relaxation reduce BP?</div>
   <div class="math-given">
-    <strong>Research question:</strong> Does relaxation intervention reduce BP?
-    <div class="math-table-wrap"><table class="math-table">
-      <thead><tr><th>Patient</th><th>Before (x1)</th><th>After (x2)</th><th>Difference (d)</th></tr></thead>
-      <tbody>
-        <tr><td>1</td><td>140</td><td>130</td><td>10</td></tr>
-        <tr><td>2</td><td>150</td><td>138</td><td>12</td></tr>
-        <tr><td>3</td><td>145</td><td>135</td><td>10</td></tr>
-        <tr><td>4</td><td>155</td><td>140</td><td>15</td></tr>
-        <tr><td>5</td><td>148</td><td>137</td><td>11</td></tr>
-        <tr class="total-row"><td>Mean</td><td>147.6</td><td>136</td><td>d&#x0305; = 11.6</td></tr>
-      </tbody>
-    </table></div>
-    <p>Mean difference = 11.6 mmHg. If t-calculated &gt; t-critical, the reduction is <strong>statistically significant</strong>.</p>
+    <strong>Research question:</strong> Does relaxation intervention reduce BP?<br>
+    <strong>H0:</strong> No difference in BP before and after relaxation<br>
+    <strong>H1:</strong> BP decreases after relaxation
   </div>
+  <div class="formula-strip">
+    <div class="formula-pill">&#x1F4D0; t = d&#x0305; &divide; (SD<sub>d</sub> &divide; &radic;n)</div>
+  </div>
+  <div class="math-step">
+    <div class="math-step-num">1</div>
+    <div class="math-step-body"><strong>Collect data &amp; find differences (d):</strong>
+      <div class="math-table-wrap"><table class="math-table">
+        <thead><tr><th>Patient</th><th>Before</th><th>After</th><th>d = Before &minus; After</th><th>d&sup2;</th></tr></thead>
+        <tbody>
+          <tr><td>1</td><td>140</td><td>130</td><td><span class="num-blue">10</span></td><td>100</td></tr>
+          <tr><td>2</td><td>150</td><td>138</td><td><span class="num-blue">12</span></td><td>144</td></tr>
+          <tr><td>3</td><td>145</td><td>135</td><td><span class="num-blue">10</span></td><td>100</td></tr>
+          <tr><td>4</td><td>155</td><td>140</td><td><span class="num-blue">15</span></td><td>225</td></tr>
+          <tr><td>5</td><td>148</td><td>137</td><td><span class="num-blue">11</span></td><td>121</td></tr>
+          <tr class="total-row"><td><strong>Sum</strong></td><td></td><td></td><td><span class="num-green">58</span></td><td><span class="num-green">690</span></td></tr>
+        </tbody>
+      </table></div>
+    </div>
+  </div>
+  <div class="math-step">
+    <div class="math-step-num">2</div>
+    <div class="math-step-body"><strong>Mean difference (d&#x0305;):</strong><span class="calc">d&#x0305; = <span class="num-green">58</span> &divide; <span class="num-blue">5</span> = <span class="num-gold">11.6 mmHg</span></span></div>
+  </div>
+  <div class="math-step">
+    <div class="math-step-num">3</div>
+    <div class="math-step-body"><strong>SD of differences:</strong><span class="calc">SD<sub>d</sub> = &radic;[(&sum;d&sup2; &minus; (&sum;d)&sup2;/n) &divide; (n&minus;1)]<br>= &radic;[(<span class="num-green">690</span> &minus; <span class="num-blue">58</span>&sup2;/<span class="num-blue">5</span>) &divide; 4]<br>= &radic;[(690 &minus; 672.8) &divide; 4]<br>= &radic;[17.2 &divide; 4] = &radic;4.3 = <span class="num-gold">2.07</span></span></div>
+  </div>
+  <div class="math-step">
+    <div class="math-step-num">4</div>
+    <div class="math-step-body"><strong>Calculate t:</strong><span class="calc">t = d&#x0305; &divide; (SD<sub>d</sub> &divide; &radic;n)<br>= <span class="num-gold">11.6</span> &divide; (<span class="num-gold">2.07</span> &divide; &radic;<span class="num-blue">5</span>)<br>= 11.6 &divide; (2.07 &divide; 2.236)<br>= 11.6 &divide; 0.926 = <span class="num-gold">12.53</span></span></div>
+  </div>
+  <div class="math-step">
+    <div class="math-step-num">5</div>
+    <div class="math-step-body"><strong>Find df &amp; compare:</strong><span class="calc">df = n &minus; 1 = 5 &minus; 1 = <span class="num-blue">4</span><br>t-table at df=4, &alpha;=0.05 = 2.776<br>t-calculated (<span class="num-gold">12.53</span>) &gt; t-table (2.776)</span></div>
+  </div>
+  <div class="math-step">
+    <div class="math-step-num">6</div>
+    <div class="math-step-body"><strong>Decision:</strong><span class="calc"><span class="num-gold">Reject H0!</span> The relaxation intervention <strong>significantly reduced BP</strong> (p &lt; 0.05)</span></div>
+  </div>
+  <div class="math-answer">
+    <div class="math-answer-icon">&#x2705;</div>
+    <div class="math-answer-text">t = <span>12.53</span> &gt; 2.776 &mdash; Relaxation significantly reduces BP! (p &lt; 0.05)</div>
+  </div>
+</div>
+
+<div class="trick-box">
+  <div class="trick-box-icon">&#x1F4A1;</div>
+  <div class="trick-box-body"><strong>EXAM TRICK &mdash; Paired t-test in 6 steps:</strong><br>
+  <strong>1.</strong> Make table with d = Before &minus; After &rarr; <strong>2.</strong> Mean d&#x0305; &rarr; <strong>3.</strong> SD of d &rarr; <strong>4.</strong> t = d&#x0305; &divide; SE &rarr; <strong>5.</strong> df = n&minus;1 &rarr; <strong>6.</strong> Compare with t-table!<br>
+  If t-calculated > t-table &rarr; <strong>Reject H0 = Significant!</strong></div>
 </div>
 
 <div class="answer-section animate-slide-up">
