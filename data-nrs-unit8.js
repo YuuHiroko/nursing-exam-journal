@@ -6,6 +6,7 @@ window.QUESTIONS_DATA_NRS_UNIT8 = [
 
 {
   id: 1,
+  stars: 3,
   question: "Describe about research report writing / Enumerate steps of writing the research report.",
   marks: 5,
   repeated: 2,
@@ -86,6 +87,7 @@ window.QUESTIONS_DATA_NRS_UNIT8 = [
 
 {
   id: 2,
+  stars: 3,
   question: "Describe steps of dissemination of research findings / Describe the methods of communication of research findings / Enumerate the methods of communication of research findings.",
   marks: 5,
   repeated: 3,
@@ -154,6 +156,7 @@ window.QUESTIONS_DATA_NRS_UNIT8 = [
 
 {
   id: 3,
+  stars: 1,
   question: "Describe ethics in nursing research including publication ethics.",
   marks: 7,
   repeated: 1,
@@ -242,6 +245,7 @@ Plagiarism = copying OTHERS' work. Fabrication = making up NEW fake data. Falsif
 
 {
   id: 4,
+  stars: 2,
   question: "Explain the writing styles used in thesis writing.",
   marks: 5,
   repeated: 1,
@@ -314,6 +318,7 @@ Plagiarism = copying OTHERS' work. Fabrication = making up NEW fake data. Falsif
 
 {
   id: 5,
+  stars: 2,
   question: "Discuss how the published research is reviewed critically / Critical review of published research.",
   marks: 5,
   repeated: 1,
@@ -385,6 +390,7 @@ Plagiarism = copying OTHERS' work. Fabrication = making up NEW fake data. Falsif
 
 {
   id: 6,
+  stars: 3,
   question: "Explain utilization of research findings in nursing practice.",
   marks: 5,
   repeated: 1,
@@ -456,6 +462,7 @@ Plagiarism = copying OTHERS' work. Fabrication = making up NEW fake data. Falsif
 
 {
   id: 7,
+  stars: 2,
   question: "Explain about writing a scientific article/paper for journal publication.",
   marks: 5,
   repeated: 1,
@@ -522,6 +529,7 @@ Plagiarism = copying OTHERS' work. Fabrication = making up NEW fake data. Falsif
 
 {
   id: 8,
+  stars: 2,
   question: "Explain about conducting a group research project in nursing.",
   marks: 5,
   repeated: 1,

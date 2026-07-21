@@ -2,6 +2,7 @@ window.QUESTIONS_DATA_NRS_UNIT6 = [
 
 {
   id: 1,
+  stars: 2,
   question: "State the principles of tabulation.",
   marks: 5,
   repeated: 2,
@@ -100,6 +101,7 @@ window.QUESTIONS_DATA_NRS_UNIT6 = [
 
 {
   id: 2,
+  stars: 3,
   question: "Discuss the steps in analysis of Data.",
   marks: 5,
   repeated: 1,
@@ -210,6 +212,7 @@ window.QUESTIONS_DATA_NRS_UNIT6 = [
 
 {
   id: 3,
+  stars: 2,
   question: "Write features of Tabulation with example.",
   marks: 5,
   repeated: 1,
@@ -327,6 +330,7 @@ window.QUESTIONS_DATA_NRS_UNIT6 = [
 
 {
   id: 4,
+  stars: 2,
   question: "Discuss different methods of data presentation.",
   marks: 6,
   repeated: 1,
@@ -492,6 +496,7 @@ window.QUESTIONS_DATA_NRS_UNIT6 = [
 
 {
   id: 5,
+  stars: 2,
   question: "Illustrate tabulation with the help of a frequency distribution table.",
   marks: 5,
   repeated: 1,
@@ -613,6 +618,7 @@ window.QUESTIONS_DATA_NRS_UNIT6 = [
 
 {
   id: 6,
+  stars: 2,
   question: "Discuss General principles of tabulation.",
   marks: 5,
   repeated: 1,
@@ -715,6 +721,7 @@ window.QUESTIONS_DATA_NRS_UNIT6 = [
 
 {
   id: 7,
+  stars: 2,
   question: "Discuss the compilation, presentation and interpretation of data.",
   marks: 10,
   repeated: 1,

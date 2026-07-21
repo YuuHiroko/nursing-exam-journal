@@ -2,6 +2,7 @@ window.QUESTIONS_DATA_NRS_UNIT4 = [
 
 {
   id: 1,
+  stars: 3,
   question: "Enlist the criteria for selecting a research design?",
   marks: 10,
   repeated: 1,
@@ -140,6 +141,7 @@ window.QUESTIONS_DATA_NRS_UNIT4 = [
 
 {
   id: 2,
+  stars: 3,
   question: "Discuss the nonexperimental research design?",
   marks: 10,
   repeated: 1,
@@ -304,6 +306,7 @@ window.QUESTIONS_DATA_NRS_UNIT4 = [
 
 {
   id: 3,
+  stars: 3,
   question: "Discuss factors affecting on selection of research design",
   marks: 5,
   repeated: 1,
@@ -448,6 +451,7 @@ window.QUESTIONS_DATA_NRS_UNIT4 = [
 
 {
   id: 4,
+  stars: 2,
   question: "Discuss about experimental research method",
   marks: 5,
   repeated: 1,
@@ -644,6 +648,7 @@ window.QUESTIONS_DATA_NRS_UNIT4 = [
 
 {
   id: 5,
+  stars: 2,
   question: "Explain the role of survey approach in nursing research.",
   marks: 5,
   repeated: 1,
@@ -787,6 +792,7 @@ window.QUESTIONS_DATA_NRS_UNIT4 = [
 
 {
   id: 6,
+  stars: 2,
   question: "Explain historical approach in detail.",
   marks: 5,
   repeated: 1,
@@ -918,6 +924,7 @@ window.QUESTIONS_DATA_NRS_UNIT4 = [
 
 {
   id: 7,
+  stars: 3,
   question: "What are the differences between Qualitative and Quantitative research?",
   marks: 5,
   repeated: 1,
@@ -1046,6 +1053,7 @@ window.QUESTIONS_DATA_NRS_UNIT4 = [
 
 {
   id: 8,
+  stars: 2,
   question: "Explain the steps of case control studies.",
   marks: 5,
   repeated: 1,
@@ -1174,6 +1182,7 @@ window.QUESTIONS_DATA_NRS_UNIT4 = [
 
 {
   id: 9,
+  stars: 3,
   question: "Define qualitative research. Write the features of Qualitative Research Design. Explain the role of survey approach in nursing research.",
   marks: 15,
   repeated: 1,
@@ -1354,6 +1363,7 @@ Part C (3-5M) — Role of survey approach in nursing research</div>
 
 {
   id: 10,
+  stars: 2,
   question: "Enlist the types of qualitative research designs",
   marks: 2,
   repeated: 1,
@@ -1459,6 +1469,7 @@ Part C (3-5M) — Role of survey approach in nursing research</div>
 
 {
   id: 11,
+  stars: 3,
   question: "Enlist difference between quantitative and qualitative research.",
   marks: 5,
   repeated: 1,
@@ -1554,6 +1565,7 @@ This is a 5-mark comparison question — a table with 8-10 differences is the BE
 
 {
   id: 12,
+  stars: 2,
   question: "Explain types of quasi experimental research with example.",
   marks: 5,
   repeated: 1,
@@ -1682,6 +1694,7 @@ This is a 5-mark comparison question — a table with 8-10 differences is the BE
 
 {
   id: 13,
+  stars: 2,
   question: "Describe the characteristic of true experimental design and quasi experimental design. write about meta analysis.",
   marks: 15,
   repeated: 1,

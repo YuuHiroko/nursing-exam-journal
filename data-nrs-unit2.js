@@ -2,6 +2,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 
 {
   id: 1,
+  stars: 3,
   question: "What is the importance of writing the Aim and objectives of a research study?",
   marks: 5,
   repeated: 1,
@@ -145,6 +146,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 }
 ,{
   id: 2,
+  stars: 3,
   question: "Discuss the elements of research problem.",
   marks: 5,
   repeated: 1,
@@ -302,6 +304,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 }
 ,{
   id: 3,
+  stars: 3,
   question: "Describe in brief about assumption",
   marks: 5,
   repeated: 1,
@@ -445,6 +448,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 }
 ,{
   id: 4,
+  stars: 3,
   question: "Write the criteria for selecting good research problem",
   marks: 5,
   repeated: 1,
@@ -579,6 +583,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 }
 ,{
   id: 5,
+  stars: 3,
   question: "Explain the classification of hypothesis.",
   marks: 5,
   repeated: 1,
@@ -780,6 +785,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 }
 ,{
   id: 6,
+  stars: 3,
   question: "Characteristics of a good research problem statement.",
   marks: 5,
   repeated: 1,
@@ -902,6 +908,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 }
 ,{
   id: 7,
+  stars: 2,
   question: "Discuss the types of Hypothesis.",
   marks: 5,
   repeated: 1,
@@ -1097,6 +1104,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 }
 ,{
   id: 8,
+  stars: 2,
   question: "Describe hypothesis and its type.",
   marks: 5,
   repeated: 1,
@@ -1268,6 +1276,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 }
 ,{
   id: 9,
+  stars: 2,
   question: "List out the criteria for writing the objectives.",
   marks: 5,
   repeated: 1,
@@ -1404,6 +1413,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 }
 ,{
   id: 10,
+  stars: 2,
   question: "Describe the characteristics of research objective",
   marks: 3,
   repeated: 1,
@@ -1508,6 +1518,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 }
 ,{
   id: 11,
+  stars: 2,
   question: "Define hypothesis and explain the types of hypothesis with appropriate examples.",
   marks: 5,
   repeated: 1,
@@ -1713,6 +1724,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 }
 ,{
   id: 12,
+  stars: 2,
   question: "Describe types of variables.",
   marks: 5,
   repeated: 1,
@@ -1887,6 +1899,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 }
 ,{
   id: 13,
+  stars: 2,
   question: "Discuss sources of identifying Research problem statement.",
   marks: 5,
   repeated: 1,
@@ -2009,6 +2022,7 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 }
 ,{
   id: 14,
+  stars: 2,
   question: "Define hypothesis.",
   marks: 3,
   repeated: 1,
@@ -2111,6 +2125,7 @@ H0: "There is no significant difference in anxiety scores between music therapy 
 }
 ,{
   id: 15,
+  stars: 2,
   question: "Describe characteristics of hypothesis.",
   marks: 5,
   repeated: 1,
@@ -2235,6 +2250,7 @@ H0: "There is no significant difference in anxiety scores between music therapy 
 }
 ,{
   id: 16,
+  stars: 2,
   question: "Explain differences between Assumptions and Hypothesis.",
   marks: 7,
   repeated: 1,
@@ -2417,6 +2433,7 @@ H0: "There is no significant difference in anxiety scores between music therapy 
 }
 ,{
   id: 17,
+  stars: 2,
   question: "Define variables and discuss its type.",
   marks: 5,
   repeated: 1,

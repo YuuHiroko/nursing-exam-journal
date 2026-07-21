@@ -2,6 +2,7 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
 
 {
   id: 1,
+  stars: 3,
   question: "Discuss five major sources of literature?",
   marks: 5,
   repeated: 1,
@@ -217,6 +218,7 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
 }
 ,{
   id: 2,
+  stars: 3,
   question: "Describe the sources of literature review.",
   marks: 5,
   repeated: 1,
@@ -433,6 +435,7 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
 }
 ,{
   id: 3,
+  stars: 3,
   question: "Write the purposes of review of literature.",
   marks: 5,
   repeated: 1,
@@ -558,6 +561,7 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
 }
 ,{
   id: 4,
+  stars: 3,
   question: "Define review of literature.",
   marks: 3,
   repeated: 1,
@@ -656,6 +660,7 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
 }
 ,{
   id: 5,
+  stars: 3,
   question: "Explain the steps in review of literature",
   marks: 5,
   repeated: 2,
@@ -883,6 +888,7 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
 }
 ,{
   id: 6,
+  stars: 3,
   question: "Enumerate the sources and uses of review of literature.",
   marks: 7,
   repeated: 1,
@@ -1084,6 +1090,7 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
 }
 ,{
   id: 7,
+  stars: 3,
   question: "Discuss the sources of review of literature.",
   marks: 5,
   repeated: 1,
@@ -1300,6 +1307,7 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
 }
 ,{
   id: 8,
+  stars: 3,
   question: "Explain steps of literature review.",
   marks: 5,
   repeated: 1,
@@ -1499,6 +1507,7 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
 }
 ,{
   id: 9,
+  stars: 1,
   question: "What is mean by ROL. Mention the point to be consider while writing ROL.",
   marks: 10,
   repeated: 1,

@@ -6,6 +6,7 @@ window.QUESTIONS_DATA_NRS_UNIT7 = [
 
 {
   id: 1,
+  stars: 2,
   question: "Uses of statistics in research / Importance of Biostatistics in Nursing / State any four uses of statistics in health field / Write any two importance of statistics in nursing.",
   marks: 5,
   repeated: 6,
@@ -97,6 +98,7 @@ window.QUESTIONS_DATA_NRS_UNIT7 = [
 
 {
   id: 2,
+  stars: 3,
   question: "List the levels of measurements and mention their characteristics / Enumerate the Scales of Measurement.",
   marks: 5,
   repeated: 2,
@@ -177,6 +179,7 @@ window.QUESTIONS_DATA_NRS_UNIT7 = [
 
 {
   id: 3,
+  stars: 3,
   question: "Enlist different types of statistical test / Explain tests of significance.",
   marks: 5,
   repeated: 2,
@@ -235,6 +238,7 @@ window.QUESTIONS_DATA_NRS_UNIT7 = [
 
 {
   id: 4,
+  stars: 2,
   question: "Write uses of computer in nursing research.",
   marks: 4,
   repeated: 1,
@@ -281,6 +285,7 @@ window.QUESTIONS_DATA_NRS_UNIT7 = [
 
 {
   id: 5,
+  stars: 3,
   question: "Describe measures of central tendency / What are the different measures of central tendency / Elaborate on measures of central tendency.",
   marks: 5,
   repeated: 5,
@@ -393,6 +398,7 @@ window.QUESTIONS_DATA_NRS_UNIT7 = [
 
 {
   id: 6,
+  stars: 3,
   question: "Discuss in detail about mode.",
   marks: 5,
   repeated: 1,
@@ -450,6 +456,7 @@ window.QUESTIONS_DATA_NRS_UNIT7 = [
 
 {
   id: 7,
+  stars: 3,
   question: "Write benefits of mean with example.",
   marks: 5,
   repeated: 1,
@@ -521,6 +528,7 @@ window.QUESTIONS_DATA_NRS_UNIT7 = [
 
 {
   id: 8,
+  stars: 3,
   question: "Discuss the merits and demerits of the mean, median and mode.",
   marks: 5,
   repeated: 1,
@@ -577,6 +585,7 @@ window.QUESTIONS_DATA_NRS_UNIT7 = [
 
 {
   id: 9,
+  stars: 3,
   question: "Calculate the mean, median, mode of these numbers: 12, 14, 21, 17, 20, 21, 23, 24, 21, 26.",
   marks: 10,
   repeated: 2,
@@ -676,6 +685,7 @@ window.QUESTIONS_DATA_NRS_UNIT7 = [
 
 {
   id: 10,
+  stars: 3,
   question: "The electrolyte sedimentation rates (ESRs) of 7 subjects are 7, 5, 3, 4, 6, 4, 5. Calculate the Mean.",
   marks: 6,
   repeated: 1,
@@ -755,6 +765,7 @@ window.QUESTIONS_DATA_NRS_UNIT7 = [
 
 {
   id: 11,
+  stars: 3,
   question: "Write about standard deviation / Explain standard deviation.",
   marks: 5,
   repeated: 3,
@@ -897,6 +908,7 @@ window.QUESTIONS_DATA_NRS_UNIT7 = [
 
 {
   id: 12,
+  stars: 3,
   question: "Calculate the standard deviation for continuous frequency data.",
   marks: 5,
   repeated: 1,
@@ -983,6 +995,7 @@ window.QUESTIONS_DATA_NRS_UNIT7 = [
 
 {
   id: 13,
+  stars: 2,
   question: "Discuss Merits and demerits of Range.",
   marks: 5,
   repeated: 1,
@@ -1026,6 +1039,7 @@ window.QUESTIONS_DATA_NRS_UNIT7 = [
 
 {
   id: 14,
+  stars: 2,
   question: "Write in brief about degree of freedom.",
   marks: 5,
   repeated: 1,
@@ -1081,6 +1095,7 @@ window.QUESTIONS_DATA_NRS_UNIT7 = [
 
 {
   id: 15,
+  stars: 2,
   question: "Describe in brief about Bar charts / Describe the types of Bar Graph / Write features of constructing diagram/graphs / Describe in detail about types of diagram/graphs.",
   marks: 10,
   repeated: 3,
@@ -1174,6 +1189,7 @@ Histogram: NO gaps. Continuous grouped data. Bars CANNOT be rearranged.</div>
 
 {
   id: 16,
+  stars: 2,
   question: "Draw a bar diagram for the given data / Describe the steps involved in construction of a bar Diagram.",
   marks: 10,
   repeated: 2,
@@ -1258,6 +1274,7 @@ Histogram: NO gaps. Continuous grouped data. Bars CANNOT be rearranged.</div>
 
 {
   id: 17,
+  stars: 2,
   question: "Explain Histogram with diagram.",
   marks: 5,
   repeated: 1,
@@ -1345,6 +1362,7 @@ Histogram: NO gaps. Continuous grouped data. Bars CANNOT be rearranged.</div>
 
 {
   id: 18,
+  stars: 2,
   question: "Write a note on Frequency polygon / Prepare a frequency polygon for the following data.",
   marks: 10,
   repeated: 2,
@@ -1442,6 +1460,7 @@ Histogram: NO gaps. Continuous grouped data. Bars CANNOT be rearranged.</div>
 
 {
   id: 19,
+  stars: 2,
   question: "Enlist steps of preparing pie diagram / Enlist Characteristics of pie diagram / Draw pie diagram for distribution of blood groups among 100 persons.",
   marks: 10,
   repeated: 3,
@@ -1564,6 +1583,7 @@ Histogram: NO gaps. Continuous grouped data. Bars CANNOT be rearranged.</div>
 
 {
   id: 20,
+  stars: 2,
   question: "Enlist any four methods of graphical presentation of data / List any four types of graphs.",
   marks: 5,
   repeated: 2,
@@ -1603,6 +1623,7 @@ Histogram: NO gaps. Continuous grouped data. Bars CANNOT be rearranged.</div>
 
 {
   id: 21,
+  stars: 3,
   question: "Discuss properties of Normal probability curve / Explain the Characteristics of Normal Probability Curve / Write importance of Normal probability curve / Describe normal probability curve and its characteristics / Explain Normal probability curve and its types.",
   marks: 6,
   repeated: 7,
@@ -1725,6 +1746,7 @@ Histogram: NO gaps. Continuous grouped data. Bars CANNOT be rearranged.</div>
 
 {
   id: 22,
+  stars: 2,
   question: "Types of inferential statistics.",
   marks: 5,
   repeated: 1,
@@ -1781,6 +1803,7 @@ Histogram: NO gaps. Continuous grouped data. Bars CANNOT be rearranged.</div>
 
 {
   id: 23,
+  stars: 3,
   question: "Differentiate between parametric and Non-parametric test / Write any two parametric tests.",
   marks: 5,
   repeated: 2,
@@ -1826,6 +1849,7 @@ Histogram: NO gaps. Continuous grouped data. Bars CANNOT be rearranged.</div>
 
 {
   id: 24,
+  stars: 3,
   question: "Explain the parametric test used in nursing research.",
   marks: 5,
   repeated: 1,
@@ -1870,6 +1894,7 @@ Histogram: NO gaps. Continuous grouped data. Bars CANNOT be rearranged.</div>
 
 {
   id: 25,
+  stars: 3,
   question: "Describe in brief about 't test' / Discuss student 't' test with example.",
   marks: 5,
   repeated: 2,
@@ -1993,6 +2018,7 @@ Histogram: NO gaps. Continuous grouped data. Bars CANNOT be rearranged.</div>
 
 {
   id: 26,
+  stars: 3,
   question: "What are the steps involved in testing of hypothesis?",
   marks: 5,
   repeated: 1,
@@ -2039,6 +2065,7 @@ Histogram: NO gaps. Continuous grouped data. Bars CANNOT be rearranged.</div>
 
 {
   id: 27,
+  stars: 2,
   question: "Write a note on errors in statistical testing.",
   marks: 5,
   repeated: 1,
@@ -2106,6 +2133,7 @@ Histogram: NO gaps. Continuous grouped data. Bars CANNOT be rearranged.</div>
 
 {
   id: 28,
+  stars: 3,
   question: "Explain about co-efficient of correlation / List down the features of correlation coefficient.",
   marks: 5,
   repeated: 2,
@@ -2168,6 +2196,7 @@ Histogram: NO gaps. Continuous grouped data. Bars CANNOT be rearranged.</div>
 
 {
   id: 29,
+  stars: 2,
   question: "Discuss the types of correlation / State the types of correlation.",
   marks: 5,
   repeated: 2,
@@ -2217,6 +2246,7 @@ Histogram: NO gaps. Continuous grouped data. Bars CANNOT be rearranged.</div>
 
 {
   id: 30,
+  stars: 2,
   question: "Difference between correlation and regression.",
   marks: 5,
   repeated: 1,
@@ -2257,6 +2287,7 @@ Histogram: NO gaps. Continuous grouped data. Bars CANNOT be rearranged.</div>
 
 {
   id: 31,
+  stars: 3,
   question: "Discuss different statistical packages and its application.",
   marks: 5,
   repeated: 1,

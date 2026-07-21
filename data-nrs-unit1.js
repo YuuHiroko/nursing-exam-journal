@@ -2,6 +2,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 
 {
   id: 1,
+  stars: 3,
   question: "Write a note on conceptual framework context to nursing research?",
   marks: 5,
   repeated: 1,
@@ -231,6 +232,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 2,
+  stars: 3,
   question: "Write a note on scope of nursing research.",
   marks: 5,
   repeated: 1,
@@ -429,6 +431,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 3,
+  stars: 3,
   question: "Discuss problems encountered by researcher in India",
   marks: 5,
   repeated: 1,
@@ -614,6 +617,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 4,
+  stars: 3,
   question: "Discuss importance nursing research",
   marks: 5,
   repeated: 1,
@@ -800,6 +804,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 5,
+  stars: 2,
   question: "Write purposes of research",
   marks: 5,
   repeated: 1,
@@ -940,6 +945,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 6,
+  stars: 2,
   question: "Define Nursing Research. List any 6 Purposes of Nursing Research.",
   marks: 5,
   repeated: 1,
@@ -1128,6 +1134,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 7,
+  stars: 2,
   question: "State any four needs of nursing research.",
   marks: 5,
   repeated: 1,
@@ -1299,6 +1306,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 8,
+  stars: 2,
   question: "Describe the steps in scientific method.",
   marks: 5,
   repeated: 1,
@@ -1540,6 +1548,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 9,
+  stars: 2,
   question: "Define Nursing research.",
   marks: 5,
   repeated: 1,
@@ -1668,6 +1677,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 10,
+  stars: 2,
   question: "Describe in detail the steps involved in quantitative research process.",
   marks: 5,
   repeated: 1,
@@ -1900,6 +1910,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 11,
+  stars: 2,
   question: "Explain scientific method of research.",
   marks: 5,
   repeated: 1,
@@ -2067,6 +2078,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 12,
+  stars: 2,
   question: "Discuss scope of Nursing research.",
   marks: 5,
   repeated: 1,
@@ -2265,6 +2277,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 13,
+  stars: 2,
   question: "Discuss limitations and boundary set by the researcher on purpose of research",
   marks: 4,
   repeated: 1,
@@ -2425,6 +2438,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 14,
+  stars: 2,
   question: "Define Nursing research and write the characteristics of good research.",
   marks: 5,
   repeated: 1,
@@ -2560,6 +2574,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 15,
+  stars: 2,
   question: "Define nursing research. Write down the characteristics of research.",
   marks: 10,
   repeated: 1,
@@ -2780,6 +2795,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 16,
+  stars: 2,
   question: "Define Evidence Based Practice",
   marks: 3,
   repeated: 1,
@@ -2943,6 +2959,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 17,
+  stars: 2,
   question: "Explain the purposes of Evidence Based Practice",
   marks: 5,
   repeated: 1,
@@ -3140,6 +3157,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 18,
+  stars: 2,
   question: "Explain the process of Evidence Based Practice",
   marks: 7,
   repeated: 1,
@@ -3356,6 +3374,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 19,
+  stars: 2,
   question: "Write steps of problem solving method.",
   marks: 2,
   repeated: 1,
@@ -3461,6 +3480,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 20,
+  stars: 2,
   question: "Write in brief about steps used in scientific research.",
   marks: 5,
   repeated: 1,
@@ -3578,6 +3598,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 21,
+  stars: 2,
   question: "Discuss need of research in nursing.",
   marks: 5,
   repeated: 1,
@@ -3751,6 +3772,7 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 }
 ,{
   id: 22,
+  stars: 2,
   question: "Discuss the boundary set by the researcher on purpose and limitation in research study with example.",
   marks: 5,
   repeated: 1,

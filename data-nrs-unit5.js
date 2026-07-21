@@ -2,6 +2,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 1,
+  stars: 1,
   question: "Ethical principles in Nursing Research.",
   marks: 5,
   repeated: 1,
@@ -95,6 +96,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 2,
+  stars: 2,
   question: "Define Data collection.",
   marks: 5,
   repeated: 1,
@@ -183,6 +185,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 3,
+  stars: 3,
   question: "Discuss the advantages of conducting pilot study.",
   marks: 5,
   repeated: 1,
@@ -271,6 +274,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 4,
+  stars: 2,
   question: "Enumerate various methods of data collection in research.",
   marks: 5,
   repeated: 1,
@@ -351,6 +355,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 5,
+  stars: 3,
   question: "Define Sampling.",
   marks: 5,
   repeated: 2,
@@ -436,6 +441,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 6,
+  stars: 2,
   question: "Discuss the types of snowball sampling technique.",
   marks: 5,
   repeated: 1,
@@ -521,6 +527,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 7,
+  stars: 3,
   question: "Discuss the probability sampling technique with example.",
   marks: 5,
   repeated: 1,
@@ -597,6 +604,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 8,
+  stars: 2,
   question: "Sources of demographic data.",
   marks: 5,
   repeated: 1,
@@ -666,6 +674,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 9,
+  stars: 2,
   question: "Write in detail about sources of data collection.",
   marks: 5,
   repeated: 1,
@@ -745,6 +754,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 10,
+  stars: 1,
   question: "Write importance of ethics in nursing research.",
   marks: 10,
   repeated: 1,
@@ -844,6 +854,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 11,
+  stars: 1,
   question: "Discuss code of ethics in nursing research.",
   marks: 10,
   repeated: 1,
@@ -932,6 +943,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 12,
+  stars: 2,
   question: "Discuss different tool and techniques used in nursing research.",
   marks: 5,
   repeated: 1,
@@ -1015,6 +1027,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 13,
+  stars: 2,
   question: "Write purposes of sampling.",
   marks: 5,
   repeated: 1,
@@ -1084,6 +1097,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 14,
+  stars: 3,
   question: "Describe sampling process.",
   marks: 5,
   repeated: 1,
@@ -1164,6 +1178,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 15,
+  stars: 3,
   question: "Discuss in brief about sampling techniques and explained in detail simple random sampling method.",
   marks: 5,
   repeated: 1,
@@ -1260,6 +1275,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 16,
+  stars: 3,
   question: "Difference between population and sample.",
   marks: 5,
   repeated: 1,
@@ -1333,6 +1349,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 17,
+  stars: 2,
   question: "What are the characteristics of a good Sample?",
   marks: 5,
   repeated: 1,
@@ -1411,6 +1428,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 18,
+  stars: 2,
   question: "Explain the factors influencing Sampling.",
   marks: 5,
   repeated: 1,
@@ -1481,6 +1499,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 19,
+  stars: 2,
   question: "Define Data.",
   marks: 5,
   repeated: 1,
@@ -1559,6 +1578,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 20,
+  stars: 3,
   question: "What is population?",
   marks: 5,
   repeated: 1,
@@ -1633,6 +1653,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 21,
+  stars: 3,
   question: "Difference between target and accessible population.",
   marks: 5,
   repeated: 1,
@@ -1710,6 +1731,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 22,
+  stars: 3,
   question: "Discuss in detail the steps involved in pilot study.",
   marks: 5,
   repeated: 1,
@@ -1781,6 +1803,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 23,
+  stars: 2,
   question: "What are the methods of Data Collection in grounded theory?",
   marks: 5,
   repeated: 1,
@@ -1864,6 +1887,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 24,
+  stars: 3,
   question: "List the types of sampling technique.",
   marks: 5,
   repeated: 1,
@@ -1946,6 +1970,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 25,
+  stars: 3,
   question: "Explain about probability sampling technique.",
   marks: 5,
   repeated: 1,
@@ -2030,6 +2055,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 26,
+  stars: 2,
   question: "Explain the need for a sample.",
   marks: 5,
   repeated: 1,
@@ -2099,6 +2125,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 27,
+  stars: 3,
   question: "Explain the types of non-probability sampling technique in detail.",
   marks: 5,
   repeated: 1,
@@ -2176,6 +2203,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 28,
+  stars: 1,
   question: "Explain importance of informed consent in Research.",
   marks: 5,
   repeated: 1,
@@ -2264,6 +2292,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 29,
+  stars: 3,
   question: "Discuss different types of validity.",
   marks: 5,
   repeated: 1,
@@ -2343,6 +2372,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 30,
+  stars: 2,
   question: "Explain observation method of data collection.",
   marks: 6,
   repeated: 1,
@@ -2431,6 +2461,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 31,
+  stars: 3,
   question: "Define sampling.",
   marks: 3,
   repeated: 1,
@@ -2495,6 +2526,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 32,
+  stars: 3,
   question: "Discuss the advantage and disadvantage of questionnaire.",
   marks: 5,
   repeated: 1,
@@ -2563,6 +2595,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 33,
+  stars: 3,
   question: "Explain the probability sampling techniques and its different types.",
   marks: 7,
   repeated: 1,
@@ -2654,6 +2687,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 34,
+  stars: 2,
   question: "Explain different types of level of data collection.",
   marks: 4,
   repeated: 1,
@@ -2730,6 +2764,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 35,
+  stars: 3,
   question: "Define Questionnaire as method of data collection and explain the open and close ended questions.",
   marks: 5,
   repeated: 1,
@@ -2819,6 +2854,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 36,
+  stars: 1,
   question: "Discuss the code ethics followed in research.",
   marks: 5,
   repeated: 1,
@@ -2890,6 +2926,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 37,
+  stars: 3,
   question: "Define Population and sample. Discuss the types of sampling techniques.",
   marks: 10,
   repeated: 1,
@@ -2985,6 +3022,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 38,
+  stars: 2,
   question: "What is data collection. Discuss the different methods of data collection. Explain various techniques of administration of Questionnaire.",
   marks: 15,
   repeated: 1,
@@ -3092,6 +3130,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 39,
+  stars: 3,
   question: "Define population.",
   marks: 3,
   repeated: 1,
@@ -3156,6 +3195,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 40,
+  stars: 3,
   question: "Explain the types of sampling technique.",
   marks: 5,
   repeated: 1,
@@ -3236,6 +3276,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 41,
+  stars: 2,
   question: "Illustrate the data collection process.",
   marks: 7,
   repeated: 1,
@@ -3318,6 +3359,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 42,
+  stars: 3,
   question: "Write pilot study in detail.",
   marks: 5,
   repeated: 1,
@@ -3410,6 +3452,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 43,
+  stars: 3,
   question: "Characteristics of a good questionnaire.",
   marks: 2,
   repeated: 1,
@@ -3469,6 +3512,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 44,
+  stars: 3,
   question: "Enlist types of reliability.",
   marks: 4,
   repeated: 1,
@@ -3560,6 +3604,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 45,
+  stars: 3,
   question: "Explain types of validity.",
   marks: 6,
   repeated: 1,
@@ -3637,6 +3682,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 46,
+  stars: 3,
   question: "Define Sample.",
   marks: 3,
   repeated: 1,
@@ -3701,6 +3747,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 47,
+  stars: 3,
   question: "Discuss importance of sampling Technique in research.",
   marks: 5,
   repeated: 1,
@@ -3770,6 +3817,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 48,
+  stars: 3,
   question: "Explain Types of sampling Techniques.",
   marks: 7,
   repeated: 1,
@@ -3850,6 +3898,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 49,
+  stars: 3,
   question: "Discuss about importance of Pilot study in research.",
   marks: 5,
   repeated: 1,
@@ -3919,6 +3968,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 50,
+  stars: 2,
   question: "Write in detail the factors affecting methods of data collection.",
   marks: 5,
   repeated: 1,
@@ -3988,6 +4038,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 51,
+  stars: 3,
   question: "Define Non-Probability as a sampling technique. Discuss its types with example.",
   marks: 10,
   repeated: 1,
@@ -4089,6 +4140,7 @@ window.QUESTIONS_DATA_NRS_UNIT5 = [
 
 {
   id: 52,
+  stars: 3,
   question: "Define sampling. Discuss the factors affecting sampling, what is mean by sampling error.",
   marks: 15,
   repeated: 1,
