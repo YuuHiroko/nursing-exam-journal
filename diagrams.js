@@ -2678,7 +2678,1111 @@ window.DIAGRAMS = {
       + '</div>';
   }
 
+
+  // ══════════════════════════════════════════════════════════════════
+  // NRS UNIT 1 — NEW DIAGRAMS
+  // ══════════════════════════════════════════════════════════════════
+
+  // NRS-U1-A. NURSING RESEARCH LADDER — Consumer → Collaborator → PI
+  nursingResearchLadder: function () {
+    var rungs = [
+      { l: 'CONSUMER', s: 'reads & uses research', c: '#6366f1' },
+      { l: 'COLLABORATOR', s: 'assists in studies', c: '#8b5cf6' },
+      { l: 'CO-INVESTIGATOR', s: 'shares responsibility', c: '#ec4899' },
+      { l: 'PRINCIPAL INVESTIGATOR', s: 'leads the research', c: '#22c55e' }
+    ];
+    var W = 500, bW = 340, bH = 52, gapY = 8, startY = 20;
+    var svg = '';
+    for (var i = rungs.length - 1; i >= 0; i--) {
+      var r = rungs[i], idx = rungs.length - 1 - i;
+      var y = startY + idx * (bH + gapY);
+      var xOff = i * 18;
+      var delay = (idx * 0.4).toFixed(1);
+      svg += '<rect x="' + (60 + xOff) + '" y="' + y + '" width="' + (bW - xOff * 2) + '" height="' + bH + '" rx="10" fill="' + r.c + '" fill-opacity="0.12" stroke="' + r.c + '" stroke-width="2.5">'
+        + '<animate attributeName="fill-opacity" values="0.08;0.24;0.08" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/></rect>'
+        + '<circle cx="90" cy="' + (y + bH / 2) + '" r="16" fill="' + r.c + '">'
+        + '<animate attributeName="r" values="14;18;14" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/></circle>'
+        + '<text x="90" y="' + (y + bH / 2 + 5) + '" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">' + (i + 1) + '</text>'
+        + '<text x="118" y="' + (y + bH / 2 - 6) + '" fill="' + r.c + '" font-size="12" font-weight="700">' + r.l + '</text>'
+        + '<text x="118" y="' + (y + bH / 2 + 10) + '" fill="#64748b" font-size="9">' + r.s + '</text>';
+      if (idx < rungs.length - 1) {
+        svg += '<line x1="' + (60 + xOff + 30) + '" y1="' + (y + bH) + '" x2="' + (60 + xOff + 30) + '" y2="' + (y + bH + gapY) + '" stroke="#94a3b8" stroke-width="2" marker-end="url(#nrla)">'
+          + '<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/></line>';
+      }
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">🪜 Animated: Nursing Research Ladder — Levels of Participation</div>'
+      + '<svg viewBox="0 0 ' + W + ' 272" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">'
+        + '<defs><marker id="nrla" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker></defs>'
+        + svg
+      + '</svg>'
+      + '<div class="diagram-key"><strong>Every nurse can participate in research at some level.</strong> <span style="color:#6366f1">Consumer</span> = reads &amp; applies findings. <span style="color:#8b5cf6">Collaborator</span> = assists data collection. <span style="color:#ec4899">Co-Investigator</span> = shares responsibility. <span style="color:#22c55e">Principal Investigator</span> = leads the whole study. Climb the ladder as your experience grows!</div>'
+    + '</div>';
+  },
+
+  // NRS-U1-B. EBP PYRAMID — 5 levels lighting up from bottom
+  ebpPyramid: function () {
+    var levels = [
+      { l: 'Meta-Analysis & Systematic Reviews', s: 'Highest evidence', c: '#22c55e', w: 120, x: 190 },
+      { l: 'Randomised Controlled Trials (RCT)', s: 'True experimental', c: '#84cc16', w: 180, x: 160 },
+      { l: 'Cohort & Case-Control Studies', s: 'Observational', c: '#f59e0b', w: 240, x: 130 },
+      { l: 'Case Reports & Case Series', s: 'Descriptive', c: '#f97316', w: 300, x: 100 },
+      { l: 'Expert Opinion & Anecdote', s: 'Lowest evidence', c: '#ef4444', w: 360, x: 70 }
+    ];
+    var svg = '', H = 280, bH = 44, gapY = 4;
+    var startY = H - levels.length * (bH + gapY) - 10;
+    for (var i = 0; i < levels.length; i++) {
+      var lv = levels[i], y = startY + i * (bH + gapY), delay = ((levels.length - 1 - i) * 0.4).toFixed(1);
+      svg += '<rect x="' + lv.x + '" y="' + y + '" width="' + lv.w + '" height="' + bH + '" rx="8" fill="' + lv.c + '" fill-opacity="0.13" stroke="' + lv.c + '" stroke-width="2.2">'
+        + '<animate attributeName="fill-opacity" values="0.08;0.26;0.08" dur="3.5s" begin="' + delay + 's" repeatCount="indefinite"/></rect>'
+        + '<text x="250" y="' + (y + bH / 2 - 4) + '" text-anchor="middle" fill="' + lv.c + '" font-size="10.5" font-weight="700">' + lv.l + '</text>'
+        + '<text x="250" y="' + (y + bH / 2 + 10) + '" text-anchor="middle" fill="#64748b" font-size="8.5">' + lv.s + '</text>';
+    }
+    svg += '<line x1="250" y1="' + (startY - 2) + '" x2="250" y2="20" stroke="#22c55e" stroke-width="1.5" stroke-dasharray="4 3">'
+      + '<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/></line>'
+      + '<text x="250" y="14" text-anchor="middle" fill="#15803d" font-size="9" font-weight="700">▲ STRONGEST</text>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">🔺 Animated: Evidence-Based Practice Pyramid</div>'
+      + '<svg viewBox="0 0 500 280" width="100%" style="max-width:500px;display:block;margin:0 auto;">' + svg + '</svg>'
+      + '<div class="diagram-key"><strong>EBP always uses the HIGHEST level of evidence available.</strong> Bottom = lowest (expert opinion, anecdote). Top = highest (systematic reviews, meta-analysis). RCTs are gold standard for individual studies. Tiers light up from strongest to weakest.</div>'
+    + '</div>';
+  },
+
+  // NRS-U1-C. RESEARCH vs PROBLEM-SOLVING — 3-column comparison
+  researchVsProblemSolving: function () {
+    var cols = [
+      { h: 'Problem Solving', c: '#f59e0b', items: ['Identify problem', 'Gather info', 'Try solutions', 'Select best', 'Evaluate result'] },
+      { h: 'Scientific Method', c: '#8b5cf6', items: ['Observation', 'Hypothesis', 'Experiment', 'Analysis', 'Theory'] },
+      { h: 'Research Process', c: '#22c55e', items: ['Research problem', 'Literature review', 'Research design', 'Data collection', 'Data analysis'] }
+    ];
+    var W = 480, colW = 138, colH = 200, gap = 13, startX = (W - (3 * colW + 2 * gap)) / 2, topY = 40;
+    var svg = '';
+    for (var i = 0; i < cols.length; i++) {
+      var col = cols[i], x = startX + i * (colW + gap), delay = (i * 0.5).toFixed(1);
+      svg += '<rect x="' + x + '" y="' + topY + '" width="' + colW + '" height="' + colH + '" rx="10" fill="' + col.c + '" fill-opacity="0.1" stroke="' + col.c + '" stroke-width="2">'
+        + '<animate attributeName="fill-opacity" values="0.06;0.2;0.06" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/></rect>'
+        + '<text x="' + (x + colW / 2) + '" y="' + (topY + 20) + '" text-anchor="middle" fill="' + col.c + '" font-size="10.5" font-weight="700">' + col.h + '</text>';
+      for (var j = 0; j < col.items.length; j++) {
+        var iy = topY + 40 + j * 30;
+        svg += '<circle cx="' + (x + 14) + '" cy="' + (iy + 5) + '" r="7" fill="' + col.c + '" fill-opacity="0.3"/>'
+          + '<text x="' + (x + 14) + '" y="' + (iy + 9) + '" text-anchor="middle" fill="' + col.c + '" font-size="8" font-weight="700">' + (j + 1) + '</text>'
+          + '<text x="' + (x + 24) + '" y="' + (iy + 9) + '" fill="' + col.c + '" font-size="8.5" font-weight="500">' + col.items[j] + '</text>';
+      }
+    }
+    svg += '<text x="' + (W / 2) + '" y="28" text-anchor="middle" fill="#334155" font-size="11" font-weight="700">3 Approaches to Finding Answers</text>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">⚖️ Animated: Problem Solving vs Scientific Method vs Research Process</div>'
+      + '<svg viewBox="0 0 ' + W + ' 260" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">' + svg + '</svg>'
+      + '<div class="diagram-key"><strong>All three are ways of finding answers — Research is the most rigorous.</strong> Problem solving is informal and everyday. Scientific method adds testing &amp; analysis. Research process is formal, systematic, ethical, and publishable. Each column glows in turn.</div>'
+    + '</div>';
+  },
+
+  // NRS-U1-D. RESEARCH UTILISATION CYCLE — spinning animated ring
+  researchUtilisationCycle: function () {
+    var steps = [
+      { l: 'Conduct Research', c: '#6366f1', a: -90 },
+      { l: 'Publish Findings', c: '#8b5cf6', a: -18 },
+      { l: 'Critical Review', c: '#ec4899', a: 54 },
+      { l: 'Apply to Practice', c: '#f97316', a: 126 },
+      { l: 'Better Patient Care', c: '#22c55e', a: 198 }
+    ];
+    var cx = 230, cy = 175, r = 118, rN = 38, svg = '', arrs = '';
+    for (var n = 0; n < steps.length; n++) {
+      var s = steps[n], rad = s.a * Math.PI / 180;
+      var nx = cx + r * Math.cos(rad), ny = cy + r * Math.sin(rad), d = (n * 0.4).toFixed(1);
+      var ns = steps[(n + 1) % steps.length], nrad = ns.a * Math.PI / 180;
+      var nx2 = cx + r * Math.cos(nrad), ny2 = cy + r * Math.sin(nrad);
+      var mpx = (nx + nx2) / 2 + (cx - (nx + nx2) / 2) * 0.4, mpy = (ny + ny2) / 2 + (cy - (ny + ny2) / 2) * 0.4;
+      arrs += '<path d="M' + nx.toFixed(1) + ',' + ny.toFixed(1) + ' Q' + mpx.toFixed(1) + ',' + mpy.toFixed(1) + ' ' + nx2.toFixed(1) + ',' + ny2.toFixed(1) + '" fill="none" stroke="#cbd5e1" stroke-width="1.5" marker-end="url(#ruca)">'
+        + '<animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="3.5s" begin="' + d + 's" repeatCount="indefinite"/></path>';
+      svg += '<circle cx="' + nx.toFixed(1) + '" cy="' + ny.toFixed(1) + '" r="' + rN + '" fill="' + s.c + '" opacity="0.12">'
+        + '<animate attributeName="opacity" values="0.08;0.24;0.08" dur="3.5s" begin="' + d + 's" repeatCount="indefinite"/></circle>'
+        + '<circle cx="' + nx.toFixed(1) + '" cy="' + ny.toFixed(1) + '" r="' + rN + '" fill="none" stroke="' + s.c + '" stroke-width="2">'
+        + '<animate attributeName="stroke-width" values="1.5;3;1.5" dur="3.5s" begin="' + d + 's" repeatCount="indefinite"/></circle>';
+      var ws = s.l.split(' ');
+      if (ws.length === 1) {
+        svg += '<text x="' + nx.toFixed(1) + '" y="' + (ny + 4) + '" text-anchor="middle" fill="' + s.c + '" font-size="9" font-weight="700">' + s.l + '</text>';
+      } else {
+        svg += '<text x="' + nx.toFixed(1) + '" y="' + (ny - 4) + '" text-anchor="middle" fill="' + s.c + '" font-size="9" font-weight="700">' + ws.slice(0, 2).join(' ') + '</text>';
+        if (ws.length > 2) svg += '<text x="' + nx.toFixed(1) + '" y="' + (ny + 9) + '" text-anchor="middle" fill="' + s.c + '" font-size="9" font-weight="700">' + ws.slice(2).join(' ') + '</text>';
+      }
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">♻️ Animated: Research Utilisation Cycle</div>'
+      + '<svg viewBox="0 0 460 350" width="100%" style="max-width:460px;display:block;margin:0 auto;">'
+        + '<defs><marker id="ruca" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker>'
+        + '<linearGradient id="rucg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#6366f1"/><stop offset="100%" stop-color="#22c55e"/></linearGradient></defs>'
+        + '<circle cx="' + cx + '" cy="' + cy + '" r="' + (r + 20) + '" fill="none" stroke="url(#rucg)" stroke-width="1.2" stroke-dasharray="8 12" opacity="0.3">'
+        + '<animateTransform attributeName="transform" type="rotate" from="0 ' + cx + ' ' + cy + '" to="360 ' + cx + ' ' + cy + '" dur="20s" repeatCount="indefinite"/></circle>'
+        + arrs + svg
+        + '<circle cx="' + cx + '" cy="' + cy + '" r="34" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>'
+        + '<text x="' + cx + '" y="' + (cy - 4) + '" text-anchor="middle" fill="#334155" font-size="9.5" font-weight="700">Research</text>'
+        + '<text x="' + cx + '" y="' + (cy + 10) + '" text-anchor="middle" fill="#334155" font-size="9.5" font-weight="700">Utilisation</text>'
+      + '</svg>'
+      + '<div class="diagram-key"><strong>Research has no value unless it is USED.</strong> Conduct → Publish → Critically Review → Apply to Practice → Better Patient Care → back to new research questions. This cycle drives Evidence-Based Nursing forward. Nodes glow in sequence around the ring.</div>'
+    + '</div>';
+  },
+
+  // ══════════════════════════════════════════════════════════════════
+  // NRS UNIT 2 — NEW DIAGRAMS
+  // ══════════════════════════════════════════════════════════════════
+
+  // NRS-U2-A. PICO FRAMEWORK — 4 dropping boxes
+  pico: function () {
+    var boxes = [
+      { l: 'P', full: 'Population / Patient', ex: 'Who? e.g. ICU nurses', c: '#6366f1' },
+      { l: 'I', full: 'Intervention', ex: 'What? e.g. hand hygiene', c: '#8b5cf6' },
+      { l: 'C', full: 'Comparison', ex: 'Compared to? e.g. standard care', c: '#ec4899' },
+      { l: 'O', full: 'Outcome', ex: 'Result? e.g. infection rate', c: '#22c55e' }
+    ];
+    var W = 500, bW = 108, bH = 110, gap = 8, startX = (W - (4 * bW + 3 * gap)) / 2, topY = 60;
+    var svg = '';
+    for (var i = 0; i < boxes.length; i++) {
+      var b = boxes[i], x = startX + i * (bW + gap), delay = (i * 0.45).toFixed(1);
+      svg += '<rect x="' + x + '" y="' + topY + '" width="' + bW + '" height="' + bH + '" rx="12" fill="' + b.c + '" fill-opacity="0.13" stroke="' + b.c + '" stroke-width="2.5">'
+        + '<animate attributeName="fill-opacity" values="0.08;0.26;0.08" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/></rect>'
+        + '<text x="' + (x + bW / 2) + '" y="' + (topY + 40) + '" text-anchor="middle" fill="' + b.c + '" font-size="32" font-weight="900">' + b.l + '</text>'
+        + '<text x="' + (x + bW / 2) + '" y="' + (topY + 62) + '" text-anchor="middle" fill="' + b.c + '" font-size="8.5" font-weight="700">' + b.full + '</text>'
+        + '<text x="' + (x + bW / 2) + '" y="' + (topY + 78) + '" text-anchor="middle" fill="#64748b" font-size="7.5">' + b.ex + '</text>';
+      if (i < boxes.length - 1) {
+        svg += '<line x1="' + (x + bW) + '" y1="' + (topY + bH / 2) + '" x2="' + (x + bW + gap) + '" y2="' + (topY + bH / 2) + '" stroke="#94a3b8" stroke-width="2" marker-end="url(#picoa)">'
+          + '<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/></line>';
+      }
+    }
+    svg += '<text x="' + (W / 2) + '" y="30" text-anchor="middle" fill="#334155" font-size="13" font-weight="800">PICO — The Research Question Framework</text>'
+      + '<rect x="' + startX + '" y="' + (topY + bH + 16) + '" width="' + (4 * bW + 3 * gap) + '" height="38" rx="10" fill="#0d9488" fill-opacity="0.12" stroke="#0d9488" stroke-width="2">'
+      + '<animate attributeName="fill-opacity" values="0.08;0.22;0.08" dur="2.5s" repeatCount="indefinite"/></rect>'
+      + '<text x="' + (W / 2) + '" y="' + (topY + bH + 40) + '" text-anchor="middle" fill="#0f766e" font-size="10.5" font-weight="700">→ Forms a precise, answerable research question</text>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">🎯 Animated: PICO Framework for Research Questions</div>'
+      + '<svg viewBox="0 0 ' + W + ' 230" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">'
+        + '<defs><marker id="picoa" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker></defs>'
+        + svg
+      + '</svg>'
+      + '<div class="diagram-key"><strong>PICO helps build a focused, searchable research question.</strong> <span style="color:#6366f1">P</span> = who are you studying? <span style="color:#8b5cf6">I</span> = what intervention? <span style="color:#ec4899">C</span> = compared to what? <span style="color:#22c55e">O</span> = what outcome do you measure? Example: "In ICU nurses (P), does mandatory hand hygiene training (I) vs standard protocol (C) reduce healthcare-associated infections (O)?"</div>'
+    + '</div>';
+  },
+
+  // NRS-U2-B. NULL vs ALTERNATE HYPOTHESIS — flip-card style animated
+  nullVsAlternate: function () {
+    var W = 480;
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">🔀 Animated: H₀ (Null) vs H₁ (Alternate) Hypothesis</div>'
+      + '<svg viewBox="0 0 ' + W + ' 260" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">'
+        + '<defs><filter id="hvglow"><feGaussianBlur stdDeviation="4" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>'
+        + '<text x="' + (W / 2) + '" y="22" text-anchor="middle" fill="#334155" font-size="12" font-weight="700">Every research study has TWO hypotheses</text>'
+        // H0 box
+        + '<rect x="20" y="40" width="200" height="170" rx="14" fill="#ef4444" fill-opacity="0.1" stroke="#ef4444" stroke-width="2.5">'
+        + '<animate attributeName="fill-opacity" values="0.06;0.2;0.06" dur="3.5s" repeatCount="indefinite"/></rect>'
+        + '<text x="120" y="78" text-anchor="middle" fill="#ef4444" font-size="34" font-weight="900">H₀</text>'
+        + '<text x="120" y="102" text-anchor="middle" fill="#ef4444" font-size="12" font-weight="700">NULL Hypothesis</text>'
+        + '<text x="120" y="120" text-anchor="middle" fill="#64748b" font-size="9">States: NO relationship / NO effect</text>'
+        + '<text x="120" y="140" text-anchor="middle" fill="#64748b" font-size="8.5" font-family="monospace">e.g. Training has NO effect</text>'
+        + '<text x="120" y="158" text-anchor="middle" fill="#64748b" font-size="8.5" font-family="monospace">on infection rates</text>'
+        + '<text x="120" y="195" text-anchor="middle" fill="#ef4444" font-size="9" font-weight="700">← We TRY TO REJECT THIS</text>'
+        // VS label
+        + '<circle cx="240" cy="125" r="22" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2">'
+        + '<animate attributeName="r" values="20;24;20" dur="2s" repeatCount="indefinite"/></circle>'
+        + '<text x="240" y="121" text-anchor="middle" fill="#334155" font-size="10" font-weight="800">VS</text>'
+        // H1 box
+        + '<rect x="260" y="40" width="200" height="170" rx="14" fill="#22c55e" fill-opacity="0.1" stroke="#22c55e" stroke-width="2.5">'
+        + '<animate attributeName="fill-opacity" values="0.06;0.2;0.06" dur="3.5s" begin="1.2s" repeatCount="indefinite"/></rect>'
+        + '<text x="360" y="78" text-anchor="middle" fill="#22c55e" font-size="34" font-weight="900">H₁</text>'
+        + '<text x="360" y="102" text-anchor="middle" fill="#22c55e" font-size="12" font-weight="700">ALTERNATE Hypothesis</text>'
+        + '<text x="360" y="120" text-anchor="middle" fill="#64748b" font-size="9">States: relationship / effect EXISTS</text>'
+        + '<text x="360" y="140" text-anchor="middle" fill="#64748b" font-size="8.5" font-family="monospace">e.g. Training REDUCES</text>'
+        + '<text x="360" y="158" text-anchor="middle" fill="#64748b" font-size="8.5" font-family="monospace">infection rates</text>'
+        + '<text x="360" y="195" text-anchor="middle" fill="#22c55e" font-size="9" font-weight="700">← We HOPE TO SUPPORT THIS</text>'
+      + '</svg>'
+      + '<div class="diagram-key"><strong>Hypothesis testing works by trying to REJECT H₀.</strong> H₀ says nothing is happening (no effect). H₁ says something IS happening (there is a relationship or difference). If our data is strong enough, we reject H₀ and accept H₁ — this supports our research hypothesis.</div>'
+    + '</div>';
+  },
+
+  // NRS-U2-C. VARIABLE RELATIONSHIP — IV → Moderating/Confounding → DV
+  variableRelationship: function () {
+    var W = 500;
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">🔗 Animated: Types of Variables &amp; Their Relationships</div>'
+      + '<svg viewBox="0 0 ' + W + ' 260" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">'
+        + '<defs><marker id="vra" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#6366f1"/></marker>'
+        + '<marker id="vra2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#f59e0b"/></marker></defs>'
+        // IV box
+        + '<rect x="20" y="80" width="130" height="60" rx="10" fill="#6366f1" fill-opacity="0.12" stroke="#6366f1" stroke-width="2.2">'
+        + '<animate attributeName="fill-opacity" values="0.08;0.22;0.08" dur="3s" repeatCount="indefinite"/></rect>'
+        + '<text x="85" y="108" text-anchor="middle" fill="#4f46e5" font-size="11" font-weight="700">Independent</text>'
+        + '<text x="85" y="124" text-anchor="middle" fill="#4f46e5" font-size="9">Variable (IV) = Cause</text>'
+        + '<text x="85" y="58" text-anchor="middle" fill="#4f46e5" font-size="8.5" font-family="monospace">e.g. Teaching method</text>'
+        // Main arrow
+        + '<path d="M150,110 L340,110" fill="none" stroke="#6366f1" stroke-width="2.5" marker-end="url(#vra)">'
+        + '<animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/></path>'
+        // Moving particle
+        + '<circle r="5" fill="#f43f5e"><animateMotion dur="2s" repeatCount="indefinite" path="M150,110 L340,110"/></circle>'
+        // DV box
+        + '<rect x="345" y="80" width="135" height="60" rx="10" fill="#ec4899" fill-opacity="0.12" stroke="#ec4899" stroke-width="2.2">'
+        + '<animate attributeName="fill-opacity" values="0.08;0.22;0.08" dur="3s" begin="1.5s" repeatCount="indefinite"/></rect>'
+        + '<text x="412" y="108" text-anchor="middle" fill="#be185d" font-size="11" font-weight="700">Dependent</text>'
+        + '<text x="412" y="124" text-anchor="middle" fill="#be185d" font-size="9">Variable (DV) = Effect</text>'
+        + '<text x="412" y="58" text-anchor="middle" fill="#be185d" font-size="8.5" font-family="monospace">e.g. Student scores</text>'
+        // Moderating
+        + '<rect x="155" y="150" width="120" height="48" rx="8" fill="#8b5cf6" fill-opacity="0.12" stroke="#8b5cf6" stroke-width="1.8" stroke-dasharray="6 4">'
+        + '<animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite"/></rect>'
+        + '<text x="215" y="172" text-anchor="middle" fill="#7c3aed" font-size="9.5" font-weight="700">Moderating Variable</text>'
+        + '<text x="215" y="188" text-anchor="middle" fill="#64748b" font-size="8">e.g. Age, Gender (changes strength)</text>'
+        + '<line x1="215" y1="150" x2="215" y2="118" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#vra2)">'
+        + '<animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="2.8s" repeatCount="indefinite"/></line>'
+        // Confounding
+        + '<rect x="145" y="210" width="130" height="42" rx="8" fill="#f59e0b" fill-opacity="0.12" stroke="#f59e0b" stroke-width="1.8" stroke-dasharray="6 4">'
+        + '<animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3.2s" begin="0.8s" repeatCount="indefinite"/></rect>'
+        + '<text x="210" y="228" text-anchor="middle" fill="#b45309" font-size="9.5" font-weight="700">Confounding Variable</text>'
+        + '<text x="210" y="244" text-anchor="middle" fill="#64748b" font-size="8">e.g. Motivation (mixes with IV)</text>'
+      + '</svg>'
+      + '<div class="diagram-key"><strong>Variables tell us WHAT is being studied and HOW.</strong> <span style="color:#6366f1">IV</span> causes change. <span style="color:#ec4899">DV</span> shows that change. <span style="color:#8b5cf6">Moderating variable</span> changes the STRENGTH of relationship. <span style="color:#f59e0b">Confounding variable</span> mixes WITH the IV and confuses results — must be controlled!</div>'
+    + '</div>';
+  },
+
+  // NRS-U2-D. RESEARCH PROBLEM SOURCES — radial spoke diagram
+  researchProblemSources: function () {
+    var sources = [
+      { l: 'Clinical Practice', s: 'problems at bedside', c: '#6366f1', a: -90 },
+      { l: 'Literature', s: 'gaps in existing research', c: '#8b5cf6', a: -18 },
+      { l: 'Theory', s: 'untested concepts', c: '#ec4899', a: 54 },
+      { l: 'Personal Experience', s: 'nurse observations', c: '#f97316', a: 126 },
+      { l: 'Social Issues', s: 'community health needs', c: '#22c55e', a: 198 }
+    ];
+    var cx = 230, cy = 175, r = 120, rN = 40, svg = '', spokes = '';
+    for (var n = 0; n < sources.length; n++) {
+      var s = sources[n], rad = s.a * Math.PI / 180;
+      var nx = cx + r * Math.cos(rad), ny = cy + r * Math.sin(rad), d = (n * 0.35).toFixed(1);
+      spokes += '<line x1="' + cx + '" y1="' + cy + '" x2="' + nx.toFixed(1) + '" y2="' + ny.toFixed(1) + '" stroke="' + s.c + '" stroke-width="2">'
+        + '<animate attributeName="stroke-opacity" values="0.25;0.9;0.25" dur="3s" begin="' + d + 's" repeatCount="indefinite"/></line>';
+      svg += '<circle cx="' + nx.toFixed(1) + '" cy="' + ny.toFixed(1) + '" r="' + rN + '" fill="' + s.c + '" opacity="0.12">'
+        + '<animate attributeName="opacity" values="0.08;0.22;0.08" dur="3s" begin="' + d + 's" repeatCount="indefinite"/></circle>'
+        + '<circle cx="' + nx.toFixed(1) + '" cy="' + ny.toFixed(1) + '" r="' + rN + '" fill="none" stroke="' + s.c + '" stroke-width="2">'
+        + '<animate attributeName="stroke-width" values="1.5;3;1.5" dur="3s" begin="' + d + 's" repeatCount="indefinite"/></circle>';
+      var ws = s.l.split(' ');
+      svg += '<text x="' + nx.toFixed(1) + '" y="' + (ny - 6) + '" text-anchor="middle" fill="' + s.c + '" font-size="8.5" font-weight="700">' + ws[0] + '</text>';
+      if (ws.length > 1) svg += '<text x="' + nx.toFixed(1) + '" y="' + (ny + 6) + '" text-anchor="middle" fill="' + s.c + '" font-size="8.5" font-weight="700">' + ws.slice(1).join(' ') + '</text>';
+      svg += '<text x="' + nx.toFixed(1) + '" y="' + (ny + 18) + '" text-anchor="middle" fill="#64748b" font-size="7">' + s.s + '</text>';
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">💡 Animated: 5 Sources of a Research Problem</div>'
+      + '<svg viewBox="0 0 460 350" width="100%" style="max-width:460px;display:block;margin:0 auto;">'
+        + spokes + svg
+        + '<circle cx="' + cx + '" cy="' + cy + '" r="36" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>'
+        + '<text x="' + cx + '" y="' + (cy - 4) + '" text-anchor="middle" fill="#334155" font-size="9" font-weight="700">Research</text>'
+        + '<text x="' + cx + '" y="' + (cy + 10) + '" text-anchor="middle" fill="#334155" font-size="9" font-weight="700">Problem</text>'
+      + '</svg>'
+      + '<div class="diagram-key"><strong>A good research problem comes from real needs.</strong> <span style="color:#6366f1">Clinical Practice</span> (what puzzles you at the bedside), <span style="color:#8b5cf6">Literature</span> (what gaps exist in research), <span style="color:#ec4899">Theory</span> (untested concepts), <span style="color:#f97316">Personal Experience</span> (observations as a nurse), <span style="color:#22c55e">Social Issues</span> (community health needs). All spokes pulse outward from the central problem.</div>'
+    + '</div>';
+  },
+
+  // ══════════════════════════════════════════════════════════════════
+  // NRS UNIT 3 — NEW DIAGRAMS (Review of Literature)
+  // ══════════════════════════════════════════════════════════════════
+
+  // NRS-U3-A. ROL FUNNEL — dots falling through stages
+  rolFunnel: function () {
+    var stages = [
+      { l: 'Identify Topic', s: 'What do you want to know?', c: '#6366f1', y: 30, w: 400 },
+      { l: 'Broad Search', s: 'PubMed, CINAHL, Google Scholar', c: '#8b5cf6', y: 80, w: 340 },
+      { l: 'Screen Titles & Abstracts', s: 'Remove irrelevant papers', c: '#ec4899', y: 130, w: 270 },
+      { l: 'Read Full Text', s: 'Apply inclusion/exclusion criteria', c: '#f97316', y: 180, w: 200 },
+      { l: 'Evaluate Quality', s: 'Check design, sample, bias', c: '#f59e0b', y: 230, w: 140 },
+      { l: 'Synthesise & Write', s: 'Summarise, compare, conclude', c: '#22c55e', y: 280, w: 100 }
+    ];
+    var W = 500, cx = W / 2;
+    var svg = '';
+    for (var i = 0; i < stages.length; i++) {
+      var st = stages[i], delay = (i * 0.4).toFixed(1);
+      svg += '<rect x="' + (cx - st.w / 2) + '" y="' + st.y + '" width="' + st.w + '" height="36" rx="8" fill="' + st.c + '" fill-opacity="0.12" stroke="' + st.c + '" stroke-width="2">'
+        + '<animate attributeName="fill-opacity" values="0.08;0.24;0.08" dur="3.5s" begin="' + delay + 's" repeatCount="indefinite"/></rect>'
+        + '<text x="' + cx + '" y="' + (st.y + 16) + '" text-anchor="middle" fill="' + st.c + '" font-size="10.5" font-weight="700">' + st.l + '</text>'
+        + '<text x="' + cx + '" y="' + (st.y + 30) + '" text-anchor="middle" fill="#64748b" font-size="8">' + st.s + '</text>';
+      if (i < stages.length - 1) {
+        var nextW = stages[i + 1].w;
+        svg += '<line x1="' + cx + '" y1="' + (st.y + 36) + '" x2="' + cx + '" y2="' + (stages[i + 1].y) + '" stroke="' + st.c + '" stroke-width="1.5" stroke-dasharray="4 3">'
+          + '<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3.5s" begin="' + delay + 's" repeatCount="indefinite"/></line>';
+      }
+    }
+    // Animated falling dots
+    svg += '<circle r="4" fill="#6366f1" opacity="0.6"><animateMotion dur="3s" repeatCount="indefinite" path="M250,30 L250,316"/></circle>';
+    svg += '<circle r="4" fill="#22c55e" opacity="0.6"><animateMotion dur="3s" begin="1.5s" repeatCount="indefinite" path="M250,30 L250,316"/></circle>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">🔽 Animated: Literature Review Funnel (ROL Steps)</div>'
+      + '<svg viewBox="0 0 ' + W + ' 330" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">' + svg + '</svg>'
+      + '<div class="diagram-key"><strong>The literature review narrows from broad to specific like a funnel.</strong> Start with many papers → screen titles → read abstracts → apply criteria → evaluate quality → synthesise into your review. Dots fall through the funnel representing papers that pass each stage.</div>'
+    + '</div>';
+  },
+
+  // NRS-U3-B. ROL SOURCES — Primary vs Secondary circles
+  rolSources: function () {
+    var W = 480;
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">📚 Animated: Sources of Literature Review</div>'
+      + '<svg viewBox="0 0 ' + W + ' 300" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">'
+        // Primary circle
+        + '<ellipse cx="155" cy="150" rx="130" ry="110" fill="#6366f1" fill-opacity="0.1" stroke="#6366f1" stroke-width="2.5">'
+        + '<animate attributeName="rx" values="128;136;128" dur="4s" repeatCount="indefinite"/></ellipse>'
+        + '<text x="90" y="70" text-anchor="middle" fill="#4f46e5" font-size="12" font-weight="700">PRIMARY</text>'
+        + '<text x="90" y="86" text-anchor="middle" fill="#4f46e5" font-size="9">Original research</text>'
+        + '<text x="90" y="110" text-anchor="middle" fill="#4f46e5" font-size="9">• Research journals</text>'
+        + '<text x="90" y="126" text-anchor="middle" fill="#4f46e5" font-size="9">• Theses / dissertations</text>'
+        + '<text x="90" y="142" text-anchor="middle" fill="#4f46e5" font-size="9">• Conference papers</text>'
+        + '<text x="90" y="158" text-anchor="middle" fill="#4f46e5" font-size="9">• Government reports</text>'
+        // Secondary circle
+        + '<ellipse cx="325" cy="150" rx="130" ry="110" fill="#22c55e" fill-opacity="0.1" stroke="#22c55e" stroke-width="2.5">'
+        + '<animate attributeName="rx" values="128;136;128" dur="4s" begin="2s" repeatCount="indefinite"/></ellipse>'
+        + '<text x="390" y="70" text-anchor="middle" fill="#15803d" font-size="12" font-weight="700">SECONDARY</text>'
+        + '<text x="390" y="86" text-anchor="middle" fill="#15803d" font-size="9">Compiled research</text>'
+        + '<text x="390" y="110" text-anchor="middle" fill="#15803d" font-size="9">• Textbooks</text>'
+        + '<text x="390" y="126" text-anchor="middle" fill="#15803d" font-size="9">• Review articles</text>'
+        + '<text x="390" y="142" text-anchor="middle" fill="#15803d" font-size="9">• Encyclopaedias</text>'
+        + '<text x="390" y="158" text-anchor="middle" fill="#15803d" font-size="9">• Abstracts &amp; indexes</text>'
+        // Centre overlap
+        + '<circle cx="240" cy="150" r="24" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2">'
+        + '<animate attributeName="r" values="22;28;22" dur="2.5s" repeatCount="indefinite"/></circle>'
+        + '<text x="240" y="146" text-anchor="middle" fill="#334155" font-size="8" font-weight="700">Also</text>'
+        + '<text x="240" y="158" text-anchor="middle" fill="#334155" font-size="8" font-weight="700">Tertiary</text>'
+        + '<text x="240" y="260" text-anchor="middle" fill="#64748b" font-size="9" font-family="monospace">PubMed · CINAHL · Cochrane Library · WHO · ICMR</text>'
+      + '</svg>'
+      + '<div class="diagram-key"><strong>Know where to look for literature.</strong> <span style="color:#6366f1">Primary sources</span> = original research (best!). <span style="color:#22c55e">Secondary sources</span> = compiled/reviewed work. Tertiary = indexes &amp; databases (like PubMed, CINAHL) that help you FIND primary sources. Always prefer peer-reviewed primary sources for highest credibility.</div>'
+    + '</div>';
+  },
+
+  // NRS-U3-C. PRISMA DIAGRAM — systematic review flowchart
+  prismaDiagram: function () {
+    var W = 440;
+    function pBox(x, y, w, h, label, n, c) {
+      return '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="8" fill="' + c + '" fill-opacity="0.12" stroke="' + c + '" stroke-width="2">'
+        + '<animate attributeName="fill-opacity" values="0.08;0.22;0.08" dur="3.5s" begin="' + (n * 0.4).toFixed(1) + 's" repeatCount="indefinite"/></rect>'
+        + '<text x="' + (x + w / 2) + '" y="' + (y + h / 2 + 4) + '" text-anchor="middle" fill="' + c + '" font-size="9" font-weight="700">' + label + '</text>';
+    }
+    function pArrow(x1, y1, x2, y2, n) {
+      return '<line x1="' + x1 + '" y1="' + y1 + '" x2="' + x2 + '" y2="' + y2 + '" stroke="#94a3b8" stroke-width="1.8" marker-end="url(#pda)">'
+        + '<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3.5s" begin="' + (n * 0.4).toFixed(1) + 's" repeatCount="indefinite"/></line>';
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">🔍 Animated: PRISMA Flow — Systematic Review</div>'
+      + '<svg viewBox="0 0 ' + W + ' 380" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">'
+        + '<defs><marker id="pda" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker></defs>'
+        + '<text x="' + (W / 2) + '" y="16" text-anchor="middle" fill="#334155" font-size="11" font-weight="700">PRISMA 2020 Flow Diagram</text>'
+        + pBox(100, 24, 240, 36, 'Records IDENTIFIED via databases (n=500)', 0, '#6366f1')
+        + pArrow(220, 60, 220, 78, 0)
+        + pBox(100, 78, 240, 36, 'Records SCREENED by title/abstract', 1, '#8b5cf6')
+        + pBox(350, 78, 80, 36, 'Excluded (n=320)', 1, '#ef4444')
+        + pArrow(340, 96, 350, 96, 1)
+        + pArrow(220, 114, 220, 132, 1)
+        + pBox(100, 132, 240, 36, 'Full-text articles ASSESSED', 2, '#f97316')
+        + pBox(350, 132, 80, 36, 'Excluded with reasons (n=140)', 2, '#ef4444')
+        + pArrow(340, 150, 350, 150, 2)
+        + pArrow(220, 168, 220, 186, 2)
+        + pBox(100, 186, 240, 36, 'Studies INCLUDED in review (n=40)', 3, '#22c55e')
+        + pArrow(220, 222, 220, 240, 3)
+        + pBox(80, 240, 280, 54, 'SYNTHESIS — themes, meta-analysis, conclusions', 4, '#0d9488')
+        + '<text x="' + (W / 2) + '" y="320" text-anchor="middle" fill="#64748b" font-size="9" font-family="monospace">500 identified → 180 screened → 40 full-text → 40 included</text>'
+      + '</svg>'
+      + '<div class="diagram-key"><strong>PRISMA = Preferred Reporting Items for Systematic Reviews and Meta-Analyses.</strong> Every systematic review must report HOW papers were found and screened. Numbers shrink at each stage as papers are excluded for good reasons. Only quality, relevant papers make it to the final synthesis.</div>'
+    + '</div>';
+  },
+
+  // NRS-U3-D. ROL PURPOSES — hexagon arrangement
+  rolPurposes: function () {
+    var purposes = [
+      { l: 'Identify Gaps', s: 'what is NOT yet known', c: '#6366f1', a: -90 },
+      { l: 'Avoid Duplication', s: 'no repeat of done work', c: '#8b5cf6', a: -30 },
+      { l: 'Build Framework', s: 'theoretical base', c: '#ec4899', a: 30 },
+      { l: 'Select Design', s: 'learn from past methods', c: '#f97316', a: 90 },
+      { l: 'Interpret Results', s: 'compare own findings', c: '#22c55e', a: 150 },
+      { l: 'Justify Study', s: 'show why it matters', c: '#0d9488', a: 210 }
+    ];
+    var cx = 230, cy = 168, r = 115, rN = 40, svg = '', spokes = '';
+    for (var n = 0; n < purposes.length; n++) {
+      var p = purposes[n], rad = p.a * Math.PI / 180;
+      var nx = cx + r * Math.cos(rad), ny = cy + r * Math.sin(rad), d = (n * 0.35).toFixed(1);
+      spokes += '<line x1="' + cx + '" y1="' + cy + '" x2="' + nx.toFixed(1) + '" y2="' + ny.toFixed(1) + '" stroke="' + p.c + '" stroke-width="1.8">'
+        + '<animate attributeName="stroke-opacity" values="0.25;0.9;0.25" dur="3s" begin="' + d + 's" repeatCount="indefinite"/></line>';
+      svg += '<circle cx="' + nx.toFixed(1) + '" cy="' + ny.toFixed(1) + '" r="' + rN + '" fill="' + p.c + '" opacity="0.12">'
+        + '<animate attributeName="opacity" values="0.08;0.22;0.08" dur="3s" begin="' + d + 's" repeatCount="indefinite"/></circle>'
+        + '<circle cx="' + nx.toFixed(1) + '" cy="' + ny.toFixed(1) + '" r="' + rN + '" fill="none" stroke="' + p.c + '" stroke-width="2">'
+        + '<animate attributeName="stroke-width" values="1.5;3;1.5" dur="3s" begin="' + d + 's" repeatCount="indefinite"/></circle>';
+      var ws = p.l.split(' ');
+      svg += '<text x="' + nx.toFixed(1) + '" y="' + (ny - 5) + '" text-anchor="middle" fill="' + p.c + '" font-size="8.5" font-weight="700">' + ws[0] + '</text>';
+      if (ws.length > 1) svg += '<text x="' + nx.toFixed(1) + '" y="' + (ny + 7) + '" text-anchor="middle" fill="' + p.c + '" font-size="8.5" font-weight="700">' + ws.slice(1).join(' ') + '</text>';
+      svg += '<text x="' + nx.toFixed(1) + '" y="' + (ny + 19) + '" text-anchor="middle" fill="#64748b" font-size="7">' + p.s + '</text>';
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">🎯 Animated: 6 Purposes of Review of Literature</div>'
+      + '<svg viewBox="0 0 460 336" width="100%" style="max-width:460px;display:block;margin:0 auto;">'
+        + spokes + svg
+        + '<circle cx="' + cx + '" cy="' + cy + '" r="36" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>'
+        + '<text x="' + cx + '" y="' + (cy - 4) + '" text-anchor="middle" fill="#334155" font-size="9" font-weight="700">Purpose</text>'
+        + '<text x="' + cx + '" y="' + (cy + 10) + '" text-anchor="middle" fill="#334155" font-size="9" font-weight="700">of ROL</text>'
+      + '</svg>'
+      + '<div class="diagram-key"><strong>ROL is not just finding papers — it has 6 clear purposes.</strong> It helps identify research gaps, avoids duplicating work already done, builds a theoretical/conceptual framework, guides selection of research design, helps interpret your own results by comparison, and justifies why your study is needed.</div>'
+    + '</div>';
+  },
+
+  // ══════════════════════════════════════════════════════════════════
+  // NRS UNIT 4 — NEW DIAGRAMS (Research Design)
+  // ══════════════════════════════════════════════════════════════════
+
+  // NRS-U4-A. EXPERIMENTAL vs NON-EXPERIMENTAL — growing tree
+  experimentalVsNonExp: function () {
+    function node(x, y, w, h, label, sub, color, delay) {
+      return '<g><rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="7" fill="' + color + '" fill-opacity="0.12" stroke="' + color + '" stroke-width="2">'
+        + '<animate attributeName="fill-opacity" values="0.06;0.22;0.06" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/></rect>'
+        + '<text x="' + (x + w / 2) + '" y="' + (y + h / 2 - (sub ? 5 : 0)) + '" text-anchor="middle" fill="' + color + '" font-size="9.5" font-weight="700">' + label + '</text>'
+        + (sub ? '<text x="' + (x + w / 2) + '" y="' + (y + h / 2 + 9) + '" text-anchor="middle" fill="' + color + '" font-size="7.5">' + sub + '</text>' : '')
+        + '</g>';
+    }
+    function edge(x1, y1, x2, y2, color, delay) {
+      return '<line x1="' + x1 + '" y1="' + y1 + '" x2="' + x2 + '" y2="' + y2 + '" stroke="' + color + '" stroke-width="1.6">'
+        + '<animate attributeName="stroke-opacity" values="0.25;0.9;0.25" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/></line>';
+    }
+    var W = 540;
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">🌳 Animated: Experimental vs Non-Experimental Design</div>'
+      + '<svg viewBox="0 0 ' + W + ' 330" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">'
+        + node(W / 2 - 75, 10, 150, 34, 'Research Design', '', '#334155', 0)
+        + edge(W / 2, 44, 140, 90, '#6366f1', 0.2) + edge(W / 2, 44, W - 140, 90, '#22c55e', 0.6)
+        + node(50, 90, 180, 34, 'Experimental', 'manipulates IV', '#6366f1', 0.2)
+        + node(W - 230, 90, 180, 34, 'Non-Experimental', 'observes as-is', '#22c55e', 0.6)
+        + edge(140, 124, 80, 178, '#6366f1', 0.4) + edge(140, 124, 160, 178, '#6366f1', 0.8)
+        + node(20, 178, 105, 34, 'True Experimental', 'RCT, control grp', '#6366f1', 0.4)
+        + node(130, 178, 105, 34, 'Quasi-Exp.', 'no randomisation', '#8b5cf6', 0.8)
+        + edge(W - 140, 124, W - 210, 178, '#22c55e', 0.9) + edge(W - 140, 124, W - 110, 178, '#22c55e', 1.2) + edge(W - 140, 124, W - 30, 178, '#0d9488', 1.4)
+        + node(W - 270, 178, 100, 34, 'Descriptive', 'survey, census', '#22c55e', 0.9)
+        + node(W - 158, 178, 90, 34, 'Correlational', 'find relationship', '#f59e0b', 1.2)
+        + node(W - 58, 178, 80, 34, 'Historical', 'past records', '#0d9488', 1.4)
+        + edge(80, 212, 50, 260, '#6366f1', 1.0) + edge(80, 212, 120, 260, '#6366f1', 1.2)
+        + node(10, 260, 80, 32, 'Pre-test Post-test', 'one group', '#6366f1', 1.0)
+        + node(100, 260, 80, 32, 'Solomon 4 Group', 'gold standard', '#6366f1', 1.2)
+      + '</svg>'
+      + '<div class="diagram-key"><strong>Experimental designs MANIPULATE a variable; non-experimental ones OBSERVE without changing anything.</strong> True experimental = randomised, control group (best for cause-effect). Quasi = experimental-like but no randomisation. Non-experimental includes descriptive (surveys), correlational, and historical studies.</div>'
+    + '</div>';
+  },
+
+  // NRS-U4-B. RANDOMISATION PROCESS — dots scattering into two groups
+  randomisationProcess: function () {
+    var W = 480, dotCount = 12;
+    var svg = '';
+    // Population box
+    svg += '<rect x="170" y="10" width="140" height="50" rx="10" fill="#6366f1" fill-opacity="0.12" stroke="#6366f1" stroke-width="2">'
+      + '<animate attributeName="fill-opacity" values="0.08;0.2;0.08" dur="3s" repeatCount="indefinite"/></rect>'
+      + '<text x="240" y="32" text-anchor="middle" fill="#4f46e5" font-size="11" font-weight="700">Population</text>'
+      + '<text x="240" y="50" text-anchor="middle" fill="#4f46e5" font-size="9">all eligible participants</text>';
+    // Random allocation box
+    svg += '<line x1="240" y1="60" x2="240" y2="90" stroke="#94a3b8" stroke-width="2" marker-end="url(#rpa2)">'
+      + '<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/></line>'
+      + '<rect x="160" y="90" width="160" height="44" rx="10" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-width="2">'
+      + '<animate attributeName="fill-opacity" values="0.1;0.28;0.1" dur="2s" repeatCount="indefinite"/></rect>'
+      + '<text x="240" y="110" text-anchor="middle" fill="#b45309" font-size="11" font-weight="700">🎲 RANDOM ALLOCATION</text>'
+      + '<text x="240" y="126" text-anchor="middle" fill="#b45309" font-size="8.5">Equal chance for everyone</text>';
+    // Two group arrows
+    svg += '<line x1="200" y1="134" x2="120" y2="170" stroke="#94a3b8" stroke-width="2" marker-end="url(#rpa2)">'
+      + '<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="2s" begin="0.5s" repeatCount="indefinite"/></line>'
+      + '<line x1="280" y1="134" x2="360" y2="170" stroke="#94a3b8" stroke-width="2" marker-end="url(#rpa2)">'
+      + '<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="2s" begin="1s" repeatCount="indefinite"/></line>';
+    // Control group
+    svg += '<rect x="20" y="170" width="185" height="70" rx="10" fill="#22c55e" fill-opacity="0.12" stroke="#22c55e" stroke-width="2">'
+      + '<animate attributeName="fill-opacity" values="0.08;0.2;0.08" dur="3s" begin="0.5s" repeatCount="indefinite"/></rect>'
+      + '<text x="112" y="194" text-anchor="middle" fill="#15803d" font-size="11" font-weight="700">CONTROL GROUP</text>'
+      + '<text x="112" y="210" text-anchor="middle" fill="#15803d" font-size="9">No intervention</text>'
+      + '<text x="112" y="226" text-anchor="middle" fill="#64748b" font-size="8.5">Standard care / placebo</text>';
+    // Experimental group
+    svg += '<rect x="275" y="170" width="185" height="70" rx="10" fill="#ec4899" fill-opacity="0.12" stroke="#ec4899" stroke-width="2">'
+      + '<animate attributeName="fill-opacity" values="0.08;0.2;0.08" dur="3s" begin="1s" repeatCount="indefinite"/></rect>'
+      + '<text x="367" y="194" text-anchor="middle" fill="#be185d" font-size="11" font-weight="700">EXPERIMENTAL</text>'
+      + '<text x="367" y="210" text-anchor="middle" fill="#be185d" font-size="9">Receives intervention</text>'
+      + '<text x="367" y="226" text-anchor="middle" fill="#64748b" font-size="8.5">New drug / teaching method</text>';
+    // Compare arrow + result
+    svg += '<line x1="205" y1="205" x2="275" y2="205" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 4">'
+      + '<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></line>'
+      + '<text x="240" y="258" text-anchor="middle" fill="#64748b" font-size="10" font-weight="700">COMPARE OUTCOMES</text>'
+      + '<rect x="140" y="264" width="200" height="36" rx="8" fill="#0d9488" fill-opacity="0.12" stroke="#0d9488" stroke-width="2">'
+      + '<animate attributeName="fill-opacity" values="0.08;0.22;0.08" dur="2.5s" repeatCount="indefinite"/></rect>'
+      + '<text x="240" y="286" text-anchor="middle" fill="#0f766e" font-size="10.5" font-weight="700">Cause-and-Effect Conclusion</text>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">🎲 Animated: Randomisation Process in Experimental Design</div>'
+      + '<svg viewBox="0 0 ' + W + ' 310" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">'
+        + '<defs><marker id="rpa2" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker></defs>'
+        + svg
+      + '</svg>'
+      + '<div class="diagram-key"><strong>Randomisation is what makes an experiment UNBIASED.</strong> Every participant has an equal chance to be in either group. This removes selection bias. After the study, comparing control vs experimental groups shows whether the intervention CAUSED the difference. Without randomisation, we cannot claim cause-and-effect.</div>'
+    + '</div>';
+  },
+
+  // NRS-U4-C. CASE-CONTROL vs COHORT — timeline comparison
+  caseControlVsCohort: function () {
+    var W = 500;
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">⏱️ Animated: Case-Control (Backwards) vs Cohort (Forwards)</div>'
+      + '<svg viewBox="0 0 ' + W + ' 280" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">'
+        + '<defs><marker id="cca" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#6366f1"/></marker>'
+        + '<marker id="cca2" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#ec4899"/></marker></defs>'
+        + '<text x="' + (W / 2) + '" y="18" text-anchor="middle" fill="#334155" font-size="12" font-weight="700">Direction of Time →</text>'
+        // COHORT
+        + '<rect x="16" y="34" width="460" height="84" rx="12" fill="#6366f1" fill-opacity="0.06" stroke="#6366f1" stroke-width="1.5"/>'
+        + '<text x="24" y="52" fill="#4f46e5" font-size="11" font-weight="700">COHORT Study (Prospective — looks FORWARD)</text>'
+        + '<rect x="30" y="60" width="100" height="46" rx="8" fill="#6366f1" fill-opacity="0.15" stroke="#6366f1" stroke-width="2">'
+        + '<animate attributeName="fill-opacity" values="0.1;0.25;0.1" dur="3s" repeatCount="indefinite"/></rect>'
+        + '<text x="80" y="80" text-anchor="middle" fill="#4f46e5" font-size="9" font-weight="700">Exposed group</text>'
+        + '<text x="80" y="95" text-anchor="middle" fill="#64748b" font-size="8">follow up years</text>'
+        + '<line x1="130" y1="83" x2="350" y2="83" stroke="#6366f1" stroke-width="2" marker-end="url(#cca)">'
+        + '<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></line>'
+        + '<rect x="355" y="60" width="100" height="46" rx="8" fill="#22c55e" fill-opacity="0.15" stroke="#22c55e" stroke-width="2">'
+        + '<animate attributeName="fill-opacity" values="0.1;0.25;0.1" dur="3s" begin="0.5s" repeatCount="indefinite"/></rect>'
+        + '<text x="405" y="80" text-anchor="middle" fill="#15803d" font-size="9" font-weight="700">Outcome?</text>'
+        + '<text x="405" y="95" text-anchor="middle" fill="#64748b" font-size="8">disease / no disease</text>'
+        // CASE-CONTROL
+        + '<rect x="16" y="134" width="460" height="84" rx="12" fill="#ec4899" fill-opacity="0.06" stroke="#ec4899" stroke-width="1.5"/>'
+        + '<text x="24" y="152" fill="#be185d" font-size="11" font-weight="700">CASE-CONTROL Study (Retrospective — looks BACKWARD)</text>'
+        + '<rect x="355" y="160" width="100" height="46" rx="8" fill="#ec4899" fill-opacity="0.15" stroke="#ec4899" stroke-width="2">'
+        + '<animate attributeName="fill-opacity" values="0.1;0.25;0.1" dur="3s" begin="1s" repeatCount="indefinite"/></rect>'
+        + '<text x="405" y="181" text-anchor="middle" fill="#be185d" font-size="9" font-weight="700">Cases (diseased)</text>'
+        + '<text x="405" y="197" text-anchor="middle" fill="#64748b" font-size="8">start here</text>'
+        + '<line x1="355" y1="183" x2="130" y2="183" stroke="#ec4899" stroke-width="2" marker-end="url(#cca2)">'
+        + '<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="1s" repeatCount="indefinite"/></line>'
+        + '<rect x="30" y="160" width="100" height="46" rx="8" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-width="2">'
+        + '<animate attributeName="fill-opacity" values="0.1;0.25;0.1" dur="3s" begin="1.5s" repeatCount="indefinite"/></rect>'
+        + '<text x="80" y="181" text-anchor="middle" fill="#b45309" font-size="9" font-weight="700">Past exposure?</text>'
+        + '<text x="80" y="197" text-anchor="middle" fill="#64748b" font-size="8">look back in records</text>'
+        // Timeline
+        + '<text x="' + (W / 2) + '" y="240" text-anchor="middle" fill="#334155" font-size="10" font-weight="700">←————— PAST ——— NOW ——— FUTURE —————→</text>'
+      + '</svg>'
+      + '<div class="diagram-key"><strong>Cohort = follow people FORWARD to see who gets disease. Case-Control = start with diseased people and look BACKWARD for past exposure.</strong> Cohort shows incidence (rate). Case-control is faster &amp; cheaper for rare diseases. Both are observational — no manipulation of variables.</div>'
+    + '</div>';
+  },
+
+  // NRS-U4-D. QUALITATIVE APPROACHES — radial diagram
+  qualApproaches: function () {
+    var approaches = [
+      { l: 'Phenomenology', s: 'lived experience\nof individuals', c: '#6366f1', a: -90 },
+      { l: 'Grounded Theory', s: 'build theory\nfrom data', c: '#8b5cf6', a: -18 },
+      { l: 'Ethnography', s: 'culture &amp;\nbehaviour', c: '#ec4899', a: 54 },
+      { l: 'Case Study', s: 'in-depth one\nunit analysis', c: '#f97316', a: 126 },
+      { l: 'Historical', s: 'past events\n&amp; records', c: '#22c55e', a: 198 }
+    ];
+    var cx = 230, cy = 168, r = 118, rN = 42, svg = '', spokes = '';
+    for (var n = 0; n < approaches.length; n++) {
+      var ap = approaches[n], rad = ap.a * Math.PI / 180;
+      var nx = cx + r * Math.cos(rad), ny = cy + r * Math.sin(rad), d = (n * 0.4).toFixed(1);
+      spokes += '<line x1="' + cx + '" y1="' + cy + '" x2="' + nx.toFixed(1) + '" y2="' + ny.toFixed(1) + '" stroke="' + ap.c + '" stroke-width="1.8">'
+        + '<animate attributeName="stroke-opacity" values="0.25;0.9;0.25" dur="3.5s" begin="' + d + 's" repeatCount="indefinite"/></line>';
+      svg += '<circle cx="' + nx.toFixed(1) + '" cy="' + ny.toFixed(1) + '" r="' + rN + '" fill="' + ap.c + '" opacity="0.12">'
+        + '<animate attributeName="opacity" values="0.08;0.24;0.08" dur="3.5s" begin="' + d + 's" repeatCount="indefinite"/></circle>'
+        + '<circle cx="' + nx.toFixed(1) + '" cy="' + ny.toFixed(1) + '" r="' + rN + '" fill="none" stroke="' + ap.c + '" stroke-width="2">'
+        + '<animate attributeName="stroke-width" values="1.5;3;1.5" dur="3.5s" begin="' + d + 's" repeatCount="indefinite"/></circle>'
+        + '<text x="' + nx.toFixed(1) + '" y="' + (ny - 6) + '" text-anchor="middle" fill="' + ap.c + '" font-size="9" font-weight="700">' + ap.l + '</text>'
+        + '<text x="' + nx.toFixed(1) + '" y="' + (ny + 8) + '" text-anchor="middle" fill="#64748b" font-size="7.5">' + ap.s.split('\n')[0] + '</text>'
+        + '<text x="' + nx.toFixed(1) + '" y="' + (ny + 19) + '" text-anchor="middle" fill="#64748b" font-size="7.5">' + (ap.s.split('\n')[1] || '') + '</text>';
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">🔬 Animated: 5 Types of Qualitative Research Design</div>'
+      + '<svg viewBox="0 0 460 336" width="100%" style="max-width:460px;display:block;margin:0 auto;">'
+        + spokes + svg
+        + '<circle cx="' + cx + '" cy="' + cy + '" r="36" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>'
+        + '<text x="' + cx + '" y="' + (cy - 3) + '" text-anchor="middle" fill="#334155" font-size="9" font-weight="700">Qualitative</text>'
+        + '<text x="' + cx + '" y="' + (cy + 11) + '" text-anchor="middle" fill="#334155" font-size="9" font-weight="700">Designs</text>'
+      + '</svg>'
+      + '<div class="diagram-key"><strong>Qualitative research explores MEANING, not numbers.</strong> <span style="color:#6366f1">Phenomenology</span> = "what is it like?" <span style="color:#8b5cf6">Grounded Theory</span> = build new theory from data. <span style="color:#ec4899">Ethnography</span> = study culture in its natural setting. <span style="color:#f97316">Case Study</span> = deep dive into one unit. <span style="color:#22c55e">Historical</span> = analyse past records. Each approach answers different "why" questions.</div>'
+    + '</div>';
+  },
+
+  // ══════════════════════════════════════════════════════════════════
+  // NRS UNIT 5 — NEW DIAGRAMS (Data Collection)
+  // ══════════════════════════════════════════════════════════════════
+
+  // NRS-U5-A. LIKERT SCALE — interactive visual
+  likertScale: function () {
+    var W = 500;
+    var opts = [
+      { l: 'Strongly\nDisagree', emoji: '😠', c: '#ef4444', x: 36 },
+      { l: 'Disagree', emoji: '🙁', c: '#f97316', x: 116 },
+      { l: 'Neutral', emoji: '😐', c: '#f59e0b', x: 196 },
+      { l: 'Agree', emoji: '🙂', c: '#84cc16', x: 276 },
+      { l: 'Strongly\nAgree', emoji: '😄', c: '#22c55e', x: 356 }
+    ];
+    var svg = '<text x="250" y="18" text-anchor="middle" fill="#334155" font-size="11" font-weight="700">Statement: "I feel confident giving an injection."</text>';
+    for (var i = 0; i < opts.length; i++) {
+      var o = opts[i], delay = (i * 0.35).toFixed(1);
+      svg += '<rect x="' + o.x + '" y="30" width="68" height="90" rx="12" fill="' + o.c + '" fill-opacity="0.12" stroke="' + o.c + '" stroke-width="2">'
+        + '<animate attributeName="fill-opacity" values="0.08;0.24;0.08" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/></rect>'
+        + '<text x="' + (o.x + 34) + '" y="66" text-anchor="middle" font-size="28">' + o.emoji + '</text>'
+        + '<text x="' + (o.x + 34) + '" y="106" text-anchor="middle" fill="' + o.c + '" font-size="8.5" font-weight="700">' + (i + 1) + '</text>'
+        + '<text x="' + (o.x + 34) + '" y="118" text-anchor="middle" fill="' + o.c + '" font-size="7.5">' + o.l.split('\n')[0] + '</text>'
+        + '<text x="' + (o.x + 34) + '" y="129" text-anchor="middle" fill="' + o.c + '" font-size="7.5">' + (o.l.split('\n')[1] || '') + '</text>';
+    }
+    // Scale bar
+    svg += '<rect x="36" y="140" width="392" height="10" rx="5" fill="#e2e8f0"/>'
+      + '<rect x="36" y="140" width="392" height="10" rx="5" fill="url(#lsg)">'
+      + '<animate attributeName="width" values="0;392;392" dur="2s" repeatCount="1"/></rect>'
+      + '<defs><linearGradient id="lsg" x1="0%" y1="0%"><stop offset="0%" stop-color="#ef4444"/><stop offset="50%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#22c55e"/></linearGradient></defs>'
+      + '<circle r="8" fill="#334155"><animateMotion dur="4s" repeatCount="indefinite" path="M36,145 L428,145 L36,145"/></circle>'
+      + '<text x="250" y="172" text-anchor="middle" fill="#64748b" font-size="9" font-family="monospace">1=Strongly Disagree · 2=Disagree · 3=Neutral · 4=Agree · 5=Strongly Agree</text>'
+      + '<text x="250" y="188" text-anchor="middle" fill="#64748b" font-size="9" font-family="monospace">Score each item → add all scores → total = attitude measurement</text>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">📊 Animated: Likert Scale — 5-Point Attitude Measurement</div>'
+      + '<svg viewBox="0 0 ' + W + ' 200" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">' + svg + '</svg>'
+      + '<div class="diagram-key"><strong>Likert scale measures ATTITUDES with 5 response options.</strong> Participants choose 1-5 for each statement. Total score shows overall attitude. Commonly used in nursing research for: patient satisfaction, nurse attitudes, pain assessment, anxiety levels. The sliding dot shows responses range from extreme negative to extreme positive.</div>'
+    + '</div>';
+  },
+
+  // NRS-U5-B. CONTENT VALIDITY — expert panel process
+  contentValidity: function () {
+    var steps = [
+      { l: 'Draft Tool', s: 'researcher creates initial questionnaire', c: '#6366f1' },
+      { l: 'Expert Panel', s: '5-10 experts review each item', c: '#8b5cf6' },
+      { l: 'CVI Score', s: 'Content Validity Index calculated', c: '#ec4899' },
+      { l: 'Revise Items', s: 'poor items rewritten / removed', c: '#f97316' },
+      { l: 'Final Tool', s: 'CVI ≥ 0.80 = valid instrument', c: '#22c55e' }
+    ];
+    var W = 520, bW = 90, bH = 88, gap = 6, startX = (W - (steps.length * bW + (steps.length - 1) * gap)) / 2;
+    var svg = '';
+    for (var i = 0; i < steps.length; i++) {
+      var st = steps[i], x = startX + i * (bW + gap), delay = (i * 0.4).toFixed(1);
+      svg += '<rect x="' + x + '" y="30" width="' + bW + '" height="' + bH + '" rx="10" fill="' + st.c + '" fill-opacity="0.12" stroke="' + st.c + '" stroke-width="2">'
+        + '<animate attributeName="fill-opacity" values="0.08;0.24;0.08" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/></rect>'
+        + '<circle cx="' + (x + bW / 2) + '" cy="52" r="16" fill="' + st.c + '">'
+        + '<animate attributeName="r" values="14;18;14" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/></circle>'
+        + '<text x="' + (x + bW / 2) + '" y="57" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">' + (i + 1) + '</text>'
+        + '<text x="' + (x + bW / 2) + '" y="80" text-anchor="middle" fill="' + st.c + '" font-size="8.5" font-weight="700">' + st.l + '</text>'
+        + '<text x="' + (x + bW / 2) + '" y="96" text-anchor="middle" fill="#64748b" font-size="7">' + st.s.split(' ').slice(0, 4).join(' ') + '</text>'
+        + '<text x="' + (x + bW / 2) + '" y="108" text-anchor="middle" fill="#64748b" font-size="7">' + st.s.split(' ').slice(4).join(' ') + '</text>';
+      if (i < steps.length - 1) {
+        svg += '<line x1="' + (x + bW) + '" y1="74" x2="' + (x + bW + gap) + '" y2="74" stroke="#94a3b8" stroke-width="2" marker-end="url(#cva)">'
+          + '<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/></line>';
+      }
+    }
+    svg += '<text x="' + (W / 2) + '" y="18" text-anchor="middle" fill="#334155" font-size="11" font-weight="700">Content Validity Process (CVI ≥ 0.80 = Valid)</text>'
+      + '<text x="' + (W / 2) + '" y="140" text-anchor="middle" fill="#64748b" font-size="9" font-family="monospace">CVI = (No. of experts rating item relevant) ÷ (Total experts)</text>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">✅ Animated: Content Validity — Expert Review Process</div>'
+      + '<svg viewBox="0 0 ' + W + ' 155" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">'
+        + '<defs><marker id="cva" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker></defs>'
+        + svg
+      + '</svg>'
+      + '<div class="diagram-key"><strong>Content Validity = does the tool measure what it is supposed to measure?</strong> Experts rate each item as relevant (1) or not (0). CVI = agreed items ÷ total items. CVI ≥ 0.80 = acceptable. CVI ≥ 0.90 = excellent. This ensures every question in your questionnaire is meaningful and relevant to the topic.</div>'
+    + '</div>';
+  },
+
+  // NRS-U5-C. OBSERVATION TYPES — 2×2 grid
+  observationTypes: function () {
+    var W = 480;
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">👁️ Animated: Types of Observation — 2×2 Classification</div>'
+      + '<svg viewBox="0 0 ' + W + ' 280" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">'
+        // Axis labels
+        + '<text x="240" y="20" text-anchor="middle" fill="#334155" font-size="12" font-weight="700">OBSERVER ROLE →</text>'
+        + '<text x="14" y="160" text-anchor="middle" fill="#334155" font-size="11" font-weight="700" transform="rotate(-90,14,160)">STRUCTURE →</text>'
+        + '<text x="150" y="42" text-anchor="middle" fill="#6366f1" font-size="11" font-weight="700">Participant</text>'
+        + '<text x="330" y="42" text-anchor="middle" fill="#ec4899" font-size="11" font-weight="700">Non-Participant</text>'
+        + '<text x="53" y="112" text-anchor="middle" fill="#22c55e" font-size="9.5" font-weight="700" transform="rotate(-90,53,112)">STRUCTURED</text>'
+        + '<text x="53" y="212" text-anchor="middle" fill="#f97316" font-size="9.5" font-weight="700" transform="rotate(-90,53,212)">UNSTRUCTURED</text>'
+        // 4 quadrants
+        + '<rect x="68" y="52" width="168" height="96" rx="10" fill="#6366f1" fill-opacity="0.1" stroke="#6366f1" stroke-width="2">'
+        + '<animate attributeName="fill-opacity" values="0.07;0.2;0.07" dur="3s" repeatCount="indefinite"/></rect>'
+        + '<text x="152" y="88" text-anchor="middle" fill="#4f46e5" font-size="10.5" font-weight="700">Structured</text>'
+        + '<text x="152" y="104" text-anchor="middle" fill="#4f46e5" font-size="10.5" font-weight="700">Participant</text>'
+        + '<text x="152" y="122" text-anchor="middle" fill="#64748b" font-size="8">Observer joins &amp; uses checklist</text>'
+        + '<text x="152" y="136" text-anchor="middle" fill="#64748b" font-size="8">e.g. nurse working in ward</text>'
+
+        + '<rect x="244" y="52" width="168" height="96" rx="10" fill="#ec4899" fill-opacity="0.1" stroke="#ec4899" stroke-width="2">'
+        + '<animate attributeName="fill-opacity" values="0.07;0.2;0.07" dur="3s" begin="0.8s" repeatCount="indefinite"/></rect>'
+        + '<text x="328" y="88" text-anchor="middle" fill="#be185d" font-size="10.5" font-weight="700">Structured</text>'
+        + '<text x="328" y="104" text-anchor="middle" fill="#be185d" font-size="10.5" font-weight="700">Non-Participant</text>'
+        + '<text x="328" y="122" text-anchor="middle" fill="#64748b" font-size="8">Observer watches, uses checklist</text>'
+        + '<text x="328" y="136" text-anchor="middle" fill="#64748b" font-size="8">e.g. CCTV + observation form</text>'
+
+        + '<rect x="68" y="156" width="168" height="96" rx="10" fill="#22c55e" fill-opacity="0.1" stroke="#22c55e" stroke-width="2">'
+        + '<animate attributeName="fill-opacity" values="0.07;0.2;0.07" dur="3s" begin="1.6s" repeatCount="indefinite"/></rect>'
+        + '<text x="152" y="192" text-anchor="middle" fill="#15803d" font-size="10.5" font-weight="700">Unstructured</text>'
+        + '<text x="152" y="208" text-anchor="middle" fill="#15803d" font-size="10.5" font-weight="700">Participant</text>'
+        + '<text x="152" y="226" text-anchor="middle" fill="#64748b" font-size="8">Observer joins freely, field notes</text>'
+        + '<text x="152" y="240" text-anchor="middle" fill="#64748b" font-size="8">e.g. ethnographic immersion</text>'
+
+        + '<rect x="244" y="156" width="168" height="96" rx="10" fill="#f97316" fill-opacity="0.1" stroke="#f97316" stroke-width="2">'
+        + '<animate attributeName="fill-opacity" values="0.07;0.2;0.07" dur="3s" begin="2.4s" repeatCount="indefinite"/></rect>'
+        + '<text x="328" y="192" text-anchor="middle" fill="#c2410c" font-size="10.5" font-weight="700">Unstructured</text>'
+        + '<text x="328" y="208" text-anchor="middle" fill="#c2410c" font-size="10.5" font-weight="700">Non-Participant</text>'
+        + '<text x="328" y="226" text-anchor="middle" fill="#64748b" font-size="8">Observer watches freely, notes</text>'
+        + '<text x="328" y="240" text-anchor="middle" fill="#64748b" font-size="8">e.g. watching crowd behaviour</text>'
+      + '</svg>'
+      + '<div class="diagram-key"><strong>2 dimensions create 4 types of observation.</strong> Structured = uses a pre-designed checklist. Unstructured = free-form field notes. Participant = observer joins the group. Non-participant = observer stays outside &amp; just watches. Choose based on what your research needs — control or naturalism.</div>'
+    + '</div>';
+  },
+
+  // ══════════════════════════════════════════════════════════════════
+  // NRS UNIT 6 — NEW DIAGRAMS (Analysis of Data)
+  // ══════════════════════════════════════════════════════════════════
+
+  // NRS-U6-A. DATA ANALYSIS PIPELINE — animated conveyor belt
+  dataAnalysisFlow: function () {
+    var steps = [
+      { l: 'RAW DATA', s: 'collected responses', c: '#ef4444', icon: '📋' },
+      { l: 'EDITING', s: 'check for errors', c: '#f97316', icon: '✏️' },
+      { l: 'CODING', s: 'assign numbers', c: '#f59e0b', icon: '🔢' },
+      { l: 'CLASSIFICATION', s: 'group similar data', c: '#84cc16', icon: '🗂️' },
+      { l: 'TABULATION', s: 'rows &amp; columns', c: '#22c55e', icon: '📊' },
+      { l: 'PRESENTATION', s: 'tables &amp; graphs', c: '#0d9488', icon: '📈' },
+      { l: 'INTERPRETATION', s: 'meaning &amp; conclusions', c: '#6366f1', icon: '💡' }
+    ];
+    var W = 560, bW = 72, bH = 80, gap = 4, startX = (W - (steps.length * bW + (steps.length - 1) * gap)) / 2;
+    var svg = '<text x="' + (W / 2) + '" y="18" text-anchor="middle" fill="#334155" font-size="12" font-weight="700">Data Analysis Pipeline</text>';
+    var conveyorY = 120;
+    // Conveyor belt track
+    svg += '<rect x="' + startX + '" y="' + (conveyorY + 4) + '" width="' + (steps.length * bW + (steps.length - 1) * gap) + '" height="8" rx="4" fill="#e2e8f0"/>';
+    // Moving particle on belt
+    var beltW = steps.length * bW + (steps.length - 1) * gap;
+    svg += '<circle r="5" fill="#f43f5e" opacity="0.8"><animateMotion dur="4s" repeatCount="indefinite" path="M' + startX + ',' + (conveyorY + 8) + ' L' + (startX + beltW) + ',' + (conveyorY + 8) + '"/></circle>';
+    for (var i = 0; i < steps.length; i++) {
+      var st = steps[i], x = startX + i * (bW + gap), delay = (i * 0.4).toFixed(1);
+      svg += '<rect x="' + x + '" y="28" width="' + bW + '" height="' + bH + '" rx="10" fill="' + st.c + '" fill-opacity="0.12" stroke="' + st.c + '" stroke-width="2">'
+        + '<animate attributeName="fill-opacity" values="0.08;0.26;0.08" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/></rect>'
+        + '<text x="' + (x + bW / 2) + '" y="56" text-anchor="middle" font-size="22">' + st.icon + '</text>'
+        + '<text x="' + (x + bW / 2) + '" y="76" text-anchor="middle" fill="' + st.c + '" font-size="8" font-weight="700">' + st.l + '</text>'
+        + '<text x="' + (x + bW / 2) + '" y="90" text-anchor="middle" fill="#64748b" font-size="6.5">' + st.s + '</text>';
+      if (i < steps.length - 1) {
+        svg += '<line x1="' + (x + bW) + '" y1="68" x2="' + (x + bW + gap) + '" y2="68" stroke="#94a3b8" stroke-width="2" marker-end="url(#dafa)">'
+          + '<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/></line>';
+      }
+    }
+    svg += '<text x="' + (W / 2) + '" y="148" text-anchor="middle" fill="#64748b" font-size="9" font-family="monospace">● particle travels the pipeline — data transforms at each step</text>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">⚙️ Animated: Complete Data Analysis Pipeline</div>'
+      + '<svg viewBox="0 0 ' + W + ' 160" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">'
+        + '<defs><marker id="dafa" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker></defs>'
+        + svg
+      + '</svg>'
+      + '<div class="diagram-key"><strong>Raw data must travel through 7 steps before it becomes knowledge.</strong> Raw Data → Edit (check errors) → Code (numbers) → Classify (group) → Tabulate (table) → Present (graph) → Interpret (explain meaning). The animated particle shows how data moves through each transformation. Remember: "Every Cook Carefully Tabulates, Presents, Interprets!"</div>'
+    + '</div>';
+  },
+
+  // NRS-U6-B. TABULATION ANATOMY — glowing labelled table
+  tabulationAnatomy: function () {
+    var W = 520;
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">📋 Animated: Anatomy of a Perfect Table</div>'
+      + '<svg viewBox="0 0 ' + W + ' 320" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">'
+        + '<defs><filter id="taglow"><feGaussianBlur stdDeviation="3" result="g"/><feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>'
+        // TITLE region
+        + '<rect x="80" y="14" width="360" height="28" rx="6" fill="#6366f1" fill-opacity="0.15" stroke="#6366f1" stroke-width="2">'
+        + '<animate attributeName="fill-opacity" values="0.1;0.3;0.1" dur="3s" repeatCount="indefinite"/></rect>'
+        + '<text x="260" y="32" text-anchor="middle" fill="#4f46e5" font-size="9.5" font-weight="700">Table 1: Blood Pressure of 40 Patients — Ward A, 2024</text>'
+        + '<text x="25" y="32" text-anchor="middle" fill="#6366f1" font-size="8.5" font-weight="700">TITLE</text>'
+        + '<line x1="80" y1="28" x2="50" y2="28" stroke="#6366f1" stroke-width="1.5" stroke-dasharray="4 3">'
+        + '<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></line>'
+        // CAPTIONS row
+        + '<rect x="80" y="42" width="360" height="26" rx="0" fill="#8b5cf6" fill-opacity="0.12" stroke="#8b5cf6" stroke-width="1.5">'
+        + '<animate attributeName="fill-opacity" values="0.08;0.22;0.08" dur="3s" begin="0.4s" repeatCount="indefinite"/></rect>'
+        + '<text x="130" y="58" text-anchor="middle" fill="#7c3aed" font-size="8.5" font-weight="700">Age Group</text>'
+        + '<text x="230" y="58" text-anchor="middle" fill="#7c3aed" font-size="8.5" font-weight="700">Normal BP</text>'
+        + '<text x="330" y="58" text-anchor="middle" fill="#7c3aed" font-size="8.5" font-weight="700">Hypertension</text>'
+        + '<text x="415" y="58" text-anchor="middle" fill="#7c3aed" font-size="8.5" font-weight="700">Total</text>'
+        + '<text x="490" y="58" text-anchor="middle" fill="#8b5cf6" font-size="8.5" font-weight="700">CAPTION</text>'
+        + '<line x1="440" y1="55" x2="480" y2="55" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="4 3">'
+        + '<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="0.4s" repeatCount="indefinite"/></line>'
+        // DATA rows with STUB labels
+        + '<rect x="80" y="68" width="360" height="22" rx="0" fill="#f8fafc"/>'
+        + '<text x="130" y="83" text-anchor="middle" fill="#334155" font-size="8.5" font-weight="700">20–30 yrs</text>'
+        + '<text x="230" y="83" text-anchor="middle" fill="#334155" font-size="8.5">10</text>'
+        + '<text x="330" y="83" text-anchor="middle" fill="#334155" font-size="8.5">2</text>'
+        + '<text x="415" y="83" text-anchor="middle" fill="#334155" font-size="8.5">12</text>'
+        + '<rect x="80" y="90" width="360" height="22" rx="0" fill="#eff6ff"/>'
+        + '<text x="130" y="105" text-anchor="middle" fill="#334155" font-size="8.5" font-weight="700">31–40 yrs</text>'
+        + '<text x="230" y="105" text-anchor="middle" fill="#334155" font-size="8.5">8</text>'
+        + '<text x="330" y="105" text-anchor="middle" fill="#334155" font-size="8.5">5</text>'
+        + '<text x="415" y="105" text-anchor="middle" fill="#334155" font-size="8.5">13</text>'
+        + '<rect x="80" y="112" width="360" height="22" rx="0" fill="#f8fafc"/>'
+        + '<text x="130" y="127" text-anchor="middle" fill="#334155" font-size="8.5" font-weight="700">41–50 yrs</text>'
+        + '<text x="230" y="127" text-anchor="middle" fill="#334155" font-size="8.5">5</text>'
+        + '<text x="330" y="127" text-anchor="middle" fill="#334155" font-size="8.5">10</text>'
+        + '<text x="415" y="127" text-anchor="middle" fill="#334155" font-size="8.5">15</text>'
+        // STUB label
+        + '<text x="24" y="103" text-anchor="middle" fill="#ec4899" font-size="8.5" font-weight="700">STUB</text>'
+        + '<line x1="80" y1="103" x2="50" y2="103" stroke="#ec4899" stroke-width="1.5" stroke-dasharray="4 3">'
+        + '<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="0.8s" repeatCount="indefinite"/></line>'
+        // BODY label
+        + '<text x="497" y="103" text-anchor="middle" fill="#f97316" font-size="8.5" font-weight="700">BODY</text>'
+        + '<line x1="440" y1="103" x2="480" y2="103" stroke="#f97316" stroke-width="1.5" stroke-dasharray="4 3">'
+        + '<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="0.8s" repeatCount="indefinite"/></line>'
+        // TOTALS row
+        + '<rect x="80" y="134" width="360" height="24" rx="0" fill="#22c55e" fill-opacity="0.12" stroke="#22c55e" stroke-width="1.5">'
+        + '<animate attributeName="fill-opacity" values="0.08;0.22;0.08" dur="3s" begin="1.2s" repeatCount="indefinite"/></rect>'
+        + '<text x="130" y="150" text-anchor="middle" fill="#15803d" font-size="9" font-weight="700">TOTAL</text>'
+        + '<text x="230" y="150" text-anchor="middle" fill="#15803d" font-size="9" font-weight="700">23</text>'
+        + '<text x="330" y="150" text-anchor="middle" fill="#15803d" font-size="9" font-weight="700">17</text>'
+        + '<text x="415" y="150" text-anchor="middle" fill="#15803d" font-size="9" font-weight="700">40</text>'
+        + '<text x="490" y="150" text-anchor="middle" fill="#22c55e" font-size="8" font-weight="700">TOTALS</text>'
+        + '<line x1="440" y1="146" x2="480" y2="146" stroke="#22c55e" stroke-width="1.5" stroke-dasharray="4 3">'
+        + '<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="1.2s" repeatCount="indefinite"/></line>'
+        // FOOTNOTE
+        + '<rect x="80" y="166" width="360" height="22" rx="4" fill="#f59e0b" fill-opacity="0.1" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="5 4">'
+        + '<animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" begin="1.6s" repeatCount="indefinite"/></rect>'
+        + '<text x="265" y="180" text-anchor="middle" fill="#b45309" font-size="8">* BP = Blood Pressure measured in mmHg. Normal = below 120/80.</text>'
+        + '<text x="26" y="178" text-anchor="middle" fill="#f59e0b" font-size="7.5" font-weight="700">FOOT-\nNOTE</text>'
+        + '<line x1="80" y1="177" x2="55" y2="177" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="4 3">'
+        + '<animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3s" begin="1.6s" repeatCount="indefinite"/></line>'
+        // SOURCE NOTE
+        + '<text x="265" y="208" text-anchor="middle" fill="#64748b" font-size="8">Source: Hospital Record Department, City Hospital, Pune — 2024</text>'
+        + '<text x="490" y="208" text-anchor="middle" fill="#0d9488" font-size="7.5" font-weight="700">SOURCE</text>'
+        + '<line x1="440" y1="205" x2="468" y2="205" stroke="#0d9488" stroke-width="1.5" stroke-dasharray="4 3">'
+        + '<animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" begin="2s" repeatCount="indefinite"/></line>'
+        // Grid lines
+        + '<line x1="180" y1="42" x2="180" y2="158" stroke="#e2e8f0" stroke-width="1"/>'
+        + '<line x1="280" y1="42" x2="280" y2="158" stroke="#e2e8f0" stroke-width="1"/>'
+        + '<line x1="380" y1="42" x2="380" y2="158" stroke="#e2e8f0" stroke-width="1"/>'
+        + '<rect x="80" y="42" width="360" height="116" rx="0" fill="none" stroke="#cbd5e1" stroke-width="1.5"/>'
+        // Legend
+        + '<text x="260" y="250" text-anchor="middle" fill="#334155" font-size="10" font-weight="700">Parts of a Good Table (each part glows in turn)</text>'
+        + '<circle cx="90" cy="270" r="6" fill="#6366f1" opacity="0.7"/><text x="100" y="274" fill="#4f46e5" font-size="8.5">Title</text>'
+        + '<circle cx="140" cy="270" r="6" fill="#8b5cf6" opacity="0.7"/><text x="150" y="274" fill="#7c3aed" font-size="8.5">Caption</text>'
+        + '<circle cx="205" cy="270" r="6" fill="#ec4899" opacity="0.7"/><text x="215" y="274" fill="#be185d" font-size="8.5">Stub</text>'
+        + '<circle cx="255" cy="270" r="6" fill="#f97316" opacity="0.7"/><text x="265" y="274" fill="#c2410c" font-size="8.5">Body</text>'
+        + '<circle cx="305" cy="270" r="6" fill="#22c55e" opacity="0.7"/><text x="315" y="274" fill="#15803d" font-size="8.5">Totals</text>'
+        + '<circle cx="358" cy="270" r="6" fill="#f59e0b" opacity="0.7"/><text x="368" y="274" fill="#b45309" font-size="8.5">Footnote</text>'
+        + '<circle cx="418" cy="270" r="6" fill="#0d9488" opacity="0.7"/><text x="428" y="274" fill="#0f766e" font-size="8.5">Source</text>'
+      + '</svg>'
+      + '<div class="diagram-key"><strong>A perfect table has 7 labelled parts.</strong> <span style="color:#6366f1">Title</span> (what/where/when), <span style="color:#8b5cf6">Captions</span> (column headings), <span style="color:#ec4899">Stubs</span> (row headings), <span style="color:#f97316">Body</span> (data cells), <span style="color:#22c55e">Totals</span> (row + column), <span style="color:#f59e0b">Footnote</span> (*explanations below), <span style="color:#0d9488">Source note</span> (where data came from). Each part glows when its label appears.</div>'
+    + '</div>';
+  },
+
+  // NRS-U6-C. PRESENTATION METHODS TREE — growing branches
+  presentationMethods: function () {
+    function node(x, y, w, h, label, sub, color, delay) {
+      return '<g><rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="8" fill="' + color + '" fill-opacity="0.12" stroke="' + color + '" stroke-width="2">'
+        + '<animate attributeName="fill-opacity" values="0.07;0.24;0.07" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/></rect>'
+        + '<text x="' + (x + w / 2) + '" y="' + (y + h / 2 - (sub ? 5 : 0)) + '" text-anchor="middle" fill="' + color + '" font-size="10" font-weight="700">' + label + '</text>'
+        + (sub ? '<text x="' + (x + w / 2) + '" y="' + (y + h / 2 + 9) + '" text-anchor="middle" fill="' + color + '" font-size="7.5">' + sub + '</text>' : '')
+        + '</g>';
+    }
+    function edge(x1, y1, x2, y2, color, delay) {
+      return '<line x1="' + x1 + '" y1="' + y1 + '" x2="' + x2 + '" y2="' + y2 + '" stroke="' + color + '" stroke-width="1.8">'
+        + '<animate attributeName="stroke-opacity" values="0.25;0.9;0.25" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/></line>';
+    }
+    var W = 540;
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">🌳 Animated: Methods of Data Presentation — Tree</div>'
+      + '<svg viewBox="0 0 ' + W + ' 320" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">'
+        + node(W / 2 - 80, 10, 160, 36, 'Data Presentation', '', '#334155', 0)
+        + edge(W / 2, 46, 90, 88, '#6366f1', 0.2)
+        + edge(W / 2, 46, W / 2, 88, '#8b5cf6', 0.5)
+        + edge(W / 2, 46, W - 90, 88, '#22c55e', 0.8)
+        + node(14, 88, 152, 36, '📝 Textual', 'words &amp; sentences', '#6366f1', 0.2)
+        + node(W / 2 - 76, 88, 152, 36, '📋 Tabular', 'rows &amp; columns', '#8b5cf6', 0.5)
+        + node(W - 166, 88, 152, 36, '📊 Graphical', 'charts &amp; diagrams', '#22c55e', 0.8)
+        + edge(90, 124, 50, 172, '#6366f1', 0.4)
+        + edge(90, 124, 130, 172, '#6366f1', 0.6)
+        + node(10, 172, 90, 36, 'Narrative', 'paragraphs', '#6366f1', 0.4)
+        + node(105, 172, 90, 36, 'Statistics\nin text', 'e.g. 60%', '#6366f1', 0.6)
+        + edge(W / 2, 124, W / 2 - 55, 172, '#8b5cf6', 0.7)
+        + edge(W / 2, 124, W / 2 + 55, 172, '#8b5cf6', 0.9)
+        + node(W / 2 - 110, 172, 100, 36, 'Simple\nTable', 'one variable', '#8b5cf6', 0.7)
+        + node(W / 2 + 10, 172, 100, 36, 'Frequency\nTable', 'class intervals', '#8b5cf6', 0.9)
+        + edge(W - 90, 124, W - 190, 172, '#22c55e', 1.0)
+        + edge(W - 90, 124, W - 120, 172, '#22c55e', 1.2)
+        + edge(W - 90, 124, W - 50, 172, '#22c55e', 1.4)
+        + edge(W - 90, 124, W + 20, 172, '#22c55e', 1.6)
+        + node(W - 228, 172, 78, 36, '📊\nBar Chart', 'compare groups', '#22c55e', 1.0)
+        + node(W - 148, 172, 66, 36, '🥧\nPie Chart', 'proportions', '#22c55e', 1.2)
+        + node(W - 80, 172, 70, 36, '📉\nHistogram', 'continuous', '#0d9488', 1.4)
+        + node(W - 8, 172, 66, 36, '📈\nLine Graph', 'trends', '#0d9488', 1.6)
+        // Pictogram extra leaf
+        + edge(W - 90, 124, W - 90, 228, '#f59e0b', 1.8)
+        + node(W - 135, 228, 90, 36, '🖼️\nPictogram', 'symbols', '#f59e0b', 1.8)
+      + '</svg>'
+      + '<div class="diagram-key"><strong>3 main methods — each has its own sub-types.</strong> <span style="color:#6366f1">Textual</span> = written in sentences (good for small data). <span style="color:#8b5cf6">Tabular</span> = rows &amp; columns (good for comparison). <span style="color:#22c55e">Graphical</span> = charts like bar, pie, histogram, line graph (good for visual trends). Choose the right method based on your data type and audience.</div>'
+    + '</div>';
+  },
+
+  // NRS-U6-D. GRAPH TYPES — mini animated thumbnails side by side
+  graphTypesComparison: function () {
+    var W = 520;
+    // Mini bar chart bars
+    var barH = [40, 60, 35, 70, 50];
+    var bars = '';
+    for (var i = 0; i < barH.length; i++) {
+      bars += '<rect x="' + (12 + i * 18) + '" y="' + (72 - barH[i]) + '" width="12" height="' + barH[i] + '" rx="2" fill="#6366f1" fill-opacity="0.7">'
+        + '<animate attributeName="height" values="0;' + barH[i] + ';' + barH[i] + '" dur="1.5s" begin="' + (i * 0.2).toFixed(1) + 's" repeatCount="1"/>'
+        + '<animate attributeName="y" values="72;' + (72 - barH[i]) + ';' + (72 - barH[i]) + '" dur="1.5s" begin="' + (i * 0.2).toFixed(1) + 's" repeatCount="1"/>'
+        + '</rect>';
+    }
+    // Mini pie chart
+    var pie = '<circle cx="60" cy="48" r="30" fill="#22c55e" opacity="0.2" stroke="#22c55e" stroke-width="1.5"/>'
+      + '<path d="M60,48 L60,18 A30,30 0 0,1 88,63 Z" fill="#6366f1" opacity="0.7"/>'
+      + '<path d="M60,48 L88,63 A30,30 0 0,1 38,73 Z" fill="#ec4899" opacity="0.7"/>'
+      + '<path d="M60,48 L38,73 A30,30 0 0,1 60,18 Z" fill="#22c55e" opacity="0.7"/>';
+    // Mini histogram bars (touching)
+    var histBars = [20, 45, 62, 50, 30, 15];
+    var hist = '';
+    for (var h = 0; h < histBars.length; h++) {
+      hist += '<rect x="' + (4 + h * 15) + '" y="' + (68 - histBars[h]) + '" width="15" height="' + histBars[h] + '" fill="#f97316" opacity="0.7" stroke="#fff" stroke-width="0.5">'
+        + '<animate attributeName="height" values="0;' + histBars[h] + ';' + histBars[h] + '" dur="1.8s" begin="0.2s" repeatCount="1"/>'
+        + '<animate attributeName="y" values="68;' + (68 - histBars[h]) + ';' + (68 - histBars[h]) + '" dur="1.8s" begin="0.2s" repeatCount="1"/></rect>';
+    }
+    // Mini line graph
+    var pts = [[4, 58], [16, 45], [28, 52], [40, 32], [52, 38], [64, 22], [76, 28], [88, 15]];
+    var linePath = 'M' + pts.map(function (p) { return p[0] + ',' + p[1]; }).join(' L');
+    var line = '<path d="' + linePath + '" fill="none" stroke="#0d9488" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">'
+      + '<animate attributeName="stroke-dashoffset" values="300;0" dur="2s" fill="freeze" calcMode="linear"/>'
+      + '<animate attributeName="stroke-dasharray" values="300;0" dur="0.01s" fill="freeze"/></path>';
+    for (var pl = 0; pl < pts.length; pl++) {
+      line += '<circle cx="' + pts[pl][0] + '" cy="' + pts[pl][1] + '" r="3" fill="#0d9488"><animate attributeName="opacity" values="0;1" dur="0.5s" begin="' + (0.2 + pl * 0.2).toFixed(1) + 's" fill="freeze"/></circle>';
+    }
+    var panels = [
+      { title: '📊 Bar Chart', sub: 'Compare groups', color: '#6366f1', content: bars, h: 72 },
+      { title: '🥧 Pie Chart', sub: 'Show parts (%)', color: '#22c55e', content: pie, h: 78 },
+      { title: '📉 Histogram', sub: 'Continuous data', color: '#f97316', content: hist, h: 68 },
+      { title: '📈 Line Graph', sub: 'Trends over time', color: '#0d9488', content: line, h: 65 }
+    ];
+    var svg = '', panelW = 118, gap = 8, startX = (W - (panels.length * panelW + (panels.length - 1) * gap)) / 2;
+    for (var p = 0; p < panels.length; p++) {
+      var panel = panels[p], px = startX + p * (panelW + gap), delay = (p * 0.5).toFixed(1);
+      svg += '<rect x="' + px + '" y="10" width="' + panelW + '" height="130" rx="10" fill="' + panel.color + '" fill-opacity="0.1" stroke="' + panel.color + '" stroke-width="2">'
+        + '<animate attributeName="fill-opacity" values="0.07;0.2;0.07" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/></rect>'
+        + '<text x="' + (px + panelW / 2) + '" y="28" text-anchor="middle" fill="' + panel.color + '" font-size="9.5" font-weight="700">' + panel.title + '</text>'
+        + '<text x="' + (px + panelW / 2) + '" y="40" text-anchor="middle" fill="#64748b" font-size="8">' + panel.sub + '</text>'
+        + '<g transform="translate(' + (px + 10) + ', ' + (140 - panel.h - 5) + ')">' + panel.content + '</g>';
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">📊 Animated: 4 Types of Graph — Visual Comparison</div>'
+      + '<svg viewBox="0 0 ' + W + ' 200" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">' + svg
+      + '<text x="' + (W / 2) + '" y="166" text-anchor="middle" fill="#334155" font-size="10" font-weight="700">When to use each graph:</text>'
+      + '<text x="' + (W / 2) + '" y="180" text-anchor="middle" fill="#64748b" font-size="8.5" font-family="monospace">Bar=groups · Pie=% of whole · Histogram=continuous ranges · Line=change over time</text>'
+      + '</svg>'
+      + '<div class="diagram-key"><strong>Choose the RIGHT graph for your data type.</strong> <span style="color:#6366f1">Bar chart</span> = comparing separate groups (ward A vs B). <span style="color:#22c55e">Pie chart</span> = parts of a whole (male 60%, female 40%). <span style="color:#f97316">Histogram</span> = continuous data with class intervals (age 20-30, 30-40). <span style="color:#0d9488">Line graph</span> = changes/trends over time (BP readings over 7 days). Each graph draws itself!</div>'
+    + '</div>';
+  },
+
+  // NRS-U6-E. FREQUENCY DISTRIBUTION CURVE — bars growing + bell curve
+  frequencyDistCurve: function () {
+    var W = 520, H = 240;
+    var bins = [
+      { label: '20-29', f: 10, x: 40 },
+      { label: '30-39', f: 14, x: 100 },
+      { label: '40-49', f: 16, x: 160 },
+      { label: '50-59', f: 8, x: 220 },
+      { label: '60-69', f: 2, x: 280 }
+    ];
+    var maxF = 16, scale = 120 / maxF, baseline = H - 50, barW = 54;
+    var svg = '';
+    // Bars
+    for (var i = 0; i < bins.length; i++) {
+      var b = bins[i], bh = b.f * scale, by = baseline - bh, delay = (i * 0.3).toFixed(1);
+      svg += '<rect x="' + b.x + '" y="' + baseline + '" width="' + barW + '" height="0" rx="3" fill="#6366f1" fill-opacity="0.5" stroke="#6366f1" stroke-width="1.5">'
+        + '<animate attributeName="height" values="0;' + bh + '" dur="1.2s" begin="' + delay + 's" fill="freeze"/>'
+        + '<animate attributeName="y" values="' + baseline + ';' + by + '" dur="1.2s" begin="' + delay + 's" fill="freeze"/>'
+        + '<animate attributeName="fill-opacity" values="0.3;0.6;0.3" dur="3s" begin="' + (1.5 + i * 0.3).toFixed(1) + 's" repeatCount="indefinite"/>'
+        + '</rect>'
+        + '<text x="' + (b.x + barW / 2) + '" y="' + (baseline + 16) + '" text-anchor="middle" fill="#4f46e5" font-size="8.5">' + b.label + '</text>'
+        + '<text x="' + (b.x + barW / 2) + '" y="' + (by - 4) + '" text-anchor="middle" fill="#4f46e5" font-size="9" font-weight="700">' + b.f + '</text>';
+    }
+    // Bell curve (normal distribution overlay)
+    var curvePoints = [[44, baseline - 12 * scale], [67, baseline - 14 * scale], [100, baseline - 14 * scale * 0.9], [127, baseline - 16 * scale * 1.05], [160, baseline - 16 * scale], [187, baseline - 14 * scale * 0.98], [220, baseline - 13 * scale], [247, baseline - 9 * scale], [280, baseline - 7 * scale], [307, baseline - 3 * scale], [334, baseline - 2 * scale]];
+    var curvePath = 'M' + curvePoints.map(function (pt) { return pt[0] + ',' + pt[1]; }).join(' L');
+    var curveLen = 350;
+    svg += '<path d="' + curvePath + '" fill="none" stroke="#ec4899" stroke-width="2.5" stroke-dasharray="' + curveLen + '" stroke-dashoffset="' + curveLen + '">'
+      + '<animate attributeName="stroke-dashoffset" values="' + curveLen + ';0" dur="2s" begin="2s" fill="freeze"/></path>'
+      + '<text x="340" y="' + (baseline - 2 * scale) + '" fill="#ec4899" font-size="8.5" font-weight="700">Normal curve</text>';
+    // Axes
+    svg += '<line x1="28" y1="' + (baseline + 2) + '" x2="355" y2="' + (baseline + 2) + '" stroke="#94a3b8" stroke-width="1.5"/>'
+      + '<line x1="28" y1="30" x2="28" y2="' + (baseline + 2) + '" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#fdca)"/>'
+      + '<text x="15" y="' + (baseline - 50) + '" text-anchor="middle" fill="#64748b" font-size="9" transform="rotate(-90,15,' + (baseline - 50) + ')">Frequency</text>'
+      + '<text x="190" y="' + (H - 10) + '" text-anchor="middle" fill="#64748b" font-size="9">Age Group (years)</text>'
+      + '<text x="290" y="20" fill="#334155" font-size="10" font-weight="700">Ages of 50 Patients in General Ward</text>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">📊 Animated: Frequency Distribution + Normal Curve</div>'
+      + '<svg viewBox="0 0 ' + W + ' ' + H + '" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">'
+        + '<defs><marker id="fdca" markerWidth="7" markerHeight="7" refX="2" refY="6" orient="auto"><path d="M0,6 L4,0 L8,6z" fill="#94a3b8"/></marker></defs>'
+        + svg
+      + '</svg>'
+      + '<div class="diagram-key"><strong>A frequency distribution table becomes a histogram when drawn.</strong> Bars grow to show how many patients fall in each age group. The pink curve = normal distribution — shows what a bell-shaped (symmetrical) spread looks like. When most data is in the middle, the distribution is "normal". Each bar grows in sequence from youngest to oldest group.</div>'
+    + '</div>';
+  },
+
+  // NRS-U6-F. INTERPRETATION STEPS — spinning wheel
+  interpretationSteps: function () {
+    var steps = [
+      { l: 'Find Patterns', s: 'what trends appear?', c: '#6366f1', a: -90 },
+      { l: 'Compare Groups', s: 'male vs female, etc.', c: '#8b5cf6', a: -30 },
+      { l: 'Relate to RQ', s: 'does it answer research Q?', c: '#ec4899', a: 30 },
+      { l: 'Draw Conclusions', s: 'specific, data-based', c: '#f97316', a: 90 },
+      { l: 'Recommendations', s: 'what should nurses do?', c: '#22c55e', a: 150 },
+      { l: 'Apply to Practice', s: 'EBP — improve care', c: '#0d9488', a: 210 }
+    ];
+    var cx = 230, cy = 168, r = 118, rN = 40, svg = '', arrs = '';
+    for (var n = 0; n < steps.length; n++) {
+      var s = steps[n], rad = s.a * Math.PI / 180;
+      var nx = cx + r * Math.cos(rad), ny = cy + r * Math.sin(rad), d = (n * 0.4).toFixed(1);
+      var ns = steps[(n + 1) % steps.length], nrad = ns.a * Math.PI / 180;
+      var nx2 = cx + r * Math.cos(nrad), ny2 = cy + r * Math.sin(nrad);
+      var mpx = (nx + nx2) / 2 + (cx - (nx + nx2) / 2) * 0.3, mpy = (ny + ny2) / 2 + (cy - (ny + ny2) / 2) * 0.3;
+      arrs += '<path d="M' + nx.toFixed(1) + ',' + ny.toFixed(1) + ' Q' + mpx.toFixed(1) + ',' + mpy.toFixed(1) + ' ' + nx2.toFixed(1) + ',' + ny2.toFixed(1) + '" fill="none" stroke="#cbd5e1" stroke-width="1.5" marker-end="url(#iswa)">'
+        + '<animate attributeName="stroke-opacity" values="0.3;0.9;0.3" dur="3.5s" begin="' + d + 's" repeatCount="indefinite"/></path>';
+      svg += '<circle cx="' + nx.toFixed(1) + '" cy="' + ny.toFixed(1) + '" r="' + rN + '" fill="' + s.c + '" opacity="0.12">'
+        + '<animate attributeName="opacity" values="0.08;0.22;0.08" dur="3.5s" begin="' + d + 's" repeatCount="indefinite"/></circle>'
+        + '<circle cx="' + nx.toFixed(1) + '" cy="' + ny.toFixed(1) + '" r="' + rN + '" fill="none" stroke="' + s.c + '" stroke-width="2">'
+        + '<animate attributeName="stroke-width" values="1.5;3;1.5" dur="3.5s" begin="' + d + 's" repeatCount="indefinite"/></circle>';
+      var ws = s.l.split(' ');
+      svg += '<text x="' + nx.toFixed(1) + '" y="' + (ny - 6) + '" text-anchor="middle" fill="' + s.c + '" font-size="8.5" font-weight="700">' + ws[0] + '</text>';
+      if (ws.length > 1) svg += '<text x="' + nx.toFixed(1) + '" y="' + (ny + 6) + '" text-anchor="middle" fill="' + s.c + '" font-size="8.5" font-weight="700">' + ws.slice(1).join(' ') + '</text>';
+      svg += '<text x="' + nx.toFixed(1) + '" y="' + (ny + 18) + '" text-anchor="middle" fill="#64748b" font-size="7">' + s.s + '</text>';
+    }
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">💡 Animated: 6 Steps of Data Interpretation</div>'
+      + '<svg viewBox="0 0 460 336" width="100%" style="max-width:460px;display:block;margin:0 auto;">'
+        + '<defs><marker id="iswa" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0,0 L0,6 L7,3z" fill="#94a3b8"/></marker>'
+        + '<linearGradient id="iswg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#6366f1"/><stop offset="100%" stop-color="#0d9488"/></linearGradient></defs>'
+        + '<circle cx="' + cx + '" cy="' + cy + '" r="' + (r + 20) + '" fill="none" stroke="url(#iswg)" stroke-width="1" stroke-dasharray="6 10" opacity="0.3">'
+        + '<animateTransform attributeName="transform" type="rotate" from="0 ' + cx + ' ' + cy + '" to="360 ' + cx + ' ' + cy + '" dur="22s" repeatCount="indefinite"/></circle>'
+        + arrs + svg
+        + '<circle cx="' + cx + '" cy="' + cy + '" r="34" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>'
+        + '<text x="' + cx + '" y="' + (cy - 4) + '" text-anchor="middle" fill="#334155" font-size="9" font-weight="700">Interpret</text>'
+        + '<text x="' + cx + '" y="' + (cy + 10) + '" text-anchor="middle" fill="#334155" font-size="9" font-weight="700">Data</text>'
+      + '</svg>'
+      + '<div class="diagram-key"><strong>Interpretation is not just READING numbers — it is EXPLAINING them.</strong> Find patterns → Compare groups → Check if research question is answered → Draw conclusions (specific, based on data, not opinions) → Make recommendations (what should nurses/policymakers DO) → Apply to Practice (EBP). The wheel keeps turning = interpretation drives continuous improvement in nursing care.</div>'
+    + '</div>';
+  },
+
+  // NRS-U6-G. CODING EXAMPLE — stamping codes onto responses
+  codingExample: function () {
+    var W = 500;
+    var rows = [
+      { resp: 'Male', code: '1', c: '#6366f1' },
+      { resp: 'Female', code: '2', c: '#ec4899' },
+      { resp: 'Yes', code: '1', c: '#22c55e' },
+      { resp: 'No', code: '0', c: '#ef4444' },
+      { resp: 'Mild Pain', code: '1', c: '#f59e0b' },
+      { resp: 'Moderate Pain', code: '2', c: '#f97316' },
+      { resp: 'Severe Pain', code: '3', c: '#c2410c' }
+    ];
+    var svg = '<text x="' + (W / 2) + '" y="18" text-anchor="middle" fill="#334155" font-size="12" font-weight="700">Coding: Converting Responses to Numbers</text>'
+      + '<text x="80" y="36" text-anchor="middle" fill="#6366f1" font-size="10" font-weight="700">Response</text>'
+      + '<text x="240" y="36" text-anchor="middle" fill="#6366f1" font-size="10" font-weight="700">→ Code</text>'
+      + '<text x="380" y="36" text-anchor="middle" fill="#6366f1" font-size="10" font-weight="700">Why?</text>';
+    var whys = ['Gender', 'Gender', 'Question', 'Question', 'Pain scale', 'Pain scale', 'Pain scale'];
+    for (var i = 0; i < rows.length; i++) {
+      var row = rows[i], y = 46 + i * 28, delay = (i * 0.3).toFixed(1);
+      svg += '<rect x="20" y="' + y + '" width="120" height="22" rx="6" fill="' + row.c + '" fill-opacity="0.12" stroke="' + row.c + '" stroke-width="1.5">'
+        + '<animate attributeName="fill-opacity" values="0.08;0.22;0.08" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/></rect>'
+        + '<text x="80" y="' + (y + 15) + '" text-anchor="middle" fill="' + row.c + '" font-size="9.5" font-weight="700">' + row.resp + '</text>'
+        + '<text x="160" y="' + (y + 15) + '" text-anchor="middle" fill="#94a3b8" font-size="12">→</text>'
+        + '<rect x="190" y="' + y + '" width="50" height="22" rx="6" fill="' + row.c + '" fill-opacity="0.8">'
+        + '<animate attributeName="fill-opacity" values="0.5;0.9;0.5" dur="3s" begin="' + delay + 's" repeatCount="indefinite"/></rect>'
+        + '<text x="215" y="' + (y + 15) + '" text-anchor="middle" fill="#fff" font-size="12" font-weight="900">' + row.code + '</text>'
+        + '<text x="360" y="' + (y + 15) + '" text-anchor="middle" fill="#64748b" font-size="8.5">' + whys[i] + ' → numeric</text>';
+    }
+    svg += '<text x="' + (W / 2) + '" y="252" text-anchor="middle" fill="#334155" font-size="10" font-weight="700">After coding → data is ready for statistical analysis!</text>'
+      + '<text x="' + (W / 2) + '" y="268" text-anchor="middle" fill="#64748b" font-size="9" font-family="monospace">Male=1, Female=2 | Yes=1, No=0 | Pain 1-3</text>';
+    return '<div class="interactive-diagram nrs-diagram">'
+      + '<div class="diagram-title">🔢 Animated: Coding — Responses → Numbers</div>'
+      + '<svg viewBox="0 0 ' + W + ' 280" width="100%" style="max-width:' + W + 'px;display:block;margin:0 auto;">' + svg + '</svg>'
+      + '<div class="diagram-key"><strong>Coding converts words into numbers so computers can analyse them.</strong> Without coding, "Male/Female" cannot be calculated. With coding (Male=1, Female=2), you can count, compare, and run statistics. Coding is done AFTER editing (checking data) and BEFORE classification (grouping). Each response glows as it gets its code "stamped" on it.</div>'
+    + '</div>';
+  },
+
 };
+
 
 
 // --- ACTIVATION ---

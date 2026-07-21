@@ -622,6 +622,9 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
   answer: `
 <div class="in-short"><strong>In Short:</strong> Nursing research is important because it builds nursing's collection of knowledge, develops Evidence-Based Practice (EBP), advances nursing as an independent profession, improves education, guides health policy, ensures cost-effectiveness, and maintains quality &amp; accountability. Remember: <strong>I CAGE QP.</strong></div>
 
+<div data-diagram="nursingResearchLadder"></div>
+<div data-diagram="researchUtilisationCycle"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">Historically, nursing was based on rituals, traditions, and physician orders. <strong>Florence Nightingale</strong> was the first nurse researcher &mdash; she used statistical charts to prove that improving sanitation reduced soldier deaths in the Crimean War (1854&ndash;1856). Today, nursing research drives global health improvement by transforming nursing from a task-based occupation to a <strong>science-based, evidence-driven profession.</strong></p>
@@ -1318,6 +1321,8 @@ window.QUESTIONS_DATA_NRS_UNIT1 = [
 </div>
 
 <div class="in-short"><strong>In Short:</strong> The scientific method is a <strong>step-by-step logical way of finding answers</strong>. It goes: Observation &rarr; Literature Review &rarr; Hypothesis &rarr; Design &rarr; Data Collection &rarr; Data Analysis &rarr; Interpret Results &rarr; Conclude &amp; Disseminate. Remember: <strong>OR-FD-CDIC.</strong></div>
+
+<div data-diagram="researchVsProblemSolving"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>

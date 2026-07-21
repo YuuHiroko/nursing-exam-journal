@@ -11,6 +11,9 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 
 <div class="in-short"><strong>In Short:</strong> Aims and objectives give a research study its <strong>direction and focus</strong>. The <strong>Aim</strong> is the broad goal; <strong>Objectives</strong> are the specific, measurable steps to reach that goal. Without them, the researcher has no roadmap — the study becomes unfocused and unusable.</div>
 
+<div data-diagram="pico"></div>
+<div data-diagram="researchProblemSources"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definitions</h3>
   <div class="definition-box animate-scale-in">
@@ -627,6 +630,8 @@ window.QUESTIONS_DATA_NRS_UNIT2 = [
 
 
 <div class="in-short"><strong>In Short:</strong> Hypothesis can be classified <strong>by nature</strong> (Research H1 vs Null H0), <strong>by direction</strong> (Directional vs Non-directional), and <strong>by complexity</strong> (Simple vs Complex). Understanding the classification helps choose the correct statistical test and write the hypothesis correctly.</div>
+
+<div data-diagram="nullVsAlternate"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>

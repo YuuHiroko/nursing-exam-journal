@@ -63,6 +63,8 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
 
 <div class="in-short"><strong>In Short:</strong> The five major sources of literature are: <strong>Primary sources</strong> (original research), <strong>Secondary sources</strong> (textbooks, reviews), <strong>Tertiary sources</strong> (indexes, databases), <strong>Electronic databases</strong> (CINAHL, Cochrane, PubMed), and <strong>Grey literature</strong> (government reports, WHO, ICMR). Together they give a complete, balanced view of existing knowledge.</div>
 
+<div data-diagram="rolSources"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
   <p class="answer-text">A <strong>Review of Literature (ROL)</strong> is a systematic, critical examination of published information on a specific topic. To conduct a thorough ROL, the researcher must draw from multiple sources. The five major categories of literature sources are:</p>
@@ -440,6 +442,8 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
 
 <div class="in-short"><strong>In Short:</strong> The purposes of ROL are: to identify what is <strong>already known</strong>, find the <strong>knowledge gap</strong>, develop a <strong>theoretical framework</strong>, formulate the <strong>research problem and hypothesis</strong>, guide <strong>methodology</strong>, identify <strong>tools and instruments</strong>, and help <strong>interpret findings</strong>. It prevents duplication and ensures the study is grounded in evidence.</div>
 
+<div data-diagram="rolPurposes"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box animate-scale-in">
@@ -678,8 +682,10 @@ window.QUESTIONS_DATA_NRS_UNIT3 = [
   <div class="cfc-step"><div class="cfc-num">8</div><div class="cfc-text"><strong>Write the ROL section</strong> — organize logically, cite all sources properly (APA format)</div></div>
 </div>
 
+<div class="in-short"><strong>In Short:</strong> The steps in ROL follow a systematic process: <strong>Identify the topic &rarr; Select search terms &rarr; Choose databases &rarr; Search literature &rarr; Screen and select &rarr; Read critically &rarr; Organize &rarr; Synthesize &rarr; Write the ROL</strong>. Following all steps ensures a thorough, unbiased, and well-organized literature review.</div>
 
-<div class="in-short"><strong>In Short:</strong> The steps in ROL follow a systematic process: <strong>Identify the topic → Select search terms → Choose databases → Search literature → Screen and select → Read critically → Organize → Synthesize → Write the ROL</strong>. Following all steps ensures a thorough, unbiased, and well-organized literature review.</div>
+<div data-diagram="rolFunnel"></div>
+<div data-diagram="prismaDiagram"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>

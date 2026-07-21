@@ -138,6 +138,8 @@ window.QUESTIONS_DATA_NRS_UNIT6 = [
 
 <div class="in-short"><strong>In Short:</strong> Analysis of data is a step-by-step process where raw collected data is <strong>cleaned, organised, sorted, presented in tables/graphs, and then interpreted</strong> to find meaningful answers to the research question.</div>
 
+<div data-diagram="dataAnalysisFlow"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box animate-scale-in">
@@ -245,6 +247,8 @@ window.QUESTIONS_DATA_NRS_UNIT6 = [
 </div>
 
 <div class="in-short"><strong>In Short:</strong> Tabulation means putting data in a neat table. Its features are the <strong>qualities that make a table good and useful</strong> — like being clear, accurate, simple, and easy to compare.</div>
+
+<div data-diagram="tabulationAnatomy"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition of Tabulation</h3>
@@ -360,6 +364,10 @@ window.QUESTIONS_DATA_NRS_UNIT6 = [
 </div>
 
 <div class="in-short"><strong>In Short:</strong> Data presentation means <strong>showing data in a way everyone can understand</strong>. There are 3 main methods — Textual (words), Tabular (tables), and Graphical (charts &amp; graphs). Each has its own uses and advantages.</div>
+
+<div data-diagram="presentationMethods"></div>
+
+<div data-diagram="graphTypesComparison"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
@@ -522,6 +530,8 @@ window.QUESTIONS_DATA_NRS_UNIT6 = [
 
 <div class="in-short"><strong>In Short:</strong> A frequency distribution table is a type of tabulation that shows <strong>how many times each group of values appears</strong> in the data. It uses class intervals (ranges) and counts (frequencies) to organise data neatly.</div>
 
+<div data-diagram="frequencyDistCurve"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">What is Tabulation?</h3>
   <div class="definition-box animate-scale-in">
@@ -641,6 +651,8 @@ window.QUESTIONS_DATA_NRS_UNIT6 = [
 
 <div class="in-short"><strong>In Short:</strong> General principles of tabulation are the <strong>golden rules for making a perfect data table</strong> — every rule ensures the table is clear, accurate, complete, and easy to understand.</div>
 
+<div data-diagram="tabulationAnatomy"></div>
+
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Definition</h3>
   <div class="definition-box animate-scale-in">
@@ -753,6 +765,10 @@ window.QUESTIONS_DATA_NRS_UNIT6 = [
 </div>
 
 <div class="in-short"><strong>In Short:</strong> After collecting data, a researcher must (1) <strong>Compile</strong> it — check and clean it; (2) <strong>Present</strong> it — show it in tables and graphs; and (3) <strong>Interpret</strong> it — explain what the data means and what conclusions it gives. These three steps are the heart of data analysis in nursing research.</div>
+
+<div data-diagram="dataAnalysisFlow"></div>
+<div data-diagram="interpretationSteps"></div>
+<div data-diagram="codingExample"></div>
 
 <div class="answer-section animate-slide-up">
   <h3 class="answer-section-title">Introduction</h3>
